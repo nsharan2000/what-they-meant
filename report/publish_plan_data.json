@@ -64,9 +64,12 @@
  },
  "collections": [
   {
-   "title": "What They Meant — data",
-   "description": "Twin-pair payment scenarios, four app environments, curated training data, every transcript, judge verdict and training log",
+   "title": "What They Meant",
+   "description": "Tiny Aya Global LoRA adapters (fine-tuning, GRPO, DPO) and the full dataset: scenarios, apps, training data, transcripts, verdicts, logs",
    "items": [
+    "model:what-they-meant-tiny-aya-sft",
+    "model:what-they-meant-tiny-aya-grpo",
+    "model:what-they-meant-tiny-aya-dpo",
     "dataset:what-they-meant"
    ]
   }

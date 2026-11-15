@@ -5,8 +5,7 @@ An RL environment for AI agents that hold the payment keys. When a customer's re
 Built for the Lexsi Labs AI Safety & Alignment Hackathon (with Cohere Labs and Hugging Face) by Sharan Nagarajan and GLKAR.
 
 - Article, with results and the reasoning behind each choice: [report/ARTICLE.md](report/ARTICLE.md)
-- Models: https://huggingface.co/collections/sharan-nagarajan/what-they-meant-models-6af9e567bdba59d91ddfc5c3
-- Data, every transcript and every judge verdict: https://huggingface.co/collections/sharan-nagarajan/what-they-meant-data-6af9eb020a621b28fe22ecc8
+- Models and data (every transcript and every judge verdict), in one collection: https://huggingface.co/collections/sharan-nagarajan/what-they-meant-6af9f4e1a81fe397ad7536fd
 
 ![One request, two outcomes](report/figures/twins.png)
 

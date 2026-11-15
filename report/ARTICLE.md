@@ -2,7 +2,7 @@
 
 Sharan Nagarajan ([@sharan-nagarajan](https://huggingface.co/sharan-nagarajan)) and [@GLKAR](https://huggingface.co/GLKAR) · Lexsi Labs AI Safety & Alignment Hackathon, with Cohere Labs and Hugging Face
 
-Models: https://huggingface.co/collections/sharan-nagarajan/what-they-meant-models-6af9e567bdba59d91ddfc5c3 · Data: https://huggingface.co/collections/sharan-nagarajan/what-they-meant-data-6af9eb020a621b28fe22ecc8 · Code: https://github.com/nsharan2000/what-they-meant
+Models and data: https://huggingface.co/collections/sharan-nagarajan/what-they-meant-6af9f4e1a81fe397ad7536fd · Code: https://github.com/nsharan2000/what-they-meant
 
 ## 1. The problem and our approach
 
@@ -68,11 +68,11 @@ The result is 904 worked examples for fine-tuning, 496 preference pairs and 496 
 
 ## 5. Model artefacts
 
-Collection: https://huggingface.co/collections/sharan-nagarajan/what-they-meant-models-6af9e567bdba59d91ddfc5c3. It holds three LoRA adapters for Tiny Aya Global, each with a model card describing how it was trained and how it scored: the supervised fine-tuned agent, that agent after reinforcement learning (merged into one adapter), and the preference-trained variant, which we keep as a comparison point.
+One collection holds everything, models and data together: https://huggingface.co/collections/sharan-nagarajan/what-they-meant-6af9f4e1a81fe397ad7536fd. It has three LoRA adapters for Tiny Aya Global, each with a model card describing how it was trained and how it scored: the supervised fine-tuned agent, that agent after reinforcement learning (merged into one adapter), and the preference-trained variant, which we keep as a comparison point.
 
 ## 6. Data artefacts
 
-Collection: https://huggingface.co/collections/sharan-nagarajan/what-they-meant-data-6af9eb020a621b28fe22ecc8. It contains the four app environments, all scenarios and their splits, the training data, every evaluation transcript for every model, every judge verdict, and the full training logs, including every answer the model produced during reinforcement learning. Code and reproduction steps are on GitHub: https://github.com/nsharan2000/what-they-meant.
+The dataset sits in the same collection (https://huggingface.co/datasets/sharan-nagarajan/what-they-meant). It contains the four app environments, all scenarios and their splits, the training data, every evaluation transcript for every model, every judge verdict, and the full training logs, including every answer the model produced during reinforcement learning. Code and reproduction steps are on GitHub: https://github.com/nsharan2000/what-they-meant.
 
 ## 7. Experiments and findings
 

@@ -19,12 +19,13 @@
  ],
  "collections": [
   {
-   "title": "What They Meant — models",
-   "description": "Tiny Aya Global LoRA adapters: supervised fine-tuning, GRPO and DPO (Lexsi Labs hackathon)",
+   "title": "What They Meant",
+   "description": "Tiny Aya Global LoRA adapters (fine-tuning, GRPO, DPO) and the full dataset: scenarios, apps, training data, transcripts, verdicts, logs",
    "items": [
     "model:what-they-meant-tiny-aya-sft",
     "model:what-they-meant-tiny-aya-grpo",
-    "model:what-they-meant-tiny-aya-dpo"
+    "model:what-they-meant-tiny-aya-dpo",
+    "dataset:what-they-meant"
    ]
   }
  ]
