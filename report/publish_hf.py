@@ -28,7 +28,8 @@ def _private_re():
     path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".private_patterns")
     if not src and os.path.exists(path):
         src = "|".join(l.strip() for l in open(path) if l.strip() and not l.startswith("#"))
-    pats = [p for p in (src or "").split("|") if p] + [r"github_pat_", r"ghp_[A-Za-z0-9]{20,}", r"sk-ant-"]
+    # generic credential prefixes; the [t] keeps this source line from matching itself in the pre-push scan
+    pats = [p for p in (src or "").split("|") if p] + [r"github_pa[t]_", r"ghp_[A-Za-z0-9]{20,}", r"sk-an[t]-"]
     return re.compile("|".join(f"(?:{p})" for p in pats).encode(), re.I)
 
 
@@ -121,13 +122,27 @@ def main() -> None:
         print("PUBLISH_PLAN_OK (dry run; rerun with --go to publish)")
         return
     from huggingface_hub import HfApi
-    api = HfApi(token=os.environ.get("HF_TOKEN"))
+    token = os.environ.get("HF_TOKEN")
+    if not token:   # the repo's .env (git-ignored) holds the token on a non-shell-safe line; read it here, never print it
+        for envf in (".env", "/workspace/.env"):
+            if os.path.exists(envf):
+                for line in open(envf):
+                    k, _, v = line.partition("=")
+                    if k.strip().upper().replace("-", "_") in ("HF_TOKEN", "HUGGINGFACE_TOKEN") and v.strip():
+                        token = v.strip().strip("'\"")
+                        break
+            if token:
+                break
+    api = HfApi(token=token)
     urls = []
+    from huggingface_hub import CommitOperationAdd
     for kind, repo, fl in uploads:
         api.create_repo(repo, repo_type=kind, private=False, exist_ok=True)
-        for s, d in fl:
-            api.upload_file(path_or_fileobj=s, path_in_repo=d, repo_id=repo, repo_type=kind,
-                            commit_message=f"What They Meant: {d}")
+        # ONE commit per repository: the Hub allows 128 commits per hour per account (2026-11-15: a file-per-commit upload of
+        # the dataset hit that limit after ~128 files).
+        ops = [CommitOperationAdd(path_in_repo=d, path_or_fileobj=s) for s, d in fl]
+        api.create_commit(repo_id=repo, repo_type=kind, operations=ops,
+                          commit_message=f"What They Meant: {len(ops)} files")
         urls.append(f"https://huggingface.co/{'datasets/' if kind == 'dataset' else ''}{repo}")
         print(f"UPLOADED {repo} ({len(fl)} files)", flush=True)
     for c in plan.get("collections", []):

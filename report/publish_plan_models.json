@@ -15,22 +15,16 @@
    "repo": "what-they-meant-tiny-aya-dpo",
    "src": "/workspace/runs/m3_dpo/final",
    "card": "report/cards/m3.md"
-  },
-  {
-   "repo": "what-they-meant-tiny-aya-decision-weighted-sft",
-   "src": "/workspace/runs/m5_sft_dw/final",
-   "card": "report/cards/m5.md"
   }
  ],
  "collections": [
   {
-   "title": "What They Meant \u2014 models",
-   "description": "Tiny Aya Global adapters: SFT, GRPO, DPO, decision-weighted SFT (Lexsi Labs hackathon)",
+   "title": "What They Meant — models",
+   "description": "Tiny Aya Global LoRA adapters: supervised fine-tuning, GRPO and DPO (Lexsi Labs hackathon)",
    "items": [
     "model:what-they-meant-tiny-aya-sft",
     "model:what-they-meant-tiny-aya-grpo",
-    "model:what-they-meant-tiny-aya-dpo",
-    "model:what-they-meant-tiny-aya-decision-weighted-sft"
+    "model:what-they-meant-tiny-aya-dpo"
    ]
   }
  ]

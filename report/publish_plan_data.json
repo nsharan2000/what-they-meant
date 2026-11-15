@@ -64,8 +64,8 @@
  },
  "collections": [
   {
-   "title": "What They Meant \u2014 data",
-   "description": "Twin-pair scenarios, environments, training views, rollouts, verdicts, logs",
+   "title": "What They Meant — data",
+   "description": "Twin-pair payment scenarios, four app environments, curated training data, every transcript, judge verdict and training log",
    "items": [
     "dataset:what-they-meant"
    ]

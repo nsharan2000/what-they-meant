@@ -38,3 +38,7 @@ experiments/infra/results/training_pipeline_review_*.json
 .claude/scheduled_tasks.lock
 .claude/settings*.json
 report/.private_patterns
+submiission-details.md
+
+# form answers for the submission (private working file)
+report/SUBMISSION.md
