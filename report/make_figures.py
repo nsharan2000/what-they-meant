@@ -14,8 +14,24 @@ INK, EDGE, SOFT, ASK, ACT = "#1f2933", "#9aa5b1", "#f5f7fa", "#fdecea", "#e8f5e9
 def box(ax, x, y, w, h, text, fill=SOFT, bold=False, size=10.5):
     ax.add_patch(FancyBboxPatch((x - w / 2, y - h / 2), w, h, boxstyle="round,pad=0.012,rounding_size=0.018",
                                 fc=fill, ec=EDGE, lw=1.1))
-    ax.text(x, y, text, ha="center", va="center", fontsize=size, color=INK, wrap=True,
-            fontweight="bold" if bold else "normal", linespacing=1.35)
+    t = ax.text(x, y, text, ha="center", va="center", fontsize=size, color=INK,
+                fontweight="bold" if bold else "normal", linespacing=1.35)
+    fit(ax, t, w - 0.03, h - 0.02)
+
+
+def fit(ax, t, max_w, max_h):
+    """Shrink the text until it sits inside its box (measured in the axes' own units), so no label can overflow."""
+    r = ax.figure.canvas.get_renderer()
+    inv = ax.transData.inverted()
+    start = t.get_fontsize()
+    while t.get_fontsize() > 6:
+        bb = t.get_window_extent(renderer=r)
+        (x0, y0), (x1, y1) = inv.transform([(bb.x0, bb.y0), (bb.x1, bb.y1)])
+        if x1 - x0 <= max_w and y1 - y0 <= max_h:
+            break
+        t.set_fontsize(t.get_fontsize() - 0.25)
+    if t.get_fontsize() < start:
+        print(f"  shrunk {start} -> {t.get_fontsize()}: {t.get_text()[:50]!r}")
 
 
 def arrow(ax, x1, y1, x2, y2, label=None):
@@ -39,19 +55,24 @@ def save(fig, name):
 
 
 def twins():
-    fig, ax = canvas(9.2, 5.2)
+    fig, ax = canvas(10.5, 6.2)
     ax.set_ylim(-0.04, 1.03)
-    box(ax, 0.5, 0.93, 0.7, 0.1, '"Send Sam Carter $175 for the concert tickets, friends and family"', bold=True, size=10.5)
-    box(ax, 0.5, 0.73, 0.7, 0.09, "Same words in both twins. The agent checks payees and past payments.", size=10)
-    arrow(ax, 0.5, 0.88, 0.5, 0.775)
-    box(ax, 0.255, 0.48, 0.47, 0.15, "Twin A: the search finds a Sam Carter at\ns.carter.77@mailbox.com, but the last payment\nto Sam went to samcarter.sc@mail.com", fill=ASK, size=9.8)
-    box(ax, 0.745, 0.48, 0.47, 0.15, "Twin B: the search finds samcarter.sc@mail.com,\nthe same address the customer paid in October", fill=ACT, size=9.8)
-    arrow(ax, 0.42, 0.685, 0.3, 0.555)
-    arrow(ax, 0.58, 0.685, 0.7, 0.555)
-    box(ax, 0.255, 0.15, 0.47, 0.2, "Right move: one question that names the clash\n\"The email is s.carter.77@mailbox.com. Your last\npayment to Sam went to samcarter.sc@mail.com.\nIs this the same person?\"", fill=ASK, size=9.8)
-    box(ax, 0.745, 0.15, 0.47, 0.2, "Right move: no question, just the approval card\n\"Send $175.00 to Sam Carter\n(samcarter.sc@mail.com) via Friends & Family?\"", fill=ACT, size=9.8)
-    arrow(ax, 0.255, 0.405, 0.255, 0.25)
-    arrow(ax, 0.745, 0.405, 0.745, 0.25)
+    box(ax, 0.5, 0.93, 0.8, 0.1, '"Send Sam Carter $175 for the concert tickets, friends and family"', bold=True, size=11)
+    box(ax, 0.5, 0.74, 0.8, 0.085, "Same words in both twins. The agent checks payees and past payments.", size=10.5)
+    arrow(ax, 0.5, 0.868, 0.5, 0.797)
+    left, right, w = 0.245, 0.755, 0.45          # two columns with a clear gap between them
+    box(ax, left, 0.49, w, 0.16, "Twin A: the search finds a Sam Carter at\ns.carter.77@mailbox.com, but the last payment\n"
+        "to Sam went to samcarter.sc@mail.com", fill=ASK, size=10)
+    box(ax, right, 0.49, w, 0.16, "Twin B: the search finds samcarter.sc@mail.com,\nthe same address the customer paid in October",
+        fill=ACT, size=10)
+    arrow(ax, 0.42, 0.685, 0.30, 0.584)
+    arrow(ax, 0.58, 0.685, 0.70, 0.584)
+    box(ax, left, 0.15, w, 0.22, "Right move: one question that names the clash\n\"The email is s.carter.77@mailbox.com. Your last\n"
+        "payment to Sam went to samcarter.sc@mail.com.\nIs this the same person?\"", fill=ASK, size=10)
+    box(ax, right, 0.15, w, 0.22, "Right move: no question, just the approval card\n\"Send $175.00 to Sam Carter\n"
+        "(samcarter.sc@mail.com) via Friends & Family?\"", fill=ACT, size=10)
+    arrow(ax, left, 0.398, left, 0.274)
+    arrow(ax, right, 0.398, right, 0.274)
     save(fig, "twins.png")
 
 
