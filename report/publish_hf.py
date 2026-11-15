@@ -20,10 +20,19 @@ import re
 import sys
 
 TOKEN_RE = re.compile(rb"hf_[A-Za-z0-9]{30,}")
-# private details that must never be published (same list as the GitHub pre-push scan): the Claude Code account e-mail's domain,
-# names of other services on the shared GPU box, the box's VPN
-PRIVATE_RE = re.compile(rb"teachafy|\b(dokploy|n8n|when-to-ask|ir-exp|dm-exp|dgx-dashboard)\b|tailscale|github_pat_|ghp_[A-Za-z0-9]{20,}|sk-ant-",
-                        re.I)
+# Private details that must never be published (the Claude Code account e-mail's domain, other services on the shared GPU box,
+# credentials): regexes, one per line, in a LOCAL git-ignored file (report/.private_patterns) or $WTM_PRIVATE_PATTERNS — never in
+# this public file. Missing file = only the token checks below.
+def _private_re():
+    src = os.environ.get("WTM_PRIVATE_PATTERNS")
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".private_patterns")
+    if not src and os.path.exists(path):
+        src = "|".join(l.strip() for l in open(path) if l.strip() and not l.startswith("#"))
+    pats = [p for p in (src or "").split("|") if p] + [r"github_pat_", r"ghp_[A-Za-z0-9]{20,}", r"sk-ant-"]
+    return re.compile("|".join(f"(?:{p})" for p in pats).encode(), re.I)
+
+
+PRIVATE_RE = _private_re()
 ADAPTER_FILES = ("adapter_config.json", "adapter_model.safetensors", "stack_info.json", "tokenizer.json", "tokenizer_config.json",
                  "special_tokens_map.json", "chat_template.jinja")
 
