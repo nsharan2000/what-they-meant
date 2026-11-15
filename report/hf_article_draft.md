@@ -426,7 +426,9 @@ them (paired pass 54 % on the toy card), the judge does not (7 %), because the r
 - **Self-judging.** The judge (Claude Opus 5.5) is also one of the evaluated models. It is blind to model and level and passes the
   planted check, but self-preference cannot be ruled out.
 - **Claude setup.** Claude runs through Claude Code with our system prompt only and no tools; Claude Code still adds a short
-  environment block and an account-context block. Claude samples at its default temperature; open models are greedy.
+  environment block and an account-context block. Claude samples at its default temperature; open models are greedy. In 7 of
+  the 864 held-out Claude episodes (all Haiku, L2 with the hint, mostly the "who is asking?" bizops scenarios S33 / V331 / H331)
+  the model cited the account e-mail from that block as evidence; the e-mail is redacted in the published transcripts.
 - **Label doubts on held-out rows.** The judge marks the expected label as questionable on 68 of 811 judged test rows and 14 of 258
   hard rows, concentrated in five scenarios (V234A, S23A, V232A, V051B, H231A). Without those five pairs the realism gaps with the hint stay
   significant: on test, Opus −40.5 pp [−64.3, −11.1] and Haiku −32.4 pp [−48.8, −12.5]; on the hard pairs −41.7 pp for both
