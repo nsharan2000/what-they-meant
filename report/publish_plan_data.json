@@ -1,0 +1,74 @@
+{
+ "owner": "sharan-nagarajan",
+ "dataset": {
+  "repo": "what-they-meant",
+  "card": "report/cards/dataset.md",
+  "items": [
+   {
+    "src": "dataset/scenarios",
+    "dst": "scenarios/seed"
+   },
+   {
+    "src": "dataset/scenarios_synth",
+    "dst": "scenarios/variants"
+   },
+   {
+    "src": "dataset/eval",
+    "dst": "scenarios/eval"
+   },
+   {
+    "src": "dataset/splits.json",
+    "dst": "scenarios/splits.json"
+   },
+   {
+    "src": "dataset/label_adjudications.json",
+    "dst": "scenarios/label_adjudications.json"
+   },
+   {
+    "src": "dataset/curated_v121",
+    "dst": "training_views/v1.2.1"
+   },
+   {
+    "src": "dataset/curation-flowchart.md",
+    "dst": "curation-flowchart.md"
+   },
+   {
+    "src": "envs",
+    "dst": "environments"
+   },
+   {
+    "src": "experiments/training_eval/results",
+    "dst": "evaluation"
+   },
+   {
+    "src": "experiments/replication/results",
+    "dst": "replication"
+   },
+   {
+    "src": "experiments/hardset/results",
+    "dst": "hardset"
+   },
+   {
+    "src": "experiments/dataset_audit/REPORT.md",
+    "dst": "audit/REPORT.md"
+   },
+   {
+    "src": "experiments/roi",
+    "dst": "roi"
+   },
+   {
+    "src": "report/tables_generated.md",
+    "dst": "tables_generated.md"
+   }
+  ]
+ },
+ "collections": [
+  {
+   "title": "What They Meant \u2014 data",
+   "description": "Twin-pair scenarios, environments, training views, rollouts, verdicts, logs",
+   "items": [
+    "dataset:what-they-meant"
+   ]
+  }
+ ]
+}

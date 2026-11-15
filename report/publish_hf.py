@@ -4,8 +4,8 @@ Names and visibility were confirmed by the user (2026-11-14): owner sharan-nagar
 every source exists, scans every file for credentials (an HF token pattern or the .env contents) and prints what would be
 uploaded. --go creates the repos (exist_ok) and uploads. Run inside lx-exp (adapters live under /workspace/runs; HF_TOKEN is in the
 container env) from /workspace:
-  python3 report/publish_hf.py --plan report/publish_plan.json            # dry run
-  python3 report/publish_hf.py --plan report/publish_plan.json --go       # publish
+  python3 report/publish_hf.py --plan report/publish_plan_models.json     # dry run (inside lx-exp); data plan: on the Mac
+  python3 report/publish_hf.py --plan report/publish_plan_models.json --go
 Plan (JSON): {"owner": "...", "models": [{"repo", "src", "card"}], "dataset": {"repo", "card", "items": [{"src", "dst"}]},
 "collections": [{"title", "description", "items": ["model:<repo>" | "dataset:<repo>"]}]}
 Prints PUBLISH_PLAN_OK (dry run) or PUBLISH_DONE <urls> (--go).
@@ -20,6 +20,10 @@ import re
 import sys
 
 TOKEN_RE = re.compile(rb"hf_[A-Za-z0-9]{30,}")
+# private details that must never be published (same list as the GitHub pre-push scan): the Claude Code account e-mail's domain,
+# names of other services on the shared GPU box, the box's VPN
+PRIVATE_RE = re.compile(rb"teachafy|\b(dokploy|n8n|when-to-ask|ir-exp|dm-exp|dgx-dashboard)\b|tailscale|github_pat_|ghp_[A-Za-z0-9]{20,}|sk-ant-",
+                        re.I)
 ADAPTER_FILES = ("adapter_config.json", "adapter_model.safetensors", "stack_info.json", "tokenizer.json", "tokenizer_config.json",
                  "special_tokens_map.json", "chat_template.jinja")
 
@@ -43,6 +47,9 @@ def scan(path: str, secrets: list[bytes]) -> str | None:
         return f"unreadable: {e}"
     if TOKEN_RE.search(data):
         return "contains an hf_ token pattern"
+    m = PRIVATE_RE.search(data)
+    if m:
+        return f"contains a private detail ({m.group(0)[:3].decode(errors='replace')}…)"
     for s in secrets:
         if len(s) >= 12 and s in data:
             return "contains a value from .env"
