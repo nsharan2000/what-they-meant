@@ -59,12 +59,12 @@ def curation():
     fig, ax = canvas(7.4, 9.6)
     ax.set_ylim(-0.02, 1.02)
     steps = [
-        ("45 first-person stories of payment mistakes from Reddit\n(provenance only, no text copied)", SOFT),
-        ("93 seed scenarios written as twins:\none where something is wrong, one where nothing is", SOFT),
+        ("45 first-person stories of payment mistakes from Reddit\n(used as inspiration; every name, account and amount is synthetic)", SOFT),
+        ("45 seed twin pairs:\none twin where something is wrong, one where nothing is", SOFT),
         ("Placed inside 4 realistic apps: a wallet, a shopping assistant,\na bills app and a small-business finance tool,\neach with its own tools, policies and synthetic customers", SOFT),
         ("New variants written by an open model: 180 requested,\n89 kept after code checks and an independent label review", SOFT),
         ("Split by source story into train, validation and test,\nso no incident appears on both sides", SOFT),
-        ("Each scenario rendered from a short benchmark-style card\nup to the full app with months of history", SOFT),
+        ("Each scenario rendered from a short benchmark-style version\nup to the full app with months of history", SOFT),
         ("CuratorKIT: exact duplicates and secrets removed,\ntwins never merged", ASK),
         ("Training data: 904 worked examples, 496 preference pairs,\n496 practice prompts   +   a held-out test of 41 twin pairs\nand 13 harder ones", ACT),
     ]
@@ -81,12 +81,12 @@ def training():
     fig, ax = canvas(8.8, 8.2)
     box(ax, 0.5, 0.94, 0.56, 0.08, "Tiny Aya Global, 3.35B (Cohere Labs)\nthe base model", bold=True)
     box(ax, 0.29, 0.75, 0.5, 0.11, "Supervised fine-tuning with AgentTune\nlearn the job: look things up,\nuse approval cards, ask", fill=ACT, size=9.8)
-    box(ax, 0.79, 0.75, 0.38, 0.13, "Preference training (DPO)\nwith AlignTune: the right move\npreferred over the mistakes\nthe base model actually made", size=9.5)
+    box(ax, 0.79, 0.75, 0.38, 0.13, "Preference training (DPO)\nwith AlignTune: the right move\npreferred over real mistakes\nuntrained models made", size=9.5)
     arrow(ax, 0.42, 0.9, 0.32, 0.805)
     arrow(ax, 0.58, 0.9, 0.76, 0.815)
-    box(ax, 0.29, 0.53, 0.5, 0.12, "Reinforcement learning (GRPO) with AgentTune\nrewarded only for the right move,\nboth twins in every training step", size=9.8)
+    box(ax, 0.29, 0.53, 0.5, 0.12, "Reinforcement learning (GRPO) with AgentTune\nfull reward only for the right move,\nboth twins in every training step", size=9.8)
     arrow(ax, 0.29, 0.695, 0.29, 0.59)
-    box(ax, 0.5, 0.27, 0.86, 0.13, "Same held-out test for every model: 41 unseen twin pairs and 13 harder ones,\nfrom the benchmark card to the full app, with and without a two-line hint,\n"
+    box(ax, 0.5, 0.27, 0.86, 0.13, "Same held-out test for every model: 41 unseen twin pairs and 13 harder ones,\nfrom the short benchmark version to the full app, with and without a two-line hint,\n"
         "an Opus judge for unclear answers, side by side with Claude Opus and Haiku", fill=ASK, size=9.5)
     arrow(ax, 0.29, 0.47, 0.36, 0.335)
     arrow(ax, 0.79, 0.685, 0.66, 0.335)

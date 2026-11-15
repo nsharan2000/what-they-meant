@@ -130,7 +130,9 @@ def audits() -> list[str]:
     for f, title in ((f"{R}/safety.json", "SafeTune safety drift (HarmBench, XSTest)"),
                      (f"{R}/alignment_tuned.json", "AlignTune AlignmentAuditor drift vs base")):
         d = load(f)
-        out += [f"### {title}: " + ("pending" if not d else f"see `{f}`"), ""]
+        if not d:
+            continue   # audit not run: leave it out of the public tables rather than print a placeholder
+        out += [f"### {title}: see `{f}`", ""]
         if d:
             out.append("```json")
             out.append(json.dumps({k: d[k] for k in list(d)[:6]}, indent=1)[:3000])
