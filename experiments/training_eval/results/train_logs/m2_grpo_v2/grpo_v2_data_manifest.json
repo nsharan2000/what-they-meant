@@ -1,0 +1,1053 @@
+{
+ "script": "training/build_grpo_v2.py",
+ "args": {
+  "data": "/workspace/training/data_v121_curated/grpo_train.jsonl",
+  "out": "/workspace/training/data_v121_grpo_v2",
+  "steps": 36,
+  "exclude": null,
+  "seed": 0
+ },
+ "input": "/workspace/training/data_v121_curated/grpo_train.jsonl",
+ "input_sha256": "97bf1cb755e16c394ac4563e3aec3b0c39c6ce91fdd903bff40fbc25749702ca",
+ "output": "/workspace/training/data_v121_grpo_v2/grpo_train.jsonl",
+ "output_sha256": "2a67e8f53905b03729a0a144f15af8e64fed4faee5b2141f81e7e419bb2633c5",
+ "n_rows": 144,
+ "steps": 36,
+ "exclusion_applied": false,
+ "n_excluded_rows": 0,
+ "cells_with_both_twins": 247,
+ "same_setting_cells": 134,
+ "flagged_cells_dropped": 0,
+ "eligible_cells": 134,
+ "eligible_by_level": {
+  "L0r": 34,
+  "L1": 42,
+  "L2": 41,
+  "L3": 17
+ },
+ "steps_per_level": {
+  "L0r": 9,
+  "L1": 11,
+  "L2": 11,
+  "L3": 5
+ },
+ "distinct_pairs": 68,
+ "settings": {
+  "P0": 122,
+  "P2": 22
+ },
+ "b_expected": {
+  "approve": 67,
+  "act": 5
+ },
+ "step_composition": [
+  {
+   "step": 1,
+   "level": "L1",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V031",
+    "S07"
+   ],
+   "scenario_ids": [
+    "V031A",
+    "V031B",
+    "S07A",
+    "S07B"
+   ],
+   "src_lines": [
+    325,
+    266,
+    127,
+    354
+   ],
+   "mean_chars": [
+    14647,
+    14652
+   ]
+  },
+  {
+   "step": 2,
+   "level": "L2",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V181",
+    "V071"
+   ],
+   "scenario_ids": [
+    "V181A",
+    "V181B",
+    "V071A",
+    "V071B"
+   ],
+   "src_lines": [
+    121,
+    437,
+    44,
+    314
+   ],
+   "mean_chars": [
+    19930,
+    20040
+   ]
+  },
+  {
+   "step": 3,
+   "level": "L3",
+   "settings": [
+    "P0",
+    "P2"
+   ],
+   "pairs": [
+    "S32",
+    "S35"
+   ],
+   "scenario_ids": [
+    "S32A",
+    "S32B",
+    "S35A",
+    "S35B"
+   ],
+   "src_lines": [
+    148,
+    96,
+    104,
+    453
+   ],
+   "mean_chars": [
+    19892,
+    19920
+   ]
+  },
+  {
+   "step": 4,
+   "level": "L1",
+   "settings": [
+    "P0",
+    "P2"
+   ],
+   "pairs": [
+    "V074",
+    "V531"
+   ],
+   "scenario_ids": [
+    "V074A",
+    "V074B",
+    "V531A",
+    "V531B"
+   ],
+   "src_lines": [
+    46,
+    322,
+    62,
+    229
+   ],
+   "mean_chars": [
+    14717,
+    14808
+   ]
+  },
+  {
+   "step": 5,
+   "level": "L2",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V043",
+    "V044"
+   ],
+   "scenario_ids": [
+    "V043A",
+    "V043B",
+    "V044A",
+    "V044B"
+   ],
+   "src_lines": [
+    151,
+    280,
+    300,
+    144
+   ],
+   "mean_chars": [
+    19781,
+    19786
+   ]
+  },
+  {
+   "step": 6,
+   "level": "L3",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "S06",
+    "S25"
+   ],
+   "scenario_ids": [
+    "S06A",
+    "S06B",
+    "S25A",
+    "S25B"
+   ],
+   "src_lines": [
+    318,
+    134,
+    200,
+    49
+   ],
+   "mean_chars": [
+    19820,
+    19862
+   ]
+  },
+  {
+   "step": 7,
+   "level": "L1",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V471",
+    "V073"
+   ],
+   "scenario_ids": [
+    "V471A",
+    "V471B",
+    "V073A",
+    "V073B"
+   ],
+   "src_lines": [
+    66,
+    349,
+    472,
+    459
+   ],
+   "mean_chars": [
+    14344,
+    14398
+   ]
+  },
+  {
+   "step": 8,
+   "level": "L2",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V534",
+    "S34"
+   ],
+   "scenario_ids": [
+    "V534A",
+    "V534B",
+    "S34A",
+    "S34B"
+   ],
+   "src_lines": [
+    61,
+    219,
+    487,
+    278
+   ],
+   "mean_chars": [
+    19886,
+    19919
+   ]
+  },
+  {
+   "step": 9,
+   "level": "L0r",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V184",
+    "V341"
+   ],
+   "scenario_ids": [
+    "V184A",
+    "V184B",
+    "V341A",
+    "V341B"
+   ],
+   "src_lines": [
+    19,
+    494,
+    382,
+    233
+   ],
+   "mean_chars": [
+    3441,
+    3469
+   ]
+  },
+  {
+   "step": 10,
+   "level": "L1",
+   "settings": [
+    "P0",
+    "P2"
+   ],
+   "pairs": [
+    "V091",
+    "S53"
+   ],
+   "scenario_ids": [
+    "V091A",
+    "V091B",
+    "S53A",
+    "S53B"
+   ],
+   "src_lines": [
+    89,
+    452,
+    281,
+    218
+   ],
+   "mean_chars": [
+    14091,
+    14325
+   ]
+  },
+  {
+   "step": 11,
+   "level": "L2",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V062",
+    "S42"
+   ],
+   "scenario_ids": [
+    "V062A",
+    "V062B",
+    "S42A",
+    "S42B"
+   ],
+   "src_lines": [
+    63,
+    178,
+    270,
+    426
+   ],
+   "mean_chars": [
+    19788,
+    19815
+   ]
+  },
+  {
+   "step": 12,
+   "level": "L1",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "S13",
+    "V183"
+   ],
+   "scenario_ids": [
+    "S13A",
+    "S13B",
+    "V183A",
+    "V183B"
+   ],
+   "src_lines": [
+    249,
+    323,
+    263,
+    243
+   ],
+   "mean_chars": [
+    12580,
+    12693
+   ]
+  },
+  {
+   "step": 13,
+   "level": "L2",
+   "settings": [
+    "P2",
+    "P0"
+   ],
+   "pairs": [
+    "S55",
+    "V573"
+   ],
+   "scenario_ids": [
+    "S55A",
+    "S55B",
+    "V573A",
+    "V573B"
+   ],
+   "src_lines": [
+    248,
+    51,
+    303,
+    23
+   ],
+   "mean_chars": [
+    18017,
+    18119
+   ]
+  },
+  {
+   "step": 14,
+   "level": "L2",
+   "settings": [
+    "P2",
+    "P2"
+   ],
+   "pairs": [
+    "V094",
+    "V133"
+   ],
+   "scenario_ids": [
+    "V094A",
+    "V094B",
+    "V133A",
+    "V133B"
+   ],
+   "src_lines": [
+    296,
+    488,
+    357,
+    273
+   ],
+   "mean_chars": [
+    20044,
+    20064
+   ]
+  },
+  {
+   "step": 15,
+   "level": "L1",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "S34",
+    "V491"
+   ],
+   "scenario_ids": [
+    "S34A",
+    "S34B",
+    "V491A",
+    "V491B"
+   ],
+   "src_lines": [
+    17,
+    297,
+    467,
+    254
+   ],
+   "mean_chars": [
+    14541,
+    14553
+   ]
+  },
+  {
+   "step": 16,
+   "level": "L0r",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "S02",
+    "V584"
+   ],
+   "scenario_ids": [
+    "S02A",
+    "S02B",
+    "V584A",
+    "V584B"
+   ],
+   "src_lines": [
+    449,
+    206,
+    213,
+    78
+   ],
+   "mean_chars": [
+    2734,
+    2866
+   ]
+  },
+  {
+   "step": 17,
+   "level": "L0r",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V474",
+    "V472"
+   ],
+   "scenario_ids": [
+    "V474A",
+    "V474B",
+    "V472A",
+    "V472B"
+   ],
+   "src_lines": [
+    275,
+    32,
+    203,
+    76
+   ],
+   "mean_chars": [
+    3116,
+    3128
+   ]
+  },
+  {
+   "step": 18,
+   "level": "L3",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "S13",
+    "S12"
+   ],
+   "scenario_ids": [
+    "S13A",
+    "S13B",
+    "S12A",
+    "S12B"
+   ],
+   "src_lines": [
+    411,
+    177,
+    185,
+    60
+   ],
+   "mean_chars": [
+    19921,
+    19977
+   ]
+  },
+  {
+   "step": 19,
+   "level": "L2",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V061",
+    "S25"
+   ],
+   "scenario_ids": [
+    "V061A",
+    "V061B",
+    "S25A",
+    "S25B"
+   ],
+   "src_lines": [
+    251,
+    132,
+    159,
+    393
+   ],
+   "mean_chars": [
+    19834,
+    19849
+   ]
+  },
+  {
+   "step": 20,
+   "level": "L0r",
+   "settings": [
+    "P0",
+    "P2"
+   ],
+   "pairs": [
+    "S54",
+    "V552"
+   ],
+   "scenario_ids": [
+    "S54A",
+    "S54B",
+    "V552A",
+    "V552B"
+   ],
+   "src_lines": [
+    186,
+    434,
+    188,
+    295
+   ],
+   "mean_chars": [
+    3332,
+    3346
+   ]
+  },
+  {
+   "step": 21,
+   "level": "L2",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V104",
+    "S22"
+   ],
+   "scenario_ids": [
+    "V104A",
+    "V104B",
+    "S22A",
+    "S22B"
+   ],
+   "src_lines": [
+    491,
+    246,
+    247,
+    28
+   ],
+   "mean_chars": [
+    19919,
+    19923
+   ]
+  },
+  {
+   "step": 22,
+   "level": "L3",
+   "settings": [
+    "P2",
+    "P0"
+   ],
+   "pairs": [
+    "S49",
+    "S10"
+   ],
+   "scenario_ids": [
+    "S49A",
+    "S49B",
+    "S10A",
+    "S10B"
+   ],
+   "src_lines": [
+    74,
+    173,
+    31,
+    183
+   ],
+   "mean_chars": [
+    19992,
+    20037
+   ]
+  },
+  {
+   "step": 23,
+   "level": "L1",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "S14",
+    "V152"
+   ],
+   "scenario_ids": [
+    "S14A",
+    "S14B",
+    "V152A",
+    "V152B"
+   ],
+   "src_lines": [
+    370,
+    464,
+    330,
+    129
+   ],
+   "mean_chars": [
+    13842,
+    13992
+   ]
+  },
+  {
+   "step": 24,
+   "level": "L1",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V182",
+    "V253"
+   ],
+   "scenario_ids": [
+    "V182A",
+    "V182B",
+    "V253A",
+    "V253B"
+   ],
+   "src_lines": [
+    389,
+    369,
+    363,
+    0
+   ],
+   "mean_chars": [
+    12695,
+    12734
+   ]
+  },
+  {
+   "step": 25,
+   "level": "L0r",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V322",
+    "V321"
+   ],
+   "scenario_ids": [
+    "V322A",
+    "V322B",
+    "V321A",
+    "V321B"
+   ],
+   "src_lines": [
+    390,
+    334,
+    362,
+    265
+   ],
+   "mean_chars": [
+    3350,
+    3379
+   ]
+  },
+  {
+   "step": 26,
+   "level": "L1",
+   "settings": [
+    "P2",
+    "P0"
+   ],
+   "pairs": [
+    "S58",
+    "V254"
+   ],
+   "scenario_ids": [
+    "S58A",
+    "S58B",
+    "V254A",
+    "V254B"
+   ],
+   "src_lines": [
+    6,
+    168,
+    367,
+    294
+   ],
+   "mean_chars": [
+    12743,
+    12760
+   ]
+  },
+  {
+   "step": 27,
+   "level": "L0r",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V344",
+    "S42"
+   ],
+   "scenario_ids": [
+    "V344A",
+    "V344B",
+    "S42A",
+    "S42B"
+   ],
+   "src_lines": [
+    14,
+    175,
+    267,
+    235
+   ],
+   "mean_chars": [
+    3479,
+    3564
+   ]
+  },
+  {
+   "step": 28,
+   "level": "L2",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V553",
+    "V551"
+   ],
+   "scenario_ids": [
+    "V553A",
+    "V553B",
+    "V551A",
+    "V551B"
+   ],
+   "src_lines": [
+    161,
+    120,
+    193,
+    223
+   ],
+   "mean_chars": [
+    19747,
+    19761
+   ]
+  },
+  {
+   "step": 29,
+   "level": "L0r",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "S57",
+    "V571"
+   ],
+   "scenario_ids": [
+    "S57A",
+    "S57B",
+    "V571A",
+    "V571B"
+   ],
+   "src_lines": [
+    380,
+    108,
+    90,
+    58
+   ],
+   "mean_chars": [
+    3157,
+    3160
+   ]
+  },
+  {
+   "step": 30,
+   "level": "L0r",
+   "settings": [
+    "P0",
+    "P2"
+   ],
+   "pairs": [
+    "S09",
+    "V093"
+   ],
+   "scenario_ids": [
+    "S09A",
+    "S09B",
+    "V093A",
+    "V093B"
+   ],
+   "src_lines": [
+    436,
+    141,
+    430,
+    202
+   ],
+   "mean_chars": [
+    3660,
+    3804
+   ]
+  },
+  {
+   "step": 31,
+   "level": "L2",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V113",
+    "V492"
+   ],
+   "scenario_ids": [
+    "V113A",
+    "V113B",
+    "V492A",
+    "V492B"
+   ],
+   "src_lines": [
+    105,
+    230,
+    347,
+    8
+   ],
+   "mean_chars": [
+    19767,
+    19769
+   ]
+  },
+  {
+   "step": 32,
+   "level": "L0r",
+   "settings": [
+    "P0",
+    "P2"
+   ],
+   "pairs": [
+    "V583",
+    "V582"
+   ],
+   "scenario_ids": [
+    "V583A",
+    "V583B",
+    "V582A",
+    "V582B"
+   ],
+   "src_lines": [
+    67,
+    353,
+    383,
+    329
+   ],
+   "mean_chars": [
+    2979,
+    3090
+   ]
+  },
+  {
+   "step": 33,
+   "level": "L1",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "S03",
+    "V554"
+   ],
+   "scenario_ids": [
+    "S03A",
+    "S03B",
+    "V554A",
+    "V554B"
+   ],
+   "src_lines": [
+    262,
+    162,
+    413,
+    111
+   ],
+   "mean_chars": [
+    14341,
+    14341
+   ]
+  },
+  {
+   "step": 34,
+   "level": "L1",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V581",
+    "V223"
+   ],
+   "scenario_ids": [
+    "V581A",
+    "V581B",
+    "V223A",
+    "V223B"
+   ],
+   "src_lines": [
+    7,
+    328,
+    424,
+    124
+   ],
+   "mean_chars": [
+    12816,
+    13017
+   ]
+  },
+  {
+   "step": 35,
+   "level": "L2",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "V473",
+    "V042"
+   ],
+   "scenario_ids": [
+    "V473A",
+    "V473B",
+    "V042A",
+    "V042B"
+   ],
+   "src_lines": [
+    3,
+    70,
+    139,
+    478
+   ],
+   "mean_chars": [
+    18879,
+    19729
+   ]
+  },
+  {
+   "step": 36,
+   "level": "L3",
+   "settings": [
+    "P0",
+    "P0"
+   ],
+   "pairs": [
+    "S15",
+    "S04"
+   ],
+   "scenario_ids": [
+    "S15A",
+    "S15B",
+    "S04A",
+    "S04B"
+   ],
+   "src_lines": [
+    489,
+    288,
+    341,
+    115
+   ],
+   "mean_chars": [
+    19780,
+    19810
+   ]
+  }
+ ]
+}

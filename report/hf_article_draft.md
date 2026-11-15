@@ -361,7 +361,13 @@ GRPO 496 prompts, DPO 496 pairs after CuratorKIT), under a memory guard on the s
 - **M2 GRPO** (AgentTune, TRL GRPO, programmatic reward `wtm/reward.py`, no LLM in the loop), warm-started from merged M1. The
   first run (lr 5e-6, 30 steps) moved its adapter by 2.0 % of what SFT did, which is indistinguishable from M1 in practice. GRPO v2
   uses lr 5e-5 and 36 steps; every optimizer step holds both twins of two pairs at one realism level; an approval card on a
-  should-ask twin no longer earns partial credit; every completion is logged.
+  should-ask twin no longer earns partial credit; every completion is logged. It moved the adapter by 21.8 % of SFT's change, but
+  its training reward did not rise: over the four quarters of training the should-act reward fell from +0.56 to +0.32 and the
+  sampled asking rate on should-act twins rose from 34 % to 42 % (should-ask twins: 62 % → 61 %). When the twins are hard to tell
+  apart, asking more raises the expected reward (+2.0 on a should-ask twin against −1.5 on a should-act twin), so GRPO drifts
+  toward asking everywhere instead of learning the discrimination. Merging M1 and M2 into one served adapter is exact in weight
+  space (relative error 1e-7; `training/verify_stack_exact.py`); a log-prob probe could not show this because GRPO's effect on it
+  is smaller than the bf16 rounding of the merged-M1 reference.
 - **M3 DPO** (AlignTune, from the base model, β 0.1, 1 epoch, lr 5e-6): moved its adapter by 3.3 % of SFT's — also a near no-op.
 - **M5 decision-weighted SFT** (our extension of the M1 recipe): the ask-or-act choice is the first token of the reply (a word
   = a question; `<` = a tool call), plus the first token of the tool name (approval card vs direct payment). These are 1.3–2.0 % of
@@ -398,6 +404,9 @@ them (paired pass 54 % on the toy card), the judge does not (7 %), because the r
   by 2.0 % and 3.3 % of what SFT did (‖ΔW‖ summed over LoRA modules). Both were indistinguishable from their starting points in
   evaluation, although the GRPO reward signal was there (114 of 120 groups had reward variance). GRPO v2 uses 5e-5. AgentTune's
   GRPO default is 1e-6 (feedback to Lexsi).
+- **GRPO with twin-balanced steps did not learn the decision** (§7.7): the reward signal was there, but the policy moved toward
+  asking on both twins. A garbled mixed-script prefix in some late completions still scored as an informed question: the
+  programmatic reward does not penalise format degradation.
 - **The keyword grader over-credits.** A card that merely mentions a clash word counts as "informed" in lenient grading: M1's
   lenient paired pass on the toy card is 54 %, its judged pass 7 %. Agreement between the lenient grade and the judge on the judged
   rows is 0.74–0.90 for Claude and base Tiny Aya but 0.53–0.62 for M1.

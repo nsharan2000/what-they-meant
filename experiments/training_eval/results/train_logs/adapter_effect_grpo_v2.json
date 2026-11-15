@@ -1,0 +1,75 @@
+{
+ "created": "2026-11-15 10:15:01 UTC",
+ "args": {
+  "adapter": [
+   "m1=/workspace/runs/m1_sft/final",
+   "m2v2_final=/workspace/runs/m2_grpo/final",
+   "m2v2_ck12=/workspace/runs/m2_grpo/checkpoint-12",
+   "m2v2_ck24=/workspace/runs/m2_grpo/checkpoint-24",
+   "m2v1=/workspace/runs/m2_grpo_v1_lr5e-6/final"
+  ],
+  "out": "/workspace/experiments/training_eval/results/train_logs/adapter_effect_grpo_v2.json"
+ },
+ "adapters": {
+  "m1": {
+   "path": "/workspace/runs/m1_sft/final",
+   "r": 16,
+   "alpha": 32,
+   "rslora": false,
+   "modules": 252,
+   "total_dW_fro": 6.637931134136192,
+   "mean_module_dW_fro": 0.3571572276245817,
+   "max_module_dW_fro": 0.8479558178035211,
+   "max_abs_B": 0.005192417651414871,
+   "ratio_total_vs_m1": 1.0
+  },
+  "m2v2_final": {
+   "path": "/workspace/runs/m2_grpo/final",
+   "r": 16,
+   "alpha": 32,
+   "rslora": false,
+   "modules": 252,
+   "total_dW_fro": 1.4473592820418577,
+   "mean_module_dW_fro": 0.07889285421514436,
+   "max_module_dW_fro": 0.15320036381320049,
+   "max_abs_B": 0.0013329207431524992,
+   "ratio_total_vs_m1": 0.21804373272248562
+  },
+  "m2v2_ck12": {
+   "path": "/workspace/runs/m2_grpo/checkpoint-12",
+   "r": 16,
+   "alpha": 32,
+   "rslora": false,
+   "modules": 252,
+   "total_dW_fro": 0.7564457623648838,
+   "mean_module_dW_fro": 0.041210309760356716,
+   "max_module_dW_fro": 0.07865807341173564,
+   "max_abs_B": 0.0004945917171426117,
+   "ratio_total_vs_m1": 0.11395806119090172
+  },
+  "m2v2_ck24": {
+   "path": "/workspace/runs/m2_grpo/checkpoint-24",
+   "r": 16,
+   "alpha": 32,
+   "rslora": false,
+   "modules": 252,
+   "total_dW_fro": 1.173472168819184,
+   "mean_module_dW_fro": 0.06392647896979596,
+   "max_module_dW_fro": 0.12301825008767524,
+   "max_abs_B": 0.0009825320448726416,
+   "ratio_total_vs_m1": 0.17678281758370343
+  },
+  "m2v1": {
+   "path": "/workspace/runs/m2_grpo_v1_lr5e-6/final",
+   "r": 16,
+   "alpha": 32,
+   "rslora": false,
+   "modules": 252,
+   "total_dW_fro": 0.13551320416632795,
+   "mean_module_dW_fro": 0.007379352255471148,
+   "max_module_dW_fro": 0.014249875544990912,
+   "max_abs_B": 0.00011881301907123998,
+   "ratio_total_vs_m1": 0.020414975905585764
+  }
+ }
+}

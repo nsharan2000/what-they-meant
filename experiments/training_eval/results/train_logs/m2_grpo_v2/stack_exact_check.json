@@ -1,0 +1,28 @@
+{
+ "first": "/workspace/runs/m1_sft/final",
+ "second": "/workspace/runs/m2_grpo/final",
+ "stacked": "/workspace/runs/m2_grpo/stacked.tmp",
+ "scales": {
+  "first": 2.0,
+  "second": 2.0,
+  "stacked": 1.0
+ },
+ "ranks": {
+  "first": 16,
+  "second": 16,
+  "stacked": 32
+ },
+ "modules": 252,
+ "rel_frobenius_error_total": 1.0485038031153242e-07,
+ "rel_frobenius_error_second_part": 4.771886651225237e-07,
+ "worst_module": {
+  "name": "base_model.model.model.layers.28.self_attn.k_proj",
+  "rel_error": 1.0521866213326068e-07
+ },
+ "tol": 0.01,
+ "ok": true,
+ "norms": {
+  "ref_total": 6.793800219143056,
+  "second": 1.4473593381237047
+ }
+}

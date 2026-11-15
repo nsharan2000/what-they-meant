@@ -1,0 +1,75 @@
+{
+ "ok": true,
+ "verified": true,
+ "base": "/root/.cache/huggingface/hub/models--1-800-LLMs--tiny-aya-global/snapshots/6ca951521be5148dec4e679f7cab4aca5362c523",
+ "first": "/workspace/runs/m1_sft/final",
+ "second": "/workspace/runs/m2_grpo/final",
+ "first_merged": "/workspace/runs/m1_sft/merged",
+ "rank": 32,
+ "scales": [
+  2.0,
+  2.0
+ ],
+ "tensors": 504,
+ "sha256": {
+  "first": "51d1d6ed0cce99e8b1b9348aa3cbfa28fbec64854c3deb64faa0d65ad59f4d98",
+  "second": "6d5856c38efaf1fd0659a8b4387a00d1cc9d67a6dda81bb6b7aa8a806c14594e",
+  "stacked": "4da65a322462a6abab0fae75bf5c2038f0a624fb103a005163383aa7061b8928"
+ },
+ "probe": {
+  "tokens": 479,
+  "reply_positions": 25
+ },
+ "stack_delta": {
+  "mean_abs_dlogprob": 0.022317,
+  "max_abs_dlogprob": 0.168798,
+  "top1_agree": 1.0,
+  "kl_mean": 0.001102
+ },
+ "second_effect": {
+  "mean_abs_dlogprob": 0.017782,
+  "max_abs_dlogprob": 0.126062,
+  "top1_agree": 1.0,
+  "kl_mean": 0.001135
+ },
+ "first_merge_residual": {
+  "mean_abs_dlogprob": 0.032374,
+  "max_abs_dlogprob": 0.144981,
+  "top1_agree": 1.0,
+  "kl_mean": 0.000912
+ },
+ "served_second_effect": {
+  "mean_abs_dlogprob": 0.025122,
+  "max_abs_dlogprob": 0.207236,
+  "top1_agree": 1.0,
+  "kl_mean": 0.002025
+ },
+ "max_abs_logit_delta_all_positions": 1.4375,
+ "tol": 0.05,
+ "min_effect": 0.001,
+ "effect_ratio": 0.1,
+ "reasons": [],
+ "minutes": 1.75,
+ "peak_mem": {
+  "torch_allocated_gb": 8.58,
+  "torch_reserved_gb": 8.94,
+  "rss_max_gb": 8.12
+ },
+ "probe_check": {
+  "ok": false,
+  "verified": false,
+  "reasons": [
+   "mean |\u0394 logprob| 0.02232 \u2265 0.1 \u00d7 adapter effect 0.01778"
+  ],
+  "note": "inconclusive: the GRPO adapter's probe effect (second_effect 0.0178) is below the M1 bf16 merge residual (0.0324) of the reference"
+ },
+ "verified_by": {
+  "method": "exact weight-space check (training/verify_stack_exact.py)",
+  "rel_frobenius_error_total": 1.0485038031153242e-07,
+  "rel_frobenius_error_second_part": 4.771886651225237e-07,
+  "tol": 0.01,
+  "modules": 252,
+  "checked": "2026-11-15 10:17:02 UTC",
+  "promoted_from": "stacked.tmp (manual, documented in log.md)"
+ }
+}
