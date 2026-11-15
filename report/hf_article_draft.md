@@ -384,7 +384,21 @@ greedy decoding collapses onto the card. About a quarter of M1's decisions on sh
 mention the clash ("Pay $1.99 for the personality test trial (recurring $30/month)?"); the keyword grader's lenient mode credits
 them (paired pass 54 % on the toy card), the judge does not (7 %), because the rubric requires a question before any card.
 
-{{M2 GRPO v2 and M5 results: same tables; capability retention; SafeTune and AlignTune audits}}
+**What GRPO v2 changed (held-out, greedy).** Compared with M1 on the test split, GRPO v2 asks more on the should-ask twin (15–37 %
+vs 5–22 %; informed questions 5–27 % vs 0–5 %) but also on the should-act twin (needless questions 10–44 % vs 0–24 %). Its
+Opus-judged paired pass is 4.9–9.8 % (M1: 2.4–7.3 %), within noise. It learned a little discrimination on the toy card (D_ask
++0.15, P0) that does not survive the realistic app (−0.17): a realism effect of −0.32 on D_ask (95 % CI [−0.54, −0.11]). The
+realism gap shows up inside a trained model too: a policy shaped on toy-easy evidence does not carry it into the app.
+
+<!-- TABLES:capability -->
+
+**Capability retention.** Instruction following (IFEval) and knowledge (Global-MMLU, English and Hindi) are unchanged after every
+training stage. Maths is not: after SFT, MGSM (zero-shot direct answers, five languages) falls from 45.0 % to 22.2 % and GSM8K
+(five-shot) from 30.4 % to 25.6 %; GRPO inherits the drop and the near-no-op DPO arm does not show it. Fine-tuning on short agent
+turns (a question or a tool call) appears to erode free-form numeric answers; a mixing set of general instruction data would be the
+first fix to try.
+
+{{M5 results: same tables; SafeTune and AlignTune audits}}
 
 {{ROI: self-hosted Tiny Aya vs Claude per 1,000 decisions, from the measured cost per episode}}
 

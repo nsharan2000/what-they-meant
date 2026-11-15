@@ -105,16 +105,20 @@ def capability_table() -> list[str]:
         return statistics.mean(xs) if xs else None
 
     out = ["### Capability retention (lm-eval through AuditKIT `ak.run_lmeval`, same limits for every arm)", "",
-           "| Model | IFEval prompt-strict | GSM8K strict | Global-MMLU en | Global-MMLU hi | MGSM (mean of en/hi/de/es/ja) |",
+           "| Model | IFEval prompt-strict (n 200) | GSM8K strict, 5-shot (n 250) | Global-MMLU en (8 per subject) | Global-MMLU hi (8 per subject) | MGSM direct, flexible extract (mean en/bn/de/es/ja; n 100 each) |",
            "|---|---|---|---|---|---|"]
     for arm in order(d["arms"]):
         t = d["arms"][arm]
         h = {k: (v.get("headline") if isinstance(v, dict) else v) for k, v in t.items()}
         ife = (h.get("ifeval") or {}).get("ifeval:prompt_level_strict_acc")
         gsm = (h.get("gsm8k") or {}).get("gsm8k:exact_match,strict-match")
-        mm = {lang: mean_of(h.get(f"global_mmlu_full_{lang}") or {}, f"global_mmlu_full_{lang}") for lang in ("en", "hi")}
-        mg = [v for k, hv in h.items() if k.startswith("mgsm") and isinstance(hv, dict) for v in hv.values()
-              if isinstance(v, (int, float))]
+        gm = {}   # the global_mmlu task's headline holds every language: use lm-eval's per-language aggregate "<task>_<lang>:acc"
+        for k, hv in h.items():
+            if k.startswith("global_mmlu") and isinstance(hv, dict):
+                gm.update(hv)
+        mm = {lang: gm.get(f"global_mmlu_full_{lang}:acc", mean_of(gm, f"global_mmlu_full_{lang}_")) for lang in ("en", "hi")}
+        mg = [v for k, hv in h.items() if k.startswith("mgsm") and isinstance(hv, dict) for mk, v in hv.items()
+              if isinstance(v, (int, float)) and "flexible-extract" in mk]   # remove_whitespace is 0.0 for every model
         out.append(f"| {ARM_NAME.get(arm, arm)} | {pct(ife)} | {pct(gsm)} | {pct(mm['en'])} | {pct(mm['hi'])} | "
                    f"{pct(statistics.mean(mg)) if mg else '–'} |")
     out += ["", f"*Source: `{R}/capability.json`.*", ""]
