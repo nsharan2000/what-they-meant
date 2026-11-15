@@ -1,0 +1,498 @@
+line,sid,twin,level,ps,n_values,n_ungrounded,ungrounded,n_kw_in_target,n_kw_ungrounded,kw_ungrounded
+0,S42A,A,L1,P0,1,0,,6,6,marks|does not charge|not charge
+1,V254A,A,L2,P0,2,0,,5,4,extra usage|usage is billed|billed automatically
+2,V532B,B,L1,P2,2,0,,0,0,
+5,V552B,B,L0r,P2,1,0,,0,0,
+6,V094A,A,L1,P0,0,0,,3,2,known number|only in an email
+7,S07A,A,L1,P0,3,0,,3,2,not jess|belongs to dan
+8,S22B,B,L1,P0,1,0,,0,0,
+10,V071B,B,L1,P2,3,0,,0,0,
+11,V474A,A,L0r,P0,2,0,,2,0,
+12,V042B,B,L2,P0,3,0,,0,0,
+13,V061B,B,L2,P0,2,0,,0,0,
+14,V094B,B,L1,P2,2,0,,0,0,
+15,S07B,B,L1,P0,3,0,,0,0,
+17,V073A,A,L2,P0,2,0,,3,2,not hannah|belongs to hana
+18,V043B,B,L1,P0,3,0,,0,0,
+21,V182A,A,L1,P0,2,0,,6,4,billing terms|does not match|popup says
+24,S09A,A,L3,P0,0,0,,3,2,known number|only in an email
+25,S25A,A,L1,P0,1,0,,6,6,"2,000|extra usage|usage is billed"
+26,V091B,B,L1,P0,2,0,,0,0,
+28,S53A,A,L2,P0,0,0,,7,6,5 days old|account is 5 days|no purchase protection
+29,S54A,A,L0r,P0,1,0,,5,2,could be held|part of your bankruptcy
+31,V492A,A,L2,P0,2,0,,1,0,
+32,S11A,A,L1,P0,1,0,,6,2,out of stock|different tv
+33,S47A,A,L0r,P2,0,0,,1,0,
+39,S47B,B,L1,P2,1,0,,0,0,
+40,V471B,B,L1,P0,1,0,,0,0,
+41,V264B,B,L0r,P0,1,0,,0,0,
+48,S42A,A,L3,P0,1,0,,6,5,does not charge|not charge|collect-balance
+50,V582B,B,L1,P2,2,0,,0,0,
+51,V043A,A,L2,P0,2,0,,3,2,"1,196|garlic unit"
+53,S09A,A,L2,P2,0,0,,3,2,known number|only in an email
+54,V061A,A,L1,P0,3,0,,5,3,paid on 28 oct|re-keyed|same invoice
+57,S13B,B,L2,P2,0,0,,3,1,90/year
+61,S55A,A,L0r,P0,0,0,,6,4,personal account|not bargain warehouse|no purchase protection
+62,S58A,A,L1,P2,3,0,,5,3,only has $120|switch to the visa|pulls from your bank
+64,V582B,B,L0r,P2,2,0,,0,0,
+67,V044A,A,L2,P0,2,0,,3,1,bananas unit
+71,S49B,B,L3,P2,2,0,,0,0,
+72,S02B,B,L1,P0,2,0,,0,0,
+73,S25B,B,L3,P0,0,0,,0,0,
+74,V073A,A,L1,P0,2,0,,3,2,not hannah|belongs to hana
+76,V074A,A,L1,P0,2,0,,5,2,not matt|belongs to mark
+78,V531B,B,L0r,P2,2,0,,0,0,
+79,V322B,B,L2,P0,2,0,,0,0,
+80,S06A,A,L0r,P0,3,0,,5,3,paid on 3 nov|re-keyed|same invoice
+81,S06A,A,L3,P0,3,0,,5,3,paid on 3 nov|re-keyed|same invoice
+82,S14B,B,L2,P2,1,0,,0,0,
+83,V321B,B,L1,P0,2,0,,0,0,
+84,V184B,B,L0r,P0,1,0,,0,0,
+88,S35B,B,L1,P2,1,0,,1,0,
+90,V573B,B,L1,P0,1,0,,0,0,
+91,V573B,B,L2,P0,1,0,,0,0,
+93,V554A,A,L2,P0,0,0,,6,4,personal account|not crafted goods|no purchase protection
+94,S58A,A,L2,P0,3,0,,5,3,only has $120|switch to the visa|pulls from your bank
+95,V184A,A,L0r,P0,1,0,,6,4,billing terms|does not match|popup says
+97,S42A,A,L2,P0,1,0,,6,5,does not charge|not charge|collect-balance
+98,V113B,B,L2,P0,1,0,,0,0,
+99,V254B,B,L2,P0,1,0,,0,0,
+100,V104B,B,L0r,P2,2,0,,0,0,
+101,S42A,A,L0r,P0,1,0,,6,6,marks|does not charge|not charge
+103,S57B,B,L0r,P0,1,0,,0,0,
+104,V042A,A,L0r,P2,2,0,,3,3,"1,200|pieces|garlic unit"
+105,S10A,A,L1,P0,1,0,,6,3,no domain purchase|usd 160|160/year
+106,V531B,B,L1,P2,2,0,,0,0,
+107,V553A,A,L1,P2,0,0,,6,4,personal account|not vestavia garden club|no purchase protection
+111,V031B,B,L2,P0,2,0,,0,0,
+112,S26A,A,L3,P2,0,0,,7,7,test fails|fails|two seats
+116,S13A,A,L0r,P2,0,0,,5,4,annual plan|converts|after 7 days
+117,V541B,B,L0r,P2,2,0,,0,0,
+118,S25B,B,L1,P2,0,0,,0,0,
+119,S47A,A,L1,P0,0,0,,1,0,
+120,V541B,B,L1,P0,2,0,,0,0,
+121,V152B,B,L2,P0,1,1,2027,0,0,
+123,S09A,A,L1,P0,0,0,,3,2,known number|only in an email
+124,S58A,A,L0r,P0,3,0,,5,3,only has $120|switch to the visa|pulls from your bank
+126,S22A,A,L0r,P2,2,1,350,7,6,"3,600|paid twice|insurance was paid"
+128,V182A,A,L0r,P2,2,0,,6,4,billing terms|does not match|popup says
+129,S35B,B,L3,P2,1,0,,1,0,
+130,S09B,B,L1,P2,3,0,,0,0,
+131,S03B,B,L3,P0,2,0,,0,0,
+132,S25B,B,L0r,P2,0,0,,0,0,
+134,V472B,B,L2,P0,1,0,,0,0,
+136,S15B,B,L1,P0,1,0,,0,0,
+137,V344A,A,L1,P0,2,0,,2,0,
+139,S04A,A,L2,P0,1,0,,4,4,"1,200|pieces|garlic unit"
+144,S35A,A,L2,P0,1,0,,4,3,still being authori|charged twice|wait for it to settle
+145,V492B,B,L2,P0,2,0,,0,0,
+146,V552B,B,L1,P0,1,0,,0,0,
+147,S54A,A,L3,P0,1,0,,5,2,could be held|part of your bankruptcy
+149,S49P,A,L0r,P2,2,0,,0,0,
+155,V104B,B,L1,P2,2,0,,0,0,
+156,V581A,A,L1,P0,3,0,,2,2,only has £300|switch to the visa
+157,V062A,A,L2,P0,3,0,,5,3,paid on 1 nov|re-keyed|same invoice
+159,V183A,A,L0r,P0,2,0,,6,4,billing terms|does not match|popup says
+160,V541A,A,L1,P2,0,0,,2,0,
+161,V264A,A,L1,P0,0,0,,1,1,restocked
+163,S11B,B,L1,P2,1,0,,0,0,
+165,S35A,A,L1,P2,1,0,,4,3,still being authori|charged twice|wait for it to settle
+166,S54B,B,L2,P0,2,0,,0,0,
+168,V074B,B,L1,P0,2,0,,0,0,
+171,V061A,A,L0r,P2,3,0,,5,3,paid on 28 oct|re-keyed|same invoice
+173,V571A,A,L1,P0,0,0,,5,5,only accepts usdc|accepts usdc|won't be credited
+174,V062B,B,L2,P0,2,0,,0,0,
+176,S25A,A,L0r,P0,1,0,,6,6,"2,000|extra usage|usage is billed"
+178,V253A,A,L0r,P0,2,0,,5,4,extra usage|usage is billed|billed automatically
+179,S25A,A,L3,P0,1,0,,6,6,"2,000|extra usage|usage is billed"
+180,V223B,B,L0r,P2,1,0,,0,0,
+181,S04B,B,L2,P0,1,0,,0,0,
+183,S03A,A,L1,P0,2,0,,3,3,hyphen|dot instead|seller's chat
+184,V552A,A,L1,P0,0,0,,6,4,personal account|not alamo youth fc|no purchase protection
+187,V044B,B,L0r,P2,3,0,,0,0,
+188,S15A,A,L0r,P2,2,0,,6,5,still billed|billed usd 0.10|url variations
+189,V254A,A,L0r,P0,2,0,,5,4,extra usage|usage is billed|billed automatically
+190,S09B,B,L2,P0,3,0,,0,0,
+191,S22B,B,L3,P2,1,0,,0,0,
+196,S06B,B,L0r,P2,2,0,,0,0,
+199,V184A,A,L1,P0,1,0,,6,4,billing terms|does not match|popup says
+200,V341B,B,L0r,P0,2,0,,0,0,
+204,V061A,A,L2,P0,3,0,,5,3,paid on 28 oct|re-keyed|same invoice
+208,S04B,B,L3,P0,1,0,,0,0,
+211,V344A,A,L2,P2,2,0,,2,0,
+212,V253B,B,L1,P0,1,0,,0,0,
+213,V534A,A,L1,P0,0,0,,4,4,7 days old|no purchase protection|protected purchase
+219,S32B,B,L1,P0,2,0,,0,0,
+220,V551A,A,L0r,P0,0,0,,5,3,personal account|not vintage_deals|no purchase protection
+222,S02A,A,L1,P2,4,1,100,3,3,"did you mean 3,154?|100 times|times more"
+223,V491B,B,L0r,P0,2,0,,0,0,
+226,S12A,A,L2,P0,1,0,,3,2,paid $300 on 2 nov|same amount
+227,V254B,B,L0r,P2,1,0,,0,0,
+229,V571B,B,L1,P2,1,0,,0,0,
+231,S18B,B,L0r,P2,1,0,,0,0,
+233,S14A,A,L3,P2,2,0,,5,4,went through|already went through|captured at 02:14
+234,V044A,A,L0r,P0,2,0,,3,2,45.00|bananas unit
+237,V534A,A,L0r,P2,0,0,,4,4,7 days old|no purchase protection|protected purchase
+238,V583B,B,L2,P0,2,0,,0,0,
+239,V541A,A,L0r,P0,0,0,,2,0,
+240,S55B,B,L2,P2,1,0,,0,0,
+244,S02A,A,L0r,P0,4,1,100,3,3,"did you mean 3,154?|100 times|times more"
+246,V471A,A,L2,P2,2,0,,1,0,
+248,V264B,B,L1,P2,1,0,,0,0,
+249,S06A,A,L2,P2,3,0,,5,3,paid on 3 nov|re-keyed|same invoice
+251,V183B,B,L0r,P2,1,0,,0,0,
+252,V071A,A,L0r,P2,2,0,,2,1,not mr. lim
+254,S32A,A,L0r,P0,2,0,,3,0,
+255,S06B,B,L2,P0,2,0,,0,0,
+256,S04A,A,L3,P0,1,0,,4,4,"1,200|pieces|garlic unit"
+257,S07B,B,L3,P2,3,0,,0,0,
+258,V043B,B,L2,P0,3,0,,0,0,
+259,V532A,A,L1,P0,0,0,,5,5,3 days old|account is 3 days|no purchase protection
+263,V534B,B,L2,P0,2,0,,0,0,
+264,V184B,B,L2,P2,1,0,,0,0,
+266,S47B,B,L0r,P0,1,0,,0,0,
+269,V473B,B,L1,P0,1,0,,0,0,
+270,S04A,A,L1,P0,1,0,,4,4,"1,200|pieces|garlic unit"
+271,V581A,A,L0r,P0,3,0,,2,2,only has £300|switch to the visa
+272,V091A,A,L2,P0,0,0,,3,2,known number|only in an email
+273,S34B,B,L0r,P0,2,0,,0,0,
+274,V554B,B,L2,P2,1,0,,0,0,
+275,S34B,B,L2,P0,2,0,,0,0,
+277,V551A,A,L1,P2,0,0,,5,3,personal account|not vintage_deals|no purchase protection
+278,V321B,B,L2,P2,2,0,,0,0,
+279,V474A,A,L2,P0,2,0,,2,0,
+280,V584B,B,L0r,P0,2,0,,0,0,
+283,V554A,A,L0r,P0,0,0,,6,4,personal account|not crafted goods|no purchase protection
+285,V341A,A,L2,P0,2,0,,3,2,two diana|never been paid
+289,V471A,A,L0r,P0,2,0,,1,0,
+291,S53A,A,L0r,P0,0,0,,7,6,5 days old|account is 5 days|no purchase protection
+294,V553B,B,L0r,P0,1,0,,0,0,
+296,V471B,B,L2,P0,1,0,,0,0,
+297,V061B,B,L1,P0,2,0,,0,0,
+298,S15A,A,L1,P0,2,0,,6,5,still billed|billed usd 0.10|url variations
+299,S11B,B,L2,P0,1,0,,0,0,
+300,V532B,B,L0r,P2,2,0,,0,0,
+303,V552B,B,L2,P0,1,0,,0,0,
+312,V253B,B,L2,P0,1,0,,0,0,
+316,S22B,B,L0r,P0,1,0,,0,0,
+317,V553B,B,L2,P0,1,0,,0,0,
+318,V473B,B,L0r,P0,1,0,,0,0,
+320,V582A,A,L2,P0,3,0,,4,2,only has $420|switch to the visa
+322,S12A,A,L0r,P2,1,0,,3,3,a refund|paid $300 on 2 nov|same amount
+323,V133B,B,L1,P2,1,0,,0,0,
+324,V182B,B,L1,P0,1,0,,0,0,
+326,S32B,B,L2,P0,2,0,,0,0,
+327,V031B,B,L0r,P0,2,0,,0,0,
+329,V573A,A,L0r,P2,1,0,,2,1,not the same
+331,S53B,B,L3,P0,2,0,,0,0,
+332,S10B,B,L2,P0,0,0,,0,0,
+335,S02A,A,L3,P0,4,1,100,3,3,"did you mean 3,154?|100 times|times more"
+337,S14B,B,L0r,P0,1,0,,0,0,
+339,S58B,B,L3,P0,2,0,,0,0,
+340,S53B,B,L1,P2,2,0,,0,0,
+343,S54B,B,L0r,P0,2,0,,0,0,
+344,V223A,A,L0r,P0,1,0,,4,2,duplicate|same amount
+345,V341B,B,L1,P2,2,0,,0,0,
+346,S13A,A,L2,P0,0,0,,5,4,annual plan|converts|after 7 days
+348,V321B,B,L0r,P0,2,0,,0,0,
+349,V223A,A,L2,P0,1,0,,4,2,duplicate|same amount
+351,V553A,A,L0r,P2,0,0,,6,4,personal account|not vestavia garden club|no purchase protection
+353,S11B,B,L3,P2,1,0,,0,0,
+354,V093A,A,L1,P2,0,0,,3,2,known number|only in an email
+355,V344B,B,L1,P2,2,0,,0,0,
+357,S02A,A,L2,P0,4,1,100,3,3,"did you mean 3,154?|100 times|times more"
+358,V551A,A,L2,P0,0,0,,5,3,personal account|not vintage_deals|no purchase protection
+360,S18B,B,L1,P0,1,0,,0,0,
+365,S12A,A,L1,P0,1,0,,3,2,paid $300 on 2 nov|same amount
+368,V062A,A,L1,P0,3,0,,5,3,paid on 1 nov|re-keyed|same invoice
+369,V043A,A,L0r,P0,2,0,,3,3,"1,196|pieces|garlic unit"
+371,V584A,A,L1,P0,3,0,,4,3,pulls from your savings|you usually use visa|switch to the visa
+374,V152B,B,L1,P0,1,1,2027,0,0,
+376,V093B,B,L0r,P2,2,0,,0,0,
+377,S42B,B,L0r,P0,1,0,,0,0,
+382,S58B,B,L0r,P0,2,0,,0,0,
+383,S10A,A,L0r,P0,1,0,,6,3,no domain purchase|usd 160|160/year
+384,V473A,A,L1,P2,0,0,,1,0,
+385,V581B,B,L2,P0,2,0,,0,0,
+387,V042B,B,L0r,P0,3,0,,0,0,
+388,V182B,B,L2,P0,1,0,,0,0,
+389,V341A,A,L0r,P0,2,0,,3,2,two diana|never been paid
+391,S55B,B,L3,P0,1,0,,0,0,
+393,S53A,A,L3,P2,0,0,,7,6,5 days old|account is 5 days|no purchase protection
+395,V043B,B,L0r,P2,3,0,,0,0,
+396,V113A,A,L0r,P0,1,0,,5,2,out of stock|different tv
+397,S32A,A,L2,P2,2,0,,3,0,
+399,S26A,A,L1,P0,0,0,,7,7,test fails|fails|two seats
+400,V344B,B,L0r,P0,2,0,,0,0,
+401,V091A,A,L1,P0,0,0,,3,2,known number|only in an email
+402,V583B,B,L1,P2,2,0,,0,0,
+403,S58B,B,L2,P0,2,0,,0,0,
+412,V113A,A,L1,P0,1,0,,5,2,out of stock|different tv
+414,V181B,B,L0r,P0,1,0,,0,0,
+416,V133B,B,L2,P2,1,0,,0,0,
+418,V073A,A,L0r,P0,2,0,,3,2,not hannah|belongs to hana
+419,S32A,A,L3,P0,2,0,,3,0,
+420,S12B,B,L3,P0,1,0,,0,0,
+424,S14A,A,L0r,P2,2,0,,5,4,went through|already went through|captured at 02:14
+425,V253A,A,L2,P2,2,0,,5,4,extra usage|usage is billed|billed automatically
+427,S02B,B,L0r,P0,2,0,,0,0,
+428,S35B,B,L0r,P0,1,1,32.67,1,1,32.67
+430,V061B,B,L0r,P0,2,0,,0,0,
+431,S49A,A,L2,P2,2,0,,4,2,never paid|one digit
+432,V321A,A,L2,P2,2,0,,2,0,
+433,V552A,A,L0r,P2,0,0,,6,4,personal account|not alamo youth fc|no purchase protection
+436,S11B,B,L0r,P0,1,0,,0,0,
+440,S49A,A,L3,P2,2,0,,4,2,never paid|one digit
+444,S07A,A,L2,P0,3,0,,3,2,not jess|belongs to dan
+445,V491B,B,L1,P0,2,0,,0,0,
+446,V152B,B,L0r,P0,1,1,2027,0,0,
+447,V044B,B,L1,P0,3,0,,0,0,
+448,V571B,B,L2,P2,1,0,,0,0,
+453,V551B,B,L2,P0,1,0,,0,0,
+455,V554B,B,L0r,P0,1,0,,0,0,
+459,V582A,A,L0r,P2,3,0,,4,2,only has $420|switch to the visa
+460,S49B,B,L1,P0,2,0,,0,0,
+463,V321A,A,L0r,P0,2,0,,2,0,
+466,S07B,B,L2,P2,3,0,,0,0,
+468,V133A,A,L2,P2,1,0,,3,3,after 7 days|unless cancelled|reminder to cancel
+471,V104A,A,L1,P0,2,0,,1,0,
+472,V491A,A,L1,P0,1,0,,2,1,one letter
+475,V133A,A,L1,P0,1,0,,3,3,after 7 days|unless cancelled|reminder to cancel
+476,V071B,B,L2,P0,3,0,,0,0,
+477,V223B,B,L1,P0,1,0,,0,0,
+482,V133A,A,L0r,P0,1,0,,3,3,after 7 days|unless cancelled|reminder to cancel
+483,V104A,A,L2,P0,2,0,,1,0,
+486,V471A,A,L1,P0,2,0,,1,0,
+488,V113B,B,L0r,P0,1,0,,0,0,
+491,V573A,A,L2,P0,1,0,,2,1,not the same
+493,S26A,A,L2,P2,0,0,,7,7,test fails|fails|two seats
+494,V583B,B,L0r,P0,2,0,,0,0,
+495,S15B,B,L3,P0,1,0,,0,0,
+500,S57A,A,L1,P2,0,0,,5,4,only accepts usdc|won't be credited|swap to usdc
+501,S12B,B,L1,P2,1,0,,0,0,
+503,V341A,A,L1,P0,2,0,,3,2,two diana|never been paid
+504,V074A,A,L0r,P0,2,0,,5,4,not matt|belongs to mark|dentist
+506,V531A,A,L0r,P0,0,0,,5,4,3 days old|account is 3 days|no purchase protection
+508,S13A,A,L1,P0,0,0,,5,4,annual plan|converts|after 7 days
+510,V094A,A,L0r,P2,0,0,,3,2,known number|only in an email
+511,V071B,B,L0r,P0,3,0,,0,0,
+512,S02B,B,L3,P0,2,0,,0,0,
+514,S13B,B,L0r,P2,0,0,,3,1,90/year
+515,S15B,B,L2,P0,1,0,,0,0,
+516,S22B,B,L2,P0,1,0,,0,0,
+517,V104B,B,L2,P0,2,0,,0,0,
+518,V072A,A,L2,P0,3,0,,3,2,not ava|belongs to mia
+520,V104A,A,L0r,P0,2,0,,1,0,
+521,V471B,B,L0r,P2,1,0,,0,0,
+523,V043A,A,L1,P0,2,0,,3,2,"1,196|garlic unit"
+524,S15A,A,L2,P0,2,0,,6,5,still billed|billed usd 0.10|url variations
+525,V042A,A,L1,P0,2,0,,3,3,"1,200|pieces|garlic unit"
+526,S07A,A,L0r,P0,3,0,,3,2,not jess|belongs to dan
+530,S54B,B,L3,P0,2,0,,0,0,
+531,S18A,A,L2,P0,1,0,,7,4,billing terms|does not match|popup says
+532,S03B,B,L0r,P2,2,0,,0,0,
+533,V583A,A,L1,P0,3,0,,4,2,switch to the visa|you usually use visa
+534,S35A,A,L0r,P0,1,0,,4,3,still being authori|charged twice|wait for it to settle
+537,S10A,A,L3,P0,1,0,,6,3,no domain purchase|usd 160|160/year
+540,V581B,B,L0r,P0,2,0,,0,0,
+541,V582A,A,L1,P0,3,0,,4,2,only has $420|switch to the visa
+542,V254B,B,L1,P0,1,0,,0,0,
+543,V031A,A,L2,P0,4,0,,1,0,
+544,S12B,B,L0r,P0,1,0,,0,0,
+545,V541A,A,L2,P2,0,0,,2,0,
+546,S32B,B,L0r,P0,2,0,,0,0,
+549,V181A,A,L0r,P0,2,0,,5,3,does not match|popup says|billing terms
+550,V474A,A,L1,P0,2,0,,2,0,
+552,S34A,A,L3,P0,2,0,,3,2,two jordan|never been paid
+554,V042B,B,L1,P2,3,0,,0,0,
+555,S03B,B,L2,P0,2,0,,0,0,
+557,S15A,A,L3,P0,2,0,,6,5,still billed|billed usd 0.10|url variations
+558,V553B,B,L1,P0,1,0,,0,0,
+559,V531A,A,L2,P0,0,0,,5,5,3 days old|account is 3 days|no purchase protection
+560,V113A,A,L2,P0,1,0,,5,2,out of stock|different tv
+564,S03B,B,L1,P0,2,0,,0,0,
+565,S22A,A,L2,P0,2,1,350,7,6,"3,600|paid twice|insurance was paid"
+567,S32A,A,L1,P2,2,0,,3,0,
+568,V183A,A,L1,P0,2,0,,6,4,billing terms|does not match|popup says
+570,V071A,A,L2,P0,2,0,,2,1,not mr. lim
+574,V552A,A,L2,P2,0,0,,6,4,personal account|not alamo youth fc|no purchase protection
+576,S11A,A,L3,P0,1,0,,6,2,out of stock|different tv
+577,S26B,B,L1,P2,0,0,,1,1,retry test
+578,V183B,B,L1,P0,1,0,,0,0,
+579,S09B,B,L3,P0,3,0,,0,0,
+580,V573A,A,L1,P0,1,0,,2,1,not the same
+581,S35B,B,L2,P0,1,0,,1,0,
+582,V031A,A,L1,P0,4,0,,1,0,
+583,V091B,B,L0r,P0,2,0,,0,0,
+586,S34A,A,L2,P0,2,0,,3,2,two jordan|never been paid
+587,V093B,B,L2,P2,2,0,,0,0,
+590,V584B,B,L2,P2,2,0,,0,0,
+592,V322A,A,L0r,P0,2,0,,2,0,
+594,V073B,B,L1,P0,2,0,,0,0,
+595,V472A,A,L0r,P0,0,0,,1,0,
+596,S03A,A,L2,P2,2,0,,3,3,hyphen|dot instead|seller's chat
+599,S09B,B,L0r,P0,3,0,,0,0,
+605,V152A,A,L2,P0,2,0,,5,4,still billed|billed usd 0.25|url variations
+609,S18A,A,L0r,P0,1,0,,7,4,billing terms|does not match|popup says
+610,V534B,B,L1,P0,2,0,,0,0,
+611,V473A,A,L2,P0,0,0,,1,0,
+612,S04A,A,L0r,P2,1,0,,4,4,"1,200|pieces|garlic unit"
+614,S55B,B,L1,P0,1,0,,0,0,
+616,V554A,A,L1,P0,0,0,,6,4,personal account|not crafted goods|no purchase protection
+618,S14A,A,L2,P0,2,0,,5,4,went through|already went through|captured at 02:14
+619,S42B,B,L2,P0,1,0,,0,0,
+620,V341B,B,L2,P0,2,0,,0,0,
+624,S49A,A,L0r,P0,2,0,,4,2,never paid|one digit
+631,V322B,B,L0r,P0,2,0,,0,0,
+633,V581B,B,L1,P0,2,0,,0,0,
+634,V492B,B,L1,P0,2,0,,0,0,
+635,V072B,B,L2,P2,3,0,,0,0,
+636,V091B,B,L2,P0,2,0,,0,0,
+637,V551B,B,L0r,P0,1,0,,0,0,
+640,S10A,A,L2,P0,1,0,,6,3,no domain purchase|usd 160|160/year
+641,V474B,B,L1,P2,1,0,,0,0,
+642,S25B,B,L2,P0,0,0,,0,0,
+644,V322B,B,L1,P2,2,0,,0,0,
+645,S06A,A,L1,P0,3,0,,5,3,paid on 3 nov|re-keyed|same invoice
+647,S26B,B,L2,P0,0,0,,1,1,retry test
+649,V181A,A,L2,P0,2,0,,5,3,does not match|popup says|billing terms
+650,S10B,B,L3,P0,0,0,,0,0,
+651,V344B,B,L2,P0,2,0,,0,0,
+652,V044A,A,L1,P2,2,0,,3,2,45.00|bananas unit
+656,V152A,A,L0r,P2,2,0,,5,4,still billed|billed usd 0.25|url variations
+657,S14A,A,L1,P0,2,0,,5,4,went through|already went through|captured at 02:14
+658,V492A,A,L0r,P2,2,0,,1,0,
+659,S34B,B,L1,P0,2,0,,0,0,
+663,S54A,A,L1,P2,1,0,,5,2,could be held|part of your bankruptcy
+664,S13B,B,L3,P0,0,0,,3,1,90/year
+666,S04B,B,L1,P0,1,0,,0,0,
+667,V581A,A,L2,P0,3,0,,2,2,only has £300|switch to the visa
+669,V531A,A,L1,P2,0,0,,5,5,3 days old|account is 3 days|no purchase protection
+670,V182A,A,L2,P0,2,0,,6,4,billing terms|does not match|popup says
+672,S42B,B,L3,P0,1,0,,0,0,
+673,S53A,A,L1,P2,0,0,,7,6,5 days old|account is 5 days|no purchase protection
+675,V072B,B,L1,P0,3,0,,0,0,
+677,S02B,B,L2,P0,2,0,,0,0,
+679,V344A,A,L0r,P0,2,0,,2,0,
+680,V184A,A,L2,P0,1,0,,6,4,billing terms|does not match|popup says
+681,S07A,A,L3,P0,3,0,,3,2,not jess|belongs to dan
+682,V254A,A,L1,P0,2,0,,5,4,extra usage|usage is billed|billed automatically
+683,V472B,B,L1,P2,1,0,,0,0,
+684,S55A,A,L3,P2,0,0,,6,4,personal account|not bargain warehouse|no purchase protection
+687,V093A,A,L2,P0,0,0,,3,2,known number|only in an email
+688,V551B,B,L1,P0,1,0,,0,0,
+689,S34B,B,L3,P2,2,0,,0,0,
+694,V532B,B,L2,P2,2,0,,0,0,
+695,V181B,B,L1,P0,1,0,,0,0,
+696,V554B,B,L1,P0,1,0,,0,0,
+698,S15B,B,L0r,P0,1,1,2026,0,0,
+699,V573B,B,L0r,P0,1,0,,0,0,
+701,S07B,B,L0r,P0,3,0,,0,0,
+702,V182B,B,L0r,P0,1,0,,0,0,
+706,V472A,A,L1,P0,0,0,,1,0,
+707,S10B,B,L1,P0,0,0,,0,0,
+708,S12B,B,L2,P2,1,0,,0,0,
+712,V253A,A,L1,P0,2,0,,5,4,extra usage|usage is billed|billed automatically
+713,S58B,B,L1,P2,2,0,,0,0,
+714,V152A,A,L1,P0,2,0,,5,4,still billed|billed usd 0.25|url variations
+715,V532A,A,L2,P0,0,0,,5,5,3 days old|account is 3 days|no purchase protection
+717,V113B,B,L1,P2,1,0,,0,0,
+718,V322A,A,L1,P2,2,0,,2,0,
+719,V091A,A,L0r,P2,0,0,,3,2,known number|only in an email
+720,S26B,B,L3,P0,0,0,,1,1,retry test
+723,V223B,B,L2,P2,1,0,,0,0,
+724,V534B,B,L0r,P0,2,0,,0,0,
+725,V492B,B,L0r,P0,2,0,,0,0,
+726,V491A,A,L0r,P2,1,0,,2,1,one letter
+727,V492A,A,L1,P0,2,0,,1,0,
+728,S49B,B,L0r,P0,2,0,,0,0,
+729,S58A,A,L3,P0,3,0,,5,3,only has $120|switch to the visa|pulls from your bank
+730,V223A,A,L1,P0,1,0,,4,2,duplicate|same amount
+731,V321A,A,L1,P2,2,0,,2,0,
+732,V072B,B,L0r,P2,3,0,,0,0,
+738,V474B,B,L2,P2,1,0,,0,0,
+739,V133B,B,L0r,P2,1,0,,0,0,
+741,V571A,A,L2,P0,0,0,,5,5,only accepts usdc|accepts usdc|won't be credited
+742,S53B,B,L0r,P0,2,0,,0,0,
+744,V553A,A,L2,P0,0,0,,6,4,personal account|not vestavia garden club|no purchase protection
+746,V184B,B,L1,P0,1,0,,0,0,
+747,V583A,A,L2,P0,3,0,,4,2,switch to the visa|you usually use visa
+748,V264A,A,L0r,P2,0,0,,1,1,restocked
+750,V183B,B,L2,P2,1,0,,0,0,
+752,V253B,B,L0r,P0,1,0,,0,0,
+753,S49B,B,L2,P0,2,0,,0,0,
+755,V582B,B,L2,P0,2,0,,0,0,
+759,S14B,B,L3,P2,1,0,,0,0,
+761,S32B,B,L3,P0,2,0,,0,0,
+763,V093A,A,L0r,P2,0,0,,3,2,known number|only in an email
+764,S22A,A,L1,P0,2,1,350,7,6,"3,600|paid twice|insurance was paid"
+766,V473B,B,L2,P0,1,0,,0,0,
+767,S18B,B,L2,P2,1,0,,0,0,
+770,V072A,A,L0r,P0,3,0,,3,2,not ava|belongs to mia
+775,S57A,A,L0r,P0,0,0,,5,4,only accepts usdc|won't be credited|swap to usdc
+781,S55A,A,L1,P0,0,0,,6,4,personal account|not bargain warehouse|no purchase protection
+782,V183A,A,L2,P0,2,0,,6,4,billing terms|does not match|popup says
+785,S11A,A,L2,P2,1,0,,6,2,out of stock|different tv
+786,V264B,B,L2,P0,1,0,,0,0,
+789,V541B,B,L2,P0,2,0,,0,0,
+791,V584A,A,L2,P0,3,0,,4,3,pulls from your savings|you usually use visa|switch to the visa
+793,V073B,B,L0r,P2,2,0,,0,0,
+794,V534A,A,L2,P0,0,0,,4,4,7 days old|no purchase protection|protected purchase
+795,V031B,B,L1,P0,2,0,,0,0,
+796,V474B,B,L0r,P0,1,0,,0,0,
+797,S26B,B,L0r,P2,0,0,,1,1,retry test
+800,V042A,A,L2,P0,2,0,,3,3,"1,200|pieces|garlic unit"
+801,S03A,A,L0r,P0,2,0,,3,3,hyphen|dot instead|seller's chat
+805,S25A,A,L2,P0,1,0,,6,6,"2,000|extra usage|usage is billed"
+809,S55A,A,L2,P2,0,0,,6,4,personal account|not bargain warehouse|no purchase protection
+810,V472B,B,L0r,P0,1,0,,0,0,
+811,V583A,A,L0r,P0,3,0,,4,2,switch to the visa|you usually use visa
+814,S03A,A,L3,P0,2,0,,3,3,hyphen|dot instead|seller's chat
+816,V322A,A,L2,P0,2,0,,2,0,
+817,S54A,A,L2,P0,1,0,,5,2,could be held|part of your bankruptcy
+819,V044B,B,L2,P0,3,0,,0,0,
+827,V472A,A,L2,P2,0,0,,1,0,
+828,V571A,A,L0r,P0,0,0,,5,4,only accepts usdc|won't be credited|swap to usdc
+829,V181A,A,L1,P2,2,0,,5,3,does not match|popup says|billing terms
+830,V094A,A,L2,P2,0,0,,3,2,known number|only in an email
+832,V584B,B,L1,P2,2,0,,0,0,
+833,V264A,A,L2,P2,0,0,,1,1,restocked
+834,V181B,B,L2,P0,1,0,,0,0,
+835,S13B,B,L1,P0,0,0,,3,1,90/year
+836,V094B,B,L2,P2,2,0,,0,0,
+838,S04B,B,L0r,P0,1,0,,0,0,
+840,V071A,A,L1,P0,2,0,,2,1,not mr. lim
+842,S53B,B,L2,P0,2,0,,0,0,
+843,V062B,B,L1,P2,2,0,,0,0,
+847,S06B,B,L3,P0,2,0,,0,0,
+849,S10B,B,L0r,P0,0,0,,0,0,
+850,S12A,A,L3,P0,1,0,,3,2,paid $300 on 2 nov|same amount
+853,S22A,A,L3,P0,2,1,350,7,6,"3,600|paid twice|insurance was paid"
+854,S54B,B,L1,P2,2,0,,0,0,
+855,V531B,B,L2,P2,2,0,,0,0,
+857,V074B,B,L0r,P0,2,0,,0,0,
+858,S35A,A,L3,P2,1,0,,4,3,still being authori|charged twice|wait for it to settle
+860,S18A,A,L3,P2,1,0,,7,4,billing terms|does not match|popup says
+861,V532A,A,L0r,P0,0,0,,5,5,3 days old|account is 3 days|no purchase protection
+862,V093B,B,L1,P2,2,0,,0,0,
+863,S09A,A,L0r,P0,0,0,,3,2,known number|only in an email
+864,S34A,A,L0r,P2,2,0,,3,2,two jordan|never been paid
+866,S55B,B,L0r,P2,1,0,,0,0,
+871,S18A,A,L1,P2,1,0,,7,4,billing terms|does not match|popup says
+873,S18B,B,L3,P0,1,0,,0,0,
+876,S14B,B,L1,P0,1,0,,0,0,
+878,S13A,A,L3,P0,0,0,,5,4,annual plan|converts|after 7 days
+881,S49A,A,L1,P0,2,0,,4,2,never paid|one digit
+882,S34A,A,L1,P0,2,0,,3,2,two jordan|never been paid
+884,V571B,B,L0r,P0,1,0,,0,0,
+887,S57B,B,L1,P2,1,0,,0,0,
+889,S06B,B,L1,P0,2,0,,0,0,
+891,S26A,A,L0r,P0,0,0,,7,7,test fails|fails|two seats
+893,V094B,B,L0r,P0,2,0,,0,0,
+895,V073B,B,L2,P2,2,0,,0,0,
+896,V062A,A,L0r,P2,3,0,,5,3,paid on 1 nov|re-keyed|same invoice
+899,S11A,A,L0r,P2,1,0,,6,2,out of stock|different tv
+900,S42B,B,L1,P0,1,0,,0,0,
+901,V473A,A,L0r,P0,0,0,,1,0,
+902,V584A,A,L0r,P0,3,0,,4,3,pulls from your savings|you usually use visa|switch to the visa
+903,V062B,B,L0r,P0,2,0,,0,0,

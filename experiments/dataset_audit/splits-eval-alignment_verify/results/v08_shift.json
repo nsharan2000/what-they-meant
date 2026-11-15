@@ -1,0 +1,229 @@
+{
+ "a_lookups": {
+  "train": {
+   "rows": 153,
+   "lookups_per_row": {
+    "0": 4,
+    "1": 147,
+    "2": 2
+   },
+   "rows_with_2plus": 2
+  },
+  "hard_test": {
+   "rows": 26,
+   "lookups_per_row": {
+    "1": 6,
+    "2": 15,
+    "3": 5
+   },
+   "rows_with_2plus": 20
+  },
+  "hard_train": {
+   "rows": 54,
+   "lookups_per_row": {
+    "1": 27,
+    "2": 25,
+    "3": 2
+   },
+   "rows_with_2plus": 27
+  },
+  "hard_val": {
+   "rows": 10,
+   "lookups_per_row": {
+    "1": 6,
+    "2": 2,
+    "3": 2
+   },
+   "rows_with_2plus": 4
+  },
+  "test": {
+   "rows": 82,
+   "lookups_per_row": {
+    "0": 2,
+    "1": 74,
+    "2": 6
+   },
+   "rows_with_2plus": 6
+  },
+  "val": {
+   "rows": 35,
+   "lookups_per_row": {
+    "1": 35
+   },
+   "rows_with_2plus": 0
+  }
+ },
+ "a_twins_first_differ_at_lookup2plus": {
+  "train": [],
+  "test": [
+   "V293"
+  ],
+  "hard_test": [
+   "H161"
+  ]
+ },
+ "b_untrained_strata": {
+  "val": {
+   "untrained_sub_domain_rows": {},
+   "untrained_tag_rows": 10,
+   "untrained_tags": {
+    "waved_warning": 6,
+    "new:refund_then_dispute": 4
+   }
+  },
+  "test": {
+   "untrained_sub_domain_rows": {
+    "savings_fd_wallet": 6
+   },
+   "untrained_tag_rows": 4,
+   "untrained_tags": {
+    "waved_warning": 4
+   }
+  },
+  "hard_test": {
+   "untrained_sub_domain_rows": {
+    "savings_fd_wallet": 2
+   },
+   "untrained_tag_rows": 2,
+   "untrained_tags": {
+    "waved_warning": 2
+   }
+  },
+  "hard_val": {
+   "untrained_sub_domain_rows": {},
+   "untrained_tag_rows": 4,
+   "untrained_tags": {
+    "waved_warning": 2,
+    "new:refund_then_dispute": 2
+   }
+  }
+ },
+ "c_act_share_twinB": {
+  "train": [
+   5,
+   76
+  ],
+  "hard_test": [
+   2,
+   13
+  ],
+  "hard_train": [
+   3,
+   27
+  ],
+  "hard_val": [
+   1,
+   5
+  ],
+  "test": [
+   5,
+   41
+  ],
+  "val": [
+   3,
+   17
+  ]
+ },
+ "d_level_prompt_mix": {
+  "trained_decision_rows_by_level": {
+   "L1": 151,
+   "L2": 144,
+   "L0r": 152,
+   "L3": 50
+  },
+  "trained_decision_rows_by_prompt": {
+   "P0": 345,
+   "P2": 152
+  },
+  "trained_P2_share": 0.306,
+  "eval_grid": {
+   "levels": [
+    "L0r",
+    "L1",
+    "L2",
+    "L2s"
+   ],
+   "prompts": [
+    "P0",
+    "P2"
+   ],
+   "P2_share": 0.5
+  },
+  "L3_in_training_rows": 87,
+  "L2s_in_training_rows": 0
+ },
+ "e_lookup_variant_robustness": {
+  "train": {
+   "variant_calls": 180,
+   "same_result": 180,
+   "share_same": 1.0,
+   "examples_changed": []
+  },
+  "test": {
+   "variant_calls": 95,
+   "same_result": 93,
+   "share_same": 0.979,
+   "examples_changed": [
+    [
+     "V051A",
+     "get_transactions",
+     {
+      "query": "Javier"
+     },
+     "{\"items\": [], \"offset\": 0, \"total\": 0}"
+    ],
+    [
+     "V051A",
+     "get_transactions",
+     {
+      "query": "Trevino"
+     },
+     "{\"items\": [{\"amount\": 25.0, \"counterparty\": \"Javi Trevi\\u00f1o\", \"currency\": \"USD\", \"date\": \"2026-10-29\", \"direction\": \""
+    ]
+   ]
+  },
+  "hard_test": {
+   "variant_calls": 80,
+   "same_result": 72,
+   "share_same": 0.9,
+   "examples_changed": [
+    [
+     "H191A",
+     "get_checkout_terms",
+     {
+      "merchant": "AI"
+     },
+     "{\"account_login\": \"zoe.park@montgomeryridge.edu\", \"amount_today\": 1.99, \"cancellation_address\": \"billing@quillo.ai\", \"ca"
+    ],
+    [
+     "H191B",
+     "get_checkout_terms",
+     {
+      "merchant": "AI"
+     },
+     "{\"access_days\": 7, \"account_login\": \"zoe.park@montgomeryridge.edu\", \"amount_today\": 1.99, \"cancellation_instructions\": n"
+    ],
+    [
+     "H211A",
+     "search_store",
+     {
+      "query": "credits",
+      "store": "",
+      "max_price": 40
+     },
+     "{\"result\": \"No matching records found.\"}"
+    ],
+    [
+     "H211B",
+     "search_store",
+     {
+      "query": "credits",
+      "store": "",
+      "max_price": 40
+     },
+     "{\"result\": \"No matching records found.\"}"
+    ]
+   ]
+  }
+ }
+}

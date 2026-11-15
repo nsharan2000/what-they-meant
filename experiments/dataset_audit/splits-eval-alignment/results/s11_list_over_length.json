@@ -1,0 +1,52 @@
+{
+ "over_4096": {
+  "n": 1244,
+  "by_file": {
+   "dpo_train.jsonl": 291,
+   "grpo_train.jsonl": 331,
+   "sft_train.jsonl": 502,
+   "sft_val.jsonl": 120
+  },
+  "by_file_level": {
+   "dpo_train.jsonl|L1": 97,
+   "dpo_train.jsonl|L2": 144,
+   "dpo_train.jsonl|L3": 50,
+   "grpo_train.jsonl|L1": 137,
+   "grpo_train.jsonl|L2": 144,
+   "grpo_train.jsonl|L3": 50,
+   "sft_train.jsonl|L1": 155,
+   "sft_train.jsonl|L2": 260,
+   "sft_train.jsonl|L3": 87,
+   "sft_val.jsonl|L1": 32,
+   "sft_val.jsonl|L2": 68,
+   "sft_val.jsonl|L3": 20
+  },
+  "by_file_turn": {
+   "dpo_train.jsonl|decision": 291,
+   "grpo_train.jsonl|decision": 331,
+   "sft_train.jsonl|decision": 285,
+   "sft_train.jsonl|lookup1": 215,
+   "sft_train.jsonl|lookup2": 2,
+   "sft_val.jsonl|decision": 62,
+   "sft_val.jsonl|lookup1": 58
+  }
+ },
+ "over_8192": {
+  "n": 0,
+  "by_file": {},
+  "by_file_level": {},
+  "by_file_turn": {}
+ },
+ "max_total": {
+  "file": "grpo_train.jsonl",
+  "i": 485,
+  "scenario_id": "V183B",
+  "level": "L2",
+  "prompt_setting": "P2",
+  "turn": "decision",
+  "twin": "B_should_act",
+  "prompt_tokens": 7435,
+  "target_tokens": 256,
+  "total": 7691
+ }
+}

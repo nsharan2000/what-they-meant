@@ -1,0 +1,28 @@
+{
+ "rebuild_dir": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/twin-contrast-shortcuts/cache/rebuild_v121",
+ "counts_rebuild": {
+  "sft_train": 1000,
+  "sft_val": 224,
+  "dpo_train": 508,
+  "grpo_train": 510
+ },
+ "counts_reported": {
+  "sft_train": 1000,
+  "sft_val": 224,
+  "dpo_train": 508,
+  "grpo_train": 510
+ },
+ "counts_match": true,
+ "dropped_match": true,
+ "sha256": {
+  "sft_train": "de5631ae85c38474781f9ccaef6c040b396507e19767d3fc3365a01ee9759637",
+  "sft_val": "cf122cffd91dc66dd358f1b07228de0575dc0e1e77e9f6dd6777028bfeb79847",
+  "dpo_train": "8573adfabd3ed9c2a52d5f26086c64add9901edf7b1df94eb5083e6bff66e20b",
+  "grpo_train": "242afb724f3dcc4f9d5637d7de51aa9669ce42e60caebe1ca889d46ffa36cf46"
+ },
+ "sha256_curated_sft_val_equals_rebuild": true
+}
+sft_train 1000 -> 904 not-in-rebuild: 0 {'curator_secrets_gate|B|decision': 6, 'curator_secrets_gate|A|lookup1': 5, 'curator_secrets_gate|A|decision': 6, 'curator_exact_duplicate|A|lookup1': 41, 'curator_exact_duplicate|B|lookup1': 31, 'curator_secrets_gate|B|lookup1': 5, 'curator_exact_duplicate_of_secrets_gated_row|A|lookup1': 1, 'curator_exact_duplicate_of_secrets_gated_row|B|lookup1': 1}
+sft_val 224 -> 224 not-in-rebuild: 0 {}
+dpo_train 508 -> 496 not-in-rebuild: 0 {'curator_secrets_gate|B|decision': 6, 'curator_secrets_gate|A|decision': 6}
+grpo_train 510 -> 496 not-in-rebuild: 0 {'grpo_prompt_not_in_curated_dpo|B|decision': 6, 'grpo_prompt_not_in_curated_dpo|A|decision': 8}

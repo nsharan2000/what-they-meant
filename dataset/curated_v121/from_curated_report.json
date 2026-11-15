@@ -1,0 +1,83 @@
+{
+ "sft": {
+  "normalised_only": 904,
+  "original": 1000,
+  "curated_export": 904,
+  "kept": 904,
+  "original_distinct_exact": 926
+ },
+ "sft_val_copied": 224,
+ "dpo": {
+  "normalised_only": 496,
+  "original": 508,
+  "curated_export": 496,
+  "kept": 496,
+  "original_distinct_exact": 508
+ },
+ "grpo": {
+  "original": 510,
+  "kept": 496,
+  "rule": "prompt survived the DPO curation; one row per prompt"
+ },
+ "composition": {
+  "sft_train": {
+   "twin": {
+    "A": 446,
+    "B": 458
+   },
+   "level": {
+    "L0r": 281,
+    "L1": 276,
+    "L2": 260,
+    "L3": 87
+   },
+   "prompt_setting": {
+    "P0": 610,
+    "P2": 294
+   },
+   "turn": {
+    "decision": 497,
+    "lookup1": 401,
+    "lookup2": 6
+   }
+  },
+  "dpo_train": {
+   "twin": {
+    "A": 247,
+    "B": 249
+   },
+   "level": {
+    "L0r": 151,
+    "L1": 151,
+    "L2": 144,
+    "L3": 50
+   },
+   "prompt_setting": {
+    "P0": 345,
+    "P2": 151
+   },
+   "turn": {
+    "-": 496
+   }
+  },
+  "grpo_train": {
+   "twin": {
+    "B": 249,
+    "A": 247
+   },
+   "level": {
+    "L0r": 151,
+    "L1": 151,
+    "L2": 144,
+    "L3": 50
+   },
+   "prompt_setting": {
+    "P0": 345,
+    "P2": 151
+   },
+   "turn": {
+    "-": 496
+   }
+  }
+ }
+}

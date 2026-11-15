@@ -1,0 +1,9 @@
+first_token_is_lt {'A_decision': {'yes': 0, 'no': 247}, 'B_decision': {'yes': 249, 'no': 0}, 'B_lookup': {'yes': 209, 'no': 0}, 'A_lookup': {'yes': 197, 'no': 0}, 'P_decision': {'yes': 0, 'no': 1}, 'P_lookup': {'yes': 1, 'no': 0}}
+share_rows_first_token_lt 0.726
+target_tokens {'A_decision': {'n': 247, 'mean': 43.99, 'mean_inv': 0.0239}, 'B_decision': {'n': 249, 'mean': 49.56, 'mean_inv': 0.0207}, 'B_lookup': {'n': 209, 'mean': 32.24, 'mean_inv': 0.0325}, 'A_lookup': {'n': 197, 'mean': 32.1, 'mean_inv': 0.0326}, 'P_decision': {'n': 1, 'mean': 49.0, 'mean_inv': 0.0204}, 'P_lookup': {'n': 1, 'mean': 36.0, 'mean_inv': 0.0278}}
+total_target_tokens 36352
+coinflip_added_mean_loss_A_decision {'ln2_over_mean_tokens': np.float64(0.0158), 'mean_of_ln2_over_tokens': 0.0165, 'with_end_of_turn_token': np.float64(0.0154)}
+coinflip_added_mean_loss_B_decision {'ln2_over_mean_tokens': np.float64(0.014), 'mean_of_ln2_over_tokens': 0.0143, 'with_end_of_turn_token': np.float64(0.0137)}
+coinflip_all_decisions_added_to_global_mean_loss 0.0092
+decision_token_share_of_all_target_tokens 0.0133
+twin_prompt_diff {'n_pairs': 247, 'median_share': 0.0026, 'p90_share': 0.0193, 'median_tokens_both_sides': 19.8, 'median_tokens_from_first_diff_to_end': 83.7, 'share_pairs_first_diff_beyond_4096_tokens_from_end': 0.016}

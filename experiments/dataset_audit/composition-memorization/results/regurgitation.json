@@ -1,0 +1,80 @@
+{
+ "samples": 960,
+ "scenarios_with_varying_target_length_across_levels": [],
+ "end_id_counts": {
+  "6": 960
+ },
+ "chose_lookup": {
+  "n": 32,
+  "len_equals_own_target": 0.0,
+  "len_equals_twin_target": 0.031,
+  "chance_match_other_pairs_own_kind": 0.032,
+  "chance_match_other_pairs_twin_kind": 0.028
+ },
+ "chose_other_twin_kind": {
+  "n": 368,
+  "len_equals_own_target": 0.049,
+  "len_equals_twin_target": 0.084,
+  "chance_match_other_pairs_own_kind": 0.029,
+  "chance_match_other_pairs_twin_kind": 0.036
+ },
+ "chose_own": {
+  "n": 560,
+  "len_equals_own_target": 0.239,
+  "len_equals_twin_target": 0.062,
+  "chance_match_other_pairs_own_kind": 0.042,
+  "chance_match_other_pairs_twin_kind": 0.031
+ },
+ "distinct_length_pairs": {
+  "n": 912,
+  "own_side_samples_matching_own_len": 0.221,
+  "own_side_samples_matching_twin_len": 0.034,
+  "flipped_samples_matching_twin_len": 0.083,
+  "flipped_samples_matching_own_len": 0.046,
+  "n_flipped": 351,
+  "n_own": 529
+ },
+ "examples_flipped_exact_twin_len": [
+  {
+   "sid": "V541A",
+   "level": "L0r",
+   "decision": "approve_generic",
+   "n": 49,
+   "own": 29,
+   "twin": 49
+  },
+  {
+   "sid": "V581A",
+   "level": "L0r",
+   "decision": "approve_generic",
+   "n": 50,
+   "own": 52,
+   "twin": 50
+  },
+  {
+   "sid": "V583B",
+   "level": "L0r",
+   "decision": "tell_informed",
+   "n": 45,
+   "own": 50,
+   "twin": 45
+  },
+  {
+   "sid": "V583A",
+   "level": "L0r",
+   "decision": "approve_informed",
+   "n": 50,
+   "own": 45,
+   "twin": 50
+  },
+  {
+   "sid": "V583A",
+   "level": "L0r",
+   "decision": "approve_informed",
+   "n": 50,
+   "own": 45,
+   "twin": 50
+  }
+ ],
+ "note": "length equality is necessary, not sufficient, for a verbatim copy; the chance columns give the base rate of an exact length match against other pairs' targets of the same kind"
+}

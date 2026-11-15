@@ -1,0 +1,2227 @@
+{
+ "member_id": "leah_kim",
+ "profile": {
+  "name": "Leah Kim",
+  "age": 27,
+  "city": "Sacramento, CA",
+  "country": "United States",
+  "occupation": "Tax examiner",
+  "summary": "Kestrel member since 2023-02 · identity verified · home currency USD · connected: PayPal, Golden 1 CU Checking ••3390",
+  "email": "leah.kim@mail.com",
+  "phone": "555-0126",
+  "member_since": "2023-02-12",
+  "home_currency": "USD",
+  "timezone": "America/Los_Angeles",
+  "language": "en-US",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Leah Kim, a detail‑driven yet socially vibrant 27‑year‑old who channels competitive energy into tax audits, volleyball spikes, and K‑Pop dance, all while managing a persistent undercurrent of anxiety and a love for fermented flavors.",
+   "professional_persona": "Leah Kim, a budding tax auditor at the California Department of Tax and Fee Administration, leverages strong analytical abilities in Excel, Python, and R to dissect complex tax codes while applying meticulous record‑examination and risk‑assessment skills; their clear, diplomatic communication and love for structured teamwork let them thrive in high‑volume audits and adapt quickly to procedural changes.",
+   "cultural_background": "Leah is a second‑generation Korean‑American raised in Sacramento's vibrant Korean community. She is bilingual in English and Korean, celebrating both Chuseok and Seollal alongside American holidays. Her family places a high value on education and collective responsibility, which shaped her disciplined work ethic. While she embraces Korean cultural practices—such as cooking traditional meals and attending local Korean festivals—she also integrates California’s multicultural lifestyle, fostering an adaptable identity that balances respect for heritage with a modern, outgoing mindset.",
+   "sex": "Female",
+   "marital_status": "never_married",
+   "education_level": "bachelors",
+   "occupation": "tax_examiner_collector_or_revenue_agent"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "5a479a0f35174404bb20f0068d03e56d",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "USA",
+    "age": 27,
+    "sex": "Female",
+    "seed": 21
+   },
+   "source_age": 23,
+   "source_location": "Sacramento, CA",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Kazumi Kim",
+    "Kazumi"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "PayPal balance",
+   "currency": "USD",
+   "balance": 190.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Hannah Cho",
+   "email": "hannah.cho@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "friend · volleyball",
+   "last_paid": "2026-06-10"
+  },
+  {
+   "name": "Jun Kim",
+   "email": "jun.kim@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "relationship": "brother",
+   "last_paid": "2026-11-07"
+  },
+  {
+   "name": "Mira Song",
+   "email": "mira.song@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "coworker",
+   "last_paid": "2026-08-27"
+  },
+  {
+   "name": "Grace Yoon",
+   "email": "grace.yoon@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "friend",
+   "last_paid": "2026-10-25"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-PAYPAL",
+   "type": "payment_app",
+   "name": "PayPal",
+   "login": "leah.kim@mail.com",
+   "status": "connected",
+   "since": "2023-02-12"
+  },
+  {
+   "id": "LA-3390",
+   "type": "bank_account",
+   "name": "Golden 1 CU Checking",
+   "last4": "3390",
+   "status": "active",
+   "since": "2023-02-14"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "Spotify Premium",
+   "amount": 11.99,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "PayPal balance",
+   "next_charge": "2026-12-12",
+   "status": "active"
+  },
+  {
+   "name": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "PayPal balance",
+   "next_charge": "2026-11-19",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SA-3390 · Billing agreements · Spotify and Netflix may charge the PayPal balance each month."
+ ],
+ "notes": [
+  "User has PayPal only. Note: PayPal can find Venmo users by email or phone, not by name.",
+  "Prefers short answers."
+ ],
+ "transactions": [
+  {
+   "id": "KXV7WXKK3G",
+   "date": "2026-11-12",
+   "time": "22:04",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KX0DH10EYY",
+   "date": "2026-11-07",
+   "time": "11:36",
+   "counterparty": "Jun Kim",
+   "handle": "jun.kim@mail.com",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Umma's phone bill"
+  },
+  {
+   "id": "KXLDHRGBGC",
+   "date": "2026-10-31",
+   "time": "09:36",
+   "counterparty": "Seoulful Merch",
+   "amount": 53.01,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "album"
+  },
+  {
+   "id": "KX2BHTG47H",
+   "date": "2026-10-30",
+   "time": "12:12",
+   "counterparty": "Golden 1 CU Checking ••3390",
+   "amount": 120.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KXSC682QDZ",
+   "date": "2026-10-25",
+   "time": "14:01",
+   "counterparty": "Grace Yoon",
+   "handle": "grace.yoon@mail.com",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "noraebang"
+  },
+  {
+   "id": "KXL7RJ3N0G",
+   "date": "2026-10-19",
+   "time": "16:31",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXN4QKFG12",
+   "date": "2026-10-12",
+   "time": "14:10",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXQXNPFAU7",
+   "date": "2026-10-04",
+   "time": "10:03",
+   "counterparty": "Sephora",
+   "amount": 48.27,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXS99KYF3N",
+   "date": "2026-10-03",
+   "time": "15:11",
+   "counterparty": "Hannah Cho",
+   "handle": "hannah.cho@mail.com",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "gas"
+  },
+  {
+   "id": "KX4G6986JG",
+   "date": "2026-09-28",
+   "time": "12:51",
+   "counterparty": "Target",
+   "amount": 51.89,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXV46UCH5J",
+   "date": "2026-09-23",
+   "time": "21:38",
+   "counterparty": "Grace Yoon",
+   "handle": "grace.yoon@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "kbbq"
+  },
+  {
+   "id": "KXFWCNRJXW",
+   "date": "2026-09-23",
+   "time": "18:28",
+   "counterparty": "Jun Kim",
+   "handle": "jun.kim@mail.com",
+   "amount": 100.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Chuseok gift for Umma"
+  },
+  {
+   "id": "KX1XPFYZ6T",
+   "date": "2026-09-19",
+   "time": "16:06",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXMJZ0Q056",
+   "date": "2026-09-18",
+   "time": "20:38",
+   "counterparty": "Uniqlo",
+   "amount": 73.12,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXDJDY4AKQ",
+   "date": "2026-09-14",
+   "time": "20:39",
+   "counterparty": "Uniqlo",
+   "amount": 56.84,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX8S8ZYWEX",
+   "date": "2026-09-12",
+   "time": "10:52",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXGLFNX49V",
+   "date": "2026-09-11",
+   "time": "13:44",
+   "counterparty": "Grace Yoon",
+   "handle": "grace.yoon@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "kbbq"
+  },
+  {
+   "id": "KXVLEJDW1M",
+   "date": "2026-08-27",
+   "time": "11:05",
+   "counterparty": "Mira Song",
+   "handle": "mira.song@mail.com",
+   "amount": 14.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "coffee"
+  },
+  {
+   "id": "KXZ3BFU72Z",
+   "date": "2026-08-25",
+   "time": "10:23",
+   "counterparty": "Target",
+   "amount": 45.34,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX5U9W3T9H",
+   "date": "2026-08-22",
+   "time": "08:53",
+   "counterparty": "Seoulful Merch",
+   "amount": 27.16,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXLT74PB7Z",
+   "date": "2026-08-19",
+   "time": "21:09",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXUK28M6SX",
+   "date": "2026-08-12",
+   "time": "22:10",
+   "counterparty": "Uniqlo",
+   "amount": 40.52,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXCG0RPWKL",
+   "date": "2026-08-12",
+   "time": "07:30",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXAHATPE0Z",
+   "date": "2026-08-11",
+   "time": "18:51",
+   "counterparty": "Mira Song",
+   "handle": "mira.song@mail.com",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "lunch"
+  },
+  {
+   "id": "KXGB80GEF1",
+   "date": "2026-08-07",
+   "time": "09:28",
+   "counterparty": "Golden 1 CU Checking ••3390",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KXK2Q3KPA5",
+   "date": "2026-08-05",
+   "time": "19:53",
+   "counterparty": "Target",
+   "amount": 32.84,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXLGJ35TV2",
+   "date": "2026-07-19",
+   "time": "15:29",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXP4R7VMK6",
+   "date": "2026-07-12",
+   "time": "12:19",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXULYNWCRK",
+   "date": "2026-07-11",
+   "time": "08:40",
+   "counterparty": "Sephora",
+   "amount": 27.88,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXKBGLXDZ1",
+   "date": "2026-07-08",
+   "time": "14:33",
+   "counterparty": "Jun Kim",
+   "handle": "jun.kim@mail.com",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "dinner for Appa"
+  },
+  {
+   "id": "KXHWVESQCL",
+   "date": "2026-06-23",
+   "time": "18:06",
+   "counterparty": "Grace Yoon",
+   "handle": "grace.yoon@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "thanks!"
+  },
+  {
+   "id": "KX9D7GNH1B",
+   "date": "2026-06-20",
+   "time": "14:38",
+   "counterparty": "Target",
+   "amount": 47.64,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXYFTYPHQ4",
+   "date": "2026-06-19",
+   "time": "18:14",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXFVZWRWV7",
+   "date": "2026-06-12",
+   "time": "22:37",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXA88D78E9",
+   "date": "2026-06-12",
+   "time": "19:16",
+   "counterparty": "Grace Yoon",
+   "handle": "grace.yoon@mail.com",
+   "amount": 22.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "kbbq split"
+  },
+  {
+   "id": "KXSGK16ZKG",
+   "date": "2026-06-10",
+   "time": "07:49",
+   "counterparty": "Hannah Cho",
+   "handle": "hannah.cho@mail.com",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "concert merch"
+  },
+  {
+   "id": "KX37KCUB8M",
+   "date": "2026-06-06",
+   "time": "09:42",
+   "counterparty": "Grace Yoon",
+   "handle": "grace.yoon@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "thanks!"
+  },
+  {
+   "id": "KX015P446W",
+   "date": "2026-05-28",
+   "time": "17:30",
+   "counterparty": "Jun Kim",
+   "handle": "jun.kim@mail.com",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Umma's phone bill"
+  },
+  {
+   "id": "KX8EGRVB3K",
+   "date": "2026-05-25",
+   "time": "18:27",
+   "counterparty": "Jun Kim",
+   "handle": "jun.kim@mail.com",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Umma's phone bill"
+  },
+  {
+   "id": "KX0RD4DLJM",
+   "date": "2026-05-19",
+   "time": "12:53",
+   "counterparty": "Seoulful Merch",
+   "amount": 44.36,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "photocard set"
+  },
+  {
+   "id": "KXJELHDQP3",
+   "date": "2026-05-19",
+   "time": "07:08",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXR6003RYK",
+   "date": "2026-05-18",
+   "time": "21:16",
+   "counterparty": "Jun Kim",
+   "handle": "jun.kim@mail.com",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Umma's phone bill"
+  },
+  {
+   "id": "KXF5U9L8ZM",
+   "date": "2026-05-12",
+   "time": "14:27",
+   "counterparty": "Jun Kim",
+   "handle": "jun.kim@mail.com",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Umma's phone bill"
+  },
+  {
+   "id": "KXPPQTVTGZ",
+   "date": "2026-05-12",
+   "time": "07:14",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXHYP77UPH",
+   "date": "2026-05-08",
+   "time": "17:08",
+   "counterparty": "Golden 1 CU Checking ••3390",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KXAJB57PBS",
+   "date": "2026-05-01",
+   "time": "17:34",
+   "counterparty": "Mira Song",
+   "handle": "mira.song@mail.com",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "lunch"
+  },
+  {
+   "id": "KX7RP7K7HC",
+   "date": "2026-04-29",
+   "time": "14:49",
+   "counterparty": "Sephora",
+   "amount": 33.63,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXFHZFCU0X",
+   "date": "2026-04-25",
+   "time": "15:32",
+   "counterparty": "Seoulful Merch",
+   "amount": 35.18,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "concert tee"
+  },
+  {
+   "id": "KXECGT6E0B",
+   "date": "2026-04-19",
+   "time": "14:51",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KX0NZT1DCB",
+   "date": "2026-04-12",
+   "time": "11:16",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXLNXM9X74",
+   "date": "2026-04-08",
+   "time": "16:52",
+   "counterparty": "Grace Yoon",
+   "handle": "grace.yoon@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "boba"
+  },
+  {
+   "id": "KXHCXDBFZ8",
+   "date": "2026-04-06",
+   "time": "09:39",
+   "counterparty": "Seoulful Merch",
+   "amount": 34.88,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "concert tee"
+  },
+  {
+   "id": "KXJL7UWZUD",
+   "date": "2026-04-04",
+   "time": "07:05",
+   "counterparty": "Grace Yoon",
+   "handle": "grace.yoon@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "noraebang"
+  },
+  {
+   "id": "KX7PSVXP80",
+   "date": "2026-04-02",
+   "time": "19:59",
+   "counterparty": "Mira Song",
+   "handle": "mira.song@mail.com",
+   "amount": 14.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "coffee"
+  },
+  {
+   "id": "KXU81X7C47",
+   "date": "2026-03-30",
+   "time": "08:47",
+   "counterparty": "Hannah Cho",
+   "handle": "hannah.cho@mail.com",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "concert merch"
+  },
+  {
+   "id": "KXPCN3E9P0",
+   "date": "2026-03-29",
+   "time": "09:26",
+   "counterparty": "Hannah Cho",
+   "handle": "hannah.cho@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "gas"
+  },
+  {
+   "id": "KX8X0SF0TL",
+   "date": "2026-03-26",
+   "time": "12:53",
+   "counterparty": "Jun Kim",
+   "handle": "jun.kim@mail.com",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Umma's phone bill"
+  },
+  {
+   "id": "KX5SAFLZYT",
+   "date": "2026-03-25",
+   "time": "10:36",
+   "counterparty": "Jun Kim",
+   "handle": "jun.kim@mail.com",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Umma's phone bill"
+  },
+  {
+   "id": "KXZ5Y7WHLD",
+   "date": "2026-03-19",
+   "time": "21:33",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXS4W5L95E",
+   "date": "2026-03-12",
+   "time": "13:23",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXHJJLNMJW",
+   "date": "2026-03-01",
+   "time": "22:33",
+   "counterparty": "Hannah Cho",
+   "handle": "hannah.cho@mail.com",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Tahoe gas"
+  },
+  {
+   "id": "KXT6XECLYE",
+   "date": "2026-02-28",
+   "time": "13:38",
+   "counterparty": "Seoulful Merch",
+   "amount": 69.09,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "concert tee"
+  },
+  {
+   "id": "KXSSTMS5SJ",
+   "date": "2026-02-23",
+   "time": "08:09",
+   "counterparty": "Hannah Cho",
+   "handle": "hannah.cho@mail.com",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "concert merch"
+  },
+  {
+   "id": "KXMHRG2T27",
+   "date": "2026-02-20",
+   "time": "19:38",
+   "counterparty": "Mira Song",
+   "handle": "mira.song@mail.com",
+   "amount": 14.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "coffee"
+  },
+  {
+   "id": "KXQEDAYAKJ",
+   "date": "2026-02-19",
+   "time": "15:11",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXA6NT6JPH",
+   "date": "2026-02-15",
+   "time": "17:15",
+   "counterparty": "Grace Yoon",
+   "handle": "grace.yoon@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "kbbq"
+  },
+  {
+   "id": "KXPNAAPRNN",
+   "date": "2026-02-12",
+   "time": "10:15",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KX06RU3S22",
+   "date": "2026-02-06",
+   "time": "16:43",
+   "counterparty": "Golden 1 CU Checking ••3390",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KXJ97BA5WS",
+   "date": "2026-02-02",
+   "time": "12:56",
+   "counterparty": "Uniqlo",
+   "amount": 49.41,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXGMFBYA1G",
+   "date": "2026-01-29",
+   "time": "09:43",
+   "counterparty": "Grace Yoon",
+   "handle": "grace.yoon@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "kbbq split"
+  },
+  {
+   "id": "KXSB4W3MRD",
+   "date": "2026-01-28",
+   "time": "18:42",
+   "counterparty": "Target",
+   "amount": 37.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX2K3C3ZD2",
+   "date": "2026-01-19",
+   "time": "08:12",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXZ7ZQK4PZ",
+   "date": "2026-01-14",
+   "time": "08:46",
+   "counterparty": "Mira Song",
+   "handle": "mira.song@mail.com",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "coffee"
+  },
+  {
+   "id": "KXWFR7STNB",
+   "date": "2026-01-13",
+   "time": "13:46",
+   "counterparty": "Seoulful Merch",
+   "amount": 19.07,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "photocard set"
+  },
+  {
+   "id": "KXZBHN5M40",
+   "date": "2026-01-12",
+   "time": "12:10",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXGREDQ9HQ",
+   "date": "2026-01-05",
+   "time": "12:24",
+   "counterparty": "Uniqlo",
+   "amount": 33.31,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-28",
+   "time": "12:00",
+   "type": "product",
+   "text": "New: see upcoming bills and subscriptions in one place."
+  },
+  {
+   "date": "2026-10-02",
+   "time": "13:48",
+   "type": "security",
+   "text": "New sign-in on iPhone 15 near Sacramento, CA. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BK84PMCVJB",
+   "date": "2026-11-09",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "COMCAST XFINITY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK7D2NHK10",
+   "date": "2026-11-06",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "ARCO #42051 SACRAMENTO",
+   "amount": 41.7,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKBGCL37XY",
+   "date": "2026-11-03",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 24.36,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKLAH3VJTP",
+   "date": "2026-11-02",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "MIDTOWN LOFTS RENT",
+   "amount": 1595.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKY2D4U451",
+   "date": "2026-10-30",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PAYPAL INST XFER",
+   "amount": 120.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKY0M7E4LS",
+   "date": "2026-10-30",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "CA STATE CONTROLLER PAYROLL",
+   "amount": 3259.64,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKUUX2YY91",
+   "date": "2026-10-25",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "H MART SACRAMENTO",
+   "amount": 35.77,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKGE8B6TDF",
+   "date": "2026-10-24",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "T-MOBILE",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKAHK5V5AK",
+   "date": "2026-10-24",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "OAK PARK GALBI HOUSE",
+   "amount": 42.62,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK43LGJDJH",
+   "date": "2026-10-21",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PG&E GAS",
+   "amount": 22.13,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKR0R3B8QR",
+   "date": "2026-10-16",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "SMUD ELECTRIC",
+   "amount": 148.28,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKN2S0A2P0",
+   "date": "2026-10-09",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "COMCAST XFINITY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK99PQ85PJ",
+   "date": "2026-10-03",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 54.82,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKV9SZSGFQ",
+   "date": "2026-10-02",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "MIDTOWN LOFTS RENT",
+   "amount": 1595.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKAATCC59K",
+   "date": "2026-10-01",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "CA STATE CONTROLLER PAYROLL",
+   "amount": 3253.12,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKDHPCL971",
+   "date": "2026-09-29",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "ARCO #42051 SACRAMENTO",
+   "amount": 35.73,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKML49KF9H",
+   "date": "2026-09-24",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "T-MOBILE",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKL79U1RGL",
+   "date": "2026-09-21",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PG&E GAS",
+   "amount": 38.71,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKAWSX7LD9",
+   "date": "2026-09-16",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "SMUD ELECTRIC",
+   "amount": 99.86,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKL7UGM1GF",
+   "date": "2026-09-09",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "COMCAST XFINITY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKM66UHALK",
+   "date": "2026-09-06",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SACRAMENTO VOLLEYBALL CLUB",
+   "amount": 16.9,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKEZCD95WB",
+   "date": "2026-09-02",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "MIDTOWN LOFTS RENT",
+   "amount": 1595.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKNX7A3FRE",
+   "date": "2026-09-01",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "CA STATE CONTROLLER PAYROLL",
+   "amount": 3252.05,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKA3A2HWWT",
+   "date": "2026-08-24",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "T-MOBILE",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKVS23H79J",
+   "date": "2026-08-22",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SAFEWAY #1205 SACRAMENTO",
+   "amount": 70.44,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKUN2PYFM4",
+   "date": "2026-08-21",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PG&E GAS",
+   "amount": 39.61,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKYNGSGJ6T",
+   "date": "2026-08-16",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "OAK PARK GALBI HOUSE",
+   "amount": 49.73,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK33G83PZX",
+   "date": "2026-08-16",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "SMUD ELECTRIC",
+   "amount": 96.88,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK9CKXMH2Q",
+   "date": "2026-08-14",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "H MART SACRAMENTO",
+   "amount": 39.51,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKGPLVXFLS",
+   "date": "2026-08-11",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 64.07,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKSZX9VJWH",
+   "date": "2026-08-09",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 27.61,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKNMB2NZ93",
+   "date": "2026-08-09",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "COMCAST XFINITY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK0SM33MDT",
+   "date": "2026-08-07",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PAYPAL INST XFER",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKQ9LFHRZ8",
+   "date": "2026-08-06",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SAFEWAY #1205 SACRAMENTO",
+   "amount": 42.41,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKFA10SKL8",
+   "date": "2026-08-03",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "MIDTOWN LOFTS RENT",
+   "amount": 1595.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKVLLM8TL5",
+   "date": "2026-07-31",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "CA STATE CONTROLLER PAYROLL",
+   "amount": 3255.85,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKD7DLJHWF",
+   "date": "2026-07-27",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "TARGET T-0311 SACRAMENTO",
+   "amount": 34.39,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK76LQ5SZ0",
+   "date": "2026-07-27",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "TRADER JOE'S #175 SACRAMENTO",
+   "amount": 22.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK9U5EHQB8",
+   "date": "2026-07-24",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "T-MOBILE",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKGAJG6VRH",
+   "date": "2026-07-21",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PG&E GAS",
+   "amount": 50.08,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK5XMDK7CT",
+   "date": "2026-07-16",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "SMUD ELECTRIC",
+   "amount": 112.52,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKKL6LK7BS",
+   "date": "2026-07-12",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 18.68,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKE7N6D6XY",
+   "date": "2026-07-11",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 51.97,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKBLEATTXB",
+   "date": "2026-07-09",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "COMCAST XFINITY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKGNCTS688",
+   "date": "2026-07-02",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "MIDTOWN LOFTS RENT",
+   "amount": 1595.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKFVUTH2PN",
+   "date": "2026-07-01",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "CA STATE CONTROLLER PAYROLL",
+   "amount": 3256.45,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKF5NV5X18",
+   "date": "2026-06-25",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SAFEWAY #1205 SACRAMENTO",
+   "amount": 38.56,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK383RE1UY",
+   "date": "2026-06-24",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "T-MOBILE",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKW1A3RYBS",
+   "date": "2026-06-21",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PG&E GAS",
+   "amount": 20.78,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK8JAJ987M",
+   "date": "2026-06-20",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SAFEWAY #1205 SACRAMENTO",
+   "amount": 64.57,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKCW2BGQKR",
+   "date": "2026-06-16",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "SMUD ELECTRIC",
+   "amount": 53.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKPEBZL9JP",
+   "date": "2026-06-10",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SACRAMENTO VOLLEYBALL CLUB",
+   "amount": 18.94,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKNE2MMTBJ",
+   "date": "2026-06-09",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "COMCAST XFINITY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKPSQ5CYB8",
+   "date": "2026-06-07",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "TARGET T-0311 SACRAMENTO",
+   "amount": 69.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKGGSN2064",
+   "date": "2026-06-07",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 21.45,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK6AQAZ3BH",
+   "date": "2026-06-06",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "ARCO #42051 SACRAMENTO",
+   "amount": 53.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK7R4S5APZ",
+   "date": "2026-06-04",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "OAK PARK GALBI HOUSE",
+   "amount": 41.69,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKVEDSPCJY",
+   "date": "2026-06-03",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "TARGET T-0311 SACRAMENTO",
+   "amount": 25.3,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK69PDN157",
+   "date": "2026-06-02",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "MIDTOWN LOFTS RENT",
+   "amount": 1595.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK6KQ4ZYYV",
+   "date": "2026-06-01",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "CA STATE CONTROLLER PAYROLL",
+   "amount": 3257.63,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKJ5DNT52C",
+   "date": "2026-05-26",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SACRAMENTO VOLLEYBALL CLUB",
+   "amount": 18.24,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKTK1LSR6M",
+   "date": "2026-05-24",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "T-MOBILE",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK8XKLUN9F",
+   "date": "2026-05-21",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PG&E GAS",
+   "amount": 24.71,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKJTDH8Q41",
+   "date": "2026-05-17",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 58.44,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKHU8QTDWW",
+   "date": "2026-05-16",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "SMUD ELECTRIC",
+   "amount": 141.36,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKK199X6WQ",
+   "date": "2026-05-09",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "COMCAST XFINITY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKQ5FZC2EK",
+   "date": "2026-05-08",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PAYPAL INST XFER",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKASFEJZQK",
+   "date": "2026-05-04",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "MIDTOWN LOFTS RENT",
+   "amount": 1595.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKQU4WCE5X",
+   "date": "2026-05-03",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "TARGET T-0311 SACRAMENTO",
+   "amount": 34.48,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK45VLBC8W",
+   "date": "2026-05-01",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "CA STATE CONTROLLER PAYROLL",
+   "amount": 3252.47,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKXMJQLQDQ",
+   "date": "2026-04-30",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SACRAMENTO VOLLEYBALL CLUB",
+   "amount": 17.13,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKZYXQN0GT",
+   "date": "2026-04-24",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "T-MOBILE",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK82PJW3A3",
+   "date": "2026-04-21",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PG&E GAS",
+   "amount": 32.65,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKJ1P4L9VE",
+   "date": "2026-04-18",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SACRAMENTO VOLLEYBALL CLUB",
+   "amount": 16.32,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKVV6QP3CK",
+   "date": "2026-04-16",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "SMUD ELECTRIC",
+   "amount": 86.59,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKNGE0G95B",
+   "date": "2026-04-14",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "TRADER JOE'S #175 SACRAMENTO",
+   "amount": 56.34,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKMCZ5LNGB",
+   "date": "2026-04-09",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SAFEWAY #1205 SACRAMENTO",
+   "amount": 75.74,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK89YSHMF9",
+   "date": "2026-04-09",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "COMCAST XFINITY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKJYE9JAPF",
+   "date": "2026-04-07",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "H MART SACRAMENTO",
+   "amount": 77.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKLEM4SEBL",
+   "date": "2026-04-05",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 23.75,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKLG12P8ZD",
+   "date": "2026-04-02",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SAFEWAY #1205 SACRAMENTO",
+   "amount": 66.04,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKCSQHE24T",
+   "date": "2026-04-02",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "MIDTOWN LOFTS RENT",
+   "amount": 1595.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK3R83LXMS",
+   "date": "2026-04-02",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "TARGET T-0311 SACRAMENTO",
+   "amount": 55.31,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK6NFLRMLV",
+   "date": "2026-04-01",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "CA STATE CONTROLLER PAYROLL",
+   "amount": 3258.69,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKKCL70YWB",
+   "date": "2026-03-24",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "T-MOBILE",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKC7MQDDWW",
+   "date": "2026-03-21",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PG&E GAS",
+   "amount": 18.13,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKNFCVF9BD",
+   "date": "2026-03-16",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "SMUD ELECTRIC",
+   "amount": 128.43,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKM34XLQQ6",
+   "date": "2026-03-15",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SACRAMENTO VOLLEYBALL CLUB",
+   "amount": 18.29,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BK62P6H8LW",
+   "date": "2026-03-09",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "COMCAST XFINITY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKTM5GSFS6",
+   "date": "2026-03-02",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "TARGET T-0311 SACRAMENTO",
+   "amount": 63.95,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK7MFFNJ85",
+   "date": "2026-03-02",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "MIDTOWN LOFTS RENT",
+   "amount": 1595.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKMYMTJX4C",
+   "date": "2026-02-27",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "CA STATE CONTROLLER PAYROLL",
+   "amount": 3249.86,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKNNYN1MJH",
+   "date": "2026-02-24",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "T-MOBILE",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKV0MFZMRF",
+   "date": "2026-02-21",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PG&E GAS",
+   "amount": 46.93,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKFMUZC1DR",
+   "date": "2026-02-21",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "OAK PARK GALBI HOUSE",
+   "amount": 47.95,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKFVH18WV8",
+   "date": "2026-02-19",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "H MART SACRAMENTO",
+   "amount": 47.42,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKF7HG4JKS",
+   "date": "2026-02-16",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "SMUD ELECTRIC",
+   "amount": 110.87,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK5GLJRZY7",
+   "date": "2026-02-14",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "TRADER JOE'S #175 SACRAMENTO",
+   "amount": 25.94,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKEZAK2Z0N",
+   "date": "2026-02-12",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "OAK PARK GALBI HOUSE",
+   "amount": 46.07,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKHVY8G8MF",
+   "date": "2026-02-11",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SACRAMENTO VOLLEYBALL CLUB",
+   "amount": 19.36,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKW59UH2EA",
+   "date": "2026-02-09",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "COMCAST XFINITY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKC6LNFXFZ",
+   "date": "2026-02-09",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SAFEWAY #1205 SACRAMENTO",
+   "amount": 32.02,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK9MPGQQ8Q",
+   "date": "2026-02-09",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "TARGET T-0311 SACRAMENTO",
+   "amount": 16.94,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK6FTEWQDR",
+   "date": "2026-02-06",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PAYPAL INST XFER",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKWT18EBSK",
+   "date": "2026-02-05",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "ARCO #42051 SACRAMENTO",
+   "amount": 41.97,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKA4R68HN9",
+   "date": "2026-02-04",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 65.94,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKMH0HX229",
+   "date": "2026-02-02",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SAFEWAY #1205 SACRAMENTO",
+   "amount": 74.14,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJGCWUD2E",
+   "date": "2026-02-02",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "MIDTOWN LOFTS RENT",
+   "amount": 1595.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKRDS1C9K5",
+   "date": "2026-01-30",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "CA STATE CONTROLLER PAYROLL",
+   "amount": 3254.44,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK19EFME1N",
+   "date": "2026-01-24",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "T-MOBILE",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKV7NTKL64",
+   "date": "2026-01-21",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "PG&E GAS",
+   "amount": 18.14,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKQZVH8L83",
+   "date": "2026-01-16",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "SMUD ELECTRIC",
+   "amount": 117.72,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKK1JAZNFY",
+   "date": "2026-01-12",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "TRADER JOE'S #175 SACRAMENTO",
+   "amount": 41.17,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK49EYJ02M",
+   "date": "2026-01-12",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "SACRAMENTO VOLLEYBALL CLUB",
+   "amount": 19.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BK4SMZLWE9",
+   "date": "2026-01-11",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "TARGET T-0311 SACRAMENTO",
+   "amount": 15.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKTUN88T5T",
+   "date": "2026-01-09",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "COMCAST XFINITY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKEH0CNQ21",
+   "date": "2026-01-08",
+   "account": "Golden 1 Visa Debit ••3390",
+   "description": "TARGET T-0311 SACRAMENTO",
+   "amount": 16.54,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKVP235B5K",
+   "date": "2026-01-01",
+   "account": "Golden 1 CU Checking ••3390",
+   "description": "CA STATE CONTROLLER PAYROLL",
+   "amount": 3254.14,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S27"
+  ],
+  "scenarios": [
+   "S27A",
+   "S27B"
+  ],
+  "world": "shared (both twins)",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261121,
+  "record_counts": {
+   "transactions": 76,
+   "bank_transactions": 118,
+   "total_money_records": 194
+  }
+ }
+}

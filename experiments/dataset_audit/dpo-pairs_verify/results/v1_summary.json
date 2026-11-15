@@ -1,0 +1,122 @@
+{
+ "n": 496,
+ "replay_matches": 496,
+ "replay_mismatch_idx": [],
+ "rej_source": {
+  "observed": 483,
+  "synthetic_no_failure": 11,
+  "synthetic_after_failures": 2
+ },
+ "chosen_reward": {
+  "1.1": 496
+ },
+ "rej_reward_max": -0.1,
+ "rej_reward_min": -1.0,
+ "chosen_dec_by_twin_expected": {
+  "A/ask/ask_informed": 247,
+  "B/approve/approve_informed": 12,
+  "B/approve/approve_generic": 219,
+  "B/act/commit_gold": 18
+ },
+ "rej_dec_A": {
+  "commit_other": 131,
+  "commit_harmful": 38,
+  "commit_gold": 25,
+  "ask_generic": 24,
+  "statement": 23,
+  "invalid": 3,
+  "approve_generic": 2,
+  "lookup": 1
+ },
+ "rej_dec_B": {
+  "commit_other": 180,
+  "ask_generic": 45,
+  "statement": 16,
+  "invalid": 2,
+  "commit_gold": 2,
+  "ask_informed": 2,
+  "tell_informed": 1,
+  "lookup": 1
+ },
+ "chosen_eval_strict": 496,
+ "rej_eval_strict": 0,
+ "rej_eval_lenient": 6,
+ "rej_eval_lenient_rows": [
+  [
+   74,
+   "S04B",
+   "L2",
+   "P0",
+   "commit_other"
+  ],
+  [
+   207,
+   "V223B",
+   "L1",
+   "P0",
+   "commit_other"
+  ],
+  [
+   292,
+   "V043B",
+   "L0r",
+   "P2",
+   "commit_other"
+  ],
+  [
+   403,
+   "V223B",
+   "L0r",
+   "P2",
+   "commit_other"
+  ],
+  [
+   484,
+   "V223B",
+   "L2",
+   "P2",
+   "commit_other"
+  ],
+  [
+   493,
+   "V042B",
+   "L0r",
+   "P0",
+   "commit_other"
+  ]
+ ],
+ "observed_models": {
+  "hf:CohereLabs/tiny-aya-global:cohere": 313,
+  "vllm:tiny-aya-global-local": 149,
+  "hf:CohereLabs/aya-expanse-32b:cohere": 18,
+  "hf:CohereLabs/c4ai-command-r7b-12-2024:cohere": 1,
+  "hf:CohereLabs/tiny-aya-fire:cohere": 2
+ },
+ "observed_grid_prompt": {
+  "P1": 380,
+  "P0": 103
+ },
+ "observed_tool_results": {
+  "raw": 466,
+  "seed": 17
+ },
+ "observed_n_events": {
+  "1": 403,
+  "2": 71,
+  "9": 1,
+  "5": 1,
+  "14": 2,
+  "3": 3,
+  "4": 2
+ },
+ "observed_first_event": 403,
+ "observed_prev_only_invalid": 8,
+ "observed_prev_equals_canonical_nonempty": 1,
+ "observed_prev_has_error_result": 25,
+ "observed_files": {
+  "grid_open_variants.jsonl": 281,
+  "grid_local_tinyaya.jsonl": 149,
+  "grid_open_P0.jsonl": 6,
+  "grid_open_controls.jsonl": 47
+ }
+}

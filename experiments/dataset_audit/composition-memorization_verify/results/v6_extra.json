@@ -1,0 +1,95 @@
+{
+ "first_token_type_betabinomial": {
+  "all": {
+   "n_prompts": 120,
+   "alpha": 3.082,
+   "beta": 2.176,
+   "E_p_goldtype": 0.5862,
+   "E_neglog_p_goldtype_nats": 0.6069,
+   "share_prompts_p_gt_0.5": 0.6663,
+   "plugin_add0.5_nll": 0.6705
+  },
+  "A": {
+   "n_prompts": 58,
+   "alpha": 2.053,
+   "beta": 1.536,
+   "E_p_goldtype": 0.5721,
+   "E_neglog_p_goldtype_nats": 0.6757,
+   "share_prompts_p_gt_0.5": 0.6208,
+   "plugin_add0.5_nll": 0.727
+  },
+  "B": {
+   "n_prompts": 62,
+   "alpha": 5.837,
+   "beta": 3.888,
+   "E_p_goldtype": 0.6002,
+   "E_neglog_p_goldtype_nats": 0.5463,
+   "share_prompts_p_gt_0.5": 0.7438,
+   "plugin_add0.5_nll": 0.6177
+  }
+ },
+ "correct_class_betabinomial": {
+  "all": {
+   "alpha": 2.444,
+   "beta": 2.306,
+   "E_p_correct": 0.5145,
+   "E_neglog_nats": 0.7739,
+   "share_prompts_p_gt_0.5": 0.5275
+  },
+  "A": {
+   "alpha": 1.449,
+   "beta": 1.536,
+   "E_p_correct": 0.4855,
+   "E_neglog_nats": 0.9289,
+   "share_prompts_p_gt_0.5": 0.477
+  },
+  "B": {
+   "alpha": 5.197,
+   "beta": 4.12,
+   "E_p_correct": 0.5578,
+   "E_neglog_nats": 0.6284,
+   "share_prompts_p_gt_0.5": 0.6441
+  }
+ },
+ "majority_of_8_accuracy": 0.575,
+ "majority_of_8_accuracy_by_twin": {
+  "A": 0.5259,
+  "B": 0.621
+ },
+ "implied_nats_per_trained_token_type_nll_corrected": 0.0079,
+ "lookup_rows": 407,
+ "lookup_rows_share": 0.4502,
+ "lookup_targets": 67,
+ "lookup_targets_shared_by_both_twins": 46,
+ "rows_with_twin_shared_lookup_target": 340,
+ "system_user_prompts": 417,
+ "system_user_prompt_turns": {
+  "lookup1": 401,
+  "decision": 16
+ },
+ "system_user_decision_scenarios": [
+  "S02A",
+  "S02B",
+  "S03A",
+  "S03B"
+ ],
+ "decode_qr_rows": 50,
+ "twinB_class_by_expected": {
+  "act:approve_generic": 9,
+  "act:ask_generic": 2,
+  "act:ask_informed": 5,
+  "act:commit_gold": 19,
+  "act:commit_other": 4,
+  "act:invalid": 1,
+  "approve:approve_generic": 233,
+  "approve:approve_informed": 19,
+  "approve:ask_generic": 99,
+  "approve:ask_informed": 79,
+  "approve:commit_gold": 5,
+  "approve:commit_other": 6,
+  "approve:invalid": 3,
+  "approve:lookup": 6,
+  "approve:statement": 3,
+  "approve:tell_informed": 3
+ }
+}

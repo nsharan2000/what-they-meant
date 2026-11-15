@@ -1,0 +1,138 @@
+{
+ "purpose": "Judge-repeatability sensitivity: two Opus v3 passes over the same Qwen3-235B P1 L0r transcripts (judge_openP1_v3 vs judge_qwenL0r_v3). Headline summary.json lets judge_qwenL0r_v3 win on overlapping keys; this alternative lets judge_openP1_v3 win.",
+ "config": {
+  "command": "python3 experiments/replication/analysis.py --results grid_open_P0 grid_open_P1 grid_open_controls grid_claude grid_local_tinyaya --judge judge_qwenL0r_v3 judge_claude_v3 judge_openP1_v3 (later files override) --scenarios dataset/frozen_replication_v1/*.jsonl --boot 2000",
+  "headline_judge_order": [
+   "judge_claude_v3",
+   "judge_openP1_v3",
+   "judge_qwenL0r_v3"
+  ]
+ },
+ "overlap_keys": 68,
+ "overlap_agree": 65,
+ "disagreeing_keys": [
+  "hf:Qwen/Qwen3-235B-A22B-Instruct-2507:deepinfra|S04B|L0r|P1|decision|r0",
+  "hf:Qwen/Qwen3-235B-A22B-Instruct-2507:deepinfra|S53A|L0r|P1|decision|r0",
+  "hf:Qwen/Qwen3-235B-A22B-Instruct-2507:deepinfra|S57B|L0r|P1|decision|r0"
+ ],
+ "cells_that_change": [
+  {
+   "model": "hf:Qwen/Qwen3-235B-A22B-Instruct-2507:deepinfra",
+   "prompt": "P1",
+   "level": "L0r",
+   "PP_judged_headline": 0.3778,
+   "PP_judged_alternative": 0.3333
+  }
+ ],
+ "gaps_that_change": [
+  {
+   "headline": {
+    "model": "hf:Qwen/Qwen3-235B-A22B-Instruct-2507:deepinfra",
+    "prompt": "P1",
+    "gap": "RG",
+    "from": "L0r",
+    "to": "L2",
+    "kind": "judged",
+    "n_pairs": 45,
+    "value_pp": 17.8,
+    "ci95_pp": [
+     2.2,
+     33.3
+    ],
+    "flip_pass_to_fail": 11,
+    "flip_fail_to_pass": 3,
+    "mcnemar_p": 0.0574
+   },
+   "alternative": {
+    "model": "hf:Qwen/Qwen3-235B-A22B-Instruct-2507:deepinfra",
+    "prompt": "P1",
+    "gap": "RG",
+    "from": "L0r",
+    "to": "L2",
+    "kind": "judged",
+    "n_pairs": 45,
+    "value_pp": 13.3,
+    "ci95_pp": [
+     -2.2,
+     28.9
+    ],
+    "flip_pass_to_fail": 10,
+    "flip_fail_to_pass": 4,
+    "mcnemar_p": 0.1796
+   }
+  },
+  {
+   "headline": {
+    "model": "hf:Qwen/Qwen3-235B-A22B-Instruct-2507:deepinfra",
+    "prompt": "P1",
+    "gap": "context",
+    "from": "L0r",
+    "to": "L1",
+    "kind": "judged",
+    "n_pairs": 45,
+    "value_pp": 26.7,
+    "ci95_pp": [
+     13.3,
+     40.0
+    ],
+    "flip_pass_to_fail": 13,
+    "flip_fail_to_pass": 1,
+    "mcnemar_p": 0.0018
+   },
+   "alternative": {
+    "model": "hf:Qwen/Qwen3-235B-A22B-Instruct-2507:deepinfra",
+    "prompt": "P1",
+    "gap": "context",
+    "from": "L0r",
+    "to": "L1",
+    "kind": "judged",
+    "n_pairs": 45,
+    "value_pp": 22.2,
+    "ci95_pp": [
+     8.9,
+     35.6
+    ],
+    "flip_pass_to_fail": 11,
+    "flip_fail_to_pass": 1,
+    "mcnemar_p": 0.0063
+   }
+  },
+  {
+   "headline": {
+    "model": "hf:Qwen/Qwen3-235B-A22B-Instruct-2507:deepinfra",
+    "prompt": "P1",
+    "gap": "length_only",
+    "from": "L0r",
+    "to": "L0p",
+    "kind": "judged",
+    "n_pairs": 45,
+    "value_pp": 13.3,
+    "ci95_pp": [
+     -2.2,
+     28.9
+    ],
+    "flip_pass_to_fail": 10,
+    "flip_fail_to_pass": 4,
+    "mcnemar_p": 0.1796
+   },
+   "alternative": {
+    "model": "hf:Qwen/Qwen3-235B-A22B-Instruct-2507:deepinfra",
+    "prompt": "P1",
+    "gap": "length_only",
+    "from": "L0r",
+    "to": "L0p",
+    "kind": "judged",
+    "n_pairs": 45,
+    "value_pp": 8.9,
+    "ci95_pp": [
+     -8.9,
+     24.4
+    ],
+    "flip_pass_to_fail": 10,
+    "flip_fail_to_pass": 6,
+    "mcnemar_p": 0.4545
+   }
+  }
+ ],
+ "n_gaps_compared": 162
+}

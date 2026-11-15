@@ -1,0 +1,67 @@
+{
+ "S04B": {
+  "commit_call": "<tool_call>{\"name\": \"place_order\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) INR 30, tomatoes 1 kg INR 40, milk x2 INR 112?\"}}</tool_call>",
+  "grpo_reward": -0.4,
+  "decision_class": "commit_other",
+  "gold_commits": [],
+  "adjudicated_accept": [
+   "approve",
+   "act"
+  ],
+  "grader_strict_success": false,
+  "grader_lenient_success": true,
+  "card_reward": 1.1
+ },
+ "V042B": {
+  "commit_call": "<tool_call>{\"name\": \"place_order\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) GBP 4.20, tomatoes 1 kg GBP 3.80, milk x2 GBP 3.20?\"}}</tool_call>",
+  "grpo_reward": -0.4,
+  "decision_class": "commit_other",
+  "gold_commits": [],
+  "adjudicated_accept": [
+   "approve",
+   "act"
+  ],
+  "grader_strict_success": false,
+  "grader_lenient_success": true,
+  "card_reward": 1.1
+ },
+ "V043B": {
+  "commit_call": "<tool_call>{\"name\": \"place_order\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) USD 5.98, tomatoes 1 lb USD 4.50, milk x2 USD 6.99?\"}}</tool_call>",
+  "grpo_reward": -0.4,
+  "decision_class": "commit_other",
+  "gold_commits": [],
+  "adjudicated_accept": [
+   "approve",
+   "act"
+  ],
+  "grader_strict_success": false,
+  "grader_lenient_success": true,
+  "card_reward": 1.1
+ },
+ "V044B": {
+  "commit_call": "<tool_call>{\"name\": \"place_order\", \"arguments\": {\"summary\": \"Place order: bananas x3 (lbs) USD 4.50, apples 1 kg USD 6.00, bread x2 USD 7.40?\"}}</tool_call>",
+  "grpo_reward": -0.4,
+  "decision_class": "commit_other",
+  "gold_commits": [],
+  "adjudicated_accept": [
+   "approve",
+   "act"
+  ],
+  "grader_strict_success": false,
+  "grader_lenient_success": true,
+  "card_reward": 1.1
+ },
+ "V223B": {
+  "commit_call": "<tool_call>{\"name\": \"pay_bill\", \"arguments\": {\"summary\": \"Pay $142.33 electric bill to Lincoln Energy Services?\"}}</tool_call>",
+  "grpo_reward": -0.4,
+  "decision_class": "commit_other",
+  "gold_commits": [],
+  "adjudicated_accept": [
+   "approve",
+   "act"
+  ],
+  "grader_strict_success": false,
+  "grader_lenient_success": true,
+  "card_reward": 1.1
+ }
+}

@@ -1,0 +1,2284 @@
+{
+ "member_id": "zoe_park",
+ "profile": {
+  "name": "Zoe Park",
+  "age": 21,
+  "sex": "Female",
+  "city": "Norristown, PA",
+  "country": "USA",
+  "currency": "USD",
+  "occupation": "Nursing student; part-time nurse aide",
+  "summary": "Customer since 2023 (student account). Nursing student working part-time on a med-surg floor; shares an apartment with a roommate. Paid every other Friday.",
+  "persona": {
+   "persona": "Zoe Park, a 21‑year‑old nursing student who keeps a half‑filled watercolor palette on their nightstand, blends art and anxiety into compassionate patient care while they occasionally forget to pay bills on time.",
+   "professional_persona": "Zoe Park, a 21‑year‑old nursing student working part‑time on a medical‑surgical floor, leverages their solid clinical skills—from vital sign monitoring to IV therapy—and infuses abstract watercolor analogies into patient education, balancing their curiosity and flexibility with occasional disorganization while they mentor peers, pursue integrative nursing certification, and work toward a future as a Family Nurse Practitioner leading a community‑health program that blends conventional care with creative workshops.",
+   "cultural_background": "Zoe is a White American raised in Norristown, Pennsylvania, within a middle‑class family that has Irish‑German roots. Her upbringing in suburban Montgomery County exposed her to both the quiet community life of small‑town America and the cultural diversity of the greater Philadelphia region. Family gatherings often centered on seasonal holidays, and she grew up with a strong sense of community service, reflected in her early participation in local volunteer projects. Though she does not identify strongly with any particular religious tradition, the values of hard work, self‑reliance, and openness to new ideas were emphasized at home, shaping her curious, appreciative, and flexible outlook.",
+   "sex": "Female",
+   "age": 21,
+   "marital_status": "never_married",
+   "education_level": "9th_12th_no_diploma",
+   "occupation": "registered_nurse",
+   "city": "Norristown",
+   "state": "PA",
+   "country": "USA"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "4d88ef79935c420ab7a92de5c4f2abfb",
+   "license": "CC-BY-4.0",
+   "match": {
+    "country": "USA",
+    "age": 21,
+    "sex": "Female",
+    "seed": 2,
+    "reason": "first student persona within two years of the seed age (seed note: 'Student'); seeds 0-1 are a cashier and a security guard"
+   },
+   "adaptation": "persona name 'Rebecca Sutton' replaced with 'Zoe Park'; age 20 replaced with 21"
+  }
+ },
+ "account_profile": {
+  "customer_id": "LDG-US-55840",
+  "name": "Zoe Park",
+  "email": "zoe.park.rn26@gmail.com",
+  "phone": "(610) 555-0129",
+  "address": "Apt 2B, 315 Juniper Hollow Ln, Norristown, PA 19401",
+  "member_since": "2023-08-21",
+  "segment": "Student",
+  "language": "en-US",
+  "features": {
+   "bill_pay": true,
+   "subscription_tracker": true,
+   "merchant_actions": false
+  },
+  "alerts": {
+   "low_balance": "$100"
+  }
+ },
+ "accounts": [
+  {
+   "id": "CHK-5584",
+   "name": "Student Checking (Visa debit ****5584)",
+   "type": "checking",
+   "currency": "USD",
+   "balance": 95.0
+  },
+  {
+   "id": "SAV-5590",
+   "name": "Savings",
+   "type": "savings",
+   "currency": "USD",
+   "balance": 260.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Hannah Kowalski",
+   "type": "person",
+   "relationship": "roommate",
+   "handle": "@hannah-kowalski",
+   "last_paid": "2026-11-01"
+  },
+  {
+   "name": "Linda Park",
+   "type": "person",
+   "relationship": "mother",
+   "handle": "@linda-park-63",
+   "last_paid": "2026-11-03"
+  },
+  {
+   "name": "Maya Chen",
+   "type": "person",
+   "relationship": "friend",
+   "handle": "@maya-chen-rn"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "type": "wallet",
+   "provider": "Venmo",
+   "handle": "@zoe-park-21",
+   "funding": "Visa debit ****5584",
+   "status": "connected"
+  },
+  {
+   "type": "merchant_connection",
+   "merchant": "Quillo AI",
+   "login": "zoe.park.rn26@gmail.com",
+   "status": "connected"
+  }
+ ],
+ "subscriptions": [
+  {
+   "merchant": "Quillo AI",
+   "plan": "Free",
+   "price": 0.0,
+   "currency": "USD",
+   "billing": "none",
+   "status": "active (Free plan, since 2026-09-02)"
+  },
+  {
+   "merchant": "Spotify",
+   "plan": "Premium Student",
+   "price": 5.99,
+   "currency": "USD",
+   "billing": "monthly, 9th",
+   "charged_to": "Visa debit ****5584",
+   "status": "active"
+  },
+  {
+   "merchant": "Amazon Prime",
+   "plan": "Prime Student",
+   "price": 7.49,
+   "currency": "USD",
+   "billing": "monthly, 14th",
+   "charged_to": "Visa debit ****5584",
+   "status": "active"
+  },
+  {
+   "merchant": "Apple",
+   "plan": "iCloud+ 50 GB",
+   "price": 0.99,
+   "currency": "USD",
+   "billing": "monthly, 21st",
+   "charged_to": "Visa debit ****5584",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "RM-0001 · Reminder on the 1st: send rent ($650) to Hannah Kowalski on Venmo (reminder only; Zoe sends it)."
+ ],
+ "notes": [
+  "Student.",
+  "Uses Quillo AI for nursing-school study notes."
+ ],
+ "bills": [],
+ "notifications": [
+  {
+   "date": "2026-11-10",
+   "from": "Quillo AI",
+   "text": "You've used all of your free AI credits for November. Upgrade to Pro to keep studying without limits."
+  },
+  {
+   "date": "2026-11-06",
+   "from": "Ledgerly",
+   "text": "Low balance: Student Checking ****5584 is below $100."
+  },
+  {
+   "date": "2026-10-28",
+   "from": "Spotify",
+   "text": "Premium Student renews on Nov 9 for $5.99."
+  },
+  {
+   "date": "2026-09-02",
+   "from": "Quillo AI",
+   "text": "Welcome to Quillo AI! You're on the Free plan (50 AI credits a month)."
+  }
+ ],
+ "event_log": [
+  {
+   "date": "2026-09-02",
+   "actor": "member",
+   "action": "merchant_connected",
+   "detail": "Quillo AI (Free plan) added to subscriptions"
+  }
+ ],
+ "transactions": [
+  {
+   "id": "txn_3sdewkx8",
+   "date": "2026-11-10",
+   "counterparty": "Ulta Beauty",
+   "amount": 38.08,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_c3f4nqxb",
+   "date": "2026-11-10",
+   "counterparty": "SEPTA",
+   "amount": 2.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Key card fare",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_u28s38vq",
+   "date": "2026-11-10",
+   "counterparty": "Montgomery Ridge College",
+   "amount": 175.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Tuition payment plan",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_cksckjhu",
+   "date": "2026-11-09",
+   "counterparty": "Spotify",
+   "amount": 5.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_pegefuuu",
+   "date": "2026-11-06",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 415.92,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_hchuwbq8",
+   "date": "2026-11-05",
+   "counterparty": "Starbucks",
+   "amount": 8.47,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_hmjcumt5",
+   "date": "2026-11-04",
+   "counterparty": "Trader Joe's",
+   "amount": 34.84,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_ayw3mnhu",
+   "date": "2026-11-03",
+   "counterparty": "Linda Park",
+   "handle": "@linda-park-63",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "phone bill",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_qabvuvdc",
+   "date": "2026-11-01",
+   "counterparty": "Wawa",
+   "amount": 11.71,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_xwxs6wcd",
+   "date": "2026-11-01",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "rent",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_gk6nz9nt",
+   "date": "2026-10-29",
+   "counterparty": "Maya Chen",
+   "handle": "@maya-chen-rn",
+   "amount": 33.48,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "Uber",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_8kaxzrxe",
+   "date": "2026-10-28",
+   "counterparty": "Wawa",
+   "amount": 4.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_g83g2mbk",
+   "date": "2026-10-27",
+   "counterparty": "Target",
+   "amount": 45.12,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_42k32bsw",
+   "date": "2026-10-25",
+   "counterparty": "Uber",
+   "amount": 10.3,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_e39be624",
+   "date": "2026-10-23",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 413.73,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_yrjy9yfd",
+   "date": "2026-10-22",
+   "counterparty": "Wawa",
+   "amount": 10.17,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_eqg698ta",
+   "date": "2026-10-21",
+   "counterparty": "Giant",
+   "amount": 53.89,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_qcan7edt",
+   "date": "2026-10-21",
+   "counterparty": "Apple",
+   "amount": 0.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 50 GB",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_wur2d4bd",
+   "date": "2026-10-20",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 55.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "PECO + internet",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_66x9hkhq",
+   "date": "2026-10-18",
+   "counterparty": "SEPTA",
+   "amount": 2.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Key card fare",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_p2n48hf4",
+   "date": "2026-10-14",
+   "counterparty": "Amazon Prime",
+   "amount": 7.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Prime Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_zjgk7cqd",
+   "date": "2026-10-12",
+   "counterparty": "Giant",
+   "amount": 55.5,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_5xa233hw",
+   "date": "2026-10-12",
+   "counterparty": "Montgomery Ridge College",
+   "amount": 175.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Tuition payment plan",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_wzdrgk8k",
+   "date": "2026-10-09",
+   "counterparty": "Spotify",
+   "amount": 5.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_f45tc7wv",
+   "date": "2026-10-09",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 393.52,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_5sjzkh8p",
+   "date": "2026-10-05",
+   "counterparty": "Wawa",
+   "amount": 7.04,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_ykgz56dx",
+   "date": "2026-10-03",
+   "counterparty": "Ulta Beauty",
+   "amount": 38.67,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_z8x9a259",
+   "date": "2026-10-03",
+   "counterparty": "Starbucks",
+   "amount": 6.84,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_bmcmcgdy",
+   "date": "2026-10-03",
+   "counterparty": "Linda Park",
+   "handle": "@linda-park-63",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "phone bill",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_vwkx65y4",
+   "date": "2026-10-02",
+   "counterparty": "SEPTA",
+   "amount": 2.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Key card fare",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_8pch6ctt",
+   "date": "2026-10-01",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "rent",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_dfsrjxhu",
+   "date": "2026-09-29",
+   "counterparty": "Wawa",
+   "amount": 4.8,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_qrnyf77y",
+   "date": "2026-09-25",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 439.82,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_xscex28g",
+   "date": "2026-09-22",
+   "counterparty": "ALDI",
+   "amount": 16.1,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_uz7wgv5p",
+   "date": "2026-09-21",
+   "counterparty": "Apple",
+   "amount": 0.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 50 GB",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_x8246r2d",
+   "date": "2026-09-20",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 41.79,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "PECO + internet",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_ww5q6evt",
+   "date": "2026-09-19",
+   "counterparty": "Target",
+   "amount": 37.94,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_p94tmy9m",
+   "date": "2026-09-14",
+   "counterparty": "Amazon Prime",
+   "amount": 7.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Prime Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_jvd4zb5p",
+   "date": "2026-09-13",
+   "counterparty": "ALDI",
+   "amount": 31.72,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_rm8ccyee",
+   "date": "2026-09-12",
+   "counterparty": "Ulta Beauty",
+   "amount": 29.25,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_tfenq8gv",
+   "date": "2026-09-11",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 451.91,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_eaf68ru7",
+   "date": "2026-09-10",
+   "counterparty": "Montgomery Ridge College",
+   "amount": 175.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Tuition payment plan",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_znj5srky",
+   "date": "2026-09-09",
+   "counterparty": "Spotify",
+   "amount": 5.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_jcrchtxr",
+   "date": "2026-09-08",
+   "counterparty": "UWorld",
+   "amount": 129.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "NCLEX-RN prep, 90 days",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_s43twext",
+   "date": "2026-09-06",
+   "counterparty": "Chick-fil-A",
+   "amount": 12.14,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_ab4fe98v",
+   "date": "2026-09-04",
+   "counterparty": "Wawa",
+   "amount": 4.24,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_ahyaqe88",
+   "date": "2026-09-04",
+   "counterparty": "Wawa",
+   "amount": 7.64,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_5g69sdsf",
+   "date": "2026-09-03",
+   "counterparty": "Linda Park",
+   "handle": "@linda-park-63",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "phone bill",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_gekrmsad",
+   "date": "2026-09-01",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "rent",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_3hrhsuq5",
+   "date": "2026-08-30",
+   "counterparty": "Maya Chen",
+   "handle": "@maya-chen-rn",
+   "amount": 12.25,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo",
+   "memo": "pizza",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_vru4373q",
+   "date": "2026-08-28",
+   "counterparty": "Target",
+   "amount": 37.47,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_265z8fpm",
+   "date": "2026-08-28",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 425.54,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_psk5zz4h",
+   "date": "2026-08-27",
+   "counterparty": "SEPTA",
+   "amount": 2.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Key card fare",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_pxae44rb",
+   "date": "2026-08-27",
+   "counterparty": "Wawa",
+   "amount": 10.93,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_2yuw4rdh",
+   "date": "2026-08-27",
+   "counterparty": "Montgomery Ridge College",
+   "amount": 1310.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "ACH",
+   "memo": "Financial aid refund, fall",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_tt5f9h9f",
+   "date": "2026-08-25",
+   "counterparty": "Montgomery Ridge College",
+   "amount": 85.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Parking permit, fall",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_v9qwppaz",
+   "date": "2026-08-24",
+   "counterparty": "Barnes & Noble College",
+   "amount": 118.35,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Textbooks",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_trbjnfz4",
+   "date": "2026-08-22",
+   "counterparty": "ALDI",
+   "amount": 33.77,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_ffpu7bq9",
+   "date": "2026-08-21",
+   "counterparty": "Apple",
+   "amount": 0.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 50 GB",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_ba84amc9",
+   "date": "2026-08-20",
+   "counterparty": "Wawa",
+   "amount": 4.32,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_368ar42e",
+   "date": "2026-08-20",
+   "counterparty": "FIGS",
+   "amount": 76.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Scrubs",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_49un4hbn",
+   "date": "2026-08-20",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 49.66,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "PECO + internet",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_nx7w5294",
+   "date": "2026-08-14",
+   "counterparty": "Amazon Prime",
+   "amount": 7.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Prime Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_pngr2pzp",
+   "date": "2026-08-14",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 425.89,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_v7vxxkvh",
+   "date": "2026-08-13",
+   "counterparty": "Wawa",
+   "amount": 7.39,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_fbzq6cjk",
+   "date": "2026-08-10",
+   "counterparty": "Starbucks",
+   "amount": 6.23,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_ardve4rn",
+   "date": "2026-08-10",
+   "counterparty": "Montgomery Ridge College",
+   "amount": 175.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Tuition payment plan",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_hz5kqw68",
+   "date": "2026-08-09",
+   "counterparty": "Spotify",
+   "amount": 5.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_jhjn4u3q",
+   "date": "2026-08-07",
+   "counterparty": "SEPTA",
+   "amount": 2.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Key card fare",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_6wnm5g3d",
+   "date": "2026-08-03",
+   "counterparty": "Linda Park",
+   "handle": "@linda-park-63",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "phone bill",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_3cj9b6pm",
+   "date": "2026-08-01",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "rent",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_xzxyaumc",
+   "date": "2026-07-31",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 422.02,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_682j5kju",
+   "date": "2026-07-25",
+   "counterparty": "Maya Chen",
+   "handle": "@maya-chen-rn",
+   "amount": 8.96,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo",
+   "memo": "concert tix",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_rfcppcmb",
+   "date": "2026-07-21",
+   "counterparty": "Chipotle",
+   "amount": 11.52,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_9yg735s2",
+   "date": "2026-07-21",
+   "counterparty": "Apple",
+   "amount": 0.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 50 GB",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_d2nda64r",
+   "date": "2026-07-20",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 43.11,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "PECO + internet",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_rnst3ztz",
+   "date": "2026-07-17",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 395.52,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_rvkjnb3f",
+   "date": "2026-07-14",
+   "counterparty": "Amazon Prime",
+   "amount": 7.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Prime Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_pv6j4qag",
+   "date": "2026-07-10",
+   "counterparty": "Target",
+   "amount": 11.65,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_2aev9pjd",
+   "date": "2026-07-09",
+   "counterparty": "Trader Joe's",
+   "amount": 45.34,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_xcw8wbna",
+   "date": "2026-07-09",
+   "counterparty": "Wawa",
+   "amount": 7.83,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_f2usfz2e",
+   "date": "2026-07-09",
+   "counterparty": "Spotify",
+   "amount": 5.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_7pk32ba6",
+   "date": "2026-07-07",
+   "counterparty": "Giant",
+   "amount": 41.32,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_q38y9d4q",
+   "date": "2026-07-03",
+   "counterparty": "Linda Park",
+   "handle": "@linda-park-63",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "phone bill",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_v6zssxfd",
+   "date": "2026-07-03",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 420.22,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_zrfgvv8k",
+   "date": "2026-07-02",
+   "counterparty": "Wawa",
+   "amount": 12.64,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_z62kzhz9",
+   "date": "2026-07-01",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "rent",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_zm6e5376",
+   "date": "2026-06-30",
+   "counterparty": "Giant",
+   "amount": 31.56,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_b5m2rjr3",
+   "date": "2026-06-28",
+   "counterparty": "SEPTA",
+   "amount": 2.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Key card fare",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_8r9txhu8",
+   "date": "2026-06-24",
+   "counterparty": "Uber",
+   "amount": 23.72,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_gbeqfcrn",
+   "date": "2026-06-22",
+   "counterparty": "Wawa",
+   "amount": 5.96,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_bstw5zk6",
+   "date": "2026-06-21",
+   "counterparty": "Apple",
+   "amount": 0.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 50 GB",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_exd57bj2",
+   "date": "2026-06-20",
+   "counterparty": "sweetgreen",
+   "amount": 13.85,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_9py32ssc",
+   "date": "2026-06-20",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 38.16,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "PECO + internet",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_azqsctqx",
+   "date": "2026-06-19",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 467.18,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_ubjx3n8s",
+   "date": "2026-06-18",
+   "counterparty": "TJ Maxx",
+   "amount": 33.12,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_43j2d9s3",
+   "date": "2026-06-14",
+   "counterparty": "Amazon Prime",
+   "amount": 7.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Prime Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_7sby4zvw",
+   "date": "2026-06-11",
+   "counterparty": "Maya Chen",
+   "handle": "@maya-chen-rn",
+   "amount": 16.24,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "study snacks",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_bpymm22j",
+   "date": "2026-06-11",
+   "counterparty": "ALDI",
+   "amount": 34.17,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_qxcwb53u",
+   "date": "2026-06-09",
+   "counterparty": "Spotify",
+   "amount": 5.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_3brapqg9",
+   "date": "2026-06-07",
+   "counterparty": "Wawa",
+   "amount": 11.85,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_3qgd7g6u",
+   "date": "2026-06-05",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 432.3,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_2mys8r2v",
+   "date": "2026-06-03",
+   "counterparty": "Linda Park",
+   "handle": "@linda-park-63",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "phone bill",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_auc243mj",
+   "date": "2026-06-01",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "rent",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_vjqzubzd",
+   "date": "2026-05-26",
+   "counterparty": "Ulta Beauty",
+   "amount": 29.58,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_q4ymmrjy",
+   "date": "2026-05-24",
+   "counterparty": "SEPTA",
+   "amount": 2.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Key card fare",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_pkekezd7",
+   "date": "2026-05-22",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 422.05,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_kax3a9pv",
+   "date": "2026-05-21",
+   "counterparty": "Apple",
+   "amount": 0.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 50 GB",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_cb9gu7e3",
+   "date": "2026-05-20",
+   "counterparty": "Wawa",
+   "amount": 11.01,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_p8r9vngs",
+   "date": "2026-05-20",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 51.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "PECO + internet",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_g2qe65sa",
+   "date": "2026-05-16",
+   "counterparty": "Uber",
+   "amount": 15.11,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_8np4bx9z",
+   "date": "2026-05-14",
+   "counterparty": "Wawa",
+   "amount": 5.75,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_qgjp8tmd",
+   "date": "2026-05-14",
+   "counterparty": "Amazon Prime",
+   "amount": 7.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Prime Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_f2vzx6ca",
+   "date": "2026-05-12",
+   "counterparty": "Linda Park",
+   "handle": "@linda-park-63",
+   "amount": 120.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo",
+   "memo": "for summer books",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_uarthnzp",
+   "date": "2026-05-11",
+   "counterparty": "Montgomery Ridge College",
+   "amount": 175.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Tuition payment plan",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_rdquhapp",
+   "date": "2026-05-09",
+   "counterparty": "Spotify",
+   "amount": 5.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_mcjfbehe",
+   "date": "2026-05-08",
+   "counterparty": "ALDI",
+   "amount": 43.89,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_vhmypphn",
+   "date": "2026-05-08",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 372.63,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_mf859hz5",
+   "date": "2026-05-05",
+   "counterparty": "Chipotle",
+   "amount": 12.42,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_4n9aa2kc",
+   "date": "2026-05-04",
+   "counterparty": "Wawa",
+   "amount": 5.16,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_ezeytrb6",
+   "date": "2026-05-03",
+   "counterparty": "Linda Park",
+   "handle": "@linda-park-63",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "phone bill",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_4xm83c9x",
+   "date": "2026-05-02",
+   "counterparty": "Chick-fil-A",
+   "amount": 8.21,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_dgx6hcs4",
+   "date": "2026-05-01",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "rent",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_a5r3rjtj",
+   "date": "2026-04-30",
+   "counterparty": "Ulta Beauty",
+   "amount": 43.52,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_nrqwz4yv",
+   "date": "2026-04-30",
+   "counterparty": "Starbucks",
+   "amount": 7.71,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_bndah3km",
+   "date": "2026-04-24",
+   "counterparty": "Wawa",
+   "amount": 5.27,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_eddhv4bm",
+   "date": "2026-04-24",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 390.13,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_4vayj8ez",
+   "date": "2026-04-21",
+   "counterparty": "Apple",
+   "amount": 0.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 50 GB",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_y6mscjq2",
+   "date": "2026-04-20",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 43.47,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "PECO + internet",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_n4puvxd9",
+   "date": "2026-04-18",
+   "counterparty": "Wawa",
+   "amount": 7.48,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_hr5ez3d4",
+   "date": "2026-04-14",
+   "counterparty": "Ticketmaster",
+   "amount": 96.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Concert ticket",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_xjujswbm",
+   "date": "2026-04-14",
+   "counterparty": "Amazon Prime",
+   "amount": 7.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Prime Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_5yqmy5c4",
+   "date": "2026-04-12",
+   "counterparty": "Target",
+   "amount": 17.64,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_3en5zrpn",
+   "date": "2026-04-12",
+   "counterparty": "ALDI",
+   "amount": 35.18,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_nnq59qgw",
+   "date": "2026-04-10",
+   "counterparty": "Montgomery Ridge College",
+   "amount": 175.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Tuition payment plan",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_x5s42d67",
+   "date": "2026-04-10",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 373.26,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_r74gc4bc",
+   "date": "2026-04-09",
+   "counterparty": "Maya Chen",
+   "handle": "@maya-chen-rn",
+   "amount": 25.91,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo",
+   "memo": "pizza",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_wstb8p46",
+   "date": "2026-04-09",
+   "counterparty": "Spotify",
+   "amount": 5.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_pds3jb88",
+   "date": "2026-04-08",
+   "counterparty": "Starbucks",
+   "amount": 6.28,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_xzshtm9s",
+   "date": "2026-04-03",
+   "counterparty": "Linda Park",
+   "handle": "@linda-park-63",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "phone bill",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_8jcdbw8r",
+   "date": "2026-04-01",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "rent",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_uvw4qgym",
+   "date": "2026-03-29",
+   "counterparty": "Chipotle",
+   "amount": 12.64,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_wmtqzffx",
+   "date": "2026-03-28",
+   "counterparty": "Target",
+   "amount": 14.61,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_qnmwdyva",
+   "date": "2026-03-27",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 402.88,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_dzznbfae",
+   "date": "2026-03-23",
+   "counterparty": "Wawa",
+   "amount": 6.03,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_r8tz8r5p",
+   "date": "2026-03-21",
+   "counterparty": "Uber",
+   "amount": 11.35,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_29xudzvs",
+   "date": "2026-03-21",
+   "counterparty": "Wawa",
+   "amount": 7.43,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_freznmjw",
+   "date": "2026-03-21",
+   "counterparty": "Apple",
+   "amount": 0.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 50 GB",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_buuenve9",
+   "date": "2026-03-20",
+   "counterparty": "Wawa",
+   "amount": 13.11,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_8uv5aw6p",
+   "date": "2026-03-20",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 42.92,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "PECO + internet",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_g3syy3fv",
+   "date": "2026-03-19",
+   "counterparty": "Starbucks",
+   "amount": 6.65,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_ftq6n5p4",
+   "date": "2026-03-16",
+   "counterparty": "SEPTA",
+   "amount": 2.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Key card fare",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_dxc3txqf",
+   "date": "2026-03-14",
+   "counterparty": "Amazon Prime",
+   "amount": 7.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Prime Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_dvxrqg6k",
+   "date": "2026-03-13",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 420.41,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_bwftwacx",
+   "date": "2026-03-10",
+   "counterparty": "Montgomery Ridge College",
+   "amount": 175.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Tuition payment plan",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_h3n858e9",
+   "date": "2026-03-09",
+   "counterparty": "Spotify",
+   "amount": 5.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_m5c7y9ja",
+   "date": "2026-03-05",
+   "counterparty": "Maya Chen",
+   "handle": "@maya-chen-rn",
+   "amount": 21.21,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo",
+   "memo": "concert tix",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_ndneyb2q",
+   "date": "2026-03-03",
+   "counterparty": "Linda Park",
+   "handle": "@linda-park-63",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "phone bill",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_5dpa8ash",
+   "date": "2026-03-02",
+   "counterparty": "Amazon",
+   "amount": 20.09,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_xv66w3aw",
+   "date": "2026-03-02",
+   "counterparty": "Trader Joe's",
+   "amount": 22.48,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_mj8ejq5y",
+   "date": "2026-03-01",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "rent",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_xf9q7xkb",
+   "date": "2026-02-27",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 461.32,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_pnqjsfwu",
+   "date": "2026-02-24",
+   "counterparty": "Wawa",
+   "amount": 5.67,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_6rya6rft",
+   "date": "2026-02-21",
+   "counterparty": "Ulta Beauty",
+   "amount": 45.33,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_gkhkk35g",
+   "date": "2026-02-21",
+   "counterparty": "Apple",
+   "amount": 0.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 50 GB",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_npgu8qv3",
+   "date": "2026-02-20",
+   "counterparty": "Frontier Airlines",
+   "amount": 214.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "PHL - MCO, spring break",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_3njrrzxc",
+   "date": "2026-02-20",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 49.19,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "PECO + internet",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_yrytttpf",
+   "date": "2026-02-19",
+   "counterparty": "Amazon",
+   "amount": 8.08,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_akk6ft7u",
+   "date": "2026-02-17",
+   "counterparty": "Ulta Beauty",
+   "amount": 44.61,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_k3cfxgy8",
+   "date": "2026-02-17",
+   "counterparty": "Starbucks",
+   "amount": 7.69,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_zu5vf632",
+   "date": "2026-02-14",
+   "counterparty": "Amazon Prime",
+   "amount": 7.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Prime Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_apb7z4ns",
+   "date": "2026-02-13",
+   "counterparty": "ALDI",
+   "amount": 34.6,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_gfrxwf8f",
+   "date": "2026-02-13",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 410.83,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_uarex5rt",
+   "date": "2026-02-12",
+   "counterparty": "Wawa",
+   "amount": 9.36,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_62h9zkz2",
+   "date": "2026-02-11",
+   "counterparty": "Wawa",
+   "amount": 12.82,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_ax82r2ek",
+   "date": "2026-02-10",
+   "counterparty": "Montgomery Ridge College",
+   "amount": 175.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Tuition payment plan",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_bgnhsvey",
+   "date": "2026-02-09",
+   "counterparty": "Spotify",
+   "amount": 5.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_adpzuhga",
+   "date": "2026-02-03",
+   "counterparty": "Linda Park",
+   "handle": "@linda-park-63",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "phone bill",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_auad46w3",
+   "date": "2026-02-01",
+   "counterparty": "ALDI",
+   "amount": 21.79,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_zqt9cg23",
+   "date": "2026-02-01",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "rent",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_c9zydu7t",
+   "date": "2026-01-31",
+   "counterparty": "SEPTA",
+   "amount": 2.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Key card fare",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_6cjnkv7t",
+   "date": "2026-01-30",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 392.54,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_rxjm8fyd",
+   "date": "2026-01-22",
+   "counterparty": "Giant",
+   "amount": 32.62,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_t9xmghm8",
+   "date": "2026-01-22",
+   "counterparty": "Montgomery Ridge College",
+   "amount": 1240.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "ACH",
+   "memo": "Financial aid refund, spring",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_t7wsfenr",
+   "date": "2026-01-21",
+   "counterparty": "Apple",
+   "amount": 0.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 50 GB",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_gfwvth98",
+   "date": "2026-01-20",
+   "counterparty": "Barnes & Noble College",
+   "amount": 142.6,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Textbooks",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_yyzhuutw",
+   "date": "2026-01-20",
+   "counterparty": "Hannah Kowalski",
+   "handle": "@hannah-kowalski",
+   "amount": 40.94,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "PECO + internet",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_wmv3c9gp",
+   "date": "2026-01-18",
+   "counterparty": "Wawa",
+   "amount": 3.92,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_tc74j6nh",
+   "date": "2026-01-16",
+   "counterparty": "Schuylkill Valley Medical Center",
+   "amount": 392.2,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_aax25stg",
+   "date": "2026-01-15",
+   "counterparty": "Chipotle",
+   "amount": 15.1,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_df5maw4b",
+   "date": "2026-01-15",
+   "counterparty": "Wawa",
+   "amount": 4.66,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_889gfefa",
+   "date": "2026-01-14",
+   "counterparty": "Amazon Prime",
+   "amount": 7.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Prime Student",
+   "account": "CHK-5584"
+  },
+  {
+   "id": "txn_wyfnwcbt",
+   "date": "2026-01-12",
+   "counterparty": "Montgomery Ridge College",
+   "amount": 175.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Tuition payment plan",
+   "account": "CHK-5584"
+  }
+ ],
+ "_meta": {
+  "env_id": "bills",
+  "seed_pairs": [
+   "S25"
+  ],
+  "rng_seed": 20261116,
+  "generator": "envs/bills/build_members.py",
+  "history_window": [
+   "2026-01-12",
+   "2026-11-12"
+  ],
+  "decisive_transactions": []
+ }
+}

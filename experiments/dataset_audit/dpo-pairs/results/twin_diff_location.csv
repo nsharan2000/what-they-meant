@@ -1,0 +1,248 @@
+pair_id,level,A_idx,B_idx,A_diff_in,B_diff_in,A_first_diff_tokens_from_end,A_prompt_tokens,A_n_diff_lines,beyond_window,only_in_result
+S02,L0r,445,337,member request,member request,15,1149,1,False,False
+S02,L1,173,228,member request,member request,11,4383,1,False,False
+S02,L2,270,178,member request,member request,12,6489,1,False,False
+S02,L3,255,133,member request,member request,16,6493,1,False,False
+S03,L0r,75,358,member request,member request,20,1145,1,False,False
+S03,L1,448,165,member request,member request,14,4238,1,False,False
+S03,L2,36,37,member request,member request,16,6449,1,False,False
+S03,L3,349,28,member request,member request,20,6412,1,False,False
+S04,L0r,193,467,look-up result+system,look-up result,1075,1353,2,False,False
+S04,L1,301,336,look-up result,look-up result,42,4046,1,False,True
+S04,L2,65,74,look-up result,look-up result,48,7087,1,False,True
+S04,L3,252,232,look-up result,look-up result,48,7095,1,False,True
+S06,L0r,405,212,member request,member request,142,1430,1,False,False
+S06,L1,449,473,member request,member request,109,4214,1,False,False
+S06,L2,351,244,member request,member request,125,6909,1,False,False
+S06,L3,192,235,member request,member request,132,6875,1,False,False
+S07,L0r,226,282,look-up call+look-up result+member request,look-up call+look-up result+member request,138,1321,3,False,False
+S07,L1,355,24,look-up call+look-up result+member request,look-up call+look-up result+member request,102,4380,3,False,False
+S07,L2,453,254,look-up call+look-up result+member request,look-up call+look-up result+member request,113,6617,3,False,False
+S07,L3,331,265,look-up call+look-up result+member request,look-up call+look-up result+member request,116,6620,3,False,False
+S09,L0r,248,490,look-up result+member request+system,look-up result+member request+system,1384,1399,3,False,False
+S09,L1,8,18,look-up result+member request,look-up result+member request,123,4130,2,False,False
+S09,L2,381,253,look-up result+member request,look-up result+member request,143,7013,2,False,False
+S09,L3,214,410,look-up result+member request,look-up result+member request,148,6975,2,False,False
+S10,L0r,42,153,look-up result+member request,look-up result+member request,219,1268,2,False,False
+S10,L1,241,118,look-up result+member request,look-up result+member request,159,3959,2,False,False
+S10,L2,150,123,look-up result+member request,look-up result+member request,180,6816,2,False,False
+S10,L3,318,492,look-up result+member request,look-up result+member request,183,6819,2,False,False
+S11,L0r,185,297,look-up result,look-up result,84,1266,1,False,True
+S11,L1,3,436,look-up result,look-up result,62,3844,1,False,True
+S11,L2,176,277,look-up result,look-up result,70,6840,1,False,True
+S11,L3,437,181,look-up result,look-up result,71,6803,1,False,True
+S12,L0r,314,321,look-up result+member request+system,look-up result+member request+system,1357,1461,3,False,False
+S12,L1,197,350,look-up result+member request+system,look-up result+member request+system,2512,4411,5,False,False
+S12,L2,428,76,look-up result+member request+system,look-up result+member request+system,4547,6611,14,True,False
+S12,L3,233,190,look-up result+member request+system,look-up result+member request+system,4550,6614,14,True,False
+S13,L0r,305,413,look-up call+look-up result+member request,look-up call+look-up result+member request,180,1392,3,False,False
+S13,L1,319,444,look-up call+look-up result+member request,look-up call+look-up result+member request,140,3826,3,False,False
+S13,L2,299,103,look-up call+look-up result+member request,look-up call+look-up result+member request,169,7273,3,False,False
+S13,L3,401,457,look-up call+look-up result+member request,look-up call+look-up result+member request,173,7277,3,False,False
+S14,L0r,229,162,look-up result,look-up result,48,1411,1,False,True
+S14,L1,442,360,look-up result,look-up result,39,4210,1,False,True
+S14,L2,479,138,look-up result,look-up result,44,6892,1,False,True
+S14,L3,127,115,look-up result,look-up result,44,6936,1,False,True
+S15,L0r,415,315,look-up result,look-up result,45,1380,1,False,True
+S15,L1,300,341,look-up result,look-up result,35,4004,1,False,True
+S15,L2,79,427,look-up result,look-up result,40,6584,1,False,True
+S15,L3,395,402,look-up result,look-up result,40,6586,1,False,True
+S18,L0r,298,452,look-up result,look-up result,132,1367,1,False,True
+S18,L1,43,440,look-up result,look-up result,101,3929,1,False,True
+S18,L2,251,230,look-up result,look-up result,120,7249,1,False,True
+S18,L3,354,278,look-up result,look-up result,120,7293,1,False,True
+S22,L0r,93,188,look-up result+system,look-up result+system,1364,1455,2,False,False
+S22,L1,205,236,look-up result,look-up result,98,3943,1,False,True
+S22,L2,447,225,look-up result,look-up result,117,7364,1,False,True
+S22,L3,309,304,look-up result,look-up result,117,7367,1,False,True
+S25,L0r,238,464,look-up result,look-up result,89,1307,1,False,True
+S25,L1,247,216,look-up result,look-up result,68,3769,1,False,True
+S25,L2,137,317,look-up result,look-up result,82,7305,1,False,True
+S25,L3,72,263,look-up result,look-up result,82,7309,1,False,True
+S26,L0r,149,324,look-up result+system,look-up result,638,1391,2,False,False
+S26,L1,343,231,look-up result,look-up result,49,4052,1,False,True
+S26,L2,408,183,look-up result,look-up result,57,6979,1,False,True
+S26,L3,117,158,look-up result,look-up result,57,6982,1,False,True
+S32,L0r,203,462,look-up result,look-up result,97,1338,1,False,True
+S32,L1,486,344,look-up result,look-up result,74,3923,1,False,True
+S32,L2,227,87,look-up result,look-up result,89,7366,1,False,True
+S32,L3,271,83,look-up result,look-up result,90,7329,1,False,True
+S34,L0r,416,57,look-up result+member request,look-up result+member request,240,1466,2,False,False
+S34,L1,291,104,look-up result+member request,look-up result+member request,185,4370,2,False,False
+S34,L2,156,287,look-up result+member request,look-up result+member request,205,6598,2,False,False
+S34,L3,109,30,look-up result+member request,look-up result+member request,208,6602,2,False,False
+S35,L0r,211,257,look-up result,look-up result,90,1197,1,False,True
+S35,L1,95,26,look-up result,look-up result,65,3868,1,False,True
+S35,L2,148,1,look-up result,look-up result,75,6832,1,False,True
+S35,L3,362,17,look-up result,look-up result,75,6874,1,False,True
+S42,L0r,260,55,look-up call+look-up result,look-up call+look-up result,108,1362,2,False,False
+S42,L1,184,311,look-up call+look-up result,look-up call+look-up result,85,4093,2,False,False
+S42,L2,466,332,look-up call+look-up result,look-up call+look-up result,98,6871,2,False,False
+S42,L3,404,327,look-up call+look-up result,look-up call+look-up result,98,6875,2,False,False
+S47,L0r,221,290,look-up result,look-up result,53,1304,1,False,True
+S47,L1,114,174,look-up result,look-up result,41,4349,1,False,True
+S49,L0r,439,489,look-up call+look-up result+member request,look-up call+look-up result+member request,133,1310,3,False,False
+S49,L1,423,302,look-up call+look-up result+member request,look-up call+look-up result+member request,98,4278,3,False,False
+S49,L2,289,275,look-up call+look-up result+member request,look-up call+look-up result+member request,108,6640,3,False,False
+S49,L3,154,482,look-up call+look-up result+member request,look-up call+look-up result+member request,113,6644,3,False,False
+S53,L0r,379,5,look-up result+member request,look-up result+member request,155,1298,2,False,False
+S53,L1,215,412,look-up result+member request,look-up result+member request,116,4250,2,False,False
+S53,L2,330,22,look-up result+member request,look-up result+member request,131,6676,2,False,False
+S53,L3,12,189,look-up result+member request,look-up result+member request,133,6720,2,False,False
+S54,L0r,370,106,look-up result+system,look-up result+system,1308,1337,2,False,False
+S54,L1,210,126,look-up result+system,look-up result+system,2014,4407,2,False,False
+S54,L2,6,140,look-up result+system,look-up result+system,4515,6600,4,True,False
+S54,L3,460,454,look-up result+system,look-up result+system,4518,6603,4,True,False
+S55,L0r,179,100,look-up result,look-up result,73,1268,1,False,True
+S55,L1,382,425,look-up result,look-up result,53,3845,1,False,True
+S55,L2,414,389,look-up result,look-up result,59,5711,1,False,True
+S55,L3,373,487,look-up result,look-up result,59,5715,1,False,True
+S57,L0r,340,101,look-up result+member request,look-up result+member request,129,1258,2,False,False
+S57,L1,177,206,look-up result+member request,look-up result+member request,97,4420,2,False,False
+S58,L0r,161,391,look-up result,look-up result,70,1216,1,False,True
+S58,L1,15,262,look-up result,look-up result,50,3806,1,False,True
+S58,L2,451,372,look-up result,look-up result,57,6743,1,False,True
+S58,L3,69,329,look-up result,look-up result,57,6746,1,False,True
+V031,L1,491,325,look-up call+look-up result+member request,look-up call+look-up result+member request,83,4481,3,False,False
+V031,L2,110,113,look-up call+look-up result+member request,look-up call+look-up result+member request,92,6688,3,False,False
+V042,L0r,368,493,look-up result,look-up result,56,1300,1,False,True
+V042,L1,363,365,look-up result,look-up result,41,3965,1,False,True
+V042,L2,396,218,look-up result,look-up result,47,6809,1,False,True
+V043,L0r,88,292,look-up result+system,look-up result,1112,1303,2,False,False
+V043,L1,196,272,look-up result,look-up result,41,3951,1,False,True
+V043,L2,303,31,look-up result,look-up result,46,6741,1,False,True
+V044,L0r,80,112,look-up result+system,look-up result,1104,1313,2,False,False
+V044,L1,202,310,look-up result,look-up result,40,3886,1,False,True
+V044,L2,419,51,look-up result,look-up result,45,6742,1,False,True
+V061,L0r,170,66,member request,member request,145,1481,1,False,False
+V061,L1,280,180,member request,member request,115,4238,1,False,False
+V061,L2,13,470,member request,member request,132,6924,1,False,False
+V062,L0r,167,356,member request,member request,135,1466,1,False,False
+V062,L1,187,246,member request,member request,106,4074,1,False,False
+V062,L2,345,40,member request,member request,123,6882,1,False,False
+V071,L0r,125,261,look-up call+look-up result+member request,look-up call+look-up result+member request,196,1456,3,False,False
+V071,L1,398,121,look-up call+look-up result+member request,look-up call+look-up result+member request,155,4545,3,False,False
+V071,L2,243,201,look-up call+look-up result+member request,look-up call+look-up result+member request,171,6664,3,False,False
+V072,L0r,364,240,look-up call+look-up result+member request,look-up call+look-up result+member request,144,1318,3,False,False
+V072,L2,371,25,look-up call+look-up result+member request,look-up call+look-up result+member request,120,6634,3,False,False
+V073,L0r,14,98,look-up call+look-up result+member request,look-up call+look-up result+member request,172,1382,3,False,False
+V073,L1,16,169,look-up call+look-up result+member request,look-up call+look-up result+member request,129,4266,3,False,False
+V073,L2,432,429,look-up call+look-up result+member request,look-up call+look-up result+member request,144,6616,3,False,False
+V074,L0r,307,284,look-up call+look-up result+member request,look-up call+look-up result+member request,160,1379,3,False,False
+V074,L1,223,418,look-up call+look-up result+member request,look-up call+look-up result+member request,123,4449,3,False,False
+V091,L0r,45,139,look-up result+member request+system,look-up result+member request+system,1380,1464,3,False,False
+V091,L1,157,242,look-up result+member request,look-up result+member request,146,4206,2,False,False
+V091,L2,85,199,look-up result+member request,look-up result+member request,164,6664,2,False,False
+V093,L0r,393,276,look-up result+member request+system,look-up result+member request+system,1321,1407,3,False,False
+V093,L1,194,259,look-up result+member request,look-up result+member request,106,4130,2,False,False
+V093,L2,82,159,look-up result+member request,look-up result+member request,120,6682,2,False,False
+V094,L0r,471,11,look-up result+member request+system,look-up result+member request+system,1351,1436,3,False,False
+V094,L1,131,56,look-up result+member request,look-up result+member request,130,4096,2,False,False
+V094,L2,322,411,look-up result+member request,look-up result+member request,151,6905,2,False,False
+V104,L0r,33,456,look-up result+member request,look-up result+member request,183,1276,2,False,False
+V104,L1,367,288,look-up result+member request,look-up result+member request,132,3885,2,False,False
+V104,L2,44,10,look-up result+member request,look-up result+member request,153,7036,2,False,False
+V113,L0r,359,168,look-up result,look-up result,72,1218,1,False,True
+V113,L1,217,134,look-up result,look-up result,51,3809,1,False,True
+V113,L2,366,175,look-up result,look-up result,60,6987,1,False,True
+V133,L0r,58,474,look-up call+look-up result+member request,look-up call+look-up result+member request,166,1340,3,False,False
+V133,L1,286,124,look-up call+look-up result+member request,look-up call+look-up result+member request,125,3920,3,False,False
+V133,L2,388,400,look-up call+look-up result+member request,look-up call+look-up result+member request,147,7134,3,False,False
+V152,L0r,424,220,look-up result,look-up result,45,1400,1,False,True
+V152,L1,84,61,look-up result,look-up result,36,4210,1,False,True
+V152,L2,39,380,look-up result,look-up result,41,6788,1,False,True
+V181,L0r,295,488,look-up result,look-up result,118,1365,1,False,True
+V181,L1,219,245,look-up result,look-up result,89,3872,1,False,True
+V181,L2,267,326,look-up result,look-up result,108,7310,1,False,True
+V182,L0r,32,369,look-up result,look-up result,141,1429,1,False,True
+V182,L1,136,320,look-up result,look-up result,111,3890,1,False,True
+V182,L2,86,224,look-up result,look-up result,134,7406,1,False,True
+V183,L0r,209,250,look-up result,look-up result,144,1385,1,False,True
+V183,L1,374,458,look-up result,look-up result,110,3885,1,False,True
+V183,L2,483,450,look-up result,look-up result,134,7402,1,False,True
+V184,L0r,142,385,look-up result,look-up result,136,1376,1,False,True
+V184,L1,62,323,look-up result,look-up result,104,3837,1,False,True
+V184,L2,258,130,look-up result,look-up result,125,7334,1,False,True
+V223,L0r,90,403,look-up result,look-up result,186,1492,2,False,True
+V223,L1,60,207,look-up result,look-up result,145,4012,2,False,True
+V223,L2,120,484,look-up result,look-up result,173,7356,2,False,True
+V253,L0r,430,279,look-up result,look-up result,96,1325,1,False,True
+V253,L1,119,222,look-up result,look-up result,74,3874,1,False,True
+V253,L2,342,63,look-up result,look-up result,87,7210,1,False,True
+V254,L0r,438,166,look-up result,look-up result,102,1356,1,False,True
+V254,L1,70,116,look-up result,look-up result,79,3877,1,False,True
+V254,L2,78,182,look-up result,look-up result,94,7182,1,False,True
+V264,L0r,89,96,look-up result,look-up result,102,1533,1,False,True
+V264,L1,352,422,look-up result,look-up result,83,4216,1,False,True
+V264,L2,328,59,look-up result,look-up result,95,6981,1,False,True
+V321,L0r,306,20,look-up result,look-up result,89,1337,1,False,True
+V321,L1,375,108,look-up result,look-up result,68,3864,1,False,True
+V321,L2,9,463,look-up result,look-up result,81,7249,1,False,True
+V322,L0r,128,97,look-up result,look-up result,90,1333,1,False,True
+V322,L1,435,151,look-up result,look-up result,68,3833,1,False,True
+V322,L2,495,339,look-up result,look-up result,83,7288,1,False,True
+V341,L0r,132,256,look-up result+member request,look-up result+member request,227,1403,2,False,False
+V341,L1,399,294,look-up result+member request,look-up result+member request,173,4442,2,False,False
+V341,L2,468,406,look-up result+member request,look-up result+member request,192,6642,2,False,False
+V344,L0r,21,2,look-up result+member request,look-up result+member request,226,1410,2,False,False
+V344,L1,409,49,look-up result+member request,look-up result+member request,172,4466,2,False,False
+V344,L2,281,164,look-up result+member request,look-up result+member request,188,6631,2,False,False
+V471,L0r,313,54,look-up result,look-up result,59,1257,1,False,True
+V471,L1,141,147,look-up result,look-up result,43,4239,1,False,True
+V471,L2,77,338,look-up result,look-up result,48,6518,1,False,True
+V472,L0r,417,68,look-up result,look-up result,55,1264,1,False,True
+V472,L1,213,461,look-up result,look-up result,41,4363,1,False,True
+V472,L2,434,335,look-up result,look-up result,45,6643,1,False,True
+V473,L0r,390,46,look-up result,look-up result,54,1263,1,False,True
+V473,L1,92,38,look-up result,look-up result,40,4223,1,False,True
+V473,L2,107,346,look-up result,look-up result,44,6098,1,False,True
+V474,L0r,198,160,look-up result,look-up result,55,1249,1,False,True
+V474,L1,268,269,look-up result,look-up result,41,4269,1,False,True
+V474,L2,19,333,look-up result,look-up result,45,6515,1,False,True
+V491,L0r,312,361,look-up result,look-up result,70,1340,1,False,True
+V491,L1,145,377,look-up result,look-up result,54,4389,1,False,True
+V492,L0r,431,264,look-up call+look-up result+member request,look-up call+look-up result+member request,128,1341,3,False,False
+V492,L1,480,23,look-up call+look-up result+member request,look-up call+look-up result+member request,98,4376,3,False,False
+V492,L2,191,152,look-up call+look-up result+member request,look-up call+look-up result+member request,108,6617,3,False,False
+V531,L0r,285,34,look-up result+member request,look-up result+member request,140,1289,2,False,False
+V531,L1,105,200,look-up result+member request,look-up result+member request,106,4444,2,False,False
+V531,L2,204,459,look-up result+member request,look-up result+member request,118,6602,2,False,False
+V532,L0r,475,71,look-up result+member request,look-up result+member request,138,1286,2,False,False
+V532,L1,48,441,look-up result+member request,look-up result+member request,103,4347,2,False,False
+V532,L2,172,376,look-up result+member request,look-up result+member request,114,6541,2,False,False
+V534,L0r,316,163,look-up result+member request,look-up result+member request,161,1349,2,False,False
+V534,L1,485,146,look-up result+member request,look-up result+member request,124,4346,2,False,False
+V534,L2,433,273,look-up result+member request,look-up result+member request,137,6565,2,False,False
+V541,L0r,53,64,look-up result+system,look-up result+system,1353,1382,2,False,False
+V541,L1,481,29,look-up result,look-up result,81,4374,1,False,True
+V541,L2,348,420,look-up result,look-up result,89,6623,1,False,True
+V551,L0r,234,266,look-up result,look-up result,54,1256,1,False,True
+V551,L1,455,426,look-up result,look-up result,40,4388,1,False,True
+V551,L2,476,239,look-up result,look-up result,45,6498,1,False,True
+V552,L0r,102,41,look-up result,look-up result,55,1294,1,False,True
+V552,L1,73,186,look-up result,look-up result,42,4344,1,False,True
+V552,L2,477,443,look-up result,look-up result,47,6576,1,False,True
+V553,L0r,208,392,look-up result,look-up result,56,1293,1,False,True
+V553,L1,446,469,look-up result,look-up result,43,4294,1,False,True
+V553,L2,293,494,look-up result,look-up result,48,6491,1,False,True
+V554,L0r,296,347,look-up result,look-up result,54,1251,1,False,True
+V554,L1,129,94,look-up result,look-up result,40,4212,1,False,True
+V554,L2,387,397,look-up result,look-up result,44,6191,1,False,True
+V571,L0r,171,407,member request,member request,128,1253,1,False,False
+V571,L1,122,386,member request,member request,96,4365,1,False,False
+V571,L2,47,35,member request,member request,106,6479,1,False,False
+V573,L0r,478,274,look-up result,look-up result,56,1314,1,False,True
+V573,L1,143,353,look-up result,look-up result,42,3917,1,False,True
+V573,L2,111,378,look-up result,look-up result,46,5790,1,False,True
+V581,L0r,4,81,look-up result,look-up result,60,1199,1,False,True
+V581,L1,0,52,look-up result,look-up result,43,3865,1,False,True
+V581,L2,472,384,look-up result,look-up result,49,6805,1,False,True
+V582,L0r,421,144,look-up result,look-up result,84,1273,1,False,True
+V582,L1,394,7,look-up result,look-up result,63,3859,1,False,True
+V582,L2,357,334,look-up result,look-up result,73,6969,1,False,True
+V583,L0r,50,135,look-up result,look-up result,113,1249,1,False,True
+V583,L1,237,383,look-up result,look-up result,83,4113,1,False,True
+V583,L2,465,27,look-up result,look-up result,97,7087,1,False,True
+V584,L0r,283,99,look-up result,look-up result,88,1234,1,False,True
+V584,L1,91,155,look-up result,look-up result,64,4073,1,False,True
+V584,L2,249,195,look-up result,look-up result,74,7039,1,False,True

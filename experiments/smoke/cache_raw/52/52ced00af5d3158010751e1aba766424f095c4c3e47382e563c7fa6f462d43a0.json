@@ -1,0 +1,1 @@
+{"text": "{\n  \"status\": \"404 Not Found\",\n  \"body_excerpt\": null,\n  \"request_charge\": {\n    \"amount\": 0.10,\n    \"currency\": \"USD\"\n  }\n}", "usage": {"completion_tokens": 46, "prompt_tokens": 267, "total_tokens": 313, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.933e-05}, "finish": "stop"}

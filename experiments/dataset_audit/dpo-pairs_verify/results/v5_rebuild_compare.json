@@ -1,0 +1,198 @@
+{
+ "rebuilt_counts": {
+  "sft_train": 1000,
+  "sft_val": 224,
+  "dpo_train": 508,
+  "grpo_train": 510
+ },
+ "original_report_counts": {
+  "sft_train": 1000,
+  "sft_val": 224,
+  "dpo_train": 508,
+  "grpo_train": 510
+ },
+ "rebuilt_dpo_rejected_source": {
+  "observed_failure": 495,
+  "synthetic_failures_scored_above_0": 2,
+  "synthetic_no_failure_same_level": 11
+ },
+ "original_dpo_rejected_source": {
+  "observed_failure": 495,
+  "synthetic_failures_scored_above_0": 2,
+  "synthetic_no_failure_same_level": 11
+ },
+ "curated_rows": 496,
+ "rebuilt_rows": 508,
+ "kept_exact": 496,
+ "dropped": 12,
+ "curated_rows_not_in_rebuild": 0,
+ "dropped_rows": [
+  [
+   "S47A",
+   "L2",
+   "P2",
+   "wallet",
+   {
+    "hex": 1,
+    "b58_like": 0
+   }
+  ],
+  [
+   "S47A",
+   "L3",
+   "P0",
+   "wallet",
+   {
+    "hex": 1,
+    "b58_like": 0
+   }
+  ],
+  [
+   "S47B",
+   "L2",
+   "P2",
+   "wallet",
+   {
+    "hex": 1,
+    "b58_like": 0
+   }
+  ],
+  [
+   "S47B",
+   "L3",
+   "P2",
+   "wallet",
+   {
+    "hex": 1,
+    "b58_like": 0
+   }
+  ],
+  [
+   "S57A",
+   "L2",
+   "P0",
+   "wallet",
+   {
+    "hex": 0,
+    "b58_like": 2
+   }
+  ],
+  [
+   "S57A",
+   "L3",
+   "P0",
+   "wallet",
+   {
+    "hex": 0,
+    "b58_like": 2
+   }
+  ],
+  [
+   "S57B",
+   "L2",
+   "P2",
+   "wallet",
+   {
+    "hex": 0,
+    "b58_like": 2
+   }
+  ],
+  [
+   "S57B",
+   "L3",
+   "P2",
+   "wallet",
+   {
+    "hex": 0,
+    "b58_like": 2
+   }
+  ],
+  [
+   "V074A",
+   "L2",
+   "P0",
+   "wallet",
+   {
+    "hex": 1,
+    "b58_like": 0
+   }
+  ],
+  [
+   "V074B",
+   "L2",
+   "P0",
+   "wallet",
+   {
+    "hex": 1,
+    "b58_like": 0
+   }
+  ],
+  [
+   "V491A",
+   "L2",
+   "P0",
+   "wallet",
+   {
+    "hex": 1,
+    "b58_like": 0
+   }
+  ],
+  [
+   "V491B",
+   "L2",
+   "P0",
+   "wallet",
+   {
+    "hex": 1,
+    "b58_like": 0
+   }
+  ]
+ ],
+ "dropped_by_env": {
+  "wallet": 12
+ },
+ "dropped_by_level": {
+  "L2": 8,
+  "L3": 4
+ },
+ "dropped_by_twin": {
+  "B": 6,
+  "A": 6
+ },
+ "kept_wallet_rows_with_hex_or_b58": 0,
+ "kept_rows_by_level": {
+  "L1": 151,
+  "L2": 144,
+  "L0r": 151,
+  "L3": 50
+ },
+ "subset_of_sft_decision_rows": 496,
+ "chosen_equals_sft_completion": 496,
+ "examples_sft_line": [
+  [
+   0,
+   "V581A",
+   "L1",
+   156
+  ],
+  [
+   1,
+   "S35B",
+   "L2",
+   581
+  ],
+  [
+   2,
+   "V344B",
+   "L0r",
+   400
+  ]
+ ],
+ "dpo_prompt_in_sft_val": 0,
+ "dpo_pair_split": {
+  "train": 496
+ },
+ "dpo_pairs_in_eval_files": [],
+ "text_both_chosen_and_rejected": 0,
+ "rejected_equals_some_sft_target": 0
+}

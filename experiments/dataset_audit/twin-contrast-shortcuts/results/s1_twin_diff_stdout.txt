@@ -1,0 +1,263 @@
+{
+ "sft_train": {
+  "n": 247,
+  "loci": {
+   "result": 133,
+   "request+result": 41,
+   "call+request+result": 30,
+   "request": 21,
+   "result+system": 10,
+   "request+result+system": 8,
+   "call+result": 4
+  },
+  "share_system_differs": 0.073,
+  "share_request_differs": 0.405,
+  "share_call_differs": 0.138,
+  "share_result_differs": 0.915,
+  "share_identical_prompts": 0.0,
+  "request_kind": {
+   "identifier_only": 38,
+   "wording": 62,
+   "identical": 147
+  },
+  "system_sections_differing": {
+   "preamble": 8,
+   "Member / Notes on file": 6,
+   "Tools": 4,
+   "Member / Transaction history": 4,
+   "Member / Bank Transactions": 2,
+   "Member / Notifications": 2,
+   "Member / Requests": 2,
+   "Member / Linked accounts": 2,
+   "Member / Recent activity": 1
+  },
+  "diff_chars_a_plus_b": {
+   "median": 82,
+   "mean": 115.5,
+   "max": 2238
+  },
+  "diff_tok_est_a_plus_b": {
+   "median": 26.3,
+   "mean": 39.8,
+   "max": 738.0999999999999
+  },
+  "share_of_prompt_tokens_differing_est": {
+   "median": 0.0032,
+   "mean": 0.0071,
+   "p90": 0.0209,
+   "max": 0.0616
+  },
+  "exact_token_diff_a_minus_b_strict": {
+   "n": 134,
+   "mean": 3.6,
+   "median": 1.5,
+   "share_a_longer": 0.582,
+   "share_b_longer": 0.299,
+   "share_equal": 0.119
+  },
+  "farthest_diff_tok_from_end_est": {
+   "median": 84,
+   "max": 4536,
+   "share_gt_4096": 0.016
+  },
+  "share_rows_with_unlinked_result_fields": 0.34,
+  "share_rows_request_extra_words": 0.219,
+  "share_single_locus": 0.623,
+  "share_decisive_only_heuristic": 0.466,
+  "share_member_differs": 0.032,
+  "share_strict_match": 0.543
+ },
+ "sft_val": {
+  "n": 56,
+  "loci": {
+   "result": 49,
+   "call+request+result": 7
+  },
+  "share_system_differs": 0.0,
+  "share_request_differs": 0.125,
+  "share_call_differs": 0.125,
+  "share_result_differs": 1.0,
+  "share_identical_prompts": 0.0,
+  "request_kind": {
+   "identical": 49,
+   "wording": 7
+  },
+  "system_sections_differing": {},
+  "diff_chars_a_plus_b": {
+   "median": 56.0,
+   "mean": 103.7,
+   "max": 327
+  },
+  "diff_tok_est_a_plus_b": {
+   "median": 19.45,
+   "mean": 36.1,
+   "max": 125.8
+  },
+  "share_of_prompt_tokens_differing_est": {
+   "median": 0.0027,
+   "mean": 0.0067,
+   "p90": 0.0127,
+   "max": 0.0457
+  },
+  "exact_token_diff_a_minus_b_strict": {
+   "n": 34,
+   "mean": 20.3,
+   "median": 9.0,
+   "share_a_longer": 0.941,
+   "share_b_longer": 0.059,
+   "share_equal": 0.0
+  },
+  "farthest_diff_tok_from_end_est": {
+   "median": 49.0,
+   "max": 178,
+   "share_gt_4096": 0.0
+  },
+  "share_rows_with_unlinked_result_fields": 0.536,
+  "share_rows_request_extra_words": 0.018,
+  "share_single_locus": 0.875,
+  "share_decisive_only_heuristic": 0.464,
+  "share_member_differs": 0.0,
+  "share_strict_match": 0.607
+ },
+ "dpo_train": {
+  "n": 247,
+  "loci": {
+   "result": 133,
+   "request+result": 41,
+   "call+request+result": 30,
+   "request": 21,
+   "result+system": 10,
+   "request+result+system": 8,
+   "call+result": 4
+  },
+  "share_system_differs": 0.073,
+  "share_request_differs": 0.405,
+  "share_call_differs": 0.138,
+  "share_result_differs": 0.915,
+  "share_identical_prompts": 0.0,
+  "request_kind": {
+   "identifier_only": 38,
+   "wording": 62,
+   "identical": 147
+  },
+  "system_sections_differing": {
+   "preamble": 8,
+   "Member / Notes on file": 6,
+   "Tools": 4,
+   "Member / Transaction history": 4,
+   "Member / Bank Transactions": 2,
+   "Member / Notifications": 2,
+   "Member / Requests": 2,
+   "Member / Linked accounts": 2,
+   "Member / Recent activity": 1
+  },
+  "diff_chars_a_plus_b": {
+   "median": 82,
+   "mean": 115.5,
+   "max": 2238
+  },
+  "diff_tok_est_a_plus_b": {
+   "median": 26.3,
+   "mean": 39.8,
+   "max": 738.0999999999999
+  },
+  "share_of_prompt_tokens_differing_est": {
+   "median": 0.0032,
+   "mean": 0.0071,
+   "p90": 0.0209,
+   "max": 0.0616
+  },
+  "exact_token_diff_a_minus_b_strict": {
+   "n": 134,
+   "mean": 3.6,
+   "median": 1.5,
+   "share_a_longer": 0.582,
+   "share_b_longer": 0.299,
+   "share_equal": 0.119
+  },
+  "farthest_diff_tok_from_end_est": {
+   "median": 84,
+   "max": 4536,
+   "share_gt_4096": 0.016
+  },
+  "share_rows_with_unlinked_result_fields": 0.34,
+  "share_rows_request_extra_words": 0.219,
+  "share_single_locus": 0.623,
+  "share_decisive_only_heuristic": 0.466,
+  "share_member_differs": 0.032,
+  "share_strict_match": 0.543
+ },
+ "grpo_train": {
+  "n": 247,
+  "loci": {
+   "result": 133,
+   "request+result": 41,
+   "call+request+result": 30,
+   "request": 21,
+   "result+system": 10,
+   "request+result+system": 8,
+   "call+result": 4
+  },
+  "share_system_differs": 0.073,
+  "share_request_differs": 0.405,
+  "share_call_differs": 0.138,
+  "share_result_differs": 0.915,
+  "share_identical_prompts": 0.0,
+  "request_kind": {
+   "identifier_only": 38,
+   "wording": 62,
+   "identical": 147
+  },
+  "system_sections_differing": {
+   "preamble": 8,
+   "Member / Notes on file": 6,
+   "Tools": 4,
+   "Member / Transaction history": 4,
+   "Member / Bank Transactions": 2,
+   "Member / Notifications": 2,
+   "Member / Requests": 2,
+   "Member / Linked accounts": 2,
+   "Member / Recent activity": 1
+  },
+  "diff_chars_a_plus_b": {
+   "median": 82,
+   "mean": 115.5,
+   "max": 2238
+  },
+  "diff_tok_est_a_plus_b": {
+   "median": 26.3,
+   "mean": 39.8,
+   "max": 738.0999999999999
+  },
+  "share_of_prompt_tokens_differing_est": {
+   "median": 0.0032,
+   "mean": 0.0071,
+   "p90": 0.0209,
+   "max": 0.0616
+  },
+  "exact_token_diff_a_minus_b_strict": {
+   "n": 134,
+   "mean": 3.6,
+   "median": 1.5,
+   "share_a_longer": 0.582,
+   "share_b_longer": 0.299,
+   "share_equal": 0.119
+  },
+  "farthest_diff_tok_from_end_est": {
+   "median": 84,
+   "max": 4536,
+   "share_gt_4096": 0.016
+  },
+  "share_rows_with_unlinked_result_fields": 0.34,
+  "share_rows_request_extra_words": 0.219,
+  "share_single_locus": 0.623,
+  "share_decisive_only_heuristic": 0.466,
+  "share_member_differs": 0.032,
+  "share_strict_match": 0.543
+ }
+}
+{'sft_train_pairs_with_matched_decision_rows': 76, 'sft_train_pairs_request_differs': 31, 'sft_train_pairs_call_differs': 11, 'sft_train_pairs_system_differs_any_level': 12, 'sft_train_pairs_system_differs_L1_or_L2': 2, 'sft_train_pairs_result_only': 37}
+sft_train {"decision|A|counterpart_other_prompt_setting": 113, "decision|A|strict_counterpart": 134, "decision|B|counterpart_other_prompt_setting": 113, "decision|B|no_counterpart": 2, "decision|B|strict_counterpart": 134, "lookup|A|counterpart_other_prompt_setting": 112, "lookup|A|no_counterpart": 31, "lookup|A|strict_counterpart": 54, "lookup|B|counterpart_other_prompt_setting": 112, "lookup|B|no_counterpart": 43, "lookup|B|strict_counterpart": 54} 0.502 {'A|P0': 178, 'A|P2': 69, 'B|P0': 167, 'B|P2': 82}
+sft_val {"decision|A|counterpart_other_prompt_setting": 22, "decision|A|strict_counterpart": 34, "decision|B|counterpart_other_prompt_setting": 22, "decision|B|strict_counterpart": 34, "lookup|A|counterpart_other_prompt_setting": 22, "lookup|A|strict_counterpart": 34, "lookup|B|counterpart_other_prompt_setting": 22, "lookup|B|strict_counterpart": 34} 0.5 {'A|P0': 39, 'A|P2': 17, 'B|P0': 43, 'B|P2': 13}
+dpo_train {"decision|A|counterpart_other_prompt_setting": 113, "decision|A|strict_counterpart": 134, "decision|B|counterpart_other_prompt_setting": 113, "decision|B|no_counterpart": 2, "decision|B|strict_counterpart": 134} 0.502 {'A|P0': 178, 'A|P2': 69, 'B|P0': 167, 'B|P2': 82}
+grpo_train {"decision|A|counterpart_other_prompt_setting": 113, "decision|A|strict_counterpart": 134, "decision|B|counterpart_other_prompt_setting": 113, "decision|B|no_counterpart": 2, "decision|B|strict_counterpart": 134} 0.502 {'A|P0': 178, 'A|P2': 69, 'B|P0': 167, 'B|P2': 82}

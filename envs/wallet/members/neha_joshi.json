@@ -1,0 +1,2206 @@
+{
+ "member_id": "neha_joshi",
+ "profile": {
+  "name": "Neha Joshi",
+  "age": 32,
+  "city": "Pune, Maharashtra",
+  "country": "India",
+  "occupation": "Homemaker; runs a small home-catering business",
+  "summary": "Kestrel member since 2023-06 · identity verified · home currency INR · connected: Google Pay (UPI) on HDFC Bank Savings ••4093",
+  "email": "neha.joshi@mail.com",
+  "phone": "98765-41120",
+  "member_since": "2023-06-14",
+  "home_currency": "INR",
+  "timezone": "Asia/Kolkata",
+  "language": "en-IN",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Neha Joshi is a methodical 32-year-old homemaker who blends culinary curiosity, disciplined budgeting, and a quiet ambition to launch a community-focused catering venture.",
+   "professional_persona": "Neha Joshi is a meticulous homemaker and aspiring home-based caterer who leverages their strong organisational skills, culinary expertise in Maharashtrian and North Indian dishes, and methodical planning to coordinate family events and community gatherings, while steadily pursuing evening classes to upgrade their digital and Marathi proficiency.",
+   "cultural_background": "Neha comes from a middle-class Hindu household rooted in the bustling urban fabric of Pune, Maharashtra. Though her family originally migrated from a Hindi-speaking region of North India, they have lived in Pune for several generations, blending North Indian customs with Marathi urban lifestyle. Growing up in a close-knit neighbourhood, she experienced both the vibrant festivals of the city—like Ganesh Chaturthi and Diwali—and the more traditional Hindi festivals celebrated at home. Her upbringing reflects a pragmatic blend of cultural influences, where respect for elders, community solidarity, and modest aspirations are valued.",
+   "sex": "Female",
+   "marital_status": "Currently Married",
+   "education_level": "Middle",
+   "occupation": "No Occupation / Retired / Homemaker",
+   "first_language": "Hindi"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-India",
+   "split": "en_IN",
+   "uuid": "bc99f78ea1934222b55facdf1c07f753",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "India",
+    "age": 32,
+    "sex": "Female",
+    "seed": 1
+   },
+   "source_age": 32,
+   "source_location": "Pune, Maharashtra, Urban",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Rajina Mestri",
+    "Rajina"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "HDFC Bank Savings ••4093 (via Google Pay UPI)",
+   "currency": "INR",
+   "balance": 52400.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Meera Joshi",
+   "phone": "98201-55732",
+   "networks": [
+    "UPI"
+   ],
+   "relationship": "sister",
+   "note": "this number stopped working in Sep 2026",
+   "last_paid": "2026-09-02"
+  },
+  {
+   "name": "Sunanda Joshi",
+   "upi": "sunanda.joshi@oksbi",
+   "networks": [
+    "UPI"
+   ],
+   "relationship": "mother (Aai)",
+   "last_paid": "2026-10-15"
+  },
+  {
+   "name": "Savita Kamble",
+   "phone": "98765-40318",
+   "networks": [
+    "UPI"
+   ],
+   "note": "house help · monthly salary",
+   "last_paid": "2026-11-01"
+  },
+  {
+   "name": "Siddharth Kulkarni",
+   "upi": "sid.kulkarni@okicici",
+   "networks": [
+    "UPI"
+   ],
+   "relationship": "husband"
+  },
+  {
+   "name": "Anand Vihar CHS Ltd",
+   "upi": "anandviharchs@hdfcbank",
+   "networks": [
+    "UPI"
+   ],
+   "note": "housing society maintenance",
+   "last_paid": "2026-11-07"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-GPAY",
+   "type": "payment_app",
+   "name": "Google Pay (UPI)",
+   "login": "neha.joshi@okhdfcbank",
+   "status": "connected",
+   "since": "2023-06-14"
+  },
+  {
+   "id": "LA-4093",
+   "type": "bank_account",
+   "name": "HDFC Bank Savings",
+   "last4": "4093",
+   "status": "active",
+   "since": "2023-06-14"
+  },
+  {
+   "id": "LA-2264",
+   "type": "card",
+   "name": "HDFC Millennia Credit Card",
+   "last4": "2264",
+   "status": "active",
+   "since": "2024-01-09"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "MSEDCL electricity (UPI AutoPay)",
+   "amount": 2500.0,
+   "currency": "INR",
+   "cadence": "monthly, up to",
+   "billed_to": "UPI mandate · HDFC ••4093",
+   "next_charge": "2026-11-19",
+   "status": "active"
+  },
+  {
+   "name": "Axis Bluechip Fund SIP",
+   "amount": 2000.0,
+   "currency": "INR",
+   "cadence": "monthly",
+   "billed_to": "NACH · HDFC ••4093",
+   "next_charge": "2026-12-05",
+   "status": "active"
+  },
+  {
+   "name": "Jio prepaid recharge",
+   "amount": 349.0,
+   "currency": "INR",
+   "cadence": "monthly",
+   "billed_to": "Google Pay (UPI)",
+   "next_charge": "2026-12-09",
+   "status": "manual"
+  }
+ ],
+ "standing_instructions": [
+  "SA-6102 · UPI AutoPay mandate · MSEDCL electricity bill, up to ₹2,500 per month, paid automatically on the bill date.",
+  "SA-6103 · NACH mandate · Axis Bluechip Fund SIP ₹2,000 on the 5th (bank-managed, read-only)."
+ ],
+ "notes": [
+  "Sister's old number stopped working; she gave a new one.",
+  "Receives catering orders by UPI; prefers order payments to be acknowledged quickly."
+ ],
+ "transactions": [
+  {
+   "id": "KXZTYVLHSF",
+   "date": "2026-11-09",
+   "time": "16:39",
+   "counterparty": "Jio Prepaid",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Recharge",
+   "memo": "28-day plan"
+  },
+  {
+   "id": "KXTXD65ETX",
+   "date": "2026-11-07",
+   "time": "11:33",
+   "counterparty": "Anand Vihar CHS Ltd",
+   "handle": "anandviharchs@hdfcbank",
+   "amount": 3200.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "maintenance Nov"
+  },
+  {
+   "id": "KX9KVM1SQF",
+   "date": "2026-11-01",
+   "time": "10:55",
+   "counterparty": "Savita Kamble",
+   "handle": "98765-40318",
+   "amount": 4500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Oct salary"
+  },
+  {
+   "id": "KXUYSSR6Y4",
+   "date": "2026-10-19",
+   "time": "07:30",
+   "counterparty": "MSEDCL",
+   "amount": 1297.99,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · AutoPay",
+   "memo": "electricity bill (SA-6102)"
+  },
+  {
+   "id": "KXXAEVJR89",
+   "date": "2026-10-15",
+   "time": "22:42",
+   "counterparty": "Sunanda Joshi",
+   "handle": "sunanda.joshi@oksbi",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "doctor visit"
+  },
+  {
+   "id": "KXP2SA2DPR",
+   "date": "2026-10-09",
+   "time": "17:28",
+   "counterparty": "Jio Prepaid",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Recharge",
+   "memo": "28-day plan"
+  },
+  {
+   "id": "KXUL1Y7BHM",
+   "date": "2026-10-07",
+   "time": "07:47",
+   "counterparty": "Anand Vihar CHS Ltd",
+   "handle": "anandviharchs@hdfcbank",
+   "amount": 3200.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "maintenance Oct"
+  },
+  {
+   "id": "KXQFADB6Y1",
+   "date": "2026-10-05",
+   "time": "08:40",
+   "counterparty": "Sunanda Joshi",
+   "handle": "sunanda.joshi@oksbi",
+   "amount": 1000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Aai"
+  },
+  {
+   "id": "KXH2FLRC79",
+   "date": "2026-10-01",
+   "time": "08:01",
+   "counterparty": "Savita Kamble",
+   "handle": "98765-40318",
+   "amount": 4500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Sep salary"
+  },
+  {
+   "id": "KX8KFG54QK",
+   "date": "2026-09-22",
+   "time": "15:35",
+   "counterparty": "MNGL (Maharashtra Natural Gas)",
+   "amount": 845.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Bill payment",
+   "memo": "piped gas bill"
+  },
+  {
+   "id": "KX3UV3TX6B",
+   "date": "2026-09-19",
+   "time": "07:30",
+   "counterparty": "MSEDCL",
+   "amount": 1454.26,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · AutoPay",
+   "memo": "electricity bill (SA-6102)"
+  },
+  {
+   "id": "KXQVPT8D0M",
+   "date": "2026-09-09",
+   "time": "20:28",
+   "counterparty": "Rohini Bapat",
+   "handle": "rohini.bapat@oksbi",
+   "amount": 2600.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "UPI · Received",
+   "memo": "party snacks order"
+  },
+  {
+   "id": "KXQ6MT4NS5",
+   "date": "2026-09-09",
+   "time": "13:51",
+   "counterparty": "Jio Prepaid",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Recharge",
+   "memo": "28-day plan"
+  },
+  {
+   "id": "KXKFLWHJUM",
+   "date": "2026-09-07",
+   "time": "08:24",
+   "counterparty": "Anand Vihar CHS Ltd",
+   "handle": "anandviharchs@hdfcbank",
+   "amount": 3200.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "maintenance Sep"
+  },
+  {
+   "id": "KX1F5DE812",
+   "date": "2026-09-02",
+   "time": "11:20",
+   "counterparty": "Meera Joshi",
+   "handle": "98201-55732",
+   "amount": 5000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "for Aai's checkup"
+  },
+  {
+   "id": "KXC9E4WLUU",
+   "date": "2026-09-01",
+   "time": "09:34",
+   "counterparty": "Savita Kamble",
+   "handle": "98765-40318",
+   "amount": 4500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Aug salary"
+  },
+  {
+   "id": "KXDD3XDQ6S",
+   "date": "2026-08-30",
+   "time": "15:47",
+   "counterparty": "Rohini Bapat",
+   "handle": "rohini.bapat@oksbi",
+   "amount": 2600.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "UPI · Received",
+   "memo": "office lunch order"
+  },
+  {
+   "id": "KXWGY20DTQ",
+   "date": "2026-08-19",
+   "time": "07:30",
+   "counterparty": "MSEDCL",
+   "amount": 1448.38,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · AutoPay",
+   "memo": "electricity bill (SA-6102)"
+  },
+  {
+   "id": "KXQWK39UN1",
+   "date": "2026-08-09",
+   "time": "09:59",
+   "counterparty": "Jio Prepaid",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Recharge",
+   "memo": "28-day plan"
+  },
+  {
+   "id": "KXMKPGGMVL",
+   "date": "2026-08-07",
+   "time": "22:49",
+   "counterparty": "Anand Vihar CHS Ltd",
+   "handle": "anandviharchs@hdfcbank",
+   "amount": 3200.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "maintenance Aug"
+  },
+  {
+   "id": "KX4TG88FJQ",
+   "date": "2026-08-05",
+   "time": "15:48",
+   "counterparty": "Rohini Bapat",
+   "handle": "rohini.bapat@oksbi",
+   "amount": 2600.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "UPI · Received",
+   "memo": "party snacks order"
+  },
+  {
+   "id": "KXY3SPADXX",
+   "date": "2026-08-01",
+   "time": "08:30",
+   "counterparty": "Savita Kamble",
+   "handle": "98765-40318",
+   "amount": 4500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Jul salary"
+  },
+  {
+   "id": "KXG62MKU13",
+   "date": "2026-07-23",
+   "time": "21:18",
+   "counterparty": "Rohini Bapat",
+   "handle": "rohini.bapat@oksbi",
+   "amount": 4200.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "UPI · Received",
+   "memo": "party snacks order"
+  },
+  {
+   "id": "KXRLVHSUG8",
+   "date": "2026-07-23",
+   "time": "10:37",
+   "counterparty": "MNGL (Maharashtra Natural Gas)",
+   "amount": 776.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Bill payment",
+   "memo": "piped gas bill"
+  },
+  {
+   "id": "KXFVRXF5H4",
+   "date": "2026-07-19",
+   "time": "07:30",
+   "counterparty": "MSEDCL",
+   "amount": 1599.99,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · AutoPay",
+   "memo": "electricity bill (SA-6102)"
+  },
+  {
+   "id": "KX83C2TR17",
+   "date": "2026-07-12",
+   "time": "15:46",
+   "counterparty": "Sunanda Joshi",
+   "handle": "sunanda.joshi@oksbi",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Aai"
+  },
+  {
+   "id": "KXLDZT4J9L",
+   "date": "2026-07-09",
+   "time": "11:49",
+   "counterparty": "Jio Prepaid",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Recharge",
+   "memo": "28-day plan"
+  },
+  {
+   "id": "KX6TESECXH",
+   "date": "2026-07-07",
+   "time": "16:16",
+   "counterparty": "Anand Vihar CHS Ltd",
+   "handle": "anandviharchs@hdfcbank",
+   "amount": 3200.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "maintenance Jul"
+  },
+  {
+   "id": "KXB8K8FAC6",
+   "date": "2026-07-05",
+   "time": "11:04",
+   "counterparty": "Meera Joshi",
+   "handle": "98201-55732",
+   "amount": 4000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "birthday 🎂"
+  },
+  {
+   "id": "KXBJ5M3CLX",
+   "date": "2026-07-01",
+   "time": "09:18",
+   "counterparty": "Savita Kamble",
+   "handle": "98765-40318",
+   "amount": 4500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Jun salary"
+  },
+  {
+   "id": "KXGJX7DGDF",
+   "date": "2026-06-19",
+   "time": "07:30",
+   "counterparty": "MSEDCL",
+   "amount": 1729.61,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · AutoPay",
+   "memo": "electricity bill (SA-6102)"
+  },
+  {
+   "id": "KX0Y13XLY8",
+   "date": "2026-06-09",
+   "time": "10:41",
+   "counterparty": "Jio Prepaid",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Recharge",
+   "memo": "28-day plan"
+  },
+  {
+   "id": "KX94EXU5JC",
+   "date": "2026-06-07",
+   "time": "11:31",
+   "counterparty": "Swati Kulkarni",
+   "handle": "swati.k@okaxis",
+   "amount": 1500.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "UPI · Received",
+   "memo": "tiffin order"
+  },
+  {
+   "id": "KXYYD57ZR3",
+   "date": "2026-06-07",
+   "time": "08:08",
+   "counterparty": "Anand Vihar CHS Ltd",
+   "handle": "anandviharchs@hdfcbank",
+   "amount": 3200.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "maintenance Jun"
+  },
+  {
+   "id": "KXEJGBYB7Y",
+   "date": "2026-06-01",
+   "time": "09:50",
+   "counterparty": "Savita Kamble",
+   "handle": "98765-40318",
+   "amount": 4500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "May salary"
+  },
+  {
+   "id": "KX2DB0GNM0",
+   "date": "2026-05-22",
+   "time": "21:42",
+   "counterparty": "MNGL (Maharashtra Natural Gas)",
+   "amount": 812.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Bill payment",
+   "memo": "piped gas bill"
+  },
+  {
+   "id": "KXYRUPDEZ1",
+   "date": "2026-05-20",
+   "time": "10:58",
+   "counterparty": "Sunanda Joshi",
+   "handle": "sunanda.joshi@oksbi",
+   "amount": 1000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "for the puja"
+  },
+  {
+   "id": "KXU0AUYMT3",
+   "date": "2026-05-19",
+   "time": "07:30",
+   "counterparty": "MSEDCL",
+   "amount": 1056.21,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · AutoPay",
+   "memo": "electricity bill (SA-6102)"
+  },
+  {
+   "id": "KX6G4BHTKF",
+   "date": "2026-05-09",
+   "time": "10:57",
+   "counterparty": "Jio Prepaid",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Recharge",
+   "memo": "28-day plan"
+  },
+  {
+   "id": "KXP7BGJHZL",
+   "date": "2026-05-07",
+   "time": "13:43",
+   "counterparty": "Anand Vihar CHS Ltd",
+   "handle": "anandviharchs@hdfcbank",
+   "amount": 3200.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "maintenance May"
+  },
+  {
+   "id": "KX30NJJW7Y",
+   "date": "2026-05-02",
+   "time": "19:30",
+   "counterparty": "Meera Joshi",
+   "handle": "98201-55732",
+   "amount": 2500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Aai's medicines share"
+  },
+  {
+   "id": "KX0QPCTNTU",
+   "date": "2026-05-01",
+   "time": "10:00",
+   "counterparty": "Savita Kamble",
+   "handle": "98765-40318",
+   "amount": 4500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Apr salary"
+  },
+  {
+   "id": "KXUX6PH9N1",
+   "date": "2026-04-19",
+   "time": "07:30",
+   "counterparty": "MSEDCL",
+   "amount": 1168.27,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · AutoPay",
+   "memo": "electricity bill (SA-6102)"
+  },
+  {
+   "id": "KX6VMYN173",
+   "date": "2026-04-09",
+   "time": "11:51",
+   "counterparty": "Jio Prepaid",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Recharge",
+   "memo": "28-day plan"
+  },
+  {
+   "id": "KXAXKZACLG",
+   "date": "2026-04-07",
+   "time": "08:39",
+   "counterparty": "Anand Vihar CHS Ltd",
+   "handle": "anandviharchs@hdfcbank",
+   "amount": 3200.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "maintenance Apr"
+  },
+  {
+   "id": "KXXQ7ARYKX",
+   "date": "2026-04-01",
+   "time": "08:21",
+   "counterparty": "Savita Kamble",
+   "handle": "98765-40318",
+   "amount": 4500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Mar salary"
+  },
+  {
+   "id": "KXCSB75RH7",
+   "date": "2026-03-30",
+   "time": "09:38",
+   "counterparty": "Sunanda Joshi",
+   "handle": "sunanda.joshi@oksbi",
+   "amount": 1000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Aai"
+  },
+  {
+   "id": "KXQ9DCS1EE",
+   "date": "2026-03-23",
+   "time": "07:53",
+   "counterparty": "MNGL (Maharashtra Natural Gas)",
+   "amount": 968.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Bill payment",
+   "memo": "piped gas bill"
+  },
+  {
+   "id": "KX91ECDMKD",
+   "date": "2026-03-19",
+   "time": "18:29",
+   "counterparty": "Meera Joshi",
+   "handle": "98201-55732",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Gudi Padwa"
+  },
+  {
+   "id": "KXA1H38DZU",
+   "date": "2026-03-19",
+   "time": "07:30",
+   "counterparty": "MSEDCL",
+   "amount": 1859.36,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · AutoPay",
+   "memo": "electricity bill (SA-6102)"
+  },
+  {
+   "id": "KXBUW83GGK",
+   "date": "2026-03-09",
+   "time": "09:10",
+   "counterparty": "Jio Prepaid",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Recharge",
+   "memo": "28-day plan"
+  },
+  {
+   "id": "KX11GRS6YX",
+   "date": "2026-03-07",
+   "time": "09:37",
+   "counterparty": "Anand Vihar CHS Ltd",
+   "handle": "anandviharchs@hdfcbank",
+   "amount": 3200.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "maintenance Mar"
+  },
+  {
+   "id": "KXGG5QUR5M",
+   "date": "2026-03-05",
+   "time": "15:55",
+   "counterparty": "Kavita Deshpande",
+   "handle": "kavita.d@okicici",
+   "amount": 3200.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "UPI · Received",
+   "memo": "30 puran poli order"
+  },
+  {
+   "id": "KXAKM44ANN",
+   "date": "2026-03-01",
+   "time": "08:16",
+   "counterparty": "Savita Kamble",
+   "handle": "98765-40318",
+   "amount": 4500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Feb salary"
+  },
+  {
+   "id": "KXFHZ70HG8",
+   "date": "2026-02-19",
+   "time": "07:30",
+   "counterparty": "MSEDCL",
+   "amount": 1679.8,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · AutoPay",
+   "memo": "electricity bill (SA-6102)"
+  },
+  {
+   "id": "KX37ZBMNRX",
+   "date": "2026-02-16",
+   "time": "09:32",
+   "counterparty": "Swati Kulkarni",
+   "handle": "swati.k@okaxis",
+   "amount": 1500.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "UPI · Received",
+   "memo": "thalipeeth order"
+  },
+  {
+   "id": "KX569Y4WA7",
+   "date": "2026-02-09",
+   "time": "08:41",
+   "counterparty": "Jio Prepaid",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Recharge",
+   "memo": "28-day plan"
+  },
+  {
+   "id": "KX2LBGAGYD",
+   "date": "2026-02-07",
+   "time": "17:38",
+   "counterparty": "Anand Vihar CHS Ltd",
+   "handle": "anandviharchs@hdfcbank",
+   "amount": 3200.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "maintenance Feb"
+  },
+  {
+   "id": "KX4578YB7J",
+   "date": "2026-02-01",
+   "time": "10:48",
+   "counterparty": "Savita Kamble",
+   "handle": "98765-40318",
+   "amount": 4500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "Jan salary"
+  },
+  {
+   "id": "KX1MPU6VFP",
+   "date": "2026-01-22",
+   "time": "16:31",
+   "counterparty": "MNGL (Maharashtra Natural Gas)",
+   "amount": 1124.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Bill payment",
+   "memo": "piped gas bill"
+  },
+  {
+   "id": "KX0YR5PGMX",
+   "date": "2026-01-19",
+   "time": "07:30",
+   "counterparty": "MSEDCL",
+   "amount": 1759.19,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · AutoPay",
+   "memo": "electricity bill (SA-6102)"
+  },
+  {
+   "id": "KX3BPBQJDP",
+   "date": "2026-01-09",
+   "time": "15:25",
+   "counterparty": "Jio Prepaid",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Recharge",
+   "memo": "28-day plan"
+  },
+  {
+   "id": "KXSQUQXT3C",
+   "date": "2026-01-07",
+   "time": "09:07",
+   "counterparty": "Anand Vihar CHS Ltd",
+   "handle": "anandviharchs@hdfcbank",
+   "amount": 3200.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI · Payment",
+   "memo": "maintenance Jan"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-03",
+   "time": "12:00",
+   "type": "product",
+   "text": "New: see upcoming bills and subscriptions in one place."
+  },
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-03",
+   "time": "10:42",
+   "type": "security",
+   "text": "New sign-in on Redmi Note 13 near Pune, Maharashtra. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BKNY615JHX",
+   "date": "2026-11-10",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "CHITALE BANDHU MITHAIWALE",
+   "amount": 789.56,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Food"
+  },
+  {
+   "id": "BK24KN54RV",
+   "date": "2026-11-08",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHINDE DAIRY (MILK)",
+   "amount": 1051.29,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKYG1SN1VW",
+   "date": "2026-11-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "NACH-DR-AXIS MF SIP",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKN2A3B3NR",
+   "date": "2026-11-01",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "IMPS-CR-SIDDHARTH KULKARNI-HOUSEHOLD",
+   "amount": 45000.0,
+   "currency": "INR",
+   "direction": "in",
+   "category": "Transfer in"
+  },
+  {
+   "id": "BKU89JXMR2",
+   "date": "2026-10-31",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "MEDPLUS KOTHRUD",
+   "amount": 807.53,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKG84SWLDE",
+   "date": "2026-10-30",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "ATM WDL HDFC KOTHRUD",
+   "amount": 5000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Cash"
+  },
+  {
+   "id": "BK8C2U3SW8",
+   "date": "2026-10-29",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHREE GANESH KIRANA STORES",
+   "amount": 679.26,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKUABK3RB4",
+   "date": "2026-10-24",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-DMART BANER PUNE",
+   "amount": 1473.88,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK4BZKEC01",
+   "date": "2026-10-20",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "HDFC CC ••2264 AUTOPAY",
+   "amount": 9970.27,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BK5L2QA3J6",
+   "date": "2026-10-19",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "NATURE'S BASKET AUNDH",
+   "amount": 1277.54,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKWSTQ3Z7Q",
+   "date": "2026-10-16",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 1529.11,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK3JED9TY7",
+   "date": "2026-10-13",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 1233.04,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK1U44XLX4",
+   "date": "2026-10-12",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "MEDPLUS KOTHRUD",
+   "amount": 623.09,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BK1JUG4HM6",
+   "date": "2026-10-09",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHINDE DAIRY (MILK)",
+   "amount": 1259.57,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKNKZ345Y0",
+   "date": "2026-10-08",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "ATM WDL HDFC KOTHRUD",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Cash"
+  },
+  {
+   "id": "BK8LM8UWHP",
+   "date": "2026-10-08",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 848.98,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKL0452F8H",
+   "date": "2026-10-06",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-BALAJI VEGETABLES",
+   "amount": 210.12,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKZ3LQJLS9",
+   "date": "2026-10-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "NACH-DR-AXIS MF SIP",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BK9SKG6N69",
+   "date": "2026-10-02",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 1619.6,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK99KRMX1W",
+   "date": "2026-10-01",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "IMPS-CR-SIDDHARTH KULKARNI-HOUSEHOLD",
+   "amount": 45000.0,
+   "currency": "INR",
+   "direction": "in",
+   "category": "Transfer in"
+  },
+  {
+   "id": "BKA4TVTGW3",
+   "date": "2026-09-28",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 1813.53,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK07JDUFZ7",
+   "date": "2026-09-28",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "LIC PREMIUM ECS",
+   "amount": 4862.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKXCTBZ438",
+   "date": "2026-09-26",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-DMART BANER PUNE",
+   "amount": 1312.29,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKZ8Q48RU3",
+   "date": "2026-09-25",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-BALAJI VEGETABLES",
+   "amount": 164.81,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKLT0MF485",
+   "date": "2026-09-23",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "MEDPLUS KOTHRUD",
+   "amount": 690.34,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKN4X4V8BA",
+   "date": "2026-09-21",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHREE GANESH KIRANA STORES",
+   "amount": 626.82,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKDRDKWPXW",
+   "date": "2026-09-20",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "HDFC CC ••2264 AUTOPAY",
+   "amount": 13960.78,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BK9CG9S2Q6",
+   "date": "2026-09-17",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "ATM WDL HDFC KOTHRUD",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Cash"
+  },
+  {
+   "id": "BKTN0STSHU",
+   "date": "2026-09-14",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-BALAJI VEGETABLES",
+   "amount": 218.62,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKCKZH0QMN",
+   "date": "2026-09-13",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "WESTSIDE PHOENIX MALL",
+   "amount": 2661.5,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK94V0MLKG",
+   "date": "2026-09-13",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHINDE DAIRY (MILK)",
+   "amount": 962.81,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKC6LBD6AS",
+   "date": "2026-09-10",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 1069.42,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK7BQXA5AW",
+   "date": "2026-09-09",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-BALAJI VEGETABLES",
+   "amount": 219.49,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKH43NGDZM",
+   "date": "2026-09-08",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "MEDPLUS KOTHRUD",
+   "amount": 708.19,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKM6C9NF4D",
+   "date": "2026-09-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHINDE DAIRY (MILK)",
+   "amount": 1448.6,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKAX9Z92CL",
+   "date": "2026-09-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "NACH-DR-AXIS MF SIP",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKGB0GVEHF",
+   "date": "2026-09-01",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "IMPS-CR-SIDDHARTH KULKARNI-HOUSEHOLD",
+   "amount": 45000.0,
+   "currency": "INR",
+   "direction": "in",
+   "category": "Transfer in"
+  },
+  {
+   "id": "BKK6LCZT9W",
+   "date": "2026-08-29",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-BALAJI VEGETABLES",
+   "amount": 138.99,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKG26YM8CG",
+   "date": "2026-08-23",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHREE GANESH KIRANA STORES",
+   "amount": 532.81,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKSEVDUEUV",
+   "date": "2026-08-20",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "HDFC CC ••2264 AUTOPAY",
+   "amount": 10638.19,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKEL16QUBK",
+   "date": "2026-08-12",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 1614.16,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK2YJUMHQ6",
+   "date": "2026-08-09",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-BALAJI VEGETABLES",
+   "amount": 141.09,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKVJ71LW7V",
+   "date": "2026-08-07",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 1898.53,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKSGJATMWP",
+   "date": "2026-08-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "NACH-DR-AXIS MF SIP",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKB87TM6Z0",
+   "date": "2026-08-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHREE GANESH KIRANA STORES",
+   "amount": 710.51,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKVUGBB5Y6",
+   "date": "2026-08-01",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "IMPS-CR-SIDDHARTH KULKARNI-HOUSEHOLD",
+   "amount": 45000.0,
+   "currency": "INR",
+   "direction": "in",
+   "category": "Transfer in"
+  },
+  {
+   "id": "BKGYAYLZHB",
+   "date": "2026-07-22",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "WESTSIDE PHOENIX MALL",
+   "amount": 1168.85,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKMGRPZX2Q",
+   "date": "2026-07-20",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "HDFC CC ••2264 AUTOPAY",
+   "amount": 6803.52,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKXTWH0SY9",
+   "date": "2026-07-18",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 2084.1,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKMDBGJS9N",
+   "date": "2026-07-18",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "NATURE'S BASKET AUNDH",
+   "amount": 928.97,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKEPA632HT",
+   "date": "2026-07-12",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHREE GANESH KIRANA STORES",
+   "amount": 837.61,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK32GUWENB",
+   "date": "2026-07-06",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-BALAJI VEGETABLES",
+   "amount": 174.7,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKP81KUJ5Q",
+   "date": "2026-07-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "NACH-DR-AXIS MF SIP",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKP94S9VKZ",
+   "date": "2026-07-01",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "IMPS-CR-SIDDHARTH KULKARNI-HOUSEHOLD",
+   "amount": 45000.0,
+   "currency": "INR",
+   "direction": "in",
+   "category": "Transfer in"
+  },
+  {
+   "id": "BKZRK9B856",
+   "date": "2026-06-30",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "MEDPLUS KOTHRUD",
+   "amount": 605.64,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKUQQDCRDZ",
+   "date": "2026-06-29",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-BALAJI VEGETABLES",
+   "amount": 65.79,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKTNFVJG2M",
+   "date": "2026-06-29",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "HP PETROL PUMP PAUD RD",
+   "amount": 1257.62,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKD4UKBHK7",
+   "date": "2026-06-28",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "LIC PREMIUM ECS",
+   "amount": 4862.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKXLAZKBJ7",
+   "date": "2026-06-26",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-DMART BANER PUNE",
+   "amount": 1107.09,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKYCLJSA76",
+   "date": "2026-06-21",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHINDE DAIRY (MILK)",
+   "amount": 1076.25,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKTL5781XA",
+   "date": "2026-06-20",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "HDFC CC ••2264 AUTOPAY",
+   "amount": 12101.48,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKR8658XJ6",
+   "date": "2026-06-11",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHREE GANESH KIRANA STORES",
+   "amount": 516.46,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK0ATZQFCR",
+   "date": "2026-06-07",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-DMART BANER PUNE",
+   "amount": 2499.56,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKM1TLEQ61",
+   "date": "2026-06-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "NACH-DR-AXIS MF SIP",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKM6205838",
+   "date": "2026-06-03",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHREE GANESH KIRANA STORES",
+   "amount": 145.53,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKPUCC1LKW",
+   "date": "2026-06-01",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "IMPS-CR-SIDDHARTH KULKARNI-HOUSEHOLD",
+   "amount": 45000.0,
+   "currency": "INR",
+   "direction": "in",
+   "category": "Transfer in"
+  },
+  {
+   "id": "BKP9J6K2P0",
+   "date": "2026-05-29",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-DMART BANER PUNE",
+   "amount": 3106.26,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKPR53V4XH",
+   "date": "2026-05-28",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-DMART BANER PUNE",
+   "amount": 1022.35,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKWQUD030H",
+   "date": "2026-05-22",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHREE GANESH KIRANA STORES",
+   "amount": 553.73,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK420VD1CD",
+   "date": "2026-05-21",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-BALAJI VEGETABLES",
+   "amount": 182.88,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKN6HDEAFT",
+   "date": "2026-05-20",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "HDFC CC ••2264 AUTOPAY",
+   "amount": 13113.15,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKT9D6JLU5",
+   "date": "2026-05-19",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-DMART BANER PUNE",
+   "amount": 1427.79,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKQYTL68XD",
+   "date": "2026-05-06",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHREE GANESH KIRANA STORES",
+   "amount": 439.44,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKN8VDEHYT",
+   "date": "2026-05-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "NACH-DR-AXIS MF SIP",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKD1G33HG3",
+   "date": "2026-05-01",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "IMPS-CR-SIDDHARTH KULKARNI-HOUSEHOLD",
+   "amount": 45000.0,
+   "currency": "INR",
+   "direction": "in",
+   "category": "Transfer in"
+  },
+  {
+   "id": "BK913UBJA4",
+   "date": "2026-04-29",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "ATM WDL HDFC KOTHRUD",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Cash"
+  },
+  {
+   "id": "BKVFXLYA7W",
+   "date": "2026-04-28",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-DMART BANER PUNE",
+   "amount": 2098.81,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK03P8SM49",
+   "date": "2026-04-28",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "WESTSIDE PHOENIX MALL",
+   "amount": 2468.16,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK3ZH9F79D",
+   "date": "2026-04-26",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 1407.52,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK1KNGKN9D",
+   "date": "2026-04-22",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "CHITALE BANDHU MITHAIWALE",
+   "amount": 430.64,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Food"
+  },
+  {
+   "id": "BK9J36XX21",
+   "date": "2026-04-21",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 442.88,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKDJN0U7NE",
+   "date": "2026-04-20",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "HDFC CC ••2264 AUTOPAY",
+   "amount": 12358.29,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKKUSNC45M",
+   "date": "2026-04-18",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "ATM WDL HDFC KOTHRUD",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Cash"
+  },
+  {
+   "id": "BKQVERRPYN",
+   "date": "2026-04-16",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "NATURE'S BASKET AUNDH",
+   "amount": 952.98,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK46EANFM1",
+   "date": "2026-04-11",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "CHITALE BANDHU MITHAIWALE",
+   "amount": 565.68,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Food"
+  },
+  {
+   "id": "BK3GWFVSZ1",
+   "date": "2026-04-10",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHINDE DAIRY (MILK)",
+   "amount": 1381.17,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKSYNV11A9",
+   "date": "2026-04-08",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHREE GANESH KIRANA STORES",
+   "amount": 254.55,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK6FK1UATH",
+   "date": "2026-04-07",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "NATURE'S BASKET AUNDH",
+   "amount": 1596.33,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK2EZ9CMRL",
+   "date": "2026-04-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "NACH-DR-AXIS MF SIP",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BK0BQNYDTJ",
+   "date": "2026-04-01",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "IMPS-CR-SIDDHARTH KULKARNI-HOUSEHOLD",
+   "amount": 45000.0,
+   "currency": "INR",
+   "direction": "in",
+   "category": "Transfer in"
+  },
+  {
+   "id": "BKN6SLJUNU",
+   "date": "2026-03-30",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-BALAJI VEGETABLES",
+   "amount": 140.43,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKVS0YWPY6",
+   "date": "2026-03-28",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "LIC PREMIUM ECS",
+   "amount": 4862.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK9SC72V6H",
+   "date": "2026-03-28",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHINDE DAIRY (MILK)",
+   "amount": 800.39,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKKVTDTCHA",
+   "date": "2026-03-27",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-DMART BANER PUNE",
+   "amount": 683.52,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKNQRE36VB",
+   "date": "2026-03-26",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHINDE DAIRY (MILK)",
+   "amount": 995.86,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK4K9TDE83",
+   "date": "2026-03-24",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 1917.99,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKLNPW9TAS",
+   "date": "2026-03-20",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "HDFC CC ••2264 AUTOPAY",
+   "amount": 13370.79,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKKYNXSAMM",
+   "date": "2026-03-20",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "WESTSIDE PHOENIX MALL",
+   "amount": 1882.21,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKX4FDN8LL",
+   "date": "2026-03-19",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-DMART BANER PUNE",
+   "amount": 3089.74,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKGA0F9L0C",
+   "date": "2026-03-18",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 2048.88,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKBP3T9HKH",
+   "date": "2026-03-16",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHREE GANESH KIRANA STORES",
+   "amount": 840.14,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKU36USVT3",
+   "date": "2026-03-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "NACH-DR-AXIS MF SIP",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKZQBDBRBM",
+   "date": "2026-03-04",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "MEDPLUS KOTHRUD",
+   "amount": 687.95,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKCX27UPV3",
+   "date": "2026-03-01",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "IMPS-CR-SIDDHARTH KULKARNI-HOUSEHOLD",
+   "amount": 45000.0,
+   "currency": "INR",
+   "direction": "in",
+   "category": "Transfer in"
+  },
+  {
+   "id": "BKPSS05769",
+   "date": "2026-02-20",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "HDFC CC ••2264 AUTOPAY",
+   "amount": 7591.03,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BK92C9TAY9",
+   "date": "2026-02-12",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "NATURE'S BASKET AUNDH",
+   "amount": 1456.45,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKYVZJUNN4",
+   "date": "2026-02-10",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHREE GANESH KIRANA STORES",
+   "amount": 264.3,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKLKV0X671",
+   "date": "2026-02-10",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "HP PETROL PUMP PAUD RD",
+   "amount": 819.54,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK2FM83PZ1",
+   "date": "2026-02-07",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-BALAJI VEGETABLES",
+   "amount": 121.64,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK05JJ5ZVC",
+   "date": "2026-02-06",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "HP PETROL PUMP PAUD RD",
+   "amount": 696.21,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK4R4PJ4V9",
+   "date": "2026-02-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "NACH-DR-AXIS MF SIP",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BK21VNY7HV",
+   "date": "2026-02-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "ATM WDL HDFC KOTHRUD",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Cash"
+  },
+  {
+   "id": "BK5AB4WLH5",
+   "date": "2026-02-01",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "IMPS-CR-SIDDHARTH KULKARNI-HOUSEHOLD",
+   "amount": 45000.0,
+   "currency": "INR",
+   "direction": "in",
+   "category": "Transfer in"
+  },
+  {
+   "id": "BK5RRSWM1R",
+   "date": "2026-01-31",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "MEDPLUS KOTHRUD",
+   "amount": 784.07,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKCK160B7L",
+   "date": "2026-01-20",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "HDFC CC ••2264 AUTOPAY",
+   "amount": 9885.77,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKGYN6J8EN",
+   "date": "2026-01-17",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-RELIANCE SMART KOTHRUD",
+   "amount": 1654.7,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKNSFM8WUB",
+   "date": "2026-01-16",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "WESTSIDE PHOENIX MALL",
+   "amount": 3291.23,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKZMMQ3SBG",
+   "date": "2026-01-15",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "WESTSIDE PHOENIX MALL",
+   "amount": 2772.71,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKFSN5ZYX8",
+   "date": "2026-01-14",
+   "account": "HDFC Millennia Credit Card ••2264",
+   "description": "MEDPLUS KOTHRUD",
+   "amount": 804.74,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKQSTL4U5H",
+   "date": "2026-01-13",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-BALAJI VEGETABLES",
+   "amount": 194.77,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK3XQUCH8E",
+   "date": "2026-01-12",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-DMART BANER PUNE",
+   "amount": 2844.55,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKX1S4MLZX",
+   "date": "2026-01-07",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-DMART BANER PUNE",
+   "amount": 2361.49,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BKPPDFRVK2",
+   "date": "2026-01-06",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "UPI-SHREE GANESH KIRANA STORES",
+   "amount": 783.29,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Groceries (PhonePe UPI)"
+  },
+  {
+   "id": "BK4X7Q1K8H",
+   "date": "2026-01-05",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "NACH-DR-AXIS MF SIP",
+   "amount": 2000.0,
+   "currency": "INR",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKEXMQWQBA",
+   "date": "2026-01-01",
+   "account": "HDFC Bank Savings ••4093",
+   "description": "IMPS-CR-SIDDHARTH KULKARNI-HOUSEHOLD",
+   "amount": 45000.0,
+   "currency": "INR",
+   "direction": "in",
+   "category": "Transfer in"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S08"
+  ],
+  "scenarios": [
+   "S08A",
+   "S08B"
+  ],
+  "world": "shared (both twins)",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261117,
+  "record_counts": {
+   "transactions": 63,
+   "bank_transactions": 125,
+   "total_money_records": 188
+  }
+ }
+}

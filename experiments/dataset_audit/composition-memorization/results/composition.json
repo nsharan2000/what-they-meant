@@ -1,0 +1,1117 @@
+{
+ "sft_train": {
+  "n_rows": 904,
+  "by_twin_full": {
+   "A_pushback": 2,
+   "A_should_ask": 444,
+   "B_should_act": 458
+  },
+  "by_env": {
+   "bills": 183,
+   "bizops": 165,
+   "shopping": 163,
+   "wallet": 393
+  },
+  "by_level": {
+   "L0r": 281,
+   "L1": 276,
+   "L2": 260,
+   "L3": 87
+  },
+  "by_ps": {
+   "P0": 610,
+   "P2": 294
+  },
+  "by_turn": {
+   "decision": 497,
+   "lookup1": 401,
+   "lookup2": 6
+  },
+  "by_source": {
+   "pushback": 2,
+   "seed": 368,
+   "variant": 534
+  },
+  "by_tkind_coarse": {
+   "commit": 18,
+   "lookup": 319,
+   "message": 248,
+   "ui": 231,
+   "verify": 88
+  },
+  "by_turn_x_tkind": {
+   "decision|commit": 18,
+   "decision|message": 248,
+   "decision|ui": 231,
+   "lookup1|lookup": 313,
+   "lookup1|verify": 88,
+   "lookup2|lookup": 6
+  },
+  "by_level_x_ps": {
+   "L0r|P0": 183,
+   "L0r|P2": 98,
+   "L1|P0": 182,
+   "L1|P2": 94,
+   "L2|P0": 184,
+   "L2|P2": 76,
+   "L3|P0": 61,
+   "L3|P2": 26
+  },
+  "by_source_x_turn": {
+   "pushback|decision": 1,
+   "pushback|lookup1": 1,
+   "seed|decision": 208,
+   "seed|lookup1": 160,
+   "variant|decision": 288,
+   "variant|lookup1": 240,
+   "variant|lookup2": 6
+  },
+  "n_scenarios": 153,
+  "n_pairs": 76,
+  "rows_per_scenario": {
+   "n": 153,
+   "min": 2,
+   "p25": 5,
+   "median": 6,
+   "mean": 5.91,
+   "p75": 7,
+   "max": 9
+  },
+  "rows_per_pair": {
+   "n": 76,
+   "min": 7,
+   "p25": 10,
+   "median": 12.0,
+   "mean": 11.89,
+   "p75": 14,
+   "max": 18
+  },
+  "decision_rows_per_scenario": {
+   "n": 153,
+   "min": 1,
+   "p25": 3,
+   "median": 3,
+   "mean": 3.25,
+   "p75": 4,
+   "max": 4
+  },
+  "n_clusters": 27,
+  "rows_per_cluster": {
+   "n": 27,
+   "min": 8,
+   "p25": 23,
+   "median": 31,
+   "mean": 33.48,
+   "p75": 51,
+   "max": 58
+  },
+  "top_clusters_by_rows": [
+   {
+    "cluster": "1o0iq5d",
+    "rows": 58,
+    "pairs": 5,
+    "share": 0.064
+   },
+   {
+    "cluster": "1our3q4",
+    "rows": 57,
+    "pairs": 5,
+    "share": 0.063
+   },
+   {
+    "cluster": "1nb70b6",
+    "rows": 55,
+    "pairs": 5,
+    "share": 0.061
+   },
+   {
+    "cluster": "1o3cgz2",
+    "rows": 52,
+    "pairs": 4,
+    "share": 0.058
+   },
+   {
+    "cluster": "1o4ra48",
+    "rows": 52,
+    "pairs": 5,
+    "share": 0.058
+   },
+   {
+    "cluster": "1v65e50",
+    "rows": 52,
+    "pairs": 4,
+    "share": 0.058
+   },
+   {
+    "cluster": "1nno6l9",
+    "rows": 51,
+    "pairs": 5,
+    "share": 0.056
+   },
+   {
+    "cluster": "1tcec4m",
+    "rows": 45,
+    "pairs": 4,
+    "share": 0.05
+   }
+  ],
+  "lookup_share_rows": 0.4502,
+  "n_distinct_targets": 216,
+  "n_distinct_decision_targets": 149,
+  "n_distinct_lookup_targets": 67,
+  "n_targets_used_as_both_lookup_and_decision": 0,
+  "repeats_per_decision_target": {
+   "n": 149,
+   "min": 2,
+   "p25": 3,
+   "median": 3,
+   "mean": 3.34,
+   "p75": 4,
+   "max": 7
+  },
+  "repeats_per_lookup_target": {
+   "n": 67,
+   "min": 2,
+   "p25": 4,
+   "median": 5,
+   "mean": 6.07,
+   "p75": 6,
+   "max": 46
+  },
+  "decision_targets_shared_by_2plus_scenarios": 4,
+  "lookup_targets_shared_by_2plus_scenarios": 47,
+  "lookup_targets_shared_by_both_twins": 46,
+  "lookup_rows_whose_target_is_shared_by_both_twins": 340,
+  "top_targets": [
+   {
+    "count": 46,
+    "target": "<tool_call>{\"name\": \"decode_qr\", \"arguments\": {}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "verify:decode_qr",
+    "n_scenarios": 20,
+    "n_pairs": 10,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "wallet",
+    "sources": "seed|variant",
+    "example_row": 23
+   },
+   {
+    "count": 20,
+    "target": "<tool_call>{\"name\": \"get_checkout\", \"arguments\": {}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:get_checkout",
+    "n_scenarios": 10,
+    "n_pairs": 5,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "shopping",
+    "sources": "seed|variant",
+    "example_row": 27
+   },
+   {
+    "count": 14,
+    "target": "<tool_call>{\"name\": \"add_to_cart\", \"arguments\": {\"qty\": 2, \"item\": \"garlic\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:add_to_cart",
+    "n_scenarios": 6,
+    "n_pairs": 3,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "shopping",
+    "sources": "seed|variant",
+    "example_row": 9
+   },
+   {
+    "count": 12,
+    "target": "<tool_call>{\"name\": \"search_store\", \"arguments\": {\"query\": \"Sony A80L 55\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:search_store",
+    "n_scenarios": 4,
+    "n_pairs": 2,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "shopping",
+    "sources": "seed|variant",
+    "example_row": 34
+   },
+   {
+    "count": 8,
+    "target": "<tool_call>{\"name\": \"get_signup_terms\", \"arguments\": {\"merchant\": \"Quillo AI Pro trial\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:get_signup_terms",
+    "n_scenarios": 4,
+    "n_pairs": 2,
+    "twins": "AB",
+    "levels": "L0rL1L2",
+    "envs": "bills",
+    "sources": "variant",
+    "example_row": 52
+   },
+   {
+    "count": 8,
+    "target": "<tool_call>{\"name\": \"lookup_venmo\", \"arguments\": {\"query\": \"@ticket_tom\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:lookup_venmo",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "wallet",
+    "sources": "seed",
+    "example_row": 193
+   },
+   {
+    "count": 8,
+    "target": "<tool_call>{\"name\": \"run_scenario\", \"arguments\": {\"scenario\": \"webhook_retries\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "verify:run_scenario",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "bizops",
+    "sources": "seed",
+    "example_row": 36
+   },
+   {
+    "count": 8,
+    "target": "<tool_call>{\"name\": \"get_paid_invoices\", \"arguments\": {\"vendor\": \"ABC Supplies\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:get_paid_invoices",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "bizops",
+    "sources": "seed",
+    "example_row": 92
+   },
+   {
+    "count": 8,
+    "target": "<tool_call>{\"name\": \"get_vendor_master\", \"arguments\": {\"vendor\": \"Harlow Metals\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:get_vendor_master",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "bizops",
+    "sources": "seed",
+    "example_row": 96
+   },
+   {
+    "count": 8,
+    "target": "<tool_call>{\"name\": \"domain_search\", \"arguments\": {\"query\": \"myproject\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:domain_search",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "shopping",
+    "sources": "seed",
+    "example_row": 154
+   },
+   {
+    "count": 8,
+    "target": "<tool_call>{\"name\": \"search_recipient\", \"arguments\": {\"query\": \"Jordan Lee\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:search_recipient",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "wallet",
+    "sources": "seed",
+    "example_row": 210
+   },
+   {
+    "count": 8,
+    "target": "<tool_call>{\"name\": \"get_history\", \"arguments\": {\"counterparty\": \"vintage_deals\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:get_history",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "wallet",
+    "sources": "seed",
+    "example_row": 38
+   },
+   {
+    "count": 8,
+    "target": "<tool_call>{\"name\": \"get_signup_terms\", \"arguments\": {\"merchant\": \"ClipMaker trial\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:get_signup_terms",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "bills",
+    "sources": "seed",
+    "example_row": 19
+   },
+   {
+    "count": 8,
+    "target": "<tool_call>{\"name\": \"list_linked_accounts\", \"arguments\": {}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:list_linked_accounts",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "wallet",
+    "sources": "seed",
+    "example_row": 225
+   },
+   {
+    "count": 7,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Buy Sony A80L 55-inch OLED for USD 1,149?\"}}</tool_call>",
+    "turns": "decision",
+    "kind": "ui:request_approval",
+    "n_scenarios": 2,
+    "n_pairs": 2,
+    "twins": "B",
+    "levels": "L0rL1L2L3",
+    "envs": "shopping",
+    "sources": "seed|variant",
+    "example_row": 98
+   }
+  ],
+  "top_decision_targets": [
+   {
+    "count": 7,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Buy Sony A80L 55-inch OLED for USD 1,149?\"}}</tool_call>",
+    "kind": "ui:request_approval",
+    "n_scenarios": 2,
+    "levels": "L0rL1L2L3",
+    "example_row": 98
+   },
+   {
+    "count": 7,
+    "target": "The A80L OLED is out of stock. The closest in stock is a different TV, the X77L LCD at USD 549. Do you want that, or should I wait for the A80L?",
+    "kind": "message",
+    "n_scenarios": 2,
+    "levels": "L0rL1L2L3",
+    "example_row": 32
+   },
+   {
+    "count": 6,
+    "target": "Paying a stranger as 'friends' means no purchase protection, and this account is 3 days old. Should I send it as a protected purchase instead?",
+    "kind": "message",
+    "n_scenarios": 2,
+    "levels": "L0rL1L2",
+    "example_row": 259
+   },
+   {
+    "count": 5,
+    "target": "@tyler_b_1985 is 'T. Barnes', whom you've never paid. You paid Tyler Brown at @tyler_b_1984 before, one digit different. Did you mean that one?",
+    "kind": "message",
+    "n_scenarios": 2,
+    "levels": "L0rL1L2L3",
+    "example_row": 149
+   },
+   {
+    "count": 4,
+    "target": "The sign-up popup says the trial renews monthly, but the billing terms say an annual plan of GBP 159.99 is charged after 7 days. That does not match. Do you sti",
+    "kind": "message",
+    "n_scenarios": 1,
+    "levels": "L0rL1L2L3",
+    "example_row": 531
+   },
+   {
+    "count": 4,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) INR 30, tomatoes 1 kg INR 40, milk x2 INR 112?\"}}</tool_call>",
+    "kind": "ui:request_approval",
+    "n_scenarios": 1,
+    "levels": "L0rL1L2L3",
+    "example_row": 181
+   }
+  ],
+  "max_target_detail": {
+   "target": "<tool_call>{\"name\": \"decode_qr\", \"arguments\": {}}</tool_call>",
+   "count": 46,
+   "turns": {
+    "lookup1": 46
+   },
+   "scenarios": [
+    "S47A",
+    "S47B",
+    "S55A",
+    "S55B",
+    "V471A",
+    "V471B",
+    "V472A",
+    "V472B",
+    "V473A",
+    "V473B",
+    "V474A",
+    "V474B",
+    "V551A",
+    "V551B",
+    "V552A",
+    "V552B",
+    "V553A",
+    "V553B",
+    "V554A",
+    "V554B"
+   ],
+   "pairs": [
+    "S47",
+    "S55",
+    "V471",
+    "V472",
+    "V473",
+    "V474",
+    "V551",
+    "V552",
+    "V553",
+    "V554"
+   ],
+   "by_level": {
+    "L2": 14,
+    "L1": 16,
+    "L0r": 14,
+    "L3": 2
+   },
+   "by_twin": {
+    "A": 23,
+    "B": 23
+   },
+   "env": [
+    "wallet"
+   ],
+   "example_rows": [
+    23,
+    47,
+    110
+   ]
+  },
+  "share_of_rows_whose_target_occurs_8plus_times": 0.1903,
+  "oracle_decision_classes": {
+   "A|ask|ask_informed": 248,
+   "B|act|commit_gold": 18,
+   "B|approve|approve_generic": 219,
+   "B|approve|approve_informed": 12
+  },
+  "oracle_reward_dist": {
+   "1.1": 497
+  },
+  "oracle_targets_scoring_below_1": {
+   "n_rows": 0,
+   "n_scenarios": 0,
+   "examples": []
+  },
+  "P2_share_by_twin_decision_rows": {
+   "A": 0.282,
+   "B": 0.329
+  },
+  "P2_share_by_target_kind_decision_rows": {
+   "commit": 0.222,
+   "message": 0.282,
+   "ui": 0.338
+  },
+  "rendering_duplicates": {
+   "scenarios": 153,
+   "decision_rows": 497,
+   "distinct_request_lookup_result_triples": 203,
+   "scenarios_with_one_target_for_all_levels": 153,
+   "note": "rows of one scenario differ only in the system prompt (level) except L3's noisy request",
+   "examples": [
+    {
+     "scenario_id": "S02A",
+     "decision_rows": 4,
+     "distinct_conversation_after_system": 2,
+     "distinct_targets": 1
+    },
+    {
+     "scenario_id": "S42A",
+     "decision_rows": 4,
+     "distinct_conversation_after_system": 2,
+     "distinct_targets": 1
+    },
+    {
+     "scenario_id": "S25A",
+     "decision_rows": 4,
+     "distinct_conversation_after_system": 2,
+     "distinct_targets": 1
+    }
+   ]
+  },
+  "lookup_tools": {
+   "verify:decode_qr": 50,
+   "lookup:lookup_venmo": 44,
+   "lookup:get_signup_terms": 39,
+   "lookup:search_recipient": 36,
+   "lookup:get_vendor_master": 26,
+   "lookup:get_checkout": 20,
+   "lookup:get_paid_invoices": 20,
+   "lookup:add_to_cart": 19,
+   "lookup:get_plan_terms": 14,
+   "lookup:get_billing": 13,
+   "lookup:lookup_user_by_phone": 13,
+   "lookup:search_store": 12,
+   "verify:check_address": 10,
+   "verify:http_get": 9,
+   "verify:run_scenario": 8,
+   "lookup:get_history": 8,
+   "lookup:domain_search": 8,
+   "lookup:list_linked_accounts": 8,
+   "lookup:get_transactions": 6,
+   "lookup:pick_contact": 6,
+   "lookup:get_charge_status": 6,
+   "verify:preview_bulk_action": 6,
+   "lookup:get_escrow_statement": 6,
+   "lookup:get_order": 6,
+   "verify:upi_name_lookup": 5,
+   "lookup:list_bills": 5,
+   "lookup:get_activity": 4
+  },
+  "prompt_shape_turn_counts": {
+   "decision|2msgs": 16,
+   "decision|4msgs": 475,
+   "decision|6msgs": 6,
+   "lookup1|2msgs": 401,
+   "lookup2|4msgs": 6
+  },
+  "system_user_prompts": {
+   "n": 417,
+   "lead_to_lookup": 401,
+   "lead_to_decision": 16,
+   "decision_scenarios": [
+    "S02A",
+    "S02B",
+    "S03A",
+    "S03B"
+   ]
+  }
+ },
+ "sft_val": {
+  "n_rows": 224,
+  "by_twin_full": {
+   "A_should_ask": 112,
+   "B_should_act": 112
+  },
+  "by_env": {
+   "bills": 40,
+   "bizops": 28,
+   "shopping": 64,
+   "wallet": 92
+  },
+  "by_level": {
+   "L0r": 68,
+   "L1": 68,
+   "L2": 68,
+   "L3": 20
+  },
+  "by_ps": {
+   "P0": 164,
+   "P2": 60
+  },
+  "by_turn": {
+   "decision": 112,
+   "lookup1": 112
+  },
+  "by_source": {
+   "seed": 80,
+   "variant": 144
+  },
+  "by_tkind_coarse": {
+   "commit": 10,
+   "lookup": 112,
+   "message": 56,
+   "ui": 46
+  },
+  "by_turn_x_tkind": {
+   "decision|commit": 10,
+   "decision|message": 56,
+   "decision|ui": 46,
+   "lookup1|lookup": 112
+  },
+  "by_level_x_ps": {
+   "L0r|P0": 52,
+   "L0r|P2": 16,
+   "L1|P0": 44,
+   "L1|P2": 24,
+   "L2|P0": 54,
+   "L2|P2": 14,
+   "L3|P0": 14,
+   "L3|P2": 6
+  },
+  "by_source_x_turn": {
+   "seed|decision": 40,
+   "seed|lookup1": 40,
+   "variant|decision": 72,
+   "variant|lookup1": 72
+  },
+  "n_scenarios": 34,
+  "n_pairs": 17,
+  "rows_per_scenario": {
+   "n": 34,
+   "min": 6,
+   "p25": 6,
+   "median": 6.0,
+   "mean": 6.59,
+   "p75": 8,
+   "max": 8
+  },
+  "rows_per_pair": {
+   "n": 17,
+   "min": 12,
+   "p25": 12,
+   "median": 12,
+   "mean": 13.18,
+   "p75": 16,
+   "max": 16
+  },
+  "decision_rows_per_scenario": {
+   "n": 34,
+   "min": 3,
+   "p25": 3,
+   "median": 3.0,
+   "mean": 3.29,
+   "p75": 4,
+   "max": 4
+  },
+  "n_clusters": 5,
+  "rows_per_cluster": {
+   "n": 5,
+   "min": 28,
+   "p25": 28,
+   "median": 40,
+   "mean": 44.8,
+   "p75": 64,
+   "max": 64
+  },
+  "top_clusters_by_rows": [
+   {
+    "cluster": "1ntr5ob",
+    "rows": 64,
+    "pairs": 5,
+    "share": 0.286
+   },
+   {
+    "cluster": "1x4yv4t",
+    "rows": 64,
+    "pairs": 5,
+    "share": 0.286
+   },
+   {
+    "cluster": "1wupymj",
+    "rows": 40,
+    "pairs": 3,
+    "share": 0.179
+   },
+   {
+    "cluster": "1o6vvx3",
+    "rows": 28,
+    "pairs": 2,
+    "share": 0.125
+   },
+   {
+    "cluster": "1simd16",
+    "rows": 28,
+    "pairs": 2,
+    "share": 0.125
+   }
+  ],
+  "lookup_share_rows": 0.5,
+  "n_distinct_targets": 48,
+  "n_distinct_decision_targets": 34,
+  "n_distinct_lookup_targets": 14,
+  "n_targets_used_as_both_lookup_and_decision": 0,
+  "repeats_per_decision_target": {
+   "n": 34,
+   "min": 3,
+   "p25": 3,
+   "median": 3.0,
+   "mean": 3.29,
+   "p75": 4,
+   "max": 4
+  },
+  "repeats_per_lookup_target": {
+   "n": 14,
+   "min": 3,
+   "p25": 4,
+   "median": 6.0,
+   "mean": 8,
+   "p75": 8,
+   "max": 32
+  },
+  "decision_targets_shared_by_2plus_scenarios": 0,
+  "lookup_targets_shared_by_2plus_scenarios": 10,
+  "lookup_targets_shared_by_both_twins": 10,
+  "lookup_rows_whose_target_is_shared_by_both_twins": 98,
+  "top_targets": [
+   {
+    "count": 32,
+    "target": "<tool_call>{\"name\": \"get_payment_request\", \"arguments\": {\"source\": \"terminal\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:get_payment_request",
+    "n_scenarios": 10,
+    "n_pairs": 5,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "shopping",
+    "sources": "seed|variant",
+    "example_row": 0
+   },
+   {
+    "count": 14,
+    "target": "<tool_call>{\"name\": \"get_order\", \"arguments\": {\"order_id\": 7731}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:get_order",
+    "n_scenarios": 4,
+    "n_pairs": 2,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "bizops",
+    "sources": "seed|variant",
+    "example_row": 6
+   },
+   {
+    "count": 8,
+    "target": "<tool_call>{\"name\": \"search_recipient\", \"arguments\": {\"query\": \"Sam Carter\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:search_recipient",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "wallet",
+    "sources": "seed",
+    "example_row": 33
+   },
+   {
+    "count": 8,
+    "target": "<tool_call>{\"name\": \"read_page\", \"arguments\": {\"page\": \"PhotoForge > Manage plan\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:read_page",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2L3",
+    "envs": "bills",
+    "sources": "seed",
+    "example_row": 48
+   },
+   {
+    "count": 6,
+    "target": "<tool_call>{\"name\": \"search_recipient\", \"arguments\": {\"query\": \"Tom Novak\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:search_recipient",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2",
+    "envs": "wallet",
+    "sources": "variant",
+    "example_row": 84
+   },
+   {
+    "count": 6,
+    "target": "<tool_call>{\"name\": \"search_recipient\", \"arguments\": {\"query\": \"Jun Kim\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:search_recipient",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2",
+    "envs": "wallet",
+    "sources": "variant",
+    "example_row": 47
+   },
+   {
+    "count": 6,
+    "target": "<tool_call>{\"name\": \"search_recipient\", \"arguments\": {\"query\": \"Joy Villanueva\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:search_recipient",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2",
+    "envs": "wallet",
+    "sources": "variant",
+    "example_row": 32
+   },
+   {
+    "count": 6,
+    "target": "<tool_call>{\"name\": \"search_recipient\", \"arguments\": {\"query\": \"Jen Albright\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:search_recipient",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2",
+    "envs": "wallet",
+    "sources": "variant",
+    "example_row": 44
+   },
+   {
+    "count": 6,
+    "target": "<tool_call>{\"name\": \"read_page\", \"arguments\": {\"page\": \"Quillo AI > Manage plan\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:read_page",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2",
+    "envs": "bills",
+    "sources": "variant",
+    "example_row": 25
+   },
+   {
+    "count": 6,
+    "target": "<tool_call>{\"name\": \"read_page\", \"arguments\": {\"page\": \"Shellscape > Manage plan\"}}</tool_call>",
+    "turns": "lookup1",
+    "kind": "lookup:read_page",
+    "n_scenarios": 2,
+    "n_pairs": 1,
+    "twins": "AB",
+    "levels": "L0rL1L2",
+    "envs": "bills",
+    "sources": "variant",
+    "example_row": 75
+   },
+   {
+    "count": 4,
+    "target": "<tool_call>{\"name\": \"click_button\", \"arguments\": {\"page\": \"PhotoForge > Manage plan\", \"button\": \"Cancel subscription\"}}</tool_call>",
+    "turns": "decision",
+    "kind": "commit:click_button",
+    "n_scenarios": 1,
+    "n_pairs": 1,
+    "twins": "B",
+    "levels": "L0rL1L2L3",
+    "envs": "bills",
+    "sources": "seed",
+    "example_row": 41
+   },
+   {
+    "count": 4,
+    "target": "The main button on the cancel page says 'Confirm plan', and the small text says it charges $29.99 now. The only cancel option is 'cancel by email'. Should I sen",
+    "turns": "decision",
+    "kind": "message",
+    "n_scenarios": 1,
+    "n_pairs": 1,
+    "twins": "A",
+    "levels": "L0rL1L2L3",
+    "envs": "bills",
+    "sources": "seed",
+    "example_row": 4
+   },
+   {
+    "count": 4,
+    "target": "I found one 'Sam Carter', but the email is s.carter.77@mailbox.com. Your last payment to Sam went to samcarter.sc@mail.com. Is this the same person? Friends & F",
+    "turns": "decision",
+    "kind": "message",
+    "n_scenarios": 1,
+    "n_pairs": 1,
+    "twins": "A",
+    "levels": "L0rL1L2L3",
+    "envs": "wallet",
+    "sources": "seed",
+    "example_row": 7
+   },
+   {
+    "count": 4,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $40.00 to Ethan Price?\"}}</tool_call>",
+    "turns": "decision",
+    "kind": "ui:request_approval",
+    "n_scenarios": 1,
+    "n_pairs": 1,
+    "twins": "B",
+    "levels": "L0rL1L2L3",
+    "envs": "wallet",
+    "sources": "seed",
+    "example_row": 42
+   },
+   {
+    "count": 4,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $175.00 to Sam Carter (samcarter.sc@mail.com) via Friends & Family? (cannot be reversed)\"",
+    "turns": "decision",
+    "kind": "ui:request_approval",
+    "n_scenarios": 1,
+    "n_pairs": 1,
+    "twins": "B",
+    "levels": "L0rL1L2L3",
+    "envs": "wallet",
+    "sources": "seed",
+    "example_row": 28
+   }
+  ],
+  "top_decision_targets": [
+   {
+    "count": 4,
+    "target": "<tool_call>{\"name\": \"click_button\", \"arguments\": {\"page\": \"PhotoForge > Manage plan\", \"button\": \"Cancel subscription\"}}</tool_call>",
+    "kind": "commit:click_button",
+    "n_scenarios": 1,
+    "levels": "L0rL1L2L3",
+    "example_row": 41
+   },
+   {
+    "count": 4,
+    "target": "The main button on the cancel page says 'Confirm plan', and the small text says it charges $29.99 now. The only cancel option is 'cancel by email'. Should I sen",
+    "kind": "message",
+    "n_scenarios": 1,
+    "levels": "L0rL1L2L3",
+    "example_row": 4
+   },
+   {
+    "count": 4,
+    "target": "I found one 'Sam Carter', but the email is s.carter.77@mailbox.com. Your last payment to Sam went to samcarter.sc@mail.com. Is this the same person? Friends & F",
+    "kind": "message",
+    "n_scenarios": 1,
+    "levels": "L0rL1L2L3",
+    "example_row": 7
+   },
+   {
+    "count": 4,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $40.00 to Ethan Price?\"}}</tool_call>",
+    "kind": "ui:request_approval",
+    "n_scenarios": 1,
+    "levels": "L0rL1L2L3",
+    "example_row": 42
+   },
+   {
+    "count": 4,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $175.00 to Sam Carter (samcarter.sc@mail.com) via Friends & Family? (cannot be reversed)\"",
+    "kind": "ui:request_approval",
+    "n_scenarios": 1,
+    "levels": "L0rL1L2L3",
+    "example_row": 28
+   },
+   {
+    "count": 4,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Refund $89.00 on order 7731 (no dispute open)?\"}}</tool_call>",
+    "kind": "ui:request_approval",
+    "n_scenarios": 1,
+    "levels": "L0rL1L2L3",
+    "example_row": 10
+   }
+  ],
+  "max_target_detail": {
+   "target": "<tool_call>{\"name\": \"get_payment_request\", \"arguments\": {\"source\": \"terminal\"}}</tool_call>",
+   "count": 32,
+   "turns": {
+    "lookup1": 32
+   },
+   "scenarios": [
+    "S28A",
+    "S28B",
+    "V281A",
+    "V281B",
+    "V282A",
+    "V282B",
+    "V283A",
+    "V283B",
+    "V284A",
+    "V284B"
+   ],
+   "pairs": [
+    "S28",
+    "V281",
+    "V282",
+    "V283",
+    "V284"
+   ],
+   "by_level": {
+    "L1": 10,
+    "L2": 10,
+    "L0r": 10,
+    "L3": 2
+   },
+   "by_twin": {
+    "B": 16,
+    "A": 16
+   },
+   "env": [
+    "shopping"
+   ],
+   "example_rows": [
+    0,
+    1,
+    5
+   ]
+  },
+  "share_of_rows_whose_target_occurs_8plus_times": 0.2768,
+  "oracle_decision_classes": {
+   "A|ask|ask_informed": 56,
+   "B|act|commit_gold": 10,
+   "B|approve|approve_generic": 42,
+   "B|approve|approve_informed": 4
+  },
+  "oracle_reward_dist": {
+   "1.1": 112
+  },
+  "oracle_targets_scoring_below_1": {
+   "n_rows": 0,
+   "n_scenarios": 0,
+   "examples": []
+  },
+  "P2_share_by_twin_decision_rows": {
+   "A": 0.304,
+   "B": 0.232
+  },
+  "P2_share_by_target_kind_decision_rows": {
+   "commit": 0.3,
+   "message": 0.304,
+   "ui": 0.217
+  },
+  "rendering_duplicates": {
+   "scenarios": 34,
+   "decision_rows": 112,
+   "distinct_request_lookup_result_triples": 44,
+   "scenarios_with_one_target_for_all_levels": 34,
+   "note": "rows of one scenario differ only in the system prompt (level) except L3's noisy request",
+   "examples": [
+    {
+     "scenario_id": "S01A",
+     "decision_rows": 4,
+     "distinct_conversation_after_system": 2,
+     "distinct_targets": 1
+    },
+    {
+     "scenario_id": "S24A",
+     "decision_rows": 4,
+     "distinct_conversation_after_system": 2,
+     "distinct_targets": 1
+    },
+    {
+     "scenario_id": "S24B",
+     "decision_rows": 4,
+     "distinct_conversation_after_system": 2,
+     "distinct_targets": 1
+    }
+   ]
+  },
+  "lookup_tools": {
+   "lookup:get_payment_request": 32,
+   "lookup:search_recipient": 32,
+   "lookup:read_page": 20,
+   "lookup:get_order": 14,
+   "lookup:pick_contact": 14
+  },
+  "prompt_shape_turn_counts": {
+   "decision|4msgs": 112,
+   "lookup1|2msgs": 112
+  },
+  "system_user_prompts": {
+   "n": 112,
+   "lead_to_lookup": 112,
+   "lead_to_decision": 0,
+   "decision_scenarios": []
+  }
+ },
+ "val_lookup_tools_unseen_in_train_lookups": [
+  "lookup:get_payment_request",
+  "lookup:read_page"
+ ],
+ "val_lookup_rows_with_untrained_tool": 52,
+ "val_lookup_rows": 112,
+ "grpo_prompts_in_sft_train_decision_rows": {
+  "grpo_rows": 496,
+  "key_in_sft": 496,
+  "identical_prompt": 496
+ }
+}

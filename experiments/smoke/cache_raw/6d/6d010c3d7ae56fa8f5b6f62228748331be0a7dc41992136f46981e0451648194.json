@@ -1,0 +1,1 @@
+{"text": "{\"invoice_recipient\": \"R. Menon\", \"amount_usd\": 189.5}", "usage": {"completion_tokens": 24, "prompt_tokens": 274, "total_tokens": 298, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 3.786e-05}, "finish": "stop"}

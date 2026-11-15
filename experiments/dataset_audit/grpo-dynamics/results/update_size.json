@@ -1,0 +1,247 @@
+{
+ "sft": {
+  "steps": 114,
+  "sum_lr": 0.005700000000000001,
+  "peak_lr": 0.0001,
+  "first_lrs": [
+   0.0,
+   2e-05,
+   4e-05,
+   6e-05,
+   8e-05,
+   0.0001,
+   9.997923381619256e-05
+  ]
+ },
+ "grpo": {
+  "steps": 30,
+  "sum_lr_all": 0.00014000000000000007,
+  "sum_lr_ckpt25": 0.00011500000000000002,
+  "first_lrs": [
+   0.0,
+   1.6666666666666667e-06,
+   3.3333333333333333e-06,
+   5e-06,
+   5e-06
+  ],
+  "note": "the logged lr of step k is the lr its update used (step 1 logs 0.0)"
+ },
+ "efficiency": {
+  "sft_dW_fro_per_sum_lr": 1164.5493217782791,
+  "grpo_dW_fro_per_sum_lr": 1060.4616557317677,
+  "sft_maxB_per_sum_lr": 0.9109504651605036,
+  "grpo_maxB_per_sum_lr": 0.8956812646078025,
+  "observed_ratio_dW_grpo25_vs_sft": 0.018372153604004408,
+  "sum_lr_ratio_grpo25_vs_sft": 0.02017543859649123,
+  "grpo_vs_sft_efficiency": 0.9106197873289141
+ },
+ "adam_sim": {
+  "grpo_25_steps": {
+   "0.0": {
+    "mean_abs_per_sum_lr": 0.18427087994648506,
+    "rms_per_sum_lr": 0.2258749822527448
+   },
+   "0.1": {
+    "mean_abs_per_sum_lr": 0.20002606816601542,
+    "rms_per_sum_lr": 0.24463606379689676
+   },
+   "0.3": {
+    "mean_abs_per_sum_lr": 0.304243940312848,
+    "rms_per_sum_lr": 0.3506317946055312
+   },
+   "1.0": {
+    "mean_abs_per_sum_lr": 0.7125534253181501,
+    "rms_per_sum_lr": 0.7197991551790534
+   },
+   "3.0": {
+    "mean_abs_per_sum_lr": 0.9530964747596138,
+    "rms_per_sum_lr": 0.9534166326458686
+   }
+  },
+  "grpo_30_steps": {
+   "0.0": {
+    "mean_abs_per_sum_lr": 0.16721613564951648,
+    "rms_per_sum_lr": 0.20503723492647632
+   },
+   "0.1": {
+    "mean_abs_per_sum_lr": 0.1845825475204619,
+    "rms_per_sum_lr": 0.22598746140989068
+   },
+   "0.3": {
+    "mean_abs_per_sum_lr": 0.2973860996864048,
+    "rms_per_sum_lr": 0.34008740597288706
+   },
+   "1.0": {
+    "mean_abs_per_sum_lr": 0.7118746517729744,
+    "rms_per_sum_lr": 0.7178808258223223
+   },
+   "3.0": {
+    "mean_abs_per_sum_lr": 0.9525127390131707,
+    "rms_per_sum_lr": 0.9528316476658545
+   }
+  },
+  "sft_schedule": {
+   "0.0": {
+    "mean_abs_per_sum_lr": 0.10064859897201052,
+    "rms_per_sum_lr": 0.1257982162456453
+   },
+   "0.1": {
+    "mean_abs_per_sum_lr": 0.12958728998899918,
+    "rms_per_sum_lr": 0.15844186371811608
+   },
+   "0.3": {
+    "mean_abs_per_sum_lr": 0.28509198339527914,
+    "rms_per_sum_lr": 0.30609026617645035
+   },
+   "1.0": {
+    "mean_abs_per_sum_lr": 0.7084597527756458,
+    "rms_per_sum_lr": 0.710820589376756
+   },
+   "3.0": {
+    "mean_abs_per_sum_lr": 0.9502349059484386,
+    "rms_per_sum_lr": 0.9504630782730384
+   }
+  }
+ },
+ "predictions": {
+  "lr5e-06_steps30": {
+   "sum_lr": 0.00014000000000000007,
+   "pred_dW_fro": 0.1485,
+   "pred_ratio_vs_sft": 0.0224,
+   "pred_max_abs_B": 0.000125
+  },
+  "lr5e-06_steps36": {
+   "sum_lr": 0.00017000000000000007,
+   "pred_dW_fro": 0.1803,
+   "pred_ratio_vs_sft": 0.0272,
+   "pred_max_abs_B": 0.000152
+  },
+  "lr5e-06_steps40": {
+   "sum_lr": 0.00019,
+   "pred_dW_fro": 0.2015,
+   "pred_ratio_vs_sft": 0.0304,
+   "pred_max_abs_B": 0.00017
+  },
+  "lr1e-05_steps30": {
+   "sum_lr": 0.00028000000000000014,
+   "pred_dW_fro": 0.2969,
+   "pred_ratio_vs_sft": 0.0447,
+   "pred_max_abs_B": 0.000251
+  },
+  "lr1e-05_steps36": {
+   "sum_lr": 0.00034000000000000013,
+   "pred_dW_fro": 0.3606,
+   "pred_ratio_vs_sft": 0.0543,
+   "pred_max_abs_B": 0.000305
+  },
+  "lr1e-05_steps40": {
+   "sum_lr": 0.00038,
+   "pred_dW_fro": 0.403,
+   "pred_ratio_vs_sft": 0.0607,
+   "pred_max_abs_B": 0.00034
+  },
+  "lr2e-05_steps30": {
+   "sum_lr": 0.0005600000000000003,
+   "pred_dW_fro": 0.5939,
+   "pred_ratio_vs_sft": 0.0895,
+   "pred_max_abs_B": 0.000502
+  },
+  "lr2e-05_steps36": {
+   "sum_lr": 0.0006800000000000003,
+   "pred_dW_fro": 0.7211,
+   "pred_ratio_vs_sft": 0.1086,
+   "pred_max_abs_B": 0.000609
+  },
+  "lr2e-05_steps40": {
+   "sum_lr": 0.00076,
+   "pred_dW_fro": 0.806,
+   "pred_ratio_vs_sft": 0.1214,
+   "pred_max_abs_B": 0.000681
+  },
+  "lr3e-05_steps30": {
+   "sum_lr": 0.0008399999999999998,
+   "pred_dW_fro": 0.8908,
+   "pred_ratio_vs_sft": 0.1342,
+   "pred_max_abs_B": 0.000752
+  },
+  "lr3e-05_steps36": {
+   "sum_lr": 0.00102,
+   "pred_dW_fro": 1.0817,
+   "pred_ratio_vs_sft": 0.163,
+   "pred_max_abs_B": 0.000914
+  },
+  "lr3e-05_steps40": {
+   "sum_lr": 0.00114,
+   "pred_dW_fro": 1.2089,
+   "pred_ratio_vs_sft": 0.1821,
+   "pred_max_abs_B": 0.001021
+  },
+  "lr5e-05_steps30": {
+   "sum_lr": 0.0013999999999999996,
+   "pred_dW_fro": 1.4846,
+   "pred_ratio_vs_sft": 0.2237,
+   "pred_max_abs_B": 0.001254
+  },
+  "lr5e-05_steps36": {
+   "sum_lr": 0.0016999999999999997,
+   "pred_dW_fro": 1.8028,
+   "pred_ratio_vs_sft": 0.2716,
+   "pred_max_abs_B": 0.001523
+  },
+  "lr5e-05_steps40": {
+   "sum_lr": 0.0019,
+   "pred_dW_fro": 2.0149,
+   "pred_ratio_vs_sft": 0.3035,
+   "pred_max_abs_B": 0.001702
+  },
+  "lr0.0001_steps30": {
+   "sum_lr": 0.002799999999999999,
+   "pred_dW_fro": 2.9693,
+   "pred_ratio_vs_sft": 0.4473,
+   "pred_max_abs_B": 0.002508
+  },
+  "lr0.0001_steps36": {
+   "sum_lr": 0.0033999999999999994,
+   "pred_dW_fro": 3.6056,
+   "pred_ratio_vs_sft": 0.5432,
+   "pred_max_abs_B": 0.003045
+  },
+  "lr0.0001_steps40": {
+   "sum_lr": 0.0038,
+   "pred_dW_fro": 4.0298,
+   "pred_ratio_vs_sft": 0.6071,
+   "pred_max_abs_B": 0.003404
+  }
+ },
+ "stack_check": {
+  "source": "log.md, entry 2026-11-14 18:37 IST ('m2_stack FAILED')",
+  "merge_residual_mean_abs_dlogprob": 0.01916,
+  "m2_adapter_effect_mean_abs_dlogprob": 0.0171,
+  "m1_adapter_effect_mean_abs_dlogprob(merge_info)": 3.307699,
+  "m2_effect_vs_m1_effect": 0.005169756982119594,
+  "effect_needed_to_pass(resid<0.1*effect)": 0.1916,
+  "scale_factor_needed": 11.204678362573098,
+  "pred_effect_lr5e-5_30steps_linear": 0.17099999999999987,
+  "pred_effect_lr2e-5_30steps_linear": 0.0684,
+  "pred_effect_lr1e-4_30steps_linear": 0.34199999999999975,
+  "pred_effect_grid_linear": {
+   "lr2e-05_steps30": 0.0684,
+   "lr2e-05_steps36": 0.0831,
+   "lr2e-05_steps40": 0.0928,
+   "lr3e-05_steps30": 0.1026,
+   "lr3e-05_steps36": 0.1246,
+   "lr3e-05_steps40": 0.1392,
+   "lr5e-05_steps30": 0.171,
+   "lr5e-05_steps36": 0.2076,
+   "lr5e-05_steps40": 0.2321,
+   "lr0.0001_steps30": 0.342,
+   "lr0.0001_steps36": 0.4153,
+   "lr0.0001_steps40": 0.4641
+  },
+  "assumes": "the stack check ran on the final (30-step) adapter; effect scales linearly with sum_lr (first order)"
+ },
+ "logit_needed": {
+  "p0.5_to_0.8": 1.3862943611198906,
+  "p0.67_to_0.475_(A_ask_early_late)": 0.806459936085425
+ }
+}

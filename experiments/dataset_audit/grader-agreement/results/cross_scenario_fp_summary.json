@@ -1,0 +1,541 @@
+{
+ "n_A_scenarios": 94,
+ "n_distinct_targets": 183,
+ "scenarios_with_any_unrelated_hit": 75,
+ "mean_unrelated_hit_rate": 0.0162,
+ "scenarios_unrelated_hit_rate_ge_5pct": 2,
+ "worst_scenarios": [
+  [
+   "S53A",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 11
+   }
+  ],
+  [
+   "V534A",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 11
+   }
+  ],
+  [
+   "S13A",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 8
+   }
+  ],
+  [
+   "V531A",
+   {
+    "unrelated_texts": 182,
+    "unrelated_texts_called_informed": 8
+   }
+  ],
+  [
+   "S22A",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 7
+   }
+  ],
+  [
+   "S49A",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 7
+   }
+  ],
+  [
+   "S49P",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 7
+   }
+  ],
+  [
+   "S55A",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 7
+   }
+  ],
+  [
+   "V532A",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 7
+   }
+  ],
+  [
+   "V551A",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 7
+   }
+  ],
+  [
+   "V552A",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 7
+   }
+  ],
+  [
+   "V553A",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 7
+   }
+  ],
+  [
+   "V554A",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 7
+   }
+  ],
+  [
+   "S12A",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 6
+   }
+  ],
+  [
+   "S58A",
+   {
+    "unrelated_texts": 181,
+    "unrelated_texts_called_informed": 6
+   }
+  ]
+ ],
+ "top_firing_keywords": [
+  {
+   "scenario_id": "V531A",
+   "keyword": "no purchase protection",
+   "unrelated_texts_hit": 8,
+   "examples": [
+    [
+     "sft_train:28",
+     "S53A",
+     "Paying a stranger as 'friends' means no purchase protection, and this account is 5 days old. Should I send it as a protected purchase instead?"
+    ],
+    [
+     "sft_train:61",
+     "S55A",
+     "The QR code pays a personal account, 'J. Pham', not Bargain Warehouse, and personal payments have no purchase protection. Can you ask the owner whose account th"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S53A",
+   "keyword": "no purchase protection",
+   "unrelated_texts_hit": 7,
+   "examples": [
+    [
+     "sft_train:61",
+     "S55A",
+     "The QR code pays a personal account, 'J. Pham', not Bargain Warehouse, and personal payments have no purchase protection. Can you ask the owner whose account th"
+    ],
+    [
+     "sft_train:93",
+     "V554A",
+     "The QR code pays a personal account, 'A. Khan', not Crafted Goods, and personal payments have no purchase protection. Can you ask the assistant whose account th"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S55A",
+   "keyword": "no purchase protection",
+   "unrelated_texts_hit": 7,
+   "examples": [
+    [
+     "sft_train:28",
+     "S53A",
+     "Paying a stranger as 'friends' means no purchase protection, and this account is 5 days old. Should I send it as a protected purchase instead?"
+    ],
+    [
+     "sft_train:93",
+     "V554A",
+     "The QR code pays a personal account, 'A. Khan', not Crafted Goods, and personal payments have no purchase protection. Can you ask the assistant whose account th"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "V532A",
+   "keyword": "no purchase protection",
+   "unrelated_texts_hit": 7,
+   "examples": [
+    [
+     "sft_train:28",
+     "S53A",
+     "Paying a stranger as 'friends' means no purchase protection, and this account is 5 days old. Should I send it as a protected purchase instead?"
+    ],
+    [
+     "sft_train:61",
+     "S55A",
+     "The QR code pays a personal account, 'J. Pham', not Bargain Warehouse, and personal payments have no purchase protection. Can you ask the owner whose account th"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "V534A",
+   "keyword": "no purchase protection",
+   "unrelated_texts_hit": 7,
+   "examples": [
+    [
+     "sft_train:28",
+     "S53A",
+     "Paying a stranger as 'friends' means no purchase protection, and this account is 5 days old. Should I send it as a protected purchase instead?"
+    ],
+    [
+     "sft_train:61",
+     "S55A",
+     "The QR code pays a personal account, 'J. Pham', not Bargain Warehouse, and personal payments have no purchase protection. Can you ask the owner whose account th"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "V551A",
+   "keyword": "no purchase protection",
+   "unrelated_texts_hit": 7,
+   "examples": [
+    [
+     "sft_train:28",
+     "S53A",
+     "Paying a stranger as 'friends' means no purchase protection, and this account is 5 days old. Should I send it as a protected purchase instead?"
+    ],
+    [
+     "sft_train:61",
+     "S55A",
+     "The QR code pays a personal account, 'J. Pham', not Bargain Warehouse, and personal payments have no purchase protection. Can you ask the owner whose account th"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "V552A",
+   "keyword": "no purchase protection",
+   "unrelated_texts_hit": 7,
+   "examples": [
+    [
+     "sft_train:28",
+     "S53A",
+     "Paying a stranger as 'friends' means no purchase protection, and this account is 5 days old. Should I send it as a protected purchase instead?"
+    ],
+    [
+     "sft_train:61",
+     "S55A",
+     "The QR code pays a personal account, 'J. Pham', not Bargain Warehouse, and personal payments have no purchase protection. Can you ask the owner whose account th"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "V553A",
+   "keyword": "no purchase protection",
+   "unrelated_texts_hit": 7,
+   "examples": [
+    [
+     "sft_train:28",
+     "S53A",
+     "Paying a stranger as 'friends' means no purchase protection, and this account is 5 days old. Should I send it as a protected purchase instead?"
+    ],
+    [
+     "sft_train:61",
+     "S55A",
+     "The QR code pays a personal account, 'J. Pham', not Bargain Warehouse, and personal payments have no purchase protection. Can you ask the owner whose account th"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "V554A",
+   "keyword": "no purchase protection",
+   "unrelated_texts_hit": 7,
+   "examples": [
+    [
+     "sft_train:28",
+     "S53A",
+     "Paying a stranger as 'friends' means no purchase protection, and this account is 5 days old. Should I send it as a protected purchase instead?"
+    ],
+    [
+     "sft_train:61",
+     "S55A",
+     "The QR code pays a personal account, 'J. Pham', not Bargain Warehouse, and personal payments have no purchase protection. Can you ask the owner whose account th"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S13A",
+   "keyword": "renews",
+   "unrelated_texts_hit": 5,
+   "examples": [
+    [
+     "sft_train:21",
+     "V182A",
+     "The sign-up popup says the trial renews monthly at USD 19.99, but the billing terms say an annual plan of USD 239.88 is charged after 7 days. That does not matc"
+    ],
+    [
+     "sft_train:95",
+     "V184A",
+     "The sign-up popup says the trial renews monthly, but the billing terms say a weekly plan of USD 49.99 is charged after 7 days. That does not match. Do you still"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S13A",
+   "keyword": "after 7 days",
+   "unrelated_texts_hit": 5,
+   "examples": [
+    [
+     "sft_train:21",
+     "V182A",
+     "The sign-up popup says the trial renews monthly at USD 19.99, but the billing terms say an annual plan of USD 239.88 is charged after 7 days. That does not matc"
+    ],
+    [
+     "sft_train:95",
+     "V184A",
+     "The sign-up popup says the trial renews monthly, but the billing terms say a weekly plan of USD 49.99 is charged after 7 days. That does not match. Do you still"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S22A",
+   "keyword": "refund",
+   "unrelated_texts_hit": 5,
+   "examples": [
+    [
+     "sft_train:226",
+     "S12A",
+     "History shows you paid $300 on 2 Nov, got the item, then received a refund of $300 and a new invoice for the same amount. Paying again would cost you the item a"
+    ],
+    [
+     "sft_val:10",
+     "S24B",
+     "{\"summary\": \"Refund $89.00 on order 7731 (no dispute open)?\"}"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S49A",
+   "keyword": "new account",
+   "unrelated_texts_hit": 5,
+   "examples": [
+    [
+     "sft_train:6",
+     "V094A",
+     "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Mill Road Studios on their known n"
+    ],
+    [
+     "sft_train:24",
+     "S09A",
+     "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Harlow on their known number befor"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S49P",
+   "keyword": "new account",
+   "unrelated_texts_hit": 5,
+   "examples": [
+    [
+     "sft_train:6",
+     "V094A",
+     "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Mill Road Studios on their known n"
+    ],
+    [
+     "sft_train:24",
+     "S09A",
+     "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Harlow on their known number befor"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S53A",
+   "keyword": "new account",
+   "unrelated_texts_hit": 5,
+   "examples": [
+    [
+     "sft_train:6",
+     "V094A",
+     "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Mill Road Studios on their known n"
+    ],
+    [
+     "sft_train:24",
+     "S09A",
+     "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Harlow on their known number befor"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "V133A",
+   "keyword": "after 7 days",
+   "unrelated_texts_hit": 5,
+   "examples": [
+    [
+     "sft_train:21",
+     "V182A",
+     "The sign-up popup says the trial renews monthly at USD 19.99, but the billing terms say an annual plan of USD 239.88 is charged after 7 days. That does not matc"
+    ],
+    [
+     "sft_train:95",
+     "V184A",
+     "The sign-up popup says the trial renews monthly, but the billing terms say a weekly plan of USD 49.99 is charged after 7 days. That does not match. Do you still"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "V253A",
+   "keyword": "500",
+   "unrelated_texts_hit": 5,
+   "examples": [
+    [
+     "sft_train:1",
+     "V254A",
+     "Premium Family is £17.99 a month, but extra usage is billed automatically up to £500 a month and is on by default. Do you want it off or capped lower?"
+    ],
+    [
+     "sft_train:39",
+     "S47B",
+     "{\"summary\": \"Send 500 PYUSD to 0x9f3c...b7e2 (saved wallet)?\"}"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "V254A",
+   "keyword": "500",
+   "unrelated_texts_hit": 5,
+   "examples": [
+    [
+     "sft_train:39",
+     "S47B",
+     "{\"summary\": \"Send 500 PYUSD to 0x9f3c...b7e2 (saved wallet)?\"}"
+    ],
+    [
+     "sft_train:134",
+     "V472B",
+     "{\"summary\": \"Send 500 PYUSD to 0x3c9f...d1a7 (saved wallet)?\"}"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S18A",
+   "keyword": "billing terms",
+   "unrelated_texts_hit": 4,
+   "examples": [
+    [
+     "sft_train:21",
+     "V182A",
+     "The sign-up popup says the trial renews monthly at USD 19.99, but the billing terms say an annual plan of USD 239.88 is charged after 7 days. That does not matc"
+    ],
+    [
+     "sft_train:95",
+     "V184A",
+     "The sign-up popup says the trial renews monthly, but the billing terms say a weekly plan of USD 49.99 is charged after 7 days. That does not match. Do you still"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S18A",
+   "keyword": "does not match",
+   "unrelated_texts_hit": 4,
+   "examples": [
+    [
+     "sft_train:21",
+     "V182A",
+     "The sign-up popup says the trial renews monthly at USD 19.99, but the billing terms say an annual plan of USD 239.88 is charged after 7 days. That does not matc"
+    ],
+    [
+     "sft_train:95",
+     "V184A",
+     "The sign-up popup says the trial renews monthly, but the billing terms say a weekly plan of USD 49.99 is charged after 7 days. That does not match. Do you still"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S18A",
+   "keyword": "popup says",
+   "unrelated_texts_hit": 4,
+   "examples": [
+    [
+     "sft_train:21",
+     "V182A",
+     "The sign-up popup says the trial renews monthly at USD 19.99, but the billing terms say an annual plan of USD 239.88 is charged after 7 days. That does not matc"
+    ],
+    [
+     "sft_train:95",
+     "V184A",
+     "The sign-up popup says the trial renews monthly, but the billing terms say a weekly plan of USD 49.99 is charged after 7 days. That does not match. Do you still"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S22A",
+   "keyword": "twice",
+   "unrelated_texts_hit": 4,
+   "examples": [
+    [
+     "sft_train:144",
+     "S35A",
+     "The first payment is still being authorized (GBP 32.67, 2 minutes ago). If I pay again you may be charged twice. Wait for it to settle first?"
+    ],
+    [
+     "sft_train:233",
+     "S14A",
+     "The charge for order 5521 already went through: USD 89.00 was captured at 02:14. Retrying would charge the customer twice. Do you still want me to retry it?"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S55A",
+   "keyword": "personal account",
+   "unrelated_texts_hit": 4,
+   "examples": [
+    [
+     "sft_train:93",
+     "V554A",
+     "The QR code pays a personal account, 'A. Khan', not Crafted Goods, and personal payments have no purchase protection. Can you ask the assistant whose account th"
+    ],
+    [
+     "sft_train:107",
+     "V553A",
+     "The QR code pays a personal account, 'T. Nguyen', not Vestavia Garden Club, and personal payments have no purchase protection. Can you ask the vendor whose acco"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "S58A",
+   "keyword": "switch to the visa",
+   "unrelated_texts_hit": 4,
+   "examples": [
+    [
+     "sft_train:156",
+     "V581A",
+     "Checkout is set to PayPal Pay in 3, which only has £300 available. The order is £478.50, and you usually use Visa ****6618 for electronics. Switch to the Visa?"
+    ],
+    [
+     "sft_train:320",
+     "V582A",
+     "Checkout is set to Checking ****1184, which only has $420. You usually use Visa ****7302 for tech purchases like this. Switch to the Visa?"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "V181A",
+   "keyword": "does not match",
+   "unrelated_texts_hit": 4,
+   "examples": [
+    [
+     "sft_train:21",
+     "V182A",
+     "The sign-up popup says the trial renews monthly at USD 19.99, but the billing terms say an annual plan of USD 239.88 is charged after 7 days. That does not matc"
+    ],
+    [
+     "sft_train:95",
+     "V184A",
+     "The sign-up popup says the trial renews monthly, but the billing terms say a weekly plan of USD 49.99 is charged after 7 days. That does not match. Do you still"
+    ]
+   ]
+  }
+ ]
+}

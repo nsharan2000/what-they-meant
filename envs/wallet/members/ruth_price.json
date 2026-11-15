@@ -1,0 +1,1842 @@
+{
+ "member_id": "ruth_price",
+ "profile": {
+  "name": "Ruth Price",
+  "age": 62,
+  "city": "Birmingham, AL",
+  "country": "United States",
+  "occupation": "Project manager",
+  "summary": "Kestrel member since 2022-05 · identity verified · home currency USD · connected: Venmo, Regions Checking ••3815",
+  "email": "ruth.price@mail.com",
+  "phone": "555-0103",
+  "member_since": "2022-05-16",
+  "home_currency": "USD",
+  "timezone": "America/Chicago",
+  "language": "en-US",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Ruth Price blends a lifelong curiosity for art with a competitive project‑management mindset, navigating work and life through flexible planning, occasional impulsive spending, and a vigilant yet sometimes anxious approach to health and wellness.",
+   "professional_persona": "Ruth Price is a veteran project manager who blends Agile, Waterfall, and design‑thinking methodologies to steer complex healthcare, manufacturing, and nonprofit initiatives, using their competitive drive and artistic curiosity to craft innovative solutions while tolerating a relaxed, occasionally chaotic schedule.",
+   "cultural_background": "Ruth grew up in a middle‑class white family in Birmingham, Alabama, immersed in Southern traditions of hospitality, community involvement, and a love for regional cuisine. Her upbringing during the civil‑rights era gave her a nuanced appreciation for cultural diversity in the South. She celebrates local festivals such as the Birmingham Art Crawl and the Alabama Shakespeare Festival, and she maintains ties to her Methodist church, which influences her values of service and stewardship. Her Southern heritage combines with a lifelong curiosity for broader artistic and intellectual currents, shaping a balanced cultural identity.",
+   "sex": "Female",
+   "marital_status": "married_present",
+   "education_level": "graduate",
+   "occupation": "project_management_specialist"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "320e824d31f244538fc962c05b30f01f",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "USA",
+    "age": 62,
+    "sex": "Female",
+    "seed": 0
+   },
+   "source_age": 62,
+   "source_location": "Birmingham, AL",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Brittany Barbare",
+    "Brittany"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "Venmo balance",
+   "currency": "USD",
+   "balance": 300.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Vestavia Garden Club",
+   "venmo": "@vestavia-garden-club",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "club dues",
+   "last_paid": "2026-09-14"
+  },
+  {
+   "name": "Ethan Cole",
+   "venmo": "@ethan-cole-lawns",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "lawn mowing",
+   "last_paid": "2026-07-25"
+  },
+  {
+   "name": "Martha Ellis",
+   "venmo": "@martha-ellis-58",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "friend · Sunday school",
+   "last_paid": "2026-11-07"
+  },
+  {
+   "name": "Ethan Price",
+   "venmo": "@ethanprice",
+   "networks": [
+    "Venmo"
+   ],
+   "relationship": "son",
+   "last_paid": "2026-09-14"
+  },
+  {
+   "name": "Glen Price",
+   "venmo": "@glen-price-60",
+   "networks": [
+    "Venmo"
+   ],
+   "relationship": "husband"
+  },
+  {
+   "name": "Dana Whitfield",
+   "venmo": "@dana-pilates",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "Pilates instructor",
+   "last_paid": "2026-07-14"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-VENMO",
+   "type": "payment_app",
+   "name": "Venmo",
+   "login": "@ruth-price-bham",
+   "status": "connected",
+   "since": "2022-05-16"
+  },
+  {
+   "id": "LA-3815",
+   "type": "bank_account",
+   "name": "Regions Checking",
+   "last4": "3815",
+   "status": "active",
+   "since": "2022-05-17"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "AT&T",
+   "amount": 89.0,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "Regions ••3815",
+   "next_charge": "2026-12-09",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "Preference · Email receipts in large print."
+ ],
+ "notes": [
+  "Prefers plain language and larger amounts written out.",
+  "2026-03-11 · Updated email address."
+ ],
+ "transactions": [
+  {
+   "id": "KXBDJAC9RC",
+   "date": "2026-11-07",
+   "time": "12:24",
+   "counterparty": "Martha Ellis",
+   "handle": "@martha-ellis-58",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "book club wine"
+  },
+  {
+   "id": "KXAF4E985A",
+   "date": "2026-09-14",
+   "time": "16:02",
+   "counterparty": "Ethan Price",
+   "handle": "@ethanprice",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "gas money"
+  },
+  {
+   "id": "KXHAAK5VPM",
+   "date": "2026-09-14",
+   "time": "08:13",
+   "counterparty": "Vestavia Garden Club",
+   "handle": "@vestavia-garden-club",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "plant sale"
+  },
+  {
+   "id": "KXHAFBHULJ",
+   "date": "2026-08-12",
+   "time": "08:25",
+   "counterparty": "Vestavia Garden Club",
+   "handle": "@vestavia-garden-club",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "plant sale"
+  },
+  {
+   "id": "KX71C1BA42",
+   "date": "2026-07-25",
+   "time": "10:15",
+   "counterparty": "Ethan Cole",
+   "handle": "@ethan-cole-lawns",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "lawn mowing"
+  },
+  {
+   "id": "KXZPGV7RLV",
+   "date": "2026-07-14",
+   "time": "22:25",
+   "counterparty": "Dana Whitfield",
+   "handle": "@dana-pilates",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Pilates class"
+  },
+  {
+   "id": "KX0XJ1D2NW",
+   "date": "2026-07-11",
+   "time": "10:20",
+   "counterparty": "Ethan Cole",
+   "handle": "@ethan-cole-lawns",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "lawn mowing"
+  },
+  {
+   "id": "KX0FXR31TY",
+   "date": "2026-06-27",
+   "time": "10:20",
+   "counterparty": "Ethan Cole",
+   "handle": "@ethan-cole-lawns",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "lawn mowing"
+  },
+  {
+   "id": "KXMK1BQVPM",
+   "date": "2026-06-20",
+   "time": "12:25",
+   "counterparty": "Dana Whitfield",
+   "handle": "@dana-pilates",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Pilates class"
+  },
+  {
+   "id": "KXZY5T03FU",
+   "date": "2026-06-13",
+   "time": "10:20",
+   "counterparty": "Ethan Cole",
+   "handle": "@ethan-cole-lawns",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "lawn mowing"
+  },
+  {
+   "id": "KXJTXP4FD8",
+   "date": "2026-06-09",
+   "time": "12:34",
+   "counterparty": "Dana Whitfield",
+   "handle": "@dana-pilates",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Pilates class"
+  },
+  {
+   "id": "KXC15W93FQ",
+   "date": "2026-05-30",
+   "time": "10:20",
+   "counterparty": "Ethan Cole",
+   "handle": "@ethan-cole-lawns",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "lawn mowing"
+  },
+  {
+   "id": "KX1TJA2RKA",
+   "date": "2026-05-16",
+   "time": "10:20",
+   "counterparty": "Ethan Cole",
+   "handle": "@ethan-cole-lawns",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "lawn mowing"
+  },
+  {
+   "id": "KXDH72RV5Z",
+   "date": "2026-05-15",
+   "time": "20:23",
+   "counterparty": "Dana Whitfield",
+   "handle": "@dana-pilates",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Pilates class"
+  },
+  {
+   "id": "KX6GCV3P4U",
+   "date": "2026-05-03",
+   "time": "12:17",
+   "counterparty": "Dana Whitfield",
+   "handle": "@dana-pilates",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Pilates class"
+  },
+  {
+   "id": "KXH4SB9129",
+   "date": "2026-04-11",
+   "time": "22:58",
+   "counterparty": "Vestavia Garden Club",
+   "handle": "@vestavia-garden-club",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "dues"
+  },
+  {
+   "id": "KXRHHH03HM",
+   "date": "2026-04-05",
+   "time": "11:13",
+   "counterparty": "Ethan Price",
+   "handle": "@ethanprice",
+   "amount": 75.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Easter brunch"
+  },
+  {
+   "id": "KX5N34DUSD",
+   "date": "2026-04-04",
+   "time": "14:34",
+   "counterparty": "Martha Ellis",
+   "handle": "@martha-ellis-58",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Sunday school snacks"
+  },
+  {
+   "id": "KXPTDAMUNR",
+   "date": "2026-04-02",
+   "time": "21:05",
+   "counterparty": "Vestavia Garden Club",
+   "handle": "@vestavia-garden-club",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "plant sale"
+  },
+  {
+   "id": "KXRHCGTUT5",
+   "date": "2026-03-20",
+   "time": "14:07",
+   "counterparty": "Dana Whitfield",
+   "handle": "@dana-pilates",
+   "amount": 22.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Pilates class"
+  },
+  {
+   "id": "KXYJAXA38E",
+   "date": "2026-03-07",
+   "time": "07:06",
+   "counterparty": "Martha Ellis",
+   "handle": "@martha-ellis-58",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "book club wine"
+  },
+  {
+   "id": "KX1ANUL7RZ",
+   "date": "2026-02-11",
+   "time": "21:06",
+   "counterparty": "Martha Ellis",
+   "handle": "@martha-ellis-58",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "my share"
+  },
+  {
+   "id": "KXAG6ULCDA",
+   "date": "2026-01-28",
+   "time": "20:53",
+   "counterparty": "Dana Whitfield",
+   "handle": "@dana-pilates",
+   "amount": 22.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Pilates class"
+  },
+  {
+   "id": "KX2BBRSBTH",
+   "date": "2026-01-22",
+   "time": "16:53",
+   "counterparty": "Martha Ellis",
+   "handle": "@martha-ellis-58",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "my share"
+  },
+  {
+   "id": "KXTE21YATM",
+   "date": "2026-01-18",
+   "time": "09:47",
+   "counterparty": "Ethan Price",
+   "handle": "@ethanprice",
+   "amount": 100.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "happy new year!"
+  },
+  {
+   "id": "KX37JT2075",
+   "date": "2026-01-17",
+   "time": "07:54",
+   "counterparty": "Dana Whitfield",
+   "handle": "@dana-pilates",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Pilates class"
+  },
+  {
+   "id": "KX05J8TGWL",
+   "date": "2026-01-08",
+   "time": "22:10",
+   "counterparty": "Martha Ellis",
+   "handle": "@martha-ellis-58",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "thank you!"
+  },
+  {
+   "id": "KXCRFMPC07",
+   "date": "2026-01-05",
+   "time": "19:44",
+   "counterparty": "Dana Whitfield",
+   "handle": "@dana-pilates",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Pilates class"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-15",
+   "time": "12:00",
+   "type": "product",
+   "text": "New: see upcoming bills and subscriptions in one place."
+  },
+  {
+   "date": "2026-10-09",
+   "time": "18:44",
+   "type": "security",
+   "text": "New sign-in on iPhone 12 near Birmingham, AL. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BKH867G1WV",
+   "date": "2026-11-11",
+   "account": "Regions Visa Debit ••3815",
+   "description": "CHURCH ST COFFEE & BOOKS",
+   "amount": 8.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKPG72EFGZ",
+   "date": "2026-11-09",
+   "account": "Regions Checking ••3815",
+   "description": "AT&T",
+   "amount": 89.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK45YXUL1P",
+   "date": "2026-11-02",
+   "account": "Regions Checking ••3815",
+   "description": "CANTERBURY HILLS UMC TITHE",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BK2176F8TW",
+   "date": "2026-11-02",
+   "account": "Regions Checking ••3815",
+   "description": "REGIONS MORTGAGE PMT",
+   "amount": 1420.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BK1083GG2K",
+   "date": "2026-11-02",
+   "account": "Regions Visa Debit ••3815",
+   "description": "WHOLE FOODS MKT BHAM",
+   "amount": 80.63,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKPFH466XL",
+   "date": "2026-10-30",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2399.6,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK0QUBVWT8",
+   "date": "2026-10-21",
+   "account": "Regions Checking ••3815",
+   "description": "SPIRE ALABAMA GAS",
+   "amount": 63.04,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK282K6D0N",
+   "date": "2026-10-19",
+   "account": "Regions Checking ••3815",
+   "description": "BIRMINGHAM WATER WORKS",
+   "amount": 83.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKZ6NNPFFN",
+   "date": "2026-10-16",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2406.94,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQMHLLHN4",
+   "date": "2026-10-13",
+   "account": "Regions Checking ••3815",
+   "description": "ALABAMA POWER",
+   "amount": 197.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKEAXCF3RJ",
+   "date": "2026-10-12",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PIGGLY WIGGLY HOMEWOOD",
+   "amount": 40.23,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKTSEN3XEC",
+   "date": "2026-10-10",
+   "account": "Regions Visa Debit ••3815",
+   "description": "WHOLE FOODS MKT BHAM",
+   "amount": 22.35,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKGP7XVRGC",
+   "date": "2026-10-09",
+   "account": "Regions Checking ••3815",
+   "description": "AT&T",
+   "amount": 89.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKCZNVRV68",
+   "date": "2026-10-04",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PIGGLY WIGGLY HOMEWOOD",
+   "amount": 47.42,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKN87YTPUB",
+   "date": "2026-10-02",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2394.41,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKMCJJHGN9",
+   "date": "2026-10-02",
+   "account": "Regions Checking ••3815",
+   "description": "CANTERBURY HILLS UMC TITHE",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BK29EMRQ6Y",
+   "date": "2026-10-01",
+   "account": "Regions Checking ••3815",
+   "description": "REGIONS MORTGAGE PMT",
+   "amount": 1420.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKN4A9FP05",
+   "date": "2026-09-21",
+   "account": "Regions Visa Debit ••3815",
+   "description": "BIG SPRING GARDEN CENTER",
+   "amount": 87.7,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Garden"
+  },
+  {
+   "id": "BK702JN1TT",
+   "date": "2026-09-21",
+   "account": "Regions Checking ••3815",
+   "description": "SPIRE ALABAMA GAS",
+   "amount": 79.74,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK0N3CZKLE",
+   "date": "2026-09-19",
+   "account": "Regions Checking ••3815",
+   "description": "BIRMINGHAM WATER WORKS",
+   "amount": 60.52,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKTK7BVTKA",
+   "date": "2026-09-18",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2416.99,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKLDDFFEAQ",
+   "date": "2026-09-16",
+   "account": "Regions Visa Debit ••3815",
+   "description": "BIG SPRING GARDEN CENTER",
+   "amount": 91.7,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Garden"
+  },
+  {
+   "id": "BKZ2QJTQLX",
+   "date": "2026-09-13",
+   "account": "Regions Checking ••3815",
+   "description": "ALABAMA POWER",
+   "amount": 208.89,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKTYGL72TM",
+   "date": "2026-09-13",
+   "account": "Regions Visa Debit ••3815",
+   "description": "WHOLE FOODS MKT BHAM",
+   "amount": 82.61,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKW3SK2FKC",
+   "date": "2026-09-09",
+   "account": "Regions Visa Debit ••3815",
+   "description": "BIG SPRING GARDEN CENTER",
+   "amount": 78.11,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Garden"
+  },
+  {
+   "id": "BKF9QW9KGB",
+   "date": "2026-09-09",
+   "account": "Regions Checking ••3815",
+   "description": "AT&T",
+   "amount": 89.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK68T0936U",
+   "date": "2026-09-08",
+   "account": "Regions Visa Debit ••3815",
+   "description": "WHOLE FOODS MKT BHAM",
+   "amount": 62.85,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKU6XZ280K",
+   "date": "2026-09-06",
+   "account": "Regions Visa Debit ••3815",
+   "description": "WHOLE FOODS MKT BHAM",
+   "amount": 85.86,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK2LHAEYT1",
+   "date": "2026-09-04",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2393.54,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK8ANBE6WC",
+   "date": "2026-09-02",
+   "account": "Regions Checking ••3815",
+   "description": "CANTERBURY HILLS UMC TITHE",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BKUURUDM8F",
+   "date": "2026-09-01",
+   "account": "Regions Checking ••3815",
+   "description": "REGIONS MORTGAGE PMT",
+   "amount": 1420.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKMP94THQ4",
+   "date": "2026-08-21",
+   "account": "Regions Checking ••3815",
+   "description": "SPIRE ALABAMA GAS",
+   "amount": 39.14,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK5E2D0LLU",
+   "date": "2026-08-21",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PUBLIX #0732 VESTAVIA HILLS",
+   "amount": 125.23,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK214QWZZW",
+   "date": "2026-08-21",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2415.21,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKM272PA4Z",
+   "date": "2026-08-20",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PIGGLY WIGGLY HOMEWOOD",
+   "amount": 23.46,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKLQJVBKQB",
+   "date": "2026-08-19",
+   "account": "Regions Checking ••3815",
+   "description": "BIRMINGHAM WATER WORKS",
+   "amount": 52.44,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKN6RPLD7X",
+   "date": "2026-08-16",
+   "account": "Regions Visa Debit ••3815",
+   "description": "CHURCH ST COFFEE & BOOKS",
+   "amount": 7.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKPPUQMNNL",
+   "date": "2026-08-13",
+   "account": "Regions Checking ••3815",
+   "description": "ALABAMA POWER",
+   "amount": 135.84,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKDQT3LS4P",
+   "date": "2026-08-11",
+   "account": "Regions Visa Debit ••3815",
+   "description": "CHURCH ST COFFEE & BOOKS",
+   "amount": 10.95,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK7U624SYN",
+   "date": "2026-08-09",
+   "account": "Regions Checking ••3815",
+   "description": "AT&T",
+   "amount": 89.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK27M0W8J0",
+   "date": "2026-08-09",
+   "account": "Regions Visa Debit ••3815",
+   "description": "SHELL OIL 5741 BIRMINGHAM",
+   "amount": 39.41,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK2XJ3UVEU",
+   "date": "2026-08-07",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2414.12,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKM3T8A0VC",
+   "date": "2026-08-05",
+   "account": "Regions Visa Debit ••3815",
+   "description": "BIG SPRING GARDEN CENTER",
+   "amount": 117.97,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Garden"
+  },
+  {
+   "id": "BKHPPZXLJN",
+   "date": "2026-08-04",
+   "account": "Regions Visa Debit ••3815",
+   "description": "WHOLE FOODS MKT BHAM",
+   "amount": 88.24,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKZ4M22DEV",
+   "date": "2026-08-03",
+   "account": "Regions Checking ••3815",
+   "description": "REGIONS MORTGAGE PMT",
+   "amount": 1420.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKFC8VSFBZ",
+   "date": "2026-08-03",
+   "account": "Regions Checking ••3815",
+   "description": "CANTERBURY HILLS UMC TITHE",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BK0PV2GVC7",
+   "date": "2026-07-24",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2400.45,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK825SSU98",
+   "date": "2026-07-21",
+   "account": "Regions Checking ••3815",
+   "description": "SPIRE ALABAMA GAS",
+   "amount": 30.76,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKD6R2ZU9A",
+   "date": "2026-07-19",
+   "account": "Regions Checking ••3815",
+   "description": "BIRMINGHAM WATER WORKS",
+   "amount": 68.07,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKR615E191",
+   "date": "2026-07-18",
+   "account": "Regions Visa Debit ••3815",
+   "description": "SHELL OIL 5741 BIRMINGHAM",
+   "amount": 38.64,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKPF5TCMPS",
+   "date": "2026-07-13",
+   "account": "Regions Checking ••3815",
+   "description": "ALABAMA POWER",
+   "amount": 179.88,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKGWVHWXVV",
+   "date": "2026-07-13",
+   "account": "Regions Visa Debit ••3815",
+   "description": "WHOLE FOODS MKT BHAM",
+   "amount": 30.95,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJ60PDU7G",
+   "date": "2026-07-10",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2438.55,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKFZX8A31H",
+   "date": "2026-07-09",
+   "account": "Regions Checking ••3815",
+   "description": "AT&T",
+   "amount": 89.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKMCU3QSSU",
+   "date": "2026-07-02",
+   "account": "Regions Checking ••3815",
+   "description": "CANTERBURY HILLS UMC TITHE",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BKAWEV9YFW",
+   "date": "2026-07-01",
+   "account": "Regions Checking ••3815",
+   "description": "REGIONS MORTGAGE PMT",
+   "amount": 1420.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKKZ6U2S6H",
+   "date": "2026-06-26",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2407.31,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKV2ADNUF3",
+   "date": "2026-06-22",
+   "account": "Regions Visa Debit ••3815",
+   "description": "WALGREENS #11829",
+   "amount": 31.33,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKVYQUW4TJ",
+   "date": "2026-06-21",
+   "account": "Regions Checking ••3815",
+   "description": "SPIRE ALABAMA GAS",
+   "amount": 113.13,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK7BSZE8EL",
+   "date": "2026-06-19",
+   "account": "Regions Checking ••3815",
+   "description": "BIRMINGHAM WATER WORKS",
+   "amount": 46.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKXR1SD5FR",
+   "date": "2026-06-13",
+   "account": "Regions Checking ••3815",
+   "description": "ALABAMA POWER",
+   "amount": 186.63,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKKMX5JDZ8",
+   "date": "2026-06-12",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2416.31,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKGRAPD23S",
+   "date": "2026-06-09",
+   "account": "Regions Checking ••3815",
+   "description": "AT&T",
+   "amount": 89.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKQGLNL9F1",
+   "date": "2026-06-02",
+   "account": "Regions Checking ••3815",
+   "description": "CANTERBURY HILLS UMC TITHE",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BKKC77PUDF",
+   "date": "2026-06-01",
+   "account": "Regions Checking ••3815",
+   "description": "REGIONS MORTGAGE PMT",
+   "amount": 1420.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKAZWW8B2M",
+   "date": "2026-05-30",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PUBLIX #0732 VESTAVIA HILLS",
+   "amount": 130.06,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK3K6CXVT5",
+   "date": "2026-05-29",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2433.94,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKHYEF25MW",
+   "date": "2026-05-28",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PIGGLY WIGGLY HOMEWOOD",
+   "amount": 35.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK3HVSVJGV",
+   "date": "2026-05-25",
+   "account": "Regions Visa Debit ••3815",
+   "description": "CHURCH ST COFFEE & BOOKS",
+   "amount": 5.37,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKAVM0XH32",
+   "date": "2026-05-22",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PIGGLY WIGGLY HOMEWOOD",
+   "amount": 24.66,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKEDF8YA1F",
+   "date": "2026-05-21",
+   "account": "Regions Checking ••3815",
+   "description": "SPIRE ALABAMA GAS",
+   "amount": 28.93,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK09LUU1ZW",
+   "date": "2026-05-19",
+   "account": "Regions Checking ••3815",
+   "description": "BIRMINGHAM WATER WORKS",
+   "amount": 79.85,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKMKUR7151",
+   "date": "2026-05-15",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2418.61,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKZ9JZBSDT",
+   "date": "2026-05-13",
+   "account": "Regions Checking ••3815",
+   "description": "ALABAMA POWER",
+   "amount": 229.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKDUHLKNLW",
+   "date": "2026-05-12",
+   "account": "Regions Visa Debit ••3815",
+   "description": "CHURCH ST COFFEE & BOOKS",
+   "amount": 17.34,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKSQ3SGXUB",
+   "date": "2026-05-09",
+   "account": "Regions Checking ••3815",
+   "description": "AT&T",
+   "amount": 89.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKQPDCED3F",
+   "date": "2026-05-06",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PUBLIX #0732 VESTAVIA HILLS",
+   "amount": 48.52,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKPPCVYSVR",
+   "date": "2026-05-04",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PUBLIX #0732 VESTAVIA HILLS",
+   "amount": 95.37,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKKMVNLZM5",
+   "date": "2026-05-04",
+   "account": "Regions Checking ••3815",
+   "description": "CANTERBURY HILLS UMC TITHE",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BKC5LAA3TD",
+   "date": "2026-05-01",
+   "account": "Regions Checking ••3815",
+   "description": "REGIONS MORTGAGE PMT",
+   "amount": 1420.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BK9FFBUUT2",
+   "date": "2026-05-01",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2395.74,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKAU5TCE1B",
+   "date": "2026-04-27",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PIGGLY WIGGLY HOMEWOOD",
+   "amount": 29.31,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKUK9Y6VRK",
+   "date": "2026-04-24",
+   "account": "Regions Visa Debit ••3815",
+   "description": "SHELL OIL 5741 BIRMINGHAM",
+   "amount": 59.12,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKEVFUTAQZ",
+   "date": "2026-04-23",
+   "account": "Regions Visa Debit ••3815",
+   "description": "CHURCH ST COFFEE & BOOKS",
+   "amount": 7.13,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKM97Y6CCW",
+   "date": "2026-04-21",
+   "account": "Regions Checking ••3815",
+   "description": "SPIRE ALABAMA GAS",
+   "amount": 83.31,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK5UK0ZM52",
+   "date": "2026-04-20",
+   "account": "Regions Visa Debit ••3815",
+   "description": "WALGREENS #11829",
+   "amount": 23.97,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKRYRHYTDJ",
+   "date": "2026-04-19",
+   "account": "Regions Checking ••3815",
+   "description": "BIRMINGHAM WATER WORKS",
+   "amount": 60.53,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKSW8JP8YG",
+   "date": "2026-04-17",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2396.03,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK2XZHL44S",
+   "date": "2026-04-17",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PUBLIX #0732 VESTAVIA HILLS",
+   "amount": 91.23,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKAKBCTGZV",
+   "date": "2026-04-13",
+   "account": "Regions Checking ••3815",
+   "description": "ALABAMA POWER",
+   "amount": 243.24,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK6J9AAC65",
+   "date": "2026-04-09",
+   "account": "Regions Checking ••3815",
+   "description": "AT&T",
+   "amount": 89.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKVMXUM2ZZ",
+   "date": "2026-04-07",
+   "account": "Regions Visa Debit ••3815",
+   "description": "WHOLE FOODS MKT BHAM",
+   "amount": 89.06,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKS7BDKVPN",
+   "date": "2026-04-03",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2425.61,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK0VPALS71",
+   "date": "2026-04-02",
+   "account": "Regions Checking ••3815",
+   "description": "CANTERBURY HILLS UMC TITHE",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BKRR7UHFSH",
+   "date": "2026-04-01",
+   "account": "Regions Checking ••3815",
+   "description": "REGIONS MORTGAGE PMT",
+   "amount": 1420.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKF8QC4XKV",
+   "date": "2026-03-24",
+   "account": "Regions Visa Debit ••3815",
+   "description": "CHURCH ST COFFEE & BOOKS",
+   "amount": 5.31,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKTB7NLVUE",
+   "date": "2026-03-21",
+   "account": "Regions Checking ••3815",
+   "description": "SPIRE ALABAMA GAS",
+   "amount": 109.34,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKW8EVH26M",
+   "date": "2026-03-20",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2432.99,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK59EHQH36",
+   "date": "2026-03-19",
+   "account": "Regions Checking ••3815",
+   "description": "BIRMINGHAM WATER WORKS",
+   "amount": 58.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKYMGVHHMY",
+   "date": "2026-03-15",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PUBLIX #0732 VESTAVIA HILLS",
+   "amount": 89.06,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKFC5ZCP8K",
+   "date": "2026-03-13",
+   "account": "Regions Checking ••3815",
+   "description": "ALABAMA POWER",
+   "amount": 227.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKNA2Y3F0A",
+   "date": "2026-03-11",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PIGGLY WIGGLY HOMEWOOD",
+   "amount": 55.44,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKYMWJHU2P",
+   "date": "2026-03-09",
+   "account": "Regions Checking ••3815",
+   "description": "AT&T",
+   "amount": 89.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKTQ7BT4VU",
+   "date": "2026-03-06",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2400.87,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK97TCHWAS",
+   "date": "2026-03-02",
+   "account": "Regions Checking ••3815",
+   "description": "CANTERBURY HILLS UMC TITHE",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BK2QAW16LE",
+   "date": "2026-03-02",
+   "account": "Regions Checking ••3815",
+   "description": "REGIONS MORTGAGE PMT",
+   "amount": 1420.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKMGSRAAXU",
+   "date": "2026-02-26",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PIGGLY WIGGLY HOMEWOOD",
+   "amount": 40.78,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKZZFE7DAT",
+   "date": "2026-02-22",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PUBLIX #0732 VESTAVIA HILLS",
+   "amount": 53.95,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKZWVB7U22",
+   "date": "2026-02-21",
+   "account": "Regions Checking ••3815",
+   "description": "SPIRE ALABAMA GAS",
+   "amount": 34.89,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKG1NCNXPX",
+   "date": "2026-02-20",
+   "account": "Regions Visa Debit ••3815",
+   "description": "WALGREENS #11829",
+   "amount": 8.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKC5HLCH5F",
+   "date": "2026-02-20",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2428.75,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKH71ZMAPD",
+   "date": "2026-02-19",
+   "account": "Regions Visa Debit ••3815",
+   "description": "SHELL OIL 5741 BIRMINGHAM",
+   "amount": 60.84,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKG89M1R6Q",
+   "date": "2026-02-19",
+   "account": "Regions Visa Debit ••3815",
+   "description": "WHOLE FOODS MKT BHAM",
+   "amount": 44.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK8QFGFMXV",
+   "date": "2026-02-19",
+   "account": "Regions Checking ••3815",
+   "description": "BIRMINGHAM WATER WORKS",
+   "amount": 59.06,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKMSE6X3KV",
+   "date": "2026-02-13",
+   "account": "Regions Checking ••3815",
+   "description": "ALABAMA POWER",
+   "amount": 182.9,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK4Q4NLRZP",
+   "date": "2026-02-09",
+   "account": "Regions Checking ••3815",
+   "description": "AT&T",
+   "amount": 89.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKEN8VHZPN",
+   "date": "2026-02-06",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2422.91,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK3TCG055H",
+   "date": "2026-02-06",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PUBLIX #0732 VESTAVIA HILLS",
+   "amount": 48.95,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKU3CS66DM",
+   "date": "2026-02-02",
+   "account": "Regions Checking ••3815",
+   "description": "REGIONS MORTGAGE PMT",
+   "amount": 1420.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BK6Q0CFXWH",
+   "date": "2026-02-02",
+   "account": "Regions Checking ••3815",
+   "description": "CANTERBURY HILLS UMC TITHE",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BKDHMTF7JA",
+   "date": "2026-01-31",
+   "account": "Regions Visa Debit ••3815",
+   "description": "BIG SPRING GARDEN CENTER",
+   "amount": 61.57,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Garden"
+  },
+  {
+   "id": "BK36DBM3DD",
+   "date": "2026-01-23",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2429.66,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK22D3NC9G",
+   "date": "2026-01-21",
+   "account": "Regions Checking ••3815",
+   "description": "SPIRE ALABAMA GAS",
+   "amount": 134.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKUATUUMJZ",
+   "date": "2026-01-19",
+   "account": "Regions Checking ••3815",
+   "description": "BIRMINGHAM WATER WORKS",
+   "amount": 73.46,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKZ8KYQ6VW",
+   "date": "2026-01-13",
+   "account": "Regions Checking ••3815",
+   "description": "ALABAMA POWER",
+   "amount": 218.34,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKQ0YR9NT9",
+   "date": "2026-01-09",
+   "account": "Regions Checking ••3815",
+   "description": "AT&T",
+   "amount": 89.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKLY8836WW",
+   "date": "2026-01-09",
+   "account": "Regions Checking ••3815",
+   "description": "MAGIC CITY HEALTH SYSTEM PAYROLL",
+   "amount": 2391.93,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK49890FCP",
+   "date": "2026-01-06",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PUBLIX #0732 VESTAVIA HILLS",
+   "amount": 53.59,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJJXGTEJH",
+   "date": "2026-01-05",
+   "account": "Regions Visa Debit ••3815",
+   "description": "PIGGLY WIGGLY HOMEWOOD",
+   "amount": 18.12,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKEUVSLPUT",
+   "date": "2026-01-01",
+   "account": "Regions Checking ••3815",
+   "description": "REGIONS MORTGAGE PMT",
+   "amount": 1420.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S56"
+  ],
+  "scenarios": [
+   "S56A",
+   "S56B"
+  ],
+  "world": "shared (both twins)",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261129,
+  "record_counts": {
+   "transactions": 28,
+   "bank_transactions": 130,
+   "total_money_records": 158
+  }
+ }
+}

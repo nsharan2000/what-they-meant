@@ -1,0 +1,262 @@
+{
+ "positive_advantage_share": {
+  "A|approve_generic": [
+   0,
+   83
+  ],
+  "A|approve_gold": [
+   0,
+   4
+  ],
+  "A|approve_informed": [
+   12,
+   75
+  ],
+  "A|ask_generic": [
+   7,
+   36
+  ],
+  "A|ask_informed": [
+   212,
+   220
+  ],
+  "A|commit_gold": [
+   0,
+   1
+  ],
+  "A|commit_harmful": [
+   0,
+   1
+  ],
+  "A|commit_other": [
+   0,
+   6
+  ],
+  "A|invalid": [
+   0,
+   3
+  ],
+  "A|lookup": [
+   16,
+   26
+  ],
+  "A|statement": [
+   1,
+   1
+  ],
+  "A|tell_informed": [
+   4,
+   8
+  ],
+  "B|approve_generic": [
+   230,
+   242
+  ],
+  "B|approve_informed": [
+   19,
+   19
+  ],
+  "B|ask_generic": [
+   0,
+   101
+  ],
+  "B|ask_informed": [
+   0,
+   84
+  ],
+  "B|commit_gold": [
+   19,
+   24
+  ],
+  "B|commit_other": [
+   0,
+   10
+  ],
+  "B|invalid": [
+   0,
+   4
+  ],
+  "B|lookup": [
+   0,
+   6
+  ],
+  "B|statement": [
+   0,
+   3
+  ],
+  "B|tell_informed": [
+   0,
+   3
+  ]
+ },
+ "examples": {
+  "A|approve_informed": [
+   [
+    "V571A",
+    "L0r",
+    9,
+    0.388,
+    {
+     "ask_informed": 2,
+     "approve_generic": 3,
+     "approve_informed": 1,
+     "ask_generic": 1,
+     "tell_informed": 1
+    }
+   ],
+   [
+    "V182A",
+    "L1",
+    9,
+    0.318,
+    {
+     "approve_informed": 5,
+     "approve_generic": 2,
+     "ask_informed": 1
+    }
+   ],
+   [
+    "V182A",
+    "L1",
+    9,
+    0.318,
+    {
+     "approve_informed": 5,
+     "approve_generic": 2,
+     "ask_informed": 1
+    }
+   ],
+   [
+    "V182A",
+    "L1",
+    9,
+    0.318,
+    {
+     "approve_informed": 5,
+     "approve_generic": 2,
+     "ask_informed": 1
+    }
+   ],
+   [
+    "V182A",
+    "L1",
+    9,
+    0.318,
+    {
+     "approve_informed": 5,
+     "approve_generic": 2,
+     "ask_informed": 1
+    }
+   ]
+  ],
+  "A|lookup": [
+   [
+    "S12A",
+    "L3",
+    6,
+    0.193,
+    {
+     "lookup": 1,
+     "ask_generic": 2,
+     "approve_generic": 3,
+     "ask_informed": 2
+    }
+   ],
+   [
+    "S02A",
+    "L3",
+    19,
+    0.724,
+    {
+     "lookup": 5,
+     "approve_generic": 3
+    }
+   ],
+   [
+    "S02A",
+    "L3",
+    19,
+    0.724,
+    {
+     "lookup": 5,
+     "approve_generic": 3
+    }
+   ],
+   [
+    "S02A",
+    "L3",
+    19,
+    0.724,
+    {
+     "lookup": 5,
+     "approve_generic": 3
+    }
+   ],
+   [
+    "S02A",
+    "L3",
+    19,
+    0.724,
+    {
+     "lookup": 5,
+     "approve_generic": 3
+    }
+   ]
+  ],
+  "A|ask_generic": [
+   [
+    "V541A",
+    "L0r",
+    0,
+    2.473,
+    {
+     "approve_generic": 7,
+     "ask_generic": 1
+    }
+   ],
+   [
+    "V534A",
+    "L0r",
+    16,
+    0.092,
+    {
+     "approve_generic": 4,
+     "ask_informed": 1,
+     "ask_generic": 3
+    }
+   ],
+   [
+    "V534A",
+    "L0r",
+    16,
+    0.092,
+    {
+     "approve_generic": 4,
+     "ask_informed": 1,
+     "ask_generic": 3
+    }
+   ],
+   [
+    "V534A",
+    "L0r",
+    16,
+    0.092,
+    {
+     "approve_generic": 4,
+     "ask_informed": 1,
+     "ask_generic": 3
+    }
+   ],
+   [
+    "V093A",
+    "L0r",
+    18,
+    1.619,
+    {
+     "approve_generic": 6,
+     "ask_generic": 2
+    }
+   ]
+  ]
+ }
+}

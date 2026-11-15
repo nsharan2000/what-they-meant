@@ -1,0 +1,1294 @@
+{
+ "n_checks": 161,
+ "n_ok": 161,
+ "checks": [
+  {
+   "id": "sft_trained_tokens",
+   "artifact": "experiments/dataset_audit/composition-memorization/results/token_composition.json",
+   "key": "sft_train/trained_tokens_total",
+   "value": 38160,
+   "cited": 38160,
+   "ok": true
+  },
+  {
+   "id": "first_token_share",
+   "artifact": "experiments/dataset_audit/composition-memorization/results/token_composition.json",
+   "key": "sft_train/decision_bearing_share/first_token_only",
+   "value": 0.013,
+   "cited": 0.013,
+   "ok": true
+  },
+  {
+   "id": "pivot_share",
+   "artifact": "experiments/dataset_audit/composition-memorization/results/token_composition.json",
+   "key": "sft_train/decision_bearing_share/pivots_only",
+   "value": 0.0195,
+   "cited": 0.0195,
+   "ok": true
+  },
+  {
+   "id": "lookup_token_share",
+   "artifact": "experiments/dataset_audit/composition-memorization/results/token_composition.json",
+   "key": "sft_train/lookup_token_share",
+   "value": 0.3646,
+   "cited": 0.3646,
+   "ok": true
+  },
+  {
+   "id": "decision_nats_per_token",
+   "artifact": "experiments/dataset_audit/composition-memorization/results/token_composition.json",
+   "key": "loss_attribution/mean_per_token_loss_from_decision_class",
+   "value": 0.011,
+   "cited": 0.011,
+   "ok": true
+  },
+  {
+   "id": "decision_nats_per_token_corrected",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v6_extra.json",
+   "key": "implied_nats_per_trained_token_type_nll_corrected",
+   "value": 0.0079,
+   "cited": 0.0079,
+   "ok": true
+  },
+  {
+   "id": "coinflip_global",
+   "artifact": "experiments/dataset_audit/twin-contrast-shortcuts_verify/results/v5_decision_token.json",
+   "key": "coinflip_all_decisions_added_to_global_mean_loss",
+   "value": 0.0092,
+   "cited": 0.0092,
+   "ok": true
+  },
+  {
+   "id": "loss_epoch2_mean",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v4_sftlog.json",
+   "key": "loss_mean_epoch2",
+   "value": 0.2112,
+   "cited": 0.2112,
+   "ok": true
+  },
+  {
+   "id": "loss_epoch2_sd",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v4_sftlog.json",
+   "key": "loss_sd_epoch2",
+   "value": 0.1043,
+   "cited": 0.1043,
+   "ok": true
+  },
+  {
+   "id": "pivot_weight_w10",
+   "artifact": "experiments/dataset_audit/composition-memorization/results/token_composition.json",
+   "key": "pivot_weighting/w10",
+   "value": 0.1662,
+   "cited": 0.1662,
+   "ok": true
+  },
+  {
+   "id": "pivot_weight_w20",
+   "artifact": "experiments/dataset_audit/composition-memorization/results/token_composition.json",
+   "key": "pivot_weighting/w20",
+   "value": 0.2851,
+   "cited": 0.2851,
+   "ok": true
+  },
+  {
+   "id": "A_targets_start_with_word",
+   "artifact": "experiments/dataset_audit/twin-contrast-shortcuts_verify/results/v5_decision_token.json",
+   "key": "first_token_is_lt/A_decision/no",
+   "value": 247,
+   "cited": 247,
+   "ok": true
+  },
+  {
+   "id": "B_targets_start_with_lt",
+   "artifact": "experiments/dataset_audit/twin-contrast-shortcuts_verify/results/v5_decision_token.json",
+   "key": "first_token_is_lt/B_decision/yes",
+   "value": 249,
+   "cited": 249,
+   "ok": true
+  },
+  {
+   "id": "only_result_pair_levels",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v3_dupes.json",
+   "key": "sft_train/twin_pair_levels_only_result_differs_hint_stripped",
+   "value": 133,
+   "cited": 133,
+   "ok": true
+  },
+  {
+   "id": "only_result_share",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v3_dupes.json",
+   "key": "sft_train/share_only_result_hint_stripped",
+   "value": 0.5385,
+   "cited": 0.5385,
+   "ok": true
+  },
+  {
+   "id": "only_result_diff_chars_median",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v3_dupes.json",
+   "key": "sft_train/only_result_pairs_result_diff_chars_median",
+   "value": 28.0,
+   "cited": 28.0,
+   "ok": true
+  },
+  {
+   "id": "only_result_diff_share_prompt",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v3_dupes.json",
+   "key": "sft_train/only_result_pairs_diff_share_of_prompt_chars_median",
+   "value": 0.0029,
+   "cited": 0.0029,
+   "ok": true
+  },
+  {
+   "id": "pair_levels_hint_differs",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v3_dupes.json",
+   "key": "sft_train/twin_pair_levels_ps_differs",
+   "value": 113,
+   "cited": 113,
+   "ok": true
+  },
+  {
+   "id": "pair_levels_only_result_raw",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v3_dupes.json",
+   "key": "sft_train/twin_pair_levels_only_result_differs_raw",
+   "value": 72,
+   "cited": 72,
+   "ok": true
+  },
+  {
+   "id": "m1_acc_request_unique",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v3_dupes.json",
+   "key": "m1_acc_by_request_shared_with_twin/False[0]",
+   "value": 0.523,
+   "cited": 0.523,
+   "ok": true
+  },
+  {
+   "id": "m1_acc_request_shared",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v3_dupes.json",
+   "key": "m1_acc_by_request_shared_with_twin/True[0]",
+   "value": 0.524,
+   "cited": 0.524,
+   "ok": true
+  },
+  {
+   "id": "act_commit_rate",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v13_act.json",
+   "key": "commit_rate_act_prompts",
+   "value": 0.575,
+   "cited": 0.575,
+   "ok": true
+  },
+  {
+   "id": "approve_commit_rate",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v13_act.json",
+   "key": "commit_rate_approve_prompts",
+   "value": 0.0241,
+   "cited": 0.0241,
+   "ok": true
+  },
+  {
+   "id": "sft_act_rows",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v13_act.json",
+   "key": "sft_act_rows",
+   "value": 18,
+   "cited": 18,
+   "ok": true
+  },
+  {
+   "id": "m1_gold_A",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v01_policy.json",
+   "key": "gold_rate_by_cell/A",
+   "value": 0.4741,
+   "cited": 0.4741,
+   "ok": true
+  },
+  {
+   "id": "m1_gold_B_approve",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v01_policy.json",
+   "key": "gold_rate_by_cell/B_approve",
+   "value": 0.5526,
+   "cited": 0.5526,
+   "ok": true
+  },
+  {
+   "id": "m1_gold_B_act",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v01_policy.json",
+   "key": "gold_rate_by_cell/B_act",
+   "value": 0.475,
+   "cited": 0.475,
+   "ok": true
+  },
+  {
+   "id": "m1_groups_mixed",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v01_policy.json",
+   "key": "groups_0_lt_pass_lt_1",
+   "value": 108,
+   "cited": 108,
+   "ok": true
+  },
+  {
+   "id": "m1_pass_ge_half",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v01_policy.json",
+   "key": "groups_pass_ge_half",
+   "value": 0.6667,
+   "cited": 0.6667,
+   "ok": true
+  },
+  {
+   "id": "m1_unique_plurality_gold",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v01_policy.json",
+   "key": "groups_plurality_class_is_gold_unique",
+   "value": 0.5667,
+   "cited": 0.5667,
+   "ok": true
+  },
+  {
+   "id": "m1_strict_acc_overall",
+   "artifact": "experiments/dataset_audit/splits-eval-alignment_verify/results/v06_positions_and_m1.json",
+   "key": "part2_m1/overall/acc",
+   "value": 0.524,
+   "cited": 0.524,
+   "ok": true
+  },
+  {
+   "id": "m1_acc_L0r",
+   "artifact": "experiments/dataset_audit/splits-eval-alignment_verify/results/v06_positions_and_m1.json",
+   "key": "part2_m1/by_level/L0r/acc",
+   "value": 0.486,
+   "cited": 0.486,
+   "ok": true
+  },
+  {
+   "id": "m1_acc_L1",
+   "artifact": "experiments/dataset_audit/splits-eval-alignment_verify/results/v06_positions_and_m1.json",
+   "key": "part2_m1/by_level/L1/acc",
+   "value": 0.523,
+   "cited": 0.523,
+   "ok": true
+  },
+  {
+   "id": "m1_acc_L2",
+   "artifact": "experiments/dataset_audit/splits-eval-alignment_verify/results/v06_positions_and_m1.json",
+   "key": "part2_m1/by_level/L2/acc",
+   "value": 0.597,
+   "cited": 0.597,
+   "ok": true
+  },
+  {
+   "id": "m1_acc_L3",
+   "artifact": "experiments/dataset_audit/splits-eval-alignment_verify/results/v06_positions_and_m1.json",
+   "key": "part2_m1/by_level/L3/acc",
+   "value": 0.479,
+   "cited": 0.479,
+   "ok": true
+  },
+  {
+   "id": "majority_of_8",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v6_extra.json",
+   "key": "majority_of_8_accuracy",
+   "value": 0.575,
+   "cited": 0.575,
+   "ok": true
+  },
+  {
+   "id": "majority_of_8_A",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v6_extra.json",
+   "key": "majority_of_8_accuracy_by_twin/A",
+   "value": 0.5259,
+   "cited": 0.5259,
+   "ok": true
+  },
+  {
+   "id": "majority_of_8_B",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v6_extra.json",
+   "key": "majority_of_8_accuracy_by_twin/B",
+   "value": 0.621,
+   "cited": 0.621,
+   "ok": true
+  },
+  {
+   "id": "betabinom_E_p",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v6_extra.json",
+   "key": "first_token_type_betabinomial/all/E_p_goldtype",
+   "value": 0.5862,
+   "cited": 0.5862,
+   "ok": true
+  },
+  {
+   "id": "betabinom_nll",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v6_extra.json",
+   "key": "first_token_type_betabinomial/all/E_neglog_p_goldtype_nats",
+   "value": 0.6069,
+   "cited": 0.6069,
+   "ok": true
+  },
+  {
+   "id": "m1_dprime",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v11_checks.json",
+   "key": "M1_dprime",
+   "value": 0.4819,
+   "cited": 0.4819,
+   "ok": true
+  },
+  {
+   "id": "base_dprime",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v11_checks.json",
+   "key": "base_tiny_aya_dprime",
+   "value": 0.2295,
+   "cited": 0.2295,
+   "ok": true
+  },
+  {
+   "id": "strong_dprime",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v11_checks.json",
+   "key": "strong_dprime_sampled_scenarios",
+   "value": 0.8392,
+   "cited": 0.8392,
+   "ok": true
+  },
+  {
+   "id": "m1_vs_strong_spearman",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v10_extras.json",
+   "key": "spearman_M1_A_pass_vs_strong_success",
+   "value": 0.3534,
+   "cited": 0.3534,
+   "ok": true
+  },
+  {
+   "id": "discrimination_samples",
+   "artifact": "experiments/dataset_audit/twin-contrast-shortcuts_verify/results/v3_m1.json",
+   "key": "discrimination_samples",
+   "value": 0.186,
+   "cited": 0.186,
+   "ok": true
+  },
+  {
+   "id": "discrimination_majority",
+   "artifact": "experiments/dataset_audit/twin-contrast-shortcuts_verify/results/v3_m1.json",
+   "key": "discrimination_majority",
+   "value": 0.323,
+   "cited": 0.323,
+   "ok": true
+  },
+  {
+   "id": "level_adjR2_A",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v08_levels.json",
+   "key": "A/adj_R2",
+   "value": 0.0144,
+   "cited": 0.0144,
+   "ok": true
+  },
+  {
+   "id": "level_adjR2_B",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v08_levels.json",
+   "key": "B/adj_R2",
+   "value": 0.004,
+   "cited": 0.004,
+   "ok": true
+  },
+  {
+   "id": "mde_P2_A",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v08_levels.json",
+   "key": "min_detectable_level_effect_A_2se/ps_P2",
+   "value": 0.184,
+   "cited": 0.184,
+   "ok": true
+  },
+  {
+   "id": "within_scen_realistic_minus_L0r_A",
+   "artifact": "experiments/dataset_audit/realism-pressure_verify/results/v10_extra.json",
+   "key": "M1_paired_L0r_vs_realistic[0]/diff",
+   "value": 0.1786,
+   "cited": 0.1786,
+   "ok": true
+  },
+  {
+   "id": "zero_lookup_rows",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/05_pc4_pc5_pc6.json",
+   "key": "pc4/sft_train/zero_lookup",
+   "value": 16,
+   "cited": 16,
+   "ok": true
+  },
+  {
+   "id": "system_user_lookup_rows",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v6_extra.json",
+   "key": "system_user_prompt_turns/lookup1",
+   "value": 401,
+   "cited": 401,
+   "ok": true
+  },
+  {
+   "id": "eval_loss_ep1",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v4_sftlog.json",
+   "key": "evals[0]/eval_loss",
+   "value": 0.6442,
+   "cited": 0.6442,
+   "ok": true
+  },
+  {
+   "id": "eval_loss_ep2",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v4_sftlog.json",
+   "key": "evals[1]/eval_loss",
+   "value": 0.7456,
+   "cited": 0.7456,
+   "ok": true
+  },
+  {
+   "id": "eval_entropy_change_pct",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v4_sftlog.json",
+   "key": "eval_entropy_change_pct",
+   "value": -24.63,
+   "cited": -24.63,
+   "ok": true
+  },
+  {
+   "id": "eval_acc_ep1",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v4_sftlog.json",
+   "key": "evals[0]/eval_mean_token_accuracy",
+   "value": 0.8513,
+   "cited": 0.8513,
+   "ok": true
+  },
+  {
+   "id": "eval_acc_ep2",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v4_sftlog.json",
+   "key": "evals[1]/eval_mean_token_accuracy",
+   "value": 0.8547,
+   "cited": 0.8547,
+   "ok": true
+  },
+  {
+   "id": "val_rise_if_pivots_plus1",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v4_sftlog.json",
+   "key": "eval_loss_rise_if_every_pivot_token_rose_by_1_nat",
+   "value": 0.0183,
+   "cited": 0.0183,
+   "ok": true
+  },
+  {
+   "id": "val_rise_needed_per_pivot",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v4_sftlog.json",
+   "key": "decision_pivot_nll_rise_needed_to_explain_whole_rise_nats",
+   "value": 5.53,
+   "cited": 5.53,
+   "ok": true
+  },
+  {
+   "id": "distinct_targets",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v3_dupes.json",
+   "key": "sft_train/distinct_targets",
+   "value": 216,
+   "cited": 216,
+   "ok": true
+  },
+  {
+   "id": "distinct_decision_conversations",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v3_dupes.json",
+   "key": "sft_train/distinct_decision_conversations_after_system",
+   "value": 202,
+   "cited": 202,
+   "ok": true
+  },
+  {
+   "id": "exposures_decision",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v3_dupes.json",
+   "key": "sft_train/exposures_2ep_per_decision_target",
+   "value": 6.67,
+   "cited": 6.67,
+   "ok": true
+  },
+  {
+   "id": "exposures_lookup",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v3_dupes.json",
+   "key": "sft_train/exposures_2ep_per_lookup_target",
+   "value": 12.15,
+   "cited": 12.15,
+   "ok": true
+  },
+  {
+   "id": "train_loss_drop_within_ep2_first10",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v4_sftlog.json",
+   "key": "first10_epoch2",
+   "value": 0.3168,
+   "cited": 0.3168,
+   "ok": true
+  },
+  {
+   "id": "train_loss_drop_within_ep2_last10",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v4_sftlog.json",
+   "key": "last10_epoch2",
+   "value": 0.1664,
+   "cited": 0.1664,
+   "ok": true
+  },
+  {
+   "id": "grpo_dW_ratio",
+   "artifact": "experiments/dataset_audit/grpo-dynamics/results/update_size.json",
+   "key": "efficiency/observed_ratio_dW_grpo25_vs_sft",
+   "value": 0.018372153604004408,
+   "cited": 0.018372153604004408,
+   "ok": true
+  },
+  {
+   "id": "grpo_sum_lr_ratio_30",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v03_update_size.json",
+   "key": "ratio_sum_lr_30",
+   "value": 0.02456140350877193,
+   "cited": 0.02456140350877193,
+   "ok": true
+  },
+  {
+   "id": "grpo_bulk_eff",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v03_update_size.json",
+   "key": "grpo_bulk_efficiency_ckpt25",
+   "value": 0.22399687089516776,
+   "cited": 0.22399687089516776,
+   "ok": true
+  },
+  {
+   "id": "adam_noise_floor",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v03_update_size.json",
+   "key": "adam_sim_25_steps/0.0/rms_over_sumlr",
+   "value": 0.2212,
+   "cited": 0.2212,
+   "ok": true
+  },
+  {
+   "id": "grpo_upper_bound",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v03_update_size.json",
+   "key": "grpo30_upper_bound_vs_sft_dW",
+   "value": 0.09985005571852405,
+   "cited": 0.09985005571852405,
+   "ok": true
+  },
+  {
+   "id": "pred_lr5e5_36",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v03_update_size.json",
+   "key": "pred_dW_vs_sft_lr5e-05_steps36",
+   "value": 0.2716,
+   "cited": 0.2716,
+   "ok": true
+  },
+  {
+   "id": "pred_lr2e5_30",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v03_update_size.json",
+   "key": "pred_dW_vs_sft_lr2e-05_steps30",
+   "value": 0.0895,
+   "cited": 0.0895,
+   "ok": true
+  },
+  {
+   "id": "pred_lr1e4_30",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v03_update_size.json",
+   "key": "pred_dW_vs_sft_lr0.0001_steps30",
+   "value": 0.4473,
+   "cited": 0.4473,
+   "ok": true
+  },
+  {
+   "id": "merge_residual",
+   "artifact": "experiments/dataset_audit/grpo-dynamics/results/update_size.json",
+   "key": "stack_check/merge_residual_mean_abs_dlogprob",
+   "value": 0.01916,
+   "cited": 0.01916,
+   "ok": true
+  },
+  {
+   "id": "m2_effect",
+   "artifact": "experiments/dataset_audit/grpo-dynamics/results/update_size.json",
+   "key": "stack_check/m2_adapter_effect_mean_abs_dlogprob",
+   "value": 0.0171,
+   "cited": 0.0171,
+   "ok": true
+  },
+  {
+   "id": "pred_effect_lr5e5_36",
+   "artifact": "experiments/dataset_audit/grpo-dynamics/results/update_size.json",
+   "key": "stack_check/pred_effect_grid_linear/lr5e-05_steps36",
+   "value": 0.2076,
+   "cited": 0.2076,
+   "ok": true
+  },
+  {
+   "id": "dpo_total_lr_ratio",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v6_lr_budget.json",
+   "key": "dpo_over_sft_total_lr_linear",
+   "value": 0.014035087719298246,
+   "cited": 0.014035087719298246,
+   "ok": true
+  },
+  {
+   "id": "dpo_pred_dW_linear",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v6_lr_budget.json",
+   "key": "predicted_dpo_dW_over_sft_linear(calib=grpo)",
+   "value": 0.012780628594090022,
+   "cited": 0.012780628594090022,
+   "ok": true
+  },
+  {
+   "id": "dpo_pred_dW_constant",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v6_lr_budget.json",
+   "key": "predicted_dpo_dW_over_sft_constant(calib=grpo)",
+   "value": 0.02476246790104942,
+   "cited": 0.02476246790104942,
+   "ok": true
+  },
+  {
+   "id": "dpo_lr_for_10pct",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v6_lr_budget.json",
+   "key": "lr_needed_for_10pct_of_sft_budget_linear",
+   "value": 3.5625000000000005e-05,
+   "cited": 3.5625e-05,
+   "ok": true
+  },
+  {
+   "id": "dpo_sft_step_same_budget",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v6_lr_budget.json",
+   "key": "sft_step_where_cum_lr_reaches_dpo_total",
+   "value": 4,
+   "cited": 4,
+   "ok": true
+  },
+  {
+   "id": "grpo_push_shared",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v10_extras.json",
+   "key": "shared_push_decomposition/logged/shared_total",
+   "value": -80.664,
+   "cited": -80.664,
+   "ok": true
+  },
+  {
+   "id": "grpo_push_composition",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v10_extras.json",
+   "key": "shared_push_decomposition/logged/composition_part",
+   "value": -20.671,
+   "cited": -20.671,
+   "ok": true
+  },
+  {
+   "id": "grpo_push_no_card_credit",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v10_extras.json",
+   "key": "shared_push_decomposition/no_card_credit_on_A/shared_total",
+   "value": -60.906,
+   "cited": -60.906,
+   "ok": true
+  },
+  {
+   "id": "grpo_step_mean_s",
+   "artifact": "experiments/dataset_audit/grpo-dynamics/results/step_time.json",
+   "key": "seconds_mean",
+   "value": 718.7,
+   "cited": 718.7,
+   "ok": true
+  },
+  {
+   "id": "grpo_step_random_s",
+   "artifact": "experiments/dataset_audit/grpo-dynamics/results/step_time.json",
+   "key": "pool_pred/all_levels/pred_seconds_random_step",
+   "value": 735.1,
+   "cited": 735.1,
+   "ok": true
+  },
+  {
+   "id": "grpo_step_bucketed_s",
+   "artifact": "experiments/dataset_audit/grpo-dynamics/results/step_time.json",
+   "key": "pool_pred/all_levels/pred_seconds_length_bucketed",
+   "value": 526.5,
+   "cited": 526.5,
+   "ok": true
+  },
+  {
+   "id": "grpo_step_fit_r2",
+   "artifact": "experiments/dataset_audit/grpo-dynamics/results/step_time.json",
+   "key": "fit_max_prompt/r2",
+   "value": 0.998,
+   "cited": 0.998,
+   "ok": true
+  },
+  {
+   "id": "dpo_A_rejected_eq_B_chosen",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v3_contrasts.json",
+   "key": "A_rejected_type_equals_B_chosen_type",
+   "value": 12,
+   "cited": 12,
+   "ok": true
+  },
+  {
+   "id": "dpo_prompt_free_cv",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v3_contrasts.json",
+   "key": "cv_accuracy_mean_std/action_type_prompt_free[0]",
+   "value": 0.9355,
+   "cited": 0.9355,
+   "ok": true
+  },
+  {
+   "id": "dpo_qmark_rule",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v3_contrasts.json",
+   "key": "rule_qmark",
+   "value": 0.9335,
+   "cited": 0.9335,
+   "ok": true
+  },
+  {
+   "id": "dpo_rejected_P1",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v2_context.json",
+   "key": "grid_prompt/P1",
+   "value": 380,
+   "cited": 380,
+   "ok": true
+  },
+  {
+   "id": "dpo_fully_on_context",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v2_context.json",
+   "key": "fully_on_context(P0 grid, P0 dpo, same sys length, same messages)",
+   "value": 7,
+   "cited": 7,
+   "ok": true
+  },
+  {
+   "id": "dpo_identical_twin_levels",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v2_context.json",
+   "key": "twin_levels_identical_rejected",
+   "value": 91,
+   "cited": 91,
+   "ok": true
+  },
+  {
+   "id": "dpo_pairs_identical_twin_levels",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v2_context.json",
+   "key": "pairs_in_identical_twin_levels",
+   "value": 182,
+   "cited": 182,
+   "ok": true
+  },
+  {
+   "id": "base_P0_A_commit",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v7_base_errors.json",
+   "key": "P0/A | commit[1]",
+   "value": 0.742,
+   "cited": 0.742,
+   "ok": true
+  },
+  {
+   "id": "base_P0_Bapprove_commit",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v7_base_errors.json",
+   "key": "P0/B_approve | commit[1]",
+   "value": 0.769,
+   "cited": 0.769,
+   "ok": true
+  },
+  {
+   "id": "dpo_commit_pushed_down_A",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v11_missed_checks.json",
+   "key": "commit_type_push/A:commit_rejected",
+   "value": 194,
+   "cited": 194,
+   "ok": true
+  },
+  {
+   "id": "dpo_commit_pushed_down_B",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v11_missed_checks.json",
+   "key": "commit_type_push/B_approve:commit_rejected",
+   "value": 182,
+   "cited": 182,
+   "ok": true
+  },
+  {
+   "id": "dpo_commit_pushed_up",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v11_missed_checks.json",
+   "key": "commit_type_push/B_act:commit_chosen",
+   "value": 18,
+   "cited": 18,
+   "ok": true
+  },
+  {
+   "id": "dpo_L0r_no_policy",
+   "artifact": "experiments/dataset_audit/dpo-pairs_verify/results/v11_missed_checks.json",
+   "key": "approval_policy_stated_in_system_prompt_by_level(True/False) | L0r | false",
+   "value": 133,
+   "cited": 133,
+   "ok": true
+  },
+  {
+   "id": "oracle_positive_targets",
+   "artifact": "experiments/dataset_audit/grader-agreement/results/oracle_summary.json",
+   "key": "positive_target_disagreements/n_positive_targets",
+   "value": 1601,
+   "cited": 1601,
+   "ok": true
+  },
+  {
+   "id": "oracle_disagreements",
+   "artifact": "experiments/dataset_audit/grader-agreement/results/oracle_summary.json",
+   "key": "positive_target_disagreements/n",
+   "value": 0,
+   "cited": 0,
+   "ok": true
+  },
+  {
+   "id": "dump_vals_ask_grpo",
+   "artifact": "experiments/dataset_audit/grader-agreement_verify/results/v_planted_summary.json",
+   "key": "by/train_grpo|dump_vals_ask|A/rclass/ask_informed",
+   "value": 191,
+   "cited": 191,
+   "ok": true
+  },
+  {
+   "id": "quote_ask_grpo",
+   "artifact": "experiments/dataset_audit/grader-agreement/results/keywords_summary.json",
+   "key": "planted/train_grpo|quote_ask|A/reward_class/ask_informed",
+   "value": 194,
+   "cited": 194,
+   "ok": true
+  },
+  {
+   "id": "judge_precision_A",
+   "artifact": "experiments/dataset_audit/grader-agreement/results/judge_agreement_summary.json",
+   "key": "A_messages/precision_kw_vs_judge",
+   "value": 0.8938,
+   "cited": 0.8938,
+   "ok": true
+  },
+  {
+   "id": "judge_recall_A",
+   "artifact": "experiments/dataset_audit/grader-agreement/results/judge_agreement_summary.json",
+   "key": "A_messages/recall_kw_vs_judge",
+   "value": 0.9439,
+   "cited": 0.9439,
+   "ok": true
+  },
+  {
+   "id": "judge_precision_A_cards",
+   "artifact": "experiments/dataset_audit/grader-agreement/results/judge_agreement_summary.json",
+   "key": "A_approval_cards/precision_kw_vs_judge",
+   "value": 0.1786,
+   "cited": 0.1786,
+   "ok": true
+  },
+  {
+   "id": "empty_card_reward_rows",
+   "artifact": "experiments/dataset_audit/grader-agreement_verify/results/v_final_checks.json",
+   "key": "grpo_B_approve_card_rewards/empty_card_reward=1.1",
+   "value": 231,
+   "cited": 231,
+   "ok": true
+  },
+  {
+   "id": "bact_commits",
+   "artifact": "experiments/dataset_audit/grader-agreement_verify/results/v_bact_read_summary.json",
+   "key": "n_commits_on_B_act",
+   "value": 67,
+   "cited": 67,
+   "ok": true
+  },
+  {
+   "id": "bact_right",
+   "artifact": "experiments/dataset_audit/grader-agreement_verify/results/v_bact_read_summary.json",
+   "key": "B_act_right_by_my_reading",
+   "value": 25,
+   "cited": 25,
+   "ok": true
+  },
+  {
+   "id": "B_success_graded",
+   "artifact": "experiments/dataset_audit/grader-agreement_verify/results/v_bact_read_summary.json",
+   "key": "B_success_current_rule",
+   "value": 113,
+   "cited": 113,
+   "ok": true
+  },
+  {
+   "id": "B_success_read",
+   "artifact": "experiments/dataset_audit/grader-agreement_verify/results/v_bact_read_summary.json",
+   "key": "B_success_my_reading",
+   "value": 71,
+   "cited": 71,
+   "ok": true
+  },
+  {
+   "id": "A_rows_term_in_lookup",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v10_extras.json",
+   "key": "A_rows_with_informed_term_in_request_or_lookup_result",
+   "value": 208,
+   "cited": 208,
+   "ok": true
+  },
+  {
+   "id": "A_approve_informed_echo",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v10_extras.json",
+   "key": "A_approve_informed_samples_on_prompts_with_term_in_turns",
+   "value": 74,
+   "cited": 74,
+   "ok": true
+  },
+  {
+   "id": "test_clusters",
+   "artifact": "experiments/dataset_audit/splits-eval-alignment_verify/results/v07_eval_alignment.json",
+   "key": "d_clusters/test/source_post_clusters",
+   "value": 13,
+   "cited": 13,
+   "ok": true
+  },
+  {
+   "id": "hard_test_rows_in_test_clusters",
+   "artifact": "experiments/dataset_audit/splits-eval-alignment_verify/results/v07_eval_alignment.json",
+   "key": "d_clusters/hard_test_rows_sharing_a_cluster_with_test",
+   "value": 26,
+   "cited": 26,
+   "ok": true
+  },
+  {
+   "id": "val_clusters",
+   "artifact": "experiments/dataset_audit/splits-eval-alignment_verify/results/v07_eval_alignment.json",
+   "key": "d_clusters/val/source_post_clusters",
+   "value": 5,
+   "cited": 5,
+   "ok": true
+  },
+  {
+   "id": "identical_first_prompt_test_L1",
+   "artifact": "experiments/dataset_audit/splits-eval-alignment_verify/results/v02_l2s_reveal.json",
+   "key": "per_split/test/pairs_with_identical_first_prompt_P0/L1",
+   "value": 18,
+   "cited": 18,
+   "ok": true
+  },
+  {
+   "id": "identical_first_prompt_test_L2s",
+   "artifact": "experiments/dataset_audit/splits-eval-alignment_verify/results/v02_l2s_reveal.json",
+   "key": "per_split/test/pairs_with_identical_first_prompt_P0/L2s",
+   "value": 0,
+   "cited": 0,
+   "ok": true
+  },
+  {
+   "id": "identical_first_prompt_hard_L2",
+   "artifact": "experiments/dataset_audit/splits-eval-alignment_verify/results/v02_l2s_reveal.json",
+   "key": "per_split/hard_test/pairs_with_identical_first_prompt_P0/L2",
+   "value": 9,
+   "cited": 9,
+   "ok": true
+  },
+  {
+   "id": "crossrun_changed_rules",
+   "artifact": "experiments/dataset_audit/realism-pressure_verify/results/v8_crossrun_specs.json",
+   "key": "pairs_with_changed_tool_rules",
+   "value": 424,
+   "cited": 424,
+   "ok": true
+  },
+  {
+   "id": "crossrun_pairs",
+   "artifact": "experiments/dataset_audit/realism-pressure_verify/results/v8_crossrun_specs.json",
+   "key": "n_pairs",
+   "value": 652,
+   "cited": 652,
+   "ok": true
+  },
+  {
+   "id": "hardset_proxy",
+   "artifact": "experiments/dataset_audit/realism-pressure_verify/results/v11_hardset_sensitivity.json",
+   "key": "proxy_hard_as_logged",
+   "value": 81,
+   "cited": 81,
+   "ok": true
+  },
+  {
+   "id": "hardset_proxy_wo_empty",
+   "artifact": "experiments/dataset_audit/realism-pressure_verify/results/v11_hardset_sensitivity.json",
+   "key": "proxy_hard_excluding_needless_after_empty",
+   "value": 57,
+   "cited": 57,
+   "ok": true
+  },
+  {
+   "id": "preamble_tokens",
+   "artifact": "experiments/dataset_audit/splits-eval-alignment_verify/results/v10_preamble.json",
+   "key": "estimated_preamble_tokens_incl_specials",
+   "value": 384,
+   "cited": 384,
+   "ok": true
+  },
+  {
+   "id": "preamble_ask_lines",
+   "artifact": "experiments/dataset_audit/splits-eval-alignment_verify/results/v10_preamble.json",
+   "key": "lines_matching_ask_clarify_followup_question_confirm_check",
+   "value": [],
+   "cited": [],
+   "ok": true
+  },
+  {
+   "id": "request_differs_pairs",
+   "artifact": "experiments/dataset_audit/twin-contrast-shortcuts_verify/results/v1_twins.json",
+   "key": "request_differs_train_pairs",
+   "value": 31,
+   "cited": 31,
+   "ok": true
+  },
+  {
+   "id": "request_identifier_only_pairs",
+   "artifact": "experiments/dataset_audit/twin-contrast-shortcuts_verify/results/v1_twins.json",
+   "key": "request_kind_train_pairs/identifier_only",
+   "value": 13,
+   "cited": 13,
+   "ok": true
+  },
+  {
+   "id": "request_wording_pairs",
+   "artifact": "experiments/dataset_audit/twin-contrast-shortcuts_verify/results/v1_twins.json",
+   "key": "request_kind_train_pairs/wording",
+   "value": 18,
+   "cited": 18,
+   "ok": true
+  },
+  {
+   "id": "same_setting_share",
+   "artifact": "experiments/dataset_audit/twin-contrast-shortcuts_verify/results/v1_twins.json",
+   "key": "same_prompt_setting_share",
+   "value": 0.543,
+   "cited": 0.543,
+   "ok": true
+  },
+  {
+   "id": "P2_share_A",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v11_checks.json",
+   "key": "P2_share_by_twin_whole_pool/A",
+   "value": 0.2794,
+   "cited": 0.2794,
+   "ok": true
+  },
+  {
+   "id": "P2_share_B",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v11_checks.json",
+   "key": "P2_share_by_twin_whole_pool/B",
+   "value": 0.3293,
+   "cited": 0.3293,
+   "ok": true
+  },
+  {
+   "id": "m1_contradicted_vs_other_pp",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/02_pc1.json",
+   "key": "m1_bizops_contradicted_vs_other_A_L1plus_P0_ask_informed/diff_pp",
+   "value": 15.1,
+   "cited": 15.1,
+   "ok": true
+  },
+  {
+   "id": "base_hint_A_ask_P0",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/07_pc9_checks.json",
+   "key": "base_eval_P0_vs_P2_paired/A/ask_any_P0",
+   "value": 53,
+   "cited": 53,
+   "ok": true
+  },
+  {
+   "id": "base_hint_A_ask_P2",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/07_pc9_checks.json",
+   "key": "base_eval_P0_vs_P2_paired/A/ask_any_P2",
+   "value": 70,
+   "cited": 70,
+   "ok": true
+  },
+  {
+   "id": "base_hint_B_ask_P0",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/07_pc9_checks.json",
+   "key": "base_eval_P0_vs_P2_paired/B/ask_any_P0",
+   "value": 42,
+   "cited": 42,
+   "ok": true
+  },
+  {
+   "id": "base_hint_B_ask_P2",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/07_pc9_checks.json",
+   "key": "base_eval_P0_vs_P2_paired/B/ask_any_P2",
+   "value": 61,
+   "cited": 61,
+   "ok": true
+  },
+  {
+   "id": "base_hint_pairs",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/07_pc9_checks.json",
+   "key": "base_eval_P0_vs_P2_paired/A/pairs",
+   "value": 343,
+   "cited": 343,
+   "ok": true
+  },
+  {
+   "id": "base_B_cards_L0r_P0",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/07_pc9_checks.json",
+   "key": "base_grid_P0/B|L0r/card",
+   "value": 2,
+   "cited": 2,
+   "ok": true
+  },
+  {
+   "id": "base_B_cards_L1_P0",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/07_pc9_checks.json",
+   "key": "base_grid_P0/B|L1/card",
+   "value": 0,
+   "cited": 0,
+   "ok": true
+  },
+  {
+   "id": "m1_A_L1",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/07_pc9_checks.json",
+   "key": "m1_correct_rate_by_twin_level/A|L1[2]",
+   "value": 0.518,
+   "cited": 0.518,
+   "ok": true
+  },
+  {
+   "id": "m1_A_L2",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/07_pc9_checks.json",
+   "key": "m1_correct_rate_by_twin_level/A|L2[2]",
+   "value": 0.586,
+   "cited": 0.586,
+   "ok": true
+  },
+  {
+   "id": "m1_B_L1",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/07_pc9_checks.json",
+   "key": "m1_correct_rate_by_twin_level/B|L1[2]",
+   "value": 0.513,
+   "cited": 0.513,
+   "ok": true
+  },
+  {
+   "id": "m1_B_L2",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/07_pc9_checks.json",
+   "key": "m1_correct_rate_by_twin_level/B|L2[2]",
+   "value": 0.608,
+   "cited": 0.608,
+   "ok": true
+  },
+  {
+   "id": "card_rule_bills_L0r",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/08_extra.json",
+   "key": "A_approve_informed_env_level/bills|L0r/rate",
+   "value": 0.312,
+   "cited": 0.312,
+   "ok": true
+  },
+  {
+   "id": "card_rule_bills_L1plus",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/08_extra.json",
+   "key": "A_approve_informed_env_level/bills|L1+/rate",
+   "value": 0.4,
+   "cited": 0.4,
+   "ok": true
+  },
+  {
+   "id": "card_rule_shopping_L0r",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/08_extra.json",
+   "key": "A_approve_informed_env_level/shopping|L0r/rate",
+   "value": 0.179,
+   "cited": 0.179,
+   "ok": true
+  },
+  {
+   "id": "card_rule_shopping_L1plus",
+   "artifact": "experiments/dataset_audit/prompt-conflicts_verify/results/08_extra.json",
+   "key": "A_approve_informed_env_level/shopping|L1+/rate",
+   "value": 0.179,
+   "cited": 0.179,
+   "ok": true
+  },
+  {
+   "id": "rp3_opus",
+   "artifact": "experiments/dataset_audit/realism-pressure_verify/results/v2_summary.json",
+   "key": "RP3_panel_hard_L0rP2_to_L2P2/claude-opus/D_ask/diff",
+   "value": -0.3111,
+   "cited": -0.3111,
+   "ok": true
+  },
+  {
+   "id": "rp3_sonnet",
+   "artifact": "experiments/dataset_audit/realism-pressure_verify/results/v2_summary.json",
+   "key": "RP3_panel_hard_L0rP2_to_L2P2/claude-sonnet/D_ask/diff",
+   "value": -0.2667,
+   "cited": -0.2667,
+   "ok": true
+  },
+  {
+   "id": "rp3_haiku",
+   "artifact": "experiments/dataset_audit/realism-pressure_verify/results/v2_summary.json",
+   "key": "RP3_panel_hard_L0rP2_to_L2P2/claude-haiku/D_ask/diff",
+   "value": -0.3333,
+   "cited": -0.3333,
+   "ok": true
+  },
+  {
+   "id": "rp3_fable",
+   "artifact": "experiments/dataset_audit/realism-pressure_verify/results/v2_summary.json",
+   "key": "RP3_panel_hard_L0rP2_to_L2P2/claude-fable/D_ask/diff",
+   "value": -0.1778,
+   "cited": -0.1778,
+   "ok": true
+  },
+  {
+   "id": "train_rows_empty_tool_result",
+   "artifact": "experiments/dataset_audit/realism-pressure/results/unscripted.json",
+   "key": "training_views/sft_train.jsonl/rows_with_empty_tool_result",
+   "value": 0,
+   "cited": 0,
+   "ok": true
+  },
+  {
+   "id": "selector_ambiguous_share",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v3_dupes.json",
+   "key": "sft_train/selector/share_tok",
+   "value": 0.0483,
+   "cited": 0.0483,
+   "ok": true
+  },
+  {
+   "id": "loss_if_decision_perfect",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v02_loss_share.json",
+   "key": "gold_class/loss_if_decision_were_perfect_epoch2",
+   "value": 0.1999,
+   "cited": 0.1999,
+   "ok": true
+  },
+  {
+   "id": "decision_share_epoch2_loss",
+   "artifact": "experiments/dataset_audit/grpo-dynamics_verify/results/v02_loss_share.json",
+   "key": "gold_class/share_of_epoch2_mean_loss",
+   "value": 0.0535,
+   "cited": 0.0535,
+   "ok": true
+  },
+  {
+   "id": "val_untrained_lookup_rows",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v5_val.json",
+   "key": "val_lookup_rows_untrained_tool",
+   "value": 52,
+   "cited": 52,
+   "ok": true
+  },
+  {
+   "id": "val_4gram_cov",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v5_val.json",
+   "key": "val_4gram_cov_by_train_all",
+   "value": 0.1383,
+   "cited": 0.1383,
+   "ok": true
+  },
+  {
+   "id": "train_4gram_cov_loco",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v5_val.json",
+   "key": "train_4gram_cov_leave_one_cluster_out",
+   "value": 0.1405,
+   "cited": 0.1405,
+   "ok": true
+  },
+  {
+   "id": "train_4gram_cov_lopo",
+   "artifact": "experiments/dataset_audit/composition-memorization_verify/results/v5_val.json",
+   "key": "train_4gram_cov_leave_one_pair_out",
+   "value": 0.3783,
+   "cited": 0.3783,
+   "ok": true
+  }
+ ]
+}

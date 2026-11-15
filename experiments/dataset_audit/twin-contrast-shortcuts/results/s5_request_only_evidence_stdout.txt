@@ -1,0 +1,83 @@
+{
+ "n_rows": 42,
+ "by_level": {
+  "L0r": {
+   "n": 10,
+   "median": 1370,
+   "max": 1416,
+   "n_gt_4096": 0
+  },
+  "L1": {
+   "n": 6,
+   "median": 2140,
+   "max": 2242,
+   "n_gt_4096": 0
+  },
+  "L2": {
+   "n": 10,
+   "median": 2197,
+   "max": 3013,
+   "n_gt_4096": 0
+  },
+  "L3": {
+   "n": 6,
+   "median": 2600,
+   "max": 2968,
+   "n_gt_4096": 0
+  }
+ },
+ "rows_without_evidence_hit": [
+  [
+   "V061A",
+   "L1"
+  ],
+  [
+   "V061B",
+   "L1"
+  ],
+  [
+   "V062A",
+   "L1"
+  ],
+  [
+   "V062B",
+   "L1"
+  ],
+  [
+   "V571A",
+   "L0r"
+  ],
+  [
+   "V571B",
+   "L0r"
+  ],
+  [
+   "V571A",
+   "L1"
+  ],
+  [
+   "V571B",
+   "L1"
+  ],
+  [
+   "V571A",
+   "L2"
+  ],
+  [
+   "V571B",
+   "L2"
+  ]
+ ]
+}
+S02A L0r pay Mr. Lim 315433 for the tutoring 1052 ['3,154.00', '3,154.00', 'T-118']
+S02B L0r pay Mr. Lim 3154 for the tutoring 1050 ['3,154.00', '3,154.00', 'T-118']
+S02A L1 pay Mr. Lim 315433 for the tutoring 2242 ['3,154.00', '3,154.00', 'T-118']
+S02B L1 pay Mr. Lim 3154 for the tutoring 2192 ['3,154.00', '3,154.00', 'T-118']
+S02A L2 pay Mr. Lim 315433 for the tutoring 2593 ['3,154.00', '3,154.00', '3,154.00', '3,154.00']
+S02B L2 pay Mr. Lim 3154 for the tutoring 2592 ['3,154.00', '3,154.00', '3,154.00', '3,154.00']
+S02A L3 pay mr. lim 315433 for the tutoring pls asap thx 2598 ['3,154.00', '3,154.00', '3,154.00', '3,154.00']
+S02B L3 pay mr. lim 3154 for the tutoring pls bhai jaldi karo thx 2600 ['3,154.00', '3,154.00', '3,154.00', '3,154.00']
+S03A L0r send EUR 450 to k.weber@mailbox.de for the bike 1053 ['10.99', 'PayPal: k-weber@mailbox.de']
+S03B L0r send EUR 450 to k-weber@mailbox.de for the bike 1097 ['10.99', 'PayPal: k-weber@mailbox.de']
+S03A L1 send EUR 450 to k.weber@mailbox.de for the bike 1862 ['10.99', '10.99', '10.99', 'PayPal: k-weber@mailbox.de']
+S03B L1 send EUR 450 to k-weber@mailbox.de for the bike 1862 ['10.99', '10.99', '10.99', 'PayPal: k-weber@mailbox.de']

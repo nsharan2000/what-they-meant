@@ -1,0 +1,186 @@
+{
+ "S01": {
+  "env_id": "wallet",
+  "member_id": "riya_menon"
+ },
+ "S02": {
+  "env_id": "wallet",
+  "member_id": "ana_reyes"
+ },
+ "S03": {
+  "env_id": "wallet",
+  "member_id": "jonas_keller"
+ },
+ "S04": {
+  "env_id": "shopping",
+  "member_id": "dev_rao"
+ },
+ "S05": {
+  "env_id": "wallet",
+  "member_id": "maya_brooks_b"
+ },
+ "S06": {
+  "env_id": "bizops",
+  "member_id": "bramblewood_dental_partners"
+ },
+ "S07": {
+  "env_id": "wallet",
+  "member_id": "kiran_patel"
+ },
+ "S08": {
+  "env_id": "wallet",
+  "member_id": "neha_joshi"
+ },
+ "S09": {
+  "env_id": "bizops",
+  "member_id": "ironbend_fabrication"
+ },
+ "S10": {
+  "env_id": "shopping",
+  "member_id": "sofia_lang"
+ },
+ "S11": {
+  "env_id": "shopping",
+  "member_id": "omar_khan"
+ },
+ "S12": {
+  "env_id": "wallet",
+  "member_id": "lena_ortiz_b"
+ },
+ "S13": {
+  "env_id": "bills",
+  "member_id": "tara_singh"
+ },
+ "S14": {
+  "env_id": "bizops",
+  "member_id": "copperline_coffee_roasters"
+ },
+ "S15": {
+  "env_id": "bizops",
+  "member_id": "cole_retail_signals"
+ },
+ "S16": {
+  "env_id": "wallet",
+  "member_id": "mei_tan_b"
+ },
+ "S18": {
+  "env_id": "bills",
+  "member_id": "colin_reid"
+ },
+ "S19": {
+  "env_id": "bills",
+  "member_id": "rahul_verma"
+ },
+ "S20": {
+  "env_id": "bizops",
+  "member_id": "calder_point_residential"
+ },
+ "S21": {
+  "env_id": "shopping",
+  "member_id": "ishaan_rao"
+ },
+ "S22": {
+  "env_id": "bills",
+  "member_id": "paul_ortega"
+ },
+ "S23": {
+  "env_id": "wallet",
+  "member_id": "dana_pruitt"
+ },
+ "S24": {
+  "env_id": "bizops",
+  "member_id": "fernhill_leather_co"
+ },
+ "S25": {
+  "env_id": "bills",
+  "member_id": "zoe_park"
+ },
+ "S26": {
+  "env_id": "bizops",
+  "member_id": "kettleby_software"
+ },
+ "S27": {
+  "env_id": "wallet",
+  "member_id": "leah_kim"
+ },
+ "S28": {
+  "env_id": "shopping",
+  "member_id": "ravi_menon"
+ },
+ "S29": {
+  "env_id": "bizops",
+  "member_id": "brightwick_candle_co"
+ },
+ "S32": {
+  "env_id": "bills",
+  "member_id": "ella_brooks"
+ },
+ "S33": {
+  "env_id": "bizops",
+  "member_id": "parcelbeam"
+ },
+ "S34": {
+  "env_id": "wallet",
+  "member_id": "sara_novak"
+ },
+ "S35": {
+  "env_id": "shopping",
+  "member_id": "amy_hall"
+ },
+ "S36": {
+  "env_id": "bills",
+  "member_id": "kai_turner"
+ },
+ "S39": {
+  "env_id": "wallet",
+  "member_id": "hamid_raza_b"
+ },
+ "S42": {
+  "env_id": "bizops",
+  "member_id": "hollow_oak_outdoor"
+ },
+ "S43": {
+  "env_id": "bills",
+  "member_id": "aditi_rao"
+ },
+ "S45A": {
+  "env_id": "shopping",
+  "member_id": "arjun_mehta"
+ },
+ "S45B": {
+  "env_id": "shopping",
+  "member_id": "arjun_mehta_b"
+ },
+ "S47": {
+  "env_id": "wallet",
+  "member_id": "victor_hale"
+ },
+ "S49": {
+  "env_id": "wallet",
+  "member_id": "ana_silva"
+ },
+ "S53": {
+  "env_id": "wallet",
+  "member_id": "jade_cole"
+ },
+ "S54": {
+  "env_id": "wallet",
+  "member_id": "rick_moreno_b"
+ },
+ "S55": {
+  "env_id": "wallet",
+  "member_id": "linda_gray"
+ },
+ "S56": {
+  "env_id": "wallet",
+  "member_id": "ruth_price"
+ },
+ "S57": {
+  "env_id": "wallet",
+  "member_id": "noah_kim"
+ },
+ "S58": {
+  "env_id": "shopping",
+  "member_id": "chris_allen"
+ }
+}

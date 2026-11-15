@@ -1,0 +1,549 @@
+{
+ "update_budget": {
+  "sft": {
+   "steps": 114,
+   "lr_peak": 0.0001,
+   "sum_lr": 0.0057,
+   "total_dW_fro": 6.637931134136192,
+   "max_abs_B": 0.005192417651414871,
+   "max_abs_B_over_sum_lr": 0.9109504651605037
+  },
+  "grpo_25": {
+   "steps": 25,
+   "lr_peak": 5e-06,
+   "sum_lr": 0.000115,
+   "total_dW_fro": 0.1219530904091533,
+   "max_abs_B": 0.00010300334542989731,
+   "max_abs_B_over_sum_lr": 0.8956812646078026
+  },
+  "dpo_planned": {
+   "pairs": 496,
+   "steps": 31,
+   "lr_peak": 5e-06,
+   "sum_lr_linear_no_warmup": 8e-05,
+   "sum_lr_constant_upper_bound": 0.000155,
+   "predicted_dW_ratio_vs_sft_linear_no_warmup": 0.012780628594090022,
+   "sum_lr_ratio_vs_sft_linear_no_warmup": 0.014035087719298246,
+   "predicted_max_abs_B_linear_no_warmup": 7.165450116862422e-05,
+   "predicted_dW_ratio_vs_sft_constant_upper_bound": 0.02476246790104942,
+   "sum_lr_ratio_vs_sft_constant_upper_bound": 0.02719298245614035,
+   "predicted_max_abs_B_constant_upper_bound": 0.00013883059601420942
+  },
+  "calibration": {
+   "grpo_dW_ratio_measured": 0.018372153604004408,
+   "grpo_sum_lr_ratio": 0.02017543859649123,
+   "dW_per_unit_lr_vs_sft": 0.9106197873289141
+  },
+  "sft_reference": {
+   "sft_step_with_same_cum_lr_as_dpo": 4,
+   "sft_loss_steps_1_5": [
+    1.67,
+    1.334,
+    1.526,
+    1.86,
+    1.52
+   ],
+   "sft_loss_mean_steps_1_3": 1.51,
+   "sft_loss_mean_steps_8_12": 0.878,
+   "sft_cum_lr_first_10": [
+    0.0,
+    2e-05,
+    6e-05,
+    0.00012,
+    0.0002,
+    0.0003,
+    0.0004,
+    0.0004999,
+    0.0005997,
+    0.0006994
+   ]
+  }
+ },
+ "shortcut_bt": {
+  "action_type_only": {
+   "cv_pair_accuracy": 0.924,
+   "by_twin": {
+    "A": 0.905,
+    "B": 0.944
+   },
+   "weights_full_fit": {
+    "type_message": 0.477,
+    "type_ui": 3.842,
+    "type_commit": -2.185,
+    "type_lookup": -8.257,
+    "type_bad": -10.228
+   }
+  },
+  "format_length_only": {
+   "cv_pair_accuracy": 0.848,
+   "by_twin": {
+    "A": 0.907,
+    "B": 0.789
+   },
+   "weights_full_fit": {
+    "lead_ws": -4.983,
+    "trail_ws": -1.422,
+    "log_newlines": -4.241,
+    "multiline_tool": -4.299,
+    "canonical_call": -0.641,
+    "markdown": -0.53,
+    "null_args": -8.402,
+    "log_tokens": -1.521
+   }
+  },
+  "length_only": {
+   "cv_pair_accuracy": 0.817,
+   "by_twin": {
+    "A": 0.838,
+    "B": 0.795
+   },
+   "weights_full_fit": {
+    "log_tokens": -2.863
+   }
+  },
+  "format_length_content_no_type": {
+   "cv_pair_accuracy": 0.98,
+   "by_twin": {
+    "A": 0.988,
+    "B": 0.972
+   },
+   "weights_full_fit": {
+    "lead_ws": -0.173,
+    "trail_ws": -0.357,
+    "log_newlines": -5.434,
+    "multiline_tool": -3.435,
+    "canonical_call": 3.891,
+    "markdown": -2.086,
+    "null_args": -3.293,
+    "log_tokens": 2.568,
+    "qmark": 10.842,
+    "digit_share": 37.822,
+    "currency": -0.118,
+    "greeting": -0.054,
+    "claims_done": -0.673,
+    "confirm_word": -2.827
+   }
+  },
+  "all_response_only": {
+   "cv_pair_accuracy": 0.978,
+   "by_twin": {
+    "A": 0.98,
+    "B": 0.976
+   },
+   "weights_full_fit": {
+    "type_message": -0.927,
+    "type_ui": -1.584,
+    "type_commit": 1.794,
+    "type_lookup": -0.0,
+    "type_bad": -6.717,
+    "lead_ws": -0.047,
+    "trail_ws": -0.096,
+    "log_newlines": -6.393,
+    "multiline_tool": -0.145,
+    "canonical_call": 4.071,
+    "markdown": -2.84,
+    "null_args": -4.195,
+    "log_tokens": 3.394,
+    "qmark": 13.89,
+    "digit_share": 18.92,
+    "currency": 0.354,
+    "greeting": -0.138,
+    "claims_done": -0.1,
+    "confirm_word": -3.067
+   }
+  },
+  "oracle_type_x_twin": {
+   "cv_pair_accuracy": 0.957,
+   "by_twin": {
+    "A": 0.913,
+    "B": 1.0
+   },
+   "weights_full_fit": {
+    "message_x_A": 4.952,
+    "message_x_B": -11.026,
+    "ui_x_A": -4.952,
+    "ui_x_B": 6.101,
+    "commit_x_A": -4.952,
+    "commit_x_B": -3.36,
+    "lookup_x_A": -4.952,
+    "lookup_x_B": -4.014,
+    "bad_x_A": -4.952,
+    "bad_x_B": -11.834
+   }
+  },
+  "rule_rejected_is_longer": 0.808,
+  "rule_question_mark_only": {
+   "accuracy_ties_half": 0.933,
+   "chosen_has_qmark": 478,
+   "rejected_has_qmark": 48,
+   "B_approve_chosen_has_qmark": 231,
+   "B_approve_n": 231
+  },
+  "rule_rejected_is_commit_or_malformed_commit": 0.77,
+  "rule_rejected_has_any_format_defect": 0.323,
+  "format_only_correct_but_type_only_wrong": 40
+ },
+ "prompt_independent_directions": {
+  "lower P(direct commit)": {
+   "pairs_margin_up": 376,
+   "pairs_margin_down": 18,
+   "neutral": 102
+  },
+  "raise P(chat message)": {
+   "pairs_margin_up": 204,
+   "pairs_margin_down": 59,
+   "neutral": 233
+  },
+  "raise P(approval card)": {
+   "pairs_margin_up": 231,
+   "pairs_margin_down": 2,
+   "neutral": 263
+  }
+ },
+ "m1_error_crossref": {
+  "m1_prompts": 120,
+  "m1_prompts_with_dpo_pair": 120,
+  "m1_error_samples_by_axis": {
+   "A: approval card instead of ask": 162,
+   "A: generic question / statement": 37,
+   "B: message instead of proceeding": 191,
+   "A: invalid": 3,
+   "B: lookup": 6,
+   "A: lookup": 26,
+   "A: direct commit": 8,
+   "B: direct commit": 10,
+   "B: invalid": 4
+  },
+  "error_samples_by_axis_and_coverage": {
+   "A: approval card instead of ask | pair contrasts something else": 162,
+   "A: direct commit | pair contrasts something else": 3,
+   "A: direct commit | pair contrasts this error": 5,
+   "A: generic question / statement | pair contrasts something else": 33,
+   "A: generic question / statement | pair contrasts this error": 4,
+   "A: invalid | pair contrasts something else": 3,
+   "A: lookup | pair contrasts something else": 26,
+   "B: direct commit | pair contrasts something else": 4,
+   "B: direct commit | pair contrasts this error": 6,
+   "B: invalid | pair contrasts something else": 4,
+   "B: lookup | pair contrasts something else": 6,
+   "B: message instead of proceeding | pair contrasts something else": 158,
+   "B: message instead of proceeding | pair contrasts this error": 33
+  },
+  "error_prompts_by_axis_and_coverage": {
+   "A: approval card instead of ask | pair contrasts something else": 51,
+   "A: direct commit | pair contrasts something else": 3,
+   "A: direct commit | pair contrasts this error": 3,
+   "A: generic question / statement | pair contrasts something else": 17,
+   "A: generic question / statement | pair contrasts this error": 3,
+   "A: invalid | pair contrasts something else": 3,
+   "A: lookup | pair contrasts something else": 7,
+   "B: direct commit | pair contrasts something else": 2,
+   "B: direct commit | pair contrasts this error": 5,
+   "B: invalid | pair contrasts something else": 4,
+   "B: lookup | pair contrasts something else": 2,
+   "B: message instead of proceeding | pair contrasts something else": 49,
+   "B: message instead of proceeding | pair contrasts this error": 9
+  },
+  "m1_decisions_all": {
+   "approve_generic": 325,
+   "ask_generic": 137,
+   "ask_informed": 304,
+   "approve_informed": 94,
+   "invalid": 7,
+   "tell_informed": 11,
+   "lookup": 32,
+   "commit_gold": 25,
+   "commit_other": 16,
+   "commit_harmful": 1,
+   "statement": 4,
+   "approve_gold": 4
+  },
+  "examples": {
+   "A: approval card instead of ask | pair contrasts something else": [
+    {
+     "idx": 53,
+     "scenario_id": "V541A",
+     "level": "L0r",
+     "m1_samples": 7,
+     "dpo_rejected_decision": "commit_other"
+    },
+    {
+     "idx": 69,
+     "scenario_id": "S58A",
+     "level": "L3",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "commit_gold"
+    },
+    {
+     "idx": 477,
+     "scenario_id": "V552A",
+     "level": "L2",
+     "m1_samples": 4,
+     "dpo_rejected_decision": "commit_other"
+    }
+   ],
+   "A: direct commit | pair contrasts something else": [
+    {
+     "idx": 84,
+     "scenario_id": "V152A",
+     "level": "L1",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "invalid"
+    },
+    {
+     "idx": 184,
+     "scenario_id": "S42A",
+     "level": "L1",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "statement"
+    },
+    {
+     "idx": 405,
+     "scenario_id": "S06A",
+     "level": "L0r",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "ask_generic"
+    }
+   ],
+   "A: direct commit | pair contrasts this error": [
+    {
+     "idx": 42,
+     "scenario_id": "S10A",
+     "level": "L0r",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "commit_other"
+    },
+    {
+     "idx": 167,
+     "scenario_id": "V062A",
+     "level": "L0r",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "commit_other"
+    },
+    {
+     "idx": 442,
+     "scenario_id": "S14A",
+     "level": "L1",
+     "m1_samples": 3,
+     "dpo_rejected_decision": "commit_other"
+    }
+   ],
+   "A: generic question / statement | pair contrasts something else": [
+    {
+     "idx": 53,
+     "scenario_id": "V541A",
+     "level": "L0r",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "commit_other"
+    },
+    {
+     "idx": 4,
+     "scenario_id": "V581A",
+     "level": "L0r",
+     "m1_samples": 5,
+     "dpo_rejected_decision": "commit_gold"
+    },
+    {
+     "idx": 233,
+     "scenario_id": "S12A",
+     "level": "L3",
+     "m1_samples": 2,
+     "dpo_rejected_decision": "commit_other"
+    }
+   ],
+   "A: generic question / statement | pair contrasts this error": [
+    {
+     "idx": 80,
+     "scenario_id": "V044A",
+     "level": "L0r",
+     "m1_samples": 2,
+     "dpo_rejected_decision": "ask_generic"
+    },
+    {
+     "idx": 300,
+     "scenario_id": "S15A",
+     "level": "L1",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "statement"
+    },
+    {
+     "idx": 88,
+     "scenario_id": "V043A",
+     "level": "L0r",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "ask_generic"
+    }
+   ],
+   "A: invalid | pair contrasts something else": [
+    {
+     "idx": 4,
+     "scenario_id": "V581A",
+     "level": "L0r",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "commit_gold"
+    },
+    {
+     "idx": 249,
+     "scenario_id": "V584A",
+     "level": "L2",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "commit_other"
+    },
+    {
+     "idx": 167,
+     "scenario_id": "V062A",
+     "level": "L0r",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "commit_other"
+    }
+   ],
+   "A: lookup | pair contrasts something else": [
+    {
+     "idx": 233,
+     "scenario_id": "S12A",
+     "level": "L3",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "commit_other"
+    },
+    {
+     "idx": 80,
+     "scenario_id": "V044A",
+     "level": "L0r",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "ask_generic"
+    },
+    {
+     "idx": 255,
+     "scenario_id": "S02A",
+     "level": "L3",
+     "m1_samples": 5,
+     "dpo_rejected_decision": "commit_other"
+    }
+   ],
+   "B: direct commit | pair contrasts something else": [
+    {
+     "idx": 288,
+     "scenario_id": "V104B",
+     "level": "L1",
+     "m1_samples": 2,
+     "dpo_rejected_decision": "ask_generic"
+    },
+    {
+     "idx": 402,
+     "scenario_id": "S15B",
+     "level": "L3",
+     "m1_samples": 2,
+     "dpo_rejected_decision": "statement"
+    }
+   ],
+   "B: direct commit | pair contrasts this error": [
+    {
+     "idx": 264,
+     "scenario_id": "V492B",
+     "level": "L0r",
+     "m1_samples": 2,
+     "dpo_rejected_decision": "commit_other"
+    },
+    {
+     "idx": 188,
+     "scenario_id": "S22B",
+     "level": "L0r",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "commit_other"
+    },
+    {
+     "idx": 190,
+     "scenario_id": "S12B",
+     "level": "L3",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "commit_other"
+    }
+   ],
+   "B: invalid | pair contrasts something else": [
+    {
+     "idx": 235,
+     "scenario_id": "S06B",
+     "level": "L3",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "commit_other"
+    },
+    {
+     "idx": 402,
+     "scenario_id": "S15B",
+     "level": "L3",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "statement"
+    },
+    {
+     "idx": 473,
+     "scenario_id": "S06B",
+     "level": "L1",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "ask_generic"
+    }
+   ],
+   "B: lookup | pair contrasts something else": [
+    {
+     "idx": 232,
+     "scenario_id": "S04B",
+     "level": "L3",
+     "m1_samples": 2,
+     "dpo_rejected_decision": "ask_generic"
+    },
+    {
+     "idx": 183,
+     "scenario_id": "S26B",
+     "level": "L2",
+     "m1_samples": 4,
+     "dpo_rejected_decision": "commit_other"
+    }
+   ],
+   "B: message instead of proceeding | pair contrasts something else": [
+    {
+     "idx": 426,
+     "scenario_id": "V551B",
+     "level": "L1",
+     "m1_samples": 4,
+     "dpo_rejected_decision": "commit_other"
+    },
+    {
+     "idx": 426,
+     "scenario_id": "V551B",
+     "level": "L1",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "commit_other"
+    },
+    {
+     "idx": 64,
+     "scenario_id": "V541B",
+     "level": "L0r",
+     "m1_samples": 3,
+     "dpo_rejected_decision": "commit_other"
+    }
+   ],
+   "B: message instead of proceeding | pair contrasts this error": [
+    {
+     "idx": 310,
+     "scenario_id": "V044B",
+     "level": "L1",
+     "m1_samples": 2,
+     "dpo_rejected_decision": "ask_generic"
+    },
+    {
+     "idx": 310,
+     "scenario_id": "V044B",
+     "level": "L1",
+     "m1_samples": 1,
+     "dpo_rejected_decision": "ask_generic"
+    },
+    {
+     "idx": 458,
+     "scenario_id": "V183B",
+     "level": "L1",
+     "m1_samples": 4,
+     "dpo_rejected_decision": "ask_generic"
+    }
+   ]
+  }
+ }
+}

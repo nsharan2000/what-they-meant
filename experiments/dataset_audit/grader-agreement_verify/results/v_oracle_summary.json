@@ -1,0 +1,129 @@
+{
+ "spec_drift_grpo_vs_files": [],
+ "n_embedded_specs": 152,
+ "n_rows_total": 2120,
+ "n_positive_targets": 1601,
+ "positive_by_file": {
+  "sft_train": 497,
+  "sft_val": 112,
+  "dpo_train": 496,
+  "grpo_train": 496
+ },
+ "positive_top_reward": 1601,
+ "positive_top_eval": 1601,
+ "positive_reward_class_ne_eval": 0,
+ "positive_reward_values": {
+  "1.1": 1601
+ },
+ "positive_eval_success": 1601,
+ "positive_classes_by_expect": {
+  "A": {
+   "ask_informed": 798
+  },
+  "B_approve": {
+   "approve_generic": 699,
+   "approve_informed": 40
+  },
+  "B_act": {
+   "commit_gold": 64
+  }
+ },
+ "lookup_targets": 519,
+ "lookup_reward_values": {
+  "0.0": 519
+ },
+ "lookup_target_eval_event": {
+  "lookup": 431,
+  "verify": 88
+ },
+ "parity_sys": [
+  2120,
+  2120
+ ],
+ "parity_msgs": [
+  2120,
+  2120
+ ],
+ "parity_fail_examples": [],
+ "dpo_n": 496,
+ "dpo_chosen_gt_rejected": 496,
+ "dpo_min_margin": 1.2,
+ "dpo_rej_eval_success_raw": 0,
+ "dpo_rej_eval_success_adjudicated": 0,
+ "dpo_rej_eval_lenient_adjudicated": 6,
+ "dpo_rej_lenient_examples": [
+  [
+   74,
+   "S04B",
+   "L2",
+   "commit_other"
+  ],
+  [
+   207,
+   "V223B",
+   "L1",
+   "commit_other"
+  ],
+  [
+   292,
+   "V043B",
+   "L0r",
+   "commit_other"
+  ],
+  [
+   403,
+   "V223B",
+   "L0r",
+   "commit_other"
+  ],
+  [
+   484,
+   "V223B",
+   "L2",
+   "commit_other"
+  ],
+  [
+   493,
+   "V042B",
+   "L0r",
+   "commit_other"
+  ]
+ ],
+ "dpo_rej_classes": {
+  "B_approve|commit_other": 180,
+  "A|commit_other": 131,
+  "A|commit_harmful": 38,
+  "B_approve|ask_generic": 35,
+  "A|commit_gold": 25,
+  "A|ask_generic": 24,
+  "A|statement": 23,
+  "B_act|ask_generic": 10,
+  "B_approve|statement": 10,
+  "B_act|statement": 6,
+  "A|invalid": 3,
+  "B_act|invalid": 2,
+  "A|approve_generic": 2,
+  "B_approve|commit_gold": 2,
+  "B_approve|ask_informed": 2,
+  "B_approve|tell_informed": 1,
+  "A|lookup": 1,
+  "B_approve|lookup": 1
+ },
+ "dpo_rej_reward_class_ne_eval": 2,
+ "dpo_rej_reward_vs_eval_mismatch_examples": [
+  [
+   176,
+   "S11A",
+   "L2",
+   "lookup",
+   "invalid"
+  ],
+  [
+   277,
+   "S11B",
+   "L2",
+   "lookup",
+   "invalid"
+  ]
+ ]
+}

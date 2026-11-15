@@ -1,0 +1,150 @@
+{
+ "specs_checked": 361,
+ "specs_with_dup_scenario_records": 142,
+ "dup_fields": {
+  "transactions": 98,
+  "notes": 70,
+  "accounts": 6,
+  "contacts": 60
+ },
+ "realistic_rows": {
+  "dpo_train": {
+   "rows": 345,
+   "with_dup_line": 89,
+   "with_dup_history_line": 44,
+   "dup_rows_explained_by_spec_merge": 89,
+   "B_rows_with_dup_outgoing_payment": 22,
+   "A_rows_with_dup_outgoing_payment": 22
+  },
+  "grpo_train": {
+   "rows": 345,
+   "with_dup_line": 89,
+   "with_dup_history_line": 44,
+   "dup_rows_explained_by_spec_merge": 89,
+   "B_rows_with_dup_outgoing_payment": 22,
+   "A_rows_with_dup_outgoing_payment": 22
+  },
+  "sft_train": {
+   "rows": 623,
+   "with_dup_line": 168,
+   "with_dup_history_line": 85,
+   "dup_rows_explained_by_spec_merge": 168,
+   "B_rows_with_dup_outgoing_payment": 42,
+   "A_rows_with_dup_outgoing_payment": 43
+  },
+  "sft_val": {
+   "rows": 156,
+   "with_dup_line": 56,
+   "with_dup_history_line": 40,
+   "dup_rows_explained_by_spec_merge": 56,
+   "B_rows_with_dup_outgoing_payment": 20,
+   "A_rows_with_dup_outgoing_payment": 20
+  }
+ },
+ "L0r_rows_with_dup_line": 0,
+ "by_level_sft_train": {
+  "L0r": {
+   "rows": 281,
+   "dup": 0
+  },
+  "L1": {
+   "rows": 276,
+   "dup": 78
+  },
+  "L2": {
+   "rows": 260,
+   "dup": 90
+  },
+  "L3": {
+   "rows": 87,
+   "dup": 0
+  }
+ },
+ "sft_train_line2": [
+  {
+   "line": 2,
+   "sid": "V532B",
+   "level": "L1",
+   "n_dup_lines": 4,
+   "example": "- 2026-11-09 | -$42.10 | Clarendon Grocer | PayPal \u00b7 Purchase"
+  },
+  {
+   "line": 4,
+   "sid": "V341A",
+   "level": "L2",
+   "n_dup_lines": 4,
+   "example": "- 2026-10-13 | -$60.00 | Diana Moreno (@diana-moreno-79) | Venmo \u00b7 Payment \u00b7 H-E-B run"
+  }
+ ],
+ "examples_B_dup_outgoing": [
+  {
+   "file": "sft_train",
+   "line": 2,
+   "sid": "V532B",
+   "level": "L1",
+   "ps": "P2",
+   "turn": "decision",
+   "example": "- 2026-11-09 | -$42.10 | Clarendon Grocer | PayPal \u00b7 Purchase"
+  },
+  {
+   "file": "sft_train",
+   "line": 10,
+   "sid": "V071B",
+   "level": "L1",
+   "ps": "P2",
+   "turn": "decision",
+   "example": "- 2026-11-05 | -3,154.00 PHP | Mr. Lim (lim.tutorials@mail.com) | PayPal \u00b7 Invoice \u00b7 Invoice T-118 \u00b7 tutoring (Nov) \u00b7 unpaid \u00b7 due 2026-11-1"
+  },
+  {
+   "file": "sft_train",
+   "line": 40,
+   "sid": "V471B",
+   "level": "L1",
+   "ps": "P0",
+   "turn": "decision",
+   "example": "- 2026-09-14 | -$25.00 | Vestavia Garden Club (@vestavia-garden-club) | Venmo \u00b7 Payment \u00b7 plant sale"
+  },
+  {
+   "file": "sft_train",
+   "line": 55,
+   "sid": "V344B",
+   "level": "L1",
+   "ps": "P2",
+   "turn": "lookup1",
+   "example": "- 2026-10-20 | -\u20ac25.00 | Mia Schuster (mia.schuster@mailbox.de) | PayPal \u00b7 Friends & Family \u00b7 Konzert"
+  },
+  {
+   "file": "sft_train",
+   "line": 77,
+   "sid": "V492B",
+   "level": "L2",
+   "ps": "P0",
+   "turn": "lookup1",
+   "example": "- 2026-10-25 | -$15.00 | Mo Ahmed (@mo-ahmed-615) | Venmo \u00b7 Payment \u00b7 bowling"
+  }
+ ],
+ "M1_success_dup_vs_clean_L1to3": {
+  "A": {
+   "n_clean": 28,
+   "n_dup": 8,
+   "succ_clean": 0.4911,
+   "succ_dup": 0.6406,
+   "diff": 0.1496,
+   "ci": [
+    -0.0424,
+    0.3371
+   ]
+  },
+  "B": {
+   "n_clean": 28,
+   "n_dup": 12,
+   "succ_clean": 0.5134,
+   "succ_dup": 0.6875,
+   "diff": 0.1741,
+   "ci": [
+    0.0208,
+    0.317
+   ]
+  }
+ }
+}

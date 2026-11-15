@@ -1,0 +1,620 @@
+{
+ "data_sha_matches_args": true,
+ "grpo_rows": 496,
+ "grpo_key_unique": true,
+ "n_samples": 960,
+ "unjoined": 0,
+ "truncated": 0,
+ "n_tokens_max": 117,
+ "A_n": 464,
+ "A_classes": {
+  "ask_informed": 220,
+  "approve_generic": 83,
+  "approve_informed": 75,
+  "ask_generic": 36,
+  "lookup": 26,
+  "tell_informed": 8,
+  "commit_other": 6,
+  "approve_gold": 4,
+  "invalid": 3,
+  "commit_gold": 1,
+  "commit_harmful": 1,
+  "statement": 1
+ },
+ "B_n": 496,
+ "B_classes": {
+  "approve_generic": 242,
+  "ask_generic": 101,
+  "ask_informed": 84,
+  "commit_gold": 24,
+  "approve_informed": 19,
+  "commit_other": 10,
+  "lookup": 6,
+  "invalid": 4,
+  "tell_informed": 3,
+  "statement": 3
+ },
+ "by_expect": {
+  "A": {
+   "ask_informed": 220,
+   "approve_generic": 83,
+   "approve_informed": 75,
+   "ask_generic": 36,
+   "lookup": 26,
+   "tell_informed": 8,
+   "commit_other": 6,
+   "approve_gold": 4,
+   "invalid": 3,
+   "commit_gold": 1,
+   "commit_harmful": 1,
+   "statement": 1
+  },
+  "B_approve": {
+   "approve_generic": 233,
+   "ask_generic": 99,
+   "ask_informed": 79,
+   "approve_informed": 19,
+   "lookup": 6,
+   "commit_other": 6,
+   "commit_gold": 5,
+   "tell_informed": 3,
+   "invalid": 3,
+   "statement": 3
+  },
+  "B_act": {
+   "commit_gold": 19,
+   "approve_generic": 9,
+   "ask_informed": 5,
+   "commit_other": 4,
+   "ask_generic": 2,
+   "invalid": 1
+  }
+ },
+ "n_by_expect": {
+  "A": 464,
+  "B_approve": 456,
+  "B_act": 40
+ },
+ "decomp": {
+  "A_top": 220,
+  "A_approve_or_commit": 170,
+  "A_msg_not_top(ask_generic+statement+tell_informed)": 45,
+  "A_lookup": 26,
+  "A_invalid": 3,
+  "B_top_task_def(approve_* on approve rows, commit_gold on act rows)": 271,
+  "B_approve_any_or_commit_gold": 285,
+  "B_reward_ge_1": 271,
+  "B_chat_message": 191,
+  "B_other": 20
+ },
+ "B_act_rows_classes": {
+  "approve_generic": 9,
+  "ask_informed": 5,
+  "commit_other": 4,
+  "commit_gold": 19,
+  "invalid": 1,
+  "ask_generic": 2
+ },
+ "B_act_rows_reward_ge_1": 19,
+ "top_by_lv": {
+  "A|L0r": [
+   76,
+   176
+  ],
+  "A|L1": [
+   56,
+   112
+  ],
+  "A|L2": [
+   71,
+   128
+  ],
+  "A|L3": [
+   17,
+   48
+  ],
+  "B|L0r": [
+   94,
+   176
+  ],
+  "B|L1": [
+   78,
+   152
+  ],
+  "B|L2": [
+   73,
+   120
+  ],
+  "B|L3": [
+   26,
+   48
+  ]
+ },
+ "top_by_ps": {
+  "A|P0": [
+   154,
+   336
+  ],
+  "A|P2": [
+   66,
+   128
+  ],
+  "B|P0": [
+   187,
+   344
+  ],
+  "B|P2": [
+   84,
+   152
+  ]
+ },
+ "blocks_of_8_same_prompt": 120,
+ "n_blocks": 120,
+ "group_sizes": {
+  "8": 120
+ },
+ "groups": {
+  "n": 120,
+  "zero_spread": 6,
+  "mean_within_std_pop": 0.5935
+ },
+ "adv_pop": {
+  "A|approve_generic": [
+   76,
+   -1.122
+  ],
+  "A|approve_gold": [
+   4,
+   -1.0
+  ],
+  "A|approve_informed": [
+   75,
+   -0.705
+  ],
+  "A|ask_generic": [
+   36,
+   -0.404
+  ],
+  "A|ask_informed": [
+   212,
+   0.77
+  ],
+  "A|commit_gold": [
+   1,
+   -2.207
+  ],
+  "A|commit_harmful": [
+   1,
+   -1.46
+  ],
+  "A|commit_other": [
+   5,
+   -1.316
+  ],
+  "A|invalid": [
+   3,
+   -1.166
+  ],
+  "A|lookup": [
+   18,
+   0.469
+  ],
+  "A|statement": [
+   1,
+   0.103
+  ],
+  "A|tell_informed": [
+   8,
+   -0.163
+  ],
+  "B|approve_generic": [
+   234,
+   0.76
+  ],
+  "B|approve_informed": [
+   19,
+   0.812
+  ],
+  "B|ask_generic": [
+   96,
+   -1.13
+  ],
+  "B|ask_informed": [
+   75,
+   -0.968
+  ],
+  "B|commit_gold": [
+   24,
+   0.511
+  ],
+  "B|commit_other": [
+   10,
+   -1.03
+  ],
+  "B|invalid": [
+   4,
+   -1.81
+  ],
+  "B|lookup": [
+   6,
+   -0.434
+  ],
+  "B|statement": [
+   3,
+   -1.01
+  ],
+  "B|tell_informed": [
+   1,
+   -1.291
+  ]
+ },
+ "adv_trl_unbiased": {
+  "A|approve_generic": [
+   76,
+   -1.049
+  ],
+  "A|approve_gold": [
+   4,
+   -0.935
+  ],
+  "A|approve_informed": [
+   75,
+   -0.659
+  ],
+  "A|ask_generic": [
+   36,
+   -0.378
+  ],
+  "A|ask_informed": [
+   212,
+   0.72
+  ],
+  "A|commit_gold": [
+   1,
+   -2.064
+  ],
+  "A|commit_harmful": [
+   1,
+   -1.365
+  ],
+  "A|commit_other": [
+   5,
+   -1.231
+  ],
+  "A|invalid": [
+   3,
+   -1.091
+  ],
+  "A|lookup": [
+   18,
+   0.439
+  ],
+  "A|statement": [
+   1,
+   0.097
+  ],
+  "A|tell_informed": [
+   8,
+   -0.152
+  ],
+  "B|approve_generic": [
+   234,
+   0.711
+  ],
+  "B|approve_informed": [
+   19,
+   0.76
+  ],
+  "B|ask_generic": [
+   96,
+   -1.057
+  ],
+  "B|ask_informed": [
+   75,
+   -0.905
+  ],
+  "B|commit_gold": [
+   24,
+   0.478
+  ],
+  "B|commit_other": [
+   10,
+   -0.963
+  ],
+  "B|invalid": [
+   4,
+   -1.693
+  ],
+  "B|lookup": [
+   6,
+   -0.406
+  ],
+  "B|statement": [
+   3,
+   -0.945
+  ],
+  "B|tell_informed": [
+   1,
+   -1.207
+  ]
+ },
+ "A_ask_informed_vs_kw_in_results": {
+  "true": [
+   185,
+   344
+  ],
+  "false": [
+   35,
+   120
+  ]
+ },
+ "A_ask_generic_vs_kw_in_results": {
+  "true": [
+   15,
+   344
+  ],
+  "false": [
+   21,
+   120
+  ]
+ },
+ "A_ask_generic_vs_kw_visible_anywhere": {
+  "true": [
+   29,
+   424
+  ],
+  "false": [
+   7,
+   40
+  ]
+ },
+ "B_ask_informed_vs_kw_visible_anywhere": {
+  "true": [
+   56,
+   272
+  ],
+  "false": [
+   28,
+   224
+  ]
+ },
+ "B_any_ask_vs_kw_visible_anywhere": {
+  "true": [
+   105,
+   272
+  ],
+  "false": [
+   80,
+   224
+  ]
+ },
+ "grpo_B_approve_rows_no_kw_visible": [
+  115,
+  231
+ ],
+ "grpo_A_rows_kw_in_request": 0,
+ "grpo_rows_no_prefix_call": [
+  "S02A",
+  "S02B",
+  "S03A",
+  "S03B"
+ ],
+ "grpo_rows_no_prefix_call_n": 16,
+ "lookups_by_prompt": [
+  [
+   "S03A",
+   "L1",
+   "grpo_train:262",
+   "prefix_calls=0",
+   8,
+   8
+  ],
+  [
+   "S02A",
+   "L3",
+   "grpo_train:372",
+   "prefix_calls=0",
+   5,
+   8
+  ],
+  [
+   "S02A",
+   "L2",
+   "grpo_train:435",
+   "prefix_calls=0",
+   5,
+   8
+  ],
+  [
+   "S26A",
+   "L3",
+   "grpo_train:468",
+   "prefix_calls=1",
+   5,
+   8
+  ],
+  [
+   "S26B",
+   "L2",
+   "grpo_train:21",
+   "prefix_calls=1",
+   4,
+   8
+  ],
+  [
+   "S04B",
+   "L3",
+   "grpo_train:115",
+   "prefix_calls=1",
+   2,
+   8
+  ],
+  [
+   "S12A",
+   "L3",
+   "grpo_train:185",
+   "prefix_calls=1",
+   1,
+   8
+  ],
+  [
+   "V044A",
+   "L0r",
+   "grpo_train:65",
+   "prefix_calls=1",
+   1,
+   8
+  ],
+  [
+   "V113A",
+   "L1",
+   "grpo_train:165",
+   "prefix_calls=1",
+   1,
+   8
+  ]
+ ],
+ "lookups_total": 32,
+ "lookups_on_prompts_with_prefix": 14,
+ "lookup_scores": {
+  "0.0": 32
+ },
+ "adjudicated_samples": {
+  "approve_generic": 17,
+  "ask_generic": 11,
+  "ask_informed": 2,
+  "lookup": 2
+ },
+ "mean_score_steps_0_14": 0.4678,
+ "mean_score_steps_15_29": 0.3505,
+ "top_rate_by_step_bucket": {
+  "0": [
+   164,
+   320
+  ],
+  "1": [
+   164,
+   320
+  ],
+  "2": [
+   163,
+   320
+  ]
+ },
+ "examples": {
+  "grpo_train:4": {
+   "sid": "V581A",
+   "lv": "L0r",
+   "ps": "P0",
+   "classes": {
+    "ask_generic": 5,
+    "approve_generic": 1,
+    "invalid": 1,
+    "ask_informed": 1
+   },
+   "kw_visible": [],
+   "n_prefix": 1
+  },
+  "grpo_train:243": {
+   "sid": "V183B",
+   "lv": "L1",
+   "ps": "P0",
+   "classes": {
+    "approve_generic": 3,
+    "ask_informed": 4,
+    "ask_generic": 1
+   },
+   "kw_visible": [],
+   "n_prefix": 1
+  },
+  "grpo_train:494": {
+   "sid": "V184B",
+   "lv": "L0r",
+   "ps": "P0",
+   "classes": {
+    "approve_generic": 1,
+    "ask_informed": 4,
+    "ask_generic": 3
+   },
+   "kw_visible": [],
+   "n_prefix": 1
+  },
+  "grpo_train:485": {
+   "sid": "V183B",
+   "lv": "L2",
+   "ps": "P2",
+   "classes": {
+    "approve_generic": 4,
+    "ask_informed": 4
+   },
+   "kw_visible": [],
+   "n_prefix": 1
+  },
+  "grpo_train:262": {
+   "sid": "S03A",
+   "lv": "L1",
+   "ps": "P0",
+   "classes": {
+    "lookup": 8
+   },
+   "kw_visible": [
+    "seller wrote"
+   ],
+   "n_prefix": 0
+  },
+  "grpo_train:372": {
+   "sid": "S02A",
+   "lv": "L3",
+   "ps": "P0",
+   "classes": {
+    "lookup": 5,
+    "approve_generic": 3
+   },
+   "kw_visible": [],
+   "n_prefix": 0
+  },
+  "grpo_train:435": {
+   "sid": "S02A",
+   "lv": "L2",
+   "ps": "P0",
+   "classes": {
+    "approve_generic": 2,
+    "ask_generic": 1,
+    "lookup": 5
+   },
+   "kw_visible": [],
+   "n_prefix": 0
+  },
+  "grpo_train:468": {
+   "sid": "S26A",
+   "lv": "L3",
+   "ps": "P2",
+   "classes": {
+    "lookup": 5,
+    "approve_generic": 1,
+    "statement": 1,
+    "ask_generic": 1
+   },
+   "kw_visible": [
+    "evt_123",
+    "failed"
+   ],
+   "n_prefix": 1
+  },
+  "grpo_train:21": {
+   "sid": "S26B",
+   "lv": "L2",
+   "ps": "P0",
+   "classes": {
+    "approve_generic": 2,
+    "lookup": 4,
+    "ask_informed": 1,
+    "statement": 1
+   },
+   "kw_visible": [
+    "failed"
+   ],
+   "n_prefix": 1
+  }
+ }
+}

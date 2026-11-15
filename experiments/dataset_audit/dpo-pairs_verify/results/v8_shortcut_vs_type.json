@@ -1,0 +1,85 @@
+{
+ "n_boundary_pairs": 49,
+ "n_commit_rejected_pairs": 376,
+ "n_same_type_pairs": 24,
+ "cv_all_pairs": {
+  "type": 0.9355,
+  "type+format/length": 0.9599,
+  "type+format/length+qmark": 0.9756,
+  "format/length+qmark": 0.9815
+ },
+ "cv_on_boundary_pairs": {
+  "type(prompt-free)": 0.7551,
+  "format/length+qmark": 0.8551
+ },
+ "cv_on_same_type_pairs": {
+  "format/length+qmark": 0.95
+ },
+ "qmark_rule_on_boundary": 0.5816,
+ "qmark_rule_on_commit_rejected": 0.992,
+ "shorter_rule_on_boundary": 0.5306,
+ "shorter_rule_on_commit_rejected": 0.8723,
+ "boundary_pairs_rej_tokens_mean": 87.1,
+ "boundary_pairs_chosen_tokens_mean": 51.7,
+ "rejected_starting_with_whitespace": 63,
+ "rejected_formatting_char_share_mean": 0.0191,
+ "chosen_formatting_char_share_mean": 0.0,
+ "boundary_idx_examples": [
+  [
+   10,
+   "V104B",
+   "L2",
+   "B_act",
+   "question"
+  ],
+  [
+   18,
+   "S09B",
+   "L1",
+   "B_approve",
+   "question"
+  ],
+  [
+   31,
+   "V043B",
+   "L2",
+   "B_approve",
+   "question"
+  ],
+  [
+   51,
+   "V044B",
+   "L2",
+   "B_approve",
+   "question"
+  ],
+  [
+   72,
+   "S25A",
+   "L3",
+   "A",
+   "card"
+  ],
+  [
+   108,
+   "V321B",
+   "L1",
+   "B_approve",
+   "question"
+  ],
+  [
+   112,
+   "V044B",
+   "L0r",
+   "B_approve",
+   "question"
+  ],
+  [
+   115,
+   "S14B",
+   "L3",
+   "B_act",
+   "question"
+  ]
+ ]
+}

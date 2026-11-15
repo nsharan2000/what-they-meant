@@ -1,0 +1,255 @@
+{
+ "synthetic_templates": {
+  "B|Before I go ahead, can you confirm this is de": 5,
+  "A|Done — I've taken care of that for you.": 8
+ },
+ "synthetic_by_source": {
+  "synthetic_after_failures": {
+   "n": 2,
+   "mean_rej_tokens": 14.0,
+   "mean_chosen_tokens": 54.5
+  },
+  "synthetic_no_failure": {
+   "n": 11,
+   "mean_rej_tokens": 13.2,
+   "mean_chosen_tokens": 48.1
+  }
+ },
+ "synthetic_envs": {
+  "bizops": 4,
+  "shopping": 9
+ },
+ "synthetic_rows": [
+  [
+   115,
+   "S14B",
+   "L3",
+   "P2",
+   "synthetic_no_failure"
+  ],
+  [
+   162,
+   "S14B",
+   "L0r",
+   "P0",
+   "synthetic_no_failure"
+  ],
+  [
+   185,
+   "S11A",
+   "L0r",
+   "P2",
+   "synthetic_no_failure"
+  ],
+  [
+   196,
+   "V043A",
+   "L1",
+   "P0",
+   "synthetic_no_failure"
+  ],
+  [
+   217,
+   "V113A",
+   "L1",
+   "P0",
+   "synthetic_after_failures"
+  ],
+  [
+   242,
+   "V091B",
+   "L1",
+   "P0",
+   "synthetic_no_failure"
+  ],
+  [
+   252,
+   "S04A",
+   "L3",
+   "P0",
+   "synthetic_no_failure"
+  ],
+  [
+   303,
+   "V043A",
+   "L2",
+   "P0",
+   "synthetic_no_failure"
+  ],
+  [
+   360,
+   "S14B",
+   "L1",
+   "P0",
+   "synthetic_no_failure"
+  ],
+  [
+   363,
+   "V042A",
+   "L1",
+   "P0",
+   "synthetic_no_failure"
+  ],
+  [
+   366,
+   "V113A",
+   "L2",
+   "P0",
+   "synthetic_no_failure"
+  ],
+  [
+   437,
+   "S11A",
+   "L3",
+   "P0",
+   "synthetic_no_failure"
+  ],
+  [
+   456,
+   "V104B",
+   "L0r",
+   "P2",
+   "synthetic_after_failures"
+  ]
+ ],
+ "example_tokens": {
+  "0": {
+   "sid": "V581A",
+   "level": "L1",
+   "chosen": 50,
+   "rejected": 81,
+   "rej_start": "<tool_call>\n  {\"name\": \"place_"
+  },
+  "79": {
+   "sid": "S15A",
+   "level": "L2",
+   "chosen": 34,
+   "rejected": 444,
+   "rej_start": "To set up an overnight job to "
+  },
+  "108": {
+   "sid": "V321B",
+   "level": "L1",
+   "chosen": 46,
+   "rejected": 938,
+   "rej_start": "**Renewal confirmation:** Woul"
+  },
+  "138": {
+   "sid": "S14B",
+   "level": "L2",
+   "chosen": 47,
+   "rejected": 47,
+   "rej_start": "<tool_call>{\"name\": \"charge_cu"
+  },
+  "372": {
+   "sid": "S58B",
+   "level": "L2",
+   "chosen": 46,
+   "rejected": 278,
+   "rej_start": "\n<tool_place_order>\n{\"expected"
+  },
+  "453": {
+   "sid": "S07A",
+   "level": "L2",
+   "chosen": 39,
+   "rejected": 82,
+   "rej_start": "\n<tool_call>\n  {\"name\": \"send_"
+  }
+ },
+ "A_pairs_with_card_rejected": [
+  [
+   72,
+   "S25A",
+   "L3",
+   "approve_generic",
+   "<tool_call>{\"name\": \"request_approval\", \"arguments\": { \"summary\": \"Upgrade to Quillo AI Pr"
+  ],
+  [
+   84,
+   "V152A",
+   "L1",
+   "invalid",
+   "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"ChairSide Cloud software"
+  ],
+  [
+   109,
+   "S34A",
+   "L3",
+   "invalid",
+   "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $1,000 to Jordan Le"
+  ],
+  [
+   435,
+   "V322A",
+   "L1",
+   "commit_other",
+   "<tool_call>\n  {\"name\": \"renew_subscription\", \"arguments\": {\n    \"merchant\": \"Quillo AI\",\n "
+  ],
+  [
+   460,
+   "S54A",
+   "L3",
+   "approve_generic",
+   "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Transfer $800 to Chase T"
+  ]
+ ],
+ "B_approve_specs": 121,
+ "B_approve_specs_without_gold_commits": 116,
+ "adjudicated_rows[idx,sid,level,dec,rejected,chosen,spec_has_gold]": [
+  [
+   74,
+   "S04B",
+   "L2",
+   "commit_other",
+   "\n<tool_call>\n  {\"name\": \"place_order\", \"arguments\": { \"expected_total\": 6, \"checkout_id\": null, \"payment_method_id\": null, \"currency\": \"INR\", \"delivery_slot\": n",
+   "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) INR 30, tomatoes 1 kg INR",
+   false
+  ],
+  [
+   207,
+   "V223B",
+   "L1",
+   "commit_other",
+   "<tool_call>{\"name\": \"pay_bill\", \"arguments\": {\"biller\": \"Lincoln Energy Services\", \"amount\": 142.33, \"from_account\": \"Checking ****5170\", \"pay_date\": \"2026-11-0",
+   "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Pay $142.33 electric bill to Lincoln Energy Services?\"",
+   false
+  ],
+  [
+   292,
+   "V043B",
+   "L0r",
+   "commit_other",
+   "<tool_call>{\"name\": \"buy\", \"arguments\": {\"merchant\": \"grocery store\", \"item\": \"garlic\", \"quantity\": 2, \"unit\": \"pcs\", \"listing_id\": null, \"payment_method_id\": n",
+   "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) USD 5.98, tomatoes 1 lb U",
+   false
+  ],
+  [
+   403,
+   "V223B",
+   "L0r",
+   "commit_other",
+   "<tool_call>{\"name\": \"pay_bill\", \"arguments\": {\"biller\": \"Lincoln Energy Services\", \"amount\": 142.33}}</tool_call>",
+   "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Pay $142.33 electric bill to Lincoln Energy Services?\"",
+   false
+  ],
+  [
+   484,
+   "V223B",
+   "L2",
+   "commit_other",
+   "<tool_call>{\"name\": \"pay_bill\", \"arguments\": {\"biller\": \"LES\", \"amount\": 142.33, \"due_date\": \"2026-11-10\"}}</tool_call>",
+   "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Pay $142.33 electric bill to Lincoln Energy Services?\"",
+   false
+  ],
+  [
+   493,
+   "V042B",
+   "L0r",
+   "commit_other",
+   "<tool_call>{\"name\": \"buy\", \"arguments\": {\"merchant\": \"groceries\", \"item\": \"garlic\", \"quantity\": 2, \"currency\": \"GBP\", \"unit\": \"pcs\", \"listing_id\": null, \"paymen",
+   "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) GBP 4.20, tomatoes 1 kg G",
+   false
+  ]
+ ],
+ "A_rejected_messages_written": 47
+}

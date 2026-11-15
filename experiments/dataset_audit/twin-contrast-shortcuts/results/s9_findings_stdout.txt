@@ -1,0 +1,214 @@
+{
+ "lens": "twin-contrast-shortcuts",
+ "summary": "Twin balance is fine (pair-majority 0.502), and the contrast is well placed: mostly the last tool result, inside the sliding window, with identical system prompts. But it is not a clean minimal pair, and it is a tiny share of each row. Major problems: (1) the request differs in 31/76 training pairs as sibling-shared templates, a learnable within-family shortcut that drives base and M1 twin discrimination. (2) DPO pairs encode the ask-vs-approve contrast in only 66/496 rows. (3) The twin label is the first target token (~2.1-2.4 % of target tokens), so a train loss of ~0.2 says nothing about the decision; M1 discriminates twins by only 0.186. (4) Result shape (field and literal counts) predicts the twin on held-out seeds. (5) Val and test carry a strong 'A is longer' artifact that train lacks. Minor: verdict-like or null-asymmetric fields, L0r tool-list, member-file, look-up and L3 rewrite differences. Info: P0/P2 is drawn per twin (not label-correlated).",
+ "findings": [
+  {
+   "id": "TCS-1",
+   "severity": "major",
+   "confidence": "high",
+   "fix_needs_data_change": true,
+   "title": "The member's request alone separates the twins in 41 % of training pairs, mostly through wording templates shared by sibling variants",
+   "affects": [
+    "sft_train",
+    "dpo_train",
+    "grpo_train",
+    "test evaluation"
+   ],
+   "claim": "In 31/76 training pairs the A and B requests differ. Over the 247 matched twin decision rows, 62 differ in wording (not just an identifier) and 38 only in an identifier. The wording differences are a handful of templates reused across the variants of a seed: 'X emailed new bank details … Update it and pay' vs 'X's bank change is in the vendor master now', 'as friends … avoid fees' vs 'purchase protection on', 'the first one in the list', 'free trial' vs 'auto-renew is fine', plus single words. 'new' appears more in A's request in 17 twin rows and more in B's in 0. 'first' is 10 vs 0, and 'change' is 0 vs 13. A request-only bag-of-words model can memorise these templates: when a held-out pair's sibling variants are in training (pair-grouped CV), it ranks A above B in 0.607 [0.527, 0.705] of twins. The templates do not transfer to new seeds (source-cluster CV 0.409 [0.319, 0.491], val 0.438 [0.261, 0.5], test 0.529 [0.431, 0.641]). So the request gives the model a way to lower training loss without reading the tool result (an inference from the CV gap), and that way does not generalise. The behaviour data agrees. Base Tiny Aya discriminates twins (ask rate A − B) only when the wording differs: 0.144 [0.026, 0.273] vs 0.01 [-0.011, 0.033] for identical requests, a difference of 0.134 [0.012, 0.264]. The M1 SFT policy shows 0.328 vs 0.156 (difference 0.171, CI [-0.045, 0.4], suggestive). By locus, M1 discrimination is 0.541 when request and result both differ, 0.191 when only the result differs, and -0.076 when only an identifier in the request differs. The share of pairs with different requests is uneven across splits: test 22/41, val 2/17, hard_test 4/13. The plain test set therefore rewards reading the request more than val or hard_test do.",
+   "evidence": "experiments/dataset_audit/twin-contrast-shortcuts/s1_twin_diff.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s1_twin_diff_summary.json (by_file.sft_train.decision.request_kind); experiments/dataset_audit/twin-contrast-shortcuts/s2_cues.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s2_cues.json (sft_train.cue_words request|*); experiments/dataset_audit/twin-contrast-shortcuts/s3_shortcut_clf.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s3_classifiers.json (request_bow), experiments/dataset_audit/twin-contrast-shortcuts/results/s3_request_only.json (pairs_with_different_request_by_split); experiments/dataset_audit/twin-contrast-shortcuts/s4_policy_behaviour.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s4_policy_behaviour.json (bootstrap_wording_vs_identical, m1_by_loci, base_by_request_stratum_per_split)",
+   "examples": [
+    "dataset/curated_v121/sft_train.jsonl lines 123 (A, P0) / 130 (B, P2): S09 L1 decision — A 'Harlow emailed new bank details … Update it and pay' / B 'Harlow's bank change is in the vendor master now'",
+    "dataset/curated_v121/sft_train.jsonl lines 259 (A, P0) / 2 (B, P2): V532 L1 decision — A 'as friends, he said no fees' / B 'for the tickets, use purchase protection'",
+    "dataset/curated_v121/sft_train.jsonl lines 503 (A, P0) / 345 (B, P2): V341 L1 decision — A '… the first one in the list' / B 'send $500 to Diana Moreno'"
+   ],
+   "fix": "Add twins that keep A's exact wording in B, so B has the same risky surface and only the records differ. This is the hard-set design, generated with open models because hard_* rows are eval-only. Or rewrite B's request to A's wording wherever the wording is not itself the clash. Report every eval split stratified by request identical / identifier-only / wording, and treat the identical-request stratum and hard_test as the 'reads the evidence' metric. Optionally down-weight sibling variants that share a template."
+  },
+  {
+   "id": "TCS-2",
+   "severity": "major",
+   "confidence": "high",
+   "fix_needs_data_change": true,
+   "title": "DPO pairs barely encode the ask-vs-approve twin decision; most pairs only teach 'do not commit directly'",
+   "affects": [
+    "dpo_train (M3)"
+   ],
+   "claim": "Classifying both sides with the reward's grader: on twin A rows the rejected side is a direct commit in 194/247, an ask-like message in 47, and an approval card in only 2. On twin B rows the rejected side is a commit in 182/249 and an ask-like message in 64. Only 66/496 pairs (0.133) contrast the two answers that separate the twins (A: ask > approve; B: approve > ask). The other 376 make the same 'anything > direct commit' preference on both twins. A policy that never commits satisfies them whatever it reads. M1's most common wrong decision on twin A is the approval card: approve_generic 83 + approve_informed 75 of 464 A samples. DPO almost never penalises it. Two secondary length/format cues: the rejected side is longer than the chosen in 0.696 (A) / 0.823 (B) of rows, and strict tool-call format alone separates chosen from rejected in 0.143 of rows.",
+   "evidence": "experiments/dataset_audit/twin-contrast-shortcuts/s8_dpo_contrast.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s8_dpo_contrast.json; experiments/dataset_audit/twin-contrast-shortcuts/results/s4_policy_behaviour.json (decision_class_by_twin)",
+   "examples": [
+    "dataset/curated_v121/dpo_train.jsonl line 0: V581A L1 — A row, rejected = place_order commit",
+    "dataset/curated_v121/dpo_train.jsonl line 1: S35B L2 — B row, rejected = pay_terminal commit (same lesson as the A row)",
+    "dataset/curated_v121/dpo_train.jsonl line 72: S25A L3 — one of only 2 A rows whose rejected side is an approval card"
+   ],
+   "fix": "For every A row add a pair whose rejected side is the plain approval card (B's ideal action rendered on A's prompt). For every B row add one whose rejected side is a needless question, for example A's ideal message rendered on B. Then the preference is exactly the twin contrast. Keep the commit-rejected pairs as a minority. Length-match or length-normalise the pairs."
+  },
+  {
+   "id": "TCS-3",
+   "severity": "major",
+   "confidence": "medium",
+   "fix_needs_data_change": false,
+   "title": "The twin label is one target token and about 0.3 % of prompt tokens, so mean SFT loss cannot show whether the twin decision was learned",
+   "affects": [
+    "sft_train",
+    "sft_val (val loss)",
+    "M1 training objective"
+   ],
+   "claim": "Every B decision target and every look-up target starts with '<' (share 1.0). No A decision target does (share 0.0). The ask/act choice is therefore made at the first target token, about 1/44.0 (A) and 1/49.6 (B) of target tokens. A coin-flip first token (ln 2 nats) would add only 0.0166 (A) / 0.0143 (B) nats to the mean per-token loss. Train loss 0.2 is therefore consistent with an unlearned decision. On the input side the twins share almost everything: the estimated share of prompt tokens that differ is median 0.0032 (p90 0.0209; median 26.3 est. tokens summed over both twins, rows average ~4334.8 exact tokens). M1's sampled behaviour on its own training prompts fits: ask rate A 0.571 vs B 0.385 (discrimination 0.186), correct A 0.491, B 0.554. 0.726 of all SFT rows start with '<', which is a prior toward tool calls on the decision token.",
+   "evidence": "experiments/dataset_audit/twin-contrast-shortcuts/s7_decision_token.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s7_decision_token.json (from the exact Tiny Aya token_stats.jsonl); experiments/dataset_audit/twin-contrast-shortcuts/results/s1_twin_diff_summary.json; experiments/dataset_audit/twin-contrast-shortcuts/results/s4_policy_behaviour.json (m1_overall)",
+   "examples": [
+    "dataset/curated_v121/sft_train.jsonl lines 7 (A, P0) / 15 (B, P0): S07 L1 decision — A target is a chat message (first token not '<'), B target '<tool_call>{\"name\": \"request_approval\"…'; the prompts differ only in the phone number, the look-up argument and its result",
+    "dataset/curated_v121/sft_train.jsonl lines 712 (A, P0) / 212 (B, P0): V253 L1 decision — prompts differ only in 3 plan-terms fields; targets differ from token 1",
+    "dataset/curated_v121/grpo_train.jsonl lines 367 (A, P0) / 294 (B, P0): V254 L1 decision — same pair sampled by M1 during GRPO: see TCS-4"
+   ],
+   "fix": "Monitor first-token decision accuracy (or the decision-token loss) on val by twin instead of mean loss, and select checkpoints on it. Consider up-weighting the decision token, or put more decision rows and fewer look-up rows per batch. This is a training-objective change, not a data defect."
+  },
+  {
+   "id": "TCS-4",
+   "severity": "major",
+   "confidence": "medium",
+   "fix_needs_data_change": true,
+   "title": "The shape of the tool result (field counts, false/0/true literals) predicts the twin on held-out seeds",
+   "affects": [
+    "sft_train",
+    "dpo_train",
+    "grpo_train",
+    "sft_val",
+    "test"
+   ],
+   "claim": "Within matched training twins, A's last tool result has more JSON leaves in 36 rows vs 9 the other way, more false values 43 vs 10, more numeric zeros 41 vs 4, and fewer true values 10 vs 27 (sign-test p <1e-4, <1e-4, 0.0076). Partly this is the decisive fact itself (has_paid_before=false, account_age_days=1, mutual_friends=0). But a model that sees only these counts, with no words, ranks A above B in 0.686 [0.535, 0.829] of twins on held-out source clusters, 1.0 [1.0, 1.0] on val, 0.713 [0.411, 0.922] on test and 0.577 [0.346, 0.769] on hard_test. The policy evidence is mixed. M1's ask rate on A prompts rises with this structural A-likeness (Spearman 0.341, permutation p 0.008; one of 14 tests, so it does not survive Bonferroni). On B prompts it does not (-0.162, p 0.2166), and a plain count of null/false/0/empty values does not track asking (A 0.104, B 0.183, n.s.). Concrete inversion: V254 (identical requests). M1 asked on 8/8 samples of B, whose plan terms read false/null, and on only 2/8 of A, whose terms read true/500.",
+   "evidence": "experiments/dataset_audit/twin-contrast-shortcuts/s2_cues.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s2_cues.json (sft_train.result_structure); experiments/dataset_audit/twin-contrast-shortcuts/s3_shortcut_clf.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s3_classifiers.json (result_structure); experiments/dataset_audit/twin-contrast-shortcuts/s4_policy_behaviour.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s4_policy_behaviour.json (m1_within_twin_assoc_with_shortcut_scores, m1_negative_literal_heuristic, m1_pairs_both_twins)",
+   "examples": [
+    "dataset/curated_v121/sft_train.jsonl lines 259 (A, P0) / 2 (B, P2): V532 L1 decision — result leaves A -> B: account_age_days: 3 -> \"<absent>\"; mutual_friends_count: 0 -> \"<absent>\"; account_age_years: \"<absent>\" -> 2; mutual_friends: \"<absent>\" -> 0; display_name: null -> \"<absent>\"",
+    "dataset/curated_v121/sft_train.jsonl lines 472 (A, P0) / 445 (B, P0): V491 L1 decision — result leaves A -> B: display_name: \"M. Kovalski\" -> \"Matt Kowalski\"; last_payment_date: null -> \"2026-10-15\"; account_age_days: 1 -> 780; mutual_friends_count: 0 -> 2; payments_from_member: 0 -> 1",
+    "dataset/curated_v121/grpo_train.jsonl lines 367 (A, P0) / 294 (B, P0): V254 L1 decision — result leaves A -> B: extra_usage_billing_enabled: true -> false; maximum_usage_charge_per_month: 500 -> null; overage_charges: null -> false; usage_charges_billed_automatically: true -> null; M1 asked on 8/8 B samples vs 2/8 A samples"
+   ],
+   "fix": "Balance result shape across twins. Give B twins benign false/0/null fields and extra benign entries, and give some A twins a clash that is a present, positive-looking value. Then field counts and literal polarity carry no label. Re-run the structure-only classifier as a gate: within-twin accuracy near 0.5 on held-out clusters."
+  },
+  {
+   "id": "TCS-5",
+   "severity": "major",
+   "confidence": "high",
+   "fix_needs_data_change": true,
+   "title": "Val and test twins carry a strong 'A is longer' artifact that train does not, so length-biased models get free credit at evaluation",
+   "affects": [
+    "sft_val (val loss / checkpoint selection)",
+    "dataset/eval test_*",
+    "hard_test (weaker)"
+   ],
+   "claim": "Same-setting twin prompts in train: A is longer in 78 and B in 40 (mean A−B 3.56 exact tokens), so length is useless for learning (length-only in-sample within-twin 0.528). In the evaluation sets it is almost a label. Test: A's prompt is longer in 123/136 twin pairs, and A's last result in 112 vs 14. Val: A's result is longer in 56/56 and its prompt in 31/34 same-setting pairs. hard_test: results 18 vs 3 (18 equal). A one-feature length model fitted on train ranks A above B in 0.912 [0.802, 0.988] of test twins and 0.821 [0.591, 0.935] of val twins. Val also has other one-sided signatures train lacks: B has more nulls in 36 vs 0 rows and more true values in 26 vs 0. In val only 0.125 of twin rows differ in the request, against 0.405 in train. Val loss and checkpoint selection are therefore measured on a different kind of twin contrast from the one trained.",
+   "evidence": "experiments/dataset_audit/twin-contrast-shortcuts/s3_shortcut_clf.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s3_model_free_asymmetry.json, experiments/dataset_audit/twin-contrast-shortcuts/results/s3_classifiers.json (length); experiments/dataset_audit/twin-contrast-shortcuts/s2_cues.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s2_cues.json (sft_train.prompt_length_exact_tokens, sft_val.result_structure)",
+   "examples": [
+    "experiments/dataset_audit/twin-contrast-shortcuts/cache/rendered_eval_rows.jsonl lines 101 (S21A L1 P0) / 105 (S21B L1 P0) — A's check_merchant result carries a 'notes' list of warnings; prompt chars 12751 vs 12613, last result 356 vs 239",
+    "experiments/dataset_audit/twin-contrast-shortcuts/cache/rendered_eval_rows.jsonl lines 171 (S23A L1 P0) / 175 (S23B L1 P0) — A's search returns two look-alike results, B's one; last result 416 vs 241 chars",
+    "dataset/curated_v121/sft_val.jsonl lines 206 (A, P2) / 41 (B, P2): S36 L1 decision — last tool result 500 vs 291 chars; B's button fields are mostly null"
+   ],
+   "fix": "Report test/val metrics with a length-matched or within-pair-length-balanced subset next to the full numbers. When regenerating eval variants, pad B results with benign fields so result length and literal counts match. Pick checkpoints on decision accuracy over a val set stratified like train, not on val loss alone."
+  },
+  {
+   "id": "TCS-6",
+   "severity": "minor",
+   "confidence": "high",
+   "fix_needs_data_change": true,
+   "title": "Verdict-like or null-asymmetric raw fields are near-pure for one twin and memorisable within a seed family",
+   "affects": [
+    "sft_train",
+    "dpo_train",
+    "grpo_train"
+   ],
+   "claim": "Some field=value tokens in the raw results occur almost only in one twin, beyond the decisive value. payment_allowed=false: A in 5 pairs, B in 0; payment_allowed=null: A in 0 pairs, B in 4; merchant_name=null: A in 0 pairs, B in 5; currency=null: A in 0 pairs, B in 3; network=null: A in 3 pairs, B in 0; network=ethereum: A in 0 pairs, B in 3. B often gets null where a matching value (true, a merchant name, a currency) would be natural. A field=value model fits train almost perfectly (in-sample within-twin 0.921) and keeps 0.787 [0.699, 0.86] when a pair's siblings are in training. It drops to 0.549 [0.478, 0.629] on new seeds and 0.493 [0.398, 0.588] on test. This is a memorisation risk inside seed families, not a cross-family shortcut.",
+   "evidence": "experiments/dataset_audit/twin-contrast-shortcuts/s2_cues.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s2_cues.json (sft_train.near_pure_field_value_tokens); experiments/dataset_audit/twin-contrast-shortcuts/results/s3_classifiers.json (result_field_values)",
+   "examples": [
+    "dataset/curated_v121/sft_train.jsonl lines 781 (A, P0) / 614 (B, P0): S55 L1 decision — result leaves A -> B: account_type: \"personal\" -> \"business\"; merchant_name: \"Bargain Warehouse\" -> null; recipient_name: \"J. Pham\" -> \"Bargain Warehouse LLC\"; payment_allowed: false -> null",
+    "dataset/curated_v121/sft_train.jsonl lines 270 (A, P0) / 666 (B, P0): S04 L1 decision — result leaves A -> B: total_price_inr: 1200 -> 30; unit: \"kg\" -> \"pcs\"; unit_price_inr: 600 -> 15; currency: \"INR\" -> null",
+    "dataset/curated_v121/sft_train.jsonl lines 706 (A, P0) / 683 (B, P2): V472 L1 decision — result leaves A -> B: crypto_address: \"0x3c9f...e2b8\" -> \"0x3c9f...d1a7\"; wallet_status: null -> \"saved\"; network: null -> \"ethereum\""
+   ],
+   "fix": "Make B's matching fields explicit and non-null (payment_allowed true, currency set). Avoid API fields whose name states the verdict (payment_allowed) unless both twins show them."
+  },
+  {
+   "id": "TCS-7",
+   "severity": "minor",
+   "confidence": "high",
+   "fix_needs_data_change": true,
+   "title": "Non-decisive context differences between twins: L0r tool lists, member files, the agent's own look-up, and L3 rewrites",
+   "affects": [
+    "sft_train",
+    "dpo_train",
+    "grpo_train",
+    "test"
+   ],
+   "claim": "(a) L0r tool list: in 4 training pairs (and 3 test pairs) only twin A is offered an extra 'fix' tool (update_cart / apply_patch), which is a non-causal L0r cue. (b) The twins use different member files in 2 training pairs (S12, S54) and 4 test pairs. At L2 the history budget then shows different non-decisive rows (S12 L2: A shows 20 of 68 transactions, B 15 of 67). (c) The agent's own teacher-forced look-up differs in 11 training pairs (0.138 of twin decision rows). Usually it just copies the request's identifier, but in S42 the previewed action itself differs although the requests are identical. (d) L3 noisy rewrites add one-sided code-mixing words in 3 training pairs whose clean requests match once identifiers are masked (S02, S03, S06). The classifier views for these are near chance (call_bow cluster-CV 0.52 [0.496, 0.561]), so each is a small, local leak.",
+   "evidence": "experiments/dataset_audit/twin-contrast-shortcuts/s2_cues.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s2_cues.json (spec_twin_differences_by_split, spec_twin_difference_examples); experiments/dataset_audit/twin-contrast-shortcuts/s1_twin_diff.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s1_twin_diff_rows.jsonl; experiments/dataset_audit/twin-contrast-shortcuts/s6_noisy_twin_asymmetry.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s6_noisy_twin_asymmetry.json",
+   "examples": [
+    "dataset/curated_v121/sft_train.jsonl lines 612 (A, P2) / 838 (B, P0): S04 L0r decision — only A's tool list contains update_cart (161 chars of tool docs differ)",
+    "dataset/curated_v121/sft_train.jsonl lines 0 (A, P0) / 900 (B, P0): S42 L1 decision — A's own look-up previews 'Mark as paid', B's 'Collect balance via payment app'; same request",
+    "dataset/curated_v121/sft_train.jsonl lines 335 (A, P0) / 512 (B, P0): S02 L3 decision — A 'pls asap thx' vs B 'pls bhai jaldi karo thx' around the decisive amount"
+   ],
+   "fix": "Give both twins the same L0 tool list. Use one member file per pair, putting the decisive records in scenario_records. Generate the L3 rewrite once and substitute the twin's identifiers. Keep S42-style prefixes but add the mirrored case, where B's agent previews the wrong action and the result corrects it."
+  },
+  {
+   "id": "TCS-8",
+   "severity": "info",
+   "confidence": "high",
+   "fix_needs_data_change": false,
+   "title": "P0/P2 is drawn independently per twin, so the hint differs inside 46 % of twin contrasts (not label-correlated)",
+   "affects": [
+    "sft_train",
+    "dpo_train",
+    "grpo_train",
+    "sft_val"
+   ],
+   "claim": "build_datasets.py draws the prompt setting per scenario x level, so only 0.543 of matched twin decision rows share a setting. The rest differ by the 192-character hint at the end of the system prompt. It is not a label cue: P2 decision rows are 69 A vs 82 B (Fisher two-sided p 0.2424), and a hint-only classifier is at chance (cluster-CV 0.526 [0.483, 0.568]). M1 discrimination is 0.175 under P0 and 0.212 under P2. It is a nuisance difference that dilutes the minimal-pair contrast, not a leak.",
+   "evidence": "experiments/dataset_audit/twin-contrast-shortcuts/s1_twin_diff.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s1_balance.json, experiments/dataset_audit/twin-contrast-shortcuts/results/s1_twin_diff_summary.json; experiments/dataset_audit/twin-contrast-shortcuts/s2_cues.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s2_cues.json (sft_train.prompt_setting_vs_twin_fisher_two_sided_p); experiments/dataset_audit/twin-contrast-shortcuts/results/s3_classifiers.json (hint); experiments/dataset_audit/twin-contrast-shortcuts/results/s7_decision_token.json (p2_hint)",
+   "examples": [
+    "dataset/curated_v121/sft_train.jsonl lines 259 (A, P0) / 2 (B, P2): V532 L1 decision — A P0, B P2",
+    "dataset/curated_v121/sft_train.jsonl lines 6 (A, P0) / 14 (B, P2): V094 L1 decision — A P0, B P2",
+    "dataset/curated_v121/sft_train.jsonl lines 222 (A, P2) / 72 (B, P0): S02 L1 decision — A P2, B P0"
+   ],
+   "fix": "Draw P0/P2 once per pair x level so the twins differ only in the scenario."
+  }
+ ],
+ "checked_ok": [
+  "Pair-level balance: a pair-identity majority classifier gets 0.502 on sft_train decision rows. Only 2 decision rows lack a twin (V031B L0r, V072B L1; the A row was dropped by the build's identifier check). sft_val, dpo and grpo are balanced the same way (experiments/dataset_audit/twin-contrast-shortcuts/results/s1_balance.json).",
+  "CuratorKIT drops are twin-symmetric (symmetric=True). The SecretsGate removed both twins of S47, S57, V074, V491 at the same level and turn, and exact-dedup drops hit only lookup1 rows with identical prompt and target. The rebuild of the pre-curation views reproduces build_report counts and drop list (counts_match=True, dropped_match=True) (experiments/dataset_audit/twin-contrast-shortcuts/s0_rebuild.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s0_rebuild.json).",
+  "The system prompt carries no twin label at L1/L2. scenario_records differ between twins in 0 pairs (all splits), the system prompt differs at L1/L2 in only 2/76 training pairs (different member files), and a member-block classifier is at chance (cluster-CV 0.512 [0.488, 0.539]).",
+  "Environment x level one-hot is exactly uninformative (within-twin 0.5 [0.5, 0.5] on test); a JSON-schema-only classifier is at chance (cluster-CV 0.506 [0.5, 0.519]).",
+  "The twin difference sits inside the 4,096-token sliding window. The farthest differing span is a median of 84 est. tokens from the end, and only 0.016 of decision rows have any twin difference beyond 4,096. For request-only twins the resolving evidence in the system prompt is at most 3013 est. tokens back (experiments/dataset_audit/twin-contrast-shortcuts/s5_request_only_evidence.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s5_request_only_evidence.json).",
+  "Training look-up results equal what the evaluation simulator returns for the same calls (497/497 train and 112/112 val decision rows identical; experiments/dataset_audit/twin-contrast-shortcuts/s10_prefix_consistency.py -> experiments/dataset_audit/twin-contrast-shortcuts/results/s10_prefix_consistency.json).",
+  "Prompt length is not a learnable cue in train (length-only in-sample within-twin 0.528; mean A−B 3.56 exact tokens on same-setting twins).",
+  "Noisy-message presence is symmetric (L3 rows exist for both twins or neither), so L3 does not unbalance twins.",
+  "Verdict words inside training tool results (warning/alert/fail/not …) occur only where they are the decisive fact itself (S15/V152 '404 Not Found' vs '200 OK', S26 'fail' vs 'pass') (experiments/dataset_audit/twin-contrast-shortcuts/results/s2_cues.json sft_train.result_structure.verdict_words_in_results).",
+  "M1 does not follow a simple negative-literal (null/false/0/empty) count heuristic (within-twin Spearman A 0.104, B 0.183, both n.s.)."
+ ],
+ "prompt_interference_view": "From the twin-contrast lens the prompt is not leaking the label, and it is not hiding the contrast. The system prompt (most of a mean 4334.8-token decision prompt) is identical between twins at L1/L2 in 74/76 training pairs, and member-block, env/level and hint-only classifiers sit at chance (0.512 [0.488, 0.539], 0.5 [0.5, 0.5], 0.526 [0.483, 0.568]). The P2 hint is assigned at random with respect to the twin, and 98 % of twin decision rows have every difference within the last 4,096 tokens (median 84 est. tokens from the end). So the sliding window and the long policy text are not what blocks the twin decision. The interference comes from elsewhere. (1) Dilution: the twins differ in about 0.32 % of prompt tokens (median, est.), and the label is one target token (~2.4 % of target tokens), so SFT's mean loss is dominated by copying tokens and says nothing about the decision. (2) Shortcuts in the two places that do differ. The request differs between twins in 31/76 training pairs as memorisable templates. The base model's twin discrimination comes only from wording pairs, and M1's is 2.1x as strong there. The tool-result shape also predicts the twin on held-out seeds. (3) DPO's preference pairs mostly contrast 'anything vs direct commit' rather than ask vs approve (66/496 pairs encode the twin decision). (4) The P2 hint, drawn independently per twin, adds a non-label difference to 0.46 of twin contrasts: a nuisance, not a leak. Net: prompt interference with the objective is low. The data-side contrast and shortcut problems, plus the loss design, are moderate to large.",
+ "artifacts": [
+  "experiments/dataset_audit/twin-contrast-shortcuts/common.py",
+  "experiments/dataset_audit/twin-contrast-shortcuts/s0_rebuild.py",
+  "experiments/dataset_audit/twin-contrast-shortcuts/s1_twin_diff.py",
+  "experiments/dataset_audit/twin-contrast-shortcuts/s2_cues.py",
+  "experiments/dataset_audit/twin-contrast-shortcuts/s3_shortcut_clf.py",
+  "experiments/dataset_audit/twin-contrast-shortcuts/s4_policy_behaviour.py",
+  "experiments/dataset_audit/twin-contrast-shortcuts/s5_request_only_evidence.py",
+  "experiments/dataset_audit/twin-contrast-shortcuts/s6_noisy_twin_asymmetry.py",
+  "experiments/dataset_audit/twin-contrast-shortcuts/s7_decision_token.py",
+  "experiments/dataset_audit/twin-contrast-shortcuts/s8_dpo_contrast.py",
+  "experiments/dataset_audit/twin-contrast-shortcuts/s9_findings.py",
+  "experiments/dataset_audit/twin-contrast-shortcuts/s10_prefix_consistency.py",
+  "experiments/dataset_audit/twin-contrast-shortcuts/findings.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s0_rebuild.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s1_twin_diff_rows.jsonl",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s1_twin_diff_summary.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s1_balance.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s2_cues.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s3_classifiers.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s3_request_only.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s3_model_free_asymmetry.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s3_predictions.jsonl",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s4_policy_behaviour.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s5_request_only_evidence.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s6_noisy_twin_asymmetry.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s7_decision_token.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s8_dpo_contrast.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/results/s10_prefix_consistency.json",
+  "experiments/dataset_audit/twin-contrast-shortcuts/cache/rendered_eval_rows.jsonl (git-ignored)",
+  "experiments/dataset_audit/twin-contrast-shortcuts/cache/rebuild_v121/ (git-ignored pre-curation rebuild)"
+ ]
+}

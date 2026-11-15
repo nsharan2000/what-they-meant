@@ -1,0 +1,114 @@
+{
+ "by_level": [
+  {
+   "level": "L0",
+   "twin": "A",
+   "n": 763,
+   "share_echo": 0.0144
+  },
+  {
+   "level": "L0",
+   "twin": "B",
+   "n": 763,
+   "share_echo": 0.0052,
+   "needless_if_echo": 0.25,
+   "needless_if_not": 0.1344
+  },
+  {
+   "level": "L0p",
+   "twin": "A",
+   "n": 180,
+   "share_echo": 0.0222
+  },
+  {
+   "level": "L0p",
+   "twin": "B",
+   "n": 180,
+   "share_echo": 0.0222,
+   "needless_if_echo": 0.25,
+   "needless_if_not": 0.2216
+  },
+  {
+   "level": "L0r",
+   "twin": "A",
+   "n": 2733,
+   "share_echo": 0.0117
+  },
+  {
+   "level": "L0r",
+   "twin": "B",
+   "n": 2736,
+   "share_echo": 0.0139,
+   "needless_if_echo": 0.4474,
+   "needless_if_not": 0.1964
+  },
+  {
+   "level": "L1",
+   "twin": "A",
+   "n": 1543,
+   "share_echo": 0.0136
+  },
+  {
+   "level": "L1",
+   "twin": "B",
+   "n": 1547,
+   "share_echo": 0.0116,
+   "needless_if_echo": 0.3333,
+   "needless_if_not": 0.3159
+  },
+  {
+   "level": "L2",
+   "twin": "A",
+   "n": 3490,
+   "share_echo": 0.0203
+  },
+  {
+   "level": "L2",
+   "twin": "B",
+   "n": 3491,
+   "share_echo": 0.0275,
+   "needless_if_echo": 0.6979,
+   "needless_if_not": 0.3529
+  },
+  {
+   "level": "L2s",
+   "twin": "A",
+   "n": 872,
+   "share_echo": 0.0183
+  },
+  {
+   "level": "L2s",
+   "twin": "B",
+   "n": 869,
+   "share_echo": 0.015,
+   "needless_if_echo": 0.5385,
+   "needless_if_not": 0.229
+  },
+  {
+   "level": "L3",
+   "twin": "A",
+   "n": 179,
+   "share_echo": 0.0279
+  },
+  {
+   "level": "L3",
+   "twin": "B",
+   "n": 179,
+   "share_echo": 0.0279,
+   "needless_if_echo": 0.0,
+   "needless_if_not": 0.2931
+  }
+ ],
+ "examples_B_needless_echo": [
+  "experiments/replication/results/grid_claude.jsonl:64",
+  "experiments/replication/results/grid_claude.jsonl:68",
+  "experiments/replication/results/grid_claude.jsonl:76",
+  "experiments/replication/results/grid_claude.jsonl:86",
+  "experiments/replication/results/grid_claude.jsonl:97"
+ ],
+ "grpo_rows_with_catch_all_rule": 472,
+ "grpo_rule_counts": {
+  "rules": 1238,
+  "catch_all": 548
+ }
+}

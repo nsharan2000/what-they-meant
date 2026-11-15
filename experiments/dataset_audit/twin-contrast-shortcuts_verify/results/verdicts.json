@@ -1,0 +1,18 @@
+{
+ "lens": "twin-contrast-shortcuts (verifier)",
+ "verdicts": {
+  "TCS-1": "partly", "TCS-2": "confirmed", "TCS-3": "confirmed", "TCS-4": "partly",
+  "TCS-5": "partly", "TCS-6": "confirmed", "TCS-7": "confirmed", "TCS-8": "confirmed"
+ },
+ "evidence": {
+  "TCS-1": ["v1_twins.py -> results/v1_twins.json", "v7_classifiers.py -> results/v7_classifiers.json (request_bow)", "v4_base.py -> results/v4_base.json", "v3_m1.py -> results/v3_m1.json", "v9_extra.py -> results/v9_extra.json (train_families_*)", "v11_id_visibility.py -> results/v11_id_visibility.json"],
+  "TCS-2": ["v2_dpo.py -> results/v2_dpo.json", "v9_extra.py -> results/v9_extra.json (dpo_length_tokens)"],
+  "TCS-3": ["v5_decision_token.py -> results/v5_decision_token.json", "v3_m1.py -> results/v3_m1.json", "v9_extra.py -> results/v9_extra.json (first_token_after_tool_result)"],
+  "TCS-4": ["v1_twins.py -> results/v1_twins.json (last_result_A_vs_B_rows/_pairs/_clusters)", "v7_classifiers.py -> results/v7_classifiers.json (result_structure)", "v8_fields_context.py -> results/v8_fields_context.json (m1_ask_vs_oof_structure_score)", "v3_m1.py -> results/v3_m1.json (V254)", "v11_id_visibility.py -> results/v11_id_visibility.json (m1_ask_vs_negative_literals)"],
+  "TCS-5": ["v7_classifiers.py -> results/v7_classifiers.json (length_raw, length_nohint, model_free_length)", "v1_twins.py -> results/v1_twins.json (prompt_tokens_same_setting_*)", "v8_fields_context.py -> results/v8_fields_context.json (eval_L1_result_extra_paths)", "v10_val_structure.py -> results/v10_val_structure.json"],
+  "TCS-6": ["v8_fields_context.py -> results/v8_fields_context.json (field_value_tokens_pairs)", "v7_classifiers.py -> results/v7_classifiers.json (result_field_values)"],
+  "TCS-7": ["v8_fields_context.py -> results/v8_fields_context.json (context_differences)", "v1b_l0r_system_diff.py -> results/v1b_system_diffs.json"],
+  "TCS-8": ["v1_twins.py -> results/v1_twins.json (same_prompt_setting_share, p2_decision_rows)", "v7_classifiers.py -> results/v7_classifiers.json (hint)", "v3_m1.py -> results/v3_m1.json (by_prompt_setting)"],
+  "checks": ["v12_prefix_consistency.py -> results/v12_prefix_consistency.json", "v6_render_eval.py -> cache/eval_rows.jsonl"]
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "rows_checked": 1124,
+ "rows_with_tool_txn": 0,
+ "rows_missing_txn_in_history": 0,
+ "scenarios_missing": [],
+ "rows_with_duplicated_history_line": 169,
+ "scenarios_duplicated": [
+  "V011A",
+  "V011B",
+  "V012A",
+  "V012B",
+  "V014A",
+  "V014B",
+  "V071A",
+  "V071B",
+  "V341A",
+  "V341B",
+  "V344A",
+  "V344B",
+  "V363A",
+  "V363B",
+  "V471A",
+  "V471B",
+  "V474A",
+  "V474B",
+  "V492A",
+  "V492B",
+  "V531A",
+  "V531B",
+  "V532A",
+  "V532B",
+  "V551A",
+  "V551B",
+  "V563A",
+  "V563B",
+  "V571A",
+  "V571B",
+  "V583A",
+  "V583B"
+ ]
+}
+[
+ {
+  "flag": "inconsistent",
+  "twin": "A",
+  "n_clean": 36,
+  "n_flagged": 0,
+  "note": "too few flagged prompts among the 120 sampled"
+ },
+ {
+  "flag": "inconsistent",
+  "twin": "B",
+  "n_clean": 40,
+  "n_flagged": 0,
+  "note": "too few flagged prompts among the 120 sampled"
+ },
+ {
+  "flag": "dup_flag",
+  "twin": "A",
+  "n_clean": 32,
+  "n_flagged": 4,
+  "success_clean": 0.4883,
+  "success_flagged": 0.8125,
+  "diff": 0.3242,
+  "ci": [
+   0.168,
+   0.4648
+  ]
+ },
+ {
+  "flag": "dup_flag",
+  "twin": "B",
+  "n_clean": 34,
+  "n_flagged": 6,
+  "success_clean": 0.5441,
+  "success_flagged": 0.6875,
+  "diff": 0.1434,
+  "ci": [
+   -0.0576,
+   0.3235
+  ]
+ }
+]
+[]

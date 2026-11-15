@@ -1,0 +1,119 @@
+{
+ "by_twin": {
+  "A": {
+   "chosen=ask_informed | rejected=approve": 2,
+   "chosen=ask_informed | rejected=ask_like": 47,
+   "chosen=ask_informed | rejected=commit": 194,
+   "chosen=ask_informed | rejected=invalid": 3,
+   "chosen=ask_informed | rejected=lookup": 1
+  },
+  "B": {
+   "chosen=approve_generic | rejected=ask_like": 48,
+   "chosen=approve_generic | rejected=commit": 170,
+   "chosen=approve_generic | rejected=lookup": 1,
+   "chosen=approve_informed | rejected=commit": 12,
+   "chosen=commit_gold | rejected=ask_like": 16,
+   "chosen=commit_gold | rejected=invalid": 2
+  }
+ },
+ "examples": {
+  "A|commit": [
+   [
+    "dpo_train",
+    0,
+    "V581A",
+    "L1",
+    "<tool_call>\n  {\"name\": \"place_order\", \"arguments\": {\n    \"expected_total\": 478.50,\n    \"checkout_id\": null,\n    \"payment"
+   ]
+  ],
+  "B|commit": [
+   [
+    "dpo_train",
+    1,
+    "S35B",
+    "L2",
+    "\n<tool_call>\n  {\"name\": \"pay_terminal\", \"arguments\": {\"amount\": 3.8, \"request_id\": \"SN-557058\", \"merchant\": \"Kettle & Cr"
+   ]
+  ],
+  "A|ask_like": [
+   [
+    "dpo_train",
+    6,
+    "S54A",
+    "L2",
+    "Sorry, I can't transfer money to your bank account. I can only send money to people or businesses using the connected pa"
+   ]
+  ],
+  "B|ask_like": [
+   [
+    "dpo_train",
+    10,
+    "V104B",
+    "L2",
+    "Your XMP Pro license is still under $90, so you can renew it without any issues. Would you like me to proceed with the r"
+   ]
+  ],
+  "A|invalid": [
+   [
+    "dpo_train",
+    47,
+    "V571A",
+    "L2",
+    "<tool_call>{\"name\": \"list_linked_accounts\", \"arguments\": {}}  \n\n**Please reply with:**  \n- Your current Kestrel crypto w"
+   ]
+  ],
+  "B|invalid": [
+   [
+    "dpo_train",
+    61,
+    "V152B",
+    "L1",
+    "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"ChairSide Cloud software subscription payment\", \"detai"
+   ]
+  ],
+  "A|approve": [
+   [
+    "dpo_train",
+    72,
+    "S25A",
+    "L3",
+    "<tool_call>{\"name\": \"request_approval\", \"arguments\": { \"summary\": \"Upgrade to Quillo AI Pro plan\", \"details\": \"Upgrade t"
+   ]
+  ],
+  "A|lookup": [
+   [
+    "dpo_train",
+    176,
+    "S11A",
+    "L2",
+    "\n<tool_call>{\"name\": \"domain_search\", \"arguments\": {\"query\": \"Sony 55-inch A8L OLED TV\"}}"
+   ]
+  ],
+  "B|lookup": [
+   [
+    "dpo_train",
+    277,
+    "S11B",
+    "L2",
+    "\n<tool_call>{\"name\": \"domain_search\", \"arguments\": {\"query\": \"Sony 55-inch A8L OLED TV\"}}"
+   ]
+  ]
+ },
+ "strict_format_chosen_vs_rejected": {
+  "A|chosen_strict=True|rejected_strict=False": 43,
+  "A|chosen_strict=True|rejected_strict=True": 204,
+  "B|chosen_strict=True|rejected_strict=False": 28,
+  "B|chosen_strict=True|rejected_strict=True": 221
+ },
+ "share_rows_format_alone_separates": 0.143,
+ "chars_A": {
+  "chosen_mean": 160.1,
+  "rejected_mean": 251.4,
+  "share_rejected_longer": 0.696
+ },
+ "chars_B": {
+  "chosen_mean": 139.7,
+  "rejected_mean": 222.6,
+  "share_rejected_longer": 0.823
+ }
+}

@@ -1,0 +1,1 @@
+{"text": "{\n  \"product_name\": \"Sony A80L 55-inch OLED\",\n  \"in_stock\": true,\n  \"price_usd\": 1149,\n  \"stock_quantity\": 1,\n  \"seller\": \"unknown\"\n}", "usage": {"completion_tokens": 54, "prompt_tokens": 262, "total_tokens": 316, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 5.327999999999999e-05}, "finish": "stop"}

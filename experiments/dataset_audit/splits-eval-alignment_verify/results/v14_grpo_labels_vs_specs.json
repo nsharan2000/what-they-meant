@@ -1,0 +1,19 @@
+{
+ "counts": {
+  "rows": 496,
+  "expected_identical": 496,
+  "gold_commits_identical": 496,
+  "harmful_commits_identical": 496,
+  "ideal_action_identical": 496,
+  "tool_rules_identical": 496,
+  "prefix_calls_identical": 496,
+  "user_message_identical": 496
+ },
+ "diff_examples": [],
+ "decision_rows_by_twin_prompt": {
+  "A|P0": 178,
+  "A|P2": 70,
+  "B|P0": 167,
+  "B|P2": 82
+ }
+}

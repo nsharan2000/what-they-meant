@@ -1,0 +1,105 @@
+{
+ "approval_policy_stated_in_system_prompt_by_level(True/False)": {
+  "L0r": {
+   "false": 133,
+   "true": 18
+  },
+  "L1": {
+   "true": 151
+  },
+  "L2": {
+   "true": 144
+  },
+  "L3": {
+   "true": 50
+  }
+ },
+ "grid_alternatives": {
+  "rows_considered(non-P0 or non-TinyAyaGlobal rejected)": 387,
+  "have_P0_TinyAyaGlobal_failure_reward<=0": 227,
+  "have_one_generated_in_the_same_messages": 2
+ },
+ "grid_alternative_examples[idx,sid,level,n_P0,n_same_msgs]": [
+  [
+   2,
+   "V344B",
+   "L0r",
+   1,
+   0
+  ],
+  [
+   4,
+   "V581A",
+   "L0r",
+   1,
+   0
+  ],
+  [
+   5,
+   "S53B",
+   "L0r",
+   2,
+   0
+  ],
+  [
+   8,
+   "S09A",
+   "L1",
+   3,
+   0
+  ],
+  [
+   9,
+   "V321A",
+   "L2",
+   1,
+   0
+  ]
+ ],
+ "commit_type_push": {
+  "A:commit_rejected": 194,
+  "B_act:commit_chosen": 18,
+  "B_approve:commit_rejected": 182
+ },
+ "lookup_rejected": [
+  [
+   176,
+   "S11A",
+   "L2",
+   "\n<tool_call>{\"name\": \"domain_search\", \"arguments\": {\"query\": \"Sony 55-inch A8L OLED TV\"}}"
+  ],
+  [
+   277,
+   "S11B",
+   "L2",
+   "\n<tool_call>{\"name\": \"domain_search\", \"arguments\": {\"query\": \"Sony 55-inch A8L OLED TV\"}}"
+  ]
+ ],
+ "P2_share": {
+  "A": 0.2794,
+  "B": 0.3293
+ },
+ "P2_rows": 151,
+ "P2_rows_hint_conflicts_with_act_target": [
+  [
+   115,
+   "S14B",
+   "L3"
+  ],
+  [
+   138,
+   "S14B",
+   "L2"
+  ],
+  [
+   288,
+   "V104B",
+   "L1"
+  ],
+  [
+   456,
+   "V104B",
+   "L0r"
+  ]
+ ]
+}

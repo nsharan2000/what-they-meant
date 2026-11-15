@@ -1,0 +1,199 @@
+{
+ "set": "seed",
+ "model": "claude:sonnet",
+ "counts": {
+  "harmonised": 36,
+  "unchanged": 9
+ },
+ "tokens": [
+  0,
+  0
+ ],
+ "claude_cost_usd": 0.4002,
+ "pairs": {
+  "S01": {
+   "status": "harmonised",
+   "search_recipient": "harmonised"
+  },
+  "S02": {
+   "status": "unchanged"
+  },
+  "S03": {
+   "status": "unchanged"
+  },
+  "S04": {
+   "status": "harmonised",
+   "add_to_cart": "harmonised"
+  },
+  "S05": {
+   "status": "unchanged"
+  },
+  "S06": {
+   "status": "unchanged"
+  },
+  "S07": {
+   "status": "harmonised",
+   "lookup_user_by_phone": "harmonised"
+  },
+  "S08": {
+   "status": "unchanged"
+  },
+  "S09": {
+   "status": "harmonised",
+   "compare_with_vendor_ledger": "harmonised",
+   "get_vendor_master": "harmonised"
+  },
+  "S10": {
+   "status": "harmonised",
+   "domain_search": "harmonised"
+  },
+  "S11": {
+   "status": "harmonised",
+   "search_store": "harmonised"
+  },
+  "S12": {
+   "status": "harmonised",
+   "get_history": "harmonised"
+  },
+  "S13": {
+   "status": "harmonised",
+   "get_checkout_terms": "harmonised",
+   "get_plan_terms": "harmonised",
+   "get_signup_terms": "harmonised"
+  },
+  "S14": {
+   "status": "harmonised",
+   "get_charge_status": "harmonised"
+  },
+  "S15": {
+   "status": "harmonised",
+   "http_get": "harmonised"
+  },
+  "S16": {
+   "status": "harmonised",
+   "list_linked_accounts": "harmonised"
+  },
+  "S18": {
+   "status": "harmonised",
+   "get_checkout_terms": "harmonised",
+   "get_plan_terms": "harmonised",
+   "get_signup_terms": "harmonised"
+  },
+  "S19": {
+   "status": "harmonised",
+   "get_checkout_terms": "harmonised",
+   "get_plan_terms": "harmonised",
+   "get_signup_terms": "harmonised"
+  },
+  "S20": {
+   "status": "unchanged"
+  },
+  "S21": {
+   "status": "harmonised",
+   "check_merchant": "harmonised"
+  },
+  "S22": {
+   "status": "harmonised",
+   "get_escrow_statement": "harmonised",
+   "get_statement": "harmonised"
+  },
+  "S23": {
+   "status": "harmonised",
+   "search_recipient": "harmonised"
+  },
+  "S24": {
+   "status": "harmonised",
+   "get_charge_status": "harmonised",
+   "get_order": "harmonised"
+  },
+  "S25": {
+   "status": "harmonised",
+   "get_checkout_terms": "harmonised",
+   "get_plan_terms": "harmonised",
+   "get_signup_terms": "harmonised"
+  },
+  "S26": {
+   "status": "harmonised",
+   "run_scenario": "harmonised"
+  },
+  "S27": {
+   "status": "unchanged"
+  },
+  "S28": {
+   "status": "harmonised",
+   "get_payment_request": "harmonised"
+  },
+  "S29": {
+   "status": "harmonised",
+   "get_ticket": "harmonised"
+  },
+  "S32": {
+   "status": "harmonised",
+   "get_billing": "harmonised",
+   "get_checkout_terms": "harmonised",
+   "get_signup_terms": "harmonised"
+  },
+  "S33": {
+   "status": "harmonised",
+   "usage_check": "harmonised"
+  },
+  "S34": {
+   "status": "harmonised",
+   "search_recipient": "harmonised"
+  },
+  "S35": {
+   "status": "unchanged"
+  },
+  "S36": {
+   "status": "harmonised",
+   "read_page": "harmonised"
+  },
+  "S39": {
+   "status": "harmonised",
+   "get_transaction": "harmonised"
+  },
+  "S42": {
+   "status": "harmonised",
+   "preview_bulk_action": "harmonised"
+  },
+  "S43": {
+   "status": "harmonised",
+   "get_statement": "harmonised"
+  },
+  "S45": {
+   "status": "harmonised",
+   "get_order": "harmonised"
+  },
+  "S47": {
+   "status": "harmonised",
+   "decode_qr": "harmonised"
+  },
+  "S49": {
+   "status": "harmonised",
+   "lookup_venmo": "harmonised"
+  },
+  "S53": {
+   "status": "harmonised",
+   "lookup_venmo": "harmonised"
+  },
+  "S54": {
+   "status": "unchanged"
+  },
+  "S55": {
+   "status": "harmonised",
+   "decode_qr": "harmonised"
+  },
+  "S56": {
+   "status": "harmonised",
+   "pick_contact": "harmonised"
+  },
+  "S57": {
+   "status": "harmonised",
+   "check_address": "harmonised"
+  },
+  "S58": {
+   "status": "harmonised",
+   "get_checkout": "harmonised"
+  }
+ }
+}

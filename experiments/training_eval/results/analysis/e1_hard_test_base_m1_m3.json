@@ -1,0 +1,5920 @@
+{
+ "split": "hard_test",
+ "files": [
+  "experiments/training_eval/results/eval_hard_test.jsonl"
+ ],
+ "n_judged_keys": 0,
+ "judged_is_lenient_fallback": true,
+ "answer_bearing_excluded_in": "the 'excl' stratum",
+ "cells": [
+  {
+   "stratum": "all",
+   "arm": "base",
+   "level": "L0r",
+   "prompt": "P0",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.2308,
+    "informed_ask": 0.0769,
+    "card": 0.0,
+    "commit": 0.7692,
+    "other": 0.0,
+    "lookup_first": 0.1538,
+    "success_strict": 0.0769,
+    "success_lenient": 0.0769
+   },
+   "B": {
+    "ask": 0.2308,
+    "card": 0.0769,
+    "commit": 0.6923,
+    "other": 0.0,
+    "lookup_first": 0.1538,
+    "needless_ask": 0.2308,
+    "success_strict": 0.2308
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "level": "L1",
+   "prompt": "P0",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.1538,
+    "informed_ask": 0.0,
+    "card": 0.0769,
+    "commit": 0.6923,
+    "other": 0.0769,
+    "lookup_first": 0.0769,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.0769,
+    "card": 0.1538,
+    "commit": 0.6923,
+    "other": 0.0769,
+    "lookup_first": 0.0,
+    "needless_ask": 0.0769,
+    "success_strict": 0.1538
+   },
+   "D_ask": 0.0769,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "level": "L2",
+   "prompt": "P0",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.1538,
+    "informed_ask": 0.0769,
+    "card": 0.0,
+    "commit": 0.8462,
+    "other": 0.0,
+    "lookup_first": 0.0769,
+    "success_strict": 0.0769,
+    "success_lenient": 0.0769
+   },
+   "B": {
+    "ask": 0.1538,
+    "card": 0.0769,
+    "commit": 0.6923,
+    "other": 0.0769,
+    "lookup_first": 0.0769,
+    "needless_ask": 0.1538,
+    "success_strict": 0.2308
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "level": "L2s",
+   "prompt": "P0",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.0769,
+    "informed_ask": 0.0,
+    "card": 0.0769,
+    "commit": 0.6154,
+    "other": 0.2308,
+    "lookup_first": 0.0769,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.2308,
+    "card": 0.1538,
+    "commit": 0.5385,
+    "other": 0.0769,
+    "lookup_first": 0.0,
+    "needless_ask": 0.2308,
+    "success_strict": 0.1538
+   },
+   "D_ask": -0.1538,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "level": "L0r",
+   "prompt": "P2",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.3846,
+    "informed_ask": 0.1538,
+    "card": 0.0,
+    "commit": 0.5385,
+    "other": 0.0769,
+    "lookup_first": 0.4615,
+    "success_strict": 0.1538,
+    "success_lenient": 0.1538
+   },
+   "B": {
+    "ask": 0.3846,
+    "card": 0.0,
+    "commit": 0.5385,
+    "other": 0.0769,
+    "lookup_first": 0.4615,
+    "needless_ask": 0.3846,
+    "success_strict": 0.1538
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "level": "L1",
+   "prompt": "P2",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.1538,
+    "informed_ask": 0.0,
+    "card": 0.0769,
+    "commit": 0.6923,
+    "other": 0.0769,
+    "lookup_first": 0.0769,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.1538,
+    "card": 0.2308,
+    "commit": 0.6154,
+    "other": 0.0,
+    "lookup_first": 0.0769,
+    "needless_ask": 0.1538,
+    "success_strict": 0.2308
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "level": "L2",
+   "prompt": "P2",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.2308,
+    "informed_ask": 0.0,
+    "card": 0.0,
+    "commit": 0.6923,
+    "other": 0.0769,
+    "lookup_first": 0.0,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.2308,
+    "card": 0.0769,
+    "commit": 0.6923,
+    "other": 0.0,
+    "lookup_first": 0.0,
+    "needless_ask": 0.2308,
+    "success_strict": 0.2308
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "level": "L2s",
+   "prompt": "P2",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.3077,
+    "informed_ask": 0.1538,
+    "card": 0.0,
+    "commit": 0.6923,
+    "other": 0.0,
+    "lookup_first": 0.1538,
+    "success_strict": 0.1538,
+    "success_lenient": 0.1538
+   },
+   "B": {
+    "ask": 0.2308,
+    "card": 0.1538,
+    "commit": 0.6154,
+    "other": 0.0,
+    "lookup_first": 0.0769,
+    "needless_ask": 0.2308,
+    "success_strict": 0.1538
+   },
+   "D_ask": 0.0769,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "level": "L0r",
+   "prompt": "P0",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.1538,
+    "informed_ask": 0.0,
+    "card": 0.7692,
+    "commit": 0.0769,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "success_strict": 0.0,
+    "success_lenient": 0.3846
+   },
+   "B": {
+    "ask": 0.1538,
+    "card": 0.7692,
+    "commit": 0.0769,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "needless_ask": 0.1538,
+    "success_strict": 0.8462
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.3846,
+   "PP_judged": 0.3846
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "level": "L1",
+   "prompt": "P0",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.2308,
+    "informed_ask": 0.1538,
+    "card": 0.6154,
+    "commit": 0.0769,
+    "other": 0.0769,
+    "lookup_first": 0.9231,
+    "success_strict": 0.1538,
+    "success_lenient": 0.3846
+   },
+   "B": {
+    "ask": 0.1538,
+    "card": 0.7692,
+    "commit": 0.0769,
+    "other": 0.0,
+    "lookup_first": 0.9231,
+    "needless_ask": 0.1538,
+    "success_strict": 0.7692
+   },
+   "D_ask": 0.0769,
+   "PP_strict": 0.0769,
+   "PP_lenient": 0.3077,
+   "PP_judged": 0.3077
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "level": "L2",
+   "prompt": "P0",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.2308,
+    "informed_ask": 0.1538,
+    "card": 0.6154,
+    "commit": 0.0769,
+    "other": 0.0769,
+    "lookup_first": 0.8462,
+    "success_strict": 0.1538,
+    "success_lenient": 0.3846
+   },
+   "B": {
+    "ask": 0.2308,
+    "card": 0.6923,
+    "commit": 0.0769,
+    "other": 0.0,
+    "lookup_first": 0.8462,
+    "needless_ask": 0.2308,
+    "success_strict": 0.6923
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.2308,
+   "PP_judged": 0.2308
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "level": "L2s",
+   "prompt": "P0",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.0769,
+    "informed_ask": 0.0,
+    "card": 0.9231,
+    "commit": 0.0,
+    "other": 0.0,
+    "lookup_first": 0.8462,
+    "success_strict": 0.0,
+    "success_lenient": 0.5385
+   },
+   "B": {
+    "ask": 0.0769,
+    "card": 0.8462,
+    "commit": 0.0769,
+    "other": 0.0,
+    "lookup_first": 0.8462,
+    "needless_ask": 0.0769,
+    "success_strict": 0.8462
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.5385,
+   "PP_judged": 0.5385
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "level": "L0r",
+   "prompt": "P2",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.1538,
+    "informed_ask": 0.0769,
+    "card": 0.7692,
+    "commit": 0.0769,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "success_strict": 0.0769,
+    "success_lenient": 0.4615
+   },
+   "B": {
+    "ask": 0.1538,
+    "card": 0.7692,
+    "commit": 0.0769,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "needless_ask": 0.1538,
+    "success_strict": 0.8462
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.3846,
+   "PP_judged": 0.3846
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "level": "L1",
+   "prompt": "P2",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.3077,
+    "informed_ask": 0.1538,
+    "card": 0.5385,
+    "commit": 0.0769,
+    "other": 0.0769,
+    "lookup_first": 1.0,
+    "success_strict": 0.1538,
+    "success_lenient": 0.4615
+   },
+   "B": {
+    "ask": 0.1538,
+    "card": 0.7692,
+    "commit": 0.0769,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "needless_ask": 0.1538,
+    "success_strict": 0.7692
+   },
+   "D_ask": 0.1538,
+   "PP_strict": 0.0769,
+   "PP_lenient": 0.3846,
+   "PP_judged": 0.3846
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "level": "L2",
+   "prompt": "P2",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.1538,
+    "informed_ask": 0.0,
+    "card": 0.7692,
+    "commit": 0.0769,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "success_strict": 0.0,
+    "success_lenient": 0.3846
+   },
+   "B": {
+    "ask": 0.2308,
+    "card": 0.6923,
+    "commit": 0.0769,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "needless_ask": 0.2308,
+    "success_strict": 0.6923
+   },
+   "D_ask": -0.0769,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.3077,
+   "PP_judged": 0.3077
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "level": "L2s",
+   "prompt": "P2",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.0769,
+    "informed_ask": 0.0769,
+    "card": 0.8462,
+    "commit": 0.0769,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "success_strict": 0.0769,
+    "success_lenient": 0.5385
+   },
+   "B": {
+    "ask": 0.0769,
+    "card": 0.8462,
+    "commit": 0.0769,
+    "other": 0.0,
+    "lookup_first": 0.9231,
+    "needless_ask": 0.0769,
+    "success_strict": 0.8462
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.4615,
+   "PP_judged": 0.4615
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "level": "L0r",
+   "prompt": "P0",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.2308,
+    "informed_ask": 0.0769,
+    "card": 0.0,
+    "commit": 0.7692,
+    "other": 0.0,
+    "lookup_first": 0.1538,
+    "success_strict": 0.0769,
+    "success_lenient": 0.0769
+   },
+   "B": {
+    "ask": 0.2308,
+    "card": 0.0769,
+    "commit": 0.6923,
+    "other": 0.0,
+    "lookup_first": 0.1538,
+    "needless_ask": 0.2308,
+    "success_strict": 0.2308
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "level": "L1",
+   "prompt": "P0",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.2308,
+    "informed_ask": 0.0,
+    "card": 0.0769,
+    "commit": 0.6154,
+    "other": 0.0769,
+    "lookup_first": 0.0769,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.1538,
+    "card": 0.1538,
+    "commit": 0.6154,
+    "other": 0.0769,
+    "lookup_first": 0.0769,
+    "needless_ask": 0.1538,
+    "success_strict": 0.1538
+   },
+   "D_ask": 0.0769,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "level": "L2",
+   "prompt": "P0",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.1538,
+    "informed_ask": 0.0769,
+    "card": 0.0,
+    "commit": 0.8462,
+    "other": 0.0,
+    "lookup_first": 0.0769,
+    "success_strict": 0.0769,
+    "success_lenient": 0.0769
+   },
+   "B": {
+    "ask": 0.1538,
+    "card": 0.0769,
+    "commit": 0.6923,
+    "other": 0.0769,
+    "lookup_first": 0.0769,
+    "needless_ask": 0.1538,
+    "success_strict": 0.2308
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "level": "L2s",
+   "prompt": "P0",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.2308,
+    "informed_ask": 0.0,
+    "card": 0.0769,
+    "commit": 0.5385,
+    "other": 0.1538,
+    "lookup_first": 0.0769,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.2308,
+    "card": 0.1538,
+    "commit": 0.5385,
+    "other": 0.0769,
+    "lookup_first": 0.0,
+    "needless_ask": 0.2308,
+    "success_strict": 0.1538
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "level": "L0r",
+   "prompt": "P2",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.3077,
+    "informed_ask": 0.0769,
+    "card": 0.0,
+    "commit": 0.5385,
+    "other": 0.1538,
+    "lookup_first": 0.4615,
+    "success_strict": 0.0769,
+    "success_lenient": 0.0769
+   },
+   "B": {
+    "ask": 0.3846,
+    "card": 0.0,
+    "commit": 0.5385,
+    "other": 0.0769,
+    "lookup_first": 0.4615,
+    "needless_ask": 0.3846,
+    "success_strict": 0.1538
+   },
+   "D_ask": -0.0769,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "level": "L1",
+   "prompt": "P2",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.1538,
+    "informed_ask": 0.0,
+    "card": 0.0769,
+    "commit": 0.6154,
+    "other": 0.1538,
+    "lookup_first": 0.1538,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.0769,
+    "card": 0.1538,
+    "commit": 0.6154,
+    "other": 0.1538,
+    "lookup_first": 0.0769,
+    "needless_ask": 0.0769,
+    "success_strict": 0.2308
+   },
+   "D_ask": 0.0769,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "level": "L2",
+   "prompt": "P2",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.2308,
+    "informed_ask": 0.0,
+    "card": 0.0,
+    "commit": 0.6923,
+    "other": 0.0769,
+    "lookup_first": 0.0,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.2308,
+    "card": 0.0769,
+    "commit": 0.6923,
+    "other": 0.0,
+    "lookup_first": 0.0,
+    "needless_ask": 0.2308,
+    "success_strict": 0.2308
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "level": "L2s",
+   "prompt": "P2",
+   "n_pairs": 13,
+   "A": {
+    "ask": 0.3077,
+    "informed_ask": 0.1538,
+    "card": 0.0,
+    "commit": 0.6923,
+    "other": 0.0,
+    "lookup_first": 0.1538,
+    "success_strict": 0.1538,
+    "success_lenient": 0.1538
+   },
+   "B": {
+    "ask": 0.2308,
+    "card": 0.1538,
+    "commit": 0.6154,
+    "other": 0.0,
+    "lookup_first": 0.0,
+    "needless_ask": 0.2308,
+    "success_strict": 0.1538
+   },
+   "D_ask": 0.0769,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "level": "L0r",
+   "prompt": "P0",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.1818,
+    "informed_ask": 0.0,
+    "card": 0.0,
+    "commit": 0.8182,
+    "other": 0.0,
+    "lookup_first": 0.0909,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.1818,
+    "card": 0.0909,
+    "commit": 0.7273,
+    "other": 0.0,
+    "lookup_first": 0.0909,
+    "needless_ask": 0.1818,
+    "success_strict": 0.2727
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "level": "L1",
+   "prompt": "P0",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.1818,
+    "informed_ask": 0.0,
+    "card": 0.0909,
+    "commit": 0.7273,
+    "other": 0.0,
+    "lookup_first": 0.0909,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.0909,
+    "card": 0.1818,
+    "commit": 0.7273,
+    "other": 0.0,
+    "lookup_first": 0.0,
+    "needless_ask": 0.0909,
+    "success_strict": 0.1818
+   },
+   "D_ask": 0.0909,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "level": "L2",
+   "prompt": "P0",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.0909,
+    "informed_ask": 0.0,
+    "card": 0.0,
+    "commit": 0.9091,
+    "other": 0.0,
+    "lookup_first": 0.0909,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.0909,
+    "card": 0.0909,
+    "commit": 0.7273,
+    "other": 0.0909,
+    "lookup_first": 0.0909,
+    "needless_ask": 0.0909,
+    "success_strict": 0.2727
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "level": "L2s",
+   "prompt": "P0",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.0,
+    "informed_ask": 0.0,
+    "card": 0.0909,
+    "commit": 0.6364,
+    "other": 0.2727,
+    "lookup_first": 0.0909,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.1818,
+    "card": 0.1818,
+    "commit": 0.5455,
+    "other": 0.0909,
+    "lookup_first": 0.0,
+    "needless_ask": 0.1818,
+    "success_strict": 0.1818
+   },
+   "D_ask": -0.1818,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "level": "L0r",
+   "prompt": "P2",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.3636,
+    "informed_ask": 0.0909,
+    "card": 0.0,
+    "commit": 0.6364,
+    "other": 0.0,
+    "lookup_first": 0.3636,
+    "success_strict": 0.0909,
+    "success_lenient": 0.0909
+   },
+   "B": {
+    "ask": 0.3636,
+    "card": 0.0,
+    "commit": 0.6364,
+    "other": 0.0,
+    "lookup_first": 0.3636,
+    "needless_ask": 0.3636,
+    "success_strict": 0.1818
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "level": "L1",
+   "prompt": "P2",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.0909,
+    "informed_ask": 0.0,
+    "card": 0.0909,
+    "commit": 0.7273,
+    "other": 0.0909,
+    "lookup_first": 0.0909,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.0909,
+    "card": 0.2727,
+    "commit": 0.6364,
+    "other": 0.0,
+    "lookup_first": 0.0909,
+    "needless_ask": 0.0909,
+    "success_strict": 0.2727
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "level": "L2",
+   "prompt": "P2",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.1818,
+    "informed_ask": 0.0,
+    "card": 0.0,
+    "commit": 0.7273,
+    "other": 0.0909,
+    "lookup_first": 0.0,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.1818,
+    "card": 0.0909,
+    "commit": 0.7273,
+    "other": 0.0,
+    "lookup_first": 0.0,
+    "needless_ask": 0.1818,
+    "success_strict": 0.2727
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "level": "L2s",
+   "prompt": "P2",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.2727,
+    "informed_ask": 0.0909,
+    "card": 0.0,
+    "commit": 0.7273,
+    "other": 0.0,
+    "lookup_first": 0.1818,
+    "success_strict": 0.0909,
+    "success_lenient": 0.0909
+   },
+   "B": {
+    "ask": 0.1818,
+    "card": 0.1818,
+    "commit": 0.6364,
+    "other": 0.0,
+    "lookup_first": 0.0909,
+    "needless_ask": 0.1818,
+    "success_strict": 0.1818
+   },
+   "D_ask": 0.0909,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "level": "L0r",
+   "prompt": "P0",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.0909,
+    "informed_ask": 0.0,
+    "card": 0.8182,
+    "commit": 0.0909,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "success_strict": 0.0,
+    "success_lenient": 0.3636
+   },
+   "B": {
+    "ask": 0.0909,
+    "card": 0.8182,
+    "commit": 0.0909,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "needless_ask": 0.0909,
+    "success_strict": 0.9091
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.3636,
+   "PP_judged": 0.3636
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "level": "L1",
+   "prompt": "P0",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.1818,
+    "informed_ask": 0.0909,
+    "card": 0.6364,
+    "commit": 0.0909,
+    "other": 0.0909,
+    "lookup_first": 0.9091,
+    "success_strict": 0.0909,
+    "success_lenient": 0.2727
+   },
+   "B": {
+    "ask": 0.0909,
+    "card": 0.8182,
+    "commit": 0.0909,
+    "other": 0.0,
+    "lookup_first": 0.9091,
+    "needless_ask": 0.0909,
+    "success_strict": 0.8182
+   },
+   "D_ask": 0.0909,
+   "PP_strict": 0.0909,
+   "PP_lenient": 0.2727,
+   "PP_judged": 0.2727
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "level": "L2",
+   "prompt": "P0",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.1818,
+    "informed_ask": 0.0909,
+    "card": 0.6364,
+    "commit": 0.0909,
+    "other": 0.0909,
+    "lookup_first": 0.9091,
+    "success_strict": 0.0909,
+    "success_lenient": 0.2727
+   },
+   "B": {
+    "ask": 0.1818,
+    "card": 0.7273,
+    "commit": 0.0909,
+    "other": 0.0,
+    "lookup_first": 0.9091,
+    "needless_ask": 0.1818,
+    "success_strict": 0.7273
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.1818,
+   "PP_judged": 0.1818
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "level": "L2s",
+   "prompt": "P0",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.0,
+    "informed_ask": 0.0,
+    "card": 1.0,
+    "commit": 0.0,
+    "other": 0.0,
+    "lookup_first": 0.9091,
+    "success_strict": 0.0,
+    "success_lenient": 0.5455
+   },
+   "B": {
+    "ask": 0.0,
+    "card": 0.9091,
+    "commit": 0.0909,
+    "other": 0.0,
+    "lookup_first": 0.9091,
+    "needless_ask": 0.0,
+    "success_strict": 0.9091
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.5455,
+   "PP_judged": 0.5455
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "level": "L0r",
+   "prompt": "P2",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.0909,
+    "informed_ask": 0.0,
+    "card": 0.8182,
+    "commit": 0.0909,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "success_strict": 0.0,
+    "success_lenient": 0.3636
+   },
+   "B": {
+    "ask": 0.0909,
+    "card": 0.8182,
+    "commit": 0.0909,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "needless_ask": 0.0909,
+    "success_strict": 0.9091
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.3636,
+   "PP_judged": 0.3636
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "level": "L1",
+   "prompt": "P2",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.2727,
+    "informed_ask": 0.0909,
+    "card": 0.5455,
+    "commit": 0.0909,
+    "other": 0.0909,
+    "lookup_first": 1.0,
+    "success_strict": 0.0909,
+    "success_lenient": 0.3636
+   },
+   "B": {
+    "ask": 0.0909,
+    "card": 0.8182,
+    "commit": 0.0909,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "needless_ask": 0.0909,
+    "success_strict": 0.8182
+   },
+   "D_ask": 0.1818,
+   "PP_strict": 0.0909,
+   "PP_lenient": 0.3636,
+   "PP_judged": 0.3636
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "level": "L2",
+   "prompt": "P2",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.0909,
+    "informed_ask": 0.0,
+    "card": 0.8182,
+    "commit": 0.0909,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "success_strict": 0.0,
+    "success_lenient": 0.3636
+   },
+   "B": {
+    "ask": 0.1818,
+    "card": 0.7273,
+    "commit": 0.0909,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "needless_ask": 0.1818,
+    "success_strict": 0.7273
+   },
+   "D_ask": -0.0909,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.2727,
+   "PP_judged": 0.2727
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "level": "L2s",
+   "prompt": "P2",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.0,
+    "informed_ask": 0.0,
+    "card": 0.9091,
+    "commit": 0.0909,
+    "other": 0.0,
+    "lookup_first": 1.0,
+    "success_strict": 0.0,
+    "success_lenient": 0.4545
+   },
+   "B": {
+    "ask": 0.0,
+    "card": 0.9091,
+    "commit": 0.0909,
+    "other": 0.0,
+    "lookup_first": 0.9091,
+    "needless_ask": 0.0,
+    "success_strict": 0.9091
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.4545,
+   "PP_judged": 0.4545
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "level": "L0r",
+   "prompt": "P0",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.1818,
+    "informed_ask": 0.0,
+    "card": 0.0,
+    "commit": 0.8182,
+    "other": 0.0,
+    "lookup_first": 0.0909,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.1818,
+    "card": 0.0909,
+    "commit": 0.7273,
+    "other": 0.0,
+    "lookup_first": 0.0909,
+    "needless_ask": 0.1818,
+    "success_strict": 0.2727
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "level": "L1",
+   "prompt": "P0",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.2727,
+    "informed_ask": 0.0,
+    "card": 0.0909,
+    "commit": 0.6364,
+    "other": 0.0,
+    "lookup_first": 0.0909,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.1818,
+    "card": 0.1818,
+    "commit": 0.6364,
+    "other": 0.0,
+    "lookup_first": 0.0909,
+    "needless_ask": 0.1818,
+    "success_strict": 0.1818
+   },
+   "D_ask": 0.0909,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "level": "L2",
+   "prompt": "P0",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.0909,
+    "informed_ask": 0.0,
+    "card": 0.0,
+    "commit": 0.9091,
+    "other": 0.0,
+    "lookup_first": 0.0909,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.0909,
+    "card": 0.0909,
+    "commit": 0.7273,
+    "other": 0.0909,
+    "lookup_first": 0.0909,
+    "needless_ask": 0.0909,
+    "success_strict": 0.2727
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "level": "L2s",
+   "prompt": "P0",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.1818,
+    "informed_ask": 0.0,
+    "card": 0.0909,
+    "commit": 0.5455,
+    "other": 0.1818,
+    "lookup_first": 0.0909,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.1818,
+    "card": 0.1818,
+    "commit": 0.5455,
+    "other": 0.0909,
+    "lookup_first": 0.0,
+    "needless_ask": 0.1818,
+    "success_strict": 0.1818
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "level": "L0r",
+   "prompt": "P2",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.2727,
+    "informed_ask": 0.0,
+    "card": 0.0,
+    "commit": 0.6364,
+    "other": 0.0909,
+    "lookup_first": 0.3636,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.3636,
+    "card": 0.0,
+    "commit": 0.6364,
+    "other": 0.0,
+    "lookup_first": 0.3636,
+    "needless_ask": 0.3636,
+    "success_strict": 0.1818
+   },
+   "D_ask": -0.0909,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "level": "L1",
+   "prompt": "P2",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.0909,
+    "informed_ask": 0.0,
+    "card": 0.0909,
+    "commit": 0.6364,
+    "other": 0.1818,
+    "lookup_first": 0.1818,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.0909,
+    "card": 0.1818,
+    "commit": 0.6364,
+    "other": 0.0909,
+    "lookup_first": 0.0909,
+    "needless_ask": 0.0909,
+    "success_strict": 0.2727
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "level": "L2",
+   "prompt": "P2",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.1818,
+    "informed_ask": 0.0,
+    "card": 0.0,
+    "commit": 0.7273,
+    "other": 0.0909,
+    "lookup_first": 0.0,
+    "success_strict": 0.0,
+    "success_lenient": 0.0
+   },
+   "B": {
+    "ask": 0.1818,
+    "card": 0.0909,
+    "commit": 0.7273,
+    "other": 0.0,
+    "lookup_first": 0.0,
+    "needless_ask": 0.1818,
+    "success_strict": 0.2727
+   },
+   "D_ask": 0.0,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "level": "L2s",
+   "prompt": "P2",
+   "n_pairs": 11,
+   "A": {
+    "ask": 0.2727,
+    "informed_ask": 0.0909,
+    "card": 0.0,
+    "commit": 0.7273,
+    "other": 0.0,
+    "lookup_first": 0.1818,
+    "success_strict": 0.0909,
+    "success_lenient": 0.0909
+   },
+   "B": {
+    "ask": 0.1818,
+    "card": 0.1818,
+    "commit": 0.6364,
+    "other": 0.0,
+    "lookup_first": 0.0,
+    "needless_ask": 0.1818,
+    "success_strict": 0.1818
+   },
+   "D_ask": 0.0909,
+   "PP_strict": 0.0,
+   "PP_lenient": 0.0,
+   "PP_judged": 0.0
+  }
+ ],
+ "contrasts": [
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.3846,
+    0.1538
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.2308,
+   "ci95": [
+    0.0,
+    0.4615
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    -0.2308,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    -0.2308,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.1538,
+   "ci95": [
+    -0.3846,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.3077,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.3077,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.1538,
+   "ci95": [
+    0.0,
+    0.3846
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    -0.3077,
+    0.3077
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    -0.3077,
+    0.3077
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.2308,
+   "ci95": [
+    -0.6154,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.1538,
+   "ci95": [
+    -0.3846,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.1538,
+   "ci95": [
+    -0.3846,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.3077,
+    0.1538
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.3077,
+    0.1538
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.3077,
+   "ci95": [
+    0.0769,
+    0.5385
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.3077,
+   "ci95": [
+    0.0769,
+    0.5385
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.1538,
+   "ci95": [
+    0.0,
+    0.3846
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.1538,
+   "ci95": [
+    0.0,
+    0.3846
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    -0.3077,
+    0.3077
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    -0.1538,
+    0.3077
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.1538,
+   "ci95": [
+    -0.1538,
+    0.4615
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.2308,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": -0.0769,
+   "ci95": [
+    -0.3077,
+    0.1538
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    -0.2308,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "dask",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0769,
+   "ci95": [
+    0.0,
+    0.2308
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_judged",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "all",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_strict",
+   "n_pairs": 13,
+   "n_clusters": 13,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.3636,
+    0.1818
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.2727,
+   "ci95": [
+    0.0,
+    0.5455
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    -0.2727,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    -0.2727,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.1818,
+   "ci95": [
+    -0.4545,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "base",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.3636,
+    0.1818
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.3636,
+    0.1818
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.1818,
+   "ci95": [
+    0.0,
+    0.4545
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    -0.3636,
+    0.3636
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    -0.3636,
+    0.3636
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.2727,
+   "ci95": [
+    -0.7273,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.1818,
+   "ci95": [
+    -0.4545,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.1818,
+   "ci95": [
+    -0.4545,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.3636,
+    0.1818
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.3636,
+    0.1818
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.3636,
+   "ci95": [
+    0.0909,
+    0.6364
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.3636,
+   "ci95": [
+    0.0909,
+    0.6364
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.1818,
+   "ci95": [
+    0.0,
+    0.4545
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.1818,
+   "ci95": [
+    0.0,
+    0.4545
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m1",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L0r/P0",
+   "to": "L0r/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.3636,
+    0.1818
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L1/P0",
+   "to": "L1/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2/P0",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    -0.1818,
+    0.3636
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "hint",
+   "from": "L2s/P0",
+   "to": "L2s/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    -0.1818,
+    0.3636
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "context",
+   "from": "L0r/P2",
+   "to": "L1/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": -0.0909,
+   "ci95": [
+    -0.2727,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P0",
+   "to": "L2/P0",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    -0.2727,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "burial",
+   "from": "L1/P2",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "realism",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    -0.2727,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P0",
+   "to": "L2s/P0",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "dask",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0909,
+   "ci95": [
+    0.0,
+    0.2727
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_lenient",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_judged",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "stratum": "excl",
+   "arm": "m3",
+   "contrast": "salience_diag",
+   "from": "L2/P2",
+   "to": "L2s/P2",
+   "metric": "pp_strict",
+   "n_pairs": 11,
+   "n_clusters": 11,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  }
+ ],
+ "act_items_P2": [
+  {
+   "arm": "base",
+   "level": "L0r",
+   "n": 2,
+   "strict": 1.0,
+   "lenient": 1.0,
+   "decisions": {
+    "commit_other": 2
+   }
+  },
+  {
+   "arm": "base",
+   "level": "L1",
+   "n": 2,
+   "strict": 0.5,
+   "lenient": 1.0,
+   "decisions": {
+    "commit_other": 1,
+    "approve_generic": 1
+   }
+  },
+  {
+   "arm": "base",
+   "level": "L2",
+   "n": 2,
+   "strict": 1.0,
+   "lenient": 1.0,
+   "decisions": {
+    "commit_gold": 1,
+    "commit_other": 1
+   }
+  },
+  {
+   "arm": "base",
+   "level": "L2s",
+   "n": 2,
+   "strict": 0.5,
+   "lenient": 1.0,
+   "decisions": {
+    "approve_informed": 1,
+    "commit_other": 1
+   }
+  },
+  {
+   "arm": "m1",
+   "level": "L0r",
+   "n": 2,
+   "strict": 0.5,
+   "lenient": 0.5,
+   "decisions": {
+    "ask_generic": 1,
+    "commit_gold": 1
+   }
+  },
+  {
+   "arm": "m1",
+   "level": "L1",
+   "n": 2,
+   "strict": 0.5,
+   "lenient": 1.0,
+   "decisions": {
+    "approve_generic": 1,
+    "commit_gold": 1
+   }
+  },
+  {
+   "arm": "m1",
+   "level": "L2",
+   "n": 2,
+   "strict": 0.5,
+   "lenient": 1.0,
+   "decisions": {
+    "approve_generic": 1,
+    "commit_gold": 1
+   }
+  },
+  {
+   "arm": "m1",
+   "level": "L2s",
+   "n": 2,
+   "strict": 0.5,
+   "lenient": 1.0,
+   "decisions": {
+    "commit_gold": 1,
+    "approve_generic": 1
+   }
+  },
+  {
+   "arm": "m3",
+   "level": "L0r",
+   "n": 2,
+   "strict": 1.0,
+   "lenient": 1.0,
+   "decisions": {
+    "commit_other": 2
+   }
+  },
+  {
+   "arm": "m3",
+   "level": "L1",
+   "n": 2,
+   "strict": 0.5,
+   "lenient": 0.5,
+   "decisions": {
+    "commit_other": 1,
+    "invalid": 1
+   }
+  },
+  {
+   "arm": "m3",
+   "level": "L2",
+   "n": 2,
+   "strict": 1.0,
+   "lenient": 1.0,
+   "decisions": {
+    "commit_gold": 1,
+    "commit_other": 1
+   }
+  },
+  {
+   "arm": "m3",
+   "level": "L2s",
+   "n": 2,
+   "strict": 0.5,
+   "lenient": 1.0,
+   "decisions": {
+    "approve_informed": 1,
+    "commit_other": 1
+   }
+  }
+ ],
+ "decision_rule": "prompt not limiting an arm iff its hint (P2-P0) and burial (L2-L1) effects on D_ask both have 95 % CIs that include 0",
+ "rule_verdicts": {
+  "base": {
+   "prompt_limiting": false,
+   "effects_excluding_0": []
+  },
+  "m1": {
+   "prompt_limiting": false,
+   "effects_excluding_0": []
+  },
+  "m3": {
+   "prompt_limiting": false,
+   "effects_excluding_0": []
+  }
+ }
+}

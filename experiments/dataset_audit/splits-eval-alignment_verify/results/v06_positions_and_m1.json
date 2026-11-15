@@ -1,0 +1,366 @@
+{
+ "part1_positions_median_tokens_from_end": {
+  "L1": {
+   "total": 4171,
+   "policy_start": 3677,
+   "policy_end(member_block_start)": 2176,
+   "history_start": 2091,
+   "history_end": 1688,
+   "tool_docs_start": 1551,
+   "protocol_start": 301,
+   "request_start": 108
+  },
+  "L2": {
+   "total": 6778,
+   "policy_start": 6194,
+   "policy_end(member_block_start)": 4335,
+   "history_start": 4246,
+   "history_end": 2884,
+   "tool_docs_start": 1856,
+   "protocol_start": 343,
+   "request_start": 127
+  },
+  "L0r": {
+   "total": 1334,
+   "policy_start": 862,
+   "policy_end(member_block_start)": 863,
+   "tool_docs_start": 807,
+   "protocol_start": 282,
+   "request_start": 105
+  },
+  "L3": {
+   "total": 6826,
+   "policy_start": 6247,
+   "policy_end(member_block_start)": 4383,
+   "history_start": 4303,
+   "history_end": 2812,
+   "tool_docs_start": 1850,
+   "protocol_start": 357,
+   "request_start": 135
+  }
+ },
+ "part1_beyond_4096": {
+  "L0r|history_start_beyond_4096": 0,
+  "L0r|policy_entirely_beyond_4096": 0,
+  "L0r|policy_start_beyond_4096": 0,
+  "L0r|prompt_over_4096": 0,
+  "L0r|rows": 152,
+  "L1|history_start_beyond_4096": 0,
+  "L1|policy_entirely_beyond_4096": 0,
+  "L1|policy_start_beyond_4096": 1,
+  "L1|prompt_over_4096": 83,
+  "L1|rows": 151,
+  "L2|history_start_beyond_4096": 118,
+  "L2|policy_entirely_beyond_4096": 132,
+  "L2|policy_start_beyond_4096": 144,
+  "L2|prompt_over_4096": 144,
+  "L2|rows": 144,
+  "L3|history_start_beyond_4096": 44,
+  "L3|policy_entirely_beyond_4096": 45,
+  "L3|policy_start_beyond_4096": 50,
+  "L3|prompt_over_4096": 50,
+  "L3|rows": 50
+ },
+ "part2_m1": {
+  "n_samples": 960,
+  "n_unique_prompts": 120,
+  "ambiguous_prompt_settings": [],
+  "decision_distribution": {
+   "A": {
+    "ask_informed": 220,
+    "approve_generic": 83,
+    "approve_informed": 75,
+    "ask_generic": 36,
+    "lookup": 26,
+    "tell_informed": 8,
+    "commit_other": 6,
+    "approve_gold": 4,
+    "invalid": 3,
+    "commit_gold": 1,
+    "commit_harmful": 1,
+    "statement": 1
+   },
+   "B": {
+    "approve_generic": 242,
+    "ask_generic": 101,
+    "ask_informed": 84,
+    "commit_gold": 24,
+    "approve_informed": 19,
+    "commit_other": 10,
+    "lookup": 6,
+    "invalid": 4,
+    "tell_informed": 3,
+    "statement": 3
+   }
+  },
+  "overall": {
+   "ok": 503,
+   "n": 960,
+   "acc": 0.524,
+   "n_prompts": 120,
+   "ci95_prompt_cluster": [
+    0.478,
+    0.572
+   ]
+  },
+  "by_level": {
+   "L0r": {
+    "ok": 171,
+    "n": 352,
+    "acc": 0.486,
+    "n_prompts": 44,
+    "ci95_prompt_cluster": [
+     0.418,
+     0.557
+    ]
+   },
+   "L1": {
+    "ok": 138,
+    "n": 264,
+    "acc": 0.523,
+    "n_prompts": 33,
+    "ci95_prompt_cluster": [
+     0.428,
+     0.61
+    ]
+   },
+   "L2": {
+    "ok": 148,
+    "n": 248,
+    "acc": 0.597,
+    "n_prompts": 31,
+    "ci95_prompt_cluster": [
+     0.504,
+     0.685
+    ]
+   },
+   "L3": {
+    "ok": 46,
+    "n": 96,
+    "acc": 0.479,
+    "n_prompts": 12,
+    "ci95_prompt_cluster": [
+     0.312,
+     0.646
+    ]
+   }
+  },
+  "by_twin_prompt": {
+   "A|P0": {
+    "ok": 162,
+    "n": 336,
+    "acc": 0.482,
+    "n_prompts": 42,
+    "ci95_prompt_cluster": [
+     0.396,
+     0.565
+    ]
+   },
+   "A|P2": {
+    "ok": 66,
+    "n": 128,
+    "acc": 0.516,
+    "n_prompts": 16,
+    "ci95_prompt_cluster": [
+     0.367,
+     0.648
+    ]
+   },
+   "B|P0": {
+    "ok": 189,
+    "n": 344,
+    "acc": 0.549,
+    "n_prompts": 43,
+    "ci95_prompt_cluster": [
+     0.474,
+     0.625
+    ]
+   },
+   "B|P2": {
+    "ok": 86,
+    "n": 152,
+    "acc": 0.566,
+    "n_prompts": 19,
+    "ci95_prompt_cluster": [
+     0.5,
+     0.625
+    ]
+   }
+  },
+  "by_twin_level": {
+   "A|L0r": {
+    "ok": 77,
+    "n": 176,
+    "acc": 0.438,
+    "n_prompts": 22,
+    "ci95_prompt_cluster": [
+     0.335,
+     0.54
+    ]
+   },
+   "A|L1": {
+    "ok": 58,
+    "n": 112,
+    "acc": 0.518,
+    "n_prompts": 14,
+    "ci95_prompt_cluster": [
+     0.348,
+     0.688
+    ]
+   },
+   "A|L2": {
+    "ok": 75,
+    "n": 128,
+    "acc": 0.586,
+    "n_prompts": 16,
+    "ci95_prompt_cluster": [
+     0.438,
+     0.703
+    ]
+   },
+   "A|L3": {
+    "ok": 18,
+    "n": 48,
+    "acc": 0.375,
+    "n_prompts": 6,
+    "ci95_prompt_cluster": [
+     0.083,
+     0.667
+    ]
+   },
+   "B|L0r": {
+    "ok": 94,
+    "n": 176,
+    "acc": 0.534,
+    "n_prompts": 22,
+    "ci95_prompt_cluster": [
+     0.438,
+     0.625
+    ]
+   },
+   "B|L1": {
+    "ok": 80,
+    "n": 152,
+    "acc": 0.526,
+    "n_prompts": 19,
+    "ci95_prompt_cluster": [
+     0.421,
+     0.618
+    ]
+   },
+   "B|L2": {
+    "ok": 73,
+    "n": 120,
+    "acc": 0.608,
+    "n_prompts": 15,
+    "ci95_prompt_cluster": [
+     0.483,
+     0.725
+    ]
+   },
+   "B|L3": {
+    "ok": 28,
+    "n": 48,
+    "acc": 0.583,
+    "n_prompts": 6,
+    "ci95_prompt_cluster": [
+     0.5,
+     0.708
+    ]
+   }
+  },
+  "p_ask_type": {
+   "A": 0.569,
+   "B": 0.379
+  },
+  "twinB_approve_rows_asking": {
+   "P0": [
+    132,
+    328
+   ],
+   "P2": [
+    49,
+    128
+   ]
+  },
+  "by_step_block": {
+   "steps 0-9": {
+    "ok": 169,
+    "n": 320,
+    "acc": 0.528,
+    "n_prompts": 40,
+    "ci95_prompt_cluster": [
+     0.441,
+     0.619
+    ]
+   },
+   "steps 10-19": {
+    "ok": 169,
+    "n": 320,
+    "acc": 0.528,
+    "n_prompts": 40,
+    "ci95_prompt_cluster": [
+     0.45,
+     0.6
+    ]
+   },
+   "steps 20-29": {
+    "ok": 165,
+    "n": 320,
+    "acc": 0.516,
+    "n_prompts": 40,
+    "ci95_prompt_cluster": [
+     0.434,
+     0.594
+    ]
+   }
+  },
+  "within_scenario_level_diffs": {
+   "L2-L0r": {
+    "n_scenarios": 8,
+    "mean_diff": 0.109
+   },
+   "L3-L0r": {
+    "n_scenarios": 2,
+    "mean_diff": 0.25
+   },
+   "L3-L2": {
+    "n_scenarios": 4,
+    "mean_diff": -0.062
+   },
+   "L2-L1": {
+    "n_scenarios": 7,
+    "mean_diff": 0.125
+   },
+   "L1-L0r": {
+    "n_scenarios": 7,
+    "mean_diff": 0.161
+   },
+   "L3-L1": {
+    "n_scenarios": 2,
+    "mean_diff": -0.062
+   }
+  },
+  "n_scenarios_sampled_at_2plus_levels": 26,
+  "per_prompt_correct_out_of_8_histogram": {
+   "0": 9,
+   "1": 8,
+   "2": 7,
+   "3": 15,
+   "4": 24,
+   "5": 25,
+   "6": 12,
+   "7": 17,
+   "8": 3
+  },
+  "grpo_prompts_identical_to_sft_decision_prompt": [
+   496,
+   496
+  ],
+  "grpo_prompts_without_sft_decision_row": 0,
+  "sampled_prompts_with_identical_sft_decision_prompt": [
+   120,
+   120
+  ]
+ }
+}

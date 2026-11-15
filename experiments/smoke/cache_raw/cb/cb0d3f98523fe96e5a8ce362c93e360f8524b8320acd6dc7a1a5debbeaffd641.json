@@ -1,0 +1,1 @@
+{"text": "{\n  \"order_paid_amount_inr\": 1999,\n  \"order_paid_date\": \"2023-12-21\",\n  \"order_status\": \"shipped\",\n  \"upi_name\": \"Rohit Traders\"\n}", "usage": {"completion_tokens": 57, "prompt_tokens": 272, "total_tokens": 329, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 5.5830000000000006e-05}, "finish": "stop"}

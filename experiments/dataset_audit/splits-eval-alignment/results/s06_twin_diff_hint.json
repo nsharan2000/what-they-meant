@@ -1,0 +1,519 @@
+{
+ "a_twin_diff_by_level": {
+  "L0r": {
+   "pairs_with_both_twins": 75,
+   "where_A_and_B_differ": {
+    "lookup_result": 37,
+    "lookup_result+request": 10,
+    "lookup_call+lookup_result+request": 9,
+    "lookup_result+system": 7,
+    "request": 6,
+    "lookup_result+request+system": 5,
+    "lookup_call+lookup_result": 1
+   },
+   "share_differ_only_in_lookup_result": 0.493,
+   "share_system_prompt_differs": 0.16,
+   "diff_tokens_p50": 13,
+   "diff_share_of_prompt_p50": 0.0095,
+   "earliest_diff_offset_p10_p50_p90": [
+    38,
+    104,
+    839
+   ],
+   "pairs_whose_earliest_diff_is_beyond_4096": 0,
+   "pairs_identical_after_hint_strip": 0
+  },
+  "L1": {
+   "pairs_with_both_twins": 75,
+   "where_A_and_B_differ": {
+    "lookup_result": 43,
+    "lookup_result+request": 14,
+    "lookup_call+lookup_result+request": 9,
+    "request": 6,
+    "lookup_result+request+system": 1,
+    "lookup_call+lookup_result": 1,
+    "lookup_result+system": 1
+   },
+   "share_differ_only_in_lookup_result": 0.573,
+   "share_system_prompt_differs": 0.027,
+   "diff_tokens_p50": 12,
+   "diff_share_of_prompt_p50": 0.0028,
+   "earliest_diff_offset_p10_p50_p90": [
+    38,
+    82,
+    168
+   ],
+   "pairs_whose_earliest_diff_is_beyond_4096": 0,
+   "pairs_identical_after_hint_strip": 0
+  },
+  "L2": {
+   "pairs_with_both_twins": 72,
+   "where_A_and_B_differ": {
+    "lookup_result": 41,
+    "lookup_result+request": 13,
+    "lookup_call+lookup_result+request": 9,
+    "request": 6,
+    "lookup_result+request+system": 1,
+    "lookup_call+lookup_result": 1,
+    "lookup_result+system": 1
+   },
+   "share_differ_only_in_lookup_result": 0.569,
+   "share_system_prompt_differs": 0.028,
+   "diff_tokens_p50": 13,
+   "diff_share_of_prompt_p50": 0.0019,
+   "earliest_diff_offset_p10_p50_p90": [
+    38,
+    86,
+    175
+   ],
+   "pairs_whose_earliest_diff_is_beyond_4096": 2,
+   "pairs_identical_after_hint_strip": 0
+  },
+  "L3": {
+   "pairs_with_both_twins": 25,
+   "where_A_and_B_differ": {
+    "lookup_result": 12,
+    "lookup_result+request": 4,
+    "request": 3,
+    "lookup_call+lookup_result+request": 3,
+    "lookup_result+request+system": 1,
+    "lookup_call+lookup_result": 1,
+    "lookup_result+system": 1
+   },
+   "share_differ_only_in_lookup_result": 0.48,
+   "share_system_prompt_differs": 0.08,
+   "diff_tokens_p50": 14,
+   "diff_share_of_prompt_p50": 0.0021,
+   "earliest_diff_offset_p10_p50_p90": [
+    42,
+    89,
+    212
+   ],
+   "pairs_whose_earliest_diff_is_beyond_4096": 2,
+   "pairs_identical_after_hint_strip": 0
+  }
+ },
+ "a_examples_diff_beyond_window": [
+  {
+   "pair_id": "S12",
+   "level": "L2",
+   "A_i": 226,
+   "B_i": 708,
+   "where": [
+    "lookup_result",
+    "request",
+    "system"
+   ],
+   "diff_tokens_in_A": 491,
+   "earliest_diff_offset_from_end": 4640,
+   "A_total_tokens": 6611
+  },
+  {
+   "pair_id": "S54",
+   "level": "L2",
+   "A_i": 817,
+   "B_i": 166,
+   "where": [
+    "lookup_result",
+    "system"
+   ],
+   "diff_tokens_in_A": 55,
+   "earliest_diff_offset_from_end": 4625,
+   "A_total_tokens": 6600
+  },
+  {
+   "pair_id": "S12",
+   "level": "L3",
+   "A_i": 850,
+   "B_i": 420,
+   "where": [
+    "lookup_result",
+    "request",
+    "system"
+   ],
+   "diff_tokens_in_A": 491,
+   "earliest_diff_offset_from_end": 4643,
+   "A_total_tokens": 6614
+  },
+  {
+   "pair_id": "S54",
+   "level": "L3",
+   "A_i": 147,
+   "B_i": 530,
+   "where": [
+    "lookup_result",
+    "system"
+   ],
+   "diff_tokens_in_A": 55,
+   "earliest_diff_offset_from_end": 4628,
+   "A_total_tokens": 6603
+  }
+ ],
+ "a_examples_identical": [],
+ "a_examples_lookup_result_only_L2": [
+  {
+   "pair_id": "S04",
+   "level": "L2",
+   "A_i": 139,
+   "B_i": 181,
+   "where": [
+    "lookup_result"
+   ],
+   "diff_tokens_in_A": 10,
+   "earliest_diff_offset_from_end": 43,
+   "A_total_tokens": 7087
+  },
+  {
+   "pair_id": "S11",
+   "level": "L2",
+   "A_i": 785,
+   "B_i": 299,
+   "where": [
+    "lookup_result"
+   ],
+   "diff_tokens_in_A": 18,
+   "earliest_diff_offset_from_end": 72,
+   "A_total_tokens": 6797
+  },
+  {
+   "pair_id": "S14",
+   "level": "L2",
+   "A_i": 618,
+   "B_i": 82,
+   "where": [
+    "lookup_result"
+   ],
+   "diff_tokens_in_A": 11,
+   "earliest_diff_offset_from_end": 41,
+   "A_total_tokens": 6892
+  },
+  {
+   "pair_id": "S15",
+   "level": "L2",
+   "A_i": 524,
+   "B_i": 515,
+   "where": [
+    "lookup_result"
+   ],
+   "diff_tokens_in_A": 4,
+   "earliest_diff_offset_from_end": 45,
+   "A_total_tokens": 6584
+  },
+  {
+   "pair_id": "S18",
+   "level": "L2",
+   "A_i": 531,
+   "B_i": 767,
+   "where": [
+    "lookup_result"
+   ],
+   "diff_tokens_in_A": 17,
+   "earliest_diff_offset_from_end": 96,
+   "A_total_tokens": 7249
+  }
+ ],
+ "b_target_class_by_prompt_setting": {
+  "dpo_train|P0|A|ask_informed": 178,
+  "dpo_train|P0|B|card": 153,
+  "dpo_train|P0|B|commit_or_other_tool": 14,
+  "dpo_train|P2|A|ask_informed": 69,
+  "dpo_train|P2|B|card": 78,
+  "dpo_train|P2|B|commit_or_other_tool": 4,
+  "sft_train|P0|A|ask_informed": 178,
+  "sft_train|P0|B|card": 153,
+  "sft_train|P0|B|commit_or_other_tool": 14,
+  "sft_train|P2|A|ask_informed": 69,
+  "sft_train|P2|B|card": 78,
+  "sft_train|P2|B|commit_or_other_tool": 4,
+  "sft_train|P2|P|ask_informed": 1,
+  "sft_val|P0|A|ask_informed": 39,
+  "sft_val|P0|B|card": 36,
+  "sft_val|P0|B|commit_or_other_tool": 7,
+  "sft_val|P2|A|ask_informed": 17,
+  "sft_val|P2|B|card": 10,
+  "sft_val|P2|B|commit_or_other_tool": 3
+ },
+ "b_p2_rows_where_target_contradicts_hint": {
+  "sft_train": [
+   {
+    "i": 82,
+    "scenario_id": "S14B",
+    "level": "L2",
+    "class": "commit_or_other_tool",
+    "target": "<tool_call>{\"name\": \"charge_customer\", \"arguments\": {\"order_id\": \"5521\", \"amount\": 89.0, \"currency\": \"USD\"}}</tool_call>",
+    "expected": "act",
+    "accept": null
+   },
+   {
+    "i": 100,
+    "scenario_id": "V104B",
+    "level": "L0r",
+    "class": "commit_or_other_tool",
+    "target": "<tool_call>{\"name\": \"pay\", \"arguments\": {\"merchant\": \"XMP Studio\", \"amount\": 89.99, \"currency\": \"USD\", \"order_id\": \"ORD-XMP-2291\"}}</tool_call>",
+    "expected": "act",
+    "accept": null
+   },
+   {
+    "i": 155,
+    "scenario_id": "V104B",
+    "level": "L1",
+    "class": "commit_or_other_tool",
+    "target": "<tool_call>{\"name\": \"pay\", \"arguments\": {\"merchant\": \"XMP Studio\", \"amount\": 89.99, \"currency\": \"USD\", \"order_id\": \"ORD-XMP-2291\"}}</tool_call>",
+    "expected": "act",
+    "accept": null
+   },
+   {
+    "i": 759,
+    "scenario_id": "S14B",
+    "level": "L3",
+    "class": "commit_or_other_tool",
+    "target": "<tool_call>{\"name\": \"charge_customer\", \"arguments\": {\"order_id\": \"5521\", \"amount\": 89.0, \"currency\": \"USD\"}}</tool_call>",
+    "expected": "act",
+    "accept": null
+   }
+  ],
+  "sft_val": [
+   {
+    "i": 41,
+    "scenario_id": "S36B",
+    "level": "L1",
+    "class": "commit_or_other_tool",
+    "target": "<tool_call>{\"name\": \"click_button\", \"arguments\": {\"page\": \"PhotoForge > Manage plan\", \"button\": \"Cancel subscription\"}}</tool_call>",
+    "expected": "act",
+    "accept": null
+   },
+   {
+    "i": 183,
+    "scenario_id": "V361B",
+    "level": "L0r",
+    "class": "commit_or_other_tool",
+    "target": "<tool_call>{\"name\": \"click_button\", \"arguments\": {\"page\": \"Quillo AI > Manage plan\", \"button\": \"Cancel subscription\"}}</tool_call>",
+    "expected": "act",
+    "accept": null
+   },
+   {
+    "i": 199,
+    "scenario_id": "V361B",
+    "level": "L2",
+    "class": "commit_or_other_tool",
+    "target": "<tool_call>{\"name\": \"click_button\", \"arguments\": {\"page\": \"Quillo AI > Manage plan\", \"button\": \"Cancel subscription\"}}</tool_call>",
+    "expected": "act",
+    "accept": null
+   }
+  ],
+  "dpo_train": [
+   {
+    "i": 115,
+    "scenario_id": "S14B",
+    "level": "L3",
+    "class": "commit_or_other_tool",
+    "target": "<tool_call>{\"name\": \"charge_customer\", \"arguments\": {\"order_id\": \"5521\", \"amount\": 89.0, \"currency\": \"USD\"}}</tool_call>",
+    "expected": "act",
+    "accept": null
+   },
+   {
+    "i": 138,
+    "scenario_id": "S14B",
+    "level": "L2",
+    "class": "commit_or_other_tool",
+    "target": "<tool_call>{\"name\": \"charge_customer\", \"arguments\": {\"order_id\": \"5521\", \"amount\": 89.0, \"currency\": \"USD\"}}</tool_call>",
+    "expected": "act",
+    "accept": null
+   },
+   {
+    "i": 288,
+    "scenario_id": "V104B",
+    "level": "L1",
+    "class": "commit_or_other_tool",
+    "target": "<tool_call>{\"name\": \"pay\", \"arguments\": {\"merchant\": \"XMP Studio\", \"amount\": 89.99, \"currency\": \"USD\", \"order_id\": \"ORD-XMP-2291\"}}</tool_call>",
+    "expected": "act",
+    "accept": null
+   },
+   {
+    "i": 456,
+    "scenario_id": "V104B",
+    "level": "L0r",
+    "class": "commit_or_other_tool",
+    "target": "<tool_call>{\"name\": \"pay\", \"arguments\": {\"merchant\": \"XMP Studio\", \"amount\": 89.99, \"currency\": \"USD\", \"order_id\": \"ORD-XMP-2291\"}}</tool_call>",
+    "expected": "act",
+    "accept": null
+   }
+  ]
+ },
+ "b_twinA_message_targets_words_p10_p50_p90": [
+  22,
+  28,
+  35
+ ],
+ "b_twinA_message_targets_question_marks": {
+  "1": 245,
+  "2": 3
+ },
+ "b_twinB_expected_and_target_kind": {
+  "train_trained|expected=approve|target=card": 71,
+  "train_trained|expected=act|target=tool_call:schedule_job": 2,
+  "train_trained|expected=act|target=tool_call:charge_customer": 1,
+  "train_trained|expected=act|target=tool_call:pay": 1,
+  "train_trained|expected=act|target=tool_call:register_domain": 1
+ },
+ "c_m1_samples_by_prompt_setting": {
+  "P0|A": {
+   "correct": 162,
+   "n": 336,
+   "rate": 0.482
+  },
+  "P0|A|L0r": {
+   "correct": 52,
+   "n": 120,
+   "rate": 0.433
+  },
+  "P0|A|L1": {
+   "correct": 42,
+   "n": 88,
+   "rate": 0.477
+  },
+  "P0|A|L2": {
+   "correct": 50,
+   "n": 88,
+   "rate": 0.568
+  },
+  "P0|A|L3": {
+   "correct": 18,
+   "n": 40,
+   "rate": 0.45
+  },
+  "P0|B": {
+   "correct": 189,
+   "n": 344,
+   "rate": 0.549
+  },
+  "P0|B|L0r": {
+   "correct": 70,
+   "n": 136,
+   "rate": 0.515
+  },
+  "P0|B|L1": {
+   "correct": 61,
+   "n": 112,
+   "rate": 0.545
+  },
+  "P0|B|L2": {
+   "correct": 35,
+   "n": 56,
+   "rate": 0.625
+  },
+  "P0|B|L3": {
+   "correct": 23,
+   "n": 40,
+   "rate": 0.575
+  },
+  "P2|A": {
+   "correct": 66,
+   "n": 128,
+   "rate": 0.516
+  },
+  "P2|A|L0r": {
+   "correct": 25,
+   "n": 56,
+   "rate": 0.446
+  },
+  "P2|A|L1": {
+   "correct": 16,
+   "n": 24,
+   "rate": 0.667
+  },
+  "P2|A|L2": {
+   "correct": 25,
+   "n": 40,
+   "rate": 0.625
+  },
+  "P2|A|L3": {
+   "correct": 0,
+   "n": 8,
+   "rate": 0.0
+  },
+  "P2|B": {
+   "correct": 86,
+   "n": 152,
+   "rate": 0.566
+  },
+  "P2|B|L0r": {
+   "correct": 24,
+   "n": 40,
+   "rate": 0.6
+  },
+  "P2|B|L1": {
+   "correct": 19,
+   "n": 40,
+   "rate": 0.475
+  },
+  "P2|B|L2": {
+   "correct": 38,
+   "n": 64,
+   "rate": 0.594
+  },
+  "P2|B|L3": {
+   "correct": 5,
+   "n": 8,
+   "rate": 0.625
+  }
+ },
+ "c_m1_decision_distribution": {
+  "A|P0": {
+   "ask_informed": 154,
+   "approve_generic": 66,
+   "approve_informed": 47,
+   "ask_generic": 27,
+   "lookup": 21,
+   "tell_informed": 8,
+   "commit_other": 5,
+   "approve_gold": 4,
+   "invalid": 2,
+   "commit_gold": 1,
+   "commit_harmful": 1
+  },
+  "A|P2": {
+   "ask_informed": 66,
+   "approve_informed": 28,
+   "approve_generic": 17,
+   "ask_generic": 9,
+   "lookup": 5,
+   "invalid": 1,
+   "commit_other": 1,
+   "statement": 1
+  },
+  "B|expected=act|P0": {
+   "commit_gold": 9,
+   "approve_generic": 4,
+   "commit_other": 2,
+   "invalid": 1
+  },
+  "B|expected=act|P2": {
+   "commit_gold": 10,
+   "approve_generic": 5,
+   "ask_informed": 5,
+   "commit_other": 2,
+   "ask_generic": 2
+  },
+  "B|expected=approve|P0": {
+   "approve_generic": 168,
+   "ask_generic": 71,
+   "ask_informed": 58,
+   "approve_informed": 10,
+   "lookup": 6,
+   "commit_other": 6,
+   "tell_informed": 3,
+   "invalid": 3,
+   "commit_gold": 2,
+   "statement": 1
+  },
+  "B|expected=approve|P2": {
+   "approve_generic": 65,
+   "ask_generic": 28,
+   "ask_informed": 21,
+   "approve_informed": 9,
+   "commit_gold": 3,
+   "statement": 2
+  }
+ }
+}

@@ -1,0 +1,2300 @@
+{
+ "member_id": "tara_singh",
+ "profile": {
+  "name": "Tara Singh",
+  "age": 25,
+  "sex": "Female",
+  "city": "Ealing, London",
+  "country": "United Kingdom",
+  "currency": "GBP",
+  "occupation": "Part-time postgraduate student; NHS bank support worker",
+  "summary": "Customer since 2019. Studies part-time (MA Art Psychotherapy) and works NHS bank shifts; lives with her parents and younger siblings in Ealing. Keen photographer.",
+  "persona": {
+   "persona": "Tara Singh is a spontaneous, art-loving student who balances a deep commitment to her family and faith with a rebellious streak that makes her dread deadlines.",
+   "professional_persona": "A former therapy professional turned student, Tara Singh leverages her exceptional interpersonal rapport to challenge rigid clinical protocols in favour of fluid, innovative approaches to mental wellbeing.",
+   "cultural_background": "Born in India and now residing in Ealing, Tara Singh grew up in a household where Sikh traditions and values are central. She maintains a diet that avoids beef and halal meat, frequently eating vegetarian meals. Her upbringing combines traditional Indian family structures, living with her parents and younger siblings, with an outgoing, modern outlook on life and an openness to diverse international experiences.",
+   "sex": "Female",
+   "age": 25,
+   "marital_status": "Never married",
+   "education_level": "Degree or other higher education",
+   "occupation": "Does not apply",
+   "country": "United Kingdom"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-UK",
+   "split": "train",
+   "uuid": "b790220a-cf97-4935-96a3-a9c5c130a929",
+   "license": "CC-BY-4.0",
+   "match": {
+    "country": "UK",
+    "age": 25,
+    "sex": "Female",
+    "seed": 15,
+    "reason": "closest-age female UK persona with Sikh heritage (fits the surname Singh); seed 0 is a Lewes carer with no South Asian context"
+   },
+   "adaptation": "persona name 'Honey' replaced with 'Tara Singh'; age 23 replaced with 25"
+  }
+ },
+ "account_profile": {
+  "customer_id": "LDG-UK-40217",
+  "name": "Tara Singh",
+  "email": "tara.k.singh94@gmail.com",
+  "phone": "+44 7700 900417",
+  "address": "Flat 2, 18 Larkvale Gardens, London W7",
+  "member_since": "2019-09-16",
+  "segment": "Graduate",
+  "language": "en-GB",
+  "features": {
+   "bill_pay": true,
+   "subscription_tracker": true,
+   "merchant_actions": false
+  },
+  "alerts": {
+   "low_balance": "£100"
+  }
+ },
+ "accounts": [
+  {
+   "id": "CUR-6627",
+   "name": "Everyday Current Account (Visa debit ****4471)",
+   "type": "current",
+   "currency": "GBP",
+   "balance": 640.0,
+   "overdraft_limit": 500.0
+  },
+  {
+   "id": "SAV-6631",
+   "name": "Easy Saver",
+   "type": "savings",
+   "currency": "GBP",
+   "balance": 3180.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Harjit Kaur",
+   "type": "person",
+   "relationship": "mother",
+   "handle": "20-14-61 ****2210",
+   "last_paid": "2026-11-02"
+  },
+  {
+   "name": "Simran Gill",
+   "type": "person",
+   "relationship": "friend",
+   "handle": "40-11-58 ****7713"
+  },
+  {
+   "name": "Jasmin Bains",
+   "type": "person",
+   "relationship": "friend",
+   "handle": "20-32-06 ****1189"
+  },
+  {
+   "name": "EE",
+   "type": "biller",
+   "category": "mobile",
+   "reference": "****7731"
+  },
+  {
+   "name": "Ealing Arts University",
+   "type": "biller",
+   "category": "tuition",
+   "reference": "student ****4402"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "type": "wallet",
+   "provider": "PayPal",
+   "handle": "tara.k.singh94@gmail.com",
+   "funding": "Visa debit ****4471",
+   "status": "connected"
+  }
+ ],
+ "subscriptions": [
+  {
+   "merchant": "Spotify",
+   "plan": "Premium",
+   "price": 11.99,
+   "currency": "GBP",
+   "billing": "monthly, 3rd",
+   "charged_to": "Visa debit ****4471",
+   "status": "active"
+  },
+  {
+   "merchant": "PureGym",
+   "plan": "Off-peak",
+   "price": 24.99,
+   "currency": "GBP",
+   "billing": "monthly, 1st (direct debit)",
+   "status": "active"
+  },
+  {
+   "merchant": "EE",
+   "plan": "SIM-only 30 GB",
+   "price": 18.0,
+   "currency": "GBP",
+   "billing": "monthly, 14th (direct debit)",
+   "status": "active"
+  },
+  {
+   "merchant": "Netflix",
+   "plan": "Standard with adverts",
+   "price": 5.99,
+   "currency": "GBP",
+   "billing": "monthly, 17th",
+   "charged_to": "Visa debit ****4471",
+   "status": "active"
+  },
+  {
+   "merchant": "Apple",
+   "plan": "iCloud+ 200 GB",
+   "price": 2.99,
+   "currency": "GBP",
+   "billing": "monthly, 21st",
+   "charged_to": "Visa debit ****4471",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SO-2210 · Standing order: £250.00 to Harjit Kaur (Mum) on the 1st of each month, reference 'house' (runs automatically)."
+ ],
+ "notes": [
+  "Arranged overdraft £500 (interest-free student overdraft until Aug 2027)."
+ ],
+ "bills": [
+  {
+   "biller": "EE",
+   "issued": "2026-10-28",
+   "due": "2026-11-14",
+   "amount": 18.0,
+   "currency": "GBP",
+   "status": "direct debit scheduled"
+  },
+  {
+   "biller": "Ealing Arts University",
+   "issued": "2026-09-20",
+   "due": "2027-01-29",
+   "amount": 2750.0,
+   "currency": "GBP",
+   "status": "instalment 2 of 3, not yet due"
+  }
+ ],
+ "notifications": [
+  {
+   "date": "2026-11-10",
+   "from": "PhotoPro",
+   "text": "Edit like a pro: RAW editing, AI masking and 300+ film presets. Try PhotoPro free for 7 days."
+  },
+  {
+   "date": "2026-11-03",
+   "from": "Spotify",
+   "text": "Your Premium receipt: £11.99, Visa debit ending 4471."
+  },
+  {
+   "date": "2026-10-12",
+   "from": "Student Finance England",
+   "text": "Your Postgraduate Master's Loan payment of £4,120.00 is on its way."
+  },
+  {
+   "date": "2026-10-02",
+   "from": "Ledgerly",
+   "text": "Low-balance alert set: we'll tell you if your Current Account drops below £100."
+  }
+ ],
+ "event_log": [
+  {
+   "date": "2026-10-02",
+   "actor": "assistant",
+   "action": "alert_created",
+   "detail": "Low-balance alert at £100 on Current Account"
+  },
+  {
+   "date": "2026-08-19",
+   "actor": "member",
+   "action": "standing_order_changed",
+   "detail": "SO-2210 to Harjit Kaur: £200 -> £250 from 1 Sep"
+  }
+ ],
+ "transactions": [
+  {
+   "id": "txn_3t8qgyuq",
+   "date": "2026-11-11",
+   "counterparty": "Dishoom",
+   "amount": 50.87,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "status": "pending",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_scm8kzwm",
+   "date": "2026-11-10",
+   "counterparty": "Sainsbury's Local",
+   "amount": 10.94,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_48qns5gw",
+   "date": "2026-11-09",
+   "counterparty": "TfL Travel Charge",
+   "amount": 3.1,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_krbya4rp",
+   "date": "2026-11-06",
+   "counterparty": "Superdrug",
+   "amount": 7.2,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_cjns3e2y",
+   "date": "2026-11-05",
+   "counterparty": "TfL Travel Charge",
+   "amount": 6.2,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_w2dkxd9q",
+   "date": "2026-11-03",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_3h9ubuzw",
+   "date": "2026-11-02",
+   "counterparty": "PureGym",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Ealing Broadway, off-peak",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_92afumuy",
+   "date": "2026-11-02",
+   "counterparty": "Harjit Kaur",
+   "handle": "20-14-61 ****2210",
+   "amount": 250.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "house",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_rvtc5tch",
+   "date": "2026-10-31",
+   "counterparty": "Tesco Express",
+   "amount": 5.71,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_w9czpnxg",
+   "date": "2026-10-26",
+   "counterparty": "Brentside Health Partnership",
+   "amount": 619.81,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "NHS bank shifts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_gdmza2jk",
+   "date": "2026-10-24",
+   "counterparty": "Primark",
+   "amount": 30.76,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_856fx6ug",
+   "date": "2026-10-21",
+   "counterparty": "Pret A Manger",
+   "amount": 5.19,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_7z4z8gjy",
+   "date": "2026-10-21",
+   "counterparty": "Apple",
+   "amount": 2.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 200 GB",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_h29pjyxq",
+   "date": "2026-10-17",
+   "counterparty": "Sainsbury's Local",
+   "amount": 13.03,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_6fu4avr9",
+   "date": "2026-10-17",
+   "counterparty": "Netflix",
+   "amount": 5.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Standard with adverts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_g2cna8zu",
+   "date": "2026-10-16",
+   "counterparty": "Ealing Arts University",
+   "amount": 2750.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Tuition instalment 1 of 3, 2026/27",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_u37h8brq",
+   "date": "2026-10-15",
+   "counterparty": "Waterstones",
+   "amount": 19.44,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_sqs7d6jb",
+   "date": "2026-10-14",
+   "counterparty": "Nando's",
+   "amount": 21.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_cxka79h3",
+   "date": "2026-10-14",
+   "counterparty": "EE",
+   "amount": 18.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "SIM-only plan",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_z3g6vugz",
+   "date": "2026-10-13",
+   "counterparty": "Easy Saver",
+   "amount": 1000.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "To Easy Saver",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_nrnvxnex",
+   "date": "2026-10-12",
+   "counterparty": "TfL Travel Charge",
+   "amount": 2.9,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_eynz8fsb",
+   "date": "2026-10-12",
+   "counterparty": "Student Loans Company",
+   "amount": 4120.0,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "Postgraduate loan 2026/27 instalment 1 of 3",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_7699dzu9",
+   "date": "2026-10-10",
+   "counterparty": "Simran Gill",
+   "handle": "40-11-58 ****7713",
+   "amount": 8.56,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "brunch",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_cahwqyuz",
+   "date": "2026-10-09",
+   "counterparty": "Greggs",
+   "amount": 2.07,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_azqz3ygz",
+   "date": "2026-10-03",
+   "counterparty": "TfL Travel Charge",
+   "amount": 3.1,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_99eamk5y",
+   "date": "2026-10-03",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_ty23kyq2",
+   "date": "2026-10-02",
+   "counterparty": "Lidl",
+   "amount": 32.07,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_hh88cdrj",
+   "date": "2026-10-01",
+   "counterparty": "TfL Travel Charge",
+   "amount": 3.1,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_shekd5p6",
+   "date": "2026-10-01",
+   "counterparty": "PureGym",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Ealing Broadway, off-peak",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_6uu8vxzq",
+   "date": "2026-10-01",
+   "counterparty": "Harjit Kaur",
+   "handle": "20-14-61 ****2210",
+   "amount": 250.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "house",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_ncvt6zgq",
+   "date": "2026-09-26",
+   "counterparty": "TfL Travel Charge",
+   "amount": 8.9,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_egya2hmn",
+   "date": "2026-09-25",
+   "counterparty": "M&S Food",
+   "amount": 14.96,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_hnaf3vng",
+   "date": "2026-09-25",
+   "counterparty": "Brentside Health Partnership",
+   "amount": 708.03,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "NHS bank shifts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_ae7cnrfu",
+   "date": "2026-09-24",
+   "counterparty": "Lidl",
+   "amount": 25.69,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_3uzs5fxp",
+   "date": "2026-09-21",
+   "counterparty": "Apple",
+   "amount": 2.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 200 GB",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_g6ru37v8",
+   "date": "2026-09-20",
+   "counterparty": "TfL Travel Charge",
+   "amount": 3.1,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_4eqfc6tp",
+   "date": "2026-09-19",
+   "counterparty": "TfL Travel Charge",
+   "amount": 5.8,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_5uenkmrd",
+   "date": "2026-09-17",
+   "counterparty": "Nando's",
+   "amount": 14.89,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_apddsavg",
+   "date": "2026-09-17",
+   "counterparty": "Netflix",
+   "amount": 5.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Standard with adverts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_akaapyyj",
+   "date": "2026-09-14",
+   "counterparty": "EE",
+   "amount": 18.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "SIM-only plan",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_4pykd9u6",
+   "date": "2026-09-07",
+   "counterparty": "ASOS",
+   "amount": 24.77,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_ahtgx2ma",
+   "date": "2026-09-03",
+   "counterparty": "Costa Coffee",
+   "amount": 5.29,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_nb3st8sj",
+   "date": "2026-09-03",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_9gmcg5y6",
+   "date": "2026-09-02",
+   "counterparty": "Boots",
+   "amount": 8.86,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_uny26x9f",
+   "date": "2026-09-02",
+   "counterparty": "Deliveroo",
+   "amount": 17.37,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_6vaqwzdv",
+   "date": "2026-09-02",
+   "counterparty": "Pret A Manger",
+   "amount": 8.48,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_smbq9p74",
+   "date": "2026-09-01",
+   "counterparty": "PureGym",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Ealing Broadway, off-peak",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_jyjrxmdq",
+   "date": "2026-09-01",
+   "counterparty": "Harjit Kaur",
+   "handle": "20-14-61 ****2210",
+   "amount": 250.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "house",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_3xantwyj",
+   "date": "2026-08-31",
+   "counterparty": "Sainsbury's Local",
+   "amount": 11.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_kky4tn6z",
+   "date": "2026-08-29",
+   "counterparty": "Southall Silk House",
+   "amount": 186.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Wedding outfit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_use5rbcb",
+   "date": "2026-08-27",
+   "counterparty": "TfL Travel Charge",
+   "amount": 6.2,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_g7jwuje5",
+   "date": "2026-08-26",
+   "counterparty": "Brentside Health Partnership",
+   "amount": 818.51,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "NHS bank shifts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_zd635zzz",
+   "date": "2026-08-24",
+   "counterparty": "Bolt",
+   "amount": 9.37,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_ufswghb4",
+   "date": "2026-08-23",
+   "counterparty": "Simran Gill",
+   "handle": "40-11-58 ****7713",
+   "amount": 31.57,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "birthday gift split",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_k2rn6v27",
+   "date": "2026-08-22",
+   "counterparty": "Trainline",
+   "amount": 68.4,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "London Euston - Birmingham return",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_8kp5zbsp",
+   "date": "2026-08-21",
+   "counterparty": "Apple",
+   "amount": 2.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 200 GB",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_tpygqtxa",
+   "date": "2026-08-19",
+   "counterparty": "Pret A Manger",
+   "amount": 6.08,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_43q47ak4",
+   "date": "2026-08-17",
+   "counterparty": "Netflix",
+   "amount": 5.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Standard with adverts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_rbuuca5x",
+   "date": "2026-08-15",
+   "counterparty": "Pret A Manger",
+   "amount": 4.89,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_dcezyp6m",
+   "date": "2026-08-14",
+   "counterparty": "EE",
+   "amount": 18.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "SIM-only plan",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_rxxrmq7w",
+   "date": "2026-08-11",
+   "counterparty": "TfL Travel Charge",
+   "amount": 8.9,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_4ysvkz9n",
+   "date": "2026-08-09",
+   "counterparty": "Amazon.co.uk",
+   "amount": 6.51,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_f27qjzdf",
+   "date": "2026-08-03",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_v2dzb3tr",
+   "date": "2026-08-03",
+   "counterparty": "PureGym",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Ealing Broadway, off-peak",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_hmmxz3ms",
+   "date": "2026-08-03",
+   "counterparty": "Harjit Kaur",
+   "handle": "20-14-61 ****2210",
+   "amount": 200.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "house",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_4tw8ye5u",
+   "date": "2026-07-28",
+   "counterparty": "Lidl",
+   "amount": 19.06,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_txbcv6hr",
+   "date": "2026-07-26",
+   "counterparty": "TfL Travel Charge",
+   "amount": 6.2,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_2htjwkgg",
+   "date": "2026-07-24",
+   "counterparty": "Brentside Health Partnership",
+   "amount": 599.38,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "NHS bank shifts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_rvpvpqjm",
+   "date": "2026-07-21",
+   "counterparty": "Sainsbury's Local",
+   "amount": 21.56,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_fe3xypq6",
+   "date": "2026-07-21",
+   "counterparty": "Apple",
+   "amount": 2.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 200 GB",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_4ugy9pwk",
+   "date": "2026-07-17",
+   "counterparty": "Netflix",
+   "amount": 5.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Standard with adverts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_guabu467",
+   "date": "2026-07-16",
+   "counterparty": "TfL Travel Charge",
+   "amount": 2.9,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_p98vsjgs",
+   "date": "2026-07-15",
+   "counterparty": "Easy Saver",
+   "amount": 300.0,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "transfer",
+   "memo": "From Easy Saver",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_7nuhwhdt",
+   "date": "2026-07-14",
+   "counterparty": "EE",
+   "amount": 18.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "SIM-only plan",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_82m7faqy",
+   "date": "2026-07-13",
+   "counterparty": "Superdrug",
+   "amount": 11.64,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_y56nhfxa",
+   "date": "2026-07-11",
+   "counterparty": "Pret A Manger",
+   "amount": 8.33,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_nvhy6k9q",
+   "date": "2026-07-07",
+   "counterparty": "Tesco Express",
+   "amount": 8.24,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_4dz6vsc4",
+   "date": "2026-07-06",
+   "counterparty": "Amazon.co.uk",
+   "amount": 24.39,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_e289uxx4",
+   "date": "2026-07-06",
+   "counterparty": "TfL Travel Charge",
+   "amount": 5.8,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_6zgqve4r",
+   "date": "2026-07-04",
+   "counterparty": "Jessops",
+   "amount": 54.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "SD card + spare battery",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_czt9232d",
+   "date": "2026-07-03",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_4bdfkafb",
+   "date": "2026-07-02",
+   "counterparty": "Air India",
+   "amount": 742.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "LHR - DEL return, family visit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_8vtqb6g8",
+   "date": "2026-07-01",
+   "counterparty": "PureGym",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Ealing Broadway, off-peak",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_ygtewrym",
+   "date": "2026-07-01",
+   "counterparty": "Harjit Kaur",
+   "handle": "20-14-61 ****2210",
+   "amount": 200.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "house",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_wxzax66z",
+   "date": "2026-06-26",
+   "counterparty": "Brentside Health Partnership",
+   "amount": 765.38,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "NHS bank shifts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_m9famm4w",
+   "date": "2026-06-21",
+   "counterparty": "Vinted",
+   "amount": 17.34,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_62tfdam6",
+   "date": "2026-06-21",
+   "counterparty": "Apple",
+   "amount": 2.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 200 GB",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_q7sypeft",
+   "date": "2026-06-20",
+   "counterparty": "TfL Travel Charge",
+   "amount": 5.8,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_cna9fqwu",
+   "date": "2026-06-17",
+   "counterparty": "Netflix",
+   "amount": 5.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Standard with adverts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_8pvbtvts",
+   "date": "2026-06-16",
+   "counterparty": "Sainsbury's Local",
+   "amount": 19.53,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_mmdjnj78",
+   "date": "2026-06-15",
+   "counterparty": "EE",
+   "amount": 18.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "SIM-only plan",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_288u2ept",
+   "date": "2026-06-13",
+   "counterparty": "Boots",
+   "amount": 10.49,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_r5fup5uk",
+   "date": "2026-06-10",
+   "counterparty": "Simran Gill",
+   "handle": "40-11-58 ****7713",
+   "amount": 26.56,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "cinema",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_qr9xvphj",
+   "date": "2026-06-09",
+   "counterparty": "Gurdwara Sri Guru Singh Sabha",
+   "amount": 21.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "donation",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_d8re5gs6",
+   "date": "2026-06-08",
+   "counterparty": "TfL Travel Charge",
+   "amount": 3.1,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_gxqdxub7",
+   "date": "2026-06-07",
+   "counterparty": "TfL Travel Charge",
+   "amount": 5.8,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_9q2d9r24",
+   "date": "2026-06-06",
+   "counterparty": "Costa Coffee",
+   "amount": 6.28,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_ckbwjq6f",
+   "date": "2026-06-03",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_2xcmauec",
+   "date": "2026-06-02",
+   "counterparty": "Costa Coffee",
+   "amount": 4.6,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_jm36ukjz",
+   "date": "2026-06-01",
+   "counterparty": "PureGym",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Ealing Broadway, off-peak",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_hqn7m8cp",
+   "date": "2026-06-01",
+   "counterparty": "Harjit Kaur",
+   "handle": "20-14-61 ****2210",
+   "amount": 200.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "house",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_7kbsby78",
+   "date": "2026-05-31",
+   "counterparty": "Wagamama",
+   "amount": 20.63,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_ncqfnbge",
+   "date": "2026-05-28",
+   "counterparty": "Gail's Bakery",
+   "amount": 8.47,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_2vj5antu",
+   "date": "2026-05-26",
+   "counterparty": "Brentside Health Partnership",
+   "amount": 644.94,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "NHS bank shifts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_xw4jjxee",
+   "date": "2026-05-25",
+   "counterparty": "Simran Gill",
+   "handle": "40-11-58 ****7713",
+   "amount": 12.15,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "faster payment",
+   "memo": "birthday gift split",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_x9nb6xjc",
+   "date": "2026-05-24",
+   "counterparty": "Vinted",
+   "amount": 18.89,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_eqqau7yb",
+   "date": "2026-05-23",
+   "counterparty": "TfL Travel Charge",
+   "amount": 2.9,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_5eav8xxr",
+   "date": "2026-05-23",
+   "counterparty": "TfL Travel Charge",
+   "amount": 2.9,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_hew992ve",
+   "date": "2026-05-21",
+   "counterparty": "Apple",
+   "amount": 2.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 200 GB",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_n7a4njjk",
+   "date": "2026-05-20",
+   "counterparty": "Lidl",
+   "amount": 10.29,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_dfkupyt8",
+   "date": "2026-05-17",
+   "counterparty": "TfL Travel Charge",
+   "amount": 6.2,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_gxkse8e8",
+   "date": "2026-05-17",
+   "counterparty": "Netflix",
+   "amount": 5.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Standard with adverts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_d5px3tef",
+   "date": "2026-05-14",
+   "counterparty": "EE",
+   "amount": 18.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "SIM-only plan",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_zz898ykj",
+   "date": "2026-05-13",
+   "counterparty": "TfL Travel Charge",
+   "amount": 2.9,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_jakp9czc",
+   "date": "2026-05-13",
+   "counterparty": "TfL Travel Charge",
+   "amount": 5.8,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_4p9ytm9g",
+   "date": "2026-05-03",
+   "counterparty": "Jasmin Bains",
+   "handle": "20-32-06 ****1189",
+   "amount": 34.73,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "train tickets",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_5j4mvjq5",
+   "date": "2026-05-03",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_k4quzhwf",
+   "date": "2026-05-01",
+   "counterparty": "PureGym",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Ealing Broadway, off-peak",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_rynnc5b8",
+   "date": "2026-05-01",
+   "counterparty": "Harjit Kaur",
+   "handle": "20-14-61 ****2210",
+   "amount": 200.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "house",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_9d94twfz",
+   "date": "2026-05-01",
+   "counterparty": "Ealing Arts University",
+   "amount": 2600.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Tuition instalment, MA Art Psychotherapy (PT)",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_6hqvtay2",
+   "date": "2026-04-29",
+   "counterparty": "Deliveroo",
+   "amount": 21.26,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_xh75qamn",
+   "date": "2026-04-28",
+   "counterparty": "Easy Saver",
+   "amount": 800.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "To Easy Saver",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_gv8xc5rs",
+   "date": "2026-04-27",
+   "counterparty": "Student Loans Company",
+   "amount": 3980.0,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "Postgraduate loan instalment 3 of 3",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_zch2rptv",
+   "date": "2026-04-26",
+   "counterparty": "Pret A Manger",
+   "amount": 8.71,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_erb576ht",
+   "date": "2026-04-24",
+   "counterparty": "Tesco Express",
+   "amount": 9.34,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_bbwp5km7",
+   "date": "2026-04-24",
+   "counterparty": "Brentside Health Partnership",
+   "amount": 809.66,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "NHS bank shifts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_ck2swxuk",
+   "date": "2026-04-21",
+   "counterparty": "Apple",
+   "amount": 2.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 200 GB",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_3eyhszqj",
+   "date": "2026-04-17",
+   "counterparty": "Lidl",
+   "amount": 24.63,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_3ncbunq7",
+   "date": "2026-04-17",
+   "counterparty": "Netflix",
+   "amount": 5.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Standard with adverts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_8mvn8sz7",
+   "date": "2026-04-16",
+   "counterparty": "TfL Travel Charge",
+   "amount": 6.2,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_wyyk8kmf",
+   "date": "2026-04-14",
+   "counterparty": "EE",
+   "amount": 18.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "SIM-only plan",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_bpb48ej2",
+   "date": "2026-04-11",
+   "counterparty": "Primark",
+   "amount": 25.7,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_nh2p2sur",
+   "date": "2026-04-11",
+   "counterparty": "Wex Photo Video",
+   "amount": 379.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "XF 35mm f/2 lens",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_zvxbz6ws",
+   "date": "2026-04-08",
+   "counterparty": "Costa Coffee",
+   "amount": 5.39,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_9ryd3qsy",
+   "date": "2026-04-06",
+   "counterparty": "Uber",
+   "amount": 11.01,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_3p4bb3kd",
+   "date": "2026-04-06",
+   "counterparty": "TfL Travel Charge",
+   "amount": 6.2,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_euaufsqj",
+   "date": "2026-04-03",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_askhc37n",
+   "date": "2026-04-01",
+   "counterparty": "TfL Travel Charge",
+   "amount": 6.2,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_s26d6e5p",
+   "date": "2026-04-01",
+   "counterparty": "PureGym",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Ealing Broadway, off-peak",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_6kf4z6x2",
+   "date": "2026-04-01",
+   "counterparty": "Harjit Kaur",
+   "handle": "20-14-61 ****2210",
+   "amount": 200.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "house",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_un9ewwky",
+   "date": "2026-03-26",
+   "counterparty": "Brentside Health Partnership",
+   "amount": 690.05,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "NHS bank shifts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_zujupv4q",
+   "date": "2026-03-23",
+   "counterparty": "Tesco Express",
+   "amount": 20.74,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_5cy3b5gf",
+   "date": "2026-03-21",
+   "counterparty": "Jasmin Bains",
+   "handle": "20-32-06 ****1189",
+   "amount": 26.94,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "faster payment",
+   "memo": "gig tickets",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_2a28kwe8",
+   "date": "2026-03-21",
+   "counterparty": "Greggs",
+   "amount": 2.17,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_39ba4uc5",
+   "date": "2026-03-21",
+   "counterparty": "Apple",
+   "amount": 2.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 200 GB",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_qbqzvp3b",
+   "date": "2026-03-19",
+   "counterparty": "Primark",
+   "amount": 21.66,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_tq7j4m8e",
+   "date": "2026-03-18",
+   "counterparty": "Deliveroo",
+   "amount": 20.63,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_e8txg8tc",
+   "date": "2026-03-17",
+   "counterparty": "Tesco Express",
+   "amount": 12.79,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_7zunvt4z",
+   "date": "2026-03-17",
+   "counterparty": "Netflix",
+   "amount": 5.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Standard with adverts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_q2rtvadh",
+   "date": "2026-03-16",
+   "counterparty": "TfL Travel Charge",
+   "amount": 6.2,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_gqksq5bb",
+   "date": "2026-03-16",
+   "counterparty": "TfL Travel Charge",
+   "amount": 3.1,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_7mhnmzt3",
+   "date": "2026-03-16",
+   "counterparty": "EE",
+   "amount": 18.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "SIM-only plan",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_jhz5rkpj",
+   "date": "2026-03-15",
+   "counterparty": "Boots",
+   "amount": 19.44,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_dznnf38x",
+   "date": "2026-03-14",
+   "counterparty": "Wex Photo Video",
+   "amount": 649.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Fujifilm X-T30 II body",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_qdy64x83",
+   "date": "2026-03-03",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_hm9yyyf7",
+   "date": "2026-03-02",
+   "counterparty": "PureGym",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Ealing Broadway, off-peak",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_yek4qamy",
+   "date": "2026-03-02",
+   "counterparty": "Harjit Kaur",
+   "handle": "20-14-61 ****2210",
+   "amount": 200.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "house",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_fwqkc99s",
+   "date": "2026-02-28",
+   "counterparty": "TfL Travel Charge",
+   "amount": 5.8,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_ydy9s598",
+   "date": "2026-02-26",
+   "counterparty": "Brentside Health Partnership",
+   "amount": 731.8,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "NHS bank shifts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_pfr7dzes",
+   "date": "2026-02-24",
+   "counterparty": "TfL Travel Charge",
+   "amount": 8.9,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_3v7bhyv4",
+   "date": "2026-02-23",
+   "counterparty": "TfL Travel Charge",
+   "amount": 8.9,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_9knrqwsr",
+   "date": "2026-02-21",
+   "counterparty": "Apple",
+   "amount": 2.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 200 GB",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_z898x3j7",
+   "date": "2026-02-19",
+   "counterparty": "Costa Coffee",
+   "amount": 5.39,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_zwyw5bwt",
+   "date": "2026-02-17",
+   "counterparty": "Vinted",
+   "amount": 9.51,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_brr7jpmn",
+   "date": "2026-02-17",
+   "counterparty": "Netflix",
+   "amount": 5.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Standard with adverts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_nn94935s",
+   "date": "2026-02-16",
+   "counterparty": "Superdrug",
+   "amount": 8.69,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_4wf4qqt7",
+   "date": "2026-02-16",
+   "counterparty": "EE",
+   "amount": 18.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "SIM-only plan",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_f43tbaav",
+   "date": "2026-02-15",
+   "counterparty": "TfL Travel Charge",
+   "amount": 6.2,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_z4tg48kv",
+   "date": "2026-02-10",
+   "counterparty": "Waterstones",
+   "amount": 18.08,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_g4fcaetb",
+   "date": "2026-02-08",
+   "counterparty": "Simran Gill",
+   "handle": "40-11-58 ****7713",
+   "amount": 25.71,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "faster payment",
+   "memo": "birthday gift split",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_nzfbn5w4",
+   "date": "2026-02-08",
+   "counterparty": "M&S Food",
+   "amount": 8.26,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_bwh3v7sz",
+   "date": "2026-02-07",
+   "counterparty": "Currys",
+   "amount": 629.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Laptop",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_43xjgwp2",
+   "date": "2026-02-05",
+   "counterparty": "Deliveroo",
+   "amount": 17.29,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_4yenc8mm",
+   "date": "2026-02-05",
+   "counterparty": "Sainsbury's Local",
+   "amount": 22.1,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_r6c3whv9",
+   "date": "2026-02-05",
+   "counterparty": "TfL Travel Charge",
+   "amount": 3.1,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_rj2rekts",
+   "date": "2026-02-03",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_74bafuyv",
+   "date": "2026-02-02",
+   "counterparty": "Gail's Bakery",
+   "amount": 7.71,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_y7bwyf4s",
+   "date": "2026-02-02",
+   "counterparty": "PureGym",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Ealing Broadway, off-peak",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_9h63s2qu",
+   "date": "2026-02-02",
+   "counterparty": "Harjit Kaur",
+   "handle": "20-14-61 ****2210",
+   "amount": 200.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "house",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_3svdvtqy",
+   "date": "2026-01-30",
+   "counterparty": "Ealing Arts University",
+   "amount": 2600.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Tuition instalment, MA Art Psychotherapy (PT)",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_24vw9p7e",
+   "date": "2026-01-29",
+   "counterparty": "Tesco Express",
+   "amount": 14.91,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_qk3wwwmr",
+   "date": "2026-01-27",
+   "counterparty": "TfL Travel Charge",
+   "amount": 2.9,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_ra2d2sn6",
+   "date": "2026-01-27",
+   "counterparty": "Easy Saver",
+   "amount": 900.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "To Easy Saver",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_7ghsqfbw",
+   "date": "2026-01-26",
+   "counterparty": "Student Loans Company",
+   "amount": 3980.0,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "Postgraduate loan instalment 2 of 3",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_9zz38cvv",
+   "date": "2026-01-26",
+   "counterparty": "Brentside Health Partnership",
+   "amount": 631.64,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "NHS bank shifts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_8ubm37rr",
+   "date": "2026-01-22",
+   "counterparty": "Pret A Manger",
+   "amount": 5.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_22d3x4zs",
+   "date": "2026-01-21",
+   "counterparty": "Apple",
+   "amount": 2.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "iCloud+ 200 GB",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_6d3ajbrv",
+   "date": "2026-01-20",
+   "counterparty": "Costa Coffee",
+   "amount": 3.39,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_axyx6a3h",
+   "date": "2026-01-19",
+   "counterparty": "Jasmin Bains",
+   "handle": "20-32-06 ****1189",
+   "amount": 36.64,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "faster payment",
+   "memo": "train tickets",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_cwtzs7qs",
+   "date": "2026-01-18",
+   "counterparty": "Sainsbury's Local",
+   "amount": 10.51,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_xhtu29gn",
+   "date": "2026-01-17",
+   "counterparty": "Netflix",
+   "amount": 5.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Standard with adverts",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_3nfmd4up",
+   "date": "2026-01-14",
+   "counterparty": "TfL Travel Charge",
+   "amount": 3.1,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_gpp76g2g",
+   "date": "2026-01-14",
+   "counterparty": "EE",
+   "amount": 18.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "SIM-only plan",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_cehznvpf",
+   "date": "2026-01-13",
+   "counterparty": "Cass Art",
+   "amount": 28.32,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  },
+  {
+   "id": "txn_pwnywdge",
+   "date": "2026-01-12",
+   "counterparty": "Boots",
+   "amount": 14.74,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CUR-6627"
+  }
+ ],
+ "_meta": {
+  "env_id": "bills",
+  "seed_pairs": [
+   "S13"
+  ],
+  "rng_seed": 20261112,
+  "generator": "envs/bills/build_members.py",
+  "history_window": [
+   "2026-01-12",
+   "2026-11-12"
+  ],
+  "decisive_transactions": []
+ }
+}

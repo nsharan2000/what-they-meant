@@ -1,0 +1,32 @@
+sft_train_rows 904
+sft_train_decision_rows 497
+decision_rows_by_twin {'A': 247, 'B': 249, 'P': 1}
+matched_decision_pairs 247
+duplicate_keys {}
+unmatched [(('V031', 'L0r'), ['B']), (('V072', 'L1'), ['B'])]
+n_train_pairs_with_both_twins_matched 76
+n_train_pairs_in_split 76
+request_kind_matched_decision_rows {'identical': 147, 'wording': 62, 'identifier_only': 38}
+request_kind_matched_decision_rows_by_level {'L1': {'identical': 45, 'wording': 18, 'identifier_only': 12}, 'L2': {'identical': 43, 'identifier_only': 12, 'wording': 17}, 'L0r': {'identical': 45, 'wording': 18, 'identifier_only': 12}, 'L3': {'wording': 9, 'identical': 14, 'identifier_only': 2}}
+request_kind_train_pairs {'identifier_only': 13, 'identical': 45, 'wording': 18}
+request_differs_train_pairs 31
+request_kind_test_pairs {'wording': 19, 'identical': 19, 'identifier_only': 3, 'n_pairs': 41}
+request_kind_val_pairs {'identical': 15, 'wording': 2, 'n_pairs': 17}
+request_kind_hard_test_pairs {'wording': 3, 'identical': 9, 'identifier_only': 1, 'n_pairs': 13}
+request_kind_hard_val_pairs {'identical': 4, 'wording': 1, 'n_pairs': 5}
+request_kind_hard_train_pairs {'wording': 5, 'identical': 19, 'identifier_only': 3, 'n_pairs': 27}
+cue_words_request {'new': {'rows_A_more': 17, 'rows_B_more': 0, 'pairs_A_more': ['S09', 'S12', 'V091', 'V093', 'V094'], 'pairs_B_more': [], 'clusters_A_more': ['1t1qzto', '1v65e50'], 'clusters_B_more': []}, 'first': {'rows_A_more': 10, 'rows_B_more': 0, 'pairs_A_more': ['S34', 'V341', 'V344'], 'pairs_B_more': [], 'clusters_A_more': ['1ncpi8a'], 'clusters_B_more': []}, 'change': {'rows_A_more': 0, 'rows_B_more': 13, 'pairs_A_more': [], 'pairs_B_more': ['S09', 'V091', 'V093', 'V094'], 'clusters_A_more': [], 'clusters_B_more': ['1v65e50']}}
+same_prompt_setting_share 0.543
+same_prompt_setting_n 134
+p2_decision_rows {'A': 69, 'B': 82, 'A_total': 247, 'B_total': 249, 'fisher_two_sided_p': 0.2424}
+system_identical_by_level {'L1': {'identical': 73, 'differs': 2}, 'L2': {'identical': 70, 'differs': 2}, 'L0r': {'identical': 63, 'differs': 12}, 'L3': {'identical': 23, 'differs': 2}}
+system_differs_pairs_by_level {'L0r': ['S04', 'S09', 'S12', 'S22', 'S26', 'S54', 'V043', 'V044', 'V091', 'V093', 'V094', 'V541'], 'L3': ['S12', 'S54'], 'L2': ['S12', 'S54'], 'L1': ['S12', 'S54']}
+system_differs_at_L1_or_L2_pairs {'n_differs': 2, 'n_pairs': 76, 'pairs': ['S12', 'S54']}
+last_result_A_vs_B_rows {'leaves': {'tie': 194, 'A>B': 36, 'B>A': 9, 'sign_p': 6.57466324582856e-05}, 'null': {'tie': 66, 'B>A': 93, 'A>B': 80, 'sign_p': 0.3616287367193001}, 'false': {'A>B': 43, 'B>A': 10, 'tie': 186, 'sign_p': 5.550520889130439e-06}, 'true': {'B>A': 27, 'A>B': 10, 'tie': 202, 'sign_p': 0.007632078602910042}, 'zero': {'tie': 194, 'A>B': 41, 'B>A': 4, 'sign_p': 9.334883088740753e-09}, 'empty': {'tie': 213, 'A>B': 19, 'B>A': 7, 'sign_p': 0.028959274291992188}, 'chars': {'B>A': 95, 'A>B': 129, 'tie': 15, 'sign_p': 0.02723767481598047}}
+last_result_A_vs_B_pairs {'leaves': {'tie': 60, 'A>B': 11, 'B>A': 3, 'sign_p': 0.057373046875}, 'null': {'tie': 22, 'B>A': 27, 'A>B': 25, 'sign_p': 0.8898839652765371}, 'false': {'A>B': 13, 'B>A': 3, 'tie': 58, 'sign_p': 0.021270751953125}, 'true': {'B>A': 8, 'A>B': 3, 'tie': 63, 'sign_p': 0.2265625}, 'zero': {'tie': 60, 'A>B': 13, 'B>A': 1, 'sign_p': 0.0018310546875}, 'empty': {'tie': 66, 'A>B': 6, 'B>A': 2, 'sign_p': 0.2890625}, 'chars': {'B>A': 30, 'A>B': 39, 'tie': 5, 'sign_p': 0.33555761823401514}}
+last_result_A_vs_B_clusters {'leaves': {'tie': 17, 'A>B': 8, 'B>A': 1, 'sign_p': 0.0390625}, 'null': {'tie': 6, 'B>A': 10, 'A>B': 10, 'sign_p': 1.0}, 'false': {'A>B': 6, 'B>A': 1, 'tie': 19, 'sign_p': 0.125}, 'true': {'B>A': 5, 'A>B': 1, 'tie': 20, 'sign_p': 0.21875}, 'zero': {'tie': 20, 'A>B': 5, 'B>A': 1, 'sign_p': 0.21875}, 'empty': {'tie': 22, 'A>B': 2, 'B>A': 2, 'sign_p': 1.0}, 'chars': {'B>A': 11, 'A>B': 14, 'tie': 1, 'sign_p': 0.6900379657745361}}
+pairs_whose_last_results_vary_by_level []
+prompt_tokens_same_setting_rows {'B>A': 40, 'A>B': 78, 'tie': 16, 'n': 134, 'mean_A_minus_B': 3.56, 'sign_p': 0.0005978811310943142}
+prompt_tokens_same_setting_pairs {'B>A': 22, 'A>B': 39, 'tie': 7, 'sign_p': 0.03961701489849968}
+prompt_tokens_all_matched_rows {'B>A': 94, 'A>B': 136, 'tie': 17}
+mean_prompt_tokens_matched_decision_rows 4333.3

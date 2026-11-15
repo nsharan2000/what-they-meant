@@ -1,0 +1,27 @@
+{
+ "S10": {
+  "S10A": "deploy my side project and make it SEO friendly",
+  "S10B": "deploy my side project; buy myproject.dev if it is under USD 20"
+ },
+ "S10_twins_share_request": false,
+ "S14": {
+  "S14B": "retry the charge for order 5521",
+  "S14A": "retry the charge for order 5521"
+ },
+ "S14_twins_share_request": true,
+ "S15": {
+  "S15B": "monitor product prices overnight from api.pricewatch.io/v1/prices",
+  "S15A": "monitor product prices overnight from api.pricewatch.io/v1/prices"
+ },
+ "S15_twins_share_request": true,
+ "V104": {
+  "V104B": "renew my XMP Pro license if it's still under USD 90",
+  "V104A": "renew my XMP Pro license"
+ },
+ "V104_twins_share_request": false,
+ "V152": {
+  "V152B": "pay the ChairSide Cloud software subscription from api.chairsidecloud.io/v1/invoices/latest",
+  "V152A": "pay the ChairSide Cloud software subscription from api.chairsidecloud.io/v1/invoices/latest"
+ },
+ "V152_twins_share_request": true
+}

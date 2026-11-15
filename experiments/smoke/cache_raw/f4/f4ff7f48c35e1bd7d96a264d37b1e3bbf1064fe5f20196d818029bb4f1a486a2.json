@@ -1,0 +1,1 @@
+{"text": "{\n  \"duplicate_pushes\": false,\n  \"usage_within_normal_range\": true\n}", "usage": {"completion_tokens": 20, "prompt_tokens": 252, "total_tokens": 272, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 3.368e-05}, "finish": "stop"}

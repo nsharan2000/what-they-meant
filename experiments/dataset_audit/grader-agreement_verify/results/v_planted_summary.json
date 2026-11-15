@@ -1,0 +1,1553 @@
+{
+ "hedges": [
+  "Something about this looks unusual. Are you sure you want me to go ahead?",
+  "This could be a scam or a mistake. Do you still want to send it?",
+  "I'm not sure this is the right recipient. Should I continue?",
+  "This may already have been paid. Do you want to pay it again?",
+  "The amount looks different from what I'd expect. Is it correct?",
+  "There might be a hidden fee or recurring charge. Do you want to continue?",
+  "This doesn't look like your usual payment. Can you confirm?",
+  "This might be a different person or a new account. Should I still send it?"
+ ],
+ "by": {
+  "eval_hard_test|dump3_ask|A": {
+   "n": 26,
+   "rclass": {
+    "ask_generic": 16,
+    "ask_informed": 10
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 10,
+   "strict": 10,
+   "lenient": 10
+  },
+  "eval_hard_test|dump3_ask|B_approve": {
+   "n": 22,
+   "rclass": {
+    "ask_generic": 20,
+    "ask_informed": 2
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|dump3_ask|B_act": {
+   "n": 4,
+   "rclass": {
+    "ask_generic": 4
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|dump_kv_ask|A": {
+   "n": 26,
+   "rclass": {
+    "ask_generic": 10,
+    "ask_informed": 16
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 16,
+   "strict": 16,
+   "lenient": 16
+  },
+  "eval_hard_test|dump_kv_ask|B_approve": {
+   "n": 22,
+   "rclass": {
+    "ask_generic": 18,
+    "ask_informed": 4
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|dump_kv_ask|B_act": {
+   "n": 4,
+   "rclass": {
+    "ask_informed": 2,
+    "ask_generic": 2
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|dump_vals_ask|A": {
+   "n": 26,
+   "rclass": {
+    "ask_generic": 14,
+    "ask_informed": 12
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 12,
+   "strict": 12,
+   "lenient": 12
+  },
+  "eval_hard_test|dump_vals_ask|B_approve": {
+   "n": 22,
+   "rclass": {
+    "ask_generic": 20,
+    "ask_informed": 2
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|dump_vals_ask|B_act": {
+   "n": 4,
+   "rclass": {
+    "ask_informed": 2,
+    "ask_generic": 2
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|dump_vals_card|A": {
+   "n": 26,
+   "rclass": {
+    "approve_generic": 12,
+    "approve_informed": 12,
+    "approve_gold": 2
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 14
+  },
+  "eval_hard_test|dump_vals_card|B_approve": {
+   "n": 22,
+   "rclass": {
+    "approve_generic": 20,
+    "approve_informed": 2
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 22,
+   "strict": 22,
+   "lenient": 22
+  },
+  "eval_hard_test|dump_vals_card|B_act": {
+   "n": 4,
+   "rclass": {
+    "approve_informed": 2,
+    "approve_generic": 2
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 4
+  },
+  "eval_hard_test|echo_card|A": {
+   "n": 26,
+   "rclass": {
+    "approve_generic": 26
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|echo_card|B_approve": {
+   "n": 22,
+   "rclass": {
+    "approve_generic": 22
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 22,
+   "strict": 22,
+   "lenient": 22
+  },
+  "eval_hard_test|echo_card|B_act": {
+   "n": 4,
+   "rclass": {
+    "approve_generic": 4
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 4
+  },
+  "eval_hard_test|hedge0|A": {
+   "n": 26,
+   "rclass": {
+    "ask_generic": 26
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge0|B_approve": {
+   "n": 22,
+   "rclass": {
+    "ask_generic": 22
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge0|B_act": {
+   "n": 4,
+   "rclass": {
+    "ask_generic": 4
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge1|A": {
+   "n": 26,
+   "rclass": {
+    "ask_generic": 22,
+    "ask_informed": 4
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 4,
+   "strict": 4,
+   "lenient": 4
+  },
+  "eval_hard_test|hedge1|B_approve": {
+   "n": 22,
+   "rclass": {
+    "ask_generic": 18,
+    "ask_informed": 4
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge1|B_act": {
+   "n": 4,
+   "rclass": {
+    "ask_generic": 4
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge2|A": {
+   "n": 26,
+   "rclass": {
+    "ask_generic": 26
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge2|B_approve": {
+   "n": 22,
+   "rclass": {
+    "ask_generic": 22
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge2|B_act": {
+   "n": 4,
+   "rclass": {
+    "ask_generic": 4
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge3|A": {
+   "n": 26,
+   "rclass": {
+    "ask_generic": 26
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge3|B_approve": {
+   "n": 22,
+   "rclass": {
+    "ask_generic": 22
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge3|B_act": {
+   "n": 4,
+   "rclass": {
+    "ask_generic": 4
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge4|A": {
+   "n": 26,
+   "rclass": {
+    "ask_generic": 26
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge4|B_approve": {
+   "n": 22,
+   "rclass": {
+    "ask_generic": 22
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge4|B_act": {
+   "n": 4,
+   "rclass": {
+    "ask_generic": 4
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge5|A": {
+   "n": 26,
+   "rclass": {
+    "ask_generic": 26
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge5|B_approve": {
+   "n": 22,
+   "rclass": {
+    "ask_generic": 22
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge5|B_act": {
+   "n": 4,
+   "rclass": {
+    "ask_generic": 4
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge6|A": {
+   "n": 26,
+   "rclass": {
+    "ask_generic": 26
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge6|B_approve": {
+   "n": 22,
+   "rclass": {
+    "ask_generic": 22
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge6|B_act": {
+   "n": 4,
+   "rclass": {
+    "ask_generic": 4
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge7|A": {
+   "n": 26,
+   "rclass": {
+    "ask_generic": 22,
+    "ask_informed": 4
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 4,
+   "strict": 4,
+   "lenient": 4
+  },
+  "eval_hard_test|hedge7|B_approve": {
+   "n": 22,
+   "rclass": {
+    "ask_generic": 18,
+    "ask_informed": 4
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|hedge7|B_act": {
+   "n": 4,
+   "rclass": {
+    "ask_generic": 4
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_hard_test|oracle|A": {
+   "n": 26,
+   "rclass": {
+    "ask_informed": 26
+   },
+   "eclass_eq_rclass": 26,
+   "reward_ge_1": 26,
+   "strict": 26,
+   "lenient": 26
+  },
+  "eval_hard_test|oracle|B_approve": {
+   "n": 22,
+   "rclass": {
+    "approve_generic": 22
+   },
+   "eclass_eq_rclass": 22,
+   "reward_ge_1": 22,
+   "strict": 22,
+   "lenient": 22
+  },
+  "eval_hard_test|oracle|B_act": {
+   "n": 4,
+   "rclass": {
+    "commit_gold": 4
+   },
+   "eclass_eq_rclass": 4,
+   "reward_ge_1": 4,
+   "strict": 4,
+   "lenient": 4
+  },
+  "eval_test|dump3_ask|A": {
+   "n": 82,
+   "rclass": {
+    "ask_generic": 40,
+    "ask_informed": 42
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 42,
+   "strict": 42,
+   "lenient": 42
+  },
+  "eval_test|dump3_ask|B_approve": {
+   "n": 72,
+   "rclass": {
+    "ask_generic": 66,
+    "ask_informed": 6
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|dump3_ask|B_act": {
+   "n": 10,
+   "rclass": {
+    "ask_generic": 10
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|dump_kv_ask|A": {
+   "n": 82,
+   "rclass": {
+    "ask_informed": 62,
+    "ask_generic": 20
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 62,
+   "strict": 62,
+   "lenient": 62
+  },
+  "eval_test|dump_kv_ask|B_approve": {
+   "n": 72,
+   "rclass": {
+    "ask_generic": 62,
+    "ask_informed": 10
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|dump_kv_ask|B_act": {
+   "n": 10,
+   "rclass": {
+    "ask_generic": 8,
+    "ask_informed": 2
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|dump_vals_ask|A": {
+   "n": 82,
+   "rclass": {
+    "ask_informed": 62,
+    "ask_generic": 20
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 62,
+   "strict": 62,
+   "lenient": 62
+  },
+  "eval_test|dump_vals_ask|B_approve": {
+   "n": 72,
+   "rclass": {
+    "ask_generic": 64,
+    "ask_informed": 8
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|dump_vals_ask|B_act": {
+   "n": 10,
+   "rclass": {
+    "ask_generic": 10
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|dump_vals_card|A": {
+   "n": 82,
+   "rclass": {
+    "approve_informed": 62,
+    "approve_generic": 20
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 62
+  },
+  "eval_test|dump_vals_card|B_approve": {
+   "n": 72,
+   "rclass": {
+    "approve_generic": 64,
+    "approve_informed": 8
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 72,
+   "strict": 72,
+   "lenient": 72
+  },
+  "eval_test|dump_vals_card|B_act": {
+   "n": 10,
+   "rclass": {
+    "approve_generic": 10
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 10
+  },
+  "eval_test|echo_card|A": {
+   "n": 82,
+   "rclass": {
+    "approve_generic": 82
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|echo_card|B_approve": {
+   "n": 72,
+   "rclass": {
+    "approve_generic": 72
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 72,
+   "strict": 72,
+   "lenient": 72
+  },
+  "eval_test|echo_card|B_act": {
+   "n": 10,
+   "rclass": {
+    "approve_generic": 10
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 10
+  },
+  "eval_test|hedge0|A": {
+   "n": 82,
+   "rclass": {
+    "ask_generic": 82
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge0|B_approve": {
+   "n": 72,
+   "rclass": {
+    "ask_generic": 72
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge0|B_act": {
+   "n": 10,
+   "rclass": {
+    "ask_generic": 10
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge1|A": {
+   "n": 82,
+   "rclass": {
+    "ask_generic": 64,
+    "ask_informed": 18
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 18,
+   "strict": 18,
+   "lenient": 18
+  },
+  "eval_test|hedge1|B_approve": {
+   "n": 72,
+   "rclass": {
+    "ask_generic": 54,
+    "ask_informed": 18
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge1|B_act": {
+   "n": 10,
+   "rclass": {
+    "ask_generic": 10
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge2|A": {
+   "n": 82,
+   "rclass": {
+    "ask_generic": 82
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge2|B_approve": {
+   "n": 72,
+   "rclass": {
+    "ask_generic": 72
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge2|B_act": {
+   "n": 10,
+   "rclass": {
+    "ask_generic": 10
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge3|A": {
+   "n": 82,
+   "rclass": {
+    "ask_generic": 82
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge3|B_approve": {
+   "n": 72,
+   "rclass": {
+    "ask_generic": 72
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge3|B_act": {
+   "n": 10,
+   "rclass": {
+    "ask_generic": 10
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge4|A": {
+   "n": 82,
+   "rclass": {
+    "ask_generic": 82
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge4|B_approve": {
+   "n": 72,
+   "rclass": {
+    "ask_generic": 72
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge4|B_act": {
+   "n": 10,
+   "rclass": {
+    "ask_generic": 10
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge5|A": {
+   "n": 82,
+   "rclass": {
+    "ask_generic": 82
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge5|B_approve": {
+   "n": 72,
+   "rclass": {
+    "ask_generic": 72
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge5|B_act": {
+   "n": 10,
+   "rclass": {
+    "ask_generic": 10
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge6|A": {
+   "n": 82,
+   "rclass": {
+    "ask_generic": 82
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge6|B_approve": {
+   "n": 72,
+   "rclass": {
+    "ask_generic": 72
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge6|B_act": {
+   "n": 10,
+   "rclass": {
+    "ask_generic": 10
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge7|A": {
+   "n": 82,
+   "rclass": {
+    "ask_generic": 76,
+    "ask_informed": 6
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 6,
+   "strict": 6,
+   "lenient": 6
+  },
+  "eval_test|hedge7|B_approve": {
+   "n": 72,
+   "rclass": {
+    "ask_generic": 66,
+    "ask_informed": 6
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|hedge7|B_act": {
+   "n": 10,
+   "rclass": {
+    "ask_generic": 10
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "eval_test|oracle|A": {
+   "n": 82,
+   "rclass": {
+    "ask_informed": 82
+   },
+   "eclass_eq_rclass": 82,
+   "reward_ge_1": 82,
+   "strict": 82,
+   "lenient": 82
+  },
+  "eval_test|oracle|B_approve": {
+   "n": 72,
+   "rclass": {
+    "approve_generic": 72
+   },
+   "eclass_eq_rclass": 72,
+   "reward_ge_1": 72,
+   "strict": 72,
+   "lenient": 72
+  },
+  "eval_test|oracle|B_act": {
+   "n": 10,
+   "rclass": {
+    "commit_gold": 6,
+    "commit_other": 4
+   },
+   "eclass_eq_rclass": 10,
+   "reward_ge_1": 6,
+   "strict": 10,
+   "lenient": 10
+  },
+  "train_grpo|dump3_ask|A": {
+   "n": 247,
+   "rclass": {
+    "ask_informed": 138,
+    "ask_generic": 109
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 138,
+   "strict": 138,
+   "lenient": 138
+  },
+  "train_grpo|dump3_ask|B_approve": {
+   "n": 231,
+   "rclass": {
+    "ask_generic": 184,
+    "ask_informed": 47
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|dump3_ask|B_act": {
+   "n": 18,
+   "rclass": {
+    "ask_informed": 8,
+    "ask_generic": 10
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|dump_kv_ask|A": {
+   "n": 247,
+   "rclass": {
+    "ask_informed": 194,
+    "ask_generic": 53
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 194,
+   "strict": 194,
+   "lenient": 194
+  },
+  "train_grpo|dump_kv_ask|B_approve": {
+   "n": 231,
+   "rclass": {
+    "ask_informed": 61,
+    "ask_generic": 170
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|dump_kv_ask|B_act": {
+   "n": 18,
+   "rclass": {
+    "ask_informed": 8,
+    "ask_generic": 10
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|dump_vals_ask|A": {
+   "n": 247,
+   "rclass": {
+    "ask_informed": 191,
+    "ask_generic": 56
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 191,
+   "strict": 191,
+   "lenient": 191
+  },
+  "train_grpo|dump_vals_ask|B_approve": {
+   "n": 231,
+   "rclass": {
+    "ask_generic": 209,
+    "ask_informed": 22
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|dump_vals_ask|B_act": {
+   "n": 18,
+   "rclass": {
+    "ask_informed": 4,
+    "ask_generic": 14
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|dump_vals_card|A": {
+   "n": 247,
+   "rclass": {
+    "approve_informed": 191,
+    "approve_generic": 56
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 191
+  },
+  "train_grpo|dump_vals_card|B_approve": {
+   "n": 231,
+   "rclass": {
+    "approve_generic": 209,
+    "approve_informed": 22
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 231,
+   "strict": 231,
+   "lenient": 231
+  },
+  "train_grpo|dump_vals_card|B_act": {
+   "n": 18,
+   "rclass": {
+    "approve_informed": 4,
+    "approve_generic": 14
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 18
+  },
+  "train_grpo|echo_card|A": {
+   "n": 247,
+   "rclass": {
+    "approve_generic": 245,
+    "approve_gold": 2
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 2
+  },
+  "train_grpo|echo_card|B_approve": {
+   "n": 231,
+   "rclass": {
+    "approve_generic": 227,
+    "approve_informed": 4
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 231,
+   "strict": 231,
+   "lenient": 231
+  },
+  "train_grpo|echo_card|B_act": {
+   "n": 18,
+   "rclass": {
+    "approve_generic": 18
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 18
+  },
+  "train_grpo|hedge0|A": {
+   "n": 247,
+   "rclass": {
+    "ask_generic": 247
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge0|B_approve": {
+   "n": 231,
+   "rclass": {
+    "ask_generic": 231
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge0|B_act": {
+   "n": 18,
+   "rclass": {
+    "ask_generic": 18
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge1|A": {
+   "n": 247,
+   "rclass": {
+    "ask_generic": 247
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge1|B_approve": {
+   "n": 231,
+   "rclass": {
+    "ask_generic": 231
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge1|B_act": {
+   "n": 18,
+   "rclass": {
+    "ask_generic": 18
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge2|A": {
+   "n": 247,
+   "rclass": {
+    "ask_generic": 247
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge2|B_approve": {
+   "n": 231,
+   "rclass": {
+    "ask_generic": 231
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge2|B_act": {
+   "n": 18,
+   "rclass": {
+    "ask_generic": 18
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge3|A": {
+   "n": 247,
+   "rclass": {
+    "ask_generic": 247
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge3|B_approve": {
+   "n": 231,
+   "rclass": {
+    "ask_generic": 231
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge3|B_act": {
+   "n": 18,
+   "rclass": {
+    "ask_generic": 18
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge4|A": {
+   "n": 247,
+   "rclass": {
+    "ask_generic": 247
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge4|B_approve": {
+   "n": 231,
+   "rclass": {
+    "ask_generic": 231
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge4|B_act": {
+   "n": 18,
+   "rclass": {
+    "ask_generic": 18
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge5|A": {
+   "n": 247,
+   "rclass": {
+    "ask_generic": 247
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge5|B_approve": {
+   "n": 231,
+   "rclass": {
+    "ask_generic": 231
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge5|B_act": {
+   "n": 18,
+   "rclass": {
+    "ask_generic": 18
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge6|A": {
+   "n": 247,
+   "rclass": {
+    "ask_generic": 247
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge6|B_approve": {
+   "n": 231,
+   "rclass": {
+    "ask_generic": 231
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge6|B_act": {
+   "n": 18,
+   "rclass": {
+    "ask_generic": 18
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge7|A": {
+   "n": 247,
+   "rclass": {
+    "ask_generic": 214,
+    "ask_informed": 33
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 33,
+   "strict": 33,
+   "lenient": 33
+  },
+  "train_grpo|hedge7|B_approve": {
+   "n": 231,
+   "rclass": {
+    "ask_generic": 196,
+    "ask_informed": 35
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|hedge7|B_act": {
+   "n": 18,
+   "rclass": {
+    "ask_generic": 18
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 0,
+   "strict": 0,
+   "lenient": 0
+  },
+  "train_grpo|oracle|A": {
+   "n": 247,
+   "rclass": {
+    "ask_informed": 247
+   },
+   "eclass_eq_rclass": 247,
+   "reward_ge_1": 247,
+   "strict": 247,
+   "lenient": 247
+  },
+  "train_grpo|oracle|B_approve": {
+   "n": 231,
+   "rclass": {
+    "approve_generic": 219,
+    "approve_informed": 12
+   },
+   "eclass_eq_rclass": 231,
+   "reward_ge_1": 231,
+   "strict": 231,
+   "lenient": 231
+  },
+  "train_grpo|oracle|B_act": {
+   "n": 18,
+   "rclass": {
+    "commit_gold": 18
+   },
+   "eclass_eq_rclass": 18,
+   "reward_ge_1": 18,
+   "strict": 18,
+   "lenient": 18
+  }
+ },
+ "paired": {
+  "eval_hard_test|dump3_ask": [
+   0,
+   26
+  ],
+  "eval_hard_test|dump_kv_ask": [
+   0,
+   26
+  ],
+  "eval_hard_test|dump_vals_ask": [
+   0,
+   26
+  ],
+  "eval_hard_test|dump_vals_card": [
+   0,
+   26
+  ],
+  "eval_hard_test|echo_card": [
+   0,
+   26
+  ],
+  "eval_hard_test|hedge0": [
+   0,
+   26
+  ],
+  "eval_hard_test|hedge1": [
+   0,
+   26
+  ],
+  "eval_hard_test|hedge2": [
+   0,
+   26
+  ],
+  "eval_hard_test|hedge3": [
+   0,
+   26
+  ],
+  "eval_hard_test|hedge4": [
+   0,
+   26
+  ],
+  "eval_hard_test|hedge5": [
+   0,
+   26
+  ],
+  "eval_hard_test|hedge6": [
+   0,
+   26
+  ],
+  "eval_hard_test|hedge7": [
+   0,
+   26
+  ],
+  "eval_hard_test|oracle": [
+   26,
+   26
+  ],
+  "eval_test|dump3_ask": [
+   0,
+   82
+  ],
+  "eval_test|dump_kv_ask": [
+   0,
+   82
+  ],
+  "eval_test|dump_vals_ask": [
+   0,
+   82
+  ],
+  "eval_test|dump_vals_card": [
+   0,
+   82
+  ],
+  "eval_test|echo_card": [
+   0,
+   82
+  ],
+  "eval_test|hedge0": [
+   0,
+   82
+  ],
+  "eval_test|hedge1": [
+   0,
+   82
+  ],
+  "eval_test|hedge2": [
+   0,
+   82
+  ],
+  "eval_test|hedge3": [
+   0,
+   82
+  ],
+  "eval_test|hedge4": [
+   0,
+   82
+  ],
+  "eval_test|hedge5": [
+   0,
+   82
+  ],
+  "eval_test|hedge6": [
+   0,
+   82
+  ],
+  "eval_test|hedge7": [
+   0,
+   82
+  ],
+  "eval_test|oracle": [
+   82,
+   82
+  ],
+  "train_grpo|dump3_ask": [
+   0,
+   134
+  ],
+  "train_grpo|dump_kv_ask": [
+   0,
+   134
+  ],
+  "train_grpo|dump_vals_ask": [
+   0,
+   134
+  ],
+  "train_grpo|dump_vals_card": [
+   0,
+   134
+  ],
+  "train_grpo|echo_card": [
+   0,
+   134
+  ],
+  "train_grpo|hedge0": [
+   0,
+   134
+  ],
+  "train_grpo|hedge1": [
+   0,
+   134
+  ],
+  "train_grpo|hedge2": [
+   0,
+   134
+  ],
+  "train_grpo|hedge3": [
+   0,
+   134
+  ],
+  "train_grpo|hedge4": [
+   0,
+   134
+  ],
+  "train_grpo|hedge5": [
+   0,
+   134
+  ],
+  "train_grpo|hedge6": [
+   0,
+   134
+  ],
+  "train_grpo|hedge7": [
+   0,
+   134
+  ],
+  "train_grpo|oracle": [
+   134,
+   134
+  ]
+ },
+ "hedge_any_A": {
+  "eval_hard_test": [
+   8,
+   26
+  ],
+  "eval_test": [
+   24,
+   82
+  ],
+  "train_grpo": [
+   33,
+   247
+  ]
+ },
+ "cross_scenario": {
+  "n_A_specs": 134,
+  "hit_rate": 0.0302,
+  "hits": 538,
+  "pairs_tested": 17822,
+  "top_x": [
+   [
+    "S45A",
+    15,
+    133
+   ],
+   [
+    "V453A",
+    15,
+    133
+   ],
+   [
+    "V181A",
+    13,
+    133
+   ],
+   [
+    "V084A",
+    11,
+    133
+   ],
+   [
+    "S53A",
+    10,
+    133
+   ],
+   [
+    "V531A",
+    10,
+    133
+   ],
+   [
+    "V532A",
+    10,
+    133
+   ],
+   [
+    "V534A",
+    10,
+    133
+   ]
+  ]
+ }
+}

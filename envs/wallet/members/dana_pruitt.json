@@ -1,0 +1,2014 @@
+{
+ "member_id": "dana_pruitt",
+ "profile": {
+  "name": "Dana Pruitt",
+  "age": 33,
+  "city": "Lusby, MD",
+  "country": "United States",
+  "occupation": "Business operations specialist",
+  "summary": "Kestrel member since 2022-09 · identity verified · home currency USD · connected: PayPal, Navy Federal Checking ••6034",
+  "email": "dana.pruitt@mail.com",
+  "phone": "555-0148",
+  "member_since": "2022-09-03",
+  "home_currency": "USD",
+  "timezone": "America/New_York",
+  "language": "en-US",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Dana Pruitt blends data‑driven operational savvy with a love for soulful cooking, spontaneous travel, and community‑focused jazz nights, all while they wrestle with a penchant for last‑minute planning and a deep commitment to mentoring emerging talent.",
+   "professional_persona": "Dana Pruitt, an operations specialist with a talent for mapping workflows and turning data insights into actionable process improvements, leverages their SAP and NetSuite expertise to streamline cross‑functional projects while juggling a spontaneous work style that sometimes clashes with tight deadlines, and they are currently pursuing a Lean Six Sigma Black Belt and a part‑time MBA to prepare for an operations leadership role.",
+   "cultural_background": "Dana grew up in a close‑knit Black community in the Baltimore metropolitan area before moving to Lusby, Maryland. Her upbringing was rooted in the traditions of the African‑American church, family gatherings centered around soulful cooking, and a strong emphasis on education and community service. She actively participates in local Juneteenth celebrations, Calvert County Black History Month events, and neighborhood initiatives that preserve and share Black heritage. These cultural experiences shape her collaborative work style, her commitment to mentorship, and her appreciation for resilience and creativity within her community.",
+   "sex": "Female",
+   "marital_status": "separated",
+   "education_level": "bachelors",
+   "occupation": "business_operations_specialist"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "593bebea64c54210b8b6b4912dd40ffd",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "USA",
+    "age": 33,
+    "sex": "Female",
+    "seed": 2
+   },
+   "source_age": 33,
+   "source_location": "Lusby, MD",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Jennifer Washington",
+    "Jennifer"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "PayPal balance",
+   "currency": "USD",
+   "balance": 275.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Keisha Grant",
+   "email": "keisha.grant@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "friend",
+   "last_paid": "2026-08-17"
+  },
+  {
+   "name": "Brandon Lewis",
+   "email": "b.lewis@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "coworker",
+   "last_paid": "2026-10-05"
+  },
+  {
+   "name": "Alex Moreno",
+   "email": "a.moreno@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "friend",
+   "last_paid": "2026-09-09"
+  },
+  {
+   "name": "Monique Pruitt",
+   "email": "monique.pruitt@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "relationship": "sister",
+   "last_paid": "2026-06-14"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-PAYPAL",
+   "type": "payment_app",
+   "name": "PayPal",
+   "login": "dana.pruitt@mail.com",
+   "status": "connected",
+   "since": "2022-09-03"
+  },
+  {
+   "id": "LA-6034",
+   "type": "bank_account",
+   "name": "Navy Federal Checking",
+   "last4": "6034",
+   "status": "active",
+   "since": "2022-09-05"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "Audible",
+   "amount": 14.95,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "PayPal balance",
+   "next_charge": "2026-11-14",
+   "status": "active"
+  },
+  {
+   "name": "Hulu",
+   "amount": 9.99,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "PayPal balance",
+   "next_charge": "2026-12-02",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SA-6611 · Billing agreements · Audible and Hulu may charge the PayPal balance each month."
+ ],
+ "notes": [
+  "Contacts: Alex Moreno (a.moreno@mail.com).",
+  "Prefers to be addressed as Dana."
+ ],
+ "transactions": [
+  {
+   "id": "KX5WM4K2YC",
+   "date": "2026-11-02",
+   "time": "08:25",
+   "counterparty": "Hulu",
+   "amount": 9.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "With ads"
+  },
+  {
+   "id": "KXWHTD17XB",
+   "date": "2026-10-28",
+   "time": "11:23",
+   "counterparty": "Keisha Grant",
+   "handle": "keisha.grant@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "thanks!"
+  },
+  {
+   "id": "KX2P0DA0WQ",
+   "date": "2026-10-14",
+   "time": "16:59",
+   "counterparty": "Audible",
+   "amount": 14.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Plus"
+  },
+  {
+   "id": "KXN1GGZC6N",
+   "date": "2026-10-13",
+   "time": "09:23",
+   "counterparty": "Kohl's",
+   "amount": 59.29,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXL52KTTE7",
+   "date": "2026-10-05",
+   "time": "16:22",
+   "counterparty": "Brandon Lewis",
+   "handle": "b.lewis@mail.com",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "office gift"
+  },
+  {
+   "id": "KX7X5W3AVM",
+   "date": "2026-10-02",
+   "time": "20:28",
+   "counterparty": "Hulu",
+   "amount": 9.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "With ads"
+  },
+  {
+   "id": "KXQ3CYVFQS",
+   "date": "2026-09-29",
+   "time": "11:01",
+   "counterparty": "Brandon Lewis",
+   "handle": "b.lewis@mail.com",
+   "amount": 12.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "office gift"
+  },
+  {
+   "id": "KX2VTFN7CL",
+   "date": "2026-09-15",
+   "time": "19:20",
+   "counterparty": "Kohl's",
+   "amount": 67.85,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXHQFK3N38",
+   "date": "2026-09-14",
+   "time": "10:59",
+   "counterparty": "Audible",
+   "amount": 14.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Plus"
+  },
+  {
+   "id": "KXKK6Z7E73",
+   "date": "2026-09-12",
+   "time": "18:07",
+   "counterparty": "Brandon Lewis",
+   "handle": "b.lewis@mail.com",
+   "amount": 12.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "lunch"
+  },
+  {
+   "id": "KXCF132FFE",
+   "date": "2026-09-09",
+   "time": "12:40",
+   "counterparty": "Alex Moreno",
+   "handle": "a.moreno@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "lunch"
+  },
+  {
+   "id": "KXRVUG57M1",
+   "date": "2026-09-04",
+   "time": "17:52",
+   "counterparty": "Apple Services",
+   "amount": 1.89,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXHZ9Y9B49",
+   "date": "2026-09-02",
+   "time": "13:49",
+   "counterparty": "Hulu",
+   "amount": 9.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "With ads"
+  },
+  {
+   "id": "KX0B0BXLSR",
+   "date": "2026-08-17",
+   "time": "07:06",
+   "counterparty": "Keisha Grant",
+   "handle": "keisha.grant@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "paint night"
+  },
+  {
+   "id": "KXXG1H4B05",
+   "date": "2026-08-14",
+   "time": "08:58",
+   "counterparty": "Audible",
+   "amount": 14.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Plus"
+  },
+  {
+   "id": "KX5QR3BVR0",
+   "date": "2026-08-07",
+   "time": "18:52",
+   "counterparty": "Etsy",
+   "amount": 16.81,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXBHKX8SEL",
+   "date": "2026-08-02",
+   "time": "19:42",
+   "counterparty": "Hulu",
+   "amount": 9.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "With ads"
+  },
+  {
+   "id": "KX12KAHC8J",
+   "date": "2026-07-18",
+   "time": "11:37",
+   "counterparty": "Alex Moreno",
+   "handle": "a.moreno@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "coffee"
+  },
+  {
+   "id": "KX3CJ34ABU",
+   "date": "2026-07-15",
+   "time": "10:53",
+   "counterparty": "Old Navy",
+   "amount": 53.28,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX49MJMT81",
+   "date": "2026-07-14",
+   "time": "08:49",
+   "counterparty": "Audible",
+   "amount": 14.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Plus"
+  },
+  {
+   "id": "KXK0Q20VVJ",
+   "date": "2026-07-11",
+   "time": "10:51",
+   "counterparty": "Kohl's",
+   "amount": 41.15,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXBDD5FP2X",
+   "date": "2026-07-10",
+   "time": "09:00",
+   "counterparty": "Old Navy",
+   "amount": 60.1,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXD4892U1Z",
+   "date": "2026-07-06",
+   "time": "19:29",
+   "counterparty": "Keisha Grant",
+   "handle": "keisha.grant@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "thanks!"
+  },
+  {
+   "id": "KXPB3FJJ5M",
+   "date": "2026-07-06",
+   "time": "15:57",
+   "counterparty": "Brandon Lewis",
+   "handle": "b.lewis@mail.com",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "lunch"
+  },
+  {
+   "id": "KXF73V1R1W",
+   "date": "2026-07-05",
+   "time": "09:01",
+   "counterparty": "Brandon Lewis",
+   "handle": "b.lewis@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "office gift"
+  },
+  {
+   "id": "KXR75LX7J6",
+   "date": "2026-07-02",
+   "time": "12:01",
+   "counterparty": "Hulu",
+   "amount": 9.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "With ads"
+  },
+  {
+   "id": "KXTE83PL3P",
+   "date": "2026-06-14",
+   "time": "15:39",
+   "counterparty": "Monique Pruitt",
+   "handle": "monique.pruitt@mail.com",
+   "amount": 75.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "nephew's birthday"
+  },
+  {
+   "id": "KXP0V2ZK6D",
+   "date": "2026-06-14",
+   "time": "12:48",
+   "counterparty": "Audible",
+   "amount": 14.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Plus"
+  },
+  {
+   "id": "KXYHBS1XBE",
+   "date": "2026-06-02",
+   "time": "20:43",
+   "counterparty": "Hulu",
+   "amount": 9.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "With ads"
+  },
+  {
+   "id": "KX3KSW2G3Z",
+   "date": "2026-05-18",
+   "time": "09:55",
+   "counterparty": "Keisha Grant",
+   "handle": "keisha.grant@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "my half"
+  },
+  {
+   "id": "KXZZLWVWQH",
+   "date": "2026-05-14",
+   "time": "19:40",
+   "counterparty": "Audible",
+   "amount": 14.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Plus"
+  },
+  {
+   "id": "KX6PE16UMZ",
+   "date": "2026-05-09",
+   "time": "22:24",
+   "counterparty": "Alex Moreno",
+   "handle": "a.moreno@mail.com",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "birthday drinks"
+  },
+  {
+   "id": "KXK2NA12YT",
+   "date": "2026-05-02",
+   "time": "13:15",
+   "counterparty": "Hulu",
+   "amount": 9.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "With ads"
+  },
+  {
+   "id": "KXR7FAV89K",
+   "date": "2026-04-15",
+   "time": "08:32",
+   "counterparty": "Brandon Lewis",
+   "handle": "b.lewis@mail.com",
+   "amount": 12.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "office gift"
+  },
+  {
+   "id": "KXFNETX3SP",
+   "date": "2026-04-14",
+   "time": "08:39",
+   "counterparty": "Audible",
+   "amount": 14.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Plus"
+  },
+  {
+   "id": "KXAHKL0CBW",
+   "date": "2026-04-13",
+   "time": "14:38",
+   "counterparty": "Etsy",
+   "amount": 16.51,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXF9ZR38KP",
+   "date": "2026-04-06",
+   "time": "15:23",
+   "counterparty": "Kohl's",
+   "amount": 23.61,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX5ZMV586N",
+   "date": "2026-04-03",
+   "time": "16:59",
+   "counterparty": "Keisha Grant",
+   "handle": "keisha.grant@mail.com",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "game night"
+  },
+  {
+   "id": "KXE9DU0SXL",
+   "date": "2026-04-02",
+   "time": "22:03",
+   "counterparty": "Keisha Grant",
+   "handle": "keisha.grant@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "brunch"
+  },
+  {
+   "id": "KXNHV3TTKS",
+   "date": "2026-04-02",
+   "time": "12:15",
+   "counterparty": "Hulu",
+   "amount": 9.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "With ads"
+  },
+  {
+   "id": "KXTDLYY9HJ",
+   "date": "2026-03-27",
+   "time": "18:13",
+   "counterparty": "Brandon Lewis",
+   "handle": "b.lewis@mail.com",
+   "amount": 12.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "lunch"
+  },
+  {
+   "id": "KX37NRPLQP",
+   "date": "2026-03-14",
+   "time": "18:00",
+   "counterparty": "Audible",
+   "amount": 14.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Plus"
+  },
+  {
+   "id": "KXBFN2D097",
+   "date": "2026-03-04",
+   "time": "20:45",
+   "counterparty": "Old Navy",
+   "amount": 44.93,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXRUFMA3MX",
+   "date": "2026-03-02",
+   "time": "20:18",
+   "counterparty": "Hulu",
+   "amount": 9.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "With ads"
+  },
+  {
+   "id": "KXXLL1SUUG",
+   "date": "2026-02-21",
+   "time": "13:09",
+   "counterparty": "Alex Moreno",
+   "handle": "a.moreno@mail.com",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "dinner"
+  },
+  {
+   "id": "KX8KDVPMAK",
+   "date": "2026-02-14",
+   "time": "09:19",
+   "counterparty": "Audible",
+   "amount": 14.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Plus"
+  },
+  {
+   "id": "KXUJ1TTWR6",
+   "date": "2026-02-08",
+   "time": "21:32",
+   "counterparty": "Monique Pruitt",
+   "handle": "monique.pruitt@mail.com",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "nephew's birthday"
+  },
+  {
+   "id": "KXR4PSL4HK",
+   "date": "2026-02-07",
+   "time": "10:17",
+   "counterparty": "Keisha Grant",
+   "handle": "keisha.grant@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "my half"
+  },
+  {
+   "id": "KXYSLLV266",
+   "date": "2026-02-02",
+   "time": "09:23",
+   "counterparty": "Hulu",
+   "amount": 9.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "With ads"
+  },
+  {
+   "id": "KXUZQJD8S6",
+   "date": "2026-01-14",
+   "time": "20:08",
+   "counterparty": "Audible",
+   "amount": 14.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Plus"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-04",
+   "time": "12:00",
+   "type": "product",
+   "text": "Tip: set a low-balance alert in Settings > Notifications."
+  },
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-28",
+   "time": "11:23",
+   "type": "payment_received",
+   "text": "Keisha Grant sent you $15.00 — “thanks!”"
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-25",
+   "time": "17:54",
+   "type": "security",
+   "text": "New sign-in on iPhone 14 near Lusby, MD. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BK0JGH2W1F",
+   "date": "2026-11-12",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "GIANT FOOD #2350 LUSBY MD",
+   "amount": 103.16,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK7RM88UUF",
+   "date": "2026-11-10",
+   "account": "Navy Federal Checking ••6034",
+   "description": "VERIZON FIOS",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK005E2Z3Z",
+   "date": "2026-11-08",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "CVS/PHARMACY #2187 LUSBY",
+   "amount": 29.74,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKFMQHH3UY",
+   "date": "2026-11-02",
+   "account": "Navy Federal Checking ••6034",
+   "description": "LUSBY RIDGE TOWNHOMES RENT",
+   "amount": 1725.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKQC5LZS3N",
+   "date": "2026-10-31",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "GIANT FOOD #2350 LUSBY MD",
+   "amount": 27.86,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK0859GDWC",
+   "date": "2026-10-30",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2318.19,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKT12W0QB6",
+   "date": "2026-10-28",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "WAWA 8462 LUSBY",
+   "amount": 23.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKR6QXX124",
+   "date": "2026-10-28",
+   "account": "Navy Federal Checking ••6034",
+   "description": "GEICO AUTO",
+   "amount": 124.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKXW68K0D3",
+   "date": "2026-10-25",
+   "account": "Navy Federal Checking ••6034",
+   "description": "NAVY FEDERAL AUTO LOAN",
+   "amount": 389.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BKZ18HS0HS",
+   "date": "2026-10-18",
+   "account": "Navy Federal Checking ••6034",
+   "description": "SMECO ELECTRIC BILLPAY",
+   "amount": 155.51,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKN75XBGSQ",
+   "date": "2026-10-16",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2306.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKR2QAMPJB",
+   "date": "2026-10-11",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "CVS/PHARMACY #2187 LUSBY",
+   "amount": 32.49,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKTTL9Z78S",
+   "date": "2026-10-10",
+   "account": "Navy Federal Checking ••6034",
+   "description": "VERIZON FIOS",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKMCPTH1VV",
+   "date": "2026-10-04",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "WAWA 8462 LUSBY",
+   "amount": 10.35,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKUUUK0T54",
+   "date": "2026-10-02",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2303.76,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK99E87A7Z",
+   "date": "2026-10-01",
+   "account": "Navy Federal Checking ••6034",
+   "description": "LUSBY RIDGE TOWNHOMES RENT",
+   "amount": 1725.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK1VYBN1S8",
+   "date": "2026-09-28",
+   "account": "Navy Federal Checking ••6034",
+   "description": "GEICO AUTO",
+   "amount": 124.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKZ0TXHTM2",
+   "date": "2026-09-26",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "CVS/PHARMACY #2187 LUSBY",
+   "amount": 13.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BK5RXX4C7P",
+   "date": "2026-09-25",
+   "account": "Navy Federal Checking ••6034",
+   "description": "NAVY FEDERAL AUTO LOAN",
+   "amount": 389.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BK3Y8W11FD",
+   "date": "2026-09-20",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "WAWA 8462 LUSBY",
+   "amount": 15.67,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKV1L6X0BG",
+   "date": "2026-09-18",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2300.61,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKU1MNTSM4",
+   "date": "2026-09-18",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "WAWA 8462 LUSBY",
+   "amount": 21.52,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK5ZHU8EYP",
+   "date": "2026-09-18",
+   "account": "Navy Federal Checking ••6034",
+   "description": "SMECO ELECTRIC BILLPAY",
+   "amount": 179.25,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKK5PLGK1Y",
+   "date": "2026-09-10",
+   "account": "Navy Federal Checking ••6034",
+   "description": "VERIZON FIOS",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKA9FLA4GQ",
+   "date": "2026-09-10",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "GIANT FOOD #2350 LUSBY MD",
+   "amount": 33.02,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK7ZHSBU5Q",
+   "date": "2026-09-07",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "WAWA 8462 LUSBY",
+   "amount": 18.09,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKK134VEG2",
+   "date": "2026-09-06",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "FOOD LION #1462 PRINCE FREDERICK",
+   "amount": 24.52,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKPEVJHZDM",
+   "date": "2026-09-04",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2326.89,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKLL95G4V4",
+   "date": "2026-09-01",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "SAFEWAY #4291 PRINCE FREDERICK",
+   "amount": 81.23,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK58RD15V4",
+   "date": "2026-09-01",
+   "account": "Navy Federal Checking ••6034",
+   "description": "LUSBY RIDGE TOWNHOMES RENT",
+   "amount": 1725.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK79QQWG3S",
+   "date": "2026-08-28",
+   "account": "Navy Federal Checking ••6034",
+   "description": "GEICO AUTO",
+   "amount": 124.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKJUACK2K4",
+   "date": "2026-08-25",
+   "account": "Navy Federal Checking ••6034",
+   "description": "NAVY FEDERAL AUTO LOAN",
+   "amount": 389.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BKZQT06913",
+   "date": "2026-08-21",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2335.39,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK2N125JEZ",
+   "date": "2026-08-18",
+   "account": "Navy Federal Checking ••6034",
+   "description": "SMECO ELECTRIC BILLPAY",
+   "amount": 193.64,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKTDXS4P6E",
+   "date": "2026-08-16",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "SAFEWAY #4291 PRINCE FREDERICK",
+   "amount": 24.93,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK2SC58T60",
+   "date": "2026-08-13",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "FOOD LION #1462 PRINCE FREDERICK",
+   "amount": 75.28,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKMR2XLTRK",
+   "date": "2026-08-11",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "FOOD LION #1462 PRINCE FREDERICK",
+   "amount": 40.72,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK0K4E16JF",
+   "date": "2026-08-10",
+   "account": "Navy Federal Checking ••6034",
+   "description": "VERIZON FIOS",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKBNYPA8N8",
+   "date": "2026-08-07",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "GIANT FOOD #2350 LUSBY MD",
+   "amount": 78.17,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK331D3F4T",
+   "date": "2026-08-07",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2301.37,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKZV0KGUYC",
+   "date": "2026-08-05",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "FOOD LION #1462 PRINCE FREDERICK",
+   "amount": 41.88,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK7SBX82QM",
+   "date": "2026-08-03",
+   "account": "Navy Federal Checking ••6034",
+   "description": "LUSBY RIDGE TOWNHOMES RENT",
+   "amount": 1725.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKWA2SDEBP",
+   "date": "2026-07-29",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "SAFEWAY #4291 PRINCE FREDERICK",
+   "amount": 52.04,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKAG3XGY7C",
+   "date": "2026-07-28",
+   "account": "Navy Federal Checking ••6034",
+   "description": "GEICO AUTO",
+   "amount": 124.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKCCQPLGPM",
+   "date": "2026-07-25",
+   "account": "Navy Federal Checking ••6034",
+   "description": "NAVY FEDERAL AUTO LOAN",
+   "amount": 389.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BK7X1U1WP5",
+   "date": "2026-07-24",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2291.54,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKV8QP2HTC",
+   "date": "2026-07-22",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "FOOD LION #1462 PRINCE FREDERICK",
+   "amount": 63.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKB0LSXC3P",
+   "date": "2026-07-18",
+   "account": "Navy Federal Checking ••6034",
+   "description": "SMECO ELECTRIC BILLPAY",
+   "amount": 104.87,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKU1ET6JS8",
+   "date": "2026-07-11",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "ROYAL FARMS #193 LUSBY",
+   "amount": 32.42,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKAW6ERAFR",
+   "date": "2026-07-10",
+   "account": "Navy Federal Checking ••6034",
+   "description": "VERIZON FIOS",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKA269VTDZ",
+   "date": "2026-07-10",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2313.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK9G9X41MD",
+   "date": "2026-07-06",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "SOLOMONS CRAB HOUSE",
+   "amount": 66.75,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKJL1P429E",
+   "date": "2026-07-05",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "WAWA 8462 LUSBY",
+   "amount": 33.36,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKXYYPXTDP",
+   "date": "2026-07-01",
+   "account": "Navy Federal Checking ••6034",
+   "description": "LUSBY RIDGE TOWNHOMES RENT",
+   "amount": 1725.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKFEHH2HBR",
+   "date": "2026-06-28",
+   "account": "Navy Federal Checking ••6034",
+   "description": "GEICO AUTO",
+   "amount": 124.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK871S8BHC",
+   "date": "2026-06-28",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "SOLOMONS CRAB HOUSE",
+   "amount": 44.02,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKVF9WNKKC",
+   "date": "2026-06-26",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2319.85,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK80K1ZHLT",
+   "date": "2026-06-26",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "GIANT FOOD #2350 LUSBY MD",
+   "amount": 52.71,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKRBRLPLTJ",
+   "date": "2026-06-25",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "GIANT FOOD #2350 LUSBY MD",
+   "amount": 52.09,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKHD9CRXYV",
+   "date": "2026-06-25",
+   "account": "Navy Federal Checking ••6034",
+   "description": "NAVY FEDERAL AUTO LOAN",
+   "amount": 389.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BK5DWUPRSB",
+   "date": "2026-06-22",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "CVS/PHARMACY #2187 LUSBY",
+   "amount": 30.84,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKGK11E4LK",
+   "date": "2026-06-20",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "ROYAL FARMS #193 LUSBY",
+   "amount": 31.74,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK8CHZ1HZD",
+   "date": "2026-06-18",
+   "account": "Navy Federal Checking ••6034",
+   "description": "SMECO ELECTRIC BILLPAY",
+   "amount": 196.29,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKV1TV4NAR",
+   "date": "2026-06-12",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2329.69,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKNUAJN8T9",
+   "date": "2026-06-11",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "ROYAL FARMS #193 LUSBY",
+   "amount": 46.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKEAFTSGBR",
+   "date": "2026-06-10",
+   "account": "Navy Federal Checking ••6034",
+   "description": "VERIZON FIOS",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKXC2WWEBK",
+   "date": "2026-06-03",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "FOOD LION #1462 PRINCE FREDERICK",
+   "amount": 71.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKQTV61P0E",
+   "date": "2026-06-01",
+   "account": "Navy Federal Checking ••6034",
+   "description": "LUSBY RIDGE TOWNHOMES RENT",
+   "amount": 1725.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKC7BY4K1R",
+   "date": "2026-05-29",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2321.63,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKUY597ULC",
+   "date": "2026-05-28",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "SAFEWAY #4291 PRINCE FREDERICK",
+   "amount": 47.9,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKM5MYREQX",
+   "date": "2026-05-28",
+   "account": "Navy Federal Checking ••6034",
+   "description": "GEICO AUTO",
+   "amount": 124.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKG72VM1HE",
+   "date": "2026-05-28",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "SOLOMONS CRAB HOUSE",
+   "amount": 59.72,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKE9D37FTB",
+   "date": "2026-05-25",
+   "account": "Navy Federal Checking ••6034",
+   "description": "NAVY FEDERAL AUTO LOAN",
+   "amount": 389.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BKFTVANW0Y",
+   "date": "2026-05-21",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "GIANT FOOD #2350 LUSBY MD",
+   "amount": 53.92,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJB7WLH16",
+   "date": "2026-05-18",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "SAFEWAY #4291 PRINCE FREDERICK",
+   "amount": 53.42,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKEAN18P9E",
+   "date": "2026-05-18",
+   "account": "Navy Federal Checking ••6034",
+   "description": "SMECO ELECTRIC BILLPAY",
+   "amount": 143.81,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK4XLU9XSU",
+   "date": "2026-05-15",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2300.96,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKVJL2ZYCT",
+   "date": "2026-05-12",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "GIANT FOOD #2350 LUSBY MD",
+   "amount": 76.82,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKG5KJ1JM9",
+   "date": "2026-05-10",
+   "account": "Navy Federal Checking ••6034",
+   "description": "VERIZON FIOS",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKKN5XCUHK",
+   "date": "2026-05-01",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2299.67,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK2S148PSS",
+   "date": "2026-05-01",
+   "account": "Navy Federal Checking ••6034",
+   "description": "LUSBY RIDGE TOWNHOMES RENT",
+   "amount": 1725.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK70L2ZZGC",
+   "date": "2026-04-28",
+   "account": "Navy Federal Checking ••6034",
+   "description": "GEICO AUTO",
+   "amount": 124.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK6AJYXG92",
+   "date": "2026-04-25",
+   "account": "Navy Federal Checking ••6034",
+   "description": "NAVY FEDERAL AUTO LOAN",
+   "amount": 389.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BKVDZYLEVX",
+   "date": "2026-04-20",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "SAFEWAY #4291 PRINCE FREDERICK",
+   "amount": 54.45,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK0EH0WPPA",
+   "date": "2026-04-19",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "GIANT FOOD #2350 LUSBY MD",
+   "amount": 83.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK5WBFW6B8",
+   "date": "2026-04-18",
+   "account": "Navy Federal Checking ••6034",
+   "description": "SMECO ELECTRIC BILLPAY",
+   "amount": 176.26,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK6RR6FE2M",
+   "date": "2026-04-17",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2289.77,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKFZ1J4KUF",
+   "date": "2026-04-15",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "FOOD LION #1462 PRINCE FREDERICK",
+   "amount": 61.83,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKP5XW11VG",
+   "date": "2026-04-10",
+   "account": "Navy Federal Checking ••6034",
+   "description": "VERIZON FIOS",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKHDA1HGAJ",
+   "date": "2026-04-07",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "ROYAL FARMS #193 LUSBY",
+   "amount": 32.7,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKL1LNJH5X",
+   "date": "2026-04-03",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2319.37,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKGSUVBS05",
+   "date": "2026-04-01",
+   "account": "Navy Federal Checking ••6034",
+   "description": "LUSBY RIDGE TOWNHOMES RENT",
+   "amount": 1725.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKGGVAXXYY",
+   "date": "2026-03-30",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "SAFEWAY #4291 PRINCE FREDERICK",
+   "amount": 37.81,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKDTUQG5CL",
+   "date": "2026-03-28",
+   "account": "Navy Federal Checking ••6034",
+   "description": "GEICO AUTO",
+   "amount": 124.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK2QKZPHLY",
+   "date": "2026-03-25",
+   "account": "Navy Federal Checking ••6034",
+   "description": "NAVY FEDERAL AUTO LOAN",
+   "amount": 389.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BKCRJF3M0T",
+   "date": "2026-03-22",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "WAWA 8462 LUSBY",
+   "amount": 42.58,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKN5SN7YQF",
+   "date": "2026-03-21",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "CVS/PHARMACY #2187 LUSBY",
+   "amount": 32.41,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKXF6GLA2C",
+   "date": "2026-03-20",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2327.17,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKAW7BKTMZ",
+   "date": "2026-03-18",
+   "account": "Navy Federal Checking ••6034",
+   "description": "SMECO ELECTRIC BILLPAY",
+   "amount": 99.17,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK98PNTUPE",
+   "date": "2026-03-10",
+   "account": "Navy Federal Checking ••6034",
+   "description": "VERIZON FIOS",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK0LDE9GWH",
+   "date": "2026-03-10",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "CVS/PHARMACY #2187 LUSBY",
+   "amount": 13.51,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKXL6UR2W0",
+   "date": "2026-03-06",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "SAFEWAY #4291 PRINCE FREDERICK",
+   "amount": 38.21,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKUK5TFXBH",
+   "date": "2026-03-06",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2320.03,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKPBDGBTWR",
+   "date": "2026-03-02",
+   "account": "Navy Federal Checking ••6034",
+   "description": "LUSBY RIDGE TOWNHOMES RENT",
+   "amount": 1725.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKJD52ZF2C",
+   "date": "2026-03-02",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "ROYAL FARMS #193 LUSBY",
+   "amount": 33.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKXG6XKRHY",
+   "date": "2026-02-28",
+   "account": "Navy Federal Checking ••6034",
+   "description": "GEICO AUTO",
+   "amount": 124.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKB3AEQ3SQ",
+   "date": "2026-02-25",
+   "account": "Navy Federal Checking ••6034",
+   "description": "NAVY FEDERAL AUTO LOAN",
+   "amount": 389.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BK6KWUNUT7",
+   "date": "2026-02-20",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2334.82,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKD7DRZGX1",
+   "date": "2026-02-18",
+   "account": "Navy Federal Checking ••6034",
+   "description": "SMECO ELECTRIC BILLPAY",
+   "amount": 188.44,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKZMSZRPCX",
+   "date": "2026-02-10",
+   "account": "Navy Federal Checking ••6034",
+   "description": "VERIZON FIOS",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK1LJURHFE",
+   "date": "2026-02-06",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2303.44,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKKYMADJCB",
+   "date": "2026-02-03",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "SAFEWAY #4291 PRINCE FREDERICK",
+   "amount": 53.37,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKUDKCALPW",
+   "date": "2026-02-02",
+   "account": "Navy Federal Checking ••6034",
+   "description": "LUSBY RIDGE TOWNHOMES RENT",
+   "amount": 1725.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKVYBKP29A",
+   "date": "2026-02-01",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "FOOD LION #1462 PRINCE FREDERICK",
+   "amount": 43.89,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKM59U3KVH",
+   "date": "2026-01-30",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "FOOD LION #1462 PRINCE FREDERICK",
+   "amount": 75.91,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKKFSN8XFS",
+   "date": "2026-01-28",
+   "account": "Navy Federal Checking ••6034",
+   "description": "GEICO AUTO",
+   "amount": 124.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKXV6LHZZ2",
+   "date": "2026-01-25",
+   "account": "Navy Federal Checking ••6034",
+   "description": "NAVY FEDERAL AUTO LOAN",
+   "amount": 389.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BK7HZU93CU",
+   "date": "2026-01-23",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2307.5,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKLEUSJLHK",
+   "date": "2026-01-18",
+   "account": "Navy Federal Checking ••6034",
+   "description": "SMECO ELECTRIC BILLPAY",
+   "amount": 170.9,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKC8Q9WR7A",
+   "date": "2026-01-10",
+   "account": "Navy Federal Checking ••6034",
+   "description": "VERIZON FIOS",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKXGG8GVSG",
+   "date": "2026-01-09",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "CVS/PHARMACY #2187 LUSBY",
+   "amount": 15.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BK9Y4RHFA8",
+   "date": "2026-01-09",
+   "account": "Navy Federal Checking ••6034",
+   "description": "CHESAPEAKE SYSTEMS GROUP PAYROLL",
+   "amount": 2326.83,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKFCNBEK1W",
+   "date": "2026-01-07",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "FOOD LION #1462 PRINCE FREDERICK",
+   "amount": 48.07,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK1MEPQ63X",
+   "date": "2026-01-06",
+   "account": "Navy Federal Visa Debit ••6034",
+   "description": "ROYAL FARMS #193 LUSBY",
+   "amount": 50.86,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKM2Q7P4QA",
+   "date": "2026-01-01",
+   "account": "Navy Federal Checking ••6034",
+   "description": "LUSBY RIDGE TOWNHOMES RENT",
+   "amount": 1725.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S23"
+  ],
+  "scenarios": [
+   "S23A",
+   "S23B"
+  ],
+  "world": "shared (both twins)",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261120,
+  "record_counts": {
+   "transactions": 50,
+   "bank_transactions": 125,
+   "total_money_records": 175
+  }
+ }
+}

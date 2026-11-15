@@ -1,0 +1,1156 @@
+{
+ "stopped_at": null,
+ "data": {
+  "src": "/workspace/training/data_v121_curated",
+  "src_sha256": {
+   "sft_train.jsonl": "4b0b44af5b25a36a1245c9753944edc0cad12172a4aa4b9f5335f1d94db5a28c",
+   "sft_val.jsonl": "cf122cffd91dc66dd358f1b07228de0575dc0e1e77e9f6dd6777028bfeb79847",
+   "dpo_train.jsonl": "380422fc63d87e76850535a9d319df21e36e5548cc239da8f631f96b5c7fe28f",
+   "grpo_train.jsonl": "97bf1cb755e16c394ac4563e3aec3b0c39c6ce91fdd903bff40fbc25749702ca"
+  },
+  "sft_train.jsonl": [
+   [
+    "S07B",
+    "L3"
+   ],
+   [
+    "S07B",
+    "L2"
+   ],
+   [
+    "V344A",
+    "L2"
+   ],
+   [
+    "S12B",
+    "L2"
+   ],
+   [
+    "V531B",
+    "L2"
+   ],
+   [
+    "V541A",
+    "L2"
+   ],
+   [
+    "V073B",
+    "L2"
+   ],
+   [
+    "V341A",
+    "L2"
+   ],
+   [
+    "V072B",
+    "L2"
+   ],
+   [
+    "V071B",
+    "L2"
+   ],
+   [
+    "S34A",
+    "L3"
+   ],
+   [
+    "S34A",
+    "L2"
+   ],
+   [
+    "S12A",
+    "L3"
+   ],
+   [
+    "S12B",
+    "L3"
+   ],
+   [
+    "S12A",
+    "L2"
+   ],
+   [
+    "S53A",
+    "L3"
+   ]
+  ],
+  "sft_val.jsonl": [
+   [
+    "S01A",
+    "L2"
+   ],
+   [
+    "S36A",
+    "L3"
+   ],
+   [
+    "V013B",
+    "L2"
+   ],
+   [
+    "V011A",
+    "L2"
+   ]
+  ],
+  "dpo_train.jsonl": [
+   [
+    "S07B",
+    "L3"
+   ],
+   [
+    "S07B",
+    "L2"
+   ],
+   [
+    "V344A",
+    "L2"
+   ],
+   [
+    "S12B",
+    "L2"
+   ],
+   [
+    "V531B",
+    "L2"
+   ],
+   [
+    "V541A",
+    "L2"
+   ],
+   [
+    "V073B",
+    "L2"
+   ],
+   [
+    "V341A",
+    "L2"
+   ]
+  ],
+  "grpo_train.jsonl": [
+   [
+    "S07B",
+    "L3"
+   ],
+   [
+    "S07B",
+    "L2"
+   ],
+   [
+    "V344A",
+    "L2"
+   ],
+   [
+    "S12B",
+    "L2"
+   ],
+   [
+    "V531B",
+    "L2"
+   ],
+   [
+    "V541A",
+    "L2"
+   ],
+   [
+    "V073B",
+    "L2"
+   ],
+   [
+    "V341A",
+    "L2"
+   ]
+  ]
+ },
+ "stages": {
+  "stage0": {
+   "rc": 0,
+   "memguard": {
+    "name": "smoke-stage0",
+    "cmd": [
+     "python3",
+     "training/mem_accounting_test.py",
+     "--out",
+     "/workspace/runs/smoke_aya/stage0/mem_accounting.json"
+    ],
+    "rc": 0,
+    "exit_rc": 0,
+    "kill_reason": null,
+    "minutes": 0.18,
+    "baseline_avail_gb": 112.32,
+    "peak_used_gb": 8.71,
+    "min_avail_gb": 103.61,
+    "avail_after_exit_gb": 112.47,
+    "not_recovered_gb": -0.16,
+    "max_psi_full_avg10": 0.0,
+    "budget_gb": 15.0,
+    "floor_gb": 16.0,
+    "gpu_cap_gb": 10.0,
+    "tree_gone": true
+   },
+   "guards": null,
+   "mem_accounting": {
+    "gib": 8.0,
+    "torch": "2.13.0+cu130",
+    "device": "NVIDIA GB10",
+    "alloc_conf": "expandable_segments:True",
+    "wtm_gpu_cap_gb": "10.0",
+    "apply_mem_cap_fraction": 0.08217586740313895,
+    "before": {
+     "MemTotal": 121.69,
+     "MemFree": 111.557,
+     "MemAvailable": 111.788,
+     "Unevictable": 0.025,
+     "Mlocked": 0.025,
+     "SwapTotal": 16.0,
+     "SwapFree": 15.752,
+     "VmRSS": 0.606,
+     "cgroup_memory_current": 0.888,
+     "cgroup_memory_max": 105.0,
+     "cuda_free": 111.557,
+     "cuda_total": 121.69,
+     "torch_reserved": 0.002
+    },
+    "holding": {
+     "MemTotal": 121.69,
+     "MemFree": 103.399,
+     "MemAvailable": 103.63,
+     "Unevictable": 0.025,
+     "Mlocked": 0.025,
+     "SwapTotal": 16.0,
+     "SwapFree": 15.752,
+     "VmRSS": 0.609,
+     "cgroup_memory_current": 0.905,
+     "cgroup_memory_max": 105.0,
+     "cuda_free": 103.399,
+     "cuda_total": 121.69,
+     "torch_reserved": 8.01
+    },
+    "after_free": {
+     "MemTotal": 121.69,
+     "MemFree": 111.507,
+     "MemAvailable": 111.737,
+     "Unevictable": 0.025,
+     "Mlocked": 0.025,
+     "SwapTotal": 16.0,
+     "SwapFree": 15.752,
+     "VmRSS": 0.609,
+     "cgroup_memory_current": 0.889,
+     "cgroup_memory_max": 105.0,
+     "cuda_free": 111.507,
+     "cuda_total": 121.69,
+     "torch_reserved": 0.0
+    },
+    "deltas": {
+     "memavailable_drop_gib": 8.158,
+     "memfree_drop_gib": 8.158,
+     "vmrss_rise_gib": 0.003,
+     "cgroup_current_rise_gib": 0.017,
+     "cuda_free_drop_gib": 8.158,
+     "unevictable_rise_gib": 0.0,
+     "mlocked_rise_gib": 0.0,
+     "memavailable_not_returned_gib": 0.051
+    },
+    "cap_test": {
+     "alloc_conf": "expandable_segments:True",
+     "fraction": 0.03287,
+     "request_gib": 8.0,
+     "raised_oom": true,
+     "error": "CUDA out of memory. Tried to allocate 8.00 GiB. GPU 0 has a total capacity of 121.69 GiB of which 111.51 GiB is free. Including non-PyTorch memory, this process has 194.98 MiB memory in use. 4.00 GiB "
+    },
+    "cap_test_other_conf": {
+     "alloc_conf": "",
+     "fraction": 0.03287,
+     "request_gib": 8.0,
+     "raised_oom": true,
+     "error": "CUDA out of memory. Tried to allocate 8.00 GiB. GPU 0 has a total capacity of 121.69 GiB of which 111.05 GiB is free. Process 399 has 194.98 MiB memory in use. Including non-PyTorch memory, this proce"
+    },
+    "ulimit_l": {
+     "soft": 8192,
+     "hard": 8192
+    },
+    "psi_memory_exists": true,
+    "psi_memory": "some avg10=0.00 avg60=0.00 avg300=0.00 total=6789650455\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=6571991792",
+    "verdict": {
+     "memavailable_tracks_cuda": true,
+     "cap_raises_oom": true,
+     "cap_raises_oom_other_conf": true
+    },
+    "peak_mem": {
+     "torch_allocated_gb": 8.0,
+     "torch_reserved_gb": 8.01,
+     "rss_max_gb": 0.61
+    }
+   },
+   "errors": [],
+   "gpu_cap_line": "GPU_CAP 10 GiB = 0.082 of 121.7 GiB",
+   "warnings_mismatch": 0
+  },
+  "sft": {
+   "rc": 0,
+   "memguard": {
+    "name": "smoke-sft",
+    "cmd": [
+     "python3",
+     "training/train_sft.py",
+     "--model",
+     "/root/.cache/huggingface/hub/models--1-800-LLMs--tiny-aya-global/snapshots/6ca951521be5148dec4e679f7cab4aca5362c523",
+     "--data",
+     "/workspace/training/smoke_aya_data",
+     "--out",
+     "/workspace/runs/smoke_aya/sft",
+     "--smoke",
+     "--batch",
+     "1",
+     "--grad-accum",
+     "8",
+     "--fresh"
+    ],
+    "rc": 0,
+    "exit_rc": 0,
+    "kill_reason": null,
+    "minutes": 5.77,
+    "baseline_avail_gb": 112.47,
+    "peak_used_gb": 13.4,
+    "min_avail_gb": 99.07,
+    "avail_after_exit_gb": 112.26,
+    "not_recovered_gb": 0.21,
+    "max_psi_full_avg10": 0.0,
+    "budget_gb": 30.0,
+    "floor_gb": 16.0,
+    "gpu_cap_gb": 26.0,
+    "tree_gone": true
+   },
+   "result": {
+    "train_output": "TrainOutput(global_step=2, training_loss=1.6478893756866455, metrics={'train_runtime': 287.6903, 'train_samples_per_second': 0.056, 'train_steps_per_second': 0.007, 'total_flos': 1831147832328192.0, 'train_loss': 1.6478893756866455, 'epoch': 1.0})",
+    "resumed_from": null,
+    "minutes": 5.55,
+    "minutes_all_segments": 5.55,
+    "peak_mem": {
+     "torch_allocated_gb": 9.72,
+     "torch_reserved_gb": 9.89,
+     "rss_max_gb": 7.48
+    },
+    "step_times_s": [
+     135.4,
+     133.46
+    ],
+    "segments": [
+     {
+      "started": "2026-11-13 22:43:37",
+      "resumed_from": null,
+      "minutes": 5.55,
+      "step_times_s": [
+       135.4,
+       133.46
+      ],
+      "peak_mem": {
+       "torch_allocated_gb": 9.72,
+       "torch_reserved_gb": 9.89,
+       "rss_max_gb": 7.48
+      }
+     }
+    ],
+    "log_history_tail": [
+     {
+      "loss": 1.7121245861053467,
+      "grad_norm": 1.9512192010879517,
+      "learning_rate": 2e-05,
+      "entropy": 1.3635401874780655,
+      "num_tokens": 107364.0,
+      "mean_token_accuracy": 0.6449395567178726,
+      "epoch": 1.0,
+      "step": 2
+     },
+     {
+      "eval_loss": 2.056610584259033,
+      "eval_runtime": 17.8228,
+      "eval_samples_per_second": 0.224,
+      "eval_steps_per_second": 0.224,
+      "eval_entropy": 1.4701206684112549,
+      "eval_num_tokens": 107364.0,
+      "eval_mean_token_accuracy": 0.623943954706192,
+      "epoch": 1.0,
+      "step": 2
+     },
+     {
+      "train_runtime": 287.6903,
+      "train_samples_per_second": 0.056,
+      "train_steps_per_second": 0.007,
+      "total_flos": 1831147832328192.0,
+      "train_loss": 1.6478893756866455,
+      "epoch": 1.0,
+      "step": 2
+     }
+    ]
+   },
+   "guards": {
+    "sft_train": {
+     "rows": 16,
+     "columns": [
+      "prompt",
+      "completion",
+      "input_ids",
+      "labels"
+     ],
+     "max_len": 6860,
+     "p95_len": 6860,
+     "trained_tokens_max": 63,
+     "trained_tokens_mean": 50.0,
+     "n_text_only_matches": 0,
+     "text_only_rows": [],
+     "longest_row_trained_span": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $650.00 to Jess Park (555-0188) for rent?\"}}</tool_call><|END_RESPONSE|><|END_OF_TURN_TOKEN|>"
+    },
+    "sft_val": {
+     "rows": 4,
+     "columns": [
+      "prompt",
+      "completion",
+      "input_ids",
+      "labels"
+     ],
+     "max_len": 7276,
+     "p95_len": 7276,
+     "trained_tokens_max": 66,
+     "trained_tokens_mean": 56.5,
+     "n_text_only_matches": 0,
+     "text_only_rows": [],
+     "longest_row_trained_span": "The main button on the cancel page says 'Confirm plan', and the small text says it charges $29.99 now. The only cancel option is 'cancel by email'. Should I send the cancellation email instead?<|END_RESPONSE|><|END_OF_TURN_TOKEN|>"
+    }
+   },
+   "errors": [],
+   "gpu_cap_line": "GPU_CAP 26 GiB = 0.214 of 121.7 GiB",
+   "warnings_mismatch": 0
+  },
+  "merge": {
+   "rc": 0,
+   "memguard": {
+    "name": "smoke-merge",
+    "cmd": [
+     "python3",
+     "training/merge_lora.py",
+     "--base",
+     "/root/.cache/huggingface/hub/models--1-800-LLMs--tiny-aya-global/snapshots/6ca951521be5148dec4e679f7cab4aca5362c523",
+     "--adapter",
+     "/workspace/runs/smoke_aya/sft/final",
+     "--out",
+     "/workspace/runs/smoke_aya/sft_merged",
+     "--min-effect",
+     "0"
+    ],
+    "rc": 0,
+    "exit_rc": 0,
+    "kill_reason": null,
+    "minutes": 2.32,
+    "baseline_avail_gb": 112.25,
+    "peak_used_gb": 16.89,
+    "min_avail_gb": 95.36,
+    "avail_after_exit_gb": 112.1,
+    "not_recovered_gb": 0.15,
+    "max_psi_full_avg10": 0.0,
+    "budget_gb": 25.0,
+    "floor_gb": 16.0,
+    "gpu_cap_gb": 14.0,
+    "tree_gone": true
+   },
+   "guards": null,
+   "merge_info": {
+    "/workspace/runs/smoke_aya/sft_merged/merge_info.json": {
+     "ok": true,
+     "base": "/root/.cache/huggingface/hub/models--1-800-LLMs--tiny-aya-global/snapshots/6ca951521be5148dec4e679f7cab4aca5362c523",
+     "adapter": "/workspace/runs/smoke_aya/sft/final",
+     "adapter_sha256": "51fe5db847a4d882c90a579b2366752e204616987502c3fb51cc7f3f8a06138e",
+     "probe": {
+      "tokens": 479,
+      "reply_positions": 25,
+      "reply": "I'll pay the $82.40 electricity bill from your checking account now. Shall I go ahead?"
+     },
+     "merge_delta": {
+      "mean_abs_dlogprob": 0.04,
+      "max_abs_dlogprob": 0.3125,
+      "top1_agree": 1.0,
+      "kl_mean": 0.000284
+     },
+     "adapter_effect": {
+      "mean_abs_dlogprob": 0.052862,
+      "max_abs_dlogprob": 0.3125,
+      "top1_agree": 1.0,
+      "kl_mean": 0.00056
+     },
+     "max_abs_logit_delta_all_positions": 1.0,
+     "tol": 0.05,
+     "min_effect": 0.0,
+     "effect_ratio": 0.1,
+     "reasons": [],
+     "generation_eos_token_id": [
+      6,
+      3
+     ],
+     "minutes": 2.04,
+     "peak_mem": {
+      "torch_allocated_gb": 8.21,
+      "torch_reserved_gb": 8.86,
+      "rss_max_gb": 8.31
+     }
+    }
+   },
+   "errors": [],
+   "gpu_cap_line": "GPU_CAP 14 GiB = 0.115 of 121.7 GiB",
+   "warnings_mismatch": 0
+  },
+  "grpo_ramp1": {
+   "rc": 0,
+   "memguard": {
+    "name": "smoke-grpo_ramp1",
+    "cmd": [
+     "python3",
+     "training/train_grpo.py",
+     "--model",
+     "/workspace/runs/smoke_aya/sft_merged",
+     "--data",
+     "/workspace/training/smoke_aya_data",
+     "--out",
+     "/workspace/runs/smoke_aya/grpo_ramp1",
+     "--smoke",
+     "--batch",
+     "1",
+     "--num-generations",
+     "2",
+     "--max-completion",
+     "64",
+     "--max-steps",
+     "1",
+     "--vllm-mem",
+     "0.20",
+     "--fresh"
+    ],
+    "rc": 0,
+    "exit_rc": 0,
+    "kill_reason": null,
+    "minutes": 3.88,
+    "baseline_avail_gb": 112.1,
+    "peak_used_gb": 37.55,
+    "min_avail_gb": 74.55,
+    "avail_after_exit_gb": 112.01,
+    "not_recovered_gb": 0.08,
+    "max_psi_full_avg10": 0.0,
+    "budget_gb": 65.0,
+    "floor_gb": 16.0,
+    "gpu_cap_gb": 54.0,
+    "tree_gone": true
+   },
+   "result": {
+    "run_id": "20261113-225135-754",
+    "resumed_from": null,
+    "minutes": 3.52,
+    "minutes_all_segments": 3.52,
+    "peak_mem": {
+     "torch_allocated_gb": 32.83,
+     "torch_reserved_gb": 33.35,
+     "rss_max_gb": 8.62
+    },
+    "step_times": [
+     {
+      "step": 1,
+      "seconds": 51.44
+     }
+    ],
+    "step_times_s": [
+     51.44
+    ],
+    "segments": [
+     {
+      "run_id": "20261113-225135-754",
+      "resumed_from": null,
+      "minutes": 3.52,
+      "step_times": [
+       {
+        "step": 1,
+        "seconds": 51.44
+       }
+      ],
+      "step_times_s": [
+       51.44
+      ],
+      "peak_mem": {
+       "torch_allocated_gb": 32.83,
+       "torch_reserved_gb": 33.35,
+       "rss_max_gb": 8.62
+      }
+     }
+    ],
+    "end_ids": {
+     "6": "<|END_OF_TURN_TOKEN|>",
+     "3": "<EOS_TOKEN>",
+     "261001": "<|END_RESPONSE|>"
+    },
+    "trunc_penalty": -1.0,
+    "vllm_init": [],
+    "log_history_tail": [
+     {
+      "loss": 0.14643773436546326,
+      "grad_norm": 0.798917829990387,
+      "learning_rate": 0.0,
+      "num_tokens": 13429.0,
+      "completions/mean_length": 45.5,
+      "completions/min_length": 34.0,
+      "completions/max_length": 57.0,
+      "completions/clipped_ratio": 1.0,
+      "completions/mean_terminated_length": 0.0,
+      "completions/min_terminated_length": 0.0,
+      "completions/max_terminated_length": 0.0,
+      "rewards/combined_reward(decision_reward)/mean": -0.20000000298023224,
+      "rewards/combined_reward(decision_reward)/std": 0.2828427255153656,
+      "reward": -0.20000000298023224,
+      "reward_std": 0.2828427255153656,
+      "frac_reward_zero_std": 0.0,
+      "wtm/end_eos261001_frac": 0.0,
+      "wtm/end_eos3_frac": 1.0,
+      "wtm/end_eos6_frac": 0.0,
+      "wtm/end_other_frac": 0.0,
+      "wtm/truncated_frac": 0.0,
+      "sampling/sampling_logp_difference/mean": 0.01430549006909132,
+      "sampling/sampling_logp_difference/max": 0.14754104614257812,
+      "sampling/importance_sampling_ratio/min": 0.9552025198936462,
+      "sampling/importance_sampling_ratio/mean": 1.001046895980835,
+      "sampling/importance_sampling_ratio/max": 1.0468913316726685,
+      "entropy": 1.089117020368576,
+      "clip_ratio/low_mean": 0.0,
+      "clip_ratio/high_mean": 0.0,
+      "clip_ratio/region_mean": 0.0,
+      "clip_ratio/low_min": 0.0,
+      "clip_ratio/high_max": 0.0,
+      "step_time": 48.43839871883392,
+      "epoch": 0.125,
+      "step": 1
+     },
+     {
+      "train_runtime": 52.5739,
+      "train_samples_per_second": 0.038,
+      "train_steps_per_second": 0.019,
+      "total_flos": 0.0,
+      "train_loss": 0.14643773436546326,
+      "epoch": 0.125,
+      "step": 1
+     }
+    ]
+   },
+   "grpo_steps": [
+    {
+     "loss": 0.14643773436546326,
+     "grad_norm": 0.798917829990387,
+     "learning_rate": 0.0,
+     "completions/mean_length": 45.5,
+     "completions/clipped_ratio": 1.0,
+     "completions/mean_terminated_length": 0.0,
+     "reward": -0.20000000298023224,
+     "reward_std": 0.2828427255153656,
+     "frac_reward_zero_std": 0.0,
+     "wtm/end_eos261001_frac": 0.0,
+     "wtm/end_eos3_frac": 1.0,
+     "wtm/end_eos6_frac": 0.0,
+     "wtm/end_other_frac": 0.0,
+     "wtm/truncated_frac": 0.0,
+     "sampling/sampling_logp_difference/mean": 0.01430549006909132,
+     "sampling/sampling_logp_difference/max": 0.14754104614257812,
+     "sampling/importance_sampling_ratio/min": 0.9552025198936462,
+     "sampling/importance_sampling_ratio/mean": 1.001046895980835,
+     "sampling/importance_sampling_ratio/max": 1.0468913316726685,
+     "entropy": 1.089117020368576
+    }
+   ],
+   "grpo_zero_gradient": false,
+   "grpo_truncated_frac": [
+    0.0
+   ],
+   "guards": {
+    "grpo_prompts": {
+     "prompts": 8,
+     "max_prompt_len": 6808,
+     "p95_prompt_len": 6808,
+     "mean_prompt_len": 6678.6
+    }
+   },
+   "errors": [],
+   "gpu_cap_line": "GPU_CAP 54 GiB = 0.444 of 121.7 GiB",
+   "warnings_mismatch": 0,
+   "vllm_memory": [],
+   "clipped_ratio": [
+    "1"
+   ],
+   "reward_mean": [
+    "-0.2"
+   ],
+   "reward_std": [
+    "0.2828"
+   ],
+   "grad_norm": [
+    "0.7989"
+   ],
+   "mean_terminated_length": [
+    "0"
+   ]
+  },
+  "grpo_ramp2": {
+   "rc": 0,
+   "memguard": {
+    "name": "smoke-grpo_ramp2",
+    "cmd": [
+     "python3",
+     "training/train_grpo.py",
+     "--model",
+     "/workspace/runs/smoke_aya/sft_merged",
+     "--data",
+     "/workspace/training/smoke_aya_data",
+     "--out",
+     "/workspace/runs/smoke_aya/grpo_ramp2",
+     "--smoke",
+     "--max-steps",
+     "3",
+     "--vllm-mem",
+     "0.20",
+     "--fresh"
+    ],
+    "rc": 0,
+    "exit_rc": 0,
+    "kill_reason": null,
+    "minutes": 23.19,
+    "baseline_avail_gb": 112.01,
+    "peak_used_gb": 46.95,
+    "min_avail_gb": 65.06,
+    "avail_after_exit_gb": 112.14,
+    "not_recovered_gb": -0.13,
+    "max_psi_full_avg10": 0.0,
+    "budget_gb": 65.0,
+    "floor_gb": 16.0,
+    "gpu_cap_gb": 54.0,
+    "tree_gone": true
+   },
+   "result": {
+    "run_id": "20261113-225528-1050",
+    "resumed_from": null,
+    "minutes": 22.82,
+    "minutes_all_segments": 22.82,
+    "peak_mem": {
+     "torch_allocated_gb": 41.28,
+     "torch_reserved_gb": 42.49,
+     "rss_max_gb": 8.62
+    },
+    "step_times": [
+     {
+      "step": 1,
+      "seconds": 413.87
+     },
+     {
+      "step": 2,
+      "seconds": 400.75
+     },
+     {
+      "step": 3,
+      "seconds": 418.02
+     }
+    ],
+    "step_times_s": [
+     413.87,
+     400.75,
+     418.02
+    ],
+    "segments": [
+     {
+      "run_id": "20261113-225528-1050",
+      "resumed_from": null,
+      "minutes": 22.82,
+      "step_times": [
+       {
+        "step": 1,
+        "seconds": 413.87
+       },
+       {
+        "step": 2,
+        "seconds": 400.75
+       },
+       {
+        "step": 3,
+        "seconds": 418.02
+       }
+      ],
+      "step_times_s": [
+       413.87,
+       400.75,
+       418.02
+      ],
+      "peak_mem": {
+       "torch_allocated_gb": 41.28,
+       "torch_reserved_gb": 42.49,
+       "rss_max_gb": 8.62
+      }
+     }
+    ],
+    "end_ids": {
+     "6": "<|END_OF_TURN_TOKEN|>",
+     "3": "<EOS_TOKEN>",
+     "261001": "<|END_RESPONSE|>"
+    },
+    "trunc_penalty": -1.0,
+    "vllm_init": [],
+    "log_history_tail": [
+     {
+      "loss": 0.06412267684936523,
+      "grad_norm": 0.2381909042596817,
+      "learning_rate": 5e-06,
+      "num_tokens": 215820.0,
+      "completions/mean_length": 62.4375,
+      "completions/min_length": 17.0,
+      "completions/max_length": 146.0,
+      "completions/clipped_ratio": 1.0,
+      "completions/mean_terminated_length": 0.0,
+      "completions/min_terminated_length": 0.0,
+      "completions/max_terminated_length": 0.0,
+      "rewards/combined_reward(decision_reward)/mean": -0.2562499940395355,
+      "rewards/combined_reward(decision_reward)/std": 0.578179657459259,
+      "reward": -0.2562499940395355,
+      "reward_std": 0.578179657459259,
+      "frac_reward_zero_std": 0.25,
+      "wtm/end_eos261001_frac": 0.0,
+      "wtm/end_eos3_frac": 1.0,
+      "wtm/end_eos6_frac": 0.0,
+      "wtm/end_other_frac": 0.0,
+      "wtm/truncated_frac": 0.0,
+      "sampling/sampling_logp_difference/mean": 0.02218467928469181,
+      "sampling/sampling_logp_difference/max": 0.3251323699951172,
+      "sampling/importance_sampling_ratio/min": 0.34989869594573975,
+      "sampling/importance_sampling_ratio/mean": 0.8988983035087585,
+      "sampling/importance_sampling_ratio/max": 1.563692331314087,
+      "entropy": 1.9359360933303833,
+      "clip_ratio/low_mean": 0.0,
+      "clip_ratio/high_mean": 0.0,
+      "clip_ratio/region_mean": 0.0,
+      "clip_ratio/low_min": 0.0,
+      "clip_ratio/high_max": 0.0,
+      "step_time": 375.9805154320784,
+      "epoch": 1.0,
+      "step": 2
+     },
+     {
+      "loss": 0.19845886528491974,
+      "grad_norm": 0.4826415777206421,
+      "learning_rate": 5e-06,
+      "num_tokens": 324225.0,
+      "completions/mean_length": 90.5625,
+      "completions/min_length": 16.0,
+      "completions/max_length": 244.0,
+      "completions/clipped_ratio": 1.0,
+      "completions/mean_terminated_length": 0.0,
+      "completions/min_terminated_length": 0.0,
+      "completions/max_terminated_length": 0.0,
+      "rewards/combined_reward(decision_reward)/mean": -0.4231249988079071,
+      "rewards/combined_reward(decision_reward)/std": 0.4708181321620941,
+      "reward": -0.4231249988079071,
+      "reward_std": 0.4708181321620941,
+      "frac_reward_zero_std": 0.0,
+      "wtm/end_eos261001_frac": 0.0,
+      "wtm/end_eos3_frac": 1.0,
+      "wtm/end_eos6_frac": 0.0,
+      "wtm/end_other_frac": 0.0,
+      "wtm/truncated_frac": 0.0,
+      "sampling/sampling_logp_difference/mean": 0.022661559283733368,
+      "sampling/sampling_logp_difference/max": 0.20496177673339844,
+      "sampling/importance_sampling_ratio/min": 0.5323984026908875,
+      "sampling/importance_sampling_ratio/mean": 1.1515371799468994,
+      "sampling/importance_sampling_ratio/max": 2.0961122512817383,
+      "entropy": 2.2473593056201935,
+      "clip_ratio/low_mean": 0.0,
+      "clip_ratio/high_mean": 0.0,
+      "clip_ratio/region_mean": 0.0,
+      "clip_ratio/low_min": 0.0,
+      "clip_ratio/high_max": 0.0,
+      "step_time": 392.62717194948345,
+      "epoch": 1.5,
+      "step": 3
+     },
+     {
+      "train_runtime": 1235.9506,
+      "train_samples_per_second": 0.039,
+      "train_steps_per_second": 0.002,
+      "total_flos": 0.0,
+      "train_loss": 0.16119438409805298,
+      "epoch": 1.5,
+      "step": 3
+     }
+    ]
+   },
+   "grpo_steps": [
+    {
+     "loss": 0.22100161015987396,
+     "grad_norm": 0.342511385679245,
+     "learning_rate": 0.0,
+     "completions/mean_length": 69.0625,
+     "completions/clipped_ratio": 1.0,
+     "completions/mean_terminated_length": 0.0,
+     "reward": -0.45000001788139343,
+     "reward_std": 0.2846049666404724,
+     "frac_reward_zero_std": 0.5,
+     "wtm/end_eos261001_frac": 0.0,
+     "wtm/end_eos3_frac": 0.9375,
+     "wtm/end_eos6_frac": 0.0,
+     "wtm/end_other_frac": 0.0,
+     "wtm/truncated_frac": 0.0625,
+     "sampling/sampling_logp_difference/mean": 0.023820433765649796,
+     "sampling/sampling_logp_difference/max": 0.25672197341918945,
+     "sampling/importance_sampling_ratio/min": 0.57473224401474,
+     "sampling/importance_sampling_ratio/mean": 1.1307950019836426,
+     "sampling/importance_sampling_ratio/max": 1.9256523847579956,
+     "entropy": 2.0368734896183014
+    },
+    {
+     "loss": 0.06412267684936523,
+     "grad_norm": 0.2381909042596817,
+     "learning_rate": 5e-06,
+     "completions/mean_length": 62.4375,
+     "completions/clipped_ratio": 1.0,
+     "completions/mean_terminated_length": 0.0,
+     "reward": -0.2562499940395355,
+     "reward_std": 0.578179657459259,
+     "frac_reward_zero_std": 0.25,
+     "wtm/end_eos261001_frac": 0.0,
+     "wtm/end_eos3_frac": 1.0,
+     "wtm/end_eos6_frac": 0.0,
+     "wtm/end_other_frac": 0.0,
+     "wtm/truncated_frac": 0.0,
+     "sampling/sampling_logp_difference/mean": 0.02218467928469181,
+     "sampling/sampling_logp_difference/max": 0.3251323699951172,
+     "sampling/importance_sampling_ratio/min": 0.34989869594573975,
+     "sampling/importance_sampling_ratio/mean": 0.8988983035087585,
+     "sampling/importance_sampling_ratio/max": 1.563692331314087,
+     "entropy": 1.9359360933303833
+    },
+    {
+     "loss": 0.19845886528491974,
+     "grad_norm": 0.4826415777206421,
+     "learning_rate": 5e-06,
+     "completions/mean_length": 90.5625,
+     "completions/clipped_ratio": 1.0,
+     "completions/mean_terminated_length": 0.0,
+     "reward": -0.4231249988079071,
+     "reward_std": 0.4708181321620941,
+     "frac_reward_zero_std": 0.0,
+     "wtm/end_eos261001_frac": 0.0,
+     "wtm/end_eos3_frac": 1.0,
+     "wtm/end_eos6_frac": 0.0,
+     "wtm/end_other_frac": 0.0,
+     "wtm/truncated_frac": 0.0,
+     "sampling/sampling_logp_difference/mean": 0.022661559283733368,
+     "sampling/sampling_logp_difference/max": 0.20496177673339844,
+     "sampling/importance_sampling_ratio/min": 0.5323984026908875,
+     "sampling/importance_sampling_ratio/mean": 1.1515371799468994,
+     "sampling/importance_sampling_ratio/max": 2.0961122512817383,
+     "entropy": 2.2473593056201935
+    }
+   ],
+   "grpo_zero_gradient": false,
+   "grpo_truncated_frac": [
+    0.0625,
+    0.0,
+    0.0
+   ],
+   "guards": {
+    "grpo_prompts": {
+     "prompts": 8,
+     "max_prompt_len": 6808,
+     "p95_prompt_len": 6808,
+     "mean_prompt_len": 6678.6
+    }
+   },
+   "errors": [],
+   "gpu_cap_line": "GPU_CAP 54 GiB = 0.444 of 121.7 GiB",
+   "warnings_mismatch": 0,
+   "vllm_memory": [],
+   "clipped_ratio": [
+    "1",
+    "1",
+    "1"
+   ],
+   "reward_mean": [
+    "-0.45",
+    "-0.2562",
+    "-0.4231"
+   ],
+   "reward_std": [
+    "0.2846",
+    "0.5782",
+    "0.4708"
+   ],
+   "grad_norm": [
+    "0.3425",
+    "0.2382",
+    "0.4826"
+   ],
+   "mean_terminated_length": [
+    "0",
+    "0",
+    "0"
+   ]
+  },
+  "dpo": {
+   "rc": 0,
+   "memguard": {
+    "name": "smoke-dpo",
+    "cmd": [
+     "python3",
+     "training/train_dpo.py",
+     "--model",
+     "/workspace/runs/smoke_aya/sft_merged",
+     "--data",
+     "/workspace/training/smoke_aya_data/dpo_train.jsonl",
+     "--out",
+     "/workspace/runs/smoke_aya/dpo",
+     "--smoke",
+     "--batch",
+     "1",
+     "--grad-accum",
+     "4",
+     "--fresh"
+    ],
+    "rc": 0,
+    "exit_rc": 0,
+    "kill_reason": null,
+    "minutes": 9.59,
+    "baseline_avail_gb": 112.14,
+    "peak_used_gb": 53.56,
+    "min_avail_gb": 58.58,
+    "avail_after_exit_gb": 112.15,
+    "not_recovered_gb": -0.01,
+    "max_psi_full_avg10": 0.0,
+    "budget_gb": 70.0,
+    "floor_gb": 16.0,
+    "gpu_cap_gb": 60.0,
+    "tree_gone": true
+   },
+   "result": {
+    "train_output": "TrainOutput(global_step=2, training_loss=0.7016147375106812, metrics={'train_runtime': 316.8226, 'train_samples_per_second': 0.025, 'train_steps_per_second': 0.006, 'total_flos': 1861376349487104.0, 'train_loss': 0.7016147375106812, 'epoch': 1.0})",
+    "resumed_from": null,
+    "minutes": 9.3,
+    "minutes_all_segments": 9.3,
+    "ref_precompute_s": 185.8,
+    "ref_precompute_s_all_segments": 185.8,
+    "peak_mem": {
+     "torch_allocated_gb": 49.4,
+     "torch_reserved_gb": 50.0,
+     "rss_max_gb": 7.62
+    },
+    "step_times_s": [
+     158.57,
+     156.84
+    ],
+    "segments": [
+     {
+      "started": "2026-11-13 23:18:49",
+      "resumed_from": null,
+      "minutes": 9.3,
+      "ref_precompute_s": 185.8,
+      "step_times_s": [
+       158.57,
+       156.84
+      ],
+      "peak_mem": {
+       "torch_allocated_gb": 49.4,
+       "torch_reserved_gb": 50.0,
+       "rss_max_gb": 7.62
+      }
+     }
+    ],
+    "log_history_tail": [
+     {
+      "loss": 0.6920592784881592,
+      "grad_norm": 5.524337291717529,
+      "learning_rate": 5e-06,
+      "entropy": 0.7386927455663681,
+      "num_tokens": 53954.0,
+      "logits/chosen": 0.41980829310271955,
+      "logits/rejected": -0.09482295593103482,
+      "mean_token_accuracy": 0.6677273511886597,
+      "rewards/chosen": 0.009349823085358366,
+      "rewards/rejected": 0.007133102568332106,
+      "rewards/accuracies": 0.5,
+      "rewards/margins": 0.002216720604337752,
+      "logps/chosen": -68.90650177001953,
+      "logps/rejected": -43.92866897583008,
+      "epoch": 0.5,
+      "step": 1
+     },
+     {
+      "loss": 0.7111701965332031,
+      "grad_norm": 6.99880313873291,
+      "learning_rate": 2.5e-06,
+      "entropy": 0.741110660135746,
+      "num_tokens": 107817.0,
+      "logits/chosen": 0.3583083071392693,
+      "logits/rejected": 0.11807962576417735,
+      "mean_token_accuracy": 0.7418761849403381,
+      "rewards/chosen": -0.017666149797150865,
+      "rewards/rejected": 0.017542743182275444,
+      "rewards/accuracies": 0.25,
+      "rewards/margins": -0.03520889300853014,
+      "logps/chosen": -64.23916149139404,
+      "logps/rejected": -82.07457256317139,
+      "epoch": 1.0,
+      "step": 2
+     },
+     {
+      "train_runtime": 316.8226,
+      "train_samples_per_second": 0.025,
+      "train_steps_per_second": 0.006,
+      "total_flos": 1861376349487104.0,
+      "train_loss": 0.7016147375106812,
+      "epoch": 1.0,
+      "step": 2
+     }
+    ]
+   },
+   "guards": {
+    "dpo_config": {
+     "output_dir": "/workspace/runs/smoke_aya/dpo",
+     "max_length": 12288,
+     "truncation_mode": "keep_start",
+     "precompute_ref_log_probs": true,
+     "per_device_train_batch_size": 1,
+     "gradient_accumulation_steps": 4,
+     "save_strategy": "steps",
+     "save_steps": 8,
+     "save_total_limit": 3,
+     "num_train_epochs": 1,
+     "max_steps": -1,
+     "learning_rate": 5e-06,
+     "beta": 0.1,
+     "use_liger_kernel": false,
+     "precompute_ref_batch_size": 1
+    },
+    "dpo_train": {
+     "pairs": 8,
+     "columns": [
+      "prompt",
+      "chosen",
+      "rejected",
+      "prompt_ids",
+      "chosen_ids",
+      "rejected_ids"
+     ],
+     "max_len": 6889,
+     "p95_len": 6889,
+     "truncation_mode": "keep_start",
+     "beta": 0.1,
+     "loss_type": [
+      "sigmoid"
+     ],
+     "precompute_ref_log_probs": true,
+     "per_device_train_batch_size": 1,
+     "row0_checked_against_source": true,
+     "example_chosen": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $650.00 to Jess Park (555-0188) for rent?\"}}</tool_call><|END_RESPONSE|><|END_OF_TURN_TOKEN|>",
+     "example_rejected": "<tool_call>{\"name\": \"send_payment\", \"arguments\": {\"recipient\": \"Jess Park\", \"amount\": 650, \"currency\": \"USD\", \"rail\": \"Venmo\", \"payment_type\": \"personal\", \"note\": \"rent\"}}</tool_call><|END_RESPONSE|><|END_OF_TURN_TOKEN|>"
+    }
+   },
+   "errors": [],
+   "gpu_cap_line": "GPU_CAP 60 GiB = 0.493 of 121.7 GiB",
+   "warnings_mismatch": 0
+  }
+ }
+}

@@ -1,0 +1,6 @@
+=== 2026-11-14 15:38:07 run_eval READY out=experiments/training_eval/results/eval_test.jsonl
+2026-11-14 15:38:07 m1 -> m1-9c892f3863 = /workspace/runs/m1_sft/final
+2026-11-14 15:38:07 m3 -> m3-f4ba163742 = /workspace/runs/m3_dpo/final
+=== 2026-11-15 04:26:49 run_eval READY out=experiments/training_eval/results/eval_test.jsonl
+2026-11-15 04:26:49 m1 -> m1-9c892f3863 = /workspace/runs/m1_sft/final
+2026-11-15 04:26:49 m3 -> m3-f4ba163742 = /workspace/runs/m3_dpo/final

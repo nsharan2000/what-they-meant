@@ -1,0 +1,2431 @@
+{
+ "note": "loose matches (same pair, level, turn; P2 hint stripped); 'strict' share = same prompt_setting too. Token counts for diff spans are ESTIMATES (chars / the row's exact chars-per-token); whole-prompt token differences are exact (token_stats.jsonl).",
+ "by_file": {
+  "sft_train": {
+   "decision": {
+    "n": 247,
+    "loci": {
+     "result": 133,
+     "request+result": 41,
+     "call+request+result": 30,
+     "request": 21,
+     "result+system": 10,
+     "request+result+system": 8,
+     "call+result": 4
+    },
+    "share_system_differs": 0.073,
+    "share_request_differs": 0.405,
+    "share_call_differs": 0.138,
+    "share_result_differs": 0.915,
+    "share_identical_prompts": 0.0,
+    "request_kind": {
+     "identifier_only": 38,
+     "wording": 62,
+     "identical": 147
+    },
+    "system_sections_differing": {
+     "preamble": 8,
+     "Member / Notes on file": 6,
+     "Tools": 4,
+     "Member / Transaction history": 4,
+     "Member / Bank Transactions": 2,
+     "Member / Notifications": 2,
+     "Member / Requests": 2,
+     "Member / Linked accounts": 2,
+     "Member / Recent activity": 1
+    },
+    "diff_chars_a_plus_b": {
+     "median": 82,
+     "mean": 115.5,
+     "max": 2238
+    },
+    "diff_tok_est_a_plus_b": {
+     "median": 26.3,
+     "mean": 39.8,
+     "max": 738.0999999999999
+    },
+    "share_of_prompt_tokens_differing_est": {
+     "median": 0.0032,
+     "mean": 0.0071,
+     "p90": 0.0209,
+     "max": 0.0616
+    },
+    "exact_token_diff_a_minus_b_strict": {
+     "n": 134,
+     "mean": 3.6,
+     "median": 1.5,
+     "share_a_longer": 0.582,
+     "share_b_longer": 0.299,
+     "share_equal": 0.119
+    },
+    "farthest_diff_tok_from_end_est": {
+     "median": 84,
+     "max": 4536,
+     "share_gt_4096": 0.016
+    },
+    "result_fields_differing_top": {
+     "display_name": 22,
+     "account_age_days": 22,
+     "renewal_price": 20,
+     "account_type": 19,
+     "last_payment_date": 16,
+     "mutual_friends_count": 16,
+     "billing_terms": 16,
+     "payment_allowed": 16,
+     "merchant_name": 16,
+     "status": 15,
+     "currency": 14,
+     "unit": 13,
+     "callback_status": 13,
+     "account_number_last_four": 13,
+     "change_approved_date": 13,
+     "renewal_frequency": 13,
+     "renewal_plan": 13,
+     "account_age_years": 13,
+     "total_payments_received": 13,
+     "payment_method": 13,
+     "payment_recipient": 12,
+     "payment_profiles[].handle": 10,
+     "popup_text": 10,
+     "usage_charges_billed_automatically": 10,
+     "results[].photo_url": 10,
+     "results[].handle": 10,
+     "results[].last_payment_date": 10,
+     "results[].mutual_contacts": 10,
+     "results[].email": 10,
+     "results[].payments_from_member": 10
+    },
+    "result_unlinked_fields_top": {
+     "payment_allowed": 16,
+     "currency": 14,
+     "total_payments_sent": 10,
+     "total_payments_received": 10,
+     "network": 8,
+     "display_name": 6,
+     "mutual_friends_count": 5,
+     "payments_from_member": 5,
+     "listing": 4,
+     "activities[].description": 4,
+     "activities[].status": 4,
+     "disbursements[].count": 4,
+     "charges_applied": 4,
+     "renewal_date": 4,
+     "price_usd": 3,
+     "payment_profiles": 3,
+     "payment_profiles[].is_active": 3,
+     "payment_profiles[].service": 3,
+     "items[].seller": 3,
+     "transactions": 3,
+     "transactions[].currency": 3,
+     "account_type": 3,
+     "profile_photo_url": 3,
+     "contacts[].note": 3,
+     "contacts[].relationship": 3,
+     "account_age_days": 2
+    },
+    "share_rows_with_unlinked_result_fields": 0.34,
+    "share_rows_request_extra_words": 0.219,
+    "share_single_locus": 0.623,
+    "share_decisive_only_heuristic": 0.466,
+    "share_member_differs": 0.032,
+    "share_strict_match": 0.543
+   },
+   "lookup": {
+    "n": 166,
+    "loci": {
+     "request": 84,
+     "none": 61,
+     "system": 10,
+     "request+system": 8,
+     "result": 3
+    },
+    "share_system_differs": 0.108,
+    "share_request_differs": 0.554,
+    "share_call_differs": 0.0,
+    "share_result_differs": 0.018,
+    "share_identical_prompts": 0.367,
+    "request_kind": {
+     "identical": 74,
+     "identifier_only": 32,
+     "wording": 60
+    },
+    "system_sections_differing": {
+     "preamble": 8,
+     "Member / Notes on file": 6,
+     "Tools": 4,
+     "Member / Transaction history": 4,
+     "Member / Bank Transactions": 2,
+     "Member / Notifications": 2,
+     "Member / Requests": 2,
+     "Member / Linked accounts": 2,
+     "Member / Recent activity": 1
+    },
+    "diff_chars_a_plus_b": {
+     "median": 20.0,
+     "mean": 64.6,
+     "max": 2081
+    },
+    "diff_tok_est_a_plus_b": {
+     "median": 6.6,
+     "mean": 22.0,
+     "max": 683.3
+    },
+    "share_of_prompt_tokens_differing_est": {
+     "median": 0.0007,
+     "mean": 0.0038,
+     "p90": 0.0106,
+     "max": 0.0533
+    },
+    "exact_token_diff_a_minus_b_strict": {
+     "n": 54,
+     "mean": -0.3,
+     "median": 0.0,
+     "share_a_longer": 0.352,
+     "share_b_longer": 0.352,
+     "share_equal": 0.296
+    },
+    "farthest_diff_tok_from_end_est": {
+     "median": 8.0,
+     "max": 4390,
+     "share_gt_4096": 0.024
+    },
+    "result_fields_differing_top": {
+     "bills[].biller": 3
+    },
+    "result_unlinked_fields_top": {},
+    "share_rows_with_unlinked_result_fields": 0.0,
+    "share_rows_request_extra_words": 0.313,
+    "share_single_locus": 0.584,
+    "share_decisive_only_heuristic": 0.241,
+    "share_member_differs": 0.048,
+    "share_strict_match": 0.325
+   },
+   "decision_by_level": {
+    "L0r": {
+     "n": 75,
+     "loci": {
+      "result": 37,
+      "request+result": 10,
+      "call+request+result": 9,
+      "result+system": 7,
+      "request": 6,
+      "request+result+system": 5,
+      "call+result": 1
+     },
+     "share_system_differs": 0.16,
+     "share_request_differs": 0.4,
+     "share_call_differs": 0.133,
+     "share_result_differs": 0.92,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "identifier_only": 12,
+      "identical": 45,
+      "wording": 18
+     },
+     "system_sections_differing": {
+      "preamble": 8,
+      "Tools": 4
+     },
+     "diff_chars_a_plus_b": {
+      "median": 86,
+      "mean": 105,
+      "max": 422
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 34.0,
+      "mean": 41.6,
+      "max": 171.79999999999998
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.0121,
+      "mean": 0.0154,
+      "p90": 0.0303,
+      "max": 0.0616
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 34,
+      "mean": 3.9,
+      "median": 2.0,
+      "share_a_longer": 0.588,
+      "share_b_longer": 0.324,
+      "share_equal": 0.088
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 121,
+      "max": 1323,
+      "share_gt_4096": 0.0
+     },
+     "result_fields_differing_top": {
+      "display_name": 7,
+      "account_age_days": 7,
+      "renewal_price": 6,
+      "account_type": 6,
+      "last_payment_date": 5,
+      "mutual_friends_count": 5,
+      "billing_terms": 5,
+      "payment_allowed": 5,
+      "merchant_name": 5,
+      "unit": 4,
+      "currency": 4,
+      "callback_status": 4,
+      "account_number_last_four": 4,
+      "change_approved_date": 4,
+      "status": 4,
+      "renewal_frequency": 4,
+      "renewal_plan": 4,
+      "network": 4,
+      "account_age_years": 4,
+      "total_payments_received": 4,
+      "payment_method": 4,
+      "profile.display_name": 4,
+      "payment_recipient": 4,
+      "payment_profiles[].handle": 3,
+      "popup_text": 3,
+      "usage_charges_billed_automatically": 3,
+      "results[].photo_url": 3,
+      "results[].handle": 3,
+      "results[].last_payment_date": 3,
+      "results[].mutual_contacts": 3
+     },
+     "result_unlinked_fields_top": {
+      "payment_allowed": 5,
+      "currency": 4,
+      "network": 3,
+      "total_payments_sent": 3,
+      "total_payments_received": 3,
+      "mutual_friends_count": 2,
+      "payments_from_member": 2,
+      "display_name": 2,
+      "listing": 1,
+      "activities[].description": 1,
+      "activities[].status": 1,
+      "disbursements[].count": 1,
+      "charges_applied": 1,
+      "renewal_date": 1,
+      "price_usd": 1,
+      "payment_profiles": 1,
+      "payment_profiles[].is_active": 1,
+      "payment_profiles[].service": 1,
+      "items[].seller": 1,
+      "transactions": 1,
+      "transactions[].currency": 1,
+      "account_type": 1,
+      "account_age_days": 1,
+      "profile_photo_url": 1,
+      "contacts[].note": 1,
+      "contacts[].relationship": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.347,
+     "share_rows_request_extra_words": 0.2,
+     "share_single_locus": 0.573,
+     "share_decisive_only_heuristic": 0.467,
+     "share_member_differs": 0.027,
+     "share_strict_match": 0.453
+    },
+    "L1": {
+     "n": 75,
+     "loci": {
+      "result": 43,
+      "request+result": 14,
+      "call+request+result": 9,
+      "request": 6,
+      "request+result+system": 1,
+      "call+result": 1,
+      "result+system": 1
+     },
+     "share_system_differs": 0.027,
+     "share_request_differs": 0.4,
+     "share_call_differs": 0.133,
+     "share_result_differs": 0.92,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "identifier_only": 12,
+      "identical": 45,
+      "wording": 18
+     },
+     "system_sections_differing": {
+      "Member / Notes on file": 2,
+      "Member / Recent activity": 1
+     },
+     "diff_chars_a_plus_b": {
+      "median": 68,
+      "mean": 92.4,
+      "max": 576
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 20.8,
+      "mean": 27.8,
+      "max": 171.6
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.0026,
+      "mean": 0.0033,
+      "p90": 0.0067,
+      "max": 0.0195
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 42,
+      "mean": 1.2,
+      "median": 1.0,
+      "share_a_longer": 0.571,
+      "share_b_longer": 0.262,
+      "share_equal": 0.167
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 71,
+      "max": 2508,
+      "share_gt_4096": 0.0
+     },
+     "result_fields_differing_top": {
+      "display_name": 7,
+      "account_age_days": 7,
+      "renewal_price": 6,
+      "account_type": 6,
+      "last_payment_date": 5,
+      "mutual_friends_count": 5,
+      "billing_terms": 5,
+      "payment_allowed": 5,
+      "merchant_name": 5,
+      "unit": 4,
+      "currency": 4,
+      "callback_status": 4,
+      "account_number_last_four": 4,
+      "change_approved_date": 4,
+      "status": 4,
+      "renewal_frequency": 4,
+      "renewal_plan": 4,
+      "network": 4,
+      "account_age_years": 4,
+      "total_payments_received": 4,
+      "payment_method": 4,
+      "payment_recipient": 4,
+      "payment_profiles[].handle": 3,
+      "popup_text": 3,
+      "usage_charges_billed_automatically": 3,
+      "results[].photo_url": 3,
+      "results[].handle": 3,
+      "results[].last_payment_date": 3,
+      "results[].mutual_contacts": 3,
+      "results[].email": 3
+     },
+     "result_unlinked_fields_top": {
+      "payment_allowed": 5,
+      "currency": 4,
+      "network": 3,
+      "total_payments_sent": 3,
+      "total_payments_received": 3,
+      "mutual_friends_count": 2,
+      "payments_from_member": 2,
+      "display_name": 2,
+      "listing": 1,
+      "activities[].description": 1,
+      "activities[].status": 1,
+      "disbursements[].count": 1,
+      "charges_applied": 1,
+      "renewal_date": 1,
+      "price_usd": 1,
+      "payment_profiles": 1,
+      "payment_profiles[].is_active": 1,
+      "payment_profiles[].service": 1,
+      "items[].seller": 1,
+      "transactions": 1,
+      "transactions[].currency": 1,
+      "account_type": 1,
+      "account_age_days": 1,
+      "profile_photo_url": 1,
+      "contacts[].note": 1,
+      "contacts[].relationship": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.347,
+     "share_rows_request_extra_words": 0.2,
+     "share_single_locus": 0.653,
+     "share_decisive_only_heuristic": 0.48,
+     "share_member_differs": 0.027,
+     "share_strict_match": 0.56
+    },
+    "L2": {
+     "n": 72,
+     "loci": {
+      "result": 41,
+      "request+result": 13,
+      "call+request+result": 9,
+      "request": 6,
+      "request+result+system": 1,
+      "call+result": 1,
+      "result+system": 1
+     },
+     "share_system_differs": 0.028,
+     "share_request_differs": 0.403,
+     "share_call_differs": 0.139,
+     "share_result_differs": 0.917,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "identifier_only": 12,
+      "identical": 43,
+      "wording": 17
+     },
+     "system_sections_differing": {
+      "Member / Transaction history": 2,
+      "Member / Notes on file": 2,
+      "Member / Bank Transactions": 1,
+      "Member / Notifications": 1,
+      "Member / Requests": 1,
+      "Member / Linked accounts": 1
+     },
+     "diff_chars_a_plus_b": {
+      "median": 78.0,
+      "mean": 122.3,
+      "max": 2224
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 27.35,
+      "mean": 41.4,
+      "max": 732.3
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.002,
+      "mean": 0.0031,
+      "p90": 0.0047,
+      "max": 0.0555
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 41,
+      "mean": 4.7,
+      "median": 1,
+      "share_a_longer": 0.585,
+      "share_b_longer": 0.293,
+      "share_equal": 0.122
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 83.0,
+      "max": 4532,
+      "share_gt_4096": 0.028
+     },
+     "result_fields_differing_top": {
+      "display_name": 6,
+      "renewal_price": 6,
+      "account_age_days": 6,
+      "account_type": 6,
+      "billing_terms": 5,
+      "payment_allowed": 5,
+      "merchant_name": 5,
+      "unit": 4,
+      "currency": 4,
+      "last_payment_date": 4,
+      "mutual_friends_count": 4,
+      "callback_status": 4,
+      "account_number_last_four": 4,
+      "change_approved_date": 4,
+      "status": 4,
+      "renewal_frequency": 4,
+      "renewal_plan": 4,
+      "account_age_years": 4,
+      "total_payments_received": 4,
+      "payment_method": 4,
+      "payment_recipient": 4,
+      "payment_profiles[].handle": 3,
+      "popup_text": 3,
+      "usage_charges_billed_automatically": 3,
+      "results[].photo_url": 3,
+      "results[].handle": 3,
+      "results[].last_payment_date": 3,
+      "results[].mutual_contacts": 3,
+      "results[].email": 3,
+      "results[].payments_from_member": 3
+     },
+     "result_unlinked_fields_top": {
+      "payment_allowed": 5,
+      "currency": 4,
+      "total_payments_sent": 3,
+      "total_payments_received": 3,
+      "network": 2,
+      "display_name": 2,
+      "listing": 1,
+      "activities[].description": 1,
+      "activities[].status": 1,
+      "disbursements[].count": 1,
+      "charges_applied": 1,
+      "renewal_date": 1,
+      "price_usd": 1,
+      "payment_profiles": 1,
+      "payment_profiles[].is_active": 1,
+      "payment_profiles[].service": 1,
+      "items[].seller": 1,
+      "transactions": 1,
+      "transactions[].currency": 1,
+      "account_type": 1,
+      "mutual_friends_count": 1,
+      "payments_from_member": 1,
+      "profile_photo_url": 1,
+      "contacts[].note": 1,
+      "contacts[].relationship": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.333,
+     "share_rows_request_extra_words": 0.208,
+     "share_single_locus": 0.653,
+     "share_decisive_only_heuristic": 0.486,
+     "share_member_differs": 0.028,
+     "share_strict_match": 0.569
+    },
+    "L3": {
+     "n": 25,
+     "loci": {
+      "result": 12,
+      "request+result": 4,
+      "request": 3,
+      "call+request+result": 3,
+      "request+result+system": 1,
+      "call+result": 1,
+      "result+system": 1
+     },
+     "share_system_differs": 0.08,
+     "share_request_differs": 0.44,
+     "share_call_differs": 0.16,
+     "share_result_differs": 0.88,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "wording": 9,
+      "identical": 14,
+      "identifier_only": 2
+     },
+     "system_sections_differing": {
+      "Member / Transaction history": 2,
+      "Member / Notes on file": 2,
+      "Member / Bank Transactions": 1,
+      "Member / Notifications": 1,
+      "Member / Requests": 1,
+      "Member / Linked accounts": 1
+     },
+     "diff_chars_a_plus_b": {
+      "median": 85,
+      "mean": 197,
+      "max": 2238
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 30.0,
+      "mean": 66.4,
+      "max": 738.0999999999999
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.0021,
+      "mean": 0.0049,
+      "p90": 0.0061,
+      "max": 0.056
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 17,
+      "mean": 5.7,
+      "median": 4,
+      "share_a_longer": 0.588,
+      "share_b_longer": 0.353,
+      "share_equal": 0.059
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 84,
+      "max": 4536,
+      "share_gt_4096": 0.08
+     },
+     "result_fields_differing_top": {
+      "status": 3,
+      "currency": 2,
+      "last_payment_date": 2,
+      "display_name": 2,
+      "mutual_friends_count": 2,
+      "renewal_price": 2,
+      "billing_period": 2,
+      "account_age_days": 2,
+      "unit": 1,
+      "unit_price_inr": 1,
+      "total_price_inr": 1,
+      "phone_number": 1,
+      "payment_profiles[].handle": 1,
+      "payment_profiles[].is_active": 1,
+      "payment_profiles[].service": 1,
+      "payment_profiles[].photo_url": 1,
+      "payment_profiles": 1,
+      "callback_status": 1,
+      "account_number_last_four": 1,
+      "change_approved_date": 1,
+      "domains[].renewal_price_usd": 1,
+      "closest_in_stock_listing.price_usd": 1,
+      "in_stock": 1,
+      "listing.product_name": 1,
+      "closest_in_stock_listing.stock_quantity": 1,
+      "closest_in_stock_listing.product_name": 1,
+      "closest_in_stock_listing.stock_available": 1,
+      "listing": 1,
+      "listing.stock_quantity": 1,
+      "closest_in_stock_listing.seller": 1
+     },
+     "result_unlinked_fields_top": {
+      "currency": 2,
+      "listing": 1,
+      "activities[].description": 1,
+      "activities[].status": 1,
+      "disbursements[].count": 1,
+      "charges_applied": 1,
+      "renewal_date": 1,
+      "total_payments_sent": 1,
+      "total_payments_received": 1,
+      "payment_allowed": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.32,
+     "share_rows_request_extra_words": 0.36,
+     "share_single_locus": 0.6,
+     "share_decisive_only_heuristic": 0.36,
+     "share_member_differs": 0.08,
+     "share_strict_match": 0.68
+    }
+   }
+  },
+  "sft_val": {
+   "decision": {
+    "n": 56,
+    "loci": {
+     "result": 49,
+     "call+request+result": 7
+    },
+    "share_system_differs": 0.0,
+    "share_request_differs": 0.125,
+    "share_call_differs": 0.125,
+    "share_result_differs": 1.0,
+    "share_identical_prompts": 0.0,
+    "request_kind": {
+     "identical": 49,
+     "wording": 7
+    },
+    "system_sections_differing": {},
+    "diff_chars_a_plus_b": {
+     "median": 56.0,
+     "mean": 103.7,
+     "max": 327
+    },
+    "diff_tok_est_a_plus_b": {
+     "median": 19.45,
+     "mean": 36.1,
+     "max": 125.8
+    },
+    "share_of_prompt_tokens_differing_est": {
+     "median": 0.0027,
+     "mean": 0.0067,
+     "p90": 0.0127,
+     "max": 0.0457
+    },
+    "exact_token_diff_a_minus_b_strict": {
+     "n": 34,
+     "mean": 20.3,
+     "median": 9.0,
+     "share_a_longer": 0.941,
+     "share_b_longer": 0.059,
+     "share_equal": 0.0
+    },
+    "farthest_diff_tok_from_end_est": {
+     "median": 49.0,
+     "max": 178,
+     "share_gt_4096": 0.0
+    },
+    "result_fields_differing_top": {
+     "results[].has_paid_before": 16,
+     "invoice_recipient": 16,
+     "payment_method": 16,
+     "results[].email": 13,
+     "amount_usd": 10,
+     "links[].label": 10,
+     "links[].method": 10,
+     "buttons[].action": 10,
+     "buttons[].amount_charged": 10,
+     "buttons[].currency": 10,
+     "buttons[].payment_method": 10,
+     "buttons[].access_until_period_end": 10,
+     "buttons[].trigger": 10,
+     "buttons[].type": 10,
+     "page_content": 10,
+     "buttons[].label": 10,
+     "links[].action": 10,
+     "links[].type": 10,
+     "links": 10,
+     "results[].handle": 7,
+     "buttons[].charge": 7,
+     "selected_contact.last_activity": 7,
+     "total_matches": 7,
+     "selected_contact.relationship": 7,
+     "selected_contact.name": 7,
+     "amount_inr": 6,
+     "chargeback_alert.response_deadline_days": 4,
+     "chargeback_alert.alert_date": 4,
+     "chargeback_alert": 4,
+     "chargeback_alert.currency": 4
+    },
+    "result_unlinked_fields_top": {
+     "results[].has_paid_before": 13,
+     "buttons[].currency": 10,
+     "buttons[].trigger": 10,
+     "links": 10,
+     "links[].type": 7,
+     "buttons[].type": 7,
+     "total_matches": 7,
+     "buttons[].payment_method": 3
+    },
+    "share_rows_with_unlinked_result_fields": 0.536,
+    "share_rows_request_extra_words": 0.018,
+    "share_single_locus": 0.875,
+    "share_decisive_only_heuristic": 0.464,
+    "share_member_differs": 0.0,
+    "share_strict_match": 0.607
+   },
+   "lookup": {
+    "n": 56,
+    "loci": {
+     "none": 49,
+     "request": 7
+    },
+    "share_system_differs": 0.0,
+    "share_request_differs": 0.125,
+    "share_call_differs": 0.0,
+    "share_result_differs": 0.0,
+    "share_identical_prompts": 0.875,
+    "request_kind": {
+     "identical": 49,
+     "wording": 7
+    },
+    "system_sections_differing": {},
+    "diff_chars_a_plus_b": {
+     "median": 0.0,
+     "mean": 1.2,
+     "max": 18
+    },
+    "diff_tok_est_a_plus_b": {
+     "median": 0.0,
+     "mean": 0.4,
+     "max": 5.9
+    },
+    "share_of_prompt_tokens_differing_est": {
+     "median": 0.0,
+     "mean": 0.0001,
+     "p90": 0.0002,
+     "max": 0.0016
+    },
+    "exact_token_diff_a_minus_b_strict": {
+     "n": 34,
+     "mean": -0.2,
+     "median": 0.0,
+     "share_a_longer": 0.0,
+     "share_b_longer": 0.088,
+     "share_equal": 0.912
+    },
+    "farthest_diff_tok_from_end_est": {
+     "median": 0.0,
+     "max": 11,
+     "share_gt_4096": 0.0
+    },
+    "result_fields_differing_top": {},
+    "result_unlinked_fields_top": {},
+    "share_rows_with_unlinked_result_fields": 0.0,
+    "share_rows_request_extra_words": 0.018,
+    "share_single_locus": 0.125,
+    "share_decisive_only_heuristic": 0.107,
+    "share_member_differs": 0.0,
+    "share_strict_match": 0.607
+   },
+   "decision_by_level": {
+    "L0r": {
+     "n": 17,
+     "loci": {
+      "result": 15,
+      "call+request+result": 2
+     },
+     "share_system_differs": 0.0,
+     "share_request_differs": 0.118,
+     "share_call_differs": 0.118,
+     "share_result_differs": 1.0,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "identical": 15,
+      "wording": 2
+     },
+     "system_sections_differing": {},
+     "diff_chars_a_plus_b": {
+      "median": 53,
+      "mean": 101.8,
+      "max": 327
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 22.099999999999998,
+      "mean": 39.8,
+      "max": 125.8
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.009,
+      "mean": 0.0148,
+      "p90": 0.0435,
+      "max": 0.0457
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 11,
+      "mean": 17.1,
+      "median": 9,
+      "share_a_longer": 0.909,
+      "share_b_longer": 0.091,
+      "share_equal": 0.0
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 51,
+      "max": 178,
+      "share_gt_4096": 0.0
+     },
+     "result_fields_differing_top": {
+      "results[].has_paid_before": 5,
+      "invoice_recipient": 5,
+      "payment_method": 5,
+      "results[].email": 4,
+      "amount_usd": 3,
+      "links[].label": 3,
+      "links[].method": 3,
+      "buttons[].action": 3,
+      "buttons[].amount_charged": 3,
+      "buttons[].currency": 3,
+      "buttons[].payment_method": 3,
+      "buttons[].access_until_period_end": 3,
+      "buttons[].trigger": 3,
+      "buttons[].type": 3,
+      "page_content": 3,
+      "buttons[].label": 3,
+      "links[].action": 3,
+      "links[].type": 3,
+      "links": 3,
+      "results[].handle": 2,
+      "buttons[].charge": 2,
+      "selected_contact.last_activity": 2,
+      "total_matches": 2,
+      "selected_contact.relationship": 2,
+      "selected_contact.name": 2,
+      "amount_inr": 2,
+      "chargeback_alert.response_deadline_days": 1,
+      "chargeback_alert.alert_date": 1,
+      "chargeback_alert": 1,
+      "chargeback_alert.currency": 1
+     },
+     "result_unlinked_fields_top": {
+      "results[].has_paid_before": 4,
+      "buttons[].currency": 3,
+      "buttons[].trigger": 3,
+      "links": 3,
+      "links[].type": 2,
+      "buttons[].type": 2,
+      "total_matches": 2,
+      "buttons[].payment_method": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.529,
+     "share_rows_request_extra_words": 0.0,
+     "share_single_locus": 0.882,
+     "share_decisive_only_heuristic": 0.471,
+     "share_member_differs": 0.0,
+     "share_strict_match": 0.647
+    },
+    "L1": {
+     "n": 17,
+     "loci": {
+      "result": 15,
+      "call+request+result": 2
+     },
+     "share_system_differs": 0.0,
+     "share_request_differs": 0.118,
+     "share_call_differs": 0.118,
+     "share_result_differs": 1.0,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "identical": 15,
+      "wording": 2
+     },
+     "system_sections_differing": {},
+     "diff_chars_a_plus_b": {
+      "median": 53,
+      "mean": 101.8,
+      "max": 327
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 15.8,
+      "mean": 30.5,
+      "max": 98.8
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.002,
+      "mean": 0.0039,
+      "p90": 0.0121,
+      "max": 0.013
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 11,
+      "mean": 19.7,
+      "median": 8,
+      "share_a_longer": 0.909,
+      "share_b_longer": 0.091,
+      "share_equal": 0.0
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 38,
+      "max": 140,
+      "share_gt_4096": 0.0
+     },
+     "result_fields_differing_top": {
+      "results[].has_paid_before": 5,
+      "invoice_recipient": 5,
+      "payment_method": 5,
+      "results[].email": 4,
+      "amount_usd": 3,
+      "links[].label": 3,
+      "links[].method": 3,
+      "buttons[].action": 3,
+      "buttons[].amount_charged": 3,
+      "buttons[].currency": 3,
+      "buttons[].payment_method": 3,
+      "buttons[].access_until_period_end": 3,
+      "buttons[].trigger": 3,
+      "buttons[].type": 3,
+      "page_content": 3,
+      "buttons[].label": 3,
+      "links[].action": 3,
+      "links[].type": 3,
+      "links": 3,
+      "results[].handle": 2,
+      "buttons[].charge": 2,
+      "selected_contact.last_activity": 2,
+      "total_matches": 2,
+      "selected_contact.relationship": 2,
+      "selected_contact.name": 2,
+      "amount_inr": 2,
+      "chargeback_alert.response_deadline_days": 1,
+      "chargeback_alert.alert_date": 1,
+      "chargeback_alert": 1,
+      "chargeback_alert.currency": 1
+     },
+     "result_unlinked_fields_top": {
+      "results[].has_paid_before": 4,
+      "buttons[].currency": 3,
+      "buttons[].trigger": 3,
+      "links": 3,
+      "links[].type": 2,
+      "buttons[].type": 2,
+      "total_matches": 2,
+      "buttons[].payment_method": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.529,
+     "share_rows_request_extra_words": 0.0,
+     "share_single_locus": 0.882,
+     "share_decisive_only_heuristic": 0.471,
+     "share_member_differs": 0.0,
+     "share_strict_match": 0.647
+    },
+    "L2": {
+     "n": 17,
+     "loci": {
+      "result": 15,
+      "call+request+result": 2
+     },
+     "share_system_differs": 0.0,
+     "share_request_differs": 0.118,
+     "share_call_differs": 0.118,
+     "share_result_differs": 1.0,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "identical": 15,
+      "wording": 2
+     },
+     "system_sections_differing": {},
+     "diff_chars_a_plus_b": {
+      "median": 53,
+      "mean": 101.8,
+      "max": 327
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 18.1,
+      "mean": 35.8,
+      "max": 119.30000000000001
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.0013,
+      "mean": 0.0026,
+      "p90": 0.008,
+      "max": 0.0081
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 10,
+      "mean": 25.1,
+      "median": 9.5,
+      "share_a_longer": 1.0,
+      "share_b_longer": 0.0,
+      "share_equal": 0.0
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 43,
+      "max": 170,
+      "share_gt_4096": 0.0
+     },
+     "result_fields_differing_top": {
+      "results[].has_paid_before": 5,
+      "invoice_recipient": 5,
+      "payment_method": 5,
+      "results[].email": 4,
+      "amount_usd": 3,
+      "links[].label": 3,
+      "links[].method": 3,
+      "buttons[].action": 3,
+      "buttons[].amount_charged": 3,
+      "buttons[].currency": 3,
+      "buttons[].payment_method": 3,
+      "buttons[].access_until_period_end": 3,
+      "buttons[].trigger": 3,
+      "buttons[].type": 3,
+      "page_content": 3,
+      "buttons[].label": 3,
+      "links[].action": 3,
+      "links[].type": 3,
+      "links": 3,
+      "results[].handle": 2,
+      "buttons[].charge": 2,
+      "selected_contact.last_activity": 2,
+      "total_matches": 2,
+      "selected_contact.relationship": 2,
+      "selected_contact.name": 2,
+      "amount_inr": 2,
+      "chargeback_alert.response_deadline_days": 1,
+      "chargeback_alert.alert_date": 1,
+      "chargeback_alert": 1,
+      "chargeback_alert.currency": 1
+     },
+     "result_unlinked_fields_top": {
+      "results[].has_paid_before": 4,
+      "buttons[].currency": 3,
+      "buttons[].trigger": 3,
+      "links": 3,
+      "links[].type": 2,
+      "buttons[].type": 2,
+      "total_matches": 2,
+      "buttons[].payment_method": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.529,
+     "share_rows_request_extra_words": 0.0,
+     "share_single_locus": 0.882,
+     "share_decisive_only_heuristic": 0.471,
+     "share_member_differs": 0.0,
+     "share_strict_match": 0.588
+    },
+    "L3": {
+     "n": 5,
+     "loci": {
+      "result": 4,
+      "call+request+result": 1
+     },
+     "share_system_differs": 0.0,
+     "share_request_differs": 0.2,
+     "share_call_differs": 0.2,
+     "share_result_differs": 1.0,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "identical": 4,
+      "wording": 1
+     },
+     "system_sections_differing": {},
+     "diff_chars_a_plus_b": {
+      "median": 70,
+      "mean": 123.2,
+      "max": 319
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 23.1,
+      "mean": 42.7,
+      "max": 113.7
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.0018,
+      "mean": 0.0031,
+      "p90": 0.0027,
+      "max": 0.0079
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 2,
+      "mean": 17,
+      "median": 17.0,
+      "share_a_longer": 1.0,
+      "share_b_longer": 0.0,
+      "share_equal": 0.0
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 63,
+      "max": 161,
+      "share_gt_4096": 0.0
+     },
+     "result_fields_differing_top": {
+      "results[].handle": 1,
+      "results[].email": 1,
+      "results[].has_paid_before": 1,
+      "chargeback_alert.response_deadline_days": 1,
+      "chargeback_alert.alert_date": 1,
+      "chargeback_alert": 1,
+      "chargeback_alert.currency": 1,
+      "payment_status": 1,
+      "chargeback_alert.amount": 1,
+      "invoice_recipient": 1,
+      "payment_method": 1,
+      "amount_usd": 1,
+      "links[].label": 1,
+      "links[].method": 1,
+      "buttons[].action": 1,
+      "buttons[].amount_charged": 1,
+      "buttons[].currency": 1,
+      "buttons[].payment_method": 1,
+      "buttons[].access_until_period_end": 1,
+      "buttons[].trigger": 1,
+      "buttons[].type": 1,
+      "page_content": 1,
+      "buttons[].charge": 1,
+      "buttons[].label": 1,
+      "links[].action": 1,
+      "links[].type": 1,
+      "links": 1,
+      "selected_contact.last_activity": 1,
+      "selected_contact.nickname": 1,
+      "total_matches": 1
+     },
+     "result_unlinked_fields_top": {
+      "results[].has_paid_before": 1,
+      "buttons[].currency": 1,
+      "links[].type": 1,
+      "buttons[].type": 1,
+      "buttons[].trigger": 1,
+      "links": 1,
+      "total_matches": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.6,
+     "share_rows_request_extra_words": 0.2,
+     "share_single_locus": 0.8,
+     "share_decisive_only_heuristic": 0.4,
+     "share_member_differs": 0.0,
+     "share_strict_match": 0.4
+    }
+   }
+  },
+  "dpo_train": {
+   "decision": {
+    "n": 247,
+    "loci": {
+     "result": 133,
+     "request+result": 41,
+     "call+request+result": 30,
+     "request": 21,
+     "result+system": 10,
+     "request+result+system": 8,
+     "call+result": 4
+    },
+    "share_system_differs": 0.073,
+    "share_request_differs": 0.405,
+    "share_call_differs": 0.138,
+    "share_result_differs": 0.915,
+    "share_identical_prompts": 0.0,
+    "request_kind": {
+     "identifier_only": 38,
+     "wording": 62,
+     "identical": 147
+    },
+    "system_sections_differing": {
+     "preamble": 8,
+     "Member / Notes on file": 6,
+     "Tools": 4,
+     "Member / Transaction history": 4,
+     "Member / Bank Transactions": 2,
+     "Member / Notifications": 2,
+     "Member / Requests": 2,
+     "Member / Linked accounts": 2,
+     "Member / Recent activity": 1
+    },
+    "diff_chars_a_plus_b": {
+     "median": 82,
+     "mean": 115.5,
+     "max": 2238
+    },
+    "diff_tok_est_a_plus_b": {
+     "median": 26.3,
+     "mean": 39.8,
+     "max": 738.0999999999999
+    },
+    "share_of_prompt_tokens_differing_est": {
+     "median": 0.0032,
+     "mean": 0.0071,
+     "p90": 0.0209,
+     "max": 0.0616
+    },
+    "exact_token_diff_a_minus_b_strict": {
+     "n": 134,
+     "mean": 3.6,
+     "median": 1.5,
+     "share_a_longer": 0.582,
+     "share_b_longer": 0.299,
+     "share_equal": 0.119
+    },
+    "farthest_diff_tok_from_end_est": {
+     "median": 84,
+     "max": 4536,
+     "share_gt_4096": 0.016
+    },
+    "result_fields_differing_top": {
+     "display_name": 22,
+     "account_age_days": 22,
+     "renewal_price": 20,
+     "account_type": 19,
+     "last_payment_date": 16,
+     "mutual_friends_count": 16,
+     "billing_terms": 16,
+     "payment_allowed": 16,
+     "merchant_name": 16,
+     "status": 15,
+     "currency": 14,
+     "unit": 13,
+     "callback_status": 13,
+     "account_number_last_four": 13,
+     "change_approved_date": 13,
+     "renewal_frequency": 13,
+     "renewal_plan": 13,
+     "account_age_years": 13,
+     "total_payments_received": 13,
+     "payment_method": 13,
+     "payment_recipient": 12,
+     "payment_profiles[].handle": 10,
+     "popup_text": 10,
+     "usage_charges_billed_automatically": 10,
+     "results[].photo_url": 10,
+     "results[].handle": 10,
+     "results[].last_payment_date": 10,
+     "results[].mutual_contacts": 10,
+     "results[].email": 10,
+     "results[].payments_from_member": 10
+    },
+    "result_unlinked_fields_top": {
+     "payment_allowed": 16,
+     "currency": 14,
+     "total_payments_sent": 10,
+     "total_payments_received": 10,
+     "network": 8,
+     "display_name": 6,
+     "mutual_friends_count": 5,
+     "payments_from_member": 5,
+     "listing": 4,
+     "activities[].description": 4,
+     "activities[].status": 4,
+     "disbursements[].count": 4,
+     "charges_applied": 4,
+     "renewal_date": 4,
+     "price_usd": 3,
+     "payment_profiles": 3,
+     "payment_profiles[].is_active": 3,
+     "payment_profiles[].service": 3,
+     "items[].seller": 3,
+     "transactions": 3,
+     "transactions[].currency": 3,
+     "account_type": 3,
+     "profile_photo_url": 3,
+     "contacts[].note": 3,
+     "contacts[].relationship": 3,
+     "account_age_days": 2
+    },
+    "share_rows_with_unlinked_result_fields": 0.34,
+    "share_rows_request_extra_words": 0.219,
+    "share_single_locus": 0.623,
+    "share_decisive_only_heuristic": 0.466,
+    "share_member_differs": 0.032,
+    "share_strict_match": 0.543
+   },
+   "lookup": {},
+   "decision_by_level": {
+    "L0r": {
+     "n": 75,
+     "loci": {
+      "result": 37,
+      "request+result": 10,
+      "call+request+result": 9,
+      "result+system": 7,
+      "request": 6,
+      "request+result+system": 5,
+      "call+result": 1
+     },
+     "share_system_differs": 0.16,
+     "share_request_differs": 0.4,
+     "share_call_differs": 0.133,
+     "share_result_differs": 0.92,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "identifier_only": 12,
+      "identical": 45,
+      "wording": 18
+     },
+     "system_sections_differing": {
+      "preamble": 8,
+      "Tools": 4
+     },
+     "diff_chars_a_plus_b": {
+      "median": 86,
+      "mean": 105,
+      "max": 422
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 34.0,
+      "mean": 41.6,
+      "max": 171.79999999999998
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.0121,
+      "mean": 0.0154,
+      "p90": 0.0303,
+      "max": 0.0616
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 34,
+      "mean": 3.9,
+      "median": 2.0,
+      "share_a_longer": 0.588,
+      "share_b_longer": 0.324,
+      "share_equal": 0.088
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 121,
+      "max": 1323,
+      "share_gt_4096": 0.0
+     },
+     "result_fields_differing_top": {
+      "display_name": 7,
+      "account_age_days": 7,
+      "renewal_price": 6,
+      "account_type": 6,
+      "last_payment_date": 5,
+      "mutual_friends_count": 5,
+      "billing_terms": 5,
+      "payment_allowed": 5,
+      "merchant_name": 5,
+      "unit": 4,
+      "currency": 4,
+      "callback_status": 4,
+      "account_number_last_four": 4,
+      "change_approved_date": 4,
+      "status": 4,
+      "renewal_frequency": 4,
+      "renewal_plan": 4,
+      "network": 4,
+      "account_age_years": 4,
+      "total_payments_received": 4,
+      "payment_method": 4,
+      "profile.display_name": 4,
+      "payment_recipient": 4,
+      "payment_profiles[].handle": 3,
+      "popup_text": 3,
+      "usage_charges_billed_automatically": 3,
+      "results[].photo_url": 3,
+      "results[].handle": 3,
+      "results[].last_payment_date": 3,
+      "results[].mutual_contacts": 3
+     },
+     "result_unlinked_fields_top": {
+      "payment_allowed": 5,
+      "currency": 4,
+      "network": 3,
+      "total_payments_sent": 3,
+      "total_payments_received": 3,
+      "mutual_friends_count": 2,
+      "payments_from_member": 2,
+      "display_name": 2,
+      "listing": 1,
+      "activities[].description": 1,
+      "activities[].status": 1,
+      "disbursements[].count": 1,
+      "charges_applied": 1,
+      "renewal_date": 1,
+      "price_usd": 1,
+      "payment_profiles": 1,
+      "payment_profiles[].is_active": 1,
+      "payment_profiles[].service": 1,
+      "items[].seller": 1,
+      "transactions": 1,
+      "transactions[].currency": 1,
+      "account_type": 1,
+      "account_age_days": 1,
+      "profile_photo_url": 1,
+      "contacts[].note": 1,
+      "contacts[].relationship": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.347,
+     "share_rows_request_extra_words": 0.2,
+     "share_single_locus": 0.573,
+     "share_decisive_only_heuristic": 0.467,
+     "share_member_differs": 0.027,
+     "share_strict_match": 0.453
+    },
+    "L1": {
+     "n": 75,
+     "loci": {
+      "result": 43,
+      "request+result": 14,
+      "call+request+result": 9,
+      "request": 6,
+      "request+result+system": 1,
+      "call+result": 1,
+      "result+system": 1
+     },
+     "share_system_differs": 0.027,
+     "share_request_differs": 0.4,
+     "share_call_differs": 0.133,
+     "share_result_differs": 0.92,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "identifier_only": 12,
+      "identical": 45,
+      "wording": 18
+     },
+     "system_sections_differing": {
+      "Member / Notes on file": 2,
+      "Member / Recent activity": 1
+     },
+     "diff_chars_a_plus_b": {
+      "median": 68,
+      "mean": 92.4,
+      "max": 576
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 20.8,
+      "mean": 27.8,
+      "max": 171.6
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.0026,
+      "mean": 0.0033,
+      "p90": 0.0067,
+      "max": 0.0195
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 42,
+      "mean": 1.2,
+      "median": 1.0,
+      "share_a_longer": 0.571,
+      "share_b_longer": 0.262,
+      "share_equal": 0.167
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 71,
+      "max": 2508,
+      "share_gt_4096": 0.0
+     },
+     "result_fields_differing_top": {
+      "display_name": 7,
+      "account_age_days": 7,
+      "renewal_price": 6,
+      "account_type": 6,
+      "last_payment_date": 5,
+      "mutual_friends_count": 5,
+      "billing_terms": 5,
+      "payment_allowed": 5,
+      "merchant_name": 5,
+      "unit": 4,
+      "currency": 4,
+      "callback_status": 4,
+      "account_number_last_four": 4,
+      "change_approved_date": 4,
+      "status": 4,
+      "renewal_frequency": 4,
+      "renewal_plan": 4,
+      "network": 4,
+      "account_age_years": 4,
+      "total_payments_received": 4,
+      "payment_method": 4,
+      "payment_recipient": 4,
+      "payment_profiles[].handle": 3,
+      "popup_text": 3,
+      "usage_charges_billed_automatically": 3,
+      "results[].photo_url": 3,
+      "results[].handle": 3,
+      "results[].last_payment_date": 3,
+      "results[].mutual_contacts": 3,
+      "results[].email": 3
+     },
+     "result_unlinked_fields_top": {
+      "payment_allowed": 5,
+      "currency": 4,
+      "network": 3,
+      "total_payments_sent": 3,
+      "total_payments_received": 3,
+      "mutual_friends_count": 2,
+      "payments_from_member": 2,
+      "display_name": 2,
+      "listing": 1,
+      "activities[].description": 1,
+      "activities[].status": 1,
+      "disbursements[].count": 1,
+      "charges_applied": 1,
+      "renewal_date": 1,
+      "price_usd": 1,
+      "payment_profiles": 1,
+      "payment_profiles[].is_active": 1,
+      "payment_profiles[].service": 1,
+      "items[].seller": 1,
+      "transactions": 1,
+      "transactions[].currency": 1,
+      "account_type": 1,
+      "account_age_days": 1,
+      "profile_photo_url": 1,
+      "contacts[].note": 1,
+      "contacts[].relationship": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.347,
+     "share_rows_request_extra_words": 0.2,
+     "share_single_locus": 0.653,
+     "share_decisive_only_heuristic": 0.48,
+     "share_member_differs": 0.027,
+     "share_strict_match": 0.56
+    },
+    "L2": {
+     "n": 72,
+     "loci": {
+      "result": 41,
+      "request+result": 13,
+      "call+request+result": 9,
+      "request": 6,
+      "request+result+system": 1,
+      "call+result": 1,
+      "result+system": 1
+     },
+     "share_system_differs": 0.028,
+     "share_request_differs": 0.403,
+     "share_call_differs": 0.139,
+     "share_result_differs": 0.917,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "identifier_only": 12,
+      "identical": 43,
+      "wording": 17
+     },
+     "system_sections_differing": {
+      "Member / Transaction history": 2,
+      "Member / Notes on file": 2,
+      "Member / Bank Transactions": 1,
+      "Member / Notifications": 1,
+      "Member / Requests": 1,
+      "Member / Linked accounts": 1
+     },
+     "diff_chars_a_plus_b": {
+      "median": 78.0,
+      "mean": 122.3,
+      "max": 2224
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 27.35,
+      "mean": 41.4,
+      "max": 732.3
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.002,
+      "mean": 0.0031,
+      "p90": 0.0047,
+      "max": 0.0555
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 41,
+      "mean": 4.7,
+      "median": 1,
+      "share_a_longer": 0.585,
+      "share_b_longer": 0.293,
+      "share_equal": 0.122
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 83.0,
+      "max": 4532,
+      "share_gt_4096": 0.028
+     },
+     "result_fields_differing_top": {
+      "display_name": 6,
+      "renewal_price": 6,
+      "account_age_days": 6,
+      "account_type": 6,
+      "billing_terms": 5,
+      "payment_allowed": 5,
+      "merchant_name": 5,
+      "unit": 4,
+      "currency": 4,
+      "last_payment_date": 4,
+      "mutual_friends_count": 4,
+      "callback_status": 4,
+      "account_number_last_four": 4,
+      "change_approved_date": 4,
+      "status": 4,
+      "renewal_frequency": 4,
+      "renewal_plan": 4,
+      "account_age_years": 4,
+      "total_payments_received": 4,
+      "payment_method": 4,
+      "payment_recipient": 4,
+      "payment_profiles[].handle": 3,
+      "popup_text": 3,
+      "usage_charges_billed_automatically": 3,
+      "results[].photo_url": 3,
+      "results[].handle": 3,
+      "results[].last_payment_date": 3,
+      "results[].mutual_contacts": 3,
+      "results[].email": 3,
+      "results[].payments_from_member": 3
+     },
+     "result_unlinked_fields_top": {
+      "payment_allowed": 5,
+      "currency": 4,
+      "total_payments_sent": 3,
+      "total_payments_received": 3,
+      "network": 2,
+      "display_name": 2,
+      "listing": 1,
+      "activities[].description": 1,
+      "activities[].status": 1,
+      "disbursements[].count": 1,
+      "charges_applied": 1,
+      "renewal_date": 1,
+      "price_usd": 1,
+      "payment_profiles": 1,
+      "payment_profiles[].is_active": 1,
+      "payment_profiles[].service": 1,
+      "items[].seller": 1,
+      "transactions": 1,
+      "transactions[].currency": 1,
+      "account_type": 1,
+      "mutual_friends_count": 1,
+      "payments_from_member": 1,
+      "profile_photo_url": 1,
+      "contacts[].note": 1,
+      "contacts[].relationship": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.333,
+     "share_rows_request_extra_words": 0.208,
+     "share_single_locus": 0.653,
+     "share_decisive_only_heuristic": 0.486,
+     "share_member_differs": 0.028,
+     "share_strict_match": 0.569
+    },
+    "L3": {
+     "n": 25,
+     "loci": {
+      "result": 12,
+      "request+result": 4,
+      "request": 3,
+      "call+request+result": 3,
+      "request+result+system": 1,
+      "call+result": 1,
+      "result+system": 1
+     },
+     "share_system_differs": 0.08,
+     "share_request_differs": 0.44,
+     "share_call_differs": 0.16,
+     "share_result_differs": 0.88,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "wording": 9,
+      "identical": 14,
+      "identifier_only": 2
+     },
+     "system_sections_differing": {
+      "Member / Transaction history": 2,
+      "Member / Notes on file": 2,
+      "Member / Bank Transactions": 1,
+      "Member / Notifications": 1,
+      "Member / Requests": 1,
+      "Member / Linked accounts": 1
+     },
+     "diff_chars_a_plus_b": {
+      "median": 85,
+      "mean": 197,
+      "max": 2238
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 30.0,
+      "mean": 66.4,
+      "max": 738.0999999999999
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.0021,
+      "mean": 0.0049,
+      "p90": 0.0061,
+      "max": 0.056
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 17,
+      "mean": 5.7,
+      "median": 4,
+      "share_a_longer": 0.588,
+      "share_b_longer": 0.353,
+      "share_equal": 0.059
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 84,
+      "max": 4536,
+      "share_gt_4096": 0.08
+     },
+     "result_fields_differing_top": {
+      "status": 3,
+      "currency": 2,
+      "last_payment_date": 2,
+      "display_name": 2,
+      "mutual_friends_count": 2,
+      "renewal_price": 2,
+      "billing_period": 2,
+      "account_age_days": 2,
+      "unit": 1,
+      "unit_price_inr": 1,
+      "total_price_inr": 1,
+      "phone_number": 1,
+      "payment_profiles[].handle": 1,
+      "payment_profiles[].is_active": 1,
+      "payment_profiles[].service": 1,
+      "payment_profiles[].photo_url": 1,
+      "payment_profiles": 1,
+      "callback_status": 1,
+      "account_number_last_four": 1,
+      "change_approved_date": 1,
+      "domains[].renewal_price_usd": 1,
+      "closest_in_stock_listing.price_usd": 1,
+      "in_stock": 1,
+      "listing.product_name": 1,
+      "closest_in_stock_listing.stock_quantity": 1,
+      "closest_in_stock_listing.product_name": 1,
+      "closest_in_stock_listing.stock_available": 1,
+      "listing": 1,
+      "listing.stock_quantity": 1,
+      "closest_in_stock_listing.seller": 1
+     },
+     "result_unlinked_fields_top": {
+      "currency": 2,
+      "listing": 1,
+      "activities[].description": 1,
+      "activities[].status": 1,
+      "disbursements[].count": 1,
+      "charges_applied": 1,
+      "renewal_date": 1,
+      "total_payments_sent": 1,
+      "total_payments_received": 1,
+      "payment_allowed": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.32,
+     "share_rows_request_extra_words": 0.36,
+     "share_single_locus": 0.6,
+     "share_decisive_only_heuristic": 0.36,
+     "share_member_differs": 0.08,
+     "share_strict_match": 0.68
+    }
+   }
+  },
+  "grpo_train": {
+   "decision": {
+    "n": 247,
+    "loci": {
+     "result": 133,
+     "request+result": 41,
+     "call+request+result": 30,
+     "request": 21,
+     "result+system": 10,
+     "request+result+system": 8,
+     "call+result": 4
+    },
+    "share_system_differs": 0.073,
+    "share_request_differs": 0.405,
+    "share_call_differs": 0.138,
+    "share_result_differs": 0.915,
+    "share_identical_prompts": 0.0,
+    "request_kind": {
+     "identifier_only": 38,
+     "wording": 62,
+     "identical": 147
+    },
+    "system_sections_differing": {
+     "preamble": 8,
+     "Member / Notes on file": 6,
+     "Tools": 4,
+     "Member / Transaction history": 4,
+     "Member / Bank Transactions": 2,
+     "Member / Notifications": 2,
+     "Member / Requests": 2,
+     "Member / Linked accounts": 2,
+     "Member / Recent activity": 1
+    },
+    "diff_chars_a_plus_b": {
+     "median": 82,
+     "mean": 115.5,
+     "max": 2238
+    },
+    "diff_tok_est_a_plus_b": {
+     "median": 26.3,
+     "mean": 39.8,
+     "max": 738.0999999999999
+    },
+    "share_of_prompt_tokens_differing_est": {
+     "median": 0.0032,
+     "mean": 0.0071,
+     "p90": 0.0209,
+     "max": 0.0616
+    },
+    "exact_token_diff_a_minus_b_strict": {
+     "n": 134,
+     "mean": 3.6,
+     "median": 1.5,
+     "share_a_longer": 0.582,
+     "share_b_longer": 0.299,
+     "share_equal": 0.119
+    },
+    "farthest_diff_tok_from_end_est": {
+     "median": 84,
+     "max": 4536,
+     "share_gt_4096": 0.016
+    },
+    "result_fields_differing_top": {
+     "display_name": 22,
+     "account_age_days": 22,
+     "renewal_price": 20,
+     "account_type": 19,
+     "last_payment_date": 16,
+     "mutual_friends_count": 16,
+     "billing_terms": 16,
+     "payment_allowed": 16,
+     "merchant_name": 16,
+     "status": 15,
+     "currency": 14,
+     "unit": 13,
+     "callback_status": 13,
+     "account_number_last_four": 13,
+     "change_approved_date": 13,
+     "renewal_frequency": 13,
+     "renewal_plan": 13,
+     "account_age_years": 13,
+     "total_payments_received": 13,
+     "payment_method": 13,
+     "payment_recipient": 12,
+     "payment_profiles[].handle": 10,
+     "popup_text": 10,
+     "usage_charges_billed_automatically": 10,
+     "results[].photo_url": 10,
+     "results[].handle": 10,
+     "results[].last_payment_date": 10,
+     "results[].mutual_contacts": 10,
+     "results[].email": 10,
+     "results[].payments_from_member": 10
+    },
+    "result_unlinked_fields_top": {
+     "payment_allowed": 16,
+     "currency": 14,
+     "total_payments_sent": 10,
+     "total_payments_received": 10,
+     "network": 8,
+     "display_name": 6,
+     "mutual_friends_count": 5,
+     "payments_from_member": 5,
+     "listing": 4,
+     "activities[].description": 4,
+     "activities[].status": 4,
+     "disbursements[].count": 4,
+     "charges_applied": 4,
+     "renewal_date": 4,
+     "price_usd": 3,
+     "payment_profiles": 3,
+     "payment_profiles[].is_active": 3,
+     "payment_profiles[].service": 3,
+     "items[].seller": 3,
+     "transactions": 3,
+     "transactions[].currency": 3,
+     "account_type": 3,
+     "profile_photo_url": 3,
+     "contacts[].note": 3,
+     "contacts[].relationship": 3,
+     "account_age_days": 2
+    },
+    "share_rows_with_unlinked_result_fields": 0.34,
+    "share_rows_request_extra_words": 0.219,
+    "share_single_locus": 0.623,
+    "share_decisive_only_heuristic": 0.466,
+    "share_member_differs": 0.032,
+    "share_strict_match": 0.543
+   },
+   "lookup": {},
+   "decision_by_level": {
+    "L0r": {
+     "n": 75,
+     "loci": {
+      "result": 37,
+      "request+result": 10,
+      "call+request+result": 9,
+      "result+system": 7,
+      "request": 6,
+      "request+result+system": 5,
+      "call+result": 1
+     },
+     "share_system_differs": 0.16,
+     "share_request_differs": 0.4,
+     "share_call_differs": 0.133,
+     "share_result_differs": 0.92,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "identifier_only": 12,
+      "identical": 45,
+      "wording": 18
+     },
+     "system_sections_differing": {
+      "preamble": 8,
+      "Tools": 4
+     },
+     "diff_chars_a_plus_b": {
+      "median": 86,
+      "mean": 105,
+      "max": 422
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 34.0,
+      "mean": 41.6,
+      "max": 171.79999999999998
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.0121,
+      "mean": 0.0154,
+      "p90": 0.0303,
+      "max": 0.0616
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 34,
+      "mean": 3.9,
+      "median": 2.0,
+      "share_a_longer": 0.588,
+      "share_b_longer": 0.324,
+      "share_equal": 0.088
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 121,
+      "max": 1323,
+      "share_gt_4096": 0.0
+     },
+     "result_fields_differing_top": {
+      "display_name": 7,
+      "account_age_days": 7,
+      "renewal_price": 6,
+      "account_type": 6,
+      "last_payment_date": 5,
+      "mutual_friends_count": 5,
+      "billing_terms": 5,
+      "payment_allowed": 5,
+      "merchant_name": 5,
+      "unit": 4,
+      "currency": 4,
+      "callback_status": 4,
+      "account_number_last_four": 4,
+      "change_approved_date": 4,
+      "status": 4,
+      "renewal_frequency": 4,
+      "renewal_plan": 4,
+      "network": 4,
+      "account_age_years": 4,
+      "total_payments_received": 4,
+      "payment_method": 4,
+      "profile.display_name": 4,
+      "payment_recipient": 4,
+      "payment_profiles[].handle": 3,
+      "popup_text": 3,
+      "usage_charges_billed_automatically": 3,
+      "results[].photo_url": 3,
+      "results[].handle": 3,
+      "results[].last_payment_date": 3,
+      "results[].mutual_contacts": 3
+     },
+     "result_unlinked_fields_top": {
+      "payment_allowed": 5,
+      "currency": 4,
+      "network": 3,
+      "total_payments_sent": 3,
+      "total_payments_received": 3,
+      "mutual_friends_count": 2,
+      "payments_from_member": 2,
+      "display_name": 2,
+      "listing": 1,
+      "activities[].description": 1,
+      "activities[].status": 1,
+      "disbursements[].count": 1,
+      "charges_applied": 1,
+      "renewal_date": 1,
+      "price_usd": 1,
+      "payment_profiles": 1,
+      "payment_profiles[].is_active": 1,
+      "payment_profiles[].service": 1,
+      "items[].seller": 1,
+      "transactions": 1,
+      "transactions[].currency": 1,
+      "account_type": 1,
+      "account_age_days": 1,
+      "profile_photo_url": 1,
+      "contacts[].note": 1,
+      "contacts[].relationship": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.347,
+     "share_rows_request_extra_words": 0.2,
+     "share_single_locus": 0.573,
+     "share_decisive_only_heuristic": 0.467,
+     "share_member_differs": 0.027,
+     "share_strict_match": 0.453
+    },
+    "L1": {
+     "n": 75,
+     "loci": {
+      "result": 43,
+      "request+result": 14,
+      "call+request+result": 9,
+      "request": 6,
+      "request+result+system": 1,
+      "call+result": 1,
+      "result+system": 1
+     },
+     "share_system_differs": 0.027,
+     "share_request_differs": 0.4,
+     "share_call_differs": 0.133,
+     "share_result_differs": 0.92,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "identifier_only": 12,
+      "identical": 45,
+      "wording": 18
+     },
+     "system_sections_differing": {
+      "Member / Notes on file": 2,
+      "Member / Recent activity": 1
+     },
+     "diff_chars_a_plus_b": {
+      "median": 68,
+      "mean": 92.4,
+      "max": 576
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 20.8,
+      "mean": 27.8,
+      "max": 171.6
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.0026,
+      "mean": 0.0033,
+      "p90": 0.0067,
+      "max": 0.0195
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 42,
+      "mean": 1.2,
+      "median": 1.0,
+      "share_a_longer": 0.571,
+      "share_b_longer": 0.262,
+      "share_equal": 0.167
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 71,
+      "max": 2508,
+      "share_gt_4096": 0.0
+     },
+     "result_fields_differing_top": {
+      "display_name": 7,
+      "account_age_days": 7,
+      "renewal_price": 6,
+      "account_type": 6,
+      "last_payment_date": 5,
+      "mutual_friends_count": 5,
+      "billing_terms": 5,
+      "payment_allowed": 5,
+      "merchant_name": 5,
+      "unit": 4,
+      "currency": 4,
+      "callback_status": 4,
+      "account_number_last_four": 4,
+      "change_approved_date": 4,
+      "status": 4,
+      "renewal_frequency": 4,
+      "renewal_plan": 4,
+      "network": 4,
+      "account_age_years": 4,
+      "total_payments_received": 4,
+      "payment_method": 4,
+      "payment_recipient": 4,
+      "payment_profiles[].handle": 3,
+      "popup_text": 3,
+      "usage_charges_billed_automatically": 3,
+      "results[].photo_url": 3,
+      "results[].handle": 3,
+      "results[].last_payment_date": 3,
+      "results[].mutual_contacts": 3,
+      "results[].email": 3
+     },
+     "result_unlinked_fields_top": {
+      "payment_allowed": 5,
+      "currency": 4,
+      "network": 3,
+      "total_payments_sent": 3,
+      "total_payments_received": 3,
+      "mutual_friends_count": 2,
+      "payments_from_member": 2,
+      "display_name": 2,
+      "listing": 1,
+      "activities[].description": 1,
+      "activities[].status": 1,
+      "disbursements[].count": 1,
+      "charges_applied": 1,
+      "renewal_date": 1,
+      "price_usd": 1,
+      "payment_profiles": 1,
+      "payment_profiles[].is_active": 1,
+      "payment_profiles[].service": 1,
+      "items[].seller": 1,
+      "transactions": 1,
+      "transactions[].currency": 1,
+      "account_type": 1,
+      "account_age_days": 1,
+      "profile_photo_url": 1,
+      "contacts[].note": 1,
+      "contacts[].relationship": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.347,
+     "share_rows_request_extra_words": 0.2,
+     "share_single_locus": 0.653,
+     "share_decisive_only_heuristic": 0.48,
+     "share_member_differs": 0.027,
+     "share_strict_match": 0.56
+    },
+    "L2": {
+     "n": 72,
+     "loci": {
+      "result": 41,
+      "request+result": 13,
+      "call+request+result": 9,
+      "request": 6,
+      "request+result+system": 1,
+      "call+result": 1,
+      "result+system": 1
+     },
+     "share_system_differs": 0.028,
+     "share_request_differs": 0.403,
+     "share_call_differs": 0.139,
+     "share_result_differs": 0.917,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "identifier_only": 12,
+      "identical": 43,
+      "wording": 17
+     },
+     "system_sections_differing": {
+      "Member / Transaction history": 2,
+      "Member / Notes on file": 2,
+      "Member / Bank Transactions": 1,
+      "Member / Notifications": 1,
+      "Member / Requests": 1,
+      "Member / Linked accounts": 1
+     },
+     "diff_chars_a_plus_b": {
+      "median": 78.0,
+      "mean": 122.3,
+      "max": 2224
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 27.35,
+      "mean": 41.4,
+      "max": 732.3
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.002,
+      "mean": 0.0031,
+      "p90": 0.0047,
+      "max": 0.0555
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 41,
+      "mean": 4.7,
+      "median": 1,
+      "share_a_longer": 0.585,
+      "share_b_longer": 0.293,
+      "share_equal": 0.122
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 83.0,
+      "max": 4532,
+      "share_gt_4096": 0.028
+     },
+     "result_fields_differing_top": {
+      "display_name": 6,
+      "renewal_price": 6,
+      "account_age_days": 6,
+      "account_type": 6,
+      "billing_terms": 5,
+      "payment_allowed": 5,
+      "merchant_name": 5,
+      "unit": 4,
+      "currency": 4,
+      "last_payment_date": 4,
+      "mutual_friends_count": 4,
+      "callback_status": 4,
+      "account_number_last_four": 4,
+      "change_approved_date": 4,
+      "status": 4,
+      "renewal_frequency": 4,
+      "renewal_plan": 4,
+      "account_age_years": 4,
+      "total_payments_received": 4,
+      "payment_method": 4,
+      "payment_recipient": 4,
+      "payment_profiles[].handle": 3,
+      "popup_text": 3,
+      "usage_charges_billed_automatically": 3,
+      "results[].photo_url": 3,
+      "results[].handle": 3,
+      "results[].last_payment_date": 3,
+      "results[].mutual_contacts": 3,
+      "results[].email": 3,
+      "results[].payments_from_member": 3
+     },
+     "result_unlinked_fields_top": {
+      "payment_allowed": 5,
+      "currency": 4,
+      "total_payments_sent": 3,
+      "total_payments_received": 3,
+      "network": 2,
+      "display_name": 2,
+      "listing": 1,
+      "activities[].description": 1,
+      "activities[].status": 1,
+      "disbursements[].count": 1,
+      "charges_applied": 1,
+      "renewal_date": 1,
+      "price_usd": 1,
+      "payment_profiles": 1,
+      "payment_profiles[].is_active": 1,
+      "payment_profiles[].service": 1,
+      "items[].seller": 1,
+      "transactions": 1,
+      "transactions[].currency": 1,
+      "account_type": 1,
+      "mutual_friends_count": 1,
+      "payments_from_member": 1,
+      "profile_photo_url": 1,
+      "contacts[].note": 1,
+      "contacts[].relationship": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.333,
+     "share_rows_request_extra_words": 0.208,
+     "share_single_locus": 0.653,
+     "share_decisive_only_heuristic": 0.486,
+     "share_member_differs": 0.028,
+     "share_strict_match": 0.569
+    },
+    "L3": {
+     "n": 25,
+     "loci": {
+      "result": 12,
+      "request+result": 4,
+      "request": 3,
+      "call+request+result": 3,
+      "request+result+system": 1,
+      "call+result": 1,
+      "result+system": 1
+     },
+     "share_system_differs": 0.08,
+     "share_request_differs": 0.44,
+     "share_call_differs": 0.16,
+     "share_result_differs": 0.88,
+     "share_identical_prompts": 0.0,
+     "request_kind": {
+      "wording": 9,
+      "identical": 14,
+      "identifier_only": 2
+     },
+     "system_sections_differing": {
+      "Member / Transaction history": 2,
+      "Member / Notes on file": 2,
+      "Member / Bank Transactions": 1,
+      "Member / Notifications": 1,
+      "Member / Requests": 1,
+      "Member / Linked accounts": 1
+     },
+     "diff_chars_a_plus_b": {
+      "median": 85,
+      "mean": 197,
+      "max": 2238
+     },
+     "diff_tok_est_a_plus_b": {
+      "median": 30.0,
+      "mean": 66.4,
+      "max": 738.0999999999999
+     },
+     "share_of_prompt_tokens_differing_est": {
+      "median": 0.0021,
+      "mean": 0.0049,
+      "p90": 0.0061,
+      "max": 0.056
+     },
+     "exact_token_diff_a_minus_b_strict": {
+      "n": 17,
+      "mean": 5.7,
+      "median": 4,
+      "share_a_longer": 0.588,
+      "share_b_longer": 0.353,
+      "share_equal": 0.059
+     },
+     "farthest_diff_tok_from_end_est": {
+      "median": 84,
+      "max": 4536,
+      "share_gt_4096": 0.08
+     },
+     "result_fields_differing_top": {
+      "status": 3,
+      "currency": 2,
+      "last_payment_date": 2,
+      "display_name": 2,
+      "mutual_friends_count": 2,
+      "renewal_price": 2,
+      "billing_period": 2,
+      "account_age_days": 2,
+      "unit": 1,
+      "unit_price_inr": 1,
+      "total_price_inr": 1,
+      "phone_number": 1,
+      "payment_profiles[].handle": 1,
+      "payment_profiles[].is_active": 1,
+      "payment_profiles[].service": 1,
+      "payment_profiles[].photo_url": 1,
+      "payment_profiles": 1,
+      "callback_status": 1,
+      "account_number_last_four": 1,
+      "change_approved_date": 1,
+      "domains[].renewal_price_usd": 1,
+      "closest_in_stock_listing.price_usd": 1,
+      "in_stock": 1,
+      "listing.product_name": 1,
+      "closest_in_stock_listing.stock_quantity": 1,
+      "closest_in_stock_listing.product_name": 1,
+      "closest_in_stock_listing.stock_available": 1,
+      "listing": 1,
+      "listing.stock_quantity": 1,
+      "closest_in_stock_listing.seller": 1
+     },
+     "result_unlinked_fields_top": {
+      "currency": 2,
+      "listing": 1,
+      "activities[].description": 1,
+      "activities[].status": 1,
+      "disbursements[].count": 1,
+      "charges_applied": 1,
+      "renewal_date": 1,
+      "total_payments_sent": 1,
+      "total_payments_received": 1,
+      "payment_allowed": 1
+     },
+     "share_rows_with_unlinked_result_fields": 0.32,
+     "share_rows_request_extra_words": 0.36,
+     "share_single_locus": 0.6,
+     "share_decisive_only_heuristic": 0.36,
+     "share_member_differs": 0.08,
+     "share_strict_match": 0.68
+    }
+   }
+  }
+ },
+ "sft_train_pairs_with_matched_decision_rows": 76,
+ "sft_train_pairs_request_differs": 31,
+ "sft_train_pairs_call_differs": 11,
+ "sft_train_pairs_system_differs_any_level": 12,
+ "sft_train_pairs_system_differs_L1_or_L2": 2,
+ "sft_train_pairs_result_only": 37
+}

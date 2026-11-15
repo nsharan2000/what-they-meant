@@ -1,0 +1,8 @@
+{
+ "grpo_prompts": {
+  "prompts": 496,
+  "max_prompt_len": 7435,
+  "p95_prompt_len": 7288,
+  "mean_prompt_len": 4327.3
+ }
+}

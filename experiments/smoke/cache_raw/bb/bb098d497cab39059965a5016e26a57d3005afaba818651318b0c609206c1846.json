@@ -1,0 +1,1 @@
+{"text": "{\n  \"action\": \"mark_as_paid\",\n  \"order_count\": 1240,\n  \"charges_customer\": false\n}", "usage": {"completion_tokens": 30, "prompt_tokens": 257, "total_tokens": 287, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 3.963e-05}, "finish": "stop"}

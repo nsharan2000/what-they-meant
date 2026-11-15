@@ -1,0 +1,2188 @@
+{
+ "member_id": "lena_ortiz_b",
+ "profile": {
+  "name": "Lena Ortiz",
+  "age": 33,
+  "city": "Naranjito, PR",
+  "country": "United States (Puerto Rico)",
+  "occupation": "Accountant",
+  "summary": "Kestrel member since 2021-11 · identity verified · home currency USD · connected: PayPal, Banco Popular Checking ••2817",
+  "email": "lena.ortiz@mail.com",
+  "phone": "555-0174",
+  "member_since": "2021-11-08",
+  "home_currency": "USD",
+  "timezone": "America/Puerto_Rico",
+  "language": "en-US",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Lena Ortiz, a detail‑driven accountant who channels her love for order into precision‑focused work, yoga‑infused stress relief, and meticulously crafted home‑cooked meals, while quietly wrestling with a persistent undercurrent of anxiety that fuels both her ambition and her need for structured routines.",
+   "professional_persona": "Lena Ortiz, a meticulous accountant with expertise in GAAP, local tax regulations, and audit methodology, they leverage SAP ERP, Oracle Financials, and QuickBooks alongside advanced Excel modeling and Power BI to produce precise financial statements, design systematic internal audit plans, and assertively present findings while maintaining a cooperative, deadline‑driven work style.",
+   "cultural_background": "Lena’s Puerto Rican heritage shapes her identity through strong family ties, reverence for community, and an appreciation for island traditions such as plena music, festive parrandas, and holiday gatherings centered on food. Growing up in Naranjito, she experienced the blend of rural and urban influences, valuing both the close‑knit neighborhood spirit and the professional opportunities in San Juan. Her Catholic upbringing informs her sense of responsibility and compassion, evident in her volunteer work helping seniors with tax filings. While she embraces modern business practices, she maintains a deep respect for the island’s cultural rhythms, language, and culinary heritage.",
+   "sex": "Female",
+   "marital_status": "never_married",
+   "education_level": "bachelors",
+   "occupation": "accountant_or_auditor"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "e0c9374f81f043e9813b7adc0fa7fbeb",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "USA",
+    "age": 33,
+    "sex": "Female",
+    "seed": 7
+   },
+   "source_age": 33,
+   "source_location": "Naranjito, PR",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Marianela Enciso",
+    "Marianela"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "PayPal balance",
+   "currency": "USD",
+   "balance": 930.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Daniela Cruz",
+   "email": "dani.cruz@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "friend · yoga",
+   "last_paid": "2026-10-27"
+  },
+  {
+   "name": "Yari Méndez",
+   "email": "yari.mendez@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "friend",
+   "last_paid": "2026-08-20"
+  },
+  {
+   "name": "Carmen Ortiz",
+   "email": "carmen.ortiz@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "relationship": "mother",
+   "last_paid": "2026-09-25"
+  },
+  {
+   "name": "Javier Ríos",
+   "email": "javi.rios@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "relationship": "cousin",
+   "last_paid": "2026-08-25"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-PAYPAL",
+   "type": "payment_app",
+   "name": "PayPal",
+   "login": "lena.ortiz@mail.com",
+   "status": "connected",
+   "since": "2021-11-08"
+  },
+  {
+   "id": "LA-2817",
+   "type": "bank_account",
+   "name": "Banco Popular Checking",
+   "last4": "2817",
+   "status": "active",
+   "since": "2021-11-09"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "Spotify Premium",
+   "amount": 11.99,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "PayPal balance",
+   "next_charge": "2026-12-11",
+   "status": "active"
+  },
+  {
+   "name": "Adobe Lightroom",
+   "amount": 11.99,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "PayPal balance",
+   "next_charge": "2026-11-26",
+   "status": "active"
+  },
+  {
+   "name": "Liberty PR Internet",
+   "amount": 59.99,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "Banco Popular ••2817",
+   "next_charge": "2026-12-09",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SA-7004 · Billing agreements · Spotify and Adobe may charge the PayPal balance each month."
+ ],
+ "notes": [
+  "New invoice from the same seller for a different item: lamp, $85.00, ordered 9 Nov.",
+  "Collects vintage cameras and mid-century decor."
+ ],
+ "transactions": [
+  {
+   "id": "KX1MVCN9E8",
+   "date": "2026-11-11",
+   "time": "11:26",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXF7AD151A",
+   "date": "2026-11-09",
+   "time": "16:40",
+   "counterparty": "vintage_deals",
+   "handle": "vintagedeals.store@mail.com",
+   "amount": 85.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Invoice",
+   "memo": "Invoice VD-1049 · Mid-century brass desk lamp (ordered Nov 9)",
+   "status": "unpaid · due on receipt",
+   "invoice": "VD-1049"
+  },
+  {
+   "id": "KX4CF6BA75",
+   "date": "2026-11-02",
+   "time": "14:08",
+   "counterparty": "vintage_deals",
+   "handle": "vintagedeals.store@mail.com",
+   "amount": 300.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Invoice",
+   "memo": "Invoice VD-1043 · Polaroid SX-70 Land Camera · paid, item received Nov 7",
+   "invoice": "VD-1043"
+  },
+  {
+   "id": "KXBLFXBMXH",
+   "date": "2026-10-28",
+   "time": "12:53",
+   "counterparty": "Banco Popular Checking ••2817",
+   "amount": 500.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KX1ZGQ8KH0",
+   "date": "2026-10-27",
+   "time": "10:22",
+   "counterparty": "Daniela Cruz",
+   "handle": "dani.cruz@mail.com",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "regalo"
+  },
+  {
+   "id": "KX4M582VKH",
+   "date": "2026-10-26",
+   "time": "07:54",
+   "counterparty": "Adobe",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Lightroom plan"
+  },
+  {
+   "id": "KXZ9MRKHBN",
+   "date": "2026-10-11",
+   "time": "20:46",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KX1W4F72K2",
+   "date": "2026-09-30",
+   "time": "09:28",
+   "counterparty": "Old Navy",
+   "amount": 22.45,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXQ9D8NYNU",
+   "date": "2026-09-26",
+   "time": "09:11",
+   "counterparty": "Adobe",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Lightroom plan"
+  },
+  {
+   "id": "KXEHLP0YQA",
+   "date": "2026-09-25",
+   "time": "20:47",
+   "counterparty": "Carmen Ortiz",
+   "handle": "carmen.ortiz@mail.com",
+   "amount": 100.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "para mami"
+  },
+  {
+   "id": "KX1BH0W3XL",
+   "date": "2026-09-23",
+   "time": "12:39",
+   "counterparty": "Javier Ríos",
+   "handle": "javi.rios@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "te debo"
+  },
+  {
+   "id": "KX2PAY6001",
+   "date": "2026-09-17",
+   "time": "17:48",
+   "counterparty": "Daniela Cruz",
+   "handle": "dani.cruz@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "brunch"
+  },
+  {
+   "id": "KXSJ37MMVM",
+   "date": "2026-09-16",
+   "time": "08:00",
+   "counterparty": "Carmen Ortiz",
+   "handle": "carmen.ortiz@mail.com",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "compra"
+  },
+  {
+   "id": "KXSJ16F5P1",
+   "date": "2026-09-15",
+   "time": "15:06",
+   "counterparty": "retro_finds_pr",
+   "amount": 53.65,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Goods & Services",
+   "memo": "vintage Pyrex bowl"
+  },
+  {
+   "id": "KXUA12W3A9",
+   "date": "2026-09-11",
+   "time": "12:28",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KX5RGK8Z9B",
+   "date": "2026-09-07",
+   "time": "10:21",
+   "counterparty": "Daniela Cruz",
+   "handle": "dani.cruz@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "brunch"
+  },
+  {
+   "id": "KXC7ADF10Q",
+   "date": "2026-09-02",
+   "time": "10:59",
+   "counterparty": "Old Navy",
+   "amount": 82.1,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXEKQTKXQX",
+   "date": "2026-08-30",
+   "time": "18:22",
+   "counterparty": "Daniela Cruz",
+   "handle": "dani.cruz@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "gracias"
+  },
+  {
+   "id": "KX2BT409TJ",
+   "date": "2026-08-26",
+   "time": "09:36",
+   "counterparty": "Adobe",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Lightroom plan"
+  },
+  {
+   "id": "KXG32W5HTJ",
+   "date": "2026-08-25",
+   "time": "21:19",
+   "counterparty": "Javier Ríos",
+   "handle": "javi.rios@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "gasolina"
+  },
+  {
+   "id": "KXM29FSVW4",
+   "date": "2026-08-20",
+   "time": "12:27",
+   "counterparty": "Yari Méndez",
+   "handle": "yari.mendez@mail.com",
+   "amount": 12.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "entradas"
+  },
+  {
+   "id": "KX65VVJZ96",
+   "date": "2026-08-18",
+   "time": "20:27",
+   "counterparty": "mcm_attic",
+   "amount": 40.13,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Goods & Services",
+   "memo": "teak serving tray"
+  },
+  {
+   "id": "KX3N26WGRQ",
+   "date": "2026-08-11",
+   "time": "13:06",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KX7P6EWCTE",
+   "date": "2026-08-04",
+   "time": "07:06",
+   "counterparty": "Daniela Cruz",
+   "handle": "dani.cruz@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "brunch"
+  },
+  {
+   "id": "KX4D9CJLXU",
+   "date": "2026-07-28",
+   "time": "16:04",
+   "counterparty": "Carmen Ortiz",
+   "handle": "carmen.ortiz@mail.com",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "compra"
+  },
+  {
+   "id": "KXX6XC0HES",
+   "date": "2026-07-28",
+   "time": "08:35",
+   "counterparty": "retro_finds_pr",
+   "amount": 60.65,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Goods & Services",
+   "memo": "70s vinyl lot"
+  },
+  {
+   "id": "KXQF401A35",
+   "date": "2026-07-26",
+   "time": "18:00",
+   "counterparty": "Adobe",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Lightroom plan"
+  },
+  {
+   "id": "KX10W9BAMU",
+   "date": "2026-07-19",
+   "time": "20:50",
+   "counterparty": "retro_finds_pr",
+   "amount": 51.81,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Goods & Services",
+   "memo": "70s vinyl lot"
+  },
+  {
+   "id": "KXV7F22FZX",
+   "date": "2026-07-19",
+   "time": "13:58",
+   "counterparty": "Barnes & Noble",
+   "amount": 31.24,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXFQVS1HR5",
+   "date": "2026-07-11",
+   "time": "13:55",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KX4J95JVUL",
+   "date": "2026-07-09",
+   "time": "07:07",
+   "counterparty": "Daniela Cruz",
+   "handle": "dani.cruz@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "yoga class"
+  },
+  {
+   "id": "KXTYNTP6D1",
+   "date": "2026-07-06",
+   "time": "15:26",
+   "counterparty": "Banco Popular Checking ••2817",
+   "amount": 350.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KXH6NDEN5Z",
+   "date": "2026-07-05",
+   "time": "22:08",
+   "counterparty": "Old Navy",
+   "amount": 31.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX990M1GM7",
+   "date": "2026-07-05",
+   "time": "17:39",
+   "counterparty": "mcm_attic",
+   "amount": 135.56,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Goods & Services",
+   "memo": "brass candlesticks"
+  },
+  {
+   "id": "KX7MQ4AF4V",
+   "date": "2026-06-26",
+   "time": "22:44",
+   "counterparty": "Adobe",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Lightroom plan"
+  },
+  {
+   "id": "KXNMHJWP6C",
+   "date": "2026-06-16",
+   "time": "15:39",
+   "counterparty": "retro_finds_pr",
+   "amount": 39.44,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Goods & Services",
+   "memo": "70s vinyl lot"
+  },
+  {
+   "id": "KXM7CHTW99",
+   "date": "2026-06-11",
+   "time": "09:58",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXHHXP6RTK",
+   "date": "2026-05-28",
+   "time": "13:40",
+   "counterparty": "Old Navy",
+   "amount": 37.65,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXLL7LLAQ6",
+   "date": "2026-05-26",
+   "time": "19:11",
+   "counterparty": "Adobe",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Lightroom plan"
+  },
+  {
+   "id": "KXLGXD7BFZ",
+   "date": "2026-05-21",
+   "time": "22:57",
+   "counterparty": "Old Navy",
+   "amount": 39.62,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX3J58C9JE",
+   "date": "2026-05-19",
+   "time": "10:18",
+   "counterparty": "Etsy",
+   "amount": 58.01,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXN34JMQ9R",
+   "date": "2026-05-11",
+   "time": "15:43",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXAWWSX6UX",
+   "date": "2026-05-01",
+   "time": "12:57",
+   "counterparty": "Yari Méndez",
+   "handle": "yari.mendez@mail.com",
+   "amount": 12.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "café"
+  },
+  {
+   "id": "KXFXWJYEAJ",
+   "date": "2026-04-26",
+   "time": "12:24",
+   "counterparty": "Adobe",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Lightroom plan"
+  },
+  {
+   "id": "KX2WKY9AFX",
+   "date": "2026-04-25",
+   "time": "10:54",
+   "counterparty": "mcm_attic",
+   "amount": 34.64,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Goods & Services",
+   "memo": "atomic wall clock"
+  },
+  {
+   "id": "KXXHKSVTLE",
+   "date": "2026-04-19",
+   "time": "13:35",
+   "counterparty": "retro_finds_pr",
+   "amount": 34.97,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Goods & Services",
+   "memo": "Kodak Instamatic"
+  },
+  {
+   "id": "KX6TRY9E8M",
+   "date": "2026-04-17",
+   "time": "09:35",
+   "counterparty": "mcm_attic",
+   "amount": 100.34,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Goods & Services",
+   "memo": "teak serving tray"
+  },
+  {
+   "id": "KXWB9W1V3K",
+   "date": "2026-04-14",
+   "time": "11:23",
+   "counterparty": "Carmen Ortiz",
+   "handle": "carmen.ortiz@mail.com",
+   "amount": 100.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "para mami"
+  },
+  {
+   "id": "KXTD3VBG9R",
+   "date": "2026-04-11",
+   "time": "19:49",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXT8BQMXND",
+   "date": "2026-04-09",
+   "time": "19:24",
+   "counterparty": "mcm_attic",
+   "amount": 56.44,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Goods & Services",
+   "memo": "atomic wall clock"
+  },
+  {
+   "id": "KX8LK1J2VR",
+   "date": "2026-04-06",
+   "time": "16:55",
+   "counterparty": "Daniela Cruz",
+   "handle": "dani.cruz@mail.com",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "brunch"
+  },
+  {
+   "id": "KXMTEL4CBH",
+   "date": "2026-03-30",
+   "time": "22:23",
+   "counterparty": "Javier Ríos",
+   "handle": "javi.rios@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "te debo"
+  },
+  {
+   "id": "KXAUDEZE7R",
+   "date": "2026-03-26",
+   "time": "20:26",
+   "counterparty": "Adobe",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Lightroom plan"
+  },
+  {
+   "id": "KXA10KHJG6",
+   "date": "2026-03-23",
+   "time": "15:35",
+   "counterparty": "retro_finds_pr",
+   "amount": 51.5,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Goods & Services",
+   "memo": "vintage Pyrex bowl"
+  },
+  {
+   "id": "KX5WUKCADA",
+   "date": "2026-03-18",
+   "time": "21:08",
+   "counterparty": "Javier Ríos",
+   "handle": "javi.rios@mail.com",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "almuerzo"
+  },
+  {
+   "id": "KXN6ZDQ9DE",
+   "date": "2026-03-11",
+   "time": "10:31",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXSZS5P8K1",
+   "date": "2026-03-10",
+   "time": "07:16",
+   "counterparty": "Yari Méndez",
+   "handle": "yari.mendez@mail.com",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "entradas"
+  },
+  {
+   "id": "KX100QM5TW",
+   "date": "2026-03-09",
+   "time": "22:47",
+   "counterparty": "Barnes & Noble",
+   "amount": 28.86,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXGQDSF679",
+   "date": "2026-03-02",
+   "time": "07:27",
+   "counterparty": "Banco Popular Checking ••2817",
+   "amount": 400.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KXGCQKM16W",
+   "date": "2026-02-26",
+   "time": "14:36",
+   "counterparty": "Adobe",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Lightroom plan"
+  },
+  {
+   "id": "KXE13MV4FR",
+   "date": "2026-02-19",
+   "time": "18:30",
+   "counterparty": "Daniela Cruz",
+   "handle": "dani.cruz@mail.com",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "yoga class"
+  },
+  {
+   "id": "KX93G1E38N",
+   "date": "2026-02-18",
+   "time": "11:42",
+   "counterparty": "retro_finds_pr",
+   "amount": 34.67,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Goods & Services",
+   "memo": "Kodak Instamatic"
+  },
+  {
+   "id": "KXTAD0E3P0",
+   "date": "2026-02-11",
+   "time": "13:17",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXL52LCVB1",
+   "date": "2026-02-07",
+   "time": "21:35",
+   "counterparty": "Javier Ríos",
+   "handle": "javi.rios@mail.com",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "gasolina"
+  },
+  {
+   "id": "KXHZSW09PA",
+   "date": "2026-01-26",
+   "time": "20:17",
+   "counterparty": "Adobe",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Lightroom plan"
+  },
+  {
+   "id": "KXDZGYY809",
+   "date": "2026-01-17",
+   "time": "07:13",
+   "counterparty": "Daniela Cruz",
+   "handle": "dani.cruz@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "yoga class"
+  },
+  {
+   "id": "KXDM421EQL",
+   "date": "2026-01-11",
+   "time": "22:45",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  }
+ ],
+ "requests": [
+  {
+   "id": "INV-VD-1049",
+   "type": "invoice",
+   "from": "vintage_deals",
+   "invoice_number": "VD-1049",
+   "amount": 85.0,
+   "currency": "USD",
+   "issued": "2026-11-09",
+   "due": "on receipt",
+   "status": "unpaid",
+   "items": "Mid-century brass desk lamp (ordered 2026-11-09)"
+  },
+  {
+   "id": "INV-VD-1043",
+   "type": "invoice",
+   "from": "vintage_deals",
+   "invoice_number": "VD-1043",
+   "amount": 300.0,
+   "currency": "USD",
+   "issued": "2026-11-01",
+   "status": "paid 2026-11-02 · item delivered 2026-11-07",
+   "items": "Polaroid SX-70 Land Camera (refurbished)"
+  }
+ ],
+ "notifications": [
+  {
+   "date": "2026-11-09",
+   "time": "16:40",
+   "type": "invoice",
+   "text": "vintage_deals sent you an invoice for $85.00 — “Invoice VD-1049 · Mid-century brass desk lamp (ordered Nov 9)”"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-19",
+   "time": "12:00",
+   "type": "product",
+   "text": "Tip: set a low-balance alert in Settings > Notifications."
+  },
+  {
+   "date": "2026-10-19",
+   "time": "10:52",
+   "type": "security",
+   "text": "New sign-in on iPhone 15 near Naranjito, PR. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BK8M40284H",
+   "date": "2026-11-12",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SELECTOS COMERIO",
+   "amount": 18.51,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKSZFY6Q4E",
+   "date": "2026-11-11",
+   "account": "Popular Visa Debit ••2817",
+   "description": "EL MESON SANDWICHES NARANJITO",
+   "amount": 13.74,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKC90249U0",
+   "date": "2026-11-09",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LIBERTY PR INTERNET",
+   "amount": 59.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKZWDCNYE8",
+   "date": "2026-11-07",
+   "account": "Popular Visa Debit ••2817",
+   "description": "EL MESON SANDWICHES NARANJITO",
+   "amount": 11.21,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK33QS4X2G",
+   "date": "2026-11-06",
+   "account": "Popular Visa Debit ••2817",
+   "description": "PUEBLO XTRA BAYAMON",
+   "amount": 80.72,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKLVX5HXMB",
+   "date": "2026-11-03",
+   "account": "Banco Popular Checking ••2817",
+   "description": "POPULAR MORTGAGE PMT",
+   "amount": 742.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BK446NSS56",
+   "date": "2026-11-01",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SELECTOS COMERIO",
+   "amount": 18.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKNA4D4N9B",
+   "date": "2026-10-30",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1788.92,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK6R3LX8VM",
+   "date": "2026-10-28",
+   "account": "Banco Popular Checking ••2817",
+   "description": "PAYPAL INST XFER",
+   "amount": 500.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKAU34MJL4",
+   "date": "2026-10-22",
+   "account": "Banco Popular Checking ••2817",
+   "description": "AAA ACUEDUCTOS PAGO",
+   "amount": 35.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKGEHJF5Y7",
+   "date": "2026-10-21",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SELECTOS COMERIO",
+   "amount": 28.02,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKC4XXPKQJ",
+   "date": "2026-10-17",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LUMA ENERGY PAGO",
+   "amount": 148.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKHQ90A4SR",
+   "date": "2026-10-16",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1783.57,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKTGUTUJSH",
+   "date": "2026-10-15",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SUPERMERCADOS ECONO NARANJITO",
+   "amount": 34.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKG8Q43AXG",
+   "date": "2026-10-13",
+   "account": "Banco Popular Checking ••2817",
+   "description": "CLARO PR WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK7YYSN926",
+   "date": "2026-10-12",
+   "account": "Popular Visa Debit ••2817",
+   "description": "PUEBLO XTRA BAYAMON",
+   "amount": 82.26,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKGMZH94X5",
+   "date": "2026-10-09",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LIBERTY PR INTERNET",
+   "amount": 59.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKJF735D7R",
+   "date": "2026-10-06",
+   "account": "Popular Visa Debit ••2817",
+   "description": "EL MESON SANDWICHES NARANJITO",
+   "amount": 15.89,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKLP5W1PE7",
+   "date": "2026-10-03",
+   "account": "Banco Popular Checking ••2817",
+   "description": "POPULAR MORTGAGE PMT",
+   "amount": 742.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BK5MD2HWY9",
+   "date": "2026-10-02",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1749.16,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK3S434ZVR",
+   "date": "2026-10-02",
+   "account": "Popular Visa Debit ••2817",
+   "description": "PUEBLO XTRA BAYAMON",
+   "amount": 87.73,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKUSSP3MSR",
+   "date": "2026-10-01",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SUPERMERCADOS ECONO NARANJITO",
+   "amount": 65.68,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKT4C1EP6X",
+   "date": "2026-09-22",
+   "account": "Banco Popular Checking ••2817",
+   "description": "AAA ACUEDUCTOS PAGO",
+   "amount": 43.86,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK9N9UT00B",
+   "date": "2026-09-20",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SELECTOS COMERIO",
+   "amount": 37.63,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKBR8B5R54",
+   "date": "2026-09-18",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1763.3,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK3X83LDZ4",
+   "date": "2026-09-17",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LUMA ENERGY PAGO",
+   "amount": 121.05,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK7DBZ0XLE",
+   "date": "2026-09-13",
+   "account": "Banco Popular Checking ••2817",
+   "description": "CLARO PR WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKMQG4PWNY",
+   "date": "2026-09-09",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SELECTOS COMERIO",
+   "amount": 30.92,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK01F56TLN",
+   "date": "2026-09-09",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LIBERTY PR INTERNET",
+   "amount": 59.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK8LWA5E6M",
+   "date": "2026-09-04",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1760.22,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKDF8CCVGF",
+   "date": "2026-09-03",
+   "account": "Banco Popular Checking ••2817",
+   "description": "POPULAR MORTGAGE PMT",
+   "amount": 742.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BK4E74V14V",
+   "date": "2026-08-31",
+   "account": "Popular Visa Debit ••2817",
+   "description": "DOMINO'S PIZZA BAYAMON",
+   "amount": 14.79,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKZZQM32T3",
+   "date": "2026-08-22",
+   "account": "Banco Popular Checking ••2817",
+   "description": "AAA ACUEDUCTOS PAGO",
+   "amount": 34.73,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKEUJP7PNL",
+   "date": "2026-08-21",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1774.57,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKCAXWHYWC",
+   "date": "2026-08-21",
+   "account": "Popular Visa Debit ••2817",
+   "description": "PUEBLO XTRA BAYAMON",
+   "amount": 64.56,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKLX36STUQ",
+   "date": "2026-08-17",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LUMA ENERGY PAGO",
+   "amount": 120.64,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK3C2J1T2B",
+   "date": "2026-08-17",
+   "account": "Popular Visa Debit ••2817",
+   "description": "WALGREENS #00921 BAYAMON",
+   "amount": 27.46,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKNAJTE221",
+   "date": "2026-08-13",
+   "account": "Banco Popular Checking ••2817",
+   "description": "CLARO PR WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKU5NJSE2W",
+   "date": "2026-08-09",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LIBERTY PR INTERNET",
+   "amount": 59.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKBADFXGKJ",
+   "date": "2026-08-07",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1784.06,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKP1A70B4P",
+   "date": "2026-08-03",
+   "account": "Banco Popular Checking ••2817",
+   "description": "POPULAR MORTGAGE PMT",
+   "amount": 742.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKM4JKXZ6N",
+   "date": "2026-07-24",
+   "account": "Popular Visa Debit ••2817",
+   "description": "EL MESON SANDWICHES NARANJITO",
+   "amount": 12.34,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKG7CTG3TS",
+   "date": "2026-07-24",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1757.73,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK8WTA5VU3",
+   "date": "2026-07-22",
+   "account": "Banco Popular Checking ••2817",
+   "description": "AAA ACUEDUCTOS PAGO",
+   "amount": 29.62,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKWWHTUC1S",
+   "date": "2026-07-17",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LUMA ENERGY PAGO",
+   "amount": 130.72,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK9YWVF6LG",
+   "date": "2026-07-13",
+   "account": "Popular Visa Debit ••2817",
+   "description": "PUMA GAS NARANJITO",
+   "amount": 27.09,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK4TRB4VD7",
+   "date": "2026-07-13",
+   "account": "Banco Popular Checking ••2817",
+   "description": "CLARO PR WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKL4LCCDF3",
+   "date": "2026-07-10",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1779.9,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKLCYAUS44",
+   "date": "2026-07-09",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LIBERTY PR INTERNET",
+   "amount": 59.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKSMAESR7T",
+   "date": "2026-07-06",
+   "account": "Banco Popular Checking ••2817",
+   "description": "PAYPAL INST XFER",
+   "amount": 350.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKMZ8USFEW",
+   "date": "2026-07-06",
+   "account": "Popular Visa Debit ••2817",
+   "description": "PUMA GAS NARANJITO",
+   "amount": 43.28,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKA2J3VXPV",
+   "date": "2026-07-03",
+   "account": "Banco Popular Checking ••2817",
+   "description": "POPULAR MORTGAGE PMT",
+   "amount": 742.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BK22HHAWVU",
+   "date": "2026-07-02",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SUPERMERCADOS ECONO NARANJITO",
+   "amount": 29.35,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK3KBE4W78",
+   "date": "2026-06-28",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SELECTOS COMERIO",
+   "amount": 19.43,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKMM1LDS1C",
+   "date": "2026-06-26",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1749.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKRVECLYK8",
+   "date": "2026-06-22",
+   "account": "Banco Popular Checking ••2817",
+   "description": "AAA ACUEDUCTOS PAGO",
+   "amount": 41.94,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK945PL9K9",
+   "date": "2026-06-18",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SUPERMERCADOS ECONO NARANJITO",
+   "amount": 78.16,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKB4T1CL66",
+   "date": "2026-06-17",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LUMA ENERGY PAGO",
+   "amount": 106.28,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK6VS4FHZ7",
+   "date": "2026-06-13",
+   "account": "Banco Popular Checking ••2817",
+   "description": "CLARO PR WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKVYC92V0U",
+   "date": "2026-06-12",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1761.1,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKUE0WJCKK",
+   "date": "2026-06-09",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LIBERTY PR INTERNET",
+   "amount": 59.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKJ5571D2M",
+   "date": "2026-06-03",
+   "account": "Banco Popular Checking ••2817",
+   "description": "POPULAR MORTGAGE PMT",
+   "amount": 742.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BK9TEVUF8U",
+   "date": "2026-05-29",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1755.79,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK256V1DMQ",
+   "date": "2026-05-22",
+   "account": "Banco Popular Checking ••2817",
+   "description": "AAA ACUEDUCTOS PAGO",
+   "amount": 37.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKUPL3ACPP",
+   "date": "2026-05-17",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LUMA ENERGY PAGO",
+   "amount": 92.12,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKVLR1SSP6",
+   "date": "2026-05-15",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1770.73,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKVM3PB0M7",
+   "date": "2026-05-13",
+   "account": "Banco Popular Checking ••2817",
+   "description": "CLARO PR WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK11606RN6",
+   "date": "2026-05-13",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SUPERMERCADOS ECONO NARANJITO",
+   "amount": 53.51,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKWY09N8C2",
+   "date": "2026-05-11",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SELECTOS COMERIO",
+   "amount": 56.49,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKEES1NZGZ",
+   "date": "2026-05-09",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LIBERTY PR INTERNET",
+   "amount": 59.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKVWLGZQS8",
+   "date": "2026-05-07",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SUPERMERCADOS ECONO NARANJITO",
+   "amount": 45.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKXGXA8G7M",
+   "date": "2026-05-03",
+   "account": "Popular Visa Debit ••2817",
+   "description": "PUEBLO XTRA BAYAMON",
+   "amount": 77.35,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKPG3723ZF",
+   "date": "2026-05-03",
+   "account": "Banco Popular Checking ••2817",
+   "description": "POPULAR MORTGAGE PMT",
+   "amount": 742.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKRXGG2XB9",
+   "date": "2026-05-01",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1765.21,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKC7750YT3",
+   "date": "2026-04-29",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SUPERMERCADOS ECONO NARANJITO",
+   "amount": 56.39,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK6XE62KW5",
+   "date": "2026-04-25",
+   "account": "Popular Visa Debit ••2817",
+   "description": "DOMINO'S PIZZA BAYAMON",
+   "amount": 18.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKS8LZH1AW",
+   "date": "2026-04-23",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SUPERMERCADOS ECONO NARANJITO",
+   "amount": 73.21,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKP26L8NTY",
+   "date": "2026-04-22",
+   "account": "Popular Visa Debit ••2817",
+   "description": "DOMINO'S PIZZA BAYAMON",
+   "amount": 22.57,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKK7R40DCR",
+   "date": "2026-04-22",
+   "account": "Banco Popular Checking ••2817",
+   "description": "AAA ACUEDUCTOS PAGO",
+   "amount": 38.53,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKSV35XYSB",
+   "date": "2026-04-17",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LUMA ENERGY PAGO",
+   "amount": 166.59,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKP4BZ6YRS",
+   "date": "2026-04-17",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1760.16,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKUNW1HM9R",
+   "date": "2026-04-13",
+   "account": "Banco Popular Checking ••2817",
+   "description": "CLARO PR WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKKVN8BZTU",
+   "date": "2026-04-09",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LIBERTY PR INTERNET",
+   "amount": 59.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKCZ7V4JGZ",
+   "date": "2026-04-07",
+   "account": "Popular Visa Debit ••2817",
+   "description": "EL MESON SANDWICHES NARANJITO",
+   "amount": 13.56,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKFZQB3ZPN",
+   "date": "2026-04-05",
+   "account": "Popular Visa Debit ••2817",
+   "description": "PUMA GAS NARANJITO",
+   "amount": 39.08,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK9LQM9CAY",
+   "date": "2026-04-04",
+   "account": "Popular Visa Debit ••2817",
+   "description": "PUEBLO XTRA BAYAMON",
+   "amount": 68.76,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKUSWE2362",
+   "date": "2026-04-03",
+   "account": "Banco Popular Checking ••2817",
+   "description": "POPULAR MORTGAGE PMT",
+   "amount": 742.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BK8WBT5Q8M",
+   "date": "2026-04-03",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1787.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKJQKYRVS8",
+   "date": "2026-03-22",
+   "account": "Banco Popular Checking ••2817",
+   "description": "AAA ACUEDUCTOS PAGO",
+   "amount": 36.54,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKNQMT6U3R",
+   "date": "2026-03-20",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1763.12,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK8HP5G5ZB",
+   "date": "2026-03-19",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SELECTOS COMERIO",
+   "amount": 39.61,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKK9SU1D8B",
+   "date": "2026-03-18",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SELECTOS COMERIO",
+   "amount": 29.31,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKRJ7FM6XV",
+   "date": "2026-03-17",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LUMA ENERGY PAGO",
+   "amount": 140.93,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKL3CWHGBB",
+   "date": "2026-03-13",
+   "account": "Banco Popular Checking ••2817",
+   "description": "CLARO PR WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKJWHMQEAT",
+   "date": "2026-03-12",
+   "account": "Popular Visa Debit ••2817",
+   "description": "PUEBLO XTRA BAYAMON",
+   "amount": 20.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKP9TRK5FS",
+   "date": "2026-03-09",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LIBERTY PR INTERNET",
+   "amount": 59.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKDS7YMPXU",
+   "date": "2026-03-06",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1751.02,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKDW2LC0MU",
+   "date": "2026-03-03",
+   "account": "Banco Popular Checking ••2817",
+   "description": "POPULAR MORTGAGE PMT",
+   "amount": 742.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKX38ZNGAZ",
+   "date": "2026-03-02",
+   "account": "Banco Popular Checking ••2817",
+   "description": "PAYPAL INST XFER",
+   "amount": 400.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKDQHNTWCM",
+   "date": "2026-02-22",
+   "account": "Banco Popular Checking ••2817",
+   "description": "AAA ACUEDUCTOS PAGO",
+   "amount": 39.56,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKTZM2PZP4",
+   "date": "2026-02-20",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1775.25,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK1F9GM9ST",
+   "date": "2026-02-19",
+   "account": "Popular Visa Debit ••2817",
+   "description": "DOMINO'S PIZZA BAYAMON",
+   "amount": 18.17,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKLJ0ZS41P",
+   "date": "2026-02-17",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LUMA ENERGY PAGO",
+   "amount": 155.47,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKVBGSSCM8",
+   "date": "2026-02-13",
+   "account": "Popular Visa Debit ••2817",
+   "description": "PUEBLO XTRA BAYAMON",
+   "amount": 86.14,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK10E6BLQD",
+   "date": "2026-02-13",
+   "account": "Banco Popular Checking ••2817",
+   "description": "CLARO PR WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKVJV3QGGQ",
+   "date": "2026-02-09",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LIBERTY PR INTERNET",
+   "amount": 59.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKEW5GJ4C8",
+   "date": "2026-02-09",
+   "account": "Popular Visa Debit ••2817",
+   "description": "PUEBLO XTRA BAYAMON",
+   "amount": 24.9,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKRQ6MBL95",
+   "date": "2026-02-06",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1757.43,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK512EL0YB",
+   "date": "2026-02-03",
+   "account": "Banco Popular Checking ••2817",
+   "description": "POPULAR MORTGAGE PMT",
+   "amount": 742.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKB3H79AQ5",
+   "date": "2026-01-26",
+   "account": "Popular Visa Debit ••2817",
+   "description": "DOMINO'S PIZZA BAYAMON",
+   "amount": 15.8,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKR1P8WVBH",
+   "date": "2026-01-23",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1772.72,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKZK52RL3X",
+   "date": "2026-01-22",
+   "account": "Banco Popular Checking ••2817",
+   "description": "AAA ACUEDUCTOS PAGO",
+   "amount": 41.45,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKRVFGD9AV",
+   "date": "2026-01-21",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SUPERMERCADOS ECONO NARANJITO",
+   "amount": 59.28,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKGQVX8BTW",
+   "date": "2026-01-20",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SELECTOS COMERIO",
+   "amount": 27.16,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK7W6D15NF",
+   "date": "2026-01-20",
+   "account": "Popular Visa Debit ••2817",
+   "description": "PUMA GAS NARANJITO",
+   "amount": 30.48,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK0JYB0B5Z",
+   "date": "2026-01-19",
+   "account": "Popular Visa Debit ••2817",
+   "description": "SELECTOS COMERIO",
+   "amount": 50.3,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK09DTS3FS",
+   "date": "2026-01-17",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LUMA ENERGY PAGO",
+   "amount": 106.96,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKH0ZBZ3ZN",
+   "date": "2026-01-13",
+   "account": "Banco Popular Checking ••2817",
+   "description": "CLARO PR WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKYEZ5LBQG",
+   "date": "2026-01-09",
+   "account": "Banco Popular Checking ••2817",
+   "description": "RIVERA TOLEDO CPA PSC NOMINA",
+   "amount": 1786.97,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKTQR8WYWR",
+   "date": "2026-01-09",
+   "account": "Banco Popular Checking ••2817",
+   "description": "LIBERTY PR INTERNET",
+   "amount": 59.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S12"
+  ],
+  "scenarios": [
+   "S12B"
+  ],
+  "world": "twin B world",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261118,
+  "record_counts": {
+   "transactions": 67,
+   "bank_transactions": 120,
+   "total_money_records": 187
+  }
+ }
+}

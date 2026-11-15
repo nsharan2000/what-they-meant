@@ -1,0 +1,28 @@
+{
+ "cells_with_both_twins": 247,
+ "same_setting_cells": 134,
+ "same_setting_cells_unflagged": 118,
+ "same_setting_by_level": {
+  "L1": 42,
+  "L2": 41,
+  "L0r": 34,
+  "L3": 17
+ },
+ "same_setting_unflagged_by_level": {
+  "L1": 37,
+  "L2": 35,
+  "L0r": 33,
+  "L3": 13
+ },
+ "same_setting_unflagged_by_level_setting": {
+  "L1|P0": 29,
+  "L2|P0": 31,
+  "L0r|P0": 29,
+  "L1|P2": 8,
+  "L3|P0": 11,
+  "L2|P2": 4,
+  "L3|P2": 2,
+  "L0r|P2": 4
+ },
+ "cells_needed_for_36_steps_of_2_cells": 72
+}

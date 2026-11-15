@@ -1,0 +1,1 @@
+{"text": "{\"selected_contact\": {\"name\": \"Ethan Price\", \"relationship\": \"son\"}, \"total_matches\": 1}", "usage": {"completion_tokens": 26, "prompt_tokens": 257, "total_tokens": 283, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 3.743e-05}, "finish": "stop"}

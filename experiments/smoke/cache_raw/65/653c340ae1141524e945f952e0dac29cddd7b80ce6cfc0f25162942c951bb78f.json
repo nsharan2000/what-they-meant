@@ -1,0 +1,1 @@
+{"text": "{\n  \"invoice_recipient\": \"J. Alvarez\",\n  \"amount_usd\": 574.79,\n  \"status\": \"pending\",\n  \"payment_method\": \"counter_terminal_or_link\"\n}", "usage": {"completion_tokens": 46, "prompt_tokens": 255, "total_tokens": 301, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.825e-05}, "finish": "stop"}

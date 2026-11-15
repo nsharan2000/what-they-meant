@@ -1,0 +1,1 @@
+{"text": "{\"results\": [{\"display_name\": \"Sam Carter\", \"handle\": \"s.carter.77@mailbox.com\", \"photo_url\": null, \"mutual_contacts\": [], \"has_paid_before\": false}]}", "usage": {"completion_tokens": 46, "prompt_tokens": 309, "total_tokens": 355, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 5.311e-05}, "finish": "stop"}

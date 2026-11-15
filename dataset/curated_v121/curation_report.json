@@ -1,0 +1,263 @@
+{
+ "dpo": {
+  "kind": "dpo",
+  "in": 508,
+  "passed": 496,
+  "manifest": {
+   "pipeline_config_hash": "719f33bfe46ee40a",
+   "run_timestamp": "2026-11-13T22:41:13.683754Z",
+   "source_files": [],
+   "stage_counts": {
+    "JSONLReader": {
+     "output_count": 508,
+     "rejected_count": 0
+    },
+    "SchemaGate": {
+     "input_count": 508,
+     "output_count": 508,
+     "probe_recovered": 0,
+     "rejected_count": 0
+    },
+    "ExactDeduplicator": {
+     "input_count": 508,
+     "output_count": 508
+    },
+    "TextCleaner": {
+     "input_count": 508,
+     "output_count": 508
+    },
+    "SecretsGate": {
+     "input_count": 508,
+     "output_count": 496,
+     "probe_recovered": 0,
+     "rejected_count": 12
+    },
+    "DPOExporter": {
+     "exported_count": 496
+    }
+   },
+   "rejected_breakdown": {
+    "secret_detected:Hex High Entropy String": 8,
+    "secret_detected:Base64 High Entropy String": 4
+   },
+   "dedup_stats": {
+    "exact_duplicates_removed": 0
+   },
+   "minhash_threshold": null,
+   "sampler_stats": null,
+   "token_stats": {
+    "total_prompt_tokens": 0,
+    "total_completion_tokens": 0,
+    "total_tokens": 0
+   },
+   "wall_clock_seconds": 38.841,
+   "tool_versions": {
+    "curatorkit": "0.1.21",
+    "python": "3.12.12"
+   },
+   "diversity_stats": null,
+   "diagnostic_stats": null,
+   "diagnostic_files": [],
+   "provenance": {
+    "schema": "lexsi.provenance/1",
+    "library": "curatorkit",
+    "version": "0.1.21",
+    "git_sha": null,
+    "created_at": "2026-11-13T22:41:13Z",
+    "base_model": null,
+    "method": "curate",
+    "inputs": [
+     {
+      "kind": "dataset",
+      "ref": "/workspace/dataset/curated_v121/_in_dpo.jsonl",
+      "config": null,
+      "provenance": null
+     }
+    ],
+    "params": {
+     "generator_model": null,
+     "judge_model": null,
+     "grpo_scoring_model": null,
+     "export_formats": [
+      "dpo"
+     ],
+     "output_split": null,
+     "pipeline_config_hash": "719f33bfe46ee40a"
+    }
+   }
+  }
+ },
+ "sft": {
+  "kind": "sft",
+  "in": 1000,
+  "passed": 904,
+  "manifest": {
+   "pipeline_config_hash": "474eab3f0b4fc013",
+   "run_timestamp": "2026-11-13T22:42:24.369475Z",
+   "source_files": [],
+   "stage_counts": {
+    "JSONLReader": {
+     "output_count": 1000,
+     "rejected_count": 0
+    },
+    "SchemaGate": {
+     "input_count": 1000,
+     "output_count": 1000,
+     "probe_recovered": 0,
+     "rejected_count": 0
+    },
+    "ExactDeduplicator": {
+     "input_count": 1000,
+     "output_count": 926
+    },
+    "TextCleaner": {
+     "input_count": 926,
+     "output_count": 926
+    },
+    "SecretsGate": {
+     "input_count": 926,
+     "output_count": 904,
+     "probe_recovered": 0,
+     "rejected_count": 22
+    },
+    "MessagesExporter": {
+     "exported_count": 904
+    }
+   },
+   "rejected_breakdown": {
+    "secret_detected:Hex High Entropy String": 14,
+    "secret_detected:Base64 High Entropy String": 8
+   },
+   "dedup_stats": {
+    "exact_duplicates_removed": 74
+   },
+   "minhash_threshold": null,
+   "sampler_stats": null,
+   "token_stats": {
+    "total_prompt_tokens": 0,
+    "total_completion_tokens": 0,
+    "total_tokens": 0
+   },
+   "wall_clock_seconds": 70.586,
+   "tool_versions": {
+    "curatorkit": "0.1.21",
+    "python": "3.12.12"
+   },
+   "diversity_stats": null,
+   "diagnostic_stats": null,
+   "diagnostic_files": [],
+   "provenance": {
+    "schema": "lexsi.provenance/1",
+    "library": "curatorkit",
+    "version": "0.1.21",
+    "git_sha": null,
+    "created_at": "2026-11-13T22:42:24Z",
+    "base_model": null,
+    "method": "curate",
+    "inputs": [
+     {
+      "kind": "dataset",
+      "ref": "/workspace/dataset/curated_v121/_in_sft.jsonl",
+      "config": null,
+      "provenance": null
+     }
+    ],
+    "params": {
+     "generator_model": null,
+     "judge_model": null,
+     "grpo_scoring_model": null,
+     "export_formats": [
+      "messages"
+     ],
+     "output_split": null,
+     "pipeline_config_hash": "474eab3f0b4fc013"
+    }
+   }
+  }
+ },
+ "planted_clean_control": {
+  "kind": "clean_control",
+  "in": 20,
+  "passed": 20,
+  "manifest": {
+   "pipeline_config_hash": "b22786accd356751",
+   "run_timestamp": "2026-11-13T22:42:24.438849Z",
+   "source_files": [],
+   "stage_counts": {
+    "JSONLReader": {
+     "output_count": 20,
+     "rejected_count": 0
+    },
+    "SchemaGate": {
+     "input_count": 20,
+     "output_count": 20,
+     "probe_recovered": 0,
+     "rejected_count": 0
+    },
+    "ExactDeduplicator": {
+     "input_count": 20,
+     "output_count": 20
+    },
+    "TextCleaner": {
+     "input_count": 20,
+     "output_count": 20
+    },
+    "SecretsGate": {
+     "input_count": 20,
+     "output_count": 20,
+     "probe_recovered": 0,
+     "rejected_count": 0
+    },
+    "MessagesExporter": {
+     "exported_count": 20
+    }
+   },
+   "rejected_breakdown": {},
+   "dedup_stats": {
+    "exact_duplicates_removed": 0
+   },
+   "minhash_threshold": null,
+   "sampler_stats": null,
+   "token_stats": {
+    "total_prompt_tokens": 0,
+    "total_completion_tokens": 0,
+    "total_tokens": 0
+   },
+   "wall_clock_seconds": 0.028,
+   "tool_versions": {
+    "curatorkit": "0.1.21",
+    "python": "3.12.12"
+   },
+   "diversity_stats": null,
+   "diagnostic_stats": null,
+   "diagnostic_files": [],
+   "provenance": {
+    "schema": "lexsi.provenance/1",
+    "library": "curatorkit",
+    "version": "0.1.21",
+    "git_sha": null,
+    "created_at": "2026-11-13T22:42:24Z",
+    "base_model": null,
+    "method": "curate",
+    "inputs": [
+     {
+      "kind": "dataset",
+      "ref": "/workspace/dataset/curated_v121/_in_clean_control.jsonl",
+      "config": null,
+      "provenance": null
+     }
+    ],
+    "params": {
+     "generator_model": null,
+     "judge_model": null,
+     "grpo_scoring_model": null,
+     "export_formats": [
+      "messages"
+     ],
+     "output_split": null,
+     "pipeline_config_hash": "b22786accd356751"
+    }
+   }
+  }
+ }
+}

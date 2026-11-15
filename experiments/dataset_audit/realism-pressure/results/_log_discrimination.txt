@@ -1,0 +1,115 @@
+         family                         model level prompt  n_pairs   D_ask   D_act     PP
+       eval_v12         tiny-aya-global-local   L0r     P0       86  0.0698  0.0930 0.0000
+       eval_v12         tiny-aya-global-local   L0r     P2       86  0.0116  0.0233 0.0000
+       eval_v12         tiny-aya-global-local    L1     P0       85  0.0353  0.0588 0.0000
+       eval_v12         tiny-aya-global-local    L1     P2       86  0.0000  0.0465 0.0000
+       eval_v12         tiny-aya-global-local    L2     P0       86  0.0000  0.0233 0.0000
+       eval_v12         tiny-aya-global-local    L2     P2       86  0.0000  0.0465 0.0000
+       eval_v12         tiny-aya-global-local   L2s     P0       86  0.0233  0.0581 0.0000
+       eval_v12         tiny-aya-global-local   L2s     P2       86  0.0930  0.0930 0.0233
+ panel_hard_v12                 DeepSeek-V3.2   L0r     P2       45  0.4222  0.4222 0.2444
+ panel_hard_v12                 DeepSeek-V3.2    L2     P2       45  0.5333  0.5556 0.4000
+ panel_hard_v12 Qwen3-235B-A22B-Instruct-2507   L0r     P2       45  0.3333  0.3778 0.3111
+ panel_hard_v12 Qwen3-235B-A22B-Instruct-2507    L2     P2       45  0.4000  0.3111 0.2889
+ panel_hard_v12                  claude-fable   L0r     P2       45  0.8444  0.8444 0.7111
+ panel_hard_v12                  claude-fable    L2     P2       45  0.6667  0.6667 0.5778
+ panel_hard_v12                  claude-haiku   L0r     P2       45  0.5333  0.4889 0.4000
+ panel_hard_v12                  claude-haiku    L2     P2       45  0.2000  0.3111 0.2000
+ panel_hard_v12                   claude-opus   L0r     P2       45  0.8222  0.8222 0.7111
+ panel_hard_v12                   claude-opus    L2     P2       45  0.5111  0.5111 0.4889
+ panel_hard_v12                 claude-sonnet   L0r     P2       45  0.7778  0.6889 0.5778
+ panel_hard_v12                 claude-sonnet    L2     P2       45  0.5111  0.4000 0.3111
+panel_mined_v12                 DeepSeek-V3.2    L2     P2      134  0.3358  0.3582 0.3134
+panel_mined_v12 Qwen3-235B-A22B-Instruct-2507    L2     P2      134  0.2612  0.2910 0.1493
+panel_mined_v12                  claude-fable    L2     P2       94  0.2128  0.2128 0.2021
+panel_mined_v12                  claude-haiku    L2     P2      134  0.1940  0.2015 0.1418
+panel_mined_v12                   claude-opus    L2     P2      134  0.2463  0.2612 0.2313
+panel_mined_v12                 claude-sonnet    L2     P2      134  0.2910  0.2836 0.2239
+seed_v11_claude                  claude-haiku   L0r     P0       45  0.3333  0.4667 0.2444
+seed_v11_claude                  claude-haiku   L0r     P1       45  0.3111  0.3333 0.2444
+seed_v11_claude                  claude-haiku    L2     P0       45  0.4444  0.4222 0.4000
+seed_v11_claude                  claude-haiku    L2     P1       45  0.3333  0.2667 0.2222
+seed_v11_claude                   claude-opus   L0r     P0       45  0.6889  0.6667 0.4000
+seed_v11_claude                   claude-opus   L0r     P1       45  0.6000  0.5778 0.4889
+seed_v11_claude                   claude-opus    L2     P0       45  0.4000  0.5111 0.4889
+seed_v11_claude                   claude-opus    L2     P1       45  0.4444  0.4667 0.4444
+seed_v11_claude                 claude-sonnet   L0r     P0       45  0.4667  0.6222 0.3333
+seed_v11_claude                 claude-sonnet   L0r     P1       45  0.5556  0.4889 0.4444
+seed_v11_claude                 claude-sonnet    L2     P0       45  0.4000  0.3333 0.2889
+seed_v11_claude                 claude-sonnet    L2     P1       45  0.4222  0.3111 0.2667
+ seed_v11_local         tiny-aya-global-local    L0     P0       45  0.0000  0.0222 0.0000
+ seed_v11_local         tiny-aya-global-local    L0     P1       45  0.1111  0.0222 0.0000
+ seed_v11_local         tiny-aya-global-local   L0r     P0       45 -0.0444 -0.0667 0.0000
+ seed_v11_local         tiny-aya-global-local   L0r     P1       45  0.0222 -0.0222 0.0444
+ seed_v11_local         tiny-aya-global-local    L1     P0       45 -0.0667 -0.0667 0.0000
+ seed_v11_local         tiny-aya-global-local    L1     P1       45 -0.0444 -0.0222 0.0000
+ seed_v11_local         tiny-aya-global-local    L2     P0       45  0.0222  0.0444 0.0000
+ seed_v11_local         tiny-aya-global-local    L2     P1       45 -0.0222  0.0000 0.0000
+ seed_v11_local         tiny-aya-global-local   L2s     P0       45  0.0889  0.1111 0.0000
+ seed_v11_local         tiny-aya-global-local   L2s     P1       45 -0.0667  0.0000 0.0000
+  seed_v11_open                 DeepSeek-V3.2    L0     P0       45  0.1556  0.1556 0.1111
+  seed_v11_open                 DeepSeek-V3.2   L0p     P1       45  0.4889  0.4889 0.3333
+  seed_v11_open                 DeepSeek-V3.2   L0r     P0       45  0.1778  0.1778 0.1556
+  seed_v11_open                 DeepSeek-V3.2   L0r     P1       45  0.4889  0.4667 0.2889
+  seed_v11_open                 DeepSeek-V3.2    L1     P0       45  0.3556  0.4222 0.3333
+  seed_v11_open                 DeepSeek-V3.2    L1     P1       45  0.4222  0.4222 0.3111
+  seed_v11_open                 DeepSeek-V3.2    L2     P0       45  0.2222  0.2667 0.2889
+  seed_v11_open                 DeepSeek-V3.2    L2     P1       45  0.3556  0.3778 0.3333
+  seed_v11_open                 DeepSeek-V3.2   L2s     P1       45  0.5556  0.5778 0.4667
+  seed_v11_open                 DeepSeek-V3.2    L3     P1       45  0.4444  0.4444 0.3111
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507    L0     P0       45  0.4222  0.4222 0.1556
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507   L0p     P1       45  0.4000  0.3333 0.2000
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507   L0r     P0       45  0.2000  0.2667 0.0889
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507   L0r     P1       45  0.5778  0.4444 0.2889
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507    L1     P0       45  0.2667  0.1778 0.0444
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507    L1     P1       45  0.2000  0.2222 0.0222
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507    L2     P0       45  0.3333  0.3333 0.1778
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507    L2     P1       45  0.3333  0.2000 0.0889
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507   L2s     P1       45  0.4222  0.3778 0.2667
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507    L3     P1       45  0.2222  0.1778 0.0889
+  seed_v11_open               aya-expanse-32b    L0     P0       45  0.1556  0.0889 0.0667
+  seed_v11_open               aya-expanse-32b   L0p     P1       45  0.0444  0.0444 0.0222
+  seed_v11_open               aya-expanse-32b   L0r     P0       45  0.0667  0.0000 0.0000
+  seed_v11_open               aya-expanse-32b   L0r     P1       45  0.1333  0.1556 0.0444
+  seed_v11_open               aya-expanse-32b    L1     P0       45  0.1111  0.1111 0.0889
+  seed_v11_open               aya-expanse-32b    L1     P1       45  0.0444  0.1333 0.0667
+  seed_v11_open               aya-expanse-32b    L2     P0       45  0.0000  0.0444 0.0444
+  seed_v11_open               aya-expanse-32b    L2     P1       45  0.1111  0.1556 0.0444
+  seed_v11_open               aya-expanse-32b   L2s     P1       45  0.0667  0.0444 0.0444
+  seed_v11_open               aya-expanse-32b    L3     P1       45  0.0667  0.0222 0.0222
+  seed_v11_open               tiny-aya-global    L0     P0       45 -0.0222  0.0000 0.0000
+  seed_v11_open               tiny-aya-global   L0p     P1       45  0.0444  0.0667 0.0222
+  seed_v11_open               tiny-aya-global   L0r     P0       45 -0.0444  0.0000 0.0000
+  seed_v11_open               tiny-aya-global   L0r     P1       45  0.0000  0.0222 0.0222
+  seed_v11_open               tiny-aya-global    L1     P0       45  0.0222  0.0000 0.0000
+  seed_v11_open               tiny-aya-global    L1     P1       45  0.0000 -0.0444 0.0000
+  seed_v11_open               tiny-aya-global    L2     P0       43  0.0233 -0.0233 0.0000
+  seed_v11_open               tiny-aya-global    L2     P1       45 -0.0222 -0.0667 0.0000
+  seed_v11_open               tiny-aya-global   L2s     P1       45  0.0889  0.0667 0.0222
+  seed_v11_open               tiny-aya-global    L3     P1       44 -0.0227  0.0227 0.0000
+    variants_v1                 DeepSeek-V3.2   L0r     P0      109  0.1560  0.1651 0.1376
+    variants_v1                 DeepSeek-V3.2   L0r     P1      109  0.4128  0.4037 0.3303
+    variants_v1                 DeepSeek-V3.2    L1     P1      109  0.2936  0.3211 0.2018
+    variants_v1                 DeepSeek-V3.2    L2     P0      109  0.1560  0.2202 0.2018
+    variants_v1                 DeepSeek-V3.2    L2     P1      109  0.2936  0.3119 0.2110
+    variants_v1                 DeepSeek-V3.2   L2s     P1      109  0.3853  0.3761 0.2936
+    variants_v1 Qwen3-235B-A22B-Instruct-2507   L0r     P0      109  0.2569  0.2936 0.1743
+    variants_v1 Qwen3-235B-A22B-Instruct-2507   L0r     P1      109  0.3670  0.3578 0.1743
+    variants_v1 Qwen3-235B-A22B-Instruct-2507    L1     P1      109  0.1560  0.1560 0.0734
+    variants_v1 Qwen3-235B-A22B-Instruct-2507    L2     P0      109  0.1560  0.2110 0.1193
+    variants_v1 Qwen3-235B-A22B-Instruct-2507    L2     P1      109  0.1927  0.2018 0.1193
+    variants_v1 Qwen3-235B-A22B-Instruct-2507   L2s     P1      109  0.3761  0.2110 0.0917
+    variants_v1               aya-expanse-32b   L0r     P0      109  0.0275  0.0550 0.0092
+    variants_v1               aya-expanse-32b   L0r     P1      100  0.0300  0.0600 0.0000
+    variants_v1               aya-expanse-32b    L1     P1      104  0.0962  0.0673 0.0288
+    variants_v1               aya-expanse-32b    L2     P0      109  0.0642  0.0367 0.0275
+    variants_v1               aya-expanse-32b    L2     P1      103  0.0583  0.0971 0.0388
+    variants_v1               aya-expanse-32b   L2s     P1      100  0.1800  0.1200 0.0600
+    variants_v1               tiny-aya-global   L0r     P0      109  0.0459  0.0275 0.0000
+    variants_v1               tiny-aya-global   L0r     P1      109  0.0367  0.0275 0.0000
+    variants_v1               tiny-aya-global    L1     P1      109 -0.0183  0.0000 0.0000
+    variants_v1               tiny-aya-global    L2     P0      108  0.0093  0.0093 0.0000
+    variants_v1               tiny-aya-global    L2     P1      109  0.0183  0.0642 0.0000
+    variants_v1               tiny-aya-global   L2s     P1      109  0.0459  0.0275 0.0000
+M1 paired: [{'level': 'L0r', 'n_pairs': 3, 'D_ask': 0.4167, 'D_ask_ci': [0.25, 0.5], 'D_act': 0.375, 'D_act_ci': [0.25, 0.5], 'P_both': 0.3698, 'P_both_ci': [0.25, 0.4688]}, {'level': 'L2', 'n_pairs': 2, 'D_ask': 0.1875, 'D_ask_ci': [0.0, 0.375], 'D_act': 0.1875, 'D_act_ci': [0.0, 0.375], 'P_both': 0.3359, 'P_both_ci': [0.2344, 0.4375]}, {'level': 'L3', 'n_pairs': 2, 'D_ask': 0.3125, 'D_ask_ci': [0.125, 0.5], 'D_act': 0.3125, 'D_act_ci': [0.25, 0.375], 'P_both': 0.2812, 'P_both_ci': [0.125, 0.4375]}, {'level': 'all', 'n_pairs': 7, 'D_ask': 0.3214, 'D_ask_ci': [0.1786, 0.4464], 'D_act': 0.3036, 'D_act_ci': [0.1786, 0.3929], 'P_both': 0.3348, 'P_both_ci': [0.2388, 0.4174]}]
+M1 unpaired gap: [{'level': 'L0r', 'P_ask_given_A': 0.5284, 'P_ask_given_B': 0.3864, 'gap': 0.142, 'n_A_prompts': 22, 'n_B_prompts': 22}, {'level': 'L1', 'P_ask_given_A': 0.5179, 'P_ask_given_B': 0.3947, 'gap': 0.1231, 'n_A_prompts': 14, 'n_B_prompts': 19}, {'level': 'L2', 'P_ask_given_A': 0.6562, 'P_ask_given_B': 0.35, 'gap': 0.3063, 'n_A_prompts': 16, 'n_B_prompts': 15}, {'level': 'L3', 'P_ask_given_A': 0.4375, 'P_ask_given_B': 0.3125, 'gap': 0.125, 'n_A_prompts': 6, 'n_B_prompts': 6}, {'level': 'all', 'P_ask_given_A': 0.5517, 'P_ask_given_B': 0.373, 'gap': 0.1787, 'n_A_prompts': 58, 'n_B_prompts': 62}]

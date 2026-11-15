@@ -1,0 +1,2437 @@
+{
+ "member_id": "ella_brooks",
+ "profile": {
+  "name": "Ella Brooks",
+  "age": 36,
+  "sex": "Female",
+  "city": "Lincoln, NE",
+  "country": "USA",
+  "currency": "USD",
+  "occupation": "Senior administrative assistant",
+  "summary": "Customer since 2017. Senior administrative assistant at an insurance firm in Lincoln; married to Daniel. Sells printable designs on Etsy. Personal spending goes on her own Visa ****3301.",
+  "persona": {
+   "persona": "Ella Brooks blends disciplined administrative expertise with a boundless artistic imagination, navigating work and life like a well-organized canvas punctuated by occasional impulsive splashes of creativity.",
+   "professional_persona": "Ella Brooks is a senior administrative professional whose meticulous calendar coordination and tech-savvy workflow design are seasoned with a painter's eye for visual harmony, allowing them to transform routine office tasks into creatively efficient processes.",
+   "cultural_background": "Ella grew up in the suburban neighborhoods of Lincoln, Nebraska, within a middle‑class family of German and Irish heritage. Her upbringing reflected classic Midwestern values—community, reliability, modesty, and a strong work ethic—while the university town exposed her to a vibrant arts scene, including galleries, theater, and music festivals. Family traditions included annual trips to the county fair, a focus on education, and participation in local church and volunteer activities. Her marriage blends traditional family support with mutual encouragement for personal growth and creative exploration. Ella’s cultural identity balances the straightforward, down‑to‑earth Midwestern mindset with a deep appreciation for artistic expression and lifelong learning.",
+   "sex": "Female",
+   "age": 36,
+   "marital_status": "married_present",
+   "education_level": "associates",
+   "occupation": "secretary_or_administrative_assistant",
+   "city": "Lincoln",
+   "state": "NE",
+   "country": "USA"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "7d23a7a059a244c68e72bb8357895b8f",
+   "license": "CC-BY-4.0",
+   "match": {
+    "country": "USA",
+    "age": 36,
+    "sex": "Female",
+    "seed": 1,
+    "reason": "same-age married female persona (the scenario involves her husband); seed 0 is separated"
+   },
+   "adaptation": "persona name 'Helen Vosberg' replaced with 'Ella Brooks'"
+  }
+ },
+ "account_profile": {
+  "customer_id": "LDG-US-33014",
+  "name": "Ella Brooks",
+  "email": "ella.brooks.lnk@gmail.com",
+  "phone": "(402) 555-0148",
+  "address": "2214 Sumner Hollow Rd, Lincoln, NE 68502",
+  "member_since": "2017-06-12",
+  "segment": "Everyday",
+  "language": "en-US",
+  "features": {
+   "bill_pay": true,
+   "subscription_tracker": true,
+   "merchant_actions": false
+  },
+  "alerts": {
+   "card_payment_over": "$250"
+  }
+ },
+ "accounts": [
+  {
+   "id": "VISA-3301",
+   "name": "Visa ****3301 (own card)",
+   "type": "credit_card",
+   "currency": "USD",
+   "balance": -684.12,
+   "credit_limit": 6000.0
+  },
+  {
+   "id": "CHK-5170",
+   "name": "Checking ****5170",
+   "type": "checking",
+   "currency": "USD",
+   "balance": 3412.55
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Daniel Brooks",
+   "type": "person",
+   "relationship": "spouse",
+   "handle": "daniel.brooks.lnk@gmail.com"
+  },
+  {
+   "name": "Megan Hollis",
+   "type": "person",
+   "relationship": "friend",
+   "handle": "@megan-hollis"
+  },
+  {
+   "name": "LES",
+   "type": "biller",
+   "category": "electric",
+   "reference": "****2207"
+  },
+  {
+   "name": "Verizon",
+   "type": "biller",
+   "category": "wireless",
+   "reference": "****6631"
+  },
+  {
+   "name": "Visa ****3301",
+   "type": "biller",
+   "category": "own credit card",
+   "reference": "Ledgerly Visa ****3301"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "type": "external_account",
+   "name": "Brooks household joint checking ****8120 (First Prairie Bank)",
+   "owners": "Ella & Daniel Brooks",
+   "status": "linked for transfers"
+  },
+  {
+   "type": "merchant_connection",
+   "merchant": "DesignPro",
+   "status": "connected"
+  },
+  {
+   "type": "marketplace",
+   "provider": "Etsy Payments",
+   "status": "deposits to Checking ****5170"
+  }
+ ],
+ "subscriptions": [
+  {
+   "merchant": "DesignPro",
+   "plan": "Pro (annual term, billed monthly)",
+   "price": 14.99,
+   "currency": "USD",
+   "billing": "monthly, 4th",
+   "charged_to": "Visa ****3301",
+   "last_charge": "2026-11-04",
+   "status": "term ends 2026-11-15; auto-renew off"
+  },
+  {
+   "merchant": "Spotify",
+   "plan": "Premium",
+   "price": 11.99,
+   "currency": "USD",
+   "billing": "monthly, 11th",
+   "charged_to": "Visa ****3301",
+   "status": "active"
+  },
+  {
+   "merchant": "YMCA of Lincoln",
+   "plan": "Adult membership",
+   "price": 49.0,
+   "currency": "USD",
+   "billing": "monthly, 5th (ACH)",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SI-2207 · Autopay: LES electric bill in full on its due date from Checking ****5170 (pre-approved up to $250).",
+  "SI-3301 · Autopay: Visa ****3301 statement balance from Checking ****5170 on the 22nd (pre-approved)."
+ ],
+ "notes": [
+  "Etsy shop 'Prairie Paper Co.': printable invitations and planners, designed in DesignPro."
+ ],
+ "bills": [
+  {
+   "biller": "Visa ****3301",
+   "issued": "2026-10-28",
+   "due": "2026-11-22",
+   "amount": 541.3,
+   "currency": "USD",
+   "status": "autopay scheduled (SI-3301)"
+  },
+  {
+   "biller": "LES",
+   "issued": "2026-10-27",
+   "due": "2026-11-17",
+   "amount": 79.64,
+   "currency": "USD",
+   "status": "autopay scheduled (SI-2207)"
+  }
+ ],
+ "notifications": [
+  {
+   "date": "2026-11-05",
+   "from": "DesignPro",
+   "text": "Your annual Pro term ends on Nov 15, 2026. Renew to keep your Brand Kit, premium templates and 100 GB of projects."
+  },
+  {
+   "date": "2026-11-04",
+   "from": "DesignPro",
+   "text": "Receipt: Pro plan, $14.99, Visa ending 3301."
+  },
+  {
+   "date": "2026-11-02",
+   "from": "Etsy",
+   "text": "You made a sale! 'Fall Harvest Invitation Template', $8.50."
+  },
+  {
+   "date": "2026-10-22",
+   "from": "Ledgerly",
+   "text": "Autopay complete: Visa ****3301 statement balance paid from Checking ****5170."
+  }
+ ],
+ "event_log": [
+  {
+   "date": "2026-10-22",
+   "actor": "automation",
+   "action": "autopay",
+   "detail": "SI-3301: Visa ****3301 statement balance paid from Checking ****5170"
+  },
+  {
+   "date": "2026-07-30",
+   "actor": "member",
+   "action": "auto_renew_off",
+   "detail": "DesignPro: auto-renew turned off at the end of the annual term"
+  }
+ ],
+ "transactions": [
+  {
+   "id": "txn_ezkyhuj6",
+   "date": "2026-11-12",
+   "counterparty": "Scooter's Coffee",
+   "amount": 6.12,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "status": "pending",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_692ccpkj",
+   "date": "2026-11-11",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Premium",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_uf6hjbe2",
+   "date": "2026-11-09",
+   "counterparty": "Casey's",
+   "amount": 32.52,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_2zmj3kxh",
+   "date": "2026-11-06",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_33q8r6zb",
+   "date": "2026-11-05",
+   "counterparty": "YMCA of Lincoln",
+   "amount": 49.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Membership",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_g56auqcq",
+   "date": "2026-11-04",
+   "counterparty": "DesignPro",
+   "amount": 14.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Pro plan (annual term, billed monthly)",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_99end4et",
+   "date": "2026-11-04",
+   "counterparty": "Valentino's",
+   "amount": 23.19,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_3bk9ttcd",
+   "date": "2026-11-02",
+   "counterparty": "Brooks household joint ****8120",
+   "amount": 1650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Household: mortgage & groceries",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_sbhnnvcz",
+   "date": "2026-10-31",
+   "counterparty": "Scooter's Coffee",
+   "amount": 3.98,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_zz4r5eep",
+   "date": "2026-10-31",
+   "counterparty": "ALDI",
+   "amount": 50.96,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_8umzyupx",
+   "date": "2026-10-30",
+   "counterparty": "Chipotle",
+   "amount": 14.63,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_gznhwt9x",
+   "date": "2026-10-29",
+   "counterparty": "Target",
+   "amount": 22.63,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_r7yacxj6",
+   "date": "2026-10-28",
+   "counterparty": "Megan Hollis",
+   "handle": "@megan-hollis",
+   "amount": 28.38,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "book club wine",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_ndpz5gfw",
+   "date": "2026-10-28",
+   "counterparty": "The Mill",
+   "amount": 6.8,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_kf8byz8c",
+   "date": "2026-10-26",
+   "counterparty": "Kwik Shop",
+   "amount": 28.81,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_bt83pyzj",
+   "date": "2026-10-23",
+   "counterparty": "Verizon",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 1 line",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_aqpax4d3",
+   "date": "2026-10-23",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_yvhpb456",
+   "date": "2026-10-22",
+   "counterparty": "Visa ****3301",
+   "amount": 969.21,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Statement balance (SI-3301)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_tt2rxkgc",
+   "date": "2026-10-19",
+   "counterparty": "LES",
+   "amount": 81.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric (SI-2207)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_9ddexx3m",
+   "date": "2026-10-19",
+   "counterparty": "Etsy",
+   "amount": 77.84,
+   "currency": "USD",
+   "direction": "in",
+   "type": "ACH",
+   "memo": "Etsy shop deposit (Prairie Paper Co.)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_ynbpjwtp",
+   "date": "2026-10-17",
+   "counterparty": "Hy-Vee",
+   "amount": 32.48,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_z5csujd7",
+   "date": "2026-10-16",
+   "counterparty": "Fidelity",
+   "amount": 500.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Roth IRA contribution",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_jg72zhth",
+   "date": "2026-10-11",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Premium",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_ry4pkevk",
+   "date": "2026-10-09",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_mkrckuxz",
+   "date": "2026-10-07",
+   "counterparty": "Target",
+   "amount": 41.86,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_qfyawmje",
+   "date": "2026-10-05",
+   "counterparty": "YMCA of Lincoln",
+   "amount": 49.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Membership",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_xhw33k43",
+   "date": "2026-10-04",
+   "counterparty": "Valentino's",
+   "amount": 27.73,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_kgws7qp8",
+   "date": "2026-10-04",
+   "counterparty": "ALDI",
+   "amount": 58.45,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_tb53bd7k",
+   "date": "2026-10-04",
+   "counterparty": "DesignPro",
+   "amount": 14.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Pro plan (annual term, billed monthly)",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_jnxzsmyv",
+   "date": "2026-10-01",
+   "counterparty": "Brooks household joint ****8120",
+   "amount": 1650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Household: mortgage & groceries",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_6q34baxt",
+   "date": "2026-09-30",
+   "counterparty": "Scooter's Coffee",
+   "amount": 5.86,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_mpeg6gp4",
+   "date": "2026-09-29",
+   "counterparty": "Michaels",
+   "amount": 33.48,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_d8cdqb4s",
+   "date": "2026-09-29",
+   "counterparty": "Super Saver",
+   "amount": 92.83,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_nyzscfgb",
+   "date": "2026-09-28",
+   "counterparty": "Runza",
+   "amount": 10.75,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_6bcjt6ac",
+   "date": "2026-09-25",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_4zc86whz",
+   "date": "2026-09-23",
+   "counterparty": "Kwik Shop",
+   "amount": 29.85,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_dnz5k6xq",
+   "date": "2026-09-23",
+   "counterparty": "Verizon",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 1 line",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_a8fuhkg9",
+   "date": "2026-09-22",
+   "counterparty": "Megan Hollis",
+   "handle": "@megan-hollis",
+   "amount": 24.88,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "brunch",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_mrfjfvea",
+   "date": "2026-09-22",
+   "counterparty": "Visa ****3301",
+   "amount": 1131.89,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Statement balance (SI-3301)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_mj6evshv",
+   "date": "2026-09-21",
+   "counterparty": "Etsy",
+   "amount": 86.55,
+   "currency": "USD",
+   "direction": "in",
+   "type": "ACH",
+   "memo": "Etsy shop deposit (Prairie Paper Co.)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_g9unv9ky",
+   "date": "2026-09-19",
+   "counterparty": "Scooter's Coffee",
+   "amount": 4.96,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_yyxjs42b",
+   "date": "2026-09-17",
+   "counterparty": "LES",
+   "amount": 77.83,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric (SI-2207)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_zkfbuhd6",
+   "date": "2026-09-16",
+   "counterparty": "Fidelity",
+   "amount": 500.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Roth IRA contribution",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_vgtu59bb",
+   "date": "2026-09-15",
+   "counterparty": "Target",
+   "amount": 22.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_acpv72et",
+   "date": "2026-09-11",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Premium",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_k6epdt5x",
+   "date": "2026-09-11",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_dnwym2kc",
+   "date": "2026-09-09",
+   "counterparty": "Hy-Vee",
+   "amount": 31.92,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_cnpkeejv",
+   "date": "2026-09-07",
+   "counterparty": "YMCA of Lincoln",
+   "amount": 49.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Membership",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_ncab7h3e",
+   "date": "2026-09-06",
+   "counterparty": "Target",
+   "amount": 17.73,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_42mqc9eg",
+   "date": "2026-09-04",
+   "counterparty": "DesignPro",
+   "amount": 14.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Pro plan (annual term, billed monthly)",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_q6ubjnpb",
+   "date": "2026-09-01",
+   "counterparty": "Brooks household joint ****8120",
+   "amount": 1650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Household: mortgage & groceries",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_x8rveez7",
+   "date": "2026-08-28",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_pvkaegc8",
+   "date": "2026-08-25",
+   "counterparty": "ALDI",
+   "amount": 51.28,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_qacrq38g",
+   "date": "2026-08-24",
+   "counterparty": "Verizon",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 1 line",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_jxgyd9fd",
+   "date": "2026-08-24",
+   "counterparty": "Visa ****3301",
+   "amount": 1165.75,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Statement balance (SI-3301)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_kjhnm7jf",
+   "date": "2026-08-19",
+   "counterparty": "Etsy",
+   "amount": 154.33,
+   "currency": "USD",
+   "direction": "in",
+   "type": "ACH",
+   "memo": "Etsy shop deposit (Prairie Paper Co.)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_tsm35je9",
+   "date": "2026-08-18",
+   "counterparty": "Hy-Vee",
+   "amount": 75.8,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_4fu4yr4w",
+   "date": "2026-08-17",
+   "counterparty": "Valentino's",
+   "amount": 45.41,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_qrs4g39k",
+   "date": "2026-08-17",
+   "counterparty": "LES",
+   "amount": 74.47,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric (SI-2207)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_sfbtmx8z",
+   "date": "2026-08-17",
+   "counterparty": "Fidelity",
+   "amount": 500.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Roth IRA contribution",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_7p6swwbs",
+   "date": "2026-08-16",
+   "counterparty": "Runza",
+   "amount": 14.64,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_qg6xmac9",
+   "date": "2026-08-15",
+   "counterparty": "Scooter's Coffee",
+   "amount": 6.73,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_mzs6ankj",
+   "date": "2026-08-14",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_mjuvbtua",
+   "date": "2026-08-13",
+   "counterparty": "Scooter's Coffee",
+   "amount": 6.15,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_bprevazf",
+   "date": "2026-08-12",
+   "counterparty": "Megan Hollis",
+   "handle": "@megan-hollis",
+   "amount": 21.51,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "brunch",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_cfyv9g3d",
+   "date": "2026-08-11",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Premium",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_mtj4pp32",
+   "date": "2026-08-06",
+   "counterparty": "Casey's",
+   "amount": 34.67,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_cdax6qys",
+   "date": "2026-08-05",
+   "counterparty": "YMCA of Lincoln",
+   "amount": 49.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Membership",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_vynnq23b",
+   "date": "2026-08-04",
+   "counterparty": "Kwik Shop",
+   "amount": 29.57,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_7jj95mpy",
+   "date": "2026-08-04",
+   "counterparty": "DesignPro",
+   "amount": 14.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Pro plan (annual term, billed monthly)",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_vd8gun6m",
+   "date": "2026-08-03",
+   "counterparty": "Brooks household joint ****8120",
+   "amount": 1650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Household: mortgage & groceries",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_2sngj2xz",
+   "date": "2026-07-31",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_gjfw5epa",
+   "date": "2026-07-30",
+   "counterparty": "Michaels",
+   "amount": 46.2,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Cardstock + printer ink",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_chmejxpa",
+   "date": "2026-07-23",
+   "counterparty": "Verizon",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 1 line",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_u2f9j5dr",
+   "date": "2026-07-22",
+   "counterparty": "Visa ****3301",
+   "amount": 1121.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Statement balance (SI-3301)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_psstb9gw",
+   "date": "2026-07-21",
+   "counterparty": "Casey's",
+   "amount": 47.14,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_wmq4zae4",
+   "date": "2026-07-20",
+   "counterparty": "Etsy",
+   "amount": 49.66,
+   "currency": "USD",
+   "direction": "in",
+   "type": "ACH",
+   "memo": "Etsy shop deposit (Prairie Paper Co.)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_zdytmgj5",
+   "date": "2026-07-17",
+   "counterparty": "LES",
+   "amount": 113.52,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric (SI-2207)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_bd8t4fmn",
+   "date": "2026-07-17",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_pzsctc6u",
+   "date": "2026-07-16",
+   "counterparty": "Fidelity",
+   "amount": 500.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Roth IRA contribution",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_e4j9jcvp",
+   "date": "2026-07-13",
+   "counterparty": "Amazon",
+   "amount": 20.84,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_rpc7w4mj",
+   "date": "2026-07-11",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Premium",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_6777rf74",
+   "date": "2026-07-10",
+   "counterparty": "Super Saver",
+   "amount": 56.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_7ee9c3u5",
+   "date": "2026-07-06",
+   "counterparty": "The Mill",
+   "amount": 6.78,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_56hysxru",
+   "date": "2026-07-06",
+   "counterparty": "YMCA of Lincoln",
+   "amount": 49.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Membership",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_wckwges8",
+   "date": "2026-07-05",
+   "counterparty": "Target",
+   "amount": 19.08,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_y5nx9c64",
+   "date": "2026-07-04",
+   "counterparty": "Runza",
+   "amount": 23.26,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_zv9jdx3b",
+   "date": "2026-07-04",
+   "counterparty": "DesignPro",
+   "amount": 14.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Pro plan (annual term, billed monthly)",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_mvkr93ab",
+   "date": "2026-07-03",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_rk6wyxf7",
+   "date": "2026-07-02",
+   "counterparty": "Chipotle",
+   "amount": 12.33,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_824hwcqj",
+   "date": "2026-07-01",
+   "counterparty": "Brooks household joint ****8120",
+   "amount": 1650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Household: mortgage & groceries",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_eyehkpwj",
+   "date": "2026-06-30",
+   "counterparty": "Casey's",
+   "amount": 46.96,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_3xaky5gg",
+   "date": "2026-06-30",
+   "counterparty": "Super Saver",
+   "amount": 89.7,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_bsgp6v9d",
+   "date": "2026-06-29",
+   "counterparty": "ALDI",
+   "amount": 22.69,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_uq2tj2wh",
+   "date": "2026-06-28",
+   "counterparty": "Scooter's Coffee",
+   "amount": 6.7,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_bvprn8uu",
+   "date": "2026-06-23",
+   "counterparty": "Verizon",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 1 line",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_zq2exg5a",
+   "date": "2026-06-22",
+   "counterparty": "Visa ****3301",
+   "amount": 930.58,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Statement balance (SI-3301)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_mqrfcu42",
+   "date": "2026-06-20",
+   "counterparty": "Target",
+   "amount": 73.13,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_fgh7n3qu",
+   "date": "2026-06-19",
+   "counterparty": "Etsy",
+   "amount": 85.43,
+   "currency": "USD",
+   "direction": "in",
+   "type": "ACH",
+   "memo": "Etsy shop deposit (Prairie Paper Co.)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_rp2jvnsh",
+   "date": "2026-06-19",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_j2thxa75",
+   "date": "2026-06-17",
+   "counterparty": "LES",
+   "amount": 77.33,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric (SI-2207)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_w4d2vu2a",
+   "date": "2026-06-16",
+   "counterparty": "Fidelity",
+   "amount": 500.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Roth IRA contribution",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_rg7dd4dx",
+   "date": "2026-06-11",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Premium",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_fzfvnz8q",
+   "date": "2026-06-09",
+   "counterparty": "Chipotle",
+   "amount": 13.68,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_3uzd43kx",
+   "date": "2026-06-08",
+   "counterparty": "Delta Air Lines",
+   "amount": 612.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "OMA - SEA x2, anniversary trip",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_5knw89fh",
+   "date": "2026-06-05",
+   "counterparty": "YMCA of Lincoln",
+   "amount": 49.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Membership",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_qq5jqcp7",
+   "date": "2026-06-05",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_4wc9fs2a",
+   "date": "2026-06-04",
+   "counterparty": "DesignPro",
+   "amount": 14.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Pro plan (annual term, billed monthly)",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_w99wxtwb",
+   "date": "2026-06-02",
+   "counterparty": "Michaels",
+   "amount": 11.82,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_4q8fk6nn",
+   "date": "2026-06-01",
+   "counterparty": "ALDI",
+   "amount": 40.35,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_3y8ukpdg",
+   "date": "2026-06-01",
+   "counterparty": "Brooks household joint ****8120",
+   "amount": 1650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Household: mortgage & groceries",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_w6f3s3px",
+   "date": "2026-05-27",
+   "counterparty": "Kwik Shop",
+   "amount": 33.25,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_56trrbhn",
+   "date": "2026-05-26",
+   "counterparty": "Chipotle",
+   "amount": 12.88,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_g6p4djm7",
+   "date": "2026-05-25",
+   "counterparty": "Verizon",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 1 line",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_bu468yss",
+   "date": "2026-05-24",
+   "counterparty": "Scooter's Coffee",
+   "amount": 4.88,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_dbyy92dc",
+   "date": "2026-05-22",
+   "counterparty": "Visa ****3301",
+   "amount": 994.7,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Statement balance (SI-3301)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_vyz4eeh9",
+   "date": "2026-05-22",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_s2ca9vjj",
+   "date": "2026-05-19",
+   "counterparty": "Etsy",
+   "amount": 79.89,
+   "currency": "USD",
+   "direction": "in",
+   "type": "ACH",
+   "memo": "Etsy shop deposit (Prairie Paper Co.)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_9kzfrdk3",
+   "date": "2026-05-18",
+   "counterparty": "LES",
+   "amount": 107.55,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric (SI-2207)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_nmmuqeyc",
+   "date": "2026-05-18",
+   "counterparty": "Fidelity",
+   "amount": 500.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Roth IRA contribution",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_34mjhzjp",
+   "date": "2026-05-16",
+   "counterparty": "Hy-Vee",
+   "amount": 123.59,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_t2qxwhff",
+   "date": "2026-05-12",
+   "counterparty": "Target",
+   "amount": 52.5,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_9dqhk5cn",
+   "date": "2026-05-11",
+   "counterparty": "Scooter's Coffee",
+   "amount": 4.77,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_edpdfdsx",
+   "date": "2026-05-11",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Premium",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_a9aanqg8",
+   "date": "2026-05-08",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_y2ck5npb",
+   "date": "2026-05-05",
+   "counterparty": "YMCA of Lincoln",
+   "amount": 49.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Membership",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_zvp9z6b9",
+   "date": "2026-05-04",
+   "counterparty": "DesignPro",
+   "amount": 14.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Pro plan (annual term, billed monthly)",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_vfphk4rt",
+   "date": "2026-05-01",
+   "counterparty": "Kwik Shop",
+   "amount": 48.74,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_23szr9ku",
+   "date": "2026-05-01",
+   "counterparty": "Valentino's",
+   "amount": 17.74,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_uc84vk85",
+   "date": "2026-05-01",
+   "counterparty": "Brooks household joint ****8120",
+   "amount": 1650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Household: mortgage & groceries",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_7v898f4f",
+   "date": "2026-04-29",
+   "counterparty": "Scooter's Coffee",
+   "amount": 6.55,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_kbtnk3s6",
+   "date": "2026-04-24",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_7tvefbs9",
+   "date": "2026-04-23",
+   "counterparty": "Verizon",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 1 line",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_66sd6ugt",
+   "date": "2026-04-22",
+   "counterparty": "Visa ****3301",
+   "amount": 709.42,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Statement balance (SI-3301)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_3f2ugxnn",
+   "date": "2026-04-21",
+   "counterparty": "Lincoln Family Dental",
+   "amount": 180.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Cleaning + x-rays",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_cg8mccg2",
+   "date": "2026-04-20",
+   "counterparty": "Target",
+   "amount": 37.29,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_79mrad3w",
+   "date": "2026-04-20",
+   "counterparty": "Super Saver",
+   "amount": 50.46,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_me9ychbe",
+   "date": "2026-04-20",
+   "counterparty": "Etsy",
+   "amount": 69.09,
+   "currency": "USD",
+   "direction": "in",
+   "type": "ACH",
+   "memo": "Etsy shop deposit (Prairie Paper Co.)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_4rz6f2wa",
+   "date": "2026-04-19",
+   "counterparty": "Amazon",
+   "amount": 55.55,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_8hx4hd96",
+   "date": "2026-04-17",
+   "counterparty": "LES",
+   "amount": 116.7,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric (SI-2207)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_czzpxehs",
+   "date": "2026-04-16",
+   "counterparty": "Fidelity",
+   "amount": 500.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Roth IRA contribution",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_c27zb5nj",
+   "date": "2026-04-11",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Premium",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_9fyr8rhz",
+   "date": "2026-04-10",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_46wv83vh",
+   "date": "2026-04-07",
+   "counterparty": "Valentino's",
+   "amount": 30.43,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_5wnce6ee",
+   "date": "2026-04-06",
+   "counterparty": "Target",
+   "amount": 30.38,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_b9ndgur9",
+   "date": "2026-04-06",
+   "counterparty": "YMCA of Lincoln",
+   "amount": 49.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Membership",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_644sr5eh",
+   "date": "2026-04-04",
+   "counterparty": "DesignPro",
+   "amount": 14.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Pro plan (annual term, billed monthly)",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_vrtgmuds",
+   "date": "2026-04-03",
+   "counterparty": "Runza",
+   "amount": 22.63,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_372ru76j",
+   "date": "2026-04-03",
+   "counterparty": "Super Saver",
+   "amount": 88.06,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_745agrhr",
+   "date": "2026-04-02",
+   "counterparty": "Kwik Shop",
+   "amount": 42.68,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_aft8dck5",
+   "date": "2026-04-01",
+   "counterparty": "Brooks household joint ****8120",
+   "amount": 1650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Household: mortgage & groceries",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_ty64htc3",
+   "date": "2026-03-28",
+   "counterparty": "The Mill",
+   "amount": 3.97,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_7ban9mcm",
+   "date": "2026-03-27",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_htjpewf2",
+   "date": "2026-03-23",
+   "counterparty": "Verizon",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 1 line",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_k923yb3k",
+   "date": "2026-03-23",
+   "counterparty": "Visa ****3301",
+   "amount": 894.32,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Statement balance (SI-3301)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_msffbdv8",
+   "date": "2026-03-22",
+   "counterparty": "Casey's",
+   "amount": 36.56,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_8pa2jpw9",
+   "date": "2026-03-21",
+   "counterparty": "Valentino's",
+   "amount": 16.88,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_58jcnz4m",
+   "date": "2026-03-20",
+   "counterparty": "Runza",
+   "amount": 10.72,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_cdyu6dhz",
+   "date": "2026-03-19",
+   "counterparty": "Casey's",
+   "amount": 38.82,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_k8fbywgt",
+   "date": "2026-03-19",
+   "counterparty": "Etsy",
+   "amount": 71.52,
+   "currency": "USD",
+   "direction": "in",
+   "type": "ACH",
+   "memo": "Etsy shop deposit (Prairie Paper Co.)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_hnkggdyg",
+   "date": "2026-03-18",
+   "counterparty": "Hy-Vee",
+   "amount": 100.5,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_73ze9dc5",
+   "date": "2026-03-17",
+   "counterparty": "LES",
+   "amount": 118.98,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric (SI-2207)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_yguq9vkb",
+   "date": "2026-03-16",
+   "counterparty": "Hy-Vee",
+   "amount": 68.55,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_dvzec3dw",
+   "date": "2026-03-16",
+   "counterparty": "Fidelity",
+   "amount": 500.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Roth IRA contribution",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_vj5krjz7",
+   "date": "2026-03-13",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_5kgp4xun",
+   "date": "2026-03-11",
+   "counterparty": "ALDI",
+   "amount": 49.56,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_b4jbud27",
+   "date": "2026-03-11",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Premium",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_suc5ysuw",
+   "date": "2026-03-10",
+   "counterparty": "Target",
+   "amount": 71.96,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_6gbygufs",
+   "date": "2026-03-08",
+   "counterparty": "Scooter's Coffee",
+   "amount": 5.25,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_c4u7yy9n",
+   "date": "2026-03-05",
+   "counterparty": "YMCA of Lincoln",
+   "amount": 49.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Membership",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_av7abjae",
+   "date": "2026-03-04",
+   "counterparty": "Target",
+   "amount": 15.57,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_zkn7ycyr",
+   "date": "2026-03-04",
+   "counterparty": "DesignPro",
+   "amount": 14.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Pro plan (annual term, billed monthly)",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_e3za8qwy",
+   "date": "2026-03-02",
+   "counterparty": "Brooks household joint ****8120",
+   "amount": 1650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Household: mortgage & groceries",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_894txhae",
+   "date": "2026-03-01",
+   "counterparty": "Megan Hollis",
+   "handle": "@megan-hollis",
+   "amount": 18.41,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "brunch",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_jv6tsd55",
+   "date": "2026-02-28",
+   "counterparty": "Kwik Shop",
+   "amount": 42.44,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_w5duwzrz",
+   "date": "2026-02-28",
+   "counterparty": "Runza",
+   "amount": 22.52,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_xkexn6r6",
+   "date": "2026-02-28",
+   "counterparty": "Target",
+   "amount": 46.5,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_q59uuyde",
+   "date": "2026-02-27",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_4w8vq3aj",
+   "date": "2026-02-23",
+   "counterparty": "Verizon",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 1 line",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_ty2fddwg",
+   "date": "2026-02-23",
+   "counterparty": "Visa ****3301",
+   "amount": 1036.54,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Statement balance (SI-3301)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_qf6x4dcp",
+   "date": "2026-02-19",
+   "counterparty": "Etsy",
+   "amount": 45.07,
+   "currency": "USD",
+   "direction": "in",
+   "type": "ACH",
+   "memo": "Etsy shop deposit (Prairie Paper Co.)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_jdcwv7fh",
+   "date": "2026-02-17",
+   "counterparty": "Target",
+   "amount": 70.98,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_3mtpr4yn",
+   "date": "2026-02-17",
+   "counterparty": "LES",
+   "amount": 111.13,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric (SI-2207)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_g8h37txa",
+   "date": "2026-02-16",
+   "counterparty": "Runza",
+   "amount": 23.18,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_d8sj8dxe",
+   "date": "2026-02-16",
+   "counterparty": "Fidelity",
+   "amount": 500.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Roth IRA contribution",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_b2w628gx",
+   "date": "2026-02-13",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_b4q4pv8a",
+   "date": "2026-02-12",
+   "counterparty": "Super Saver",
+   "amount": 51.05,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_duj2s3fd",
+   "date": "2026-02-11",
+   "counterparty": "The Mill",
+   "amount": 6.21,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_phfgfx3d",
+   "date": "2026-02-11",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Premium",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_t43aw42b",
+   "date": "2026-02-08",
+   "counterparty": "Super Saver",
+   "amount": 38.18,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_xbjz772s",
+   "date": "2026-02-05",
+   "counterparty": "YMCA of Lincoln",
+   "amount": 49.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Membership",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_f9x6h6rk",
+   "date": "2026-02-04",
+   "counterparty": "DesignPro",
+   "amount": 14.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "Pro plan (annual term, billed monthly)",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_p5eesyhs",
+   "date": "2026-02-03",
+   "counterparty": "Casey's",
+   "amount": 34.93,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_mps9pffc",
+   "date": "2026-02-02",
+   "counterparty": "Brooks household joint ****8120",
+   "amount": 1650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Household: mortgage & groceries",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_ffcxs7mj",
+   "date": "2026-01-30",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_87cgsbdr",
+   "date": "2026-01-29",
+   "counterparty": "Megan Hollis",
+   "handle": "@megan-hollis",
+   "amount": 22.74,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "book club wine",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_v9nrb24a",
+   "date": "2026-01-29",
+   "counterparty": "Casey's",
+   "amount": 55.36,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "memo": "fuel",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_fxzp62n5",
+   "date": "2026-01-23",
+   "counterparty": "Verizon",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 1 line",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_6tzgwqwk",
+   "date": "2026-01-22",
+   "counterparty": "Visa ****3301",
+   "amount": 1137.72,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Statement balance (SI-3301)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_4g2ajw2z",
+   "date": "2026-01-21",
+   "counterparty": "Super Saver",
+   "amount": 61.16,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_b8bjj579",
+   "date": "2026-01-19",
+   "counterparty": "LES",
+   "amount": 109.29,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric (SI-2207)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_8zz5b8nr",
+   "date": "2026-01-19",
+   "counterparty": "Etsy",
+   "amount": 150.26,
+   "currency": "USD",
+   "direction": "in",
+   "type": "ACH",
+   "memo": "Etsy shop deposit (Prairie Paper Co.)",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_g3gya5mk",
+   "date": "2026-01-17",
+   "counterparty": "Runza",
+   "amount": 18.41,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_sn4ve9cq",
+   "date": "2026-01-17",
+   "counterparty": "Scooter's Coffee",
+   "amount": 5.01,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa ****3301",
+   "account": "VISA-3301"
+  },
+  {
+   "id": "txn_e6rktr9r",
+   "date": "2026-01-16",
+   "counterparty": "Fidelity",
+   "amount": 500.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Roth IRA contribution",
+   "account": "CHK-5170"
+  },
+  {
+   "id": "txn_v2j85ff8",
+   "date": "2026-01-16",
+   "counterparty": "Prairie Lane Insurance Group",
+   "amount": 1686.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-5170"
+  }
+ ],
+ "_meta": {
+  "env_id": "bills",
+  "seed_pairs": [
+   "S32"
+  ],
+  "rng_seed": 20261117,
+  "generator": "envs/bills/build_members.py",
+  "history_window": [
+   "2026-01-12",
+   "2026-11-12"
+  ],
+  "decisive_transactions": [
+   {
+    "id": "txn_g56auqcq",
+    "date": "2026-11-04",
+    "fact": "latest DesignPro $14.99 charge, on her own Visa ****3301"
+   }
+  ]
+ }
+}

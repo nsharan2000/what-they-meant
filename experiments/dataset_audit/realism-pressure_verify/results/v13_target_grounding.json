@@ -1,0 +1,102 @@
+{
+ "A:L0r": {
+  "rows": 76,
+  "rows_with_value_tokens": 54,
+  "rows_with_ungrounded_value": 2
+ },
+ "A:L1": {
+  "rows": 75,
+  "rows_with_value_tokens": 53,
+  "rows_with_ungrounded_value": 2
+ },
+ "A:L2": {
+  "rows": 72,
+  "rows_with_value_tokens": 52,
+  "rows_with_ungrounded_value": 2
+ },
+ "A:L3": {
+  "rows": 25,
+  "rows_with_value_tokens": 20,
+  "rows_with_ungrounded_value": 2
+ },
+ "B:L0r": {
+  "rows": 76,
+  "rows_with_value_tokens": 72,
+  "rows_with_ungrounded_value": 3
+ },
+ "B:L1": {
+  "rows": 76,
+  "rows_with_value_tokens": 72,
+  "rows_with_ungrounded_value": 1
+ },
+ "B:L2": {
+  "rows": 72,
+  "rows_with_value_tokens": 68,
+  "rows_with_ungrounded_value": 1
+ },
+ "B:L3": {
+  "rows": 25,
+  "rows_with_value_tokens": 21,
+  "rows_with_ungrounded_value": 0
+ },
+ "A_scenarios_grounded_only_at_some_levels": 0,
+ "A_scenarios_examples": [],
+ "examples_ungrounded_rows": [
+  {
+   "line": 126,
+   "sid": "S22A",
+   "level": "L0r",
+   "ps": "P2",
+   "ungrounded": "350"
+  },
+  {
+   "line": 222,
+   "sid": "S02A",
+   "level": "L1",
+   "ps": "P2",
+   "ungrounded": "100"
+  },
+  {
+   "line": 244,
+   "sid": "S02A",
+   "level": "L0r",
+   "ps": "P0",
+   "ungrounded": "100"
+  },
+  {
+   "line": 335,
+   "sid": "S02A",
+   "level": "L3",
+   "ps": "P0",
+   "ungrounded": "100"
+  },
+  {
+   "line": 357,
+   "sid": "S02A",
+   "level": "L2",
+   "ps": "P0",
+   "ungrounded": "100"
+  },
+  {
+   "line": 565,
+   "sid": "S22A",
+   "level": "L2",
+   "ps": "P0",
+   "ungrounded": "350"
+  },
+  {
+   "line": 764,
+   "sid": "S22A",
+   "level": "L1",
+   "ps": "P0",
+   "ungrounded": "350"
+  },
+  {
+   "line": 853,
+   "sid": "S22A",
+   "level": "L3",
+   "ps": "P0",
+   "ungrounded": "350"
+  }
+ ]
+}

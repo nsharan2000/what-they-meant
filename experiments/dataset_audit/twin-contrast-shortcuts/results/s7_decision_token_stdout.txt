@@ -1,0 +1,172 @@
+{
+ "sft_train": {
+  "A|decision": {
+   "n": 247,
+   "share_first_token_lt": 0.0,
+   "top_first_tokens": [
+    [
+     "The",
+     138
+    ],
+    [
+     "Check",
+     16
+    ],
+    [
+     "Pay",
+     13
+    ],
+    [
+     "Your",
+     11
+    ],
+    [
+     "IN",
+     10
+    ]
+   ],
+   "mean_target_tokens": 44.0,
+   "decision_token_share_of_row_loss_mass": 0.0239,
+   "coin_flip_first_token_adds_nats_to_mean_loss": 0.0166
+  },
+  "A|lookup": {
+   "n": 197,
+   "share_first_token_lt": 1.0,
+   "top_first_tokens": [
+    [
+     "<",
+     197
+    ]
+   ],
+   "mean_target_tokens": 32.1,
+   "decision_token_share_of_row_loss_mass": 0.0326,
+   "coin_flip_first_token_adds_nats_to_mean_loss": 0.0226
+  },
+  "B|decision": {
+   "n": 249,
+   "share_first_token_lt": 1.0,
+   "top_first_tokens": [
+    [
+     "<",
+     249
+    ]
+   ],
+   "mean_target_tokens": 49.6,
+   "decision_token_share_of_row_loss_mass": 0.0207,
+   "coin_flip_first_token_adds_nats_to_mean_loss": 0.0143
+  },
+  "B|lookup": {
+   "n": 209,
+   "share_first_token_lt": 1.0,
+   "top_first_tokens": [
+    [
+     "<",
+     209
+    ]
+   ],
+   "mean_target_tokens": 32.2,
+   "decision_token_share_of_row_loss_mass": 0.0325,
+   "coin_flip_first_token_adds_nats_to_mean_loss": 0.0225
+  },
+  "P|decision": {
+   "n": 1,
+   "share_first_token_lt": 0.0,
+   "top_first_tokens": [
+    [
+     "@",
+     1
+    ]
+   ],
+   "mean_target_tokens": 49,
+   "decision_token_share_of_row_loss_mass": 0.0204,
+   "coin_flip_first_token_adds_nats_to_mean_loss": 0.0141
+  },
+  "P|lookup": {
+   "n": 1,
+   "share_first_token_lt": 1.0,
+   "top_first_tokens": [
+    [
+     "<",
+     1
+    ]
+   ],
+   "mean_target_tokens": 36,
+   "decision_token_share_of_row_loss_mass": 0.0278,
+   "coin_flip_first_token_adds_nats_to_mean_loss": 0.0193
+  },
+  "all_rows_first_token_lt_share": 0.726
+ },
+ "sft_val": {
+  "A|decision": {
+   "n": 56,
+   "share_first_token_lt": 0.0,
+   "top_first_tokens": [
+    [
+     "The",
+     26
+    ],
+    [
+     "I",
+     16
+    ],
+    [
+     "A",
+     7
+    ],
+    [
+     "There",
+     7
+    ]
+   ],
+   "mean_target_tokens": 47.9,
+   "decision_token_share_of_row_loss_mass": 0.0216,
+   "coin_flip_first_token_adds_nats_to_mean_loss": 0.015
+  },
+  "A|lookup": {
+   "n": 56,
+   "share_first_token_lt": 1.0,
+   "top_first_tokens": [
+    [
+     "<",
+     56
+    ]
+   ],
+   "mean_target_tokens": 30.2,
+   "decision_token_share_of_row_loss_mass": 0.0332,
+   "coin_flip_first_token_adds_nats_to_mean_loss": 0.023
+  },
+  "B|decision": {
+   "n": 56,
+   "share_first_token_lt": 1.0,
+   "top_first_tokens": [
+    [
+     "<",
+     56
+    ]
+   ],
+   "mean_target_tokens": 47.4,
+   "decision_token_share_of_row_loss_mass": 0.0217,
+   "coin_flip_first_token_adds_nats_to_mean_loss": 0.015
+  },
+  "B|lookup": {
+   "n": 56,
+   "share_first_token_lt": 1.0,
+   "top_first_tokens": [
+    [
+     "<",
+     56
+    ]
+   ],
+   "mean_target_tokens": 30.3,
+   "decision_token_share_of_row_loss_mass": 0.033,
+   "coin_flip_first_token_adds_nats_to_mean_loss": 0.0229
+  },
+  "all_rows_first_token_lt_share": 0.75
+ },
+ "p2_hint": {
+  "chars_incl_separator": 192,
+  "median_chars_per_token_sft_train": 2.933,
+  "est_tokens": 65.5,
+  "note": "prose tokenises at more chars/token than the JSON-heavy prompt median, so this over-estimates"
+ }
+}

@@ -1,0 +1,1 @@
+{"text": "{\n  \"order_id\": \"5521\",\n  \"status\": \"succeeded\",\n  \"amount_captured\": 89.00,\n  \"currency\": \"USD\",\n  \"captured_at\": \"02:14\"\n}", "usage": {"completion_tokens": 55, "prompt_tokens": 269, "total_tokens": 324, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 5.446e-05}, "finish": "stop"}

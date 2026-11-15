@@ -1,0 +1,11 @@
+{'level': 'L0', 'scenario_has_dup_records': False, 'B_first_messages': 155, 'with_duplicate_talk': 0, 'share': 0.0}
+{'level': 'L0p', 'scenario_has_dup_records': False, 'B_first_messages': 51, 'with_duplicate_talk': 0, 'share': 0.0}
+{'level': 'L0r', 'scenario_has_dup_records': False, 'B_first_messages': 540, 'with_duplicate_talk': 20, 'share': 0.037}
+{'level': 'L0r', 'scenario_has_dup_records': True, 'B_first_messages': 134, 'with_duplicate_talk': 0, 'share': 0.0}
+{'level': 'L1', 'scenario_has_dup_records': False, 'B_first_messages': 533, 'with_duplicate_talk': 2, 'share': 0.0038}
+{'level': 'L1', 'scenario_has_dup_records': True, 'B_first_messages': 117, 'with_duplicate_talk': 0, 'share': 0.0}
+{'level': 'L2', 'scenario_has_dup_records': False, 'B_first_messages': 1077, 'with_duplicate_talk': 53, 'share': 0.0492}
+{'level': 'L2', 'scenario_has_dup_records': True, 'B_first_messages': 479, 'with_duplicate_talk': 30, 'share': 0.0626}
+{'level': 'L2s', 'scenario_has_dup_records': False, 'B_first_messages': 197, 'with_duplicate_talk': 6, 'share': 0.0305}
+{'level': 'L2s', 'scenario_has_dup_records': True, 'B_first_messages': 102, 'with_duplicate_talk': 3, 'share': 0.0294}
+{'level': 'L3', 'scenario_has_dup_records': False, 'B_first_messages': 74, 'with_duplicate_talk': 1, 'share': 0.0135}

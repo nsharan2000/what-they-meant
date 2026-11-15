@@ -1,0 +1,446 @@
+{
+ "act_rows": {
+  "sft_train": {
+   "n": 18,
+   "by_sid": {
+    "S14B": 4,
+    "V104B": 3,
+    "V152B": 3,
+    "S15B": 4,
+    "S10B": 4
+   },
+   "P2": [
+    "S14B|L2|P2|line 82",
+    "S14B|L3|P2|line 759",
+    "V104B|L0r|P2|line 100",
+    "V104B|L1|P2|line 155"
+   ]
+  },
+  "sft_val": {
+   "n": 10,
+   "by_sid": {
+    "V363B": 3,
+    "S36B": 4,
+    "V361B": 3
+   },
+   "P2": [
+    "S36B|L1|P2|line 41",
+    "V361B|L0r|P2|line 183",
+    "V361B|L2|P2|line 199"
+   ]
+  },
+  "dpo_train": {
+   "n": 18,
+   "by_sid": {
+    "V104B": 3,
+    "V152B": 3,
+    "S14B": 4,
+    "S10B": 4,
+    "S15B": 4
+   },
+   "P2": [
+    "S14B|L2|P2|line 138",
+    "S14B|L3|P2|line 115",
+    "V104B|L0r|P2|line 456",
+    "V104B|L1|P2|line 288"
+   ]
+  },
+  "grpo_train": {
+   "n": 18,
+   "by_sid": {
+    "S10B": 4,
+    "S14B": 4,
+    "S15B": 4,
+    "V152B": 3,
+    "V104B": 3
+   },
+   "P2": [
+    "S14B|L2|P2|line 401",
+    "S14B|L3|P2|line 225",
+    "V104B|L0r|P2|line 457",
+    "V104B|L1|P2|line 163"
+   ]
+  }
+ },
+ "act_reward_card_vs_commit": {
+  "S10B": {
+   "card_reward": 0.6,
+   "commit_reward": 1.1
+  },
+  "S14B": {
+   "card_reward": 0.6,
+   "commit_reward": 1.1
+  },
+  "S15B": {
+   "card_reward": 0.6,
+   "commit_reward": 1.1
+  },
+  "V152B": {
+   "card_reward": 0.6,
+   "commit_reward": 1.1
+  },
+  "V104B": {
+   "card_reward": 0.6,
+   "commit_reward": 1.1
+  }
+ },
+ "authorisation_visible_sft_decision": {
+  "V042B": {
+   "L2|P0|12": true,
+   "L0r|P0|387": true,
+   "L1|P2|554": true
+  },
+  "V043B": {
+   "L1|P0|18": true,
+   "L2|P0|258": true,
+   "L0r|P2|395": true
+  },
+  "S14B": {
+   "L2|P2|82": true,
+   "L0r|P0|337": false,
+   "L3|P2|759": true,
+   "L1|P0|876": true
+  },
+  "V104B": {
+   "L0r|P2|100": true,
+   "L1|P2|155": true,
+   "L2|P0|517": true
+  },
+  "V152B": {
+   "L2|P0|121": true,
+   "L1|P0|374": true,
+   "L0r|P0|446": false
+  },
+  "S15B": {
+   "L1|P0|136": true,
+   "L3|P0|495": true,
+   "L2|P0|515": true,
+   "L0r|P0|698": false
+  },
+  "V223B": {
+   "L0r|P2|180": false,
+   "L1|P0|477": true,
+   "L2|P2|723": true
+  },
+  "S04B": {
+   "L2|P0|181": true,
+   "L3|P0|208": true,
+   "L1|P0|666": true,
+   "L0r|P0|838": true
+  },
+  "V044B": {
+   "L0r|P2|187": true,
+   "L1|P0|447": true,
+   "L2|P0|819": true
+  },
+  "S10B": {
+   "L2|P0|332": true,
+   "L3|P0|650": false,
+   "L1|P0|707": true,
+   "L0r|P0|849": true
+  }
+ },
+ "pc3_rows": {
+  "n": 16,
+  "auth_visible": 15,
+  "rows": [
+   {
+    "line": 12,
+    "sid": "V042B",
+    "level": "L2",
+    "ps": "P0",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) GBP 4.20, tomatoes 1 kg GBP 3.80, milk x2 GBP 3.20?\"}}</tool_call",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 18,
+    "sid": "V043B",
+    "level": "L1",
+    "ps": "P0",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) USD 5.98, tomatoes 1 lb USD 4.50, milk x2 USD 6.99?\"}}</tool_call",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 180,
+    "sid": "V223B",
+    "level": "L0r",
+    "ps": "P2",
+    "auth_visible": false,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Pay $142.33 electric bill to Lincoln Energy Services?\"}}</tool_call>",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 181,
+    "sid": "S04B",
+    "level": "L2",
+    "ps": "P0",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) INR 30, tomatoes 1 kg INR 40, milk x2 INR 112?\"}}</tool_call>",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 187,
+    "sid": "V044B",
+    "level": "L0r",
+    "ps": "P2",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: bananas x3 (lbs) USD 4.50, apples 1 kg USD 6.00, bread x2 USD 7.40?\"}}</tool_call",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 208,
+    "sid": "S04B",
+    "level": "L3",
+    "ps": "P0",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) INR 30, tomatoes 1 kg INR 40, milk x2 INR 112?\"}}</tool_call>",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 258,
+    "sid": "V043B",
+    "level": "L2",
+    "ps": "P0",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) USD 5.98, tomatoes 1 lb USD 4.50, milk x2 USD 6.99?\"}}</tool_call",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 387,
+    "sid": "V042B",
+    "level": "L0r",
+    "ps": "P0",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) GBP 4.20, tomatoes 1 kg GBP 3.80, milk x2 GBP 3.20?\"}}</tool_call",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 395,
+    "sid": "V043B",
+    "level": "L0r",
+    "ps": "P2",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) USD 5.98, tomatoes 1 lb USD 4.50, milk x2 USD 6.99?\"}}</tool_call",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 447,
+    "sid": "V044B",
+    "level": "L1",
+    "ps": "P0",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: bananas x3 (lbs) USD 4.50, apples 1 kg USD 6.00, bread x2 USD 7.40?\"}}</tool_call",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 477,
+    "sid": "V223B",
+    "level": "L1",
+    "ps": "P0",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Pay $142.33 electric bill to Lincoln Energy Services?\"}}</tool_call>",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 554,
+    "sid": "V042B",
+    "level": "L1",
+    "ps": "P2",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) GBP 4.20, tomatoes 1 kg GBP 3.80, milk x2 GBP 3.20?\"}}</tool_call",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 666,
+    "sid": "S04B",
+    "level": "L1",
+    "ps": "P0",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) INR 30, tomatoes 1 kg INR 40, milk x2 INR 112?\"}}</tool_call>",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 723,
+    "sid": "V223B",
+    "level": "L2",
+    "ps": "P2",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Pay $142.33 electric bill to Lincoln Energy Services?\"}}</tool_call>",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 819,
+    "sid": "V044B",
+    "level": "L2",
+    "ps": "P0",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: bananas x3 (lbs) USD 4.50, apples 1 kg USD 6.00, bread x2 USD 7.40?\"}}</tool_call",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   },
+   {
+    "line": 838,
+    "sid": "S04B",
+    "level": "L0r",
+    "ps": "P0",
+    "auth_visible": true,
+    "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) INR 30, tomatoes 1 kg INR 40, milk x2 INR 112?\"}}</tool_call>",
+    "adjudication_accept": [
+     "approve",
+     "act"
+    ]
+   }
+  ]
+ },
+ "pc3_policy_quotes_present": {
+  "shopping": 114,
+  "bills": 127
+ },
+ "pc3_grpo_rows": {
+  "n": 16,
+  "specs": {
+   "V223B": {
+    "expected": "approve",
+    "gold_commits": []
+   },
+   "V044B": {
+    "expected": "approve",
+    "gold_commits": []
+   },
+   "V042B": {
+    "expected": "approve",
+    "gold_commits": []
+   },
+   "S04B": {
+    "expected": "approve",
+    "gold_commits": []
+   },
+   "V043B": {
+    "expected": "approve",
+    "gold_commits": []
+   }
+  }
+ },
+ "V152B": [
+  {
+   "level": "L2",
+   "ps": "P0",
+   "user": "pay the ChairSide Cloud software subscription from api.chairsidecloud.io/v1/invoices/latest",
+   "standing_instructions": "- Approval limit: Priya Shah approves vendor payments up to $10,000.00 each; larger payments go to Dana Whitaker (Controller).\n- Payment runs go out Tuesdays and Fridays by ACH; checks only for vendors with no bank account on file.\n- Every vendor payment is approved on an approval card before release.",
+   "notes": "- Role: accounts payable clerk — read-only access to the paid-invoice ledger (get_paid_invoices); enters and pays vendor bills (pay_invoice).\n- Vendor bills arrive by email at the AP inbox and are keyed in by hand.\n- Standing authorisation: monthly software subscriptions under $1,500 may be paid without approval.",
+   "lookup_result": "<tool_result name=\"http_get\">\n{\"status\": \"200 OK\", \"body_excerpt\": null, \"request_charge\": {\"amount\": 0.25, \"currency\": \"USD\"}}\n</tool_result>",
+   "target": "<tool_call>{\"name\": \"schedule_job\", \"arguments\": {\"name\": \"monthly invoice fetch\", \"target\": \"https://api.chairsidecloud.io/v1/invoices/latest\", \"schedule\": \"every month on the 1st\", \"until\": \"2027-12-01T00:00\", \"max_spend\": 3}}</tool_call>"
+  },
+  {
+   "level": "L1",
+   "ps": "P0",
+   "user": "pay the ChairSide Cloud software subscription from api.chairsidecloud.io/v1/invoices/latest",
+   "standing_instructions": "- Approval limit: Priya Shah approves vendor payments up to $10,000.00 each; larger payments go to Dana Whitaker (Controller).\n- Payment runs go out Tuesdays and Fridays by ACH; checks only for vendors with no bank account on file.\n- Every vendor payment is approved on an approval card before release.",
+   "notes": "- Role: accounts payable clerk — read-only access to the paid-invoice ledger (get_paid_invoices); enters and pays vendor bills (pay_invoice).\n- Vendor bills arrive by email at the AP inbox and are keyed in by hand.\n- Standing authorisation: monthly software subscriptions under $1,500 may be paid without approval.",
+   "lookup_result": "<tool_result name=\"http_get\">\n{\"status\": \"200 OK\", \"body_excerpt\": null, \"request_charge\": {\"amount\": 0.25, \"currency\": \"USD\"}}\n</tool_result>",
+   "target": "<tool_call>{\"name\": \"schedule_job\", \"arguments\": {\"name\": \"monthly invoice fetch\", \"target\": \"https://api.chairsidecloud.io/v1/invoices/latest\", \"schedule\": \"every month on the 1st\", \"until\": \"2027-12-01T00:00\", \"max_spend\": 3}}</tool_call>"
+  },
+  {
+   "level": "L0r",
+   "ps": "P0",
+   "user": "pay the ChairSide Cloud software subscription from api.chairsidecloud.io/v1/invoices/latest",
+   "standing_instructions": null,
+   "notes": null,
+   "lookup_result": "<tool_result name=\"http_get\">\n{\"status\": \"200 OK\", \"body_excerpt\": null, \"request_charge\": {\"amount\": 0.25, \"currency\": \"USD\"}}\n</tool_result>",
+   "target": "<tool_call>{\"name\": \"schedule_job\", \"arguments\": {\"name\": \"monthly invoice fetch\", \"target\": \"https://api.chairsidecloud.io/v1/invoices/latest\", \"schedule\": \"every month on the 1st\", \"until\": \"2027-12-01T00:00\", \"max_spend\": 3}}</tool_call>"
+  }
+ ],
+ "m1_act_rows": {
+  "V104B|L1|P2": {
+   "approve_generic": 5,
+   "ask_informed": 1,
+   "commit_other": 2
+  },
+  "S15B|L3|P0": {
+   "commit_other": 2,
+   "commit_gold": 5,
+   "invalid": 1
+  },
+  "S14B|L2|P2": {
+   "ask_generic": 1,
+   "commit_gold": 5,
+   "ask_informed": 2
+  },
+  "S10B|L0r|P0": {
+   "commit_gold": 4,
+   "approve_generic": 4
+  },
+  "S14B|L3|P2": {
+   "ask_generic": 1,
+   "commit_gold": 5,
+   "ask_informed": 2
+  }
+ },
+ "m1_pc3_rows": {
+  "V044B|L1|P0": {
+   "approve_generic": 5,
+   "ask_generic": 2,
+   "ask_informed": 1
+  },
+  "S04B|L3|P0": {
+   "approve_generic": 4,
+   "ask_generic": 2,
+   "lookup": 2
+  },
+  "V043B|L1|P0": {
+   "approve_generic": 5,
+   "ask_generic": 2,
+   "ask_informed": 1
+  },
+  "V223B|L1|P0": {
+   "ask_generic": 5,
+   "approve_generic": 3
+  }
+ }
+}

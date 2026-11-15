@@ -1,0 +1,2617 @@
+{
+ "sft_train": {
+  "n_decision_rows": 496,
+  "n_matched_twins_same_level": 247,
+  "cue_words": {
+   "results|false": {
+    "rows_with_cue_A": 59,
+    "rows_with_cue_B": 30,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 43,
+    "pairs_B_more": 10,
+    "pairs_equal": 194,
+    "sign_test_p": 1e-05,
+    "examples_A_more": [
+     [
+      "sft_train",
+      0,
+      900,
+      "S42",
+      "L1"
+     ],
+     [
+      "sft_train",
+      433,
+      5,
+      "V552",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      764,
+      8,
+      "S22",
+      "L1"
+     ]
+    ],
+    "examples_B_more": [
+     [
+      "sft_train",
+      1,
+      99,
+      "V254",
+      "L2"
+     ],
+     [
+      "sft_train",
+      25,
+      118,
+      "S25",
+      "L1"
+     ],
+     [
+      "sft_train",
+      179,
+      73,
+      "S25",
+      "L3"
+     ]
+    ]
+   },
+   "request|new": {
+    "rows_with_cue_A": 34,
+    "rows_with_cue_B": 17,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 17,
+    "pairs_B_more": 0,
+    "pairs_equal": 230,
+    "sign_test_p": 2e-05,
+    "examples_A_more": [
+     [
+      "sft_train",
+      6,
+      14,
+      "V094",
+      "L1"
+     ],
+     [
+      "sft_train",
+      24,
+      579,
+      "S09",
+      "L3"
+     ],
+     [
+      "sft_train",
+      401,
+      26,
+      "V091",
+      "L1"
+     ]
+    ],
+    "examples_B_more": []
+   },
+   "results|true": {
+    "rows_with_cue_A": 37,
+    "rows_with_cue_B": 48,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 10,
+    "pairs_B_more": 27,
+    "pairs_equal": 210,
+    "sign_test_p": 0.00763,
+    "examples_A_more": [
+     [
+      "sft_train",
+      1,
+      99,
+      "V254",
+      "L2"
+     ],
+     [
+      "sft_train",
+      25,
+      118,
+      "S25",
+      "L1"
+     ],
+     [
+      "sft_train",
+      179,
+      73,
+      "S25",
+      "L3"
+     ]
+    ],
+    "examples_B_more": [
+     [
+      "sft_train",
+      0,
+      900,
+      "S42",
+      "L1"
+     ],
+     [
+      "sft_train",
+      7,
+      15,
+      "S07",
+      "L1"
+     ],
+     [
+      "sft_train",
+      764,
+      8,
+      "S22",
+      "L1"
+     ]
+    ]
+   },
+   "request|changed": {
+    "rows_with_cue_A": 0,
+    "rows_with_cue_B": 13,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 13,
+    "pairs_equal": 234,
+    "sign_test_p": 0.00024,
+    "examples_A_more": [],
+    "examples_B_more": [
+     [
+      "sft_train",
+      6,
+      14,
+      "V094",
+      "L1"
+     ],
+     [
+      "sft_train",
+      24,
+      579,
+      "S09",
+      "L3"
+     ],
+     [
+      "sft_train",
+      401,
+      26,
+      "V091",
+      "L1"
+     ]
+    ]
+   },
+   "results|null": {
+    "rows_with_cue_A": 148,
+    "rows_with_cue_B": 167,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 80,
+    "pairs_B_more": 93,
+    "pairs_equal": 74,
+    "sign_test_p": 0.36163,
+    "examples_A_more": [
+     [
+      "sft_train",
+      259,
+      2,
+      "V532",
+      "L1"
+     ],
+     [
+      "sft_train",
+      6,
+      14,
+      "V094",
+      "L1"
+     ],
+     [
+      "sft_train",
+      840,
+      10,
+      "V071",
+      "L1"
+     ]
+    ],
+    "examples_B_more": [
+     [
+      "sft_train",
+      1,
+      99,
+      "V254",
+      "L2"
+     ],
+     [
+      "sft_train",
+      433,
+      5,
+      "V552",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      7,
+      15,
+      "S07",
+      "L1"
+     ]
+    ]
+   },
+   "request|first": {
+    "rows_with_cue_A": 10,
+    "rows_with_cue_B": 0,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 10,
+    "pairs_B_more": 0,
+    "pairs_equal": 237,
+    "sign_test_p": 0.00195,
+    "examples_A_more": [
+     [
+      "sft_train",
+      137,
+      355,
+      "V344",
+      "L1"
+     ],
+     [
+      "sft_train",
+      389,
+      200,
+      "V341",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      211,
+      651,
+      "V344",
+      "L2"
+     ]
+    ],
+    "examples_B_more": []
+   },
+   "results|not": {
+    "rows_with_cue_A": 7,
+    "rows_with_cue_B": 0,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 7,
+    "pairs_B_more": 0,
+    "pairs_equal": 240,
+    "sign_test_p": 0.01562,
+    "examples_A_more": [
+     [
+      "sft_train",
+      605,
+      121,
+      "V152",
+      "L2"
+     ],
+     [
+      "sft_train",
+      298,
+      136,
+      "S15",
+      "L1"
+     ],
+     [
+      "sft_train",
+      188,
+      698,
+      "S15",
+      "L0r"
+     ]
+    ],
+    "examples_B_more": []
+   },
+   "member_block|new": {
+    "rows_with_cue_A": 71,
+    "rows_with_cue_B": 71,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 5,
+    "pairs_B_more": 0,
+    "pairs_equal": 242,
+    "sign_test_p": 0.0625,
+    "examples_A_more": [
+     [
+      "sft_train",
+      239,
+      117,
+      "V541",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      226,
+      708,
+      "S12",
+      "L2"
+     ],
+     [
+      "sft_train",
+      322,
+      544,
+      "S12",
+      "L0r"
+     ]
+    ],
+    "examples_B_more": []
+   },
+   "member_block|verify": {
+    "rows_with_cue_A": 74,
+    "rows_with_cue_B": 79,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 4,
+    "pairs_equal": 243,
+    "sign_test_p": 0.125,
+    "examples_A_more": [],
+    "examples_B_more": [
+     [
+      "sft_train",
+      763,
+      376,
+      "V093",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      510,
+      893,
+      "V094",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      719,
+      583,
+      "V091",
+      "L0r"
+     ]
+    ]
+   },
+   "member_block|note": {
+    "rows_with_cue_A": 239,
+    "rows_with_cue_B": 241,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 4,
+    "pairs_B_more": 0,
+    "pairs_equal": 243,
+    "sign_test_p": 0.125,
+    "examples_A_more": [
+     [
+      "sft_train",
+      29,
+      343,
+      "S54",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      147,
+      530,
+      "S54",
+      "L3"
+     ],
+     [
+      "sft_train",
+      817,
+      166,
+      "S54",
+      "L2"
+     ]
+    ],
+    "examples_B_more": []
+   },
+   "member_block|changed": {
+    "rows_with_cue_A": 15,
+    "rows_with_cue_B": 19,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 4,
+    "pairs_equal": 243,
+    "sign_test_p": 0.125,
+    "examples_A_more": [],
+    "examples_B_more": [
+     [
+      "sft_train",
+      763,
+      376,
+      "V093",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      510,
+      893,
+      "V094",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      719,
+      583,
+      "V091",
+      "L0r"
+     ]
+    ]
+   },
+   "results|failed": {
+    "rows_with_cue_A": 4,
+    "rows_with_cue_B": 0,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 4,
+    "pairs_B_more": 0,
+    "pairs_equal": 243,
+    "sign_test_p": 0.125,
+    "examples_A_more": [
+     [
+      "sft_train",
+      112,
+      720,
+      "S26",
+      "L3"
+     ],
+     [
+      "sft_train",
+      399,
+      577,
+      "S26",
+      "L1"
+     ],
+     [
+      "sft_train",
+      493,
+      647,
+      "S26",
+      "L2"
+     ]
+    ],
+    "examples_B_more": []
+   },
+   "results|note": {
+    "rows_with_cue_A": 7,
+    "rows_with_cue_B": 7,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 3,
+    "pairs_B_more": 0,
+    "pairs_equal": 244,
+    "sign_test_p": 0.25,
+    "examples_A_more": [
+     [
+      "sft_train",
+      239,
+      117,
+      "V541",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      160,
+      120,
+      "V541",
+      "L1"
+     ],
+     [
+      "sft_train",
+      545,
+      789,
+      "V541",
+      "L2"
+     ]
+    ],
+    "examples_B_more": []
+   },
+   "member_block|not": {
+    "rows_with_cue_A": 52,
+    "rows_with_cue_B": 51,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 1,
+    "pairs_B_more": 0,
+    "pairs_equal": 246,
+    "sign_test_p": 1.0,
+    "examples_A_more": [
+     [
+      "sft_train",
+      239,
+      117,
+      "V541",
+      "L0r"
+     ]
+    ],
+    "examples_B_more": []
+   },
+   "member_block|warning": {
+    "rows_with_cue_A": 2,
+    "rows_with_cue_B": 2,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 247,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|alert": {
+    "rows_with_cue_A": 29,
+    "rows_with_cue_B": 29,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 247,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|first": {
+    "rows_with_cue_A": 101,
+    "rows_with_cue_B": 101,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 247,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|never": {
+    "rows_with_cue_A": 1,
+    "rows_with_cue_B": 1,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 247,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|pending": {
+    "rows_with_cue_A": 14,
+    "rows_with_cue_B": 14,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 247,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|failed": {
+    "rows_with_cue_A": 9,
+    "rows_with_cue_B": 9,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 247,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|unknown": {
+    "rows_with_cue_A": 5,
+    "rows_with_cue_B": 5,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 247,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|null": {
+    "rows_with_cue_A": 5,
+    "rows_with_cue_B": 5,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 247,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|false": {
+    "rows_with_cue_A": 1,
+    "rows_with_cue_B": 1,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 247,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|true": {
+    "rows_with_cue_A": 16,
+    "rows_with_cue_B": 16,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 247,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "calls|false": {
+    "rows_with_cue_A": 3,
+    "rows_with_cue_B": 3,
+    "n_A": 247,
+    "n_B": 249,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 247,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   }
+  },
+  "result_structure": {
+   "leaves": {
+    "mean_A": 6.923,
+    "mean_B": 6.462,
+    "pairs_A_more": 36,
+    "pairs_B_more": 9,
+    "pairs_equal": 202,
+    "sign_test_p": 7e-05
+   },
+   "nulls": {
+    "mean_A": 1.595,
+    "mean_B": 1.635,
+    "pairs_A_more": 80,
+    "pairs_B_more": 93,
+    "pairs_equal": 74,
+    "sign_test_p": 0.36163
+   },
+   "empties": {
+    "mean_A": 0.211,
+    "mean_B": 0.161,
+    "pairs_A_more": 19,
+    "pairs_B_more": 7,
+    "pairs_equal": 221,
+    "sign_test_p": 0.02896
+   },
+   "falses": {
+    "mean_A": 0.243,
+    "mean_B": 0.149,
+    "pairs_A_more": 43,
+    "pairs_B_more": 10,
+    "pairs_equal": 194,
+    "sign_test_p": 1e-05
+   },
+   "trues": {
+    "mean_A": 0.223,
+    "mean_B": 0.313,
+    "pairs_A_more": 10,
+    "pairs_B_more": 27,
+    "pairs_equal": 210,
+    "sign_test_p": 0.00763
+   },
+   "zeros": {
+    "mean_A": 0.385,
+    "mean_B": 0.112,
+    "pairs_A_more": 41,
+    "pairs_B_more": 4,
+    "pairs_equal": 202,
+    "sign_test_p": 0.0
+   },
+   "result_chars": {
+    "mean_A": 235.4,
+    "mean_B": 223.2,
+    "pairs_A_more": 129,
+    "pairs_B_more": 95,
+    "pairs_equal": 23,
+    "sign_test_p": 0.02724
+   },
+   "verdict_words_in_results": {
+    "stems": [
+     "flag",
+     "warning",
+     "unusual",
+     "mismatch",
+     "duplicate",
+     "suspicious",
+     "scam",
+     "fraud",
+     "risk",
+     "alert",
+     "caution",
+     "failed",
+     "expired",
+     "not",
+     "unknown",
+     "never"
+    ],
+    "rows_A": 11,
+    "rows_B": 0,
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "pairs_A_only": [
+     "S15",
+     "S26",
+     "V152"
+    ],
+    "pairs_B_only": [],
+    "examples_A": [
+     [
+      "sft_train",
+      112,
+      "S26",
+      "L3"
+     ],
+     [
+      "sft_train",
+      188,
+      "S15",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      298,
+      "S15",
+      "L1"
+     ]
+    ],
+    "examples_B": []
+   }
+  },
+  "near_pure_field_value_tokens": [
+   {
+    "token": "account_type=business",
+    "pairs_A": 0,
+    "pairs_B": 5,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_train",
+      5,
+      "V552",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      146,
+      "V552",
+      "L1"
+     ],
+     [
+      "sft_train",
+      240,
+      "S55",
+      "L2"
+     ]
+    ]
+   },
+   {
+    "token": "merchant_name=null",
+    "pairs_A": 0,
+    "pairs_B": 5,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_train",
+      5,
+      "V552",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      146,
+      "V552",
+      "L1"
+     ],
+     [
+      "sft_train",
+      240,
+      "S55",
+      "L2"
+     ]
+    ]
+   },
+   {
+    "token": "account_type=personal",
+    "pairs_A": 6,
+    "pairs_B": 1,
+    "examples_A": [
+     [
+      "sft_train",
+      11,
+      "V474",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      61,
+      "S55",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      93,
+      "V554",
+      "L2"
+     ]
+    ],
+    "examples_B": [
+     [
+      "sft_train",
+      641,
+      "V474",
+      "L1"
+     ],
+     [
+      "sft_train",
+      738,
+      "V474",
+      "L2"
+     ],
+     [
+      "sft_train",
+      796,
+      "V474",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "payment_allowed=false",
+    "pairs_A": 5,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      61,
+      "S55",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      93,
+      "V554",
+      "L2"
+     ],
+     [
+      "sft_train",
+      107,
+      "V553",
+      "L1"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "payment_allowed=null",
+    "pairs_A": 0,
+    "pairs_B": 4,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_train",
+      5,
+      "V552",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      146,
+      "V552",
+      "L1"
+     ],
+     [
+      "sft_train",
+      240,
+      "S55",
+      "L2"
+     ]
+    ]
+   },
+   {
+    "token": "callback_status=null",
+    "pairs_A": 4,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      6,
+      "V094",
+      "L1"
+     ],
+     [
+      "sft_train",
+      24,
+      "S09",
+      "L3"
+     ],
+     [
+      "sft_train",
+      53,
+      "S09",
+      "L2"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "change_approved_date=null",
+    "pairs_A": 4,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      6,
+      "V094",
+      "L1"
+     ],
+     [
+      "sft_train",
+      24,
+      "S09",
+      "L3"
+     ],
+     [
+      "sft_train",
+      53,
+      "S09",
+      "L2"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "last_payment_date=null",
+    "pairs_A": 4,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      7,
+      "S07",
+      "L1"
+     ],
+     [
+      "sft_train",
+      31,
+      "V492",
+      "L2"
+     ],
+     [
+      "sft_train",
+      431,
+      "S49",
+      "L2"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "callback_status=completed",
+    "pairs_A": 0,
+    "pairs_B": 4,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_train",
+      14,
+      "V094",
+      "L1"
+     ],
+     [
+      "sft_train",
+      26,
+      "V091",
+      "L1"
+     ],
+     [
+      "sft_train",
+      130,
+      "S09",
+      "L1"
+     ]
+    ]
+   },
+   {
+    "token": "total_payments_received=0",
+    "pairs_A": 4,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      28,
+      "S53",
+      "L2"
+     ],
+     [
+      "sft_train",
+      213,
+      "V534",
+      "L1"
+     ],
+     [
+      "sft_train",
+      237,
+      "V534",
+      "L0r"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "renewal_frequency=monthly",
+    "pairs_A": 1,
+    "pairs_B": 5,
+    "examples_A": [
+     [
+      "sft_train",
+      549,
+      "V181",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      649,
+      "V181",
+      "L2"
+     ],
+     [
+      "sft_train",
+      829,
+      "V181",
+      "L1"
+     ]
+    ],
+    "examples_B": [
+     [
+      "sft_train",
+      84,
+      "V184",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      231,
+      "S18",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      251,
+      "V183",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "renewal_plan=null",
+    "pairs_A": 0,
+    "pairs_B": 4,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_train",
+      84,
+      "V184",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      231,
+      "S18",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      251,
+      "V183",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "usage_charges_billed_automatically=true",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      1,
+      "V254",
+      "L2"
+     ],
+     [
+      "sft_train",
+      25,
+      "S25",
+      "L1"
+     ],
+     [
+      "sft_train",
+      176,
+      "S25",
+      "L0r"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "currency=null",
+    "pairs_A": 0,
+    "pairs_B": 3,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_train",
+      12,
+      "V042",
+      "L2"
+     ],
+     [
+      "sft_train",
+      181,
+      "S04",
+      "L2"
+     ],
+     [
+      "sft_train",
+      208,
+      "S04",
+      "L3"
+     ]
+    ]
+   },
+   {
+    "token": "unit=pcs",
+    "pairs_A": 0,
+    "pairs_B": 3,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_train",
+      12,
+      "V042",
+      "L2"
+     ],
+     [
+      "sft_train",
+      18,
+      "V043",
+      "L1"
+     ],
+     [
+      "sft_train",
+      181,
+      "S04",
+      "L2"
+     ]
+    ]
+   },
+   {
+    "token": "renewal_frequency=annual",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      21,
+      "V182",
+      "L1"
+     ],
+     [
+      "sft_train",
+      128,
+      "V182",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      159,
+      "V183",
+      "L0r"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "total_payments_sent=0",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      28,
+      "S53",
+      "L2"
+     ],
+     [
+      "sft_train",
+      259,
+      "V532",
+      "L1"
+     ],
+     [
+      "sft_train",
+      291,
+      "S53",
+      "L0r"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "payments_from_member=0",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      31,
+      "V492",
+      "L2"
+     ],
+     [
+      "sft_train",
+      431,
+      "S49",
+      "L2"
+     ],
+     [
+      "sft_train",
+      440,
+      "S49",
+      "L3"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "network=null",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      33,
+      "S47",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      119,
+      "S47",
+      "L1"
+     ],
+     [
+      "sft_train",
+      384,
+      "V473",
+      "L1"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "wallet_status=null",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      33,
+      "S47",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      119,
+      "S47",
+      "L1"
+     ],
+     [
+      "sft_train",
+      384,
+      "V473",
+      "L1"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "network=ethereum",
+    "pairs_A": 0,
+    "pairs_B": 3,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_train",
+      39,
+      "S47",
+      "L1"
+     ],
+     [
+      "sft_train",
+      134,
+      "V472",
+      "L2"
+     ],
+     [
+      "sft_train",
+      266,
+      "S47",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "wallet_status=saved",
+    "pairs_A": 0,
+    "pairs_B": 3,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_train",
+      39,
+      "S47",
+      "L1"
+     ],
+     [
+      "sft_train",
+      134,
+      "V472",
+      "L2"
+     ],
+     [
+      "sft_train",
+      266,
+      "S47",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "unit=kg",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      67,
+      "V044",
+      "L2"
+     ],
+     [
+      "sft_train",
+      104,
+      "V042",
+      "L0r"
+     ],
+     [
+      "sft_train",
+      139,
+      "S04",
+      "L2"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "results[].last_payment_date=null",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      137,
+      "V344",
+      "L1"
+     ],
+     [
+      "sft_train",
+      211,
+      "V344",
+      "L2"
+     ],
+     [
+      "sft_train",
+      285,
+      "V341",
+      "L2"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "results[].payments_from_member=0",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_train",
+      137,
+      "V344",
+      "L1"
+     ],
+     [
+      "sft_train",
+      211,
+      "V344",
+      "L2"
+     ],
+     [
+      "sft_train",
+      285,
+      "V341",
+      "L2"
+     ]
+    ],
+    "examples_B": []
+   }
+  ],
+  "prompt_length_exact_tokens": {
+   "n_strict_pairs": 134,
+   "mean_A_minus_B": 3.56,
+   "median": 1.5,
+   "A_longer": 78,
+   "B_longer": 40,
+   "equal": 16,
+   "sign_test_p": 0.0006,
+   "row_mean_tokens_A": 4334.8,
+   "row_mean_tokens_B": 4319.8
+  },
+  "prompt_setting_by_twin": {
+   "A|P0": 178,
+   "A|P2": 69,
+   "B|P0": 167,
+   "B|P2": 82
+  },
+  "prompt_setting_vs_twin_fisher_two_sided_p": 0.2424,
+  "n_lookups_by_twin": {
+   "A|0": 8,
+   "A|1": 236,
+   "A|2": 3,
+   "B|0": 8,
+   "B|1": 238,
+   "B|2": 3
+  }
+ },
+ "sft_val": {
+  "n_decision_rows": 112,
+  "n_matched_twins_same_level": 56,
+  "cue_words": {
+   "results|null": {
+    "rows_with_cue_A": 37,
+    "rows_with_cue_B": 56,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 36,
+    "pairs_equal": 20,
+    "sign_test_p": 0.0,
+    "examples_A_more": [],
+    "examples_B_more": [
+     [
+      "sft_val",
+      112,
+      2,
+      "V363",
+      "L1"
+     ],
+     [
+      "sft_val",
+      105,
+      3,
+      "V284",
+      "L1"
+     ],
+     [
+      "sft_val",
+      4,
+      76,
+      "S36",
+      "L0r"
+     ]
+    ]
+   },
+   "results|true": {
+    "rows_with_cue_A": 0,
+    "rows_with_cue_B": 26,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 26,
+    "pairs_equal": 30,
+    "sign_test_p": 0.0,
+    "examples_A_more": [],
+    "examples_B_more": [
+     [
+      "sft_val",
+      112,
+      2,
+      "V363",
+      "L1"
+     ],
+     [
+      "sft_val",
+      4,
+      76,
+      "S36",
+      "L0r"
+     ],
+     [
+      "sft_val",
+      7,
+      170,
+      "S01",
+      "L1"
+     ]
+    ]
+   },
+   "results|false": {
+    "rows_with_cue_A": 22,
+    "rows_with_cue_B": 10,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 19,
+    "pairs_B_more": 4,
+    "pairs_equal": 33,
+    "sign_test_p": 0.0026,
+    "examples_A_more": [
+     [
+      "sft_val",
+      112,
+      2,
+      "V363",
+      "L1"
+     ],
+     [
+      "sft_val",
+      7,
+      170,
+      "S01",
+      "L1"
+     ],
+     [
+      "sft_val",
+      17,
+      83,
+      "V012",
+      "L1"
+     ]
+    ],
+    "examples_B_more": [
+     [
+      "sft_val",
+      4,
+      76,
+      "S36",
+      "L0r"
+     ],
+     [
+      "sft_val",
+      206,
+      41,
+      "S36",
+      "L1"
+     ],
+     [
+      "sft_val",
+      157,
+      119,
+      "S36",
+      "L3"
+     ]
+    ]
+   },
+   "results|alert": {
+    "rows_with_cue_A": 4,
+    "rows_with_cue_B": 0,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 4,
+    "pairs_B_more": 0,
+    "pairs_equal": 52,
+    "sign_test_p": 0.125,
+    "examples_A_more": [
+     [
+      "sft_val",
+      109,
+      10,
+      "S24",
+      "L2"
+     ],
+     [
+      "sft_val",
+      22,
+      45,
+      "S24",
+      "L0r"
+     ],
+     [
+      "sft_val",
+      29,
+      81,
+      "S24",
+      "L1"
+     ]
+    ],
+    "examples_B_more": []
+   },
+   "member_block|duplicate": {
+    "rows_with_cue_A": 2,
+    "rows_with_cue_B": 2,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 56,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|verify": {
+    "rows_with_cue_A": 16,
+    "rows_with_cue_B": 16,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 56,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|note": {
+    "rows_with_cue_A": 49,
+    "rows_with_cue_B": 49,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 56,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|alert": {
+    "rows_with_cue_A": 5,
+    "rows_with_cue_B": 5,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 56,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|new": {
+    "rows_with_cue_A": 14,
+    "rows_with_cue_B": 14,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 56,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|first": {
+    "rows_with_cue_A": 23,
+    "rows_with_cue_B": 23,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 56,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|changed": {
+    "rows_with_cue_A": 2,
+    "rows_with_cue_B": 2,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 56,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|pending": {
+    "rows_with_cue_A": 3,
+    "rows_with_cue_B": 3,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 56,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|not": {
+    "rows_with_cue_A": 13,
+    "rows_with_cue_B": 13,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 56,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "member_block|true": {
+    "rows_with_cue_A": 5,
+    "rows_with_cue_B": 5,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 56,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "request|not": {
+    "rows_with_cue_A": 7,
+    "rows_with_cue_B": 7,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 56,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "results|note": {
+    "rows_with_cue_A": 3,
+    "rows_with_cue_B": 3,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 56,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   },
+   "results|pending": {
+    "rows_with_cue_A": 16,
+    "rows_with_cue_B": 16,
+    "n_A": 56,
+    "n_B": 56,
+    "pairs_A_more": 0,
+    "pairs_B_more": 0,
+    "pairs_equal": 56,
+    "sign_test_p": 1.0,
+    "examples_A_more": [],
+    "examples_B_more": []
+   }
+  },
+  "result_structure": {
+   "leaves": {
+    "mean_A": 7.375,
+    "mean_B": 6.464,
+    "pairs_A_more": 17,
+    "pairs_B_more": 0,
+    "pairs_equal": 39,
+    "sign_test_p": 2e-05
+   },
+   "nulls": {
+    "mean_A": 1.321,
+    "mean_B": 2.679,
+    "pairs_A_more": 0,
+    "pairs_B_more": 36,
+    "pairs_equal": 20,
+    "sign_test_p": 0.0
+   },
+   "empties": {
+    "mean_A": 0.429,
+    "mean_B": 0.607,
+    "pairs_A_more": 0,
+    "pairs_B_more": 10,
+    "pairs_equal": 46,
+    "sign_test_p": 0.00195
+   },
+   "falses": {
+    "mean_A": 0.446,
+    "mean_B": 0.179,
+    "pairs_A_more": 19,
+    "pairs_B_more": 4,
+    "pairs_equal": 33,
+    "sign_test_p": 0.0026
+   },
+   "trues": {
+    "mean_A": 0,
+    "mean_B": 0.464,
+    "pairs_A_more": 0,
+    "pairs_B_more": 26,
+    "pairs_equal": 30,
+    "sign_test_p": 0.0
+   },
+   "zeros": {
+    "mean_A": 0.071,
+    "mean_B": 0.179,
+    "pairs_A_more": 0,
+    "pairs_B_more": 6,
+    "pairs_equal": 50,
+    "sign_test_p": 0.03125
+   },
+   "result_chars": {
+    "mean_A": 266.0,
+    "mean_B": 207.4,
+    "pairs_A_more": 56,
+    "pairs_B_more": 0,
+    "pairs_equal": 0,
+    "sign_test_p": 0.0
+   },
+   "verdict_words_in_results": {
+    "stems": [
+     "flag",
+     "warning",
+     "unusual",
+     "mismatch",
+     "duplicate",
+     "suspicious",
+     "scam",
+     "fraud",
+     "risk",
+     "alert",
+     "caution",
+     "failed",
+     "expired",
+     "not",
+     "unknown",
+     "never"
+    ],
+    "rows_A": 4,
+    "rows_B": 0,
+    "pairs_A": 1,
+    "pairs_B": 0,
+    "pairs_A_only": [
+     "S24"
+    ],
+    "pairs_B_only": [],
+    "examples_A": [
+     [
+      "sft_val",
+      22,
+      "S24",
+      "L0r"
+     ],
+     [
+      "sft_val",
+      29,
+      "S24",
+      "L1"
+     ],
+     [
+      "sft_val",
+      53,
+      "S24",
+      "L3"
+     ]
+    ],
+    "examples_B": []
+   }
+  },
+  "near_pure_field_value_tokens": [
+   {
+    "token": "payment_method=null",
+    "pairs_A": 0,
+    "pairs_B": 5,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_val",
+      3,
+      "V284",
+      "L1"
+     ],
+     [
+      "sft_val",
+      11,
+      "V284",
+      "L0r"
+     ],
+     [
+      "sft_val",
+      16,
+      "V282",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "results[].has_paid_before=false",
+    "pairs_A": 5,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_val",
+      7,
+      "S01",
+      "L1"
+     ],
+     [
+      "sft_val",
+      17,
+      "V012",
+      "L1"
+     ],
+     [
+      "sft_val",
+      20,
+      "V013",
+      "L0r"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "payment_method=counter_terminal_or_link",
+    "pairs_A": 5,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_val",
+      12,
+      "S28",
+      "L2"
+     ],
+     [
+      "sft_val",
+      15,
+      "V284",
+      "L2"
+     ],
+     [
+      "sft_val",
+      49,
+      "V282",
+      "L2"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "results[].has_paid_before=true",
+    "pairs_A": 0,
+    "pairs_B": 5,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_val",
+      19,
+      "V012",
+      "L0r"
+     ],
+     [
+      "sft_val",
+      28,
+      "S01",
+      "L3"
+     ],
+     [
+      "sft_val",
+      37,
+      "V011",
+      "L2"
+     ]
+    ]
+   },
+   {
+    "token": "buttons[].access_until_period_end=true",
+    "pairs_A": 0,
+    "pairs_B": 3,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_val",
+      2,
+      "V363",
+      "L1"
+     ],
+     [
+      "sft_val",
+      41,
+      "S36",
+      "L1"
+     ],
+     [
+      "sft_val",
+      61,
+      "V363",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "buttons[].currency=null",
+    "pairs_A": 0,
+    "pairs_B": 3,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_val",
+      2,
+      "V363",
+      "L1"
+     ],
+     [
+      "sft_val",
+      41,
+      "S36",
+      "L1"
+     ],
+     [
+      "sft_val",
+      61,
+      "V363",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "buttons[].label=cancel subscription",
+    "pairs_A": 0,
+    "pairs_B": 3,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_val",
+      2,
+      "V363",
+      "L1"
+     ],
+     [
+      "sft_val",
+      41,
+      "S36",
+      "L1"
+     ],
+     [
+      "sft_val",
+      61,
+      "V363",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "buttons[].payment_method=null",
+    "pairs_A": 0,
+    "pairs_B": 3,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_val",
+      2,
+      "V363",
+      "L1"
+     ],
+     [
+      "sft_val",
+      41,
+      "S36",
+      "L1"
+     ],
+     [
+      "sft_val",
+      61,
+      "V363",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "buttons[].trigger=null",
+    "pairs_A": 0,
+    "pairs_B": 3,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_val",
+      2,
+      "V363",
+      "L1"
+     ],
+     [
+      "sft_val",
+      41,
+      "S36",
+      "L1"
+     ],
+     [
+      "sft_val",
+      61,
+      "V363",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "buttons[].type=null",
+    "pairs_A": 0,
+    "pairs_B": 3,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_val",
+      2,
+      "V363",
+      "L1"
+     ],
+     [
+      "sft_val",
+      41,
+      "S36",
+      "L1"
+     ],
+     [
+      "sft_val",
+      61,
+      "V363",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "links=empty",
+    "pairs_A": 0,
+    "pairs_B": 3,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_val",
+      2,
+      "V363",
+      "L1"
+     ],
+     [
+      "sft_val",
+      41,
+      "S36",
+      "L1"
+     ],
+     [
+      "sft_val",
+      61,
+      "V363",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "page_content=null",
+    "pairs_A": 0,
+    "pairs_B": 3,
+    "examples_A": [],
+    "examples_B": [
+     [
+      "sft_val",
+      2,
+      "V363",
+      "L1"
+     ],
+     [
+      "sft_val",
+      41,
+      "S36",
+      "L1"
+     ],
+     [
+      "sft_val",
+      61,
+      "V363",
+      "L0r"
+     ]
+    ]
+   },
+   {
+    "token": "buttons[].currency=usd",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_val",
+      4,
+      "S36",
+      "L0r"
+     ],
+     [
+      "sft_val",
+      27,
+      "V361",
+      "L2"
+     ],
+     [
+      "sft_val",
+      36,
+      "V363",
+      "L0r"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "buttons[].payment_method=saved_card",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_val",
+      4,
+      "S36",
+      "L0r"
+     ],
+     [
+      "sft_val",
+      27,
+      "V361",
+      "L2"
+     ],
+     [
+      "sft_val",
+      36,
+      "V363",
+      "L0r"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "buttons[].trigger=immediate",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_val",
+      4,
+      "S36",
+      "L0r"
+     ],
+     [
+      "sft_val",
+      27,
+      "V361",
+      "L2"
+     ],
+     [
+      "sft_val",
+      36,
+      "V363",
+      "L0r"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "buttons[].type=primary",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_val",
+      4,
+      "S36",
+      "L0r"
+     ],
+     [
+      "sft_val",
+      27,
+      "V361",
+      "L2"
+     ],
+     [
+      "sft_val",
+      36,
+      "V363",
+      "L0r"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "links[].action=cancel",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_val",
+      4,
+      "S36",
+      "L0r"
+     ],
+     [
+      "sft_val",
+      27,
+      "V361",
+      "L2"
+     ],
+     [
+      "sft_val",
+      36,
+      "V363",
+      "L0r"
+     ]
+    ],
+    "examples_B": []
+   },
+   {
+    "token": "links[].type=secondary",
+    "pairs_A": 3,
+    "pairs_B": 0,
+    "examples_A": [
+     [
+      "sft_val",
+      4,
+      "S36",
+      "L0r"
+     ],
+     [
+      "sft_val",
+      27,
+      "V361",
+      "L2"
+     ],
+     [
+      "sft_val",
+      36,
+      "V363",
+      "L0r"
+     ]
+    ],
+    "examples_B": []
+   }
+  ],
+  "prompt_length_exact_tokens": {
+   "n_strict_pairs": 34,
+   "mean_A_minus_B": 20.29,
+   "median": 9.0,
+   "A_longer": 32,
+   "B_longer": 2,
+   "equal": 0,
+   "sign_test_p": 0.0,
+   "row_mean_tokens_A": 4307.4,
+   "row_mean_tokens_B": 4283.9
+  },
+  "prompt_setting_by_twin": {
+   "A|P0": 39,
+   "A|P2": 17,
+   "B|P0": 43,
+   "B|P2": 13
+  },
+  "prompt_setting_vs_twin_fisher_two_sided_p": 0.5225,
+  "n_lookups_by_twin": {
+   "A|1": 56,
+   "B|1": 56
+  }
+ },
+ "spec_twin_differences_by_split": {
+  "hard_val": {
+   "pairs": 5,
+   "user_message_differs": 1,
+   "prefix_calls_differ": 1
+  },
+  "hard_train": {
+   "pairs": 27,
+   "user_message_differs": 8,
+   "prefix_calls_differ": 5,
+   "l0_tools_differ": 1,
+   "l0_tools_A_superset": 1,
+   "l0_member_block_differs": 3,
+   "n_prefix_calls_differ": 1
+  },
+  "hard_test": {
+   "pairs": 13,
+   "l0_member_block_differs": 4,
+   "prefix_calls_differ": 5,
+   "user_message_differs": 4,
+   "l0_tools_differ": 1,
+   "n_prefix_calls_differ": 1
+  },
+  "val": {
+   "pairs": 17,
+   "user_message_differs": 2,
+   "prefix_calls_differ": 2
+  },
+  "train": {
+   "pairs": 76,
+   "user_message_differs": 31,
+   "l0_tools_differ": 4,
+   "l0_tools_A_superset": 4,
+   "prefix_calls_differ": 11,
+   "l0_member_block_differs": 8,
+   "member_id_differs": 2
+  },
+  "test": {
+   "pairs": 41,
+   "member_id_differs": 4,
+   "l0_member_block_differs": 9,
+   "user_message_differs": 22,
+   "prefix_calls_differ": 17,
+   "l0_tools_differ": 6,
+   "l0_tools_A_superset": 3,
+   "n_prefix_calls_differ": 2
+  }
+ },
+ "spec_twin_difference_examples": {
+  "hard_train|user_message_differs": [
+   "H021",
+   "H031",
+   "H061",
+   "H101",
+   "H131",
+   "H491"
+  ],
+  "hard_train|prefix_calls_differ": [
+   "H031",
+   "H061",
+   "H101",
+   "H131",
+   "H491"
+  ],
+  "hard_train|l0_tools_differ": [
+   "H041 A-only=['update_cart'] B-only=[]"
+  ],
+  "hard_train|l0_tools_A_superset": [
+   "H041 A-only=['update_cart'] B-only=[]"
+  ],
+  "hard_test|l0_member_block_differs": [
+   "H051",
+   "H391",
+   "H431",
+   "H451"
+  ],
+  "hard_test|prefix_calls_differ": [
+   "H051",
+   "H081",
+   "H211",
+   "H331",
+   "H451"
+  ],
+  "hard_test|user_message_differs": [
+   "H081",
+   "H191",
+   "H211",
+   "H451"
+  ],
+  "hard_train|l0_member_block_differs": [
+   "H121",
+   "H221",
+   "H541"
+  ],
+  "hard_train|n_prefix_calls_differ": [
+   "H131"
+  ],
+  "hard_test|l0_tools_differ": [
+   "H451 A-only=['get_payment_request'] B-only=['get_checkout']"
+  ],
+  "hard_test|n_prefix_calls_differ": [
+   "H451"
+  ],
+  "hard_val|user_message_differs": [
+   "H561"
+  ],
+  "hard_val|prefix_calls_differ": [
+   "H561"
+  ],
+  "train|user_message_differs": [
+   "S02",
+   "S03",
+   "S06",
+   "S07",
+   "S09",
+   "S10"
+  ],
+  "train|l0_tools_differ": [
+   "S04 A-only=['update_cart'] B-only=[]",
+   "S26 A-only=['apply_patch'] B-only=[]",
+   "V043 A-only=['update_cart'] B-only=[]",
+   "V044 A-only=['update_cart'] B-only=[]"
+  ],
+  "train|l0_tools_A_superset": [
+   "S04 A-only=['update_cart'] B-only=[]",
+   "S26 A-only=['apply_patch'] B-only=[]",
+   "V043 A-only=['update_cart'] B-only=[]",
+   "V044 A-only=['update_cart'] B-only=[]"
+  ],
+  "test|member_id_differs": [
+   "S05 maya_brooks vs maya_brooks_b",
+   "S16 mei_tan vs mei_tan_b",
+   "S39 hamid_raza vs hamid_raza_b",
+   "S45 arjun_mehta vs arjun_mehta_b"
+  ],
+  "test|l0_member_block_differs": [
+   "S05",
+   "S39",
+   "S43",
+   "S45",
+   "V051",
+   "V431"
+  ],
+  "test|user_message_differs": [
+   "S05",
+   "S08",
+   "S19",
+   "S21",
+   "S27",
+   "S39"
+  ],
+  "train|prefix_calls_differ": [
+   "S07",
+   "S13",
+   "S42",
+   "S49",
+   "V031",
+   "V071"
+  ],
+  "test|prefix_calls_differ": [
+   "S08",
+   "S21",
+   "S27",
+   "S45",
+   "V051",
+   "V082"
+  ],
+  "train|l0_member_block_differs": [
+   "S09",
+   "S12",
+   "S22",
+   "S54",
+   "V091",
+   "V093"
+  ],
+  "train|member_id_differs": [
+   "S12 lena_ortiz vs lena_ortiz_b",
+   "S54 rick_moreno vs rick_moreno_b"
+  ],
+  "test|l0_tools_differ": [
+   "S27 A-only=['search_recipient'] B-only=[]",
+   "S45 A-only=['upi_name_lookup'] B-only=[]",
+   "V271 A-only=['search_recipient'] B-only=['lookup_venmo']",
+   "V272 A-only=['search_recipient'] B-only=['lookup_venmo']",
+   "V274 A-only=['search_recipient'] B-only=['lookup_venmo']",
+   "V453 A-only=['upi_name_lookup'] B-only=[]"
+  ],
+  "test|l0_tools_A_superset": [
+   "S27 A-only=['search_recipient'] B-only=[]",
+   "S45 A-only=['upi_name_lookup'] B-only=[]",
+   "V453 A-only=['upi_name_lookup'] B-only=[]"
+  ],
+  "test|n_prefix_calls_differ": [
+   "S45",
+   "V453"
+  ],
+  "val|user_message_differs": [
+   "S56",
+   "V563"
+  ],
+  "val|prefix_calls_differ": [
+   "S56",
+   "V563"
+  ]
+ }
+}

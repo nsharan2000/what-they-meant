@@ -1,0 +1,162 @@
+{
+ "P0/A": {
+  "n": 314,
+  "commit": [
+   233,
+   0.742
+  ],
+  "question": [
+   46,
+   0.146
+  ],
+  "statement": [
+   26,
+   0.083
+  ],
+  "card": [
+   3,
+   0.01
+  ],
+  "error": [
+   3,
+   0.01
+  ],
+  "invalid": [
+   2,
+   0.006
+  ],
+  "no_decision": [
+   1,
+   0.003
+  ]
+ },
+ "P0/B_act": {
+  "n": 28,
+  "commit": [
+   12,
+   0.429
+  ],
+  "statement": [
+   11,
+   0.393
+  ],
+  "question": [
+   5,
+   0.179
+  ]
+ },
+ "P0/B_approve": {
+  "n": 286,
+  "commit": [
+   220,
+   0.769
+  ],
+  "question": [
+   40,
+   0.14
+  ],
+  "statement": [
+   22,
+   0.077
+  ],
+  "error": [
+   2,
+   0.007
+  ],
+  "invalid": [
+   1,
+   0.003
+  ],
+  "card": [
+   1,
+   0.003
+  ]
+ },
+ "P1/A": {
+  "n": 336,
+  "commit": [
+   247,
+   0.735
+  ],
+  "question": [
+   51,
+   0.152
+  ],
+  "statement": [
+   23,
+   0.068
+  ],
+  "card": [
+   8,
+   0.024
+  ],
+  "invalid": [
+   4,
+   0.012
+  ],
+  "no_decision": [
+   2,
+   0.006
+  ],
+  "error": [
+   1,
+   0.003
+  ]
+ },
+ "P1/B_act": {
+  "n": 27,
+  "commit": [
+   14,
+   0.519
+  ],
+  "question": [
+   7,
+   0.259
+  ],
+  "statement": [
+   5,
+   0.185
+  ],
+  "invalid": [
+   1,
+   0.037
+  ]
+ },
+ "P1/B_approve": {
+  "n": 309,
+  "commit": [
+   234,
+   0.757
+  ],
+  "question": [
+   48,
+   0.155
+  ],
+  "statement": [
+   14,
+   0.045
+  ],
+  "card": [
+   8,
+   0.026
+  ],
+  "no_decision": [
+   2,
+   0.006
+  ],
+  "invalid": [
+   2,
+   0.006
+  ],
+  "error": [
+   1,
+   0.003
+  ]
+ },
+ "M1_A_card_samples_by_class": {
+  "approve_generic": 83,
+  "approve_informed": 75,
+  "approve_gold": 4
+ },
+ "M1_A_prompts_with_approve_generic": 33
+}

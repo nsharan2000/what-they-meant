@@ -1,0 +1,28 @@
+{
+ "closed_cost_per_decision_usd": {
+  "claude:haiku": 0.00841,
+  "claude:opus": 0.09045
+ },
+ "tiny_aya": {
+  "episodes": 1964,
+  "tokens_per_decision": 7352,
+  "throughput_tokens_per_s_gb10": 11047,
+  "wall_clock_s": 1307
+ },
+ "volumes": {
+  "100000": {
+   "self_host_L4_usd_month": 584.0,
+   "self_host_L4_usd_month_if_half_throughput": 584.0,
+   "gpu_hours_needed": 18.5,
+   "claude:haiku_usd_month": 840.7,
+   "claude:opus_usd_month": 9044.74
+  },
+  "1000000": {
+   "self_host_L4_usd_month": 584.0,
+   "self_host_L4_usd_month_if_half_throughput": 584.0,
+   "gpu_hours_needed": 184.9,
+   "claude:haiku_usd_month": 8407.01,
+   "claude:opus_usd_month": 90447.4
+  }
+ }
+}

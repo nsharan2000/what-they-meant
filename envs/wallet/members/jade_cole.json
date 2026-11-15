@@ -1,0 +1,1912 @@
+{
+ "member_id": "jade_cole",
+ "profile": {
+  "name": "Jade Cole",
+  "age": 23,
+  "city": "Nottingham, PA",
+  "country": "United States",
+  "occupation": "Construction laborer",
+  "summary": "Kestrel member since 2023-08 · identity verified · home currency USD · connected: Venmo, Fulton Bank Checking ••7059",
+  "email": "jade.cole@mail.com",
+  "phone": "555-0109",
+  "member_since": "2023-08-21",
+  "home_currency": "USD",
+  "timezone": "America/New_York",
+  "language": "en-US",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Jade Cole is a methodical yet imaginative young builder who balances hands‑on construction work with a passion for art, sustainability, and mentoring other women, all while juggling a frugal budget and a penchant for late‑night sketching marathons.",
+   "professional_persona": "Jade Cole is a 23‑year‑old construction laborer in Nottingham, Pennsylvania, who blends solid OSHA‑compliant trade skills—concrete mixing, framing, and blueprint reading—with a vivid artistic eye, and they routinely sketch on‑site design tweaks, propose sustainable renovations, methodically organize material inventories, and step into informal leadership roles as a trusted go‑to problem solver among the crew.",
+   "cultural_background": "Jade grew up in a working‑class family in the small community of Nottingham, Pennsylvania, where the values of hard work, self‑reliance, and community cooperation are deeply rooted. The region’s blend of historic colonial heritage and modern suburban development exposed her to both traditional craftsmanship—such as barn restoration and local folk arts—and contemporary construction trends. This environment fostered her pragmatic mindset and respect for manual labor while also providing access to local art fairs, community workshops, and a modest but vibrant cultural scene that nurtured her artistic curiosity.",
+   "sex": "Female",
+   "marital_status": "never_married",
+   "education_level": "9th_12th_no_diploma",
+   "occupation": "construction_laborer"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "47b6c07b4a7448d3986cc6d004cd541a",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "USA",
+    "age": 23,
+    "sex": "Female",
+    "seed": 0
+   },
+   "source_age": 23,
+   "source_location": "Nottingham, PA",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Emma Ferrell",
+    "Emma"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "Venmo balance",
+   "currency": "USD",
+   "balance": 310.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Dee Cole",
+   "venmo": "@dee-cole-1974",
+   "networks": [
+    "Venmo"
+   ],
+   "relationship": "mother",
+   "last_paid": "2026-11-09"
+  },
+  {
+   "name": "Cody Ferris",
+   "venmo": "@codyferris",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "friend",
+   "last_paid": "2026-09-13"
+  },
+  {
+   "name": "Lauren Hollis",
+   "venmo": "@lauren-hollis",
+   "networks": [
+    "Venmo",
+    "Zelle"
+   ],
+   "note": "roommate",
+   "last_paid": "2026-09-28"
+  },
+  {
+   "name": "Ava Lind",
+   "venmo": "@ava-lind",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "friend · concerts",
+   "last_paid": "2026-07-28"
+  },
+  {
+   "name": "Kenzie Martin",
+   "venmo": "@kenzie-martin",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "friend · art class",
+   "last_paid": "2026-10-15"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-VENMO",
+   "type": "payment_app",
+   "name": "Venmo",
+   "login": "@jade-cole-23",
+   "status": "connected",
+   "since": "2023-08-21"
+  },
+  {
+   "id": "LA-7059",
+   "type": "bank_account",
+   "name": "Fulton Bank Checking",
+   "last4": "7059",
+   "status": "active",
+   "since": "2023-08-22"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "Verizon Wireless",
+   "amount": 45.0,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "Fulton ••7059",
+   "next_charge": "2026-11-19",
+   "status": "active"
+  },
+  {
+   "name": "Procreate Pocket",
+   "amount": 4.99,
+   "currency": "USD",
+   "cadence": "one-time",
+   "billed_to": "Apple ID",
+   "next_charge": null,
+   "status": "paid"
+  }
+ ],
+ "standing_instructions": [
+  "SA-7059 · Auto cash-out · On the 1st, transfer any Venmo balance above $600 to Fulton checking ••7059. Runs automatically."
+ ],
+ "notes": [
+  "Buying a concert ticket from a stranger on a forum.",
+  "Prefers casual tone."
+ ],
+ "transactions": [
+  {
+   "id": "KXY9WBUSSP",
+   "date": "2026-11-09",
+   "time": "10:51",
+   "counterparty": "Dee Cole",
+   "handle": "@dee-cole-1974",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "pay you back"
+  },
+  {
+   "id": "KXL14XEYSM",
+   "date": "2026-11-05",
+   "time": "20:56",
+   "counterparty": "Taco Bell",
+   "amount": 8.69,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXMJAU1YGB",
+   "date": "2026-11-02",
+   "time": "20:36",
+   "counterparty": "Wawa",
+   "amount": 25.07,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXFH0JDMHY",
+   "date": "2026-10-15",
+   "time": "19:36",
+   "counterparty": "Kenzie Martin",
+   "handle": "@kenzie-martin",
+   "amount": 12.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "art supplies split"
+  },
+  {
+   "id": "KXF5AHDXFK",
+   "date": "2026-10-02",
+   "time": "11:55",
+   "counterparty": "Taco Bell",
+   "amount": 13.04,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXBW7MYJT8",
+   "date": "2026-09-28",
+   "time": "19:59",
+   "counterparty": "Lauren Hollis",
+   "handle": "@lauren-hollis",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "groceries"
+  },
+  {
+   "id": "KXEYNUNPLM",
+   "date": "2026-09-22",
+   "time": "10:50",
+   "counterparty": "Kenzie Martin",
+   "handle": "@kenzie-martin",
+   "amount": 8.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "wawa"
+  },
+  {
+   "id": "KXASFXSPF9",
+   "date": "2026-09-13",
+   "time": "09:54",
+   "counterparty": "Cody Ferris",
+   "handle": "@codyferris",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "pizza"
+  },
+  {
+   "id": "KXYDUNL0ZJ",
+   "date": "2026-09-11",
+   "time": "11:31",
+   "counterparty": "Wawa",
+   "amount": 20.46,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXZZ3FN2JF",
+   "date": "2026-09-04",
+   "time": "22:35",
+   "counterparty": "Taco Bell",
+   "amount": 9.37,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KX8C066XG7",
+   "date": "2026-09-01",
+   "time": "13:12",
+   "counterparty": "Kenzie Martin",
+   "handle": "@kenzie-martin",
+   "amount": 12.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "wawa run"
+  },
+  {
+   "id": "KX87XQ031D",
+   "date": "2026-08-13",
+   "time": "07:35",
+   "counterparty": "Kenzie Martin",
+   "handle": "@kenzie-martin",
+   "amount": 12.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "wawa run"
+  },
+  {
+   "id": "KXS81FL3PQ",
+   "date": "2026-08-11",
+   "time": "17:55",
+   "counterparty": "Kenzie Martin",
+   "handle": "@kenzie-martin",
+   "amount": 12.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "wawa"
+  },
+  {
+   "id": "KXASGW732Q",
+   "date": "2026-08-10",
+   "time": "17:12",
+   "counterparty": "Michaels",
+   "amount": 18.6,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXZ0D1VSVP",
+   "date": "2026-08-02",
+   "time": "14:29",
+   "counterparty": "Goodwill",
+   "amount": 12.22,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KX6SC3296R",
+   "date": "2026-08-01",
+   "time": "21:44",
+   "counterparty": "Goodwill",
+   "amount": 18.6,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXZJ997YXN",
+   "date": "2026-07-29",
+   "time": "17:58",
+   "counterparty": "Wawa",
+   "amount": 12.32,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXUJQVP3ZB",
+   "date": "2026-07-28",
+   "time": "11:08",
+   "counterparty": "Ava Lind",
+   "handle": "@ava-lind",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "pizza"
+  },
+  {
+   "id": "KXNWHVJTHQ",
+   "date": "2026-07-23",
+   "time": "12:58",
+   "counterparty": "Kenzie Martin",
+   "handle": "@kenzie-martin",
+   "amount": 8.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "wawa run"
+  },
+  {
+   "id": "KXBWBQA2RR",
+   "date": "2026-07-16",
+   "time": "09:53",
+   "counterparty": "Dee Cole",
+   "handle": "@dee-cole-1974",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "love mom"
+  },
+  {
+   "id": "KX12LFJ8YS",
+   "date": "2026-07-10",
+   "time": "07:43",
+   "counterparty": "Dee Cole",
+   "handle": "@dee-cole-1974",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "pay you back"
+  },
+  {
+   "id": "KX72LH3G4Q",
+   "date": "2026-07-04",
+   "time": "10:30",
+   "counterparty": "Lauren Hollis",
+   "handle": "@lauren-hollis",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "cleaning supplies"
+  },
+  {
+   "id": "KXE7CB004H",
+   "date": "2026-07-03",
+   "time": "20:34",
+   "counterparty": "Ava Lind",
+   "handle": "@ava-lind",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "pizza"
+  },
+  {
+   "id": "KXU1JJAZDV",
+   "date": "2026-07-02",
+   "time": "08:35",
+   "counterparty": "Lauren Hollis",
+   "handle": "@lauren-hollis",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "cleaning supplies"
+  },
+  {
+   "id": "KXYLYL2S3D",
+   "date": "2026-06-21",
+   "time": "18:50",
+   "counterparty": "Kenzie Martin",
+   "handle": "@kenzie-martin",
+   "amount": 8.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "wawa"
+  },
+  {
+   "id": "KXJV27RTRM",
+   "date": "2026-06-03",
+   "time": "12:03",
+   "counterparty": "Goodwill",
+   "amount": 18.47,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXM42QVCZJ",
+   "date": "2026-05-31",
+   "time": "17:40",
+   "counterparty": "Dee Cole",
+   "handle": "@dee-cole-1974",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "gas"
+  },
+  {
+   "id": "KXL8AZNVD1",
+   "date": "2026-05-22",
+   "time": "08:21",
+   "counterparty": "Dee Cole",
+   "handle": "@dee-cole-1974",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "pay you back"
+  },
+  {
+   "id": "KXUCZMKFRV",
+   "date": "2026-05-20",
+   "time": "18:20",
+   "counterparty": "Kenzie Martin",
+   "handle": "@kenzie-martin",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "art supplies split"
+  },
+  {
+   "id": "KXXFLJBH2C",
+   "date": "2026-05-12",
+   "time": "21:47",
+   "counterparty": "Michaels",
+   "amount": 36.56,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXZ4UT8VNZ",
+   "date": "2026-05-08",
+   "time": "14:27",
+   "counterparty": "Ava Lind",
+   "handle": "@ava-lind",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "concert parking"
+  },
+  {
+   "id": "KXM5FEJ1KC",
+   "date": "2026-05-03",
+   "time": "07:01",
+   "counterparty": "Ava Lind",
+   "handle": "@ava-lind",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "concert parking"
+  },
+  {
+   "id": "KXNWHS3EQ2",
+   "date": "2026-04-29",
+   "time": "16:22",
+   "counterparty": "Ava Lind",
+   "handle": "@ava-lind",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "concert parking"
+  },
+  {
+   "id": "KXHN676THK",
+   "date": "2026-04-27",
+   "time": "12:08",
+   "counterparty": "Goodwill",
+   "amount": 21.7,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXA7XLKXDU",
+   "date": "2026-04-25",
+   "time": "18:30",
+   "counterparty": "Cody Ferris",
+   "handle": "@codyferris",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "concert tix"
+  },
+  {
+   "id": "KXCUUCJPTH",
+   "date": "2026-04-20",
+   "time": "11:59",
+   "counterparty": "Goodwill",
+   "amount": 11.07,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXV0G0GFAJ",
+   "date": "2026-04-19",
+   "time": "18:44",
+   "counterparty": "Ava Lind",
+   "handle": "@ava-lind",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "concert parking"
+  },
+  {
+   "id": "KXLJYN728E",
+   "date": "2026-04-18",
+   "time": "07:00",
+   "counterparty": "Kenzie Martin",
+   "handle": "@kenzie-martin",
+   "amount": 12.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "art supplies split"
+  },
+  {
+   "id": "KX03QDDHPW",
+   "date": "2026-04-17",
+   "time": "13:37",
+   "counterparty": "Wawa",
+   "amount": 11.28,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXCQ6MMYJL",
+   "date": "2026-04-15",
+   "time": "21:38",
+   "counterparty": "Dee Cole",
+   "handle": "@dee-cole-1974",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "birthday!!"
+  },
+  {
+   "id": "KXFATDJ2XH",
+   "date": "2026-04-13",
+   "time": "19:43",
+   "counterparty": "Dee Cole",
+   "handle": "@dee-cole-1974",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "phone bill"
+  },
+  {
+   "id": "KXDQVW4BY8",
+   "date": "2026-04-09",
+   "time": "13:01",
+   "counterparty": "Kenzie Martin",
+   "handle": "@kenzie-martin",
+   "amount": 8.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "wawa"
+  },
+  {
+   "id": "KXFFW37DHT",
+   "date": "2026-04-02",
+   "time": "13:49",
+   "counterparty": "Goodwill",
+   "amount": 13.79,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXKVNXEGY3",
+   "date": "2026-03-20",
+   "time": "14:37",
+   "counterparty": "Cody Ferris",
+   "handle": "@codyferris",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "concert tix"
+  },
+  {
+   "id": "KXWB25C0WD",
+   "date": "2026-03-14",
+   "time": "20:44",
+   "counterparty": "Ava Lind",
+   "handle": "@ava-lind",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "pizza"
+  },
+  {
+   "id": "KX0QRZZ22C",
+   "date": "2026-02-21",
+   "time": "14:43",
+   "counterparty": "Kenzie Martin",
+   "handle": "@kenzie-martin",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "wawa run"
+  },
+  {
+   "id": "KXXQYXP8BF",
+   "date": "2026-02-20",
+   "time": "19:40",
+   "counterparty": "Goodwill",
+   "amount": 13.3,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXW2JZD8TP",
+   "date": "2026-02-18",
+   "time": "09:25",
+   "counterparty": "Ava Lind",
+   "handle": "@ava-lind",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "pizza"
+  },
+  {
+   "id": "KX8P7HLEUA",
+   "date": "2026-02-11",
+   "time": "07:41",
+   "counterparty": "Taco Bell",
+   "amount": 13.1,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXJ0RH98NS",
+   "date": "2026-02-07",
+   "time": "21:04",
+   "counterparty": "Wawa",
+   "amount": 9.61,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXMHU69RJ9",
+   "date": "2026-02-02",
+   "time": "07:29",
+   "counterparty": "Cody Ferris",
+   "handle": "@codyferris",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "gas"
+  },
+  {
+   "id": "KXZ4VC8KCV",
+   "date": "2026-01-23",
+   "time": "20:37",
+   "counterparty": "Kenzie Martin",
+   "handle": "@kenzie-martin",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "art supplies split"
+  },
+  {
+   "id": "KX134VEJAR",
+   "date": "2026-01-16",
+   "time": "14:44",
+   "counterparty": "Ava Lind",
+   "handle": "@ava-lind",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "pizza"
+  },
+  {
+   "id": "KX5317JFC9",
+   "date": "2026-01-14",
+   "time": "13:19",
+   "counterparty": "Dee Cole",
+   "handle": "@dee-cole-1974",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "gas"
+  },
+  {
+   "id": "KXXT5VD01H",
+   "date": "2026-01-06",
+   "time": "21:46",
+   "counterparty": "Dee Cole",
+   "handle": "@dee-cole-1974",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "pay you back"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-15",
+   "time": "11:28",
+   "type": "security",
+   "text": "New sign-in on iPhone 13 near Nottingham, PA. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-10-02",
+   "time": "12:00",
+   "type": "product",
+   "text": "New: see upcoming bills and subscriptions in one place."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BKAJG1FACY",
+   "date": "2026-11-10",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "DOLLAR GENERAL NOTTINGHAM",
+   "amount": 11.33,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKVEX6DGLW",
+   "date": "2026-11-06",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 617.14,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKS5HXPNQQ",
+   "date": "2026-11-01",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "ZELLE TO LAUREN HOLLIS (RENT)",
+   "amount": 525.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKP17G4XJX",
+   "date": "2026-10-30",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 619.27,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK24GMRKTN",
+   "date": "2026-10-26",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "PROGRESSIVE INS",
+   "amount": 138.2,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKRSKKVZP0",
+   "date": "2026-10-24",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "DOLLAR GENERAL NOTTINGHAM",
+   "amount": 12.57,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKXKKLT534",
+   "date": "2026-10-23",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "SHEETZ OXFORD",
+   "amount": 41.23,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKTLVKHJ9E",
+   "date": "2026-10-23",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 621.27,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKC7B1KSFB",
+   "date": "2026-10-19",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "VERIZON WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKA51DGAPT",
+   "date": "2026-10-16",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 597.25,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKWQABP5GD",
+   "date": "2026-10-14",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "WEIS MARKETS #212 OXFORD PA",
+   "amount": 49.9,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK98UQGB6P",
+   "date": "2026-10-09",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 598.64,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKLF3HGTK3",
+   "date": "2026-10-07",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "TRACTOR SUPPLY CO #812",
+   "amount": 55.87,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKB04VG1SA",
+   "date": "2026-10-05",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "HOME DEPOT #4118 AVONDALE",
+   "amount": 24.89,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKMVJK7RR7",
+   "date": "2026-10-02",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 591.25,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK5UJB26PE",
+   "date": "2026-10-01",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "ZELLE TO LAUREN HOLLIS (RENT)",
+   "amount": 525.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKB6WRENNX",
+   "date": "2026-09-26",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "PROGRESSIVE INS",
+   "amount": 138.2,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK8TKDKKZK",
+   "date": "2026-09-25",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 610.22,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKB3JEMDQE",
+   "date": "2026-09-19",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "VERIZON WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKDT00LCT3",
+   "date": "2026-09-18",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 642.36,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQRAGMN2X",
+   "date": "2026-09-11",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 613.41,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKBQJWULVM",
+   "date": "2026-09-04",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 622.39,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK5Q7VX2CU",
+   "date": "2026-09-04",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "ALDI OXFORD",
+   "amount": 27.62,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKT304U16D",
+   "date": "2026-09-01",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "ZELLE TO LAUREN HOLLIS (RENT)",
+   "amount": 525.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKYS6A5R6S",
+   "date": "2026-08-28",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 604.63,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKJU30FUDG",
+   "date": "2026-08-26",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "PROGRESSIVE INS",
+   "amount": 138.2,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKK3PDTT03",
+   "date": "2026-08-21",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 604.27,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK6R1XPWNC",
+   "date": "2026-08-19",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "VERIZON WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKQ8E19BCZ",
+   "date": "2026-08-14",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 605.72,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKCNLWYZDQ",
+   "date": "2026-08-12",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "HOME DEPOT #4118 AVONDALE",
+   "amount": 66.21,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKR28TPZQK",
+   "date": "2026-08-10",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "WEIS MARKETS #212 OXFORD PA",
+   "amount": 42.33,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKB00A0XPY",
+   "date": "2026-08-09",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "DOLLAR GENERAL NOTTINGHAM",
+   "amount": 14.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK1PDC00QE",
+   "date": "2026-08-09",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "ALDI OXFORD",
+   "amount": 40.13,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKDLRXG13K",
+   "date": "2026-08-07",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 612.53,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKZB7H4TFJ",
+   "date": "2026-08-01",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "ZELLE TO LAUREN HOLLIS (RENT)",
+   "amount": 525.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKS4FR03BE",
+   "date": "2026-07-31",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 646.39,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKWFYMJT01",
+   "date": "2026-07-26",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "PROGRESSIVE INS",
+   "amount": 138.2,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKF4QN9L7A",
+   "date": "2026-07-24",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 618.88,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQJCVWH79",
+   "date": "2026-07-22",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "WEIS MARKETS #212 OXFORD PA",
+   "amount": 31.31,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKM77S4UYD",
+   "date": "2026-07-19",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "VERIZON WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKU5JFX3UB",
+   "date": "2026-07-17",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 590.06,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKHE0HZYS6",
+   "date": "2026-07-12",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "TRACTOR SUPPLY CO #812",
+   "amount": 43.97,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKGGTD2NMW",
+   "date": "2026-07-10",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 602.62,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKNZU2H6HZ",
+   "date": "2026-07-03",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 650.29,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKWN1DZ4U7",
+   "date": "2026-07-01",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "ZELLE TO LAUREN HOLLIS (RENT)",
+   "amount": 525.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKXSEKSDHY",
+   "date": "2026-06-26",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "ALDI OXFORD",
+   "amount": 20.53,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKVK56XNES",
+   "date": "2026-06-26",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 602.74,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK6TVVJA2F",
+   "date": "2026-06-26",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "PROGRESSIVE INS",
+   "amount": 138.2,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKKMRR1YFH",
+   "date": "2026-06-20",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "DOLLAR GENERAL NOTTINGHAM",
+   "amount": 13.32,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKWWHEBT22",
+   "date": "2026-06-19",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 618.68,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQYJPFNYD",
+   "date": "2026-06-19",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "VERIZON WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK5AAW6VS0",
+   "date": "2026-06-15",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "WEIS MARKETS #212 OXFORD PA",
+   "amount": 45.68,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKE7H93ZR1",
+   "date": "2026-06-12",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "WEIS MARKETS #212 OXFORD PA",
+   "amount": 20.12,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKA53A6RED",
+   "date": "2026-06-12",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 649.36,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKMVMWAPP3",
+   "date": "2026-06-05",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 634.7,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKBQLYTMFG",
+   "date": "2026-06-01",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "ZELLE TO LAUREN HOLLIS (RENT)",
+   "amount": 525.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKEK155CMR",
+   "date": "2026-05-29",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 658.62,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKP9Z0FRH2",
+   "date": "2026-05-26",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "PROGRESSIVE INS",
+   "amount": 138.2,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKJ487FP1F",
+   "date": "2026-05-22",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 601.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK9N48FDNG",
+   "date": "2026-05-19",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "VERIZON WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKLAFAKNPA",
+   "date": "2026-05-15",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 660.14,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK9T9CEWT6",
+   "date": "2026-05-08",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 602.61,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKUCDYKCKG",
+   "date": "2026-05-05",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "ALDI OXFORD",
+   "amount": 45.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKDCVA0JPC",
+   "date": "2026-05-02",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "TRACTOR SUPPLY CO #812",
+   "amount": 54.09,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKZSKCQ6UY",
+   "date": "2026-05-01",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "ZELLE TO LAUREN HOLLIS (RENT)",
+   "amount": 525.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKXEPAT53X",
+   "date": "2026-05-01",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 619.48,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKZ048YA4S",
+   "date": "2026-04-29",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "WEIS MARKETS #212 OXFORD PA",
+   "amount": 45.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKAM3T66JT",
+   "date": "2026-04-26",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "PROGRESSIVE INS",
+   "amount": 138.2,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKXQWEWBVN",
+   "date": "2026-04-24",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 638.11,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKP4W289T1",
+   "date": "2026-04-19",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "VERIZON WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKF913EUPM",
+   "date": "2026-04-19",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "SHEETZ OXFORD",
+   "amount": 43.42,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKQS54CSBW",
+   "date": "2026-04-17",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 656.71,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKMF5QVH3X",
+   "date": "2026-04-13",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "WEIS MARKETS #212 OXFORD PA",
+   "amount": 27.86,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKL4RGPJ1F",
+   "date": "2026-04-10",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 642.1,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKYCU8W93X",
+   "date": "2026-04-03",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 653.74,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK7BG5TT95",
+   "date": "2026-04-01",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "ZELLE TO LAUREN HOLLIS (RENT)",
+   "amount": 525.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKUNUUQUG5",
+   "date": "2026-03-27",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "WEIS MARKETS #212 OXFORD PA",
+   "amount": 18.93,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK69ELBVCF",
+   "date": "2026-03-27",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 653.97,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK9X9KH4XD",
+   "date": "2026-03-26",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "PROGRESSIVE INS",
+   "amount": 138.2,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKPY0H0D06",
+   "date": "2026-03-25",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "DOLLAR GENERAL NOTTINGHAM",
+   "amount": 11.08,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKPBX8TCMQ",
+   "date": "2026-03-20",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "WEIS MARKETS #212 OXFORD PA",
+   "amount": 49.86,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKH3F2C61C",
+   "date": "2026-03-20",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 609.06,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKF786S5JJ",
+   "date": "2026-03-19",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "VERIZON WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKJSGUPLYC",
+   "date": "2026-03-18",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "HOME DEPOT #4118 AVONDALE",
+   "amount": 36.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKX6WZHJ7V",
+   "date": "2026-03-13",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 659.93,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK9YW49KSE",
+   "date": "2026-03-06",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 639.32,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKXKMZ8NV0",
+   "date": "2026-03-01",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "ZELLE TO LAUREN HOLLIS (RENT)",
+   "amount": 525.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK2TNGRVA6",
+   "date": "2026-02-27",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 598.18,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKFGM7YF6W",
+   "date": "2026-02-26",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "PROGRESSIVE INS",
+   "amount": 138.2,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKW3QT58DN",
+   "date": "2026-02-20",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 615.53,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKLQMWA81V",
+   "date": "2026-02-19",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "VERIZON WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKLHFEWN5T",
+   "date": "2026-02-13",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 639.06,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKCSR9GKNM",
+   "date": "2026-02-12",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "SHEETZ OXFORD",
+   "amount": 36.43,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKL4YQPEUF",
+   "date": "2026-02-11",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "TRACTOR SUPPLY CO #812",
+   "amount": 72.53,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKKK4T6FB2",
+   "date": "2026-02-06",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "HOME DEPOT #4118 AVONDALE",
+   "amount": 69.92,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKA9Q70HBV",
+   "date": "2026-02-06",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 655.08,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKLU2R4SMA",
+   "date": "2026-02-03",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "WEIS MARKETS #212 OXFORD PA",
+   "amount": 24.7,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK0UG102S3",
+   "date": "2026-02-01",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "ZELLE TO LAUREN HOLLIS (RENT)",
+   "amount": 525.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKVKMGRLNX",
+   "date": "2026-01-30",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 590.16,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKCGG76AWH",
+   "date": "2026-01-27",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "WEIS MARKETS #212 OXFORD PA",
+   "amount": 59.59,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK0NGEMW2F",
+   "date": "2026-01-26",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "PROGRESSIVE INS",
+   "amount": 138.2,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKTW8SLNV7",
+   "date": "2026-01-23",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 625.32,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKEVG2XZJY",
+   "date": "2026-01-19",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "VERIZON WIRELESS",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKYKZ6XP8L",
+   "date": "2026-01-16",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 598.14,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKC3EBB4L9",
+   "date": "2026-01-13",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "SHEETZ OXFORD",
+   "amount": 34.06,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK9MMJFW9K",
+   "date": "2026-01-09",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "SUSQUEHANNA FRAMING CO PAYROLL",
+   "amount": 643.47,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK8M9GL9LW",
+   "date": "2026-01-05",
+   "account": "Fulton Visa Debit ••7059",
+   "description": "ALDI OXFORD",
+   "amount": 47.82,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKB5GBLLLE",
+   "date": "2026-01-01",
+   "account": "Fulton Bank Checking ••7059",
+   "description": "ZELLE TO LAUREN HOLLIS (RENT)",
+   "amount": 525.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S53"
+  ],
+  "scenarios": [
+   "S53A",
+   "S53B"
+  ],
+  "world": "shared (both twins)",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261126,
+  "record_counts": {
+   "transactions": 55,
+   "bank_transactions": 108,
+   "total_money_records": 163
+  }
+ }
+}

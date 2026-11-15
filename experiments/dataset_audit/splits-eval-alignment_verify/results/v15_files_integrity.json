@@ -1,0 +1,24 @@
+{
+ "a_training_files": {
+  "local_file_sha256(not what trainers record)": {
+   "sft_train.jsonl": "4b0b44af5b25a36a1245c9753944edc0cad12172a4aa4b9f5335f1d94db5a28c",
+   "sft_val.jsonl": "cf122cffd91dc66dd358f1b07228de0575dc0e1e77e9f6dd6777028bfeb79847",
+   "dpo_train.jsonl": "380422fc63d87e76850535a9d319df21e36e5548cc239da8f631f96b5c7fe28f",
+   "grpo_train.jsonl": "97bf1cb755e16c394ac4563e3aec3b0c39c6ce91fdd903bff40fbc25749702ca"
+  },
+  "m1_train_rows_sha_match": true,
+  "m1_val_rows_sha_match": true,
+  "m2_grpo_rows_sha_match": true,
+  "m2_levels_arg": null
+ },
+ "b_eval_files": {
+  "eval_rows": 207,
+  "rows_differing_from_specs": [],
+  "SHA256SUMS_ok": 20,
+  "SHA256SUMS_files": 20
+ },
+ "c_lengths": {
+  "max_prompt_tokens_any_training_row": 7435,
+  "plus_grpo_completion_budget_256": 7691
+ }
+}

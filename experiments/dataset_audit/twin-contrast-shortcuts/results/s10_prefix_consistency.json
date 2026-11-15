@@ -1,0 +1,14 @@
+{
+ "sft_train": {
+  "decision_rows": {
+   "identical": 497
+  },
+  "different_examples": []
+ },
+ "sft_val": {
+  "decision_rows": {
+   "identical": 112
+  },
+  "different_examples": []
+ }
+}

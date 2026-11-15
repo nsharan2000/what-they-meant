@@ -1,0 +1,47 @@
+{
+ "scenario_record_lines_L2": {
+  "records": 310,
+  "found": 304,
+  "beyond_4096": 106,
+  "not_found_verbatim(capped_or_reformatted)": 6
+ },
+ "record_examples_beyond": [
+  [
+   12,
+   "V042B",
+   4229,
+   "2026-10-25 | -£4.20 | Moorside Supermarket | card · Garlic 2 pcs · completed"
+  ],
+  [
+   12,
+   "V042B",
+   4473,
+   "2026-11-02 | -£4.20 | Moorside Supermarket | card · Garlic 2 pcs · completed"
+  ],
+  [
+   17,
+   "V073A",
+   4470,
+   "2026-10-22 | -$40.00 | Hana Choi | PayPal · Friends & Family · yoga studio fee"
+  ],
+  [
+   31,
+   "V492A",
+   4375,
+   "2026-10-25 | -$15.00 | Mo Ahmed (@mo-ahmed-615) | Venmo · Payment · bowling"
+  ]
+ ],
+ "A_target_identifiers_L2": {
+  "identifiers": 44,
+  "nearest_in_tail": 22,
+  "nearest_beyond_4096": 0,
+  "not_in_prompt": 3
+ },
+ "identifiers_beyond_4096": [],
+ "m1_A_L2_accuracy_by_comparator_depth": {
+  "near": [
+   75,
+   128
+  ]
+ }
+}

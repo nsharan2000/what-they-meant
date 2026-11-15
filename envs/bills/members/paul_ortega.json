@@ -1,0 +1,2512 @@
+{
+ "member_id": "paul_ortega",
+ "profile": {
+  "name": "Paul Ortega",
+  "age": 46,
+  "sex": "Male",
+  "city": "San Antonio, TX",
+  "country": "USA",
+  "currency": "USD",
+  "occupation": "Bank teller",
+  "summary": "Customer since 2014. Homeowner in San Antonio (Harborline Home Loans mortgage ****5521; taxes and insurance paid through escrow). Married to Marisol; pays the household bills from Checking.",
+  "persona": {
+   "persona": "Paul Ortega is a methodical, socially vibrant bank teller who juggles community mentorship, weekend soccer, and a relentless quest for perfect salsa, yet they sometimes binge‑watch financial news late into the night, sacrificing sleep.",
+   "professional_persona": "A dedicated bank teller with over 20 years of experience, Paul Ortega leverages bilingual fluency and meticulous record‑keeping to deliver flawless transactions while mentoring new staff, and they are pursuing a Certified Financial Services Counselor designation to step into branch management.",
+   "cultural_background": "Paul was raised in a bilingual Mexican‑American household in San Antonio, where Spanish was spoken at home and family traditions from his ancestors in Jalisco were celebrated. He grew up participating in Día de los Muertos altars, Cinco de Mayo parades, and the city’s annual Fiesta, which ingrained a strong sense of cultural pride. His Catholic upbringing emphasized community service and family cohesion. The blend of Mexican heritage and Texan influences shapes his values, culinary tastes, and his commitment to preserving cultural arts within his neighborhood.",
+   "sex": "Male",
+   "age": 46,
+   "marital_status": "married_present",
+   "education_level": "9th_12th_no_diploma",
+   "occupation": "teller",
+   "city": "San Antonio",
+   "state": "TX",
+   "country": "USA"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "d70938ef19ee4acab12550af790fc423",
+   "license": "CC-BY-4.0",
+   "match": {
+    "country": "USA",
+    "age": 46,
+    "sex": "Male",
+    "seed": 10,
+    "reason": "closest-age married male persona from a Mexican-American household in San Antonio (fits the surname Ortega and a homeowner with a mortgage)"
+   },
+   "adaptation": "persona name 'Oscar Colon' replaced with 'Paul Ortega'; age 45 replaced with 46"
+  }
+ },
+ "account_profile": {
+  "customer_id": "LDG-US-20417",
+  "name": "Paul Ortega",
+  "email": "paul.ortega.sa77@gmail.com",
+  "phone": "(210) 555-0163",
+  "address": "1127 Paloma Ridge Dr, San Antonio, TX 78245",
+  "member_since": "2014-03-03",
+  "segment": "Everyday",
+  "language": "en-US",
+  "features": {
+   "bill_pay": true,
+   "subscription_tracker": true,
+   "merchant_actions": false
+  },
+  "alerts": {
+   "large_payment": "$1,000"
+  }
+ },
+ "accounts": [
+  {
+   "id": "CHK-0417",
+   "name": "Checking ****0417",
+   "type": "checking",
+   "currency": "USD",
+   "balance": 6120.0
+  },
+  {
+   "id": "SAV-0425",
+   "name": "Savings ****0425",
+   "type": "savings",
+   "currency": "USD",
+   "balance": 18450.17
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Marisol Ortega",
+   "type": "person",
+   "relationship": "spouse",
+   "handle": "marisol.ortega.sa@gmail.com"
+  },
+  {
+   "name": "Diego Ortega",
+   "type": "person",
+   "relationship": "son",
+   "handle": "(210) 555-0137",
+   "last_paid": "2026-11-03"
+  },
+  {
+   "name": "Harborline Home Loans",
+   "type": "biller",
+   "category": "mortgage",
+   "reference": "loan ****5521",
+   "last_paid": "2026-11-02"
+  },
+  {
+   "name": "CPS Energy",
+   "type": "biller",
+   "category": "electric & gas",
+   "reference": "****3360"
+  },
+  {
+   "name": "SAWS",
+   "type": "biller",
+   "category": "water",
+   "reference": "****9015"
+  },
+  {
+   "name": "USAA",
+   "type": "biller",
+   "category": "auto insurance",
+   "reference": "policy ****7702"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "type": "loan",
+   "provider": "Harborline Home Loans",
+   "account": "mortgage ****5521",
+   "status": "connected (statements and escrow)"
+  },
+  {
+   "type": "p2p",
+   "provider": "Zelle",
+   "handle": "paul.ortega.sa77@gmail.com",
+   "status": "enrolled"
+  }
+ ],
+ "subscriptions": [
+  {
+   "merchant": "Netflix",
+   "plan": "Standard",
+   "price": 17.99,
+   "currency": "USD",
+   "billing": "monthly, 15th",
+   "charged_to": "debit card ****0417",
+   "status": "active"
+  },
+  {
+   "merchant": "Costco",
+   "plan": "Gold Star membership",
+   "price": 65.0,
+   "currency": "USD",
+   "billing": "yearly, March",
+   "charged_to": "debit card ****0417",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SI-1182 · Autopay: CPS Energy bill in full on its due date from Checking ****0417 (pre-approved up to $400 per bill).",
+  "SI-1190 · Autopay: USAA auto insurance $186.40 on the 8th (pre-approved)."
+ ],
+ "notes": [
+  "2026-11-09 · The mortgage used to be $1,800 a month. The lender's new bill says $2,150."
+ ],
+ "bills": [
+  {
+   "biller": "Harborline Home Loans",
+   "account": "mortgage ****5521",
+   "issued": "2026-11-09",
+   "due": "2026-12-01",
+   "amount": 2150.0,
+   "currency": "USD",
+   "status": "unpaid",
+   "breakdown": "principal & interest $1,262.40 + escrow $887.60 (was $537.60)"
+  },
+  {
+   "biller": "Harborline Home Loans",
+   "account": "mortgage ****5521",
+   "issued": "2026-10-09",
+   "due": "2026-11-01",
+   "amount": 1800.0,
+   "currency": "USD",
+   "status": "paid 2026-11-02"
+  },
+  {
+   "biller": "CPS Energy",
+   "issued": "2026-10-28",
+   "due": "2026-11-20",
+   "amount": 148.22,
+   "currency": "USD",
+   "status": "autopay scheduled (SI-1182)"
+  },
+  {
+   "biller": "SAWS",
+   "issued": "2026-10-30",
+   "due": "2026-11-24",
+   "amount": 61.48,
+   "currency": "USD",
+   "status": "unpaid"
+  }
+ ],
+ "notifications": [
+  {
+   "date": "2026-11-09",
+   "from": "Harborline Home Loans",
+   "text": "Your December mortgage statement is ready. Amount due Dec 1: $2,150.00."
+  },
+  {
+   "date": "2026-11-05",
+   "from": "Harborline Home Loans",
+   "text": "Your annual escrow account review is complete. Your new monthly payment of $2,150.00 starts with your Dec 1, 2026 payment (currently $1,800.00)."
+  },
+  {
+   "date": "2026-11-02",
+   "from": "Ledgerly",
+   "text": "Payment sent: $1,800.00 to Harborline Home Loans (mortgage ****5521)."
+  },
+  {
+   "date": "2026-11-09",
+   "from": "USAA",
+   "text": "We received your auto insurance payment of $186.40."
+  }
+ ],
+ "event_log": [
+  {
+   "date": "2026-11-02",
+   "actor": "assistant",
+   "action": "pay_mortgage",
+   "detail": "$1,800.00 to Harborline Home Loans ****5521, approved by member",
+   "ref": "LDG-M7K2QX"
+  },
+  {
+   "date": "2026-10-01",
+   "actor": "assistant",
+   "action": "pay_mortgage",
+   "detail": "$1,800.00 to Harborline Home Loans ****5521, approved by member",
+   "ref": "LDG-J4R8WD"
+  },
+  {
+   "date": "2026-09-01",
+   "actor": "assistant",
+   "action": "pay_mortgage",
+   "detail": "$1,800.00 to Harborline Home Loans ****5521, approved by member",
+   "ref": "LDG-C9P3NV"
+  }
+ ],
+ "transactions": [
+  {
+   "id": "txn_6tu9jmcu",
+   "date": "2026-11-12",
+   "counterparty": "Spectrum",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_rt478mwb",
+   "date": "2026-11-09",
+   "counterparty": "H-E-B",
+   "amount": 146.44,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_qjuz2yre",
+   "date": "2026-11-09",
+   "counterparty": "St. Joseph Catholic Church",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Online giving",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_sb2psywh",
+   "date": "2026-11-09",
+   "counterparty": "USAA",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Auto insurance",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_6wsb7f88",
+   "date": "2026-11-06",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_hknv6hm4",
+   "date": "2026-11-03",
+   "counterparty": "Diego Ortega",
+   "handle": "(210) 555-0137",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Zelle",
+   "memo": "books & food",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_bsbzew4j",
+   "date": "2026-11-02",
+   "counterparty": "Harborline Home Loans",
+   "amount": 1800.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Mortgage ****5521, monthly payment",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_5wa23jn4",
+   "date": "2026-11-02",
+   "counterparty": "Savings ****0425",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "To savings",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_dn2pbrby",
+   "date": "2026-11-02",
+   "counterparty": "Marisol Ortega",
+   "handle": "marisol.ortega.sa@gmail.com",
+   "amount": 900.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Zelle",
+   "memo": "household",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_r4u85ag6",
+   "date": "2026-10-30",
+   "counterparty": "H-E-B",
+   "amount": 104.24,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_4b9fpnyy",
+   "date": "2026-10-26",
+   "counterparty": "SAWS",
+   "amount": 65.31,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Water & sewer",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_w9nxcrgf",
+   "date": "2026-10-24",
+   "counterparty": "Whataburger",
+   "amount": 27.44,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_euh5rrpr",
+   "date": "2026-10-24",
+   "counterparty": "Valero",
+   "amount": 52.57,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "fuel",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_vjs8bbf7",
+   "date": "2026-10-23",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_3fre2q72",
+   "date": "2026-10-20",
+   "counterparty": "CPS Energy",
+   "amount": 171.36,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric & gas",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_kgs4en2a",
+   "date": "2026-10-19",
+   "counterparty": "AT&T",
+   "amount": 148.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 3 lines",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_q79xnkpy",
+   "date": "2026-10-15",
+   "counterparty": "Whataburger",
+   "amount": 26.75,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_f6d7cd7p",
+   "date": "2026-10-15",
+   "counterparty": "Netflix",
+   "amount": 17.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Standard",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_x6s5zpcu",
+   "date": "2026-10-12",
+   "counterparty": "Spectrum",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_7ycnrgef",
+   "date": "2026-10-11",
+   "counterparty": "H-E-B",
+   "amount": 164.85,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_wduh2abu",
+   "date": "2026-10-09",
+   "counterparty": "Costco",
+   "amount": 209.48,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_6scuex5k",
+   "date": "2026-10-09",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_f9rwkxc4",
+   "date": "2026-10-08",
+   "counterparty": "USAA",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Auto insurance",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ue887sfs",
+   "date": "2026-10-07",
+   "counterparty": "St. Joseph Catholic Church",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Online giving",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_e8sfwwzk",
+   "date": "2026-10-05",
+   "counterparty": "The Home Depot",
+   "amount": 105.87,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_bm9qvte5",
+   "date": "2026-10-03",
+   "counterparty": "H-E-B",
+   "amount": 182.93,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_x2bgsndx",
+   "date": "2026-10-03",
+   "counterparty": "Diego Ortega",
+   "handle": "(210) 555-0137",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Zelle",
+   "memo": "books & food",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_c6dvmtce",
+   "date": "2026-10-02",
+   "counterparty": "Savings ****0425",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "To savings",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ezw468dd",
+   "date": "2026-10-01",
+   "counterparty": "Harborline Home Loans",
+   "amount": 1800.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Mortgage ****5521, monthly payment",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_u8mffrhf",
+   "date": "2026-10-01",
+   "counterparty": "Marisol Ortega",
+   "handle": "marisol.ortega.sa@gmail.com",
+   "amount": 900.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Zelle",
+   "memo": "household",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_5tn6mf8b",
+   "date": "2026-09-30",
+   "counterparty": "H-E-B",
+   "amount": 137.74,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_2kkyqx84",
+   "date": "2026-09-29",
+   "counterparty": "H-E-B",
+   "amount": 133.88,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_88srnaxw",
+   "date": "2026-09-25",
+   "counterparty": "Taco Cabana",
+   "amount": 19.97,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ajgt45hr",
+   "date": "2026-09-25",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_masxn28u",
+   "date": "2026-09-24",
+   "counterparty": "SAWS",
+   "amount": 75.19,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Water & sewer",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_dr4gztr7",
+   "date": "2026-09-21",
+   "counterparty": "CPS Energy",
+   "amount": 264.18,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric & gas",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_vfbe36xb",
+   "date": "2026-09-18",
+   "counterparty": "AT&T",
+   "amount": 148.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 3 lines",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_xkmsmzed",
+   "date": "2026-09-17",
+   "counterparty": "H-E-B Fuel",
+   "amount": 54.07,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "fuel",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_g6z4658u",
+   "date": "2026-09-15",
+   "counterparty": "Netflix",
+   "amount": 17.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Standard",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_prdcftpp",
+   "date": "2026-09-14",
+   "counterparty": "Spectrum",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_k8wg8xfr",
+   "date": "2026-09-12",
+   "counterparty": "H-E-B",
+   "amount": 44.09,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_vnv8pykv",
+   "date": "2026-09-12",
+   "counterparty": "H-E-B",
+   "amount": 89.33,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_7vvbcdtt",
+   "date": "2026-09-11",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_cbjmv6cy",
+   "date": "2026-09-08",
+   "counterparty": "USAA",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Auto insurance",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_47vsgdqw",
+   "date": "2026-09-07",
+   "counterparty": "St. Joseph Catholic Church",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Online giving",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_2mngvmcy",
+   "date": "2026-09-06",
+   "counterparty": "Whataburger",
+   "amount": 15.06,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_dht95sxc",
+   "date": "2026-09-05",
+   "counterparty": "Alamo City Adult Soccer League",
+   "amount": 120.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Fall season fee",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_vv8yd9t9",
+   "date": "2026-09-04",
+   "counterparty": "The Home Depot",
+   "amount": 111.58,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_8s2hgdmv",
+   "date": "2026-09-03",
+   "counterparty": "Diego Ortega",
+   "handle": "(210) 555-0137",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Zelle",
+   "memo": "books & food",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_azukba27",
+   "date": "2026-09-02",
+   "counterparty": "Savings ****0425",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "To savings",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_nk8jkgxr",
+   "date": "2026-09-01",
+   "counterparty": "Harborline Home Loans",
+   "amount": 1800.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Mortgage ****5521, monthly payment",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_uzxxky24",
+   "date": "2026-09-01",
+   "counterparty": "Marisol Ortega",
+   "handle": "marisol.ortega.sa@gmail.com",
+   "amount": 900.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Zelle",
+   "memo": "household",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_zbgxnkyx",
+   "date": "2026-08-28",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_u2nmg2ab",
+   "date": "2026-08-26",
+   "counterparty": "H-E-B",
+   "amount": 99.38,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_bz42n8h6",
+   "date": "2026-08-24",
+   "counterparty": "SAWS",
+   "amount": 87.62,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Water & sewer",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_qa3x35m8",
+   "date": "2026-08-20",
+   "counterparty": "CPS Energy",
+   "amount": 312.66,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric & gas",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_zjfsxk2g",
+   "date": "2026-08-19",
+   "counterparty": "H-E-B",
+   "amount": 54.12,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ymspkqaz",
+   "date": "2026-08-18",
+   "counterparty": "AT&T",
+   "amount": 148.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 3 lines",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_nwydbqnh",
+   "date": "2026-08-17",
+   "counterparty": "UTSA",
+   "amount": 1250.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Diego, fall tuition balance",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_gb334f4c",
+   "date": "2026-08-15",
+   "counterparty": "Netflix",
+   "amount": 17.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Standard",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_8h3dvpfn",
+   "date": "2026-08-14",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_7b3b5xsh",
+   "date": "2026-08-12",
+   "counterparty": "Spectrum",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_tu954xd2",
+   "date": "2026-08-10",
+   "counterparty": "USAA",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Auto insurance",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_bv8cf76j",
+   "date": "2026-08-07",
+   "counterparty": "H-E-B Fuel",
+   "amount": 40.96,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "fuel",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_sfm2uncy",
+   "date": "2026-08-07",
+   "counterparty": "H-E-B",
+   "amount": 85.61,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_sq8pv2t7",
+   "date": "2026-08-07",
+   "counterparty": "St. Joseph Catholic Church",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Online giving",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_dwh6y8jh",
+   "date": "2026-08-04",
+   "counterparty": "Valero",
+   "amount": 47.42,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "fuel",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_abp7ya92",
+   "date": "2026-08-03",
+   "counterparty": "Savings ****0425",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "To savings",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_9cc22f85",
+   "date": "2026-08-03",
+   "counterparty": "Diego Ortega",
+   "handle": "(210) 555-0137",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Zelle",
+   "memo": "books & food",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_qznhy25n",
+   "date": "2026-08-03",
+   "counterparty": "Harborline Home Loans",
+   "amount": 1800.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Mortgage ****5521, monthly payment",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ezegx3v2",
+   "date": "2026-08-03",
+   "counterparty": "Marisol Ortega",
+   "handle": "marisol.ortega.sa@gmail.com",
+   "amount": 900.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Zelle",
+   "memo": "household",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_hsdrydma",
+   "date": "2026-08-01",
+   "counterparty": "Whataburger",
+   "amount": 32.07,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_prjw5qqg",
+   "date": "2026-07-31",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_t59ujhcg",
+   "date": "2026-07-24",
+   "counterparty": "H-E-B",
+   "amount": 170.69,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_cuwn3zru",
+   "date": "2026-07-24",
+   "counterparty": "SAWS",
+   "amount": 84.5,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Water & sewer",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_pp7nnp7u",
+   "date": "2026-07-22",
+   "counterparty": "Alamo Air Conditioning",
+   "amount": 1850.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "AC compressor replacement",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_qrzh3x36",
+   "date": "2026-07-20",
+   "counterparty": "Whataburger",
+   "amount": 14.29,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_m93rg5th",
+   "date": "2026-07-20",
+   "counterparty": "AT&T",
+   "amount": 148.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 3 lines",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_nh5f4qhj",
+   "date": "2026-07-20",
+   "counterparty": "CPS Energy",
+   "amount": 298.41,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric & gas",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_nqhcmpbe",
+   "date": "2026-07-17",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_26vsya88",
+   "date": "2026-07-15",
+   "counterparty": "Netflix",
+   "amount": 17.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Standard",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_x65kgpn5",
+   "date": "2026-07-13",
+   "counterparty": "The Home Depot",
+   "amount": 127.12,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_gae9twra",
+   "date": "2026-07-13",
+   "counterparty": "Spectrum",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_d4tgakyc",
+   "date": "2026-07-08",
+   "counterparty": "H-E-B",
+   "amount": 44.6,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_wp6bchx7",
+   "date": "2026-07-08",
+   "counterparty": "USAA",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Auto insurance",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_x7xfs47x",
+   "date": "2026-07-07",
+   "counterparty": "St. Joseph Catholic Church",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Online giving",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ywhxwz5p",
+   "date": "2026-07-05",
+   "counterparty": "H-E-B Fuel",
+   "amount": 44.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "fuel",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ahdbwqb7",
+   "date": "2026-07-03",
+   "counterparty": "Diego Ortega",
+   "handle": "(210) 555-0137",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Zelle",
+   "memo": "books & food",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_bmr34y58",
+   "date": "2026-07-03",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_6ygx3xjy",
+   "date": "2026-07-02",
+   "counterparty": "Savings ****0425",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "To savings",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_bvpkkf9g",
+   "date": "2026-07-01",
+   "counterparty": "Harborline Home Loans",
+   "amount": 1800.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Mortgage ****5521, monthly payment",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_cpqp49gm",
+   "date": "2026-07-01",
+   "counterparty": "Marisol Ortega",
+   "handle": "marisol.ortega.sa@gmail.com",
+   "amount": 900.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Zelle",
+   "memo": "household",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_v67yt6np",
+   "date": "2026-06-25",
+   "counterparty": "H-E-B",
+   "amount": 125.22,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_m64xf9nw",
+   "date": "2026-06-24",
+   "counterparty": "SAWS",
+   "amount": 71.36,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Water & sewer",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_edd99bur",
+   "date": "2026-06-22",
+   "counterparty": "CPS Energy",
+   "amount": 246.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric & gas",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_gy8ydzeh",
+   "date": "2026-06-20",
+   "counterparty": "H-E-B",
+   "amount": 92.89,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_vyjfbtht",
+   "date": "2026-06-19",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_eesvz7fn",
+   "date": "2026-06-18",
+   "counterparty": "H-E-B",
+   "amount": 119.78,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_m8htfs67",
+   "date": "2026-06-18",
+   "counterparty": "AT&T",
+   "amount": 148.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 3 lines",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_2455xtts",
+   "date": "2026-06-17",
+   "counterparty": "Whataburger",
+   "amount": 13.83,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_k93mjvfp",
+   "date": "2026-06-15",
+   "counterparty": "Valero",
+   "amount": 35.8,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "fuel",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_u4aqwsv4",
+   "date": "2026-06-15",
+   "counterparty": "Netflix",
+   "amount": 17.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Standard",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_wzygcvge",
+   "date": "2026-06-12",
+   "counterparty": "Spectrum",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_vtng387j",
+   "date": "2026-06-10",
+   "counterparty": "H-E-B",
+   "amount": 52.81,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_jshnquuh",
+   "date": "2026-06-08",
+   "counterparty": "St. Joseph Catholic Church",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Online giving",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_p49fud3b",
+   "date": "2026-06-08",
+   "counterparty": "USAA",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Auto insurance",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_76c84c5w",
+   "date": "2026-06-05",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_w2f4yft2",
+   "date": "2026-06-03",
+   "counterparty": "Diego Ortega",
+   "handle": "(210) 555-0137",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Zelle",
+   "memo": "books & food",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_9ek7xzvd",
+   "date": "2026-06-02",
+   "counterparty": "Savings ****0425",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "To savings",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ewzvbdp7",
+   "date": "2026-06-01",
+   "counterparty": "Harborline Home Loans",
+   "amount": 1800.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Mortgage ****5521, monthly payment",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_6sqdx6sb",
+   "date": "2026-06-01",
+   "counterparty": "Marisol Ortega",
+   "handle": "marisol.ortega.sa@gmail.com",
+   "amount": 900.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Zelle",
+   "memo": "household",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_59ssazmn",
+   "date": "2026-05-29",
+   "counterparty": "H-E-B",
+   "amount": 61.82,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_xfw6s9va",
+   "date": "2026-05-25",
+   "counterparty": "SAWS",
+   "amount": 80.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Water & sewer",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_s3mmn9rg",
+   "date": "2026-05-22",
+   "counterparty": "H-E-B",
+   "amount": 79.02,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_74xd37mr",
+   "date": "2026-05-22",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_nhbj6ggc",
+   "date": "2026-05-20",
+   "counterparty": "Taco Cabana",
+   "amount": 27.74,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_2qvktqaw",
+   "date": "2026-05-20",
+   "counterparty": "CPS Energy",
+   "amount": 184.33,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric & gas",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_fhkdfu3s",
+   "date": "2026-05-18",
+   "counterparty": "Valero",
+   "amount": 60.12,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "fuel",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_gg8mxqfq",
+   "date": "2026-05-18",
+   "counterparty": "AT&T",
+   "amount": 148.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 3 lines",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_wkx56h6q",
+   "date": "2026-05-16",
+   "counterparty": "Academy Sports + Outdoors",
+   "amount": 214.37,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Soccer cleats + gear",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_2tqd4x5e",
+   "date": "2026-05-15",
+   "counterparty": "Netflix",
+   "amount": 17.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Standard",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_4w99t7g4",
+   "date": "2026-05-12",
+   "counterparty": "Spectrum",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_mc7svczh",
+   "date": "2026-05-08",
+   "counterparty": "USAA",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Auto insurance",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_e3cz8nb3",
+   "date": "2026-05-08",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_8ynjm96t",
+   "date": "2026-05-07",
+   "counterparty": "H-E-B Fuel",
+   "amount": 49.81,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "fuel",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_jar8fz2v",
+   "date": "2026-05-07",
+   "counterparty": "St. Joseph Catholic Church",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Online giving",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_6xyprcm2",
+   "date": "2026-05-04",
+   "counterparty": "Savings ****0425",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "To savings",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_w59mjy2e",
+   "date": "2026-05-03",
+   "counterparty": "H-E-B",
+   "amount": 62.29,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_unvfzuuk",
+   "date": "2026-05-03",
+   "counterparty": "Diego Ortega",
+   "handle": "(210) 555-0137",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Zelle",
+   "memo": "books & food",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_rvjpzff3",
+   "date": "2026-05-01",
+   "counterparty": "Harborline Home Loans",
+   "amount": 1800.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Mortgage ****5521, monthly payment",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_xaus8n8y",
+   "date": "2026-05-01",
+   "counterparty": "Marisol Ortega",
+   "handle": "marisol.ortega.sa@gmail.com",
+   "amount": 900.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Zelle",
+   "memo": "household",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_xwvgftmu",
+   "date": "2026-04-24",
+   "counterparty": "SAWS",
+   "amount": 83.12,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Water & sewer",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_yg7rtr7h",
+   "date": "2026-04-24",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_m8axw9e6",
+   "date": "2026-04-22",
+   "counterparty": "Valero",
+   "amount": 54.93,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "fuel",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ca6j2zw6",
+   "date": "2026-04-20",
+   "counterparty": "AT&T",
+   "amount": 148.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 3 lines",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_6sa24fxp",
+   "date": "2026-04-20",
+   "counterparty": "CPS Energy",
+   "amount": 136.02,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric & gas",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_dyvatf82",
+   "date": "2026-04-17",
+   "counterparty": "H-E-B",
+   "amount": 110.85,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_f2n2d5rn",
+   "date": "2026-04-15",
+   "counterparty": "Whataburger",
+   "amount": 16.29,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_s2krqew6",
+   "date": "2026-04-15",
+   "counterparty": "Netflix",
+   "amount": 17.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Standard",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_x56szk2w",
+   "date": "2026-04-14",
+   "counterparty": "Valero",
+   "amount": 34.25,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "fuel",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_rbqaq8se",
+   "date": "2026-04-13",
+   "counterparty": "Spectrum",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_9nvumzah",
+   "date": "2026-04-11",
+   "counterparty": "H-E-B",
+   "amount": 144.58,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ssn9nhe2",
+   "date": "2026-04-10",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1786.12,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_rxx5y2d5",
+   "date": "2026-04-08",
+   "counterparty": "USAA",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Auto insurance",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_9pe8gc74",
+   "date": "2026-04-07",
+   "counterparty": "St. Joseph Catholic Church",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Online giving",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_36fua2hy",
+   "date": "2026-04-04",
+   "counterparty": "Alamo City Adult Soccer League",
+   "amount": 120.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Spring season fee",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_d9cnfjjq",
+   "date": "2026-04-03",
+   "counterparty": "Diego Ortega",
+   "handle": "(210) 555-0137",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Zelle",
+   "memo": "books & food",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_apsyn6ck",
+   "date": "2026-04-02",
+   "counterparty": "Savings ****0425",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "To savings",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_mrk99wkw",
+   "date": "2026-04-01",
+   "counterparty": "Harborline Home Loans",
+   "amount": 1800.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Mortgage ****5521, monthly payment",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_bbg73umr",
+   "date": "2026-04-01",
+   "counterparty": "Marisol Ortega",
+   "handle": "marisol.ortega.sa@gmail.com",
+   "amount": 900.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Zelle",
+   "memo": "household",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_paungkrq",
+   "date": "2026-03-29",
+   "counterparty": "H-E-B",
+   "amount": 153.15,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_88szn4jq",
+   "date": "2026-03-27",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1742.58,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ces5yxzj",
+   "date": "2026-03-25",
+   "counterparty": "H-E-B",
+   "amount": 42.07,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_8pejjebg",
+   "date": "2026-03-24",
+   "counterparty": "SAWS",
+   "amount": 87.12,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Water & sewer",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_9nq8bhnw",
+   "date": "2026-03-20",
+   "counterparty": "H-E-B",
+   "amount": 46.19,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_xeg9p9t4",
+   "date": "2026-03-20",
+   "counterparty": "CPS Energy",
+   "amount": 128.77,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric & gas",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_wh8kurz5",
+   "date": "2026-03-18",
+   "counterparty": "Whataburger",
+   "amount": 16.76,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_mc2zwumk",
+   "date": "2026-03-18",
+   "counterparty": "AT&T",
+   "amount": 148.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 3 lines",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_4f9yapvy",
+   "date": "2026-03-15",
+   "counterparty": "Netflix",
+   "amount": 17.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Standard",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_2beva6cf",
+   "date": "2026-03-14",
+   "counterparty": "Costco",
+   "amount": 94.91,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_bqpr3ptp",
+   "date": "2026-03-14",
+   "counterparty": "Costco",
+   "amount": 65.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Gold Star membership",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_2fjtty5s",
+   "date": "2026-03-13",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1742.58,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_dvtrvhtf",
+   "date": "2026-03-12",
+   "counterparty": "Spectrum",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_n7ek4z3d",
+   "date": "2026-03-09",
+   "counterparty": "H-E-B Fuel",
+   "amount": 51.69,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "fuel",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_3jfdqc4c",
+   "date": "2026-03-09",
+   "counterparty": "St. Joseph Catholic Church",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Online giving",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_8aqx7mx2",
+   "date": "2026-03-09",
+   "counterparty": "USAA",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Auto insurance",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_2p6ss8hs",
+   "date": "2026-03-06",
+   "counterparty": "H-E-B",
+   "amount": 65.72,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_zt7v8a5m",
+   "date": "2026-03-06",
+   "counterparty": "IRS TREAS 310",
+   "amount": 1486.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "ACH",
+   "memo": "Tax refund",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ftjpvrr3",
+   "date": "2026-03-03",
+   "counterparty": "Diego Ortega",
+   "handle": "(210) 555-0137",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Zelle",
+   "memo": "books & food",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_exetakyq",
+   "date": "2026-03-02",
+   "counterparty": "Savings ****0425",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "To savings",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_zq6vtq2t",
+   "date": "2026-03-02",
+   "counterparty": "Harborline Home Loans",
+   "amount": 1800.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Mortgage ****5521, monthly payment",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ysm7d53e",
+   "date": "2026-03-02",
+   "counterparty": "Marisol Ortega",
+   "handle": "marisol.ortega.sa@gmail.com",
+   "amount": 900.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Zelle",
+   "memo": "household",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_kw5j96ys",
+   "date": "2026-03-01",
+   "counterparty": "The Home Depot",
+   "amount": 77.64,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_dgdtshqd",
+   "date": "2026-02-27",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1742.58,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ch9jxd32",
+   "date": "2026-02-26",
+   "counterparty": "H-E-B",
+   "amount": 133.88,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_vwex3gau",
+   "date": "2026-02-24",
+   "counterparty": "SAWS",
+   "amount": 76.08,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Water & sewer",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_6cpgvbt6",
+   "date": "2026-02-20",
+   "counterparty": "Costco",
+   "amount": 161.93,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_52p5jjmk",
+   "date": "2026-02-20",
+   "counterparty": "CPS Energy",
+   "amount": 142.15,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric & gas",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ekjhdjek",
+   "date": "2026-02-19",
+   "counterparty": "Buc-ee's",
+   "amount": 42.02,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "fuel",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_4ty9k8cp",
+   "date": "2026-02-18",
+   "counterparty": "AT&T",
+   "amount": 148.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 3 lines",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_kdx4p236",
+   "date": "2026-02-15",
+   "counterparty": "H-E-B",
+   "amount": 147.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_j6gdjyey",
+   "date": "2026-02-15",
+   "counterparty": "Netflix",
+   "amount": 17.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Standard",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_xcfqh4vp",
+   "date": "2026-02-13",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1742.58,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_reuanbhf",
+   "date": "2026-02-12",
+   "counterparty": "Spectrum",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_mjx3c98a",
+   "date": "2026-02-11",
+   "counterparty": "Taco Cabana",
+   "amount": 16.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_nh77emsh",
+   "date": "2026-02-09",
+   "counterparty": "H-E-B",
+   "amount": 169.45,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ah9mtfe4",
+   "date": "2026-02-09",
+   "counterparty": "St. Joseph Catholic Church",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Online giving",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_5abt757y",
+   "date": "2026-02-09",
+   "counterparty": "USAA",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Auto insurance",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_f2quuygj",
+   "date": "2026-02-08",
+   "counterparty": "H-E-B",
+   "amount": 54.55,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ceynafwe",
+   "date": "2026-02-03",
+   "counterparty": "Diego Ortega",
+   "handle": "(210) 555-0137",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Zelle",
+   "memo": "books & food",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_f75yxrdy",
+   "date": "2026-02-02",
+   "counterparty": "Savings ****0425",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "To savings",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_mncs27sr",
+   "date": "2026-02-02",
+   "counterparty": "Harborline Home Loans",
+   "amount": 1800.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Mortgage ****5521, monthly payment",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_csxd4qqn",
+   "date": "2026-02-02",
+   "counterparty": "Marisol Ortega",
+   "handle": "marisol.ortega.sa@gmail.com",
+   "amount": 900.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Zelle",
+   "memo": "household",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_y68e596y",
+   "date": "2026-01-30",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1742.58,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_4ahvcjsq",
+   "date": "2026-01-26",
+   "counterparty": "SAWS",
+   "amount": 69.43,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Water & sewer",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_kum5j96m",
+   "date": "2026-01-24",
+   "counterparty": "Pappasito's Cantina",
+   "amount": 86.82,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_8q7fafv2",
+   "date": "2026-01-22",
+   "counterparty": "H-E-B",
+   "amount": 151.68,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_dhkh2r5j",
+   "date": "2026-01-21",
+   "counterparty": "Bill Miller Bar-B-Q",
+   "amount": 27.1,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_mvytn2rm",
+   "date": "2026-01-20",
+   "counterparty": "UTSA",
+   "amount": 1250.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Diego, spring tuition balance",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_zv4y77p6",
+   "date": "2026-01-20",
+   "counterparty": "CPS Energy",
+   "amount": 168.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Electric & gas",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_84ddkckb",
+   "date": "2026-01-19",
+   "counterparty": "AT&T",
+   "amount": 148.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless, 3 lines",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_r68czyqp",
+   "date": "2026-01-17",
+   "counterparty": "Buc-ee's",
+   "amount": 53.88,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "fuel",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_hhmvtutz",
+   "date": "2026-01-16",
+   "counterparty": "Riverwalk Community Bank",
+   "amount": 1742.58,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_hj6usku7",
+   "date": "2026-01-15",
+   "counterparty": "The Home Depot",
+   "amount": 107.33,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_sfg63xyh",
+   "date": "2026-01-15",
+   "counterparty": "Netflix",
+   "amount": 17.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "memo": "Standard",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_7rk8wbd2",
+   "date": "2026-01-14",
+   "counterparty": "H-E-B",
+   "amount": 110.76,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_8xxhgqhr",
+   "date": "2026-01-13",
+   "counterparty": "H-E-B",
+   "amount": 138.24,
+   "currency": "USD",
+   "direction": "out",
+   "type": "debit card",
+   "account": "CHK-0417"
+  },
+  {
+   "id": "txn_ese95gnb",
+   "date": "2026-01-12",
+   "counterparty": "Spectrum",
+   "amount": 79.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-0417"
+  }
+ ],
+ "_meta": {
+  "env_id": "bills",
+  "seed_pairs": [
+   "S22"
+  ],
+  "rng_seed": 20261115,
+  "generator": "envs/bills/build_members.py",
+  "history_window": [
+   "2026-01-12",
+   "2026-11-12"
+  ],
+  "decisive_transactions": [
+   {
+    "id": "txn_bsbzew4j",
+    "date": "2026-11-02",
+    "fact": "last $1,800.00 mortgage payment to Harborline Home Loans"
+   }
+  ]
+ }
+}

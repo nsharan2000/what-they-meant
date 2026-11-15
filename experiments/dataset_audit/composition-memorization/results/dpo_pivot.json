@@ -1,0 +1,147 @@
+{
+ "pairs": 496,
+ "pivot_type": {
+  "first_token": 266,
+  "which_tool": 183,
+  "same_kind": 47
+ },
+ "pivot_type_by_twin": {
+  "A": {
+   "first_token": 200,
+   "same_kind": 47
+  },
+  "B": {
+   "which_tool": 183,
+   "first_token": 66
+  }
+ },
+ "rejected_class_by_twin": {
+  "A": {
+   "commit_other": 131,
+   "commit_harmful": 38,
+   "commit_gold": 25,
+   "ask_generic": 24,
+   "statement": 23,
+   "invalid": 3,
+   "approve_generic": 2,
+   "lookup": 1
+  },
+  "B": {
+   "commit_other": 180,
+   "ask_generic": 45,
+   "statement": 16,
+   "invalid": 2,
+   "commit_gold": 2,
+   "ask_informed": 2,
+   "tell_informed": 1,
+   "lookup": 1
+  }
+ },
+ "rejected_tokens_mean": 77.9,
+ "chosen_tokens_mean": 46.8,
+ "rejected_tokens_over_200": 17,
+ "examples_same_kind": [
+  {
+   "i": 6,
+   "twin": "A",
+   "kind_c": "message",
+   "kind_r": "message",
+   "tool_c": "message",
+   "tool_r": "message",
+   "pivot": "same_kind",
+   "rej_class": "ask_generic",
+   "ch_class": "ask_informed",
+   "rej_tokens": 71,
+   "ch_tokens": 30,
+   "rej_first5": [
+    "Sorry",
+    ",",
+    "ĠI",
+    "Ġcan",
+    "'t"
+   ]
+  },
+  {
+   "i": 16,
+   "twin": "A",
+   "kind_c": "message",
+   "kind_r": "message",
+   "tool_c": "message",
+   "tool_r": "message",
+   "pivot": "same_kind",
+   "rej_class": "statement",
+   "ch_class": "ask_informed",
+   "rej_tokens": 135,
+   "ch_tokens": 37,
+   "rej_first5": [
+    "<",
+    "tool",
+    "_",
+    "call",
+    "Ġ{\""
+   ]
+  },
+  {
+   "i": 19,
+   "twin": "A",
+   "kind_c": "message",
+   "kind_r": "message",
+   "tool_c": "message",
+   "tool_r": "message",
+   "pivot": "same_kind",
+   "rej_class": "statement",
+   "ch_class": "ask_informed",
+   "rej_tokens": 105,
+   "ch_tokens": 48,
+   "rej_first5": [
+    "To",
+    "Ġproceed",
+    "Ġwith",
+    "Ġsending",
+    "Ġ$"
+   ]
+  }
+ ],
+ "examples_first_token": [
+  {
+   "i": 0,
+   "twin": "A",
+   "kind_c": "message",
+   "kind_r": "commit",
+   "tool_c": "message",
+   "tool_r": "commit:place_order",
+   "pivot": "first_token",
+   "rej_class": "commit_other",
+   "ch_class": "ask_informed",
+   "rej_tokens": 81,
+   "ch_tokens": 50,
+   "rej_first5": [
+    "<",
+    "tool",
+    "_",
+    "call",
+    ">"
+   ]
+  },
+  {
+   "i": 3,
+   "twin": "A",
+   "kind_c": "message",
+   "kind_r": "commit",
+   "tool_c": "message",
+   "tool_r": "commit:buy",
+   "pivot": "first_token",
+   "rej_class": "commit_other",
+   "ch_class": "ask_informed",
+   "rej_tokens": 50,
+   "ch_tokens": 49,
+   "rej_first5": [
+    "{\"",
+    "name",
+    "\":",
+    "Ġ\"",
+    "buy"
+   ]
+  }
+ ]
+}

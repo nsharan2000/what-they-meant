@@ -1,0 +1,306 @@
+{
+ "token_stats_misaligned_rows": 0,
+ "type_pairs_by_class": {
+  "A": {
+   "question>commit": 194,
+   "question>question": 24,
+   "question>statement": 23,
+   "question>invalid": 3,
+   "question>card": 2,
+   "question>lookup": 1
+  },
+  "B_approve": {
+   "card>commit": 182,
+   "card>question": 37,
+   "card>statement": 11,
+   "card>lookup": 1
+  },
+  "B_act": {
+   "commit>question": 10,
+   "commit>statement": 6,
+   "commit>invalid": 2
+  }
+ },
+ "teaching_axes": {
+  "X > direct commit (incl. malformed commit)": 377,
+  "B_approve: proceed > question": 37,
+  "A: informed question > uninformed question": 24,
+  "A: informed question > statement": 19,
+  "format: malformed call read as message/invalid": 13,
+  "B_act: proceed > question": 8,
+  "B_approve: proceed > statement": 8,
+  "B_act: proceed > statement": 6,
+  "A: ask > approval card": 2,
+  "A: other (lookup)": 1,
+  "B_approve: other (lookup)": 1
+ },
+ "commit_axis_by_level(True=X>commit)": {
+  "L0r": {
+   "true": 131,
+   "false": 20
+  },
+  "L1": {
+   "true": 106,
+   "false": 45
+  },
+  "L2": {
+   "true": 105,
+   "false": 39
+  },
+  "L3": {
+   "true": 35,
+   "false": 15
+  }
+ },
+ "malformed_rejected_calls": 14,
+ "malformed_rejected_commits": 9,
+ "malformed_idx": [
+  [
+   16,
+   "V073A",
+   "statement",
+   "statement"
+  ],
+  [
+   47,
+   "V571A",
+   "invalid",
+   "invalid"
+  ],
+  [
+   61,
+   "V152B",
+   "invalid",
+   "invalid"
+  ],
+  [
+   77,
+   "V471A",
+   "statement",
+   "statement"
+  ],
+  [
+   84,
+   "V152A",
+   "invalid",
+   "invalid"
+  ],
+  [
+   109,
+   "S34A",
+   "invalid",
+   "invalid"
+  ],
+  [
+   138,
+   "S14B",
+   "invalid",
+   "invalid"
+  ],
+  [
+   153,
+   "S10B",
+   "question",
+   "ask_generic"
+  ],
+  [
+   338,
+   "V471B",
+   "statement",
+   "statement"
+  ],
+  [
+   372,
+   "S58B",
+   "statement",
+   "statement"
+  ],
+  [
+   429,
+   "V073B",
+   "statement",
+   "statement"
+  ],
+  [
+   432,
+   "V073A",
+   "statement",
+   "statement"
+  ],
+  [
+   451,
+   "S58A",
+   "statement",
+   "statement"
+  ],
+  [
+   492,
+   "S10B",
+   "question",
+   "ask_generic"
+  ]
+ ],
+ "twin_levels_with_both": 247,
+ "A_rejected_type_equals_B_chosen_type": 12,
+ "B_rejected_type_equals_A_chosen_type": 47,
+ "same_action_type_pairs": 24,
+ "cv_accuracy_mean_std": {
+  "length_only": [
+   0.8165,
+   0.0
+  ],
+  "qmark_only": [
+   0.9335,
+   0.0
+  ],
+  "format_only": [
+   0.7567,
+   0.0068
+  ],
+  "format_plus_length": [
+   0.8516,
+   0.0043
+  ],
+  "format_length_qmark": [
+   0.9821,
+   0.0016
+  ],
+  "action_type_prompt_free": [
+   0.9355,
+   0.0
+  ],
+  "action_type_context_aware(A/B_approve/B_act)": [
+   0.9758,
+   0.0
+  ]
+ },
+ "prompt_free_type_ranking_fit_on_all": [
+  [
+   "card",
+   2.24
+  ],
+  [
+   "question",
+   0.922
+  ],
+  [
+   "lookup",
+   -0.073
+  ],
+  [
+   "invalid",
+   -0.422
+  ],
+  [
+   "statement",
+   -1.224
+  ],
+  [
+   "commit",
+   -1.444
+  ]
+ ],
+ "rule_qmark": 0.9335,
+ "rule_shorter_wins": 0.8165,
+ "rule_context_oracle_on_types": 0.9758,
+ "chosen_has_qmark_by_class": {
+  "A": [
+   247,
+   247
+  ],
+  "B_approve": [
+   231,
+   231
+  ],
+  "B_act": [
+   0,
+   18
+  ]
+ },
+ "rejected_has_qmark": 48,
+ "rejected_longer_share": 0.8085,
+ "mean_tokens_chosen_rejected": [
+  46.8,
+  77.9
+ ],
+ "mean_tokens_observed_chosen_rejected": [
+  46.7,
+  79.6
+ ],
+ "rejected_over_200_tokens": 17,
+ "rejected_max_tokens": 938,
+ "chosen_max_tokens": 97,
+ "format_counts": {
+  "lead_ws_rej_vs_chosen": [
+   63.0,
+   0.0
+  ],
+  "trail_ws_rej_vs_chosen": [
+   30.0,
+   0.0
+  ],
+  "rej_tool_calls_multiline": [
+   74,
+   380
+  ],
+  "chosen_tool_calls_multiline": [
+   0,
+   249
+  ],
+  "rej_not_strict_format": 71,
+  "chosen_not_strict_format": 0,
+  "rej_null_args": 38.0,
+  "rej_tool_result_tag": 9.0
+ },
+ "m1_cross_reference": {
+  "keys_in_scores": 120,
+  "keys_missing_from_dpo": [],
+  "samples": 960,
+  "decisions_by_twin": {
+   "A:approve_generic": 83,
+   "A:approve_gold": 4,
+   "A:approve_informed": 75,
+   "A:ask_generic": 36,
+   "A:ask_informed": 220,
+   "A:commit_gold": 1,
+   "A:commit_harmful": 1,
+   "A:commit_other": 6,
+   "A:invalid": 3,
+   "A:lookup": 26,
+   "A:statement": 1,
+   "A:tell_informed": 8,
+   "B:approve_generic": 242,
+   "B:approve_informed": 19,
+   "B:ask_generic": 101,
+   "B:ask_informed": 84,
+   "B:commit_gold": 24,
+   "B:commit_other": 10,
+   "B:invalid": 4,
+   "B:lookup": 6,
+   "B:statement": 3,
+   "B:tell_informed": 3
+  },
+  "A_prompts_with_card_samples": 51,
+  "A_card_samples": 162,
+  "A_card_prompts_whose_pair_rejects_a_card": 0,
+  "B_prompts_with_message_samples": 58,
+  "B_message_samples": 191,
+  "B_message_prompts_whose_pair_rejects_a_message": 10,
+  "their_samples": 37,
+  "commit_samples": {
+   "A:commit_gold": 1,
+   "A:commit_harmful": 1,
+   "A:commit_other": 6,
+   "B:commit_gold": 24,
+   "B:commit_other": 10
+  },
+  "pair_rejected_type_equals_M1_modal_wrong_type(class,match)": {
+   "A:False": 54,
+   "A:True": 2,
+   "B_act:False": 4,
+   "B_act:True": 1,
+   "B_approve:False": 47,
+   "B_approve:True": 9
+  }
+ }
+}

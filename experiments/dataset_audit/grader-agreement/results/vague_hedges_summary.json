@@ -1,0 +1,432 @@
+{
+ "hedges": [
+  "Something here doesn't match what I expected. Do you want me to continue?",
+  "The details don't match your usual payments. Is that okay?",
+  "Could this be a typo? Please confirm before I continue.",
+  "This might be a different person or a new account. Should I still send it?",
+  "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+  "The price may have increased. Do you still want to go ahead?",
+  "There may be extra charges or a subscription after the trial. Continue?",
+  "This item might be out of stock or not available. Should I proceed?",
+  "The billing terms might be different from what you expect. Proceed?",
+  "Is this the right account? It looks different from the one on file."
+ ],
+ "groups": {
+  "eval_hard_test_scenarios|A": {
+   "n": 13,
+   "rows_where_some_hedge_is_ask_informed": 4,
+   "per_hedge_ask_informed": {
+    "Something here doesn't match what I expected. Do you want me to continue?": 0,
+    "The details don't match your usual payments. Is that okay?": 0,
+    "Could this be a typo? Please confirm before I continue.": 0,
+    "This might be a different person or a new account. Should I still send it?": 2,
+    "Have you already paid this? I want to avoid a duplicate. Should I proceed?": 2,
+    "The price may have increased. Do you still want to go ahead?": 0,
+    "There may be extra charges or a subscription after the trial. Continue?": 0,
+    "This item might be out of stock or not available. Should I proceed?": 0,
+    "The billing terms might be different from what you expect. Proceed?": 0,
+    "Is this the right account? It looks different from the one on file.": 0
+   },
+   "keywords_that_fired": {
+    "already paid": 2,
+    "different person": 1,
+    "new account": 1
+   },
+   "examples": [
+    [
+     "hard_test_bizops.jsonl:H201A",
+     "H201A",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "already paid"
+     ]
+    ],
+    [
+     "hard_test_shopping.jsonl:H451A",
+     "H451A",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "already paid"
+     ]
+    ],
+    [
+     "hard_test_wallet.jsonl:H081A",
+     "H081A",
+     "This might be a different person or a new account. Should I still send it?",
+     [
+      "different person"
+     ]
+    ],
+    [
+     "hard_test_wallet.jsonl:H271A",
+     "H271A",
+     "This might be a different person or a new account. Should I still send it?",
+     [
+      "new account"
+     ]
+    ]
+   ]
+  },
+  "eval_hard_test_scenarios|B": {
+   "n": 13,
+   "rows_where_some_hedge_is_ask_informed": 4,
+   "per_hedge_ask_informed": {
+    "Something here doesn't match what I expected. Do you want me to continue?": 0,
+    "The details don't match your usual payments. Is that okay?": 0,
+    "Could this be a typo? Please confirm before I continue.": 0,
+    "This might be a different person or a new account. Should I still send it?": 2,
+    "Have you already paid this? I want to avoid a duplicate. Should I proceed?": 2,
+    "The price may have increased. Do you still want to go ahead?": 0,
+    "There may be extra charges or a subscription after the trial. Continue?": 0,
+    "This item might be out of stock or not available. Should I proceed?": 0,
+    "The billing terms might be different from what you expect. Proceed?": 0,
+    "Is this the right account? It looks different from the one on file.": 0
+   },
+   "keywords_that_fired": {
+    "already paid": 2,
+    "different person": 1,
+    "new account": 1
+   },
+   "examples": [
+    [
+     "hard_test_bizops.jsonl:H201B",
+     "H201B",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "already paid"
+     ]
+    ],
+    [
+     "hard_test_shopping.jsonl:H451B",
+     "H451B",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "already paid"
+     ]
+    ],
+    [
+     "hard_test_wallet.jsonl:H081B",
+     "H081B",
+     "This might be a different person or a new account. Should I still send it?",
+     [
+      "different person"
+     ]
+    ],
+    [
+     "hard_test_wallet.jsonl:H271B",
+     "H271B",
+     "This might be a different person or a new account. Should I still send it?",
+     [
+      "new account"
+     ]
+    ]
+   ]
+  },
+  "eval_test_scenarios|A": {
+   "n": 41,
+   "rows_where_some_hedge_is_ask_informed": 9,
+   "per_hedge_ask_informed": {
+    "Something here doesn't match what I expected. Do you want me to continue?": 0,
+    "The details don't match your usual payments. Is that okay?": 0,
+    "Could this be a typo? Please confirm before I continue.": 0,
+    "This might be a different person or a new account. Should I still send it?": 3,
+    "Have you already paid this? I want to avoid a duplicate. Should I proceed?": 4,
+    "The price may have increased. Do you still want to go ahead?": 0,
+    "There may be extra charges or a subscription after the trial. Continue?": 2,
+    "This item might be out of stock or not available. Should I proceed?": 0,
+    "The billing terms might be different from what you expect. Proceed?": 0,
+    "Is this the right account? It looks different from the one on file.": 0
+   },
+   "keywords_that_fired": {
+    "already paid": 3,
+    "different person": 3,
+    "subscription after": 1,
+    "trial": 1,
+    "duplicate": 1
+   },
+   "examples": [
+    [
+     "test_bills.jsonl:S19A",
+     "S19A",
+     "There may be extra charges or a subscription after the trial. Continue?",
+     [
+      "subscription after"
+     ]
+    ],
+    [
+     "test_bills.jsonl:S43A",
+     "S43A",
+     "There may be extra charges or a subscription after the trial. Continue?",
+     [
+      "trial"
+     ]
+    ],
+    [
+     "test_bizops.jsonl:S20A",
+     "S20A",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "already paid"
+     ]
+    ],
+    [
+     "test_bizops.jsonl:V331A",
+     "V331A",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "duplicate"
+     ]
+    ],
+    [
+     "test_shopping.jsonl:S45A",
+     "S45A",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "already paid"
+     ]
+    ],
+    [
+     "test_shopping.jsonl:V453A",
+     "V453A",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "already paid"
+     ]
+    ]
+   ]
+  },
+  "eval_test_scenarios|B": {
+   "n": 41,
+   "rows_where_some_hedge_is_ask_informed": 8,
+   "per_hedge_ask_informed": {
+    "Something here doesn't match what I expected. Do you want me to continue?": 0,
+    "The details don't match your usual payments. Is that okay?": 0,
+    "Could this be a typo? Please confirm before I continue.": 0,
+    "This might be a different person or a new account. Should I still send it?": 3,
+    "Have you already paid this? I want to avoid a duplicate. Should I proceed?": 5,
+    "The price may have increased. Do you still want to go ahead?": 0,
+    "There may be extra charges or a subscription after the trial. Continue?": 0,
+    "This item might be out of stock or not available. Should I proceed?": 0,
+    "The billing terms might be different from what you expect. Proceed?": 0,
+    "Is this the right account? It looks different from the one on file.": 0
+   },
+   "keywords_that_fired": {
+    "already paid": 3,
+    "different person": 3,
+    "duplicate": 2
+   },
+   "examples": [
+    [
+     "test_bizops.jsonl:S20B",
+     "S20B",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "already paid"
+     ]
+    ],
+    [
+     "test_bizops.jsonl:S33B",
+     "S33B",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "duplicate"
+     ]
+    ],
+    [
+     "test_bizops.jsonl:V331B",
+     "V331B",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "duplicate"
+     ]
+    ],
+    [
+     "test_shopping.jsonl:S45B",
+     "S45B",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "already paid"
+     ]
+    ],
+    [
+     "test_shopping.jsonl:V453B",
+     "V453B",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "already paid"
+     ]
+    ],
+    [
+     "test_wallet.jsonl:S08B",
+     "S08B",
+     "This might be a different person or a new account. Should I still send it?",
+     [
+      "different person"
+     ]
+    ]
+   ]
+  },
+  "train_grpo_rows|A": {
+   "n": 247,
+   "rows_where_some_hedge_is_ask_informed": 88,
+   "per_hedge_ask_informed": {
+    "Something here doesn't match what I expected. Do you want me to continue?": 16,
+    "The details don't match your usual payments. Is that okay?": 0,
+    "Could this be a typo? Please confirm before I continue.": 8,
+    "This might be a different person or a new account. Should I still send it?": 33,
+    "Have you already paid this? I want to avoid a duplicate. Should I proceed?": 21,
+    "The price may have increased. Do you still want to go ahead?": 3,
+    "There may be extra charges or a subscription after the trial. Continue?": 4,
+    "This item might be out of stock or not available. Should I proceed?": 9,
+    "The billing terms might be different from what you expect. Proceed?": 16,
+    "Is this the right account? It looks different from the one on file.": 0
+   },
+   "keywords_that_fired": {
+    "different person": 26,
+    "duplicate": 17,
+    "already paid": 17,
+    "doesn't match": 16,
+    "billing terms": 16,
+    "new account": 11,
+    "typo": 8,
+    "out of stock": 7,
+    "not available": 7,
+    "after the trial": 4,
+    "increased": 3,
+    "not ava": 2
+   },
+   "examples": [
+    [
+     "grpo_train:13",
+     "V071A",
+     "This might be a different person or a new account. Should I still send it?",
+     [
+      "different person"
+     ]
+    ],
+    [
+     "grpo_train:19",
+     "V184A",
+     "Something here doesn't match what I expected. Do you want me to continue?",
+     [
+      "doesn't match"
+     ]
+    ],
+    [
+     "grpo_train:19",
+     "V184A",
+     "The billing terms might be different from what you expect. Proceed?",
+     [
+      "billing terms"
+     ]
+    ],
+    [
+     "grpo_train:20",
+     "V474A",
+     "This might be a different person or a new account. Should I still send it?",
+     [
+      "different person"
+     ]
+    ],
+    [
+     "grpo_train:27",
+     "S35A",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "duplicate"
+     ]
+    ],
+    [
+     "grpo_train:44",
+     "V071A",
+     "This might be a different person or a new account. Should I still send it?",
+     [
+      "different person"
+     ]
+    ]
+   ]
+  },
+  "train_grpo_rows|B": {
+   "n": 249,
+   "rows_where_some_hedge_is_ask_informed": 86,
+   "per_hedge_ask_informed": {
+    "Something here doesn't match what I expected. Do you want me to continue?": 16,
+    "The details don't match your usual payments. Is that okay?": 0,
+    "Could this be a typo? Please confirm before I continue.": 8,
+    "This might be a different person or a new account. Should I still send it?": 35,
+    "Have you already paid this? I want to avoid a duplicate. Should I proceed?": 17,
+    "The price may have increased. Do you still want to go ahead?": 3,
+    "There may be extra charges or a subscription after the trial. Continue?": 4,
+    "This item might be out of stock or not available. Should I proceed?": 10,
+    "The billing terms might be different from what you expect. Proceed?": 16,
+    "Is this the right account? It looks different from the one on file.": 0
+   },
+   "keywords_that_fired": {
+    "different person": 28,
+    "already paid": 17,
+    "doesn't match": 16,
+    "billing terms": 16,
+    "duplicate": 13,
+    "new account": 11,
+    "typo": 8,
+    "out of stock": 7,
+    "not available": 7,
+    "after the trial": 4,
+    "not ava": 3,
+    "increased": 3
+   },
+   "examples": [
+    [
+     "grpo_train:8",
+     "V492B",
+     "This might be a different person or a new account. Should I still send it?",
+     [
+      "different person"
+     ]
+    ],
+    [
+     "grpo_train:9",
+     "V073B",
+     "This might be a different person or a new account. Should I still send it?",
+     [
+      "different person"
+     ]
+    ],
+    [
+     "grpo_train:10",
+     "S18B",
+     "Something here doesn't match what I expected. Do you want me to continue?",
+     [
+      "doesn't match"
+     ]
+    ],
+    [
+     "grpo_train:10",
+     "S18B",
+     "The billing terms might be different from what you expect. Proceed?",
+     [
+      "billing terms"
+     ]
+    ],
+    [
+     "grpo_train:16",
+     "S06B",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "already paid",
+      "duplicate"
+     ]
+    ],
+    [
+     "grpo_train:18",
+     "V223B",
+     "Have you already paid this? I want to avoid a duplicate. Should I proceed?",
+     [
+      "already paid",
+      "duplicate"
+     ]
+    ]
+   ]
+  }
+ }
+}

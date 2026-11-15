@@ -1,0 +1,145 @@
+{
+ "trainer_kwargs_from_script": {
+  "temperature": "1.0",
+  "top_p": "1.0",
+  "loss_type": "\"dapo\"",
+  "scale_rewards": "\"group\"",
+  "beta": "ns.beta",
+  "mask_truncated_completions": "False",
+  "lr_scheduler_type": "\"constant_with_warmup\"",
+  "vllm_mode": "\"colocate\"",
+  "vllm_enable_sleep_mode": "False",
+  "gradient_checkpointing": "True",
+  "bf16": "True",
+  "seed": "0",
+  "log_completions": "False",
+  "LoraConfig": "r=ns.lora_r, lora_alpha=2 * ns.lora_r, lora_dropout=0.0, bias=\"none\", task_type=\"CAUSAL_LM\", target_modules=[\"q_proj\", \"k_proj\", \"v_proj\", \"o_proj\", \"gate_proj\", \"up_proj\", \"down_proj\"]",
+  "num_iterations_set_in_script": false,
+  "epsilon_set_in_script": false,
+  "max_grad_norm_set_in_script": false,
+  "importance_sampling_set_in_script": false,
+  "steps_per_generation_set_in_script": false
+ },
+ "args_json": {
+  "model": "/workspace/runs/m1_sft/merged",
+  "data": "/workspace/training/data_v121_curated",
+  "out": "/workspace/runs/m2_grpo",
+  "max_steps": 30,
+  "num_generations": 8,
+  "batch": 4,
+  "grad_accum": 8,
+  "lr": 5e-06,
+  "beta": 0.0,
+  "lora_r": 16,
+  "max_completion": 256,
+  "vllm_mem": 0.2,
+  "max_model_len": 12288,
+  "save_steps": 5,
+  "levels": null,
+  "fresh": false,
+  "smoke": false,
+  "warmup_steps": 3,
+  "data_sha256": "1d921563f4c80b7e8ee0ba28c9273b6ff8009e63d648a059d7e3865eeb46eaa9"
+ },
+ "guards": {
+  "grpo_prompts": {
+   "prompts": 496,
+   "max_prompt_len": 7435,
+   "p95_prompt_len": 7288,
+   "mean_prompt_len": 4327.3
+  }
+ },
+ "derived": {
+  "completions_per_step": 32,
+  "prompts_seen": 120,
+  "dataset_rows": 496,
+  "epochs_covered": 0.2419,
+  "logged_lrs_first5": [
+   0.0,
+   1.6666666666666667e-06,
+   3.3333333333333333e-06,
+   5e-06,
+   5e-06
+  ]
+ },
+ "log_ranges": {
+  "loss": {
+   "min": -0.08419,
+   "max": 0.15437,
+   "mean": 0.0121
+  },
+  "grad_norm": {
+   "min": 0.22194,
+   "max": 0.54405,
+   "mean": 0.32294
+  },
+  "entropy": {
+   "min": 0.23628,
+   "max": 0.74086,
+   "mean": 0.48645
+  },
+  "reward": {
+   "min": -0.00937,
+   "max": 0.67969,
+   "mean": 0.40917
+  },
+  "reward_std": {
+   "min": 0.59104,
+   "max": 0.89946,
+   "mean": 0.76112
+  },
+  "frac_reward_zero_std": {
+   "min": 0.0,
+   "max": 0.5,
+   "mean": 0.05
+  },
+  "completions/mean_length": {
+   "min": 44.90625,
+   "max": 59.53125,
+   "mean": 51.05521
+  },
+  "completions/max_length": {
+   "min": 61.0,
+   "max": 117.0,
+   "mean": 84.26667
+  },
+  "clip_ratio/region_mean": {
+   "min": 0.0,
+   "max": 0.0,
+   "mean": 0.0
+  },
+  "sampling/importance_sampling_ratio/min": {
+   "min": 0.14463,
+   "max": 0.82007,
+   "mean": 0.54279
+  },
+  "sampling/importance_sampling_ratio/max": {
+   "min": 1.3281,
+   "max": 2.1414,
+   "mean": 1.61198
+  },
+  "sampling/sampling_logp_difference/mean": {
+   "min": 0.00568,
+   "max": 0.0179,
+   "mean": 0.01225
+  },
+  "wtm/truncated_frac": {
+   "min": 0.0,
+   "max": 0.0,
+   "mean": 0.0
+  },
+  "wtm/end_eos6_frac": {
+   "min": 1.0,
+   "max": 1.0,
+   "mean": 1.0
+  }
+ },
+ "end_ids": {
+  "6": "<|END_OF_TURN_TOKEN|>",
+  "3": "<EOS_TOKEN>",
+  "261001": "<|END_RESPONSE|>"
+ },
+ "trunc_penalty": -1.0,
+ "minutes": 361.87,
+ "train_loss_final": 0.012101454567164183
+}

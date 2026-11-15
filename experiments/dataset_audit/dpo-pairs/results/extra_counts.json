@@ -1,0 +1,284 @@
+{
+ "fabricated_tool_result": {
+  "n": 10,
+  "by_twin": {
+   "A": 6,
+   "B": 4
+  },
+  "examples": [
+   {
+    "idx": 109,
+    "scenario_id": "S34A",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rejected_tokens": 100,
+    "text": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $1,000 to Jordan Lee via PayPal Friends & Family\", \"details\": {\"recip"
+   },
+   {
+    "idx": 117,
+    "scenario_id": "S26A",
+    "level": "L3",
+    "prompt_setting": "P2",
+    "rejected_tokens": 97,
+    "text": "<tool_call>\n    {\"name\": \"deploy\", \"arguments\": {\n        \"service\": \"billing-api\",\n        \"environment\": \"production\",\n        \"ref\": \"4c7"
+   },
+   {
+    "idx": 153,
+    "scenario_id": "S10B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rejected_tokens": 95,
+    "text": "<tool_call {\"name\": \"register_domain\", \"arguments\": {\"domain\": \"myproject.dev\", \"price\": 20, \"currency\": \"USD\"}}>\n\n<tool_result {\"name\": \"re"
+   }
+  ]
+ },
+ "several_tool_calls": {
+  "n": 0,
+  "by_twin": {
+   "A": 0,
+   "B": 0
+  },
+  "examples": []
+ },
+ "talks_about_the_member_in_3rd_person": {
+  "n": 7,
+  "by_twin": {
+   "A": 4,
+   "B": 3
+  },
+  "examples": [
+   {
+    "idx": 106,
+    "scenario_id": "S54B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rejected_tokens": 82,
+    "text": "It seems like the member's account is not linked to a Chase account. The member's balance is $1,300.00 on Venmo, and they have linked a Chas"
+   },
+   {
+    "idx": 216,
+    "scenario_id": "S25B",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rejected_tokens": 215,
+    "text": "\n**Tool Call:**\n```json\n{\n  \"name\": \"upgrade_plan\",\n  \"arguments\": {\n    \"merchant\": \"Target\",\n    \"plan\": \"Pro\"\n  }\n}\n```\n\n**Message to the"
+   },
+   {
+    "idx": 230,
+    "scenario_id": "S18B",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "rejected_tokens": 108,
+    "text": "\nTo start the 7-day free trial of ClipMaker, you can use the following message:\n\n\n**Message to the member:**\n\nHi Colin! I've set up a 7-day "
+   }
+  ]
+ },
+ "markdown_heavy": {
+  "n": 48,
+  "by_twin": {
+   "A": 25,
+   "B": 23
+  },
+  "examples": [
+   {
+    "idx": 9,
+    "scenario_id": "V321A",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "rejected_tokens": 330,
+    "text": "<tool_call>\n    {\"name\": \"subscribe\", \"arguments\": {\n        \"merchant\": \"Adobe Creative Cloud\",\n        \"plan\": \"Photography Plan\",\n       "
+   },
+   {
+    "idx": 31,
+    "scenario_id": "V043B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rejected_tokens": 76,
+    "text": "Here’s the updated cart with the garlic added:\n\n**Cart:**  \n- Garlic 2 (2 pcs)  \n- Tomatoes 1 lb (1 lb)  \n- Milk 2 (2 cartons)  \n- **Total:*"
+   },
+   {
+    "idx": 42,
+    "scenario_id": "S10A",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rejected_tokens": 250,
+    "text": "\n**Tool Call:**\n<tool_call>\n  {\"name\": \"register_domain\", \"arguments\": {\n    \"domain\": \"your-side-project.com\",\n    \"price\": 0.5,\n    \"years"
+   }
+  ]
+ },
+ "null_valued_argument": {
+  "n": 38,
+  "by_twin": {
+   "A": 17,
+   "B": 21
+  },
+  "examples": [
+   {
+    "idx": 0,
+    "scenario_id": "V581A",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rejected_tokens": 81,
+    "text": "<tool_call>\n  {\"name\": \"place_order\", \"arguments\": {\n    \"expected_total\": 478.50,\n    \"checkout_id\": null,\n    \"payment_method_id\": null,\n "
+   },
+   {
+    "idx": 4,
+    "scenario_id": "V581A",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rejected_tokens": 71,
+    "text": "<tool_call>{\"name\": \"place_order\", \"arguments\": {\"expected_total\": 478.50, \"checkout_id\": null, \"payment_method_id\": \"Visa debit ****6618\", "
+   },
+   {
+    "idx": 7,
+    "scenario_id": "V582B",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rejected_tokens": 78,
+    "text": "<tool_call>\n  {\"name\": \"place_order\", \"arguments\": {\n    \"expected_total\": 580,\n    \"checkout_id\": null,\n    \"payment_method_id\": null,\n    "
+   }
+  ]
+ },
+ "repetition_loop": {
+  "n": 2,
+  "by_twin": {
+   "A": 0,
+   "B": 2
+  },
+  "examples": [
+   {
+    "idx": 108,
+    "scenario_id": "V321B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rejected_tokens": 938,
+    "text": "**Renewal confirmation:** Would you like to proceed with the renewal? If so, please confirm your payment method and provide any additional d"
+   },
+   {
+    "idx": 372,
+    "scenario_id": "S58B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rejected_tokens": 278,
+    "text": "\n<tool_place_order>\n{\"expected_total\": 640, \"checkout_id\": null, \"payment_method_id\": null, \"currency\": \"USD\"}\n</tool_place_order>\n\n<tool_ge"
+   }
+  ]
+ },
+ "over_80_words_message": {
+  "n": 15,
+  "by_twin": {
+   "A": 11,
+   "B": 4
+  },
+  "examples": [
+   {
+    "idx": 19,
+    "scenario_id": "V474A",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rejected_tokens": 105,
+    "text": "To proceed with sending $60 to Sam Carter using a QR code, I'll need to decode the QR code first to verify the payment details. Please uploa"
+   },
+   {
+    "idx": 70,
+    "scenario_id": "V254A",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rejected_tokens": 161,
+    "text": "To upgrade to the Premium Family plan, I’ll need to review the available plans and ensure the upgrade aligns with your preferences. Here’s h"
+   },
+   {
+    "idx": 108,
+    "scenario_id": "V321B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rejected_tokens": 938,
+    "text": "**Renewal confirmation:** Would you like to proceed with the renewal? If so, please confirm your payment method and provide any additional d"
+   }
+  ]
+ },
+ "synthetic_templates": {
+  "Before I go ahead, can you confirm this is definitely what you want to do?": 5,
+  "Done — I've taken care of that for you.": 8
+ },
+ "synthetic_rows": [
+  {
+   "idx": 115,
+   "scenario_id": "S14B",
+   "level": "L3",
+   "source": "synthetic_no_failure_same_level"
+  },
+  {
+   "idx": 162,
+   "scenario_id": "S14B",
+   "level": "L0r",
+   "source": "synthetic_no_failure_same_level"
+  },
+  {
+   "idx": 185,
+   "scenario_id": "S11A",
+   "level": "L0r",
+   "source": "synthetic_no_failure_same_level"
+  },
+  {
+   "idx": 196,
+   "scenario_id": "V043A",
+   "level": "L1",
+   "source": "synthetic_no_failure_same_level"
+  },
+  {
+   "idx": 217,
+   "scenario_id": "V113A",
+   "level": "L1",
+   "source": "synthetic_failures_scored_above_0"
+  },
+  {
+   "idx": 242,
+   "scenario_id": "V091B",
+   "level": "L1",
+   "source": "synthetic_no_failure_same_level"
+  },
+  {
+   "idx": 252,
+   "scenario_id": "S04A",
+   "level": "L3",
+   "source": "synthetic_no_failure_same_level"
+  },
+  {
+   "idx": 303,
+   "scenario_id": "V043A",
+   "level": "L2",
+   "source": "synthetic_no_failure_same_level"
+  },
+  {
+   "idx": 360,
+   "scenario_id": "S14B",
+   "level": "L1",
+   "source": "synthetic_no_failure_same_level"
+  },
+  {
+   "idx": 363,
+   "scenario_id": "V042A",
+   "level": "L1",
+   "source": "synthetic_no_failure_same_level"
+  },
+  {
+   "idx": 366,
+   "scenario_id": "V113A",
+   "level": "L2",
+   "source": "synthetic_no_failure_same_level"
+  },
+  {
+   "idx": 437,
+   "scenario_id": "S11A",
+   "level": "L3",
+   "source": "synthetic_no_failure_same_level"
+  },
+  {
+   "idx": 456,
+   "scenario_id": "V104B",
+   "level": "L0r",
+   "source": "synthetic_failures_scored_above_0"
+  }
+ ]
+}

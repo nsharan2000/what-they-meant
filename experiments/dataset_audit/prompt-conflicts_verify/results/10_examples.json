@@ -1,0 +1,509 @@
+{
+ "all_match": true,
+ "rows": [
+  {
+   "finding": "PC1",
+   "file": "sft_train",
+   "line": 0,
+   "claimed": [
+    "S42A",
+    "L1",
+    "P0"
+   ],
+   "actual": [
+    "S42A",
+    "L1",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "The action I found only marks the 1,240 orders as paid, it does not charge anyone. You would ship without being paid. Should I use the payment app's c"
+  },
+  {
+   "finding": "PC1",
+   "file": "sft_train",
+   "line": 6,
+   "claimed": [
+    "V094A",
+    "L1",
+    "P0"
+   ],
+   "actual": [
+    "V094A",
+    "L1",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Mill Road Studios on the"
+  },
+  {
+   "finding": "PC1",
+   "file": "sft_train",
+   "line": 53,
+   "claimed": [
+    "S09A",
+    "L2",
+    "P2"
+   ],
+   "actual": [
+    "S09A",
+    "L2",
+    "P2",
+    "decision"
+   ],
+   "match": true,
+   "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Harlow on their known nu"
+  },
+  {
+   "finding": "PC2",
+   "file": "sft_train",
+   "line": 82,
+   "claimed": [
+    "S14B",
+    "L2",
+    "P2"
+   ],
+   "actual": [
+    "S14B",
+    "L2",
+    "P2",
+    "decision"
+   ],
+   "match": true,
+   "target": "<tool_call>{\"name\": \"charge_customer\", \"arguments\": {\"order_id\": \"5521\", \"amount\": 89.0, \"currency\": \"USD\"}}</tool_call>"
+  },
+  {
+   "finding": "PC2",
+   "file": "sft_train",
+   "line": 100,
+   "claimed": [
+    "V104B",
+    "L0r",
+    "P2"
+   ],
+   "actual": [
+    "V104B",
+    "L0r",
+    "P2",
+    "decision"
+   ],
+   "match": true,
+   "target": "<tool_call>{\"name\": \"pay\", \"arguments\": {\"merchant\": \"XMP Studio\", \"amount\": 89.99, \"currency\": \"USD\", \"order_id\": \"ORD-XMP-2291\"}}</tool_call>"
+  },
+  {
+   "finding": "PC2",
+   "file": "sft_train",
+   "line": 121,
+   "claimed": [
+    "V152B",
+    "L2",
+    "P0"
+   ],
+   "actual": [
+    "V152B",
+    "L2",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "<tool_call>{\"name\": \"schedule_job\", \"arguments\": {\"name\": \"monthly invoice fetch\", \"target\": \"https://api.chairsidecloud.io/v1/invoices/latest\", \"sche"
+  },
+  {
+   "finding": "PC3",
+   "file": "sft_train",
+   "line": 12,
+   "claimed": [
+    "V042B",
+    "L2",
+    "P0"
+   ],
+   "actual": [
+    "V042B",
+    "L2",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) GBP 4.20, tomatoes 1 kg GBP 3.80, milk x2 GBP 3.20?\"}}<"
+  },
+  {
+   "finding": "PC3",
+   "file": "sft_train",
+   "line": 18,
+   "claimed": [
+    "V043B",
+    "L1",
+    "P0"
+   ],
+   "actual": [
+    "V043B",
+    "L1",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) USD 5.98, tomatoes 1 lb USD 4.50, milk x2 USD 6.99?\"}}<"
+  },
+  {
+   "finding": "PC3",
+   "file": "sft_train",
+   "line": 181,
+   "claimed": [
+    "S04B",
+    "L2",
+    "P0"
+   ],
+   "actual": [
+    "S04B",
+    "L2",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) INR 30, tomatoes 1 kg INR 40, milk x2 INR 112?\"}}</tool"
+  },
+  {
+   "finding": "PC4",
+   "file": "sft_train",
+   "line": 72,
+   "claimed": [
+    "S02B",
+    "L1",
+    "P0"
+   ],
+   "actual": [
+    "S02B",
+    "L1",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send PHP 3,154.00 to Mr. Lim for invoice T-118?\"}}</tool_call>"
+  },
+  {
+   "finding": "PC4",
+   "file": "sft_train",
+   "line": 131,
+   "claimed": [
+    "S03B",
+    "L3",
+    "P0"
+   ],
+   "actual": [
+    "S03B",
+    "L3",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send EUR 450.00 to k-weber@mailbox.de (new recipient)?\"}}</tool_call>"
+  },
+  {
+   "finding": "PC4",
+   "file": "sft_train",
+   "line": 183,
+   "claimed": [
+    "S03A",
+    "L1",
+    "P0"
+   ],
+   "actual": [
+    "S03A",
+    "L1",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "The seller's chat message gives k-weber@mailbox.de, but you wrote k.weber@mailbox.de (a dot instead of a hyphen). Which one should I use? This would b"
+  },
+  {
+   "finding": "PC5",
+   "file": "sft_train",
+   "line": 1,
+   "claimed": [
+    "V254A",
+    "L2",
+    "P0"
+   ],
+   "actual": [
+    "V254A",
+    "L2",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "Premium Family is £17.99 a month, but extra usage is billed automatically up to £500 a month and is on by default. Do you want it off or capped lower?"
+  },
+  {
+   "finding": "PC5",
+   "file": "sft_train",
+   "line": 7,
+   "claimed": [
+    "S07A",
+    "L1",
+    "P0"
+   ],
+   "actual": [
+    "S07A",
+    "L1",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "555-0142 belongs to Dan Moore, not Jess Park. Jess's saved number is 555-0188. Should I use that one instead?"
+  },
+  {
+   "finding": "PC5",
+   "file": "sft_train",
+   "line": 17,
+   "claimed": [
+    "V073A",
+    "L2",
+    "P0"
+   ],
+   "actual": [
+    "V073A",
+    "L2",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "hana.choi@mail.com belongs to Hana Choi, not Hannah Cho. Hannah's saved email is hannah.cho@mail.com. Should I use that instead?"
+  },
+  {
+   "finding": "PC6",
+   "file": "sft_train",
+   "line": 2,
+   "claimed": [
+    "V532B",
+    "L1",
+    "P2"
+   ],
+   "actual": [
+    "V532B",
+    "L1",
+    "P2",
+    "decision"
+   ],
+   "match": true,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $75.00 to @concert_tix as a purchase with protection?\"}}</tool_call>"
+  },
+  {
+   "finding": "PC6",
+   "file": "sft_train",
+   "line": 294,
+   "claimed": [
+    "V553B",
+    "L0r",
+    "P0"
+   ],
+   "actual": [
+    "V553B",
+    "L0r",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $25.00 to Vestavia Garden Club (business)?\"}}</tool_call>"
+  },
+  {
+   "finding": "PC6",
+   "file": "sft_train",
+   "line": 614,
+   "claimed": [
+    "S55B",
+    "L1",
+    "P0"
+   ],
+   "actual": [
+    "S55B",
+    "L1",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $635.00 to Bargain Warehouse LLC (business)?\"}}</tool_call>"
+  },
+  {
+   "finding": "PC7",
+   "file": "sft_train",
+   "line": 750,
+   "claimed": [
+    "V183B",
+    "L2",
+    "P2"
+   ],
+   "actual": [
+    "V183B",
+    "L2",
+    "P2",
+    "decision"
+   ],
+   "match": true,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Start the Skillify Pro trial (7 days, then USD 14.99/month)?\"}}</tool_call>"
+  },
+  {
+   "finding": "PC7",
+   "file": "sft_train",
+   "line": 670,
+   "claimed": [
+    "V182A",
+    "L2",
+    "P0"
+   ],
+   "actual": [
+    "V182A",
+    "L2",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "The sign-up popup says the trial renews monthly at USD 19.99, but the billing terms say an annual plan of USD 239.88 is charged after 7 days. That doe"
+  },
+  {
+   "finding": "PC7",
+   "file": "sft_train",
+   "line": 782,
+   "claimed": [
+    "V183A",
+    "L2",
+    "P0"
+   ],
+   "actual": [
+    "V183A",
+    "L2",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "The sign-up popup says the trial renews monthly at USD 12.99, but the billing terms say an annual plan of USD 149.99 is charged after 7 days. That doe"
+  },
+  {
+   "finding": "PC8",
+   "file": "sft_train",
+   "line": 11,
+   "claimed": [
+    "V474A",
+    "L0r",
+    "P0"
+   ],
+   "actual": [
+    "V474A",
+    "L0r",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "The QR code pays Samantha Carter (samantha.carter@mail.com), but your saved contact is Sam Carter (samcarter.sc@mail.com). These are different people."
+  },
+  {
+   "finding": "PC9",
+   "file": "grpo_train",
+   "line": 372,
+   "claimed": [
+    "S02A",
+    "L3",
+    "P0"
+   ],
+   "actual": [
+    "S02A",
+    "L3",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": ""
+  },
+  {
+   "finding": "PC9",
+   "file": "grpo_train",
+   "line": 163,
+   "claimed": [
+    "V104B",
+    "L1",
+    "P2"
+   ],
+   "actual": [
+    "V104B",
+    "L1",
+    "P2",
+    "decision"
+   ],
+   "match": true,
+   "target": ""
+  },
+  {
+   "finding": "PC9",
+   "file": "grpo_train",
+   "line": 288,
+   "claimed": [
+    "S15B",
+    "L3",
+    "P0"
+   ],
+   "actual": [
+    "S15B",
+    "L3",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": ""
+  },
+  {
+   "finding": "PC10",
+   "file": "sft_train",
+   "line": 132,
+   "claimed": [
+    "S25B",
+    "L0r",
+    "P2"
+   ],
+   "actual": [
+    "S25B",
+    "L0r",
+    "P2",
+    "decision"
+   ],
+   "match": true,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Upgrade to Pro ($20/month, no extra-usage billing)?\"}}</tool_call>"
+  },
+  {
+   "finding": "PC10",
+   "file": "sft_train",
+   "line": 176,
+   "claimed": [
+    "S25A",
+    "L0r",
+    "P0"
+   ],
+   "actual": [
+    "S25A",
+    "L0r",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "Pro is $20 a month, but extra usage is billed automatically up to $2,000 a month and is on by default. Do you want it off or capped lower?"
+  },
+  {
+   "finding": "PC10",
+   "file": "sft_train",
+   "line": 189,
+   "claimed": [
+    "V254A",
+    "L0r",
+    "P0"
+   ],
+   "actual": [
+    "V254A",
+    "L0r",
+    "P0",
+    "decision"
+   ],
+   "match": true,
+   "target": "Premium Family is £17.99 a month, but extra usage is billed automatically up to £500 a month and is on by default. Do you want it off or capped lower?"
+  }
+ ]
+}

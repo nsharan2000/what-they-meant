@@ -1,0 +1,41 @@
+{
+ "weights": [
+  0.0427,
+  0.7596,
+  0.0415,
+  0.6406,
+  0.6805,
+  0.9518,
+  1.6426,
+  35.7372
+ ],
+ "cv_mape_total_tokens": 0.0066,
+ "median_tokens_from_end": {
+  "L1": {
+   "policy_end": 2331,
+   "history_start": 2258,
+   "history_end": 1611
+  },
+  "L2": {
+   "policy_end": 4972,
+   "history_start": 4864,
+   "history_end": 2803
+  },
+  "L3": {
+   "policy_end": 5007,
+   "history_start": 4928,
+   "history_end": 2726
+  }
+ },
+ "beyond_4096": {
+  "L1|history_start_beyond_4096": 0,
+  "L1|policy_entirely_beyond_4096": 0,
+  "L1|rows": 151,
+  "L2|history_start_beyond_4096": 138,
+  "L2|policy_entirely_beyond_4096": 140,
+  "L2|rows": 144,
+  "L3|history_start_beyond_4096": 48,
+  "L3|policy_entirely_beyond_4096": 48,
+  "L3|rows": 50
+ }
+}

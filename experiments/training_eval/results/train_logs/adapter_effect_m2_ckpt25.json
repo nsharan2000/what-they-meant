@@ -1,0 +1,36 @@
+{
+ "created": "2026-11-14 10:21:44 UTC",
+ "args": {
+  "adapter": [
+   "m1_sft_final=runs/m1_sft/final",
+   "m2_grpo_ckpt25=runs/m2_grpo/checkpoint-25"
+  ],
+  "out": "experiments/training_eval/results/adapter_effect_m2_ckpt25.json"
+ },
+ "adapters": {
+  "m1_sft_final": {
+   "path": "runs/m1_sft/final",
+   "r": 16,
+   "alpha": 32,
+   "rslora": false,
+   "modules": 252,
+   "total_dW_fro": 6.637931134136192,
+   "mean_module_dW_fro": 0.3571572276245817,
+   "max_module_dW_fro": 0.8479558178035211,
+   "max_abs_B": 0.005192417651414871,
+   "ratio_total_vs_m1_sft_final": 1.0
+  },
+  "m2_grpo_ckpt25": {
+   "path": "runs/m2_grpo/checkpoint-25",
+   "r": 16,
+   "alpha": 32,
+   "rslora": false,
+   "modules": 252,
+   "total_dW_fro": 0.1219530904091533,
+   "mean_module_dW_fro": 0.006640693537312287,
+   "max_module_dW_fro": 0.012892651940423256,
+   "max_abs_B": 0.00010300334542989731,
+   "ratio_total_vs_m1_sft_final": 0.018372153604004408
+  }
+ }
+}

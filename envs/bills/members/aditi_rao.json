@@ -1,0 +1,2238 @@
+{
+ "member_id": "aditi_rao",
+ "profile": {
+  "name": "Aditi Rao",
+  "age": 28,
+  "sex": "Female",
+  "city": "Panvel, Maharashtra",
+  "country": "India",
+  "currency": "INR",
+  "occupation": "Primary school teacher",
+  "summary": "Customer since 2021. Early-years teacher at a private English-medium school in Panvel; married to Karthik. Salary account with Ledgerly; uses the Platinum credit card ****4417 for most shopping and pays it in full every month.",
+  "persona": {
+   "persona": "Aditi Rao, a 28‑year‑old early‑childhood teacher, blends disciplined curriculum design with a love for Kannada literature, seeks solitude in yoga and balcony herbs, and they occasionally splurge on premium kitchen gadgets despite a tight routine.",
+   "professional_persona": "Aditi Rao, a 28‑year‑old early‑childhood educator, designs meticulously structured curricula, leverages simple digital tools to track student progress, coordinates Kannada cultural activities, and they aspire to become a deputy principal while maintaining a disciplined routine.",
+   "cultural_background": "Aditi comes from a Kannada‑speaking Hindu family originally from Karnataka, now settled in the urban setting of Raigarh, Maharashtra. Her upbringing blends the traditional customs of Karnataka—such as celebrating Ugadi, attending local temple festivals, and cooking regional dishes like akki rotti—with the cosmopolitan rhythms of a Maharashtrian city. She values structured routines, punctuality, and community values, reflecting a hybrid cultural identity.",
+   "sex": "Female",
+   "age": 28,
+   "marital_status": "Currently Married",
+   "education_level": "Graduate & above",
+   "occupation": "Primary School Teacher",
+   "state": "Maharashtra",
+   "district": "Raigarh",
+   "zone": "Urban",
+   "country": "India",
+   "first_language": "Kannada",
+   "second_language": "-"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-India",
+   "split": "en_IN",
+   "uuid": "f3064c5a39884937a94540eb59604cde",
+   "license": "CC-BY-4.0",
+   "match": {
+    "country": "India",
+    "age": 28,
+    "sex": "Female",
+    "seed": 8,
+    "reason": "first same-age urban salaried female persona (a credit-card holder paying a monthly card bill); Kannada-speaking family fits the surname Rao; seeds 0-7 are rural homemakers"
+   },
+   "adaptation": "persona name 'Mahananda Sutar' replaced with 'Aditi Rao'"
+  }
+ },
+ "account_profile": {
+  "customer_id": "LDG-IN-90442",
+  "name": "Aditi Rao",
+  "email": "aditi.rao.pnl@gmail.com",
+  "phone": "+91 90040 51732",
+  "address": "Flat 604, Sai Prasad CHS, Sector 12, New Panvel, Maharashtra 410206",
+  "member_since": "2021-07-01",
+  "segment": "Salary account",
+  "language": "en-IN",
+  "upi_id": "aditi.rao@ledgerly",
+  "features": {
+   "bill_pay": true,
+   "subscription_tracker": true,
+   "merchant_actions": false
+  },
+  "alerts": {
+   "sms": "all debits over ₹500"
+  }
+ },
+ "accounts": [
+  {
+   "id": "SAV-2290",
+   "name": "Savings ****2290",
+   "type": "savings",
+   "currency": "INR",
+   "balance": 64000.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Karthik Rao",
+   "type": "person",
+   "relationship": "husband",
+   "handle": "karthik.rao@okaxis",
+   "last_paid": "2026-11-01"
+  },
+  {
+   "name": "Shantha Rao",
+   "type": "person",
+   "relationship": "mother",
+   "handle": "shantharao@oksbi",
+   "last_paid": "2026-11-03"
+  },
+  {
+   "name": "Sunita Jadhav",
+   "type": "person",
+   "relationship": "house help",
+   "handle": "sunitaj.pnl@ybl",
+   "last_paid": "2026-11-02"
+  },
+  {
+   "name": "MSEDCL",
+   "type": "biller",
+   "category": "electricity",
+   "reference": "consumer no. ****6612"
+  },
+  {
+   "name": "Ledgerly Platinum credit card ****4417",
+   "type": "biller",
+   "category": "own credit card",
+   "reference": "****4417"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "type": "credit_card",
+   "name": "Ledgerly Platinum credit card ****4417",
+   "credit_limit": 150000.0,
+   "currency": "INR",
+   "statement_day": 8,
+   "due_day": 28,
+   "status": "active"
+  },
+  {
+   "type": "upi",
+   "vpa": "aditi.rao@ledgerly",
+   "linked_to": "Savings ****2290",
+   "status": "active"
+  },
+  {
+   "type": "merchant_connection",
+   "merchant": "StreamPlus",
+   "status": "connected"
+  }
+ ],
+ "subscriptions": [
+  {
+   "merchant": "StreamPlus",
+   "plan": "Free trial, then ₹499/month",
+   "currency": "INR",
+   "started": "2026-10-11",
+   "charged_to": "credit card ****4417 (e-mandate)",
+   "status": "trial"
+  },
+  {
+   "merchant": "Spotify",
+   "plan": "Premium Individual",
+   "price": 119.0,
+   "currency": "INR",
+   "billing": "monthly, 9th",
+   "charged_to": "UPI autopay, Savings ****2290",
+   "status": "active"
+  },
+  {
+   "merchant": "Amazon Prime",
+   "plan": "Annual",
+   "price": 1499.0,
+   "currency": "INR",
+   "billing": "yearly, renews 2027-02-14",
+   "charged_to": "credit card ****4417",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SI-3307 · Monthly card bill: when the Platinum credit card ****4417 statement is generated (8th), pay the full statement balance from Savings ****2290 before the due date (28th). The amount changes every month; Aditi approves it each time.",
+  "SI-3310 · SIP: ₹3,000 to the Flexi Cap Fund on the 5th by NACH (runs automatically)."
+ ],
+ "notes": [
+  "2026-10-11 · StreamPlus is a trial, cancel before it ends."
+ ],
+ "bills": [
+  {
+   "biller": "Ledgerly Platinum credit card ****4417",
+   "period": "2026-10-09 to 2026-11-08",
+   "issued": "2026-11-08",
+   "due": "2026-11-28",
+   "currency": "INR",
+   "status": "statement ready, unpaid"
+  },
+  {
+   "biller": "Ledgerly Platinum credit card ****4417",
+   "period": "2026-09-09 to 2026-10-08",
+   "issued": "2026-10-08",
+   "due": "2026-10-28",
+   "amount": 10862.0,
+   "currency": "INR",
+   "status": "paid 2026-10-24"
+  },
+  {
+   "biller": "MSEDCL",
+   "issued": "2026-11-04",
+   "due": "2026-11-24",
+   "amount": 1094.0,
+   "currency": "INR",
+   "status": "unpaid"
+  }
+ ],
+ "notifications": [
+  {
+   "date": "2026-11-08",
+   "from": "Ledgerly Cards",
+   "text": "Your Platinum credit card statement for 09 Oct - 08 Nov is ready. Payment due by 28 Nov."
+  },
+  {
+   "date": "2026-11-05",
+   "from": "Flexi Cap Fund",
+   "text": "SIP instalment of ₹3,000 processed."
+  },
+  {
+   "date": "2026-10-24",
+   "from": "Ledgerly",
+   "text": "₹10,862.00 paid to Platinum credit card ****4417. Thank you!"
+  },
+  {
+   "date": "2026-10-11",
+   "from": "StreamPlus",
+   "text": "Welcome to StreamPlus! Your free trial has started. Enjoy unlimited movies and shows."
+  }
+ ],
+ "event_log": [
+  {
+   "date": "2026-10-24",
+   "actor": "assistant",
+   "action": "pay_bill",
+   "detail": "SI-3307 monthly card bill: ₹10,862.00 to Platinum card ****4417, approved by member",
+   "ref": "LDG-7Q2K91"
+  },
+  {
+   "date": "2026-09-24",
+   "actor": "assistant",
+   "action": "pay_bill",
+   "detail": "SI-3307 monthly card bill: ₹13,105.00 to Platinum card ****4417, approved by member",
+   "ref": "LDG-5T8M40"
+  },
+  {
+   "date": "2026-08-25",
+   "actor": "assistant",
+   "action": "pay_bill",
+   "detail": "SI-3307 monthly card bill: ₹12,340.00 to Platinum card ****4417, approved by member",
+   "ref": "LDG-2H6W73"
+  }
+ ],
+ "transactions": [
+  {
+   "id": "txn_pjtrkrpp",
+   "date": "2026-11-12",
+   "counterparty": "Patel Provision Store",
+   "amount": 444.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_jvyqhfmy",
+   "date": "2026-11-12",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 309.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_sw3hk5ne",
+   "date": "2026-11-09",
+   "counterparty": "Spotify",
+   "amount": 119.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI autopay",
+   "memo": "Premium Individual",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_q3ffhzwp",
+   "date": "2026-11-07",
+   "counterparty": "Laxmi Diya & Rangoli",
+   "amount": 420.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Diwali diyas",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_qmqj4g9h",
+   "date": "2026-11-06",
+   "counterparty": "Panvel Sweets",
+   "amount": 1280.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Diwali sweets",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_mhsamw7f",
+   "date": "2026-11-05",
+   "counterparty": "Flexi Cap Fund SIP",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "NACH auto-debit",
+   "memo": "SIP (SI-3310)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_s4pvz2sb",
+   "date": "2026-11-03",
+   "counterparty": "Shantha Rao",
+   "handle": "shantharao@oksbi",
+   "amount": 5000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Amma",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_eegnpg4y",
+   "date": "2026-11-02",
+   "counterparty": "Auto fare, Vijay S.",
+   "amount": 124.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_57gffjj9",
+   "date": "2026-11-02",
+   "counterparty": "Sunita Jadhav",
+   "handle": "sunitaj.pnl@ybl",
+   "amount": 3500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "house help",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_2mvvpn9f",
+   "date": "2026-11-02",
+   "counterparty": "Little Scholars English School",
+   "amount": 41200.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "NEFT",
+   "memo": "Salary",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_h7xy28mg",
+   "date": "2026-11-01",
+   "counterparty": "Shinde Dairy",
+   "handle": "shindedairy@ybl",
+   "amount": 1920.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "milk, monthly",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_nr4twnr3",
+   "date": "2026-11-01",
+   "counterparty": "Karthik Rao",
+   "handle": "karthik.rao@okaxis",
+   "amount": 8000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "rent share",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_hc36fu7h",
+   "date": "2026-10-31",
+   "counterparty": "Auto fare, Vijay S.",
+   "amount": 127.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_w7turmw9",
+   "date": "2026-10-27",
+   "counterparty": "Jio",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Prepaid recharge, 28 days",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_3nvwh6fh",
+   "date": "2026-10-25",
+   "counterparty": "Auto fare, Ramesh K.",
+   "amount": 51.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_j9rcuq6v",
+   "date": "2026-10-24",
+   "counterparty": "Ledgerly Platinum credit card ****4417",
+   "amount": 10862.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "card bill payment",
+   "memo": "Statement paid in full (SI-3307)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_58tqred6",
+   "date": "2026-10-22",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 355.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_mdpbua7k",
+   "date": "2026-10-18",
+   "counterparty": "D-Mart Panvel",
+   "amount": 1064.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_yynaepas",
+   "date": "2026-10-16",
+   "counterparty": "Mahanagar Gas",
+   "amount": 551.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Piped gas, 2 months",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_af7wb68w",
+   "date": "2026-10-15",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 240.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_a82bs6c7",
+   "date": "2026-10-12",
+   "counterparty": "Sai Fruits & Vegetables",
+   "amount": 116.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_kp9tamqu",
+   "date": "2026-10-12",
+   "counterparty": "MSEDCL",
+   "amount": 1186.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electricity ****6612",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_qkeqfvm2",
+   "date": "2026-10-11",
+   "counterparty": "Patel Provision Store",
+   "amount": 772.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_3aa5bwjy",
+   "date": "2026-10-09",
+   "counterparty": "Spotify",
+   "amount": 119.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI autopay",
+   "memo": "Premium Individual",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_a84fbng7",
+   "date": "2026-10-05",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 161.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_cr6zydc9",
+   "date": "2026-10-05",
+   "counterparty": "Flexi Cap Fund SIP",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "NACH auto-debit",
+   "memo": "SIP (SI-3310)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_va9b6bgt",
+   "date": "2026-10-03",
+   "counterparty": "Shantha Rao",
+   "handle": "shantharao@oksbi",
+   "amount": 5000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Amma",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_jsv424cd",
+   "date": "2026-10-02",
+   "counterparty": "Sunita Jadhav",
+   "handle": "sunitaj.pnl@ybl",
+   "amount": 3500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "house help",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_jpad9553",
+   "date": "2026-10-01",
+   "counterparty": "Shinde Dairy",
+   "handle": "shindedairy@ybl",
+   "amount": 1980.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "milk, monthly",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_9qbe5mv4",
+   "date": "2026-10-01",
+   "counterparty": "Karthik Rao",
+   "handle": "karthik.rao@okaxis",
+   "amount": 8000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "rent share",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_s7jsngfc",
+   "date": "2026-10-01",
+   "counterparty": "Little Scholars English School",
+   "amount": 41200.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "NEFT",
+   "memo": "Salary",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_k4bzscrq",
+   "date": "2026-09-29",
+   "counterparty": "Jio",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Prepaid recharge, 28 days",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_25wmc4na",
+   "date": "2026-09-26",
+   "counterparty": "Auto fare, Vijay S.",
+   "amount": 84.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_xb9v3xpf",
+   "date": "2026-09-25",
+   "counterparty": "Vada Pav Corner",
+   "amount": 67.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_tmw8hqtv",
+   "date": "2026-09-24",
+   "counterparty": "Ledgerly Platinum credit card ****4417",
+   "amount": 13105.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "card bill payment",
+   "memo": "Statement paid in full (SI-3307)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_wxwu96rp",
+   "date": "2026-09-22",
+   "counterparty": "Sai Fruits & Vegetables",
+   "amount": 246.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_j47w4fqe",
+   "date": "2026-09-20",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 88.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_7vup29ay",
+   "date": "2026-09-18",
+   "counterparty": "Shree Ganesh Kirana Stores",
+   "amount": 494.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_ddzsswrc",
+   "date": "2026-09-12",
+   "counterparty": "Sai Fruits & Vegetables",
+   "amount": 266.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_up9jsd6c",
+   "date": "2026-09-12",
+   "counterparty": "Ganesh Murti Kendra",
+   "amount": 1450.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Ganpati murti",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_z23a65py",
+   "date": "2026-09-12",
+   "counterparty": "MSEDCL",
+   "amount": 1012.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electricity ****6612",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_qrxdnqce",
+   "date": "2026-09-09",
+   "counterparty": "Spotify",
+   "amount": 119.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI autopay",
+   "memo": "Premium Individual",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_dm55d75s",
+   "date": "2026-09-05",
+   "counterparty": "Flexi Cap Fund SIP",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "NACH auto-debit",
+   "memo": "SIP (SI-3310)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_2ps5xh3w",
+   "date": "2026-09-03",
+   "counterparty": "Sai Fruits & Vegetables",
+   "amount": 171.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_29vq69kn",
+   "date": "2026-09-03",
+   "counterparty": "Shantha Rao",
+   "handle": "shantharao@oksbi",
+   "amount": 5000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Amma",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_y4fmzn8q",
+   "date": "2026-09-02",
+   "counterparty": "Sunita Jadhav",
+   "handle": "sunitaj.pnl@ybl",
+   "amount": 3500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "house help",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_hytghyj3",
+   "date": "2026-09-01",
+   "counterparty": "Jio",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Prepaid recharge, 28 days",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_bje9kvcn",
+   "date": "2026-09-01",
+   "counterparty": "Shinde Dairy",
+   "handle": "shindedairy@ybl",
+   "amount": 1980.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "milk, monthly",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_q3shftsq",
+   "date": "2026-09-01",
+   "counterparty": "Karthik Rao",
+   "handle": "karthik.rao@okaxis",
+   "amount": 8000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "rent share",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_jngvm7jv",
+   "date": "2026-09-01",
+   "counterparty": "Little Scholars English School",
+   "amount": 41200.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "NEFT",
+   "memo": "Salary",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_9zk3hjwm",
+   "date": "2026-08-31",
+   "counterparty": "Vada Pav Corner",
+   "amount": 63.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_wz4ayrnt",
+   "date": "2026-08-26",
+   "counterparty": "Patel Provision Store",
+   "amount": 263.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_mz7nsrgd",
+   "date": "2026-08-26",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 144.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_4ts2yzkb",
+   "date": "2026-08-25",
+   "counterparty": "Ledgerly Platinum credit card ****4417",
+   "amount": 12340.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "card bill payment",
+   "memo": "Statement paid in full (SI-3307)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_mcpxz9yz",
+   "date": "2026-08-24",
+   "counterparty": "Sai Fruits & Vegetables",
+   "amount": 228.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_j3fhd9xf",
+   "date": "2026-08-16",
+   "counterparty": "Mahanagar Gas",
+   "amount": 635.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Piped gas, 2 months",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_9j3a7u8d",
+   "date": "2026-08-13",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 328.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_3mc5pj53",
+   "date": "2026-08-12",
+   "counterparty": "MSEDCL",
+   "amount": 978.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electricity ****6612",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_aesvds8w",
+   "date": "2026-08-09",
+   "counterparty": "Spotify",
+   "amount": 119.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI autopay",
+   "memo": "Premium Individual",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_76ujb8pc",
+   "date": "2026-08-05",
+   "counterparty": "Patel Provision Store",
+   "amount": 550.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_zjx7n7ye",
+   "date": "2026-08-05",
+   "counterparty": "Flexi Cap Fund SIP",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "NACH auto-debit",
+   "memo": "SIP (SI-3310)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_n95ndv34",
+   "date": "2026-08-04",
+   "counterparty": "Auto fare, Ramesh K.",
+   "amount": 115.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_fgs2skgu",
+   "date": "2026-08-04",
+   "counterparty": "Jio",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Prepaid recharge, 28 days",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_umh3ed4u",
+   "date": "2026-08-03",
+   "counterparty": "Shantha Rao",
+   "handle": "shantharao@oksbi",
+   "amount": 5000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Amma",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_962fv467",
+   "date": "2026-08-03",
+   "counterparty": "Little Scholars English School",
+   "amount": 41200.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "NEFT",
+   "memo": "Salary",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_zr2q7rgy",
+   "date": "2026-08-02",
+   "counterparty": "Priya Kulkarni",
+   "handle": "priyak.teach@okicici",
+   "amount": 406.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "UPI",
+   "memo": "farewell gift contribution",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_7rdn9hqw",
+   "date": "2026-08-02",
+   "counterparty": "Sunita Jadhav",
+   "handle": "sunitaj.pnl@ybl",
+   "amount": 3500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "house help",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_6yf2kf7w",
+   "date": "2026-08-01",
+   "counterparty": "Shinde Dairy",
+   "handle": "shindedairy@ybl",
+   "amount": 1920.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "milk, monthly",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_nx8jkvah",
+   "date": "2026-08-01",
+   "counterparty": "Karthik Rao",
+   "handle": "karthik.rao@okaxis",
+   "amount": 8000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "rent share",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_7pde3jy8",
+   "date": "2026-07-25",
+   "counterparty": "MedPlus Pharmacy",
+   "amount": 166.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_kcbe3c5b",
+   "date": "2026-07-25",
+   "counterparty": "Patel Provision Store",
+   "amount": 339.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_rsvmfhsj",
+   "date": "2026-07-23",
+   "counterparty": "Ledgerly Platinum credit card ****4417",
+   "amount": 10212.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "card bill payment",
+   "memo": "Statement paid in full (SI-3307)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_a564c7ar",
+   "date": "2026-07-22",
+   "counterparty": "Auto fare, Vijay S.",
+   "amount": 136.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_gbgupe36",
+   "date": "2026-07-22",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 368.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_cw4rhqw4",
+   "date": "2026-07-15",
+   "counterparty": "MedPlus Pharmacy",
+   "amount": 284.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_2cd6jsar",
+   "date": "2026-07-12",
+   "counterparty": "MSEDCL",
+   "amount": 1036.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electricity ****6612",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_ahhhmypa",
+   "date": "2026-07-09",
+   "counterparty": "Spotify",
+   "amount": 119.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI autopay",
+   "memo": "Premium Individual",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_sqw77bsm",
+   "date": "2026-07-07",
+   "counterparty": "Jio",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Prepaid recharge, 28 days",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_mg4qydm8",
+   "date": "2026-07-05",
+   "counterparty": "Flexi Cap Fund SIP",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "NACH auto-debit",
+   "memo": "SIP (SI-3310)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_cucj3fb2",
+   "date": "2026-07-03",
+   "counterparty": "Shantha Rao",
+   "handle": "shantharao@oksbi",
+   "amount": 5000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Amma",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_6aads7ys",
+   "date": "2026-07-02",
+   "counterparty": "Sunita Jadhav",
+   "handle": "sunitaj.pnl@ybl",
+   "amount": 3500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "house help",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_8v8nx3np",
+   "date": "2026-07-01",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 368.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_6vmm7ck2",
+   "date": "2026-07-01",
+   "counterparty": "Shinde Dairy",
+   "handle": "shindedairy@ybl",
+   "amount": 1860.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "milk, monthly",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_cf4w6eja",
+   "date": "2026-07-01",
+   "counterparty": "Karthik Rao",
+   "handle": "karthik.rao@okaxis",
+   "amount": 8000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "rent share",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_zat68ry3",
+   "date": "2026-07-01",
+   "counterparty": "Little Scholars English School",
+   "amount": 41200.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "NEFT",
+   "memo": "Salary",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_ezyezkaw",
+   "date": "2026-06-27",
+   "counterparty": "MedPlus Pharmacy",
+   "amount": 329.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_task9cvy",
+   "date": "2026-06-24",
+   "counterparty": "Ledgerly Platinum credit card ****4417",
+   "amount": 11775.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "card bill payment",
+   "memo": "Statement paid in full (SI-3307)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_mckgrmtv",
+   "date": "2026-06-18",
+   "counterparty": "Shree Ganesh Kirana Stores",
+   "amount": 606.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_f87q9pey",
+   "date": "2026-06-16",
+   "counterparty": "Auto fare, Vijay S.",
+   "amount": 89.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_ubhpq9uq",
+   "date": "2026-06-16",
+   "counterparty": "Mahanagar Gas",
+   "amount": 623.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Piped gas, 2 months",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_2hjs67hg",
+   "date": "2026-06-12",
+   "counterparty": "MSEDCL",
+   "amount": 1517.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electricity ****6612",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_eqfkyv5h",
+   "date": "2026-06-10",
+   "counterparty": "Amrut Tea Stall",
+   "amount": 42.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_ffd7m46q",
+   "date": "2026-06-09",
+   "counterparty": "Jio",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Prepaid recharge, 28 days",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_3tsfwf5u",
+   "date": "2026-06-09",
+   "counterparty": "Spotify",
+   "amount": 119.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI autopay",
+   "memo": "Premium Individual",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_dn2w5zxn",
+   "date": "2026-06-08",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 257.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_cemdehg4",
+   "date": "2026-06-07",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 339.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_63mwqhwn",
+   "date": "2026-06-06",
+   "counterparty": "D-Mart Panvel",
+   "amount": 1823.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_up2gnyxn",
+   "date": "2026-06-05",
+   "counterparty": "Flexi Cap Fund SIP",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "NACH auto-debit",
+   "memo": "SIP (SI-3310)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_tfsr8gbd",
+   "date": "2026-06-03",
+   "counterparty": "Shantha Rao",
+   "handle": "shantharao@oksbi",
+   "amount": 5000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Amma",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_qt2gdfpb",
+   "date": "2026-06-02",
+   "counterparty": "Sunita Jadhav",
+   "handle": "sunitaj.pnl@ybl",
+   "amount": 3500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "house help",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_et4czbmz",
+   "date": "2026-06-01",
+   "counterparty": "Shinde Dairy",
+   "handle": "shindedairy@ybl",
+   "amount": 1860.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "milk, monthly",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_cdkkpk8p",
+   "date": "2026-06-01",
+   "counterparty": "Karthik Rao",
+   "handle": "karthik.rao@okaxis",
+   "amount": 8000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "rent share",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_yk9e6v77",
+   "date": "2026-06-01",
+   "counterparty": "Little Scholars English School",
+   "amount": 41200.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "NEFT",
+   "memo": "Salary",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_pk7cazvr",
+   "date": "2026-05-28",
+   "counterparty": "Shree Ganesh Kirana Stores",
+   "amount": 303.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_9abt24z9",
+   "date": "2026-05-28",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 358.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_93yjw35t",
+   "date": "2026-05-26",
+   "counterparty": "Ledgerly Platinum credit card ****4417",
+   "amount": 13602.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "card bill payment",
+   "memo": "Statement paid in full (SI-3307)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_jbzywrbc",
+   "date": "2026-05-25",
+   "counterparty": "Amrut Tea Stall",
+   "amount": 37.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_p6qqbjzt",
+   "date": "2026-05-21",
+   "counterparty": "Auto fare, Ramesh K.",
+   "amount": 75.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_ufbqey23",
+   "date": "2026-05-21",
+   "counterparty": "IRCTC",
+   "amount": 1860.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Hubballi - Panvel, 3A",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_jhzueezu",
+   "date": "2026-05-20",
+   "counterparty": "Shree Ganesh Kirana Stores",
+   "amount": 317.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_5fg32dkn",
+   "date": "2026-05-13",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 313.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_5f4qfjkr",
+   "date": "2026-05-12",
+   "counterparty": "Jio",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Prepaid recharge, 28 days",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_r6rbpbb3",
+   "date": "2026-05-12",
+   "counterparty": "MSEDCL",
+   "amount": 1642.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electricity ****6612",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_b9nee2nd",
+   "date": "2026-05-09",
+   "counterparty": "Spotify",
+   "amount": 119.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI autopay",
+   "memo": "Premium Individual",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_hb4dya2y",
+   "date": "2026-05-08",
+   "counterparty": "IRCTC",
+   "amount": 1860.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Panvel - Hubballi, 3A",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_z9g49xbb",
+   "date": "2026-05-05",
+   "counterparty": "Flexi Cap Fund SIP",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "NACH auto-debit",
+   "memo": "SIP (SI-3310)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_7n8bmxam",
+   "date": "2026-05-04",
+   "counterparty": "Sai Fruits & Vegetables",
+   "amount": 301.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_n9a4pz89",
+   "date": "2026-05-03",
+   "counterparty": "Shantha Rao",
+   "handle": "shantharao@oksbi",
+   "amount": 5000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Amma",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_ybcz8785",
+   "date": "2026-05-02",
+   "counterparty": "Auto fare, Ramesh K.",
+   "amount": 108.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_nv9fdhr5",
+   "date": "2026-05-02",
+   "counterparty": "Sunita Jadhav",
+   "handle": "sunitaj.pnl@ybl",
+   "amount": 3500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "house help",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_zrw3fp58",
+   "date": "2026-05-01",
+   "counterparty": "Shinde Dairy",
+   "handle": "shindedairy@ybl",
+   "amount": 1980.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "milk, monthly",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_3r8xkrxa",
+   "date": "2026-05-01",
+   "counterparty": "Karthik Rao",
+   "handle": "karthik.rao@okaxis",
+   "amount": 8000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "rent share",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_br3dpah8",
+   "date": "2026-05-01",
+   "counterparty": "Little Scholars English School",
+   "amount": 38600.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "NEFT",
+   "memo": "Salary",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_r9gxcpkq",
+   "date": "2026-04-26",
+   "counterparty": "Shree Ganesh Kirana Stores",
+   "amount": 896.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_vt5wdn2k",
+   "date": "2026-04-23",
+   "counterparty": "Ledgerly Platinum credit card ****4417",
+   "amount": 10488.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "card bill payment",
+   "memo": "Statement paid in full (SI-3307)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_ucw8xna8",
+   "date": "2026-04-22",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 238.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_msjwrdzd",
+   "date": "2026-04-16",
+   "counterparty": "Mahanagar Gas",
+   "amount": 529.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Piped gas, 2 months",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_4ms775mk",
+   "date": "2026-04-14",
+   "counterparty": "Jio",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Prepaid recharge, 28 days",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_qrdsfadr",
+   "date": "2026-04-13",
+   "counterparty": "D-Mart Panvel",
+   "amount": 1225.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_rfwtpffd",
+   "date": "2026-04-12",
+   "counterparty": "MSEDCL",
+   "amount": 1388.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electricity ****6612",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_32eb7pft",
+   "date": "2026-04-10",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 259.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_pgn63mpp",
+   "date": "2026-04-09",
+   "counterparty": "Spotify",
+   "amount": 119.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI autopay",
+   "memo": "Premium Individual",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_h5mefjp7",
+   "date": "2026-04-08",
+   "counterparty": "Auto fare, Ramesh K.",
+   "amount": 95.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_h2vjs4t7",
+   "date": "2026-04-05",
+   "counterparty": "Flexi Cap Fund SIP",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "NACH auto-debit",
+   "memo": "SIP (SI-3310)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_fc8xgad6",
+   "date": "2026-04-03",
+   "counterparty": "Sai Fruits & Vegetables",
+   "amount": 179.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_udytwna8",
+   "date": "2026-04-03",
+   "counterparty": "Shantha Rao",
+   "handle": "shantharao@oksbi",
+   "amount": 5000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Amma",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_9t7c5ubm",
+   "date": "2026-04-02",
+   "counterparty": "Sunita Jadhav",
+   "handle": "sunitaj.pnl@ybl",
+   "amount": 3500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "house help",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_jdypvx63",
+   "date": "2026-04-01",
+   "counterparty": "Shinde Dairy",
+   "handle": "shindedairy@ybl",
+   "amount": 1980.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "milk, monthly",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_a4yuzwgf",
+   "date": "2026-04-01",
+   "counterparty": "Karthik Rao",
+   "handle": "karthik.rao@okaxis",
+   "amount": 8000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "rent share",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_9dh5q95h",
+   "date": "2026-04-01",
+   "counterparty": "Little Scholars English School",
+   "amount": 38600.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "NEFT",
+   "memo": "Salary",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_s6fsr3fj",
+   "date": "2026-03-29",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 341.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_ztegka83",
+   "date": "2026-03-25",
+   "counterparty": "Auto fare, Ramesh K.",
+   "amount": 87.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_4j257rdm",
+   "date": "2026-03-24",
+   "counterparty": "Ledgerly Platinum credit card ****4417",
+   "amount": 12915.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "card bill payment",
+   "memo": "Statement paid in full (SI-3307)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_upphxb4j",
+   "date": "2026-03-18",
+   "counterparty": "Shree Puja Bhandar",
+   "amount": 640.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Ugadi puja items",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_n5heqpr9",
+   "date": "2026-03-17",
+   "counterparty": "Jio",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Prepaid recharge, 28 days",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_nhuz67fb",
+   "date": "2026-03-15",
+   "counterparty": "Shree Ganesh Kirana Stores",
+   "amount": 845.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_mue8gzq6",
+   "date": "2026-03-12",
+   "counterparty": "MSEDCL",
+   "amount": 1104.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electricity ****6612",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_qystk94n",
+   "date": "2026-03-10",
+   "counterparty": "Shree Ganesh Kirana Stores",
+   "amount": 387.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_xwc7e2xf",
+   "date": "2026-03-09",
+   "counterparty": "Spotify",
+   "amount": 119.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI autopay",
+   "memo": "Premium Individual",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_tsa2wbap",
+   "date": "2026-03-05",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 78.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_hsphyb69",
+   "date": "2026-03-05",
+   "counterparty": "Flexi Cap Fund SIP",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "NACH auto-debit",
+   "memo": "SIP (SI-3310)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_9vuaucg3",
+   "date": "2026-03-03",
+   "counterparty": "Sai Fruits & Vegetables",
+   "amount": 113.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_2ahpvgj8",
+   "date": "2026-03-03",
+   "counterparty": "Shantha Rao",
+   "handle": "shantharao@oksbi",
+   "amount": 5000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Amma",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_3ym2hekb",
+   "date": "2026-03-02",
+   "counterparty": "Sunita Jadhav",
+   "handle": "sunitaj.pnl@ybl",
+   "amount": 3500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "house help",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_ub9ee5zt",
+   "date": "2026-03-02",
+   "counterparty": "Little Scholars English School",
+   "amount": 38600.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "NEFT",
+   "memo": "Salary",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_67hp54xb",
+   "date": "2026-03-01",
+   "counterparty": "Shinde Dairy",
+   "handle": "shindedairy@ybl",
+   "amount": 1980.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "milk, monthly",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_hj57uz88",
+   "date": "2026-03-01",
+   "counterparty": "Karthik Rao",
+   "handle": "karthik.rao@okaxis",
+   "amount": 8000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "rent share",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_v5qxzscd",
+   "date": "2026-02-28",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 228.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_vgpnsg5z",
+   "date": "2026-02-28",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 197.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_gu2426pd",
+   "date": "2026-02-27",
+   "counterparty": "Patel Provision Store",
+   "amount": 529.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_6ceybvr9",
+   "date": "2026-02-25",
+   "counterparty": "Ledgerly Platinum credit card ****4417",
+   "amount": 9860.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "card bill payment",
+   "memo": "Statement paid in full (SI-3307)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_tssy9x8u",
+   "date": "2026-02-24",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 302.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_f7fbjmeq",
+   "date": "2026-02-19",
+   "counterparty": "Auto fare, Ramesh K.",
+   "amount": 141.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_ergj2vyp",
+   "date": "2026-02-17",
+   "counterparty": "Jio",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Prepaid recharge, 28 days",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_7akh4mbb",
+   "date": "2026-02-16",
+   "counterparty": "Mahanagar Gas",
+   "amount": 582.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Piped gas, 2 months",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_2z5t46cp",
+   "date": "2026-02-14",
+   "counterparty": "Amrut Tea Stall",
+   "amount": 40.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_ev5s8w3u",
+   "date": "2026-02-12",
+   "counterparty": "Sai Fruits & Vegetables",
+   "amount": 102.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_6vt8kc47",
+   "date": "2026-02-12",
+   "counterparty": "MSEDCL",
+   "amount": 846.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electricity ****6612",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_2dahz2wb",
+   "date": "2026-02-09",
+   "counterparty": "Spotify",
+   "amount": 119.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI autopay",
+   "memo": "Premium Individual",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_bsh4yjue",
+   "date": "2026-02-06",
+   "counterparty": "Priya Kulkarni",
+   "handle": "priyak.teach@okicici",
+   "amount": 512.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "lunch",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_9x6vce9b",
+   "date": "2026-02-06",
+   "counterparty": "Shree Ganesh Kirana Stores",
+   "amount": 454.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_y7m7uyyq",
+   "date": "2026-02-05",
+   "counterparty": "Flexi Cap Fund SIP",
+   "amount": 3000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "NACH auto-debit",
+   "memo": "SIP (SI-3310)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_3xyevcpw",
+   "date": "2026-02-03",
+   "counterparty": "Shantha Rao",
+   "handle": "shantharao@oksbi",
+   "amount": 5000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Amma",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_whw5daax",
+   "date": "2026-02-02",
+   "counterparty": "Sunita Jadhav",
+   "handle": "sunitaj.pnl@ybl",
+   "amount": 3500.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "house help",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_3sw9arsj",
+   "date": "2026-02-02",
+   "counterparty": "Little Scholars English School",
+   "amount": 38600.0,
+   "currency": "INR",
+   "direction": "in",
+   "type": "NEFT",
+   "memo": "Salary",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_j7bcwb7y",
+   "date": "2026-02-01",
+   "counterparty": "Shinde Dairy",
+   "handle": "shindedairy@ybl",
+   "amount": 1980.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "milk, monthly",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_tyde6u3r",
+   "date": "2026-02-01",
+   "counterparty": "Karthik Rao",
+   "handle": "karthik.rao@okaxis",
+   "amount": 8000.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "rent share",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_qecu8t2m",
+   "date": "2026-01-27",
+   "counterparty": "Ganesh Vegetables",
+   "amount": 156.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_nkz6xmhh",
+   "date": "2026-01-24",
+   "counterparty": "Ledgerly Platinum credit card ****4417",
+   "amount": 11240.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "card bill payment",
+   "memo": "Statement paid in full (SI-3307)",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_fm3m9e48",
+   "date": "2026-01-20",
+   "counterparty": "Jio",
+   "amount": 349.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "Prepaid recharge, 28 days",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_kqdschkw",
+   "date": "2026-01-17",
+   "counterparty": "Auto fare, Ramesh K.",
+   "amount": 40.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_meyte787",
+   "date": "2026-01-12",
+   "counterparty": "Priya Kulkarni",
+   "handle": "priyak.teach@okicici",
+   "amount": 434.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "UPI",
+   "memo": "farewell gift contribution",
+   "account": "SAV-2290"
+  },
+  {
+   "id": "txn_7hxnrdp6",
+   "date": "2026-01-12",
+   "counterparty": "MSEDCL",
+   "amount": 912.0,
+   "currency": "INR",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electricity ****6612",
+   "account": "SAV-2290"
+  }
+ ],
+ "_meta": {
+  "env_id": "bills",
+  "seed_pairs": [
+   "S43"
+  ],
+  "rng_seed": 20261119,
+  "generator": "envs/bills/build_members.py",
+  "history_window": [
+   "2026-01-12",
+   "2026-11-12"
+  ],
+  "decisive_transactions": []
+ }
+}

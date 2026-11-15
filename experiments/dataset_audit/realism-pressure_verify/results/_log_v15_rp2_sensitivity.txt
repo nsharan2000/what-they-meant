@@ -1,0 +1,176 @@
+{
+ "L0r/P0->L1/P0": {
+  "A_literal": {
+   "all": {
+    "n_arms": 14,
+    "sig_down": 9,
+    "sig_up": 0,
+    "median_diff": -0.2111
+   },
+   "no_empty": {
+    "n_arms": 14,
+    "sig_down": 9,
+    "sig_up": 0,
+    "median_diff": -0.2396
+   }
+  },
+  "A_ask": {
+   "all": {
+    "n_arms": 14,
+    "sig_down": 0,
+    "sig_up": 5,
+    "median_diff": 0.1124
+   },
+   "no_empty": {
+    "n_arms": 14,
+    "sig_down": 0,
+    "sig_up": 5,
+    "median_diff": 0.1003
+   }
+  },
+  "B_needless": {
+   "all": {
+    "n_arms": 14,
+    "sig_down": 0,
+    "sig_up": 2,
+    "median_diff": 0.0682
+   },
+   "no_empty": {
+    "n_arms": 14,
+    "sig_down": 0,
+    "sig_up": 2,
+    "median_diff": 0.0698
+   }
+  },
+  "B_act": {
+   "all": {
+    "n_arms": 14,
+    "sig_down": 7,
+    "sig_up": 0,
+    "median_diff": -0.1889
+   },
+   "no_empty": {
+    "n_arms": 14,
+    "sig_down": 7,
+    "sig_up": 0,
+    "median_diff": -0.1941
+   }
+  }
+ },
+ "L0r/P0->L2/P0": {
+  "A_literal": {
+   "all": {
+    "n_arms": 21,
+    "sig_down": 6,
+    "sig_up": 0,
+    "median_diff": -0.0667
+   },
+   "no_empty": {
+    "n_arms": 21,
+    "sig_down": 7,
+    "sig_up": 0,
+    "median_diff": -0.0667
+   }
+  },
+  "A_ask": {
+   "all": {
+    "n_arms": 21,
+    "sig_down": 0,
+    "sig_up": 4,
+    "median_diff": 0.0367
+   },
+   "no_empty": {
+    "n_arms": 21,
+    "sig_down": 0,
+    "sig_up": 3,
+    "median_diff": 0.0233
+   }
+  },
+  "B_needless": {
+   "all": {
+    "n_arms": 21,
+    "sig_down": 0,
+    "sig_up": 3,
+    "median_diff": 0.0444
+   },
+   "no_empty": {
+    "n_arms": 21,
+    "sig_down": 0,
+    "sig_up": 4,
+    "median_diff": 0.0227
+   }
+  },
+  "B_act": {
+   "all": {
+    "n_arms": 21,
+    "sig_down": 9,
+    "sig_up": 0,
+    "median_diff": -0.1204
+   },
+   "no_empty": {
+    "n_arms": 21,
+    "sig_down": 7,
+    "sig_up": 0,
+    "median_diff": -0.1
+   }
+  }
+ },
+ "L0r/P1->L1/P1": {
+  "A_literal": {
+   "all": {
+    "n_arms": 12,
+    "sig_down": 4,
+    "sig_up": 0,
+    "median_diff": -0.0889
+   },
+   "no_empty": {
+    "n_arms": 12,
+    "sig_down": 4,
+    "sig_up": 0,
+    "median_diff": -0.09
+   }
+  },
+  "A_ask": {
+   "all": {
+    "n_arms": 12,
+    "sig_down": 0,
+    "sig_up": 2,
+    "median_diff": 0.0563
+   },
+   "no_empty": {
+    "n_arms": 12,
+    "sig_down": 0,
+    "sig_up": 2,
+    "median_diff": 0.0
+   }
+  },
+  "B_needless": {
+   "all": {
+    "n_arms": 12,
+    "sig_down": 0,
+    "sig_up": 6,
+    "median_diff": 0.1333
+   },
+   "no_empty": {
+    "n_arms": 12,
+    "sig_down": 0,
+    "sig_up": 4,
+    "median_diff": 0.0733
+   }
+  },
+  "B_act": {
+   "all": {
+    "n_arms": 12,
+    "sig_down": 8,
+    "sig_up": 0,
+    "median_diff": -0.1562
+   },
+   "no_empty": {
+    "n_arms": 12,
+    "sig_down": 4,
+    "sig_up": 0,
+    "median_diff": -0.1151
+   }
+  }
+ }
+}

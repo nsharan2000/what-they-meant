@@ -1,0 +1,21 @@
+{
+ "model": "/workspace/runs/m1_sft/merged",
+ "data": "/workspace/training/data_v121_curated",
+ "out": "/workspace/runs/m2_grpo",
+ "max_steps": 30,
+ "num_generations": 8,
+ "batch": 4,
+ "grad_accum": 8,
+ "lr": 5e-06,
+ "beta": 0.0,
+ "lora_r": 16,
+ "max_completion": 256,
+ "vllm_mem": 0.2,
+ "max_model_len": 12288,
+ "save_steps": 5,
+ "levels": null,
+ "fresh": false,
+ "smoke": false,
+ "warmup_steps": 3,
+ "data_sha256": "1d921563f4c80b7e8ee0ba28c9273b6ff8009e63d648a059d7e3865eeb46eaa9"
+}

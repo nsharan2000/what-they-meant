@@ -1,0 +1,70 @@
+{
+ "member_id": "riya_menon",
+ "profile": {
+  "name": "Riya Menon",
+  "age": 29,
+  "city": "Austin, TX",
+  "occupation": "UX researcher"
+ },
+ "accounts": [
+  {
+   "name": "Kestrel balance",
+   "currency": "USD",
+   "balance": 640.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Sam Carter",
+   "email": "samcarter.sc@mail.com",
+   "last_paid": "2026-10-12"
+  },
+  {
+   "name": "Priya Nair",
+   "email": "priya.n@mail.com",
+   "last_paid": "2026-09-30"
+  }
+ ],
+ "transactions": [
+  {
+   "id": "t1",
+   "date": "2026-11-09",
+   "counterparty": "Grocer",
+   "amount": 42.1,
+   "currency": "USD",
+   "direction": "out",
+   "type": "card"
+  },
+  {
+   "id": "t2",
+   "date": "2026-11-03",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "subscription"
+  },
+  {
+   "id": "t3",
+   "date": "2026-10-12",
+   "counterparty": "Sam Carter",
+   "handle": "samcarter.sc@mail.com",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "friends_family",
+   "memo": "pizza"
+  },
+  {
+   "id": "t4",
+   "date": "2026-09-30",
+   "counterparty": "Priya Nair",
+   "handle": "priya.n@mail.com",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "friends_family",
+   "memo": "cab"
+  }
+ ]
+}

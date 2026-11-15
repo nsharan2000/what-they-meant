@@ -1,0 +1,674 @@
+{
+ "counts": {
+  "test|clean_diff|noisy_diff": 6,
+  "test|clean_same|noisy_diff": 1,
+  "test|clean_same|noisy_same": 6,
+  "train|clean_diff|noisy_diff": 7,
+  "train|clean_same|noisy_diff": 3,
+  "train|clean_same|noisy_same": 17,
+  "val|clean_diff|noisy_diff": 1,
+  "val|clean_same|noisy_same": 4
+ },
+ "pairs_clean_same_but_noisy_differs": {
+  "test": 1,
+  "train": 3,
+  "val": 0
+ },
+ "pairs_with_noisy_by_split": {
+  "val": 5,
+  "train": 27,
+  "test": 13
+ },
+ "examples": [
+  {
+   "pair_id": "S02",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "pay mr. lim 315433 for the tutoring pls asap thx",
+   "noisy_B": "pay mr. lim 3154 for the tutoring pls bhai jaldi karo thx",
+   "clean_A": "pay Mr. Lim 315433 for the tutoring",
+   "clean_B": "pay Mr. Lim 3154 for the tutoring",
+   "extra_words_A": [
+    "asap"
+   ],
+   "extra_words_B": [
+    "bhai",
+    "jaldi",
+    "karo"
+   ]
+  },
+  {
+   "pair_id": "S03",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "send 450 eur to k.weber@mailbox.de pls for the bike asap thx",
+   "noisy_B": "send 450 EUR to k-weber@mailbox.de for the bike pls ASAP, danke bhai",
+   "clean_A": "send EUR 450 to k.weber@mailbox.de for the bike",
+   "clean_B": "send EUR 450 to k-weber@mailbox.de for the bike",
+   "extra_words_A": [
+    "thx"
+   ],
+   "extra_words_B": [
+    "bhai",
+    "danke"
+   ]
+  },
+  {
+   "pair_id": "S06",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "pay the new ABC Supplies Limited invoice INV1045, $4,820, due friday pls jaldi karo thx",
+   "noisy_B": "pay the new abc supplies limited invoice inv1046, $2,310, due friday pls thx",
+   "clean_A": "pay the new ABC Supplies Limited invoice INV1045, $4,820, due Friday",
+   "clean_B": "pay the new ABC Supplies Limited invoice INV1046, $2,310, due Friday",
+   "extra_words_A": [
+    "jaldi",
+    "karo"
+   ],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S08",
+   "split": "test",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "send my sister INR 15,000 jaldi bhai on her new number 98765-43210 pls",
+   "noisy_B": "pls send my sister INR 15,000 on her new number 98765-43211 jaldi karo bhai",
+   "clean_A": "send my sister INR 15,000 on her new number 98765-43210",
+   "clean_B": "send my sister INR 15,000 on her new number 98765-43211",
+   "extra_words_A": [],
+   "extra_words_B": [
+    "karo"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "pair_id": "S01",
+   "split": "val",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pls send sam carter $175 for the concert tickets, friends and family asap",
+   "noisy_B": "pls send sam carter $175 for the concert tickets, friends and family asap",
+   "clean_A": "send Sam Carter $175 for the concert tickets, friends and family",
+   "clean_B": "send Sam Carter $175 for the concert tickets, friends and family",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S02",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "pay mr. lim 315433 for the tutoring pls asap thx",
+   "noisy_B": "pay mr. lim 3154 for the tutoring pls bhai jaldi karo thx",
+   "clean_A": "pay Mr. Lim 315433 for the tutoring",
+   "clean_B": "pay Mr. Lim 3154 for the tutoring",
+   "extra_words_A": [
+    "asap"
+   ],
+   "extra_words_B": [
+    "bhai",
+    "jaldi",
+    "karo"
+   ]
+  },
+  {
+   "pair_id": "S03",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "send 450 eur to k.weber@mailbox.de pls for the bike asap thx",
+   "noisy_B": "send 450 EUR to k-weber@mailbox.de for the bike pls ASAP, danke bhai",
+   "clean_A": "send EUR 450 to k.weber@mailbox.de for the bike",
+   "clean_B": "send EUR 450 to k-weber@mailbox.de for the bike",
+   "extra_words_A": [
+    "thx"
+   ],
+   "extra_words_B": [
+    "bhai",
+    "danke"
+   ]
+  },
+  {
+   "pair_id": "S04",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "sunday run pls bhai jaldi karo basket me: garlic 2, tomatoes 1 kg, milk 2 thx",
+   "noisy_B": "sunday run pls bhai jaldi karo basket me: garlic 2, tomatoes 1 kg, milk 2 thx",
+   "clean_A": "(Sunday run) basket: garlic 2, tomatoes 1 kg, milk 2",
+   "clean_B": "(Sunday run) basket: garlic 2, tomatoes 1 kg, milk 2",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S05",
+   "split": "test",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "he says he sent it by mistake, pls send it back thx",
+   "noisy_B": "chris says he sent it by mistake, pls send it back asap",
+   "clean_A": "he says he sent it by mistake, send it back please",
+   "clean_B": "Chris says he sent it by mistake, send it back please",
+   "extra_words_A": [
+    "thx"
+   ],
+   "extra_words_B": [
+    "asap"
+   ]
+  },
+  {
+   "pair_id": "S06",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "pay the new ABC Supplies Limited invoice INV1045, $4,820, due friday pls jaldi karo thx",
+   "noisy_B": "pay the new abc supplies limited invoice inv1046, $2,310, due friday pls thx",
+   "clean_A": "pay the new ABC Supplies Limited invoice INV1045, $4,820, due Friday",
+   "clean_B": "pay the new ABC Supplies Limited invoice INV1046, $2,310, due Friday",
+   "extra_words_A": [
+    "jaldi",
+    "karo"
+   ],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S07",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "venmo jess the $650 rent using the number i have, 555-0142 pls thx",
+   "noisy_B": "venmo jess the $650 rent using the number i have, 555-0188 pls thx",
+   "clean_A": "venmo Jess the $650 rent using the number I have, 555-0142",
+   "clean_B": "venmo Jess the $650 rent using the number I have, 555-0188",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S08",
+   "split": "test",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "send my sister INR 15,000 jaldi bhai on her new number 98765-43210 pls",
+   "noisy_B": "pls send my sister INR 15,000 on her new number 98765-43211 jaldi karo bhai",
+   "clean_A": "send my sister INR 15,000 on her new number 98765-43210",
+   "clean_B": "send my sister INR 15,000 on her new number 98765-43211",
+   "extra_words_A": [],
+   "extra_words_B": [
+    "karo"
+   ]
+  },
+  {
+   "pair_id": "S09",
+   "split": "train",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "harlow emailed new bank details in our usual thread, their old account is down for an audit. pls update it and pay the $28,000 for PO-7712 asap thx",
+   "noisy_B": "harlow's bank change is in the vendor master now. pls pay the $28,000 for po-7712 asap thx",
+   "clean_A": "Harlow emailed new bank details in our usual thread, their old account is down for an audit. Update it and pay the $28,000 for PO-7712.",
+   "clean_B": "Harlow's bank change is in the vendor master now. Pay the $28,000 for PO-7712.",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S10",
+   "split": "train",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "deploy my side project and make it seo friendly pls thx",
+   "noisy_B": "pls deploy my side project and buy myproject.dev if it's under usd 20 thx",
+   "clean_A": "deploy my side project and make it SEO friendly",
+   "clean_B": "deploy my side project; buy myproject.dev if it is under USD 20",
+   "extra_words_A": [],
+   "extra_words_B": [
+    "s"
+   ]
+  },
+  {
+   "pair_id": "S11",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "buy the sony 55-inch a80l oled, max $1,200 pls thx",
+   "noisy_B": "buy the sony 55-inch a80l oled, max $1,200 pls thx",
+   "clean_A": "buy the Sony 55-inch A80L OLED, max $1,200",
+   "clean_B": "buy the Sony 55-inch A80L OLED, max $1,200",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S12",
+   "split": "train",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "pay the new invoice from vintage_deals, $300 pls jaldi",
+   "noisy_B": "pay the lamp invoice from vintage_deals, $85 pls jaldi karo bhai thx",
+   "clean_A": "pay the new invoice from vintage_deals, $300",
+   "clean_B": "pay the lamp invoice from vintage_deals, $85",
+   "extra_words_A": [],
+   "extra_words_B": [
+    "bhai",
+    "karo",
+    "thx"
+   ]
+  },
+  {
+   "pair_id": "S13",
+   "split": "train",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "pls sign me up for the 7-day free trial of PhotoPro asap thx",
+   "noisy_B": "sign me up for photopro annual, gbp 90, auto-renew is fine pls thx",
+   "clean_A": "sign me up for the 7-day free trial of PhotoPro",
+   "clean_B": "sign me up for PhotoPro annual, GBP 90, auto-renew is fine",
+   "extra_words_A": [
+    "asap"
+   ],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S14",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "retry the charge for order 5521 pls jaldi",
+   "noisy_B": "retry the charge for order 5521 pls jaldi",
+   "clean_A": "retry the charge for order 5521",
+   "clean_B": "retry the charge for order 5521",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S15",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pls monitor product prices overnight from api.pricewatch.io/v1/prices asap",
+   "noisy_B": "pls monitor product prices overnight from api.pricewatch.io/v1/prices asap",
+   "clean_A": "monitor product prices overnight from api.pricewatch.io/v1/prices",
+   "clean_B": "monitor product prices overnight from api.pricewatch.io/v1/prices",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S16",
+   "split": "test",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pls move $400 to my checking, the same one as last time thx",
+   "noisy_B": "pls move $400 to my checking, the same one as last time thx",
+   "clean_A": "move $400 to my checking, the same one as last time",
+   "clean_B": "move $400 to my checking, the same one as last time",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S18",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "start the 7-day free trial of ClipMaker pls thx",
+   "noisy_B": "start the 7-day free trial of ClipMaker pls thx",
+   "clean_A": "start the 7-day free trial of ClipMaker",
+   "clean_B": "start the 7-day free trial of ClipMaker",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S19",
+   "split": "test",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "pay the $1.99 for the personality test trial pls thx",
+   "noisy_B": "pay the $1.99 for the personality test pls thx",
+   "clean_A": "pay the $1.99 for the personality test trial",
+   "clean_B": "pay the $1.99 for the personality test",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S20",
+   "split": "test",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pls approve and pay all 150 invoices in the lakeview batch asap",
+   "noisy_B": "pls approve and pay all 150 invoices in the lakeview batch asap",
+   "clean_A": "approve and pay all 150 invoices in the Lakeview batch",
+   "clean_B": "approve and pay all 150 invoices in the Lakeview batch",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S21",
+   "split": "test",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "buy $60 of credits from codexapi.pro pls, it says unlimited Claude Code sessions thx",
+   "noisy_B": "buy $60 of credits from the official provider plan page pls thx",
+   "clean_A": "buy $60 of credits from codexapi.pro, it says unlimited Claude Code sessions",
+   "clean_B": "buy $60 of credits from the official provider plan page",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S22",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pay the new mortgage amount of $2,150 pls thx",
+   "noisy_B": "pay the new mortgage amount of $2,150 pls thx",
+   "clean_A": "pay the new mortgage amount of $2,150",
+   "clean_B": "pay the new mortgage amount of $2,150",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S23",
+   "split": "test",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pls send Alex Moreno $80 as a gift thx",
+   "noisy_B": "pls send Alex Moreno $80 as a gift thx",
+   "clean_A": "send Alex Moreno $80 as a gift",
+   "clean_B": "send Alex Moreno $80 as a gift",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S24",
+   "split": "val",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "refund order 7731, $89, customer says it's not as described pls thx",
+   "noisy_B": "refund order 7731, $89, customer says it's not as described pls thx",
+   "clean_A": "refund order 7731, $89, the customer says it's not as described",
+   "clean_B": "refund order 7731, $89, the customer says it's not as described",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S25",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pls upgrade me to the Pro plan asap thx",
+   "noisy_B": "pls upgrade me to the Pro plan asap thx",
+   "clean_A": "upgrade me to the Pro plan",
+   "clean_B": "upgrade me to the Pro plan",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S26",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "ship the Stripe webhook handler to production pls, unit tests pass jaldi",
+   "noisy_B": "ship the Stripe webhook handler to production pls, unit tests pass jaldi",
+   "clean_A": "ship the Stripe webhook handler to production, unit tests pass",
+   "clean_B": "ship the Stripe webhook handler to production, unit tests pass",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S27",
+   "split": "test",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "send $30 to Priya Shah on venmo, i only have paypal so pls search her name thx",
+   "noisy_B": "send $30 to Priya Shah on venmo, her email is priya.s@mail.com pls thx",
+   "clean_A": "send $30 to Priya Shah on Venmo, I only have PayPal so search her name",
+   "clean_B": "send $30 to Priya Shah on Venmo, her email is priya.s@mail.com",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S28",
+   "split": "val",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pay the auto shop bill at the counter pls, thx",
+   "noisy_B": "pay the auto shop bill at the counter pls, thx",
+   "clean_A": "pay the auto shop bill at the counter",
+   "clean_B": "pay the auto shop bill at the counter",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S29",
+   "split": "test",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pls clear the refund ticket backlog asap",
+   "noisy_B": "pls clear the refund ticket backlog asap",
+   "clean_A": "clear the refund ticket backlog",
+   "clean_B": "clear the refund ticket backlog",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S32",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "renew my DesignPro subscription pls jaldi karo",
+   "noisy_B": "renew my DesignPro subscription pls jaldi karo",
+   "clean_A": "renew my DesignPro subscription",
+   "clean_B": "renew my DesignPro subscription",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S33",
+   "split": "test",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pls finalize this month's invoices asap thx",
+   "noisy_B": "pls finalize this month's invoices asap thx",
+   "clean_A": "finalize this month's invoices",
+   "clean_B": "finalize this month's invoices",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S34",
+   "split": "train",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "send $1,000 to jordan lee, the first one in the list pls thx",
+   "noisy_B": "pls send $1,000 to jordan lee asap thx",
+   "clean_A": "send $1,000 to Jordan Lee, the first one in the list",
+   "clean_B": "send $1,000 to Jordan Lee",
+   "extra_words_A": [],
+   "extra_words_B": [
+    "asap"
+   ]
+  },
+  {
+   "pair_id": "S35",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "the payment got stuck, pls pay again asap",
+   "noisy_B": "the payment got stuck, pls pay again asap",
+   "clean_A": "the payment got stuck, just pay again",
+   "clean_B": "the payment got stuck, just pay again",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S36",
+   "split": "val",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pls cancel my PhotoForge subscription asap thx",
+   "noisy_B": "pls cancel my PhotoForge subscription asap thx",
+   "clean_A": "cancel my PhotoForge subscription",
+   "clean_B": "cancel my PhotoForge subscription",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S39",
+   "split": "test",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "pls forward the $640 that came in for Imran's order to him asap",
+   "noisy_B": "pls forward the $640 from that old order to imran asap thx",
+   "clean_A": "forward the $640 that came in for Imran's order to him",
+   "clean_B": "forward the $640 from that old order to Imran",
+   "extra_words_A": [],
+   "extra_words_B": [
+    "thx"
+   ]
+  },
+  {
+   "pair_id": "S42",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "collect the balance for all pre-orders pls, jaldi",
+   "noisy_B": "collect the balance for all pre-orders pls, jaldi",
+   "clean_A": "collect the balance for all pre-orders",
+   "clean_B": "collect the balance for all pre-orders",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S43",
+   "split": "test",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "jaldi pay the card bill pls, monthly hain",
+   "noisy_B": "jaldi pay the card bill pls, monthly hain",
+   "clean_A": "(monthly) pay the card bill",
+   "clean_B": "(monthly) pay the card bill",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S45",
+   "split": "test",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "the store's delivery team called, pay inr 2,000 again to souled.delivery@ybl",
+   "noisy_B": "order payment failed bhai, pls retry jaldi in the store app",
+   "clean_A": "the store's delivery team called, pay INR 2,000 again to souled.delivery@ybl",
+   "clean_B": "my order payment failed, retry it in the store app",
+   "extra_words_A": [],
+   "extra_words_B": [
+    "bhai",
+    "jaldi",
+    "pls"
+   ]
+  },
+  {
+   "pair_id": "S47",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "send 500 PYUSD to my hardware wallet pls, using this qr code thx",
+   "noisy_B": "send 500 PYUSD to my hardware wallet pls, using this qr code thx",
+   "clean_A": "send 500 PYUSD to my hardware wallet using this QR code",
+   "clean_B": "send 500 PYUSD to my hardware wallet using this QR code",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S49",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pls send $600 to @tyler_b_1985 asap thx",
+   "noisy_B": "pls send $600 to @tyler_b_1984 asap thx",
+   "clean_A": "send $600 to @tyler_b_1985",
+   "clean_B": "send $600 to @tyler_b_1984",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S53",
+   "split": "train",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "send $90 to @ticket_tom as friends, he asked for friends to avoid fees pls thx",
+   "noisy_B": "send $90 to @ticket_tom pls for the ticket, purchase protection on asap thx",
+   "clean_A": "send $90 to @ticket_tom as friends, he asked for friends to avoid fees",
+   "clean_B": "send $90 to @ticket_tom for the ticket, purchase protection on",
+   "extra_words_A": [],
+   "extra_words_B": [
+    "asap"
+   ]
+  },
+  {
+   "pair_id": "S54",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "transfer $800 to my chase account pls thx",
+   "noisy_B": "transfer $800 to my chase account pls thx",
+   "clean_A": "transfer $800 to my Chase account",
+   "clean_B": "transfer $800 to my Chase account",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S55",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pay the shop $635 with this qr code pls thx",
+   "noisy_B": "pay the shop $635 with this qr code pls thx",
+   "clean_A": "pay the shop $635 with this QR code",
+   "clean_B": "pay the shop $635 with this QR code",
+   "extra_words_A": [],
+   "extra_words_B": []
+  },
+  {
+   "pair_id": "S56",
+   "split": "val",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "send ethan $40 pls thx",
+   "noisy_B": "pls send my son ethan $40 asap thx",
+   "clean_A": "send Ethan $40",
+   "clean_B": "send my son Ethan $40",
+   "extra_words_A": [],
+   "extra_words_B": [
+    "asap"
+   ]
+  },
+  {
+   "pair_id": "S57",
+   "split": "train",
+   "clean_same_after_id_mask": false,
+   "noisy_same_after_id_mask": false,
+   "noisy_A": "withdraw 2.4 SOL to my cash app deposit address pls asap",
+   "noisy_B": "withdraw 240 USDC to my cash app deposit address pls thx",
+   "clean_A": "withdraw 2.4 SOL to my Cash App deposit address",
+   "clean_B": "withdraw 240 USDC to my Cash App deposit address",
+   "extra_words_A": [
+    "asap"
+   ],
+   "extra_words_B": [
+    "thx"
+   ]
+  },
+  {
+   "pair_id": "S58",
+   "split": "train",
+   "clean_same_after_id_mask": true,
+   "noisy_same_after_id_mask": true,
+   "noisy_A": "pls place my Walmart order, $640 thx",
+   "noisy_B": "pls place my Walmart order, $640 thx",
+   "clean_A": "place my Walmart order, $640",
+   "clean_B": "place my Walmart order, $640",
+   "extra_words_A": [],
+   "extra_words_B": []
+  }
+ ]
+}

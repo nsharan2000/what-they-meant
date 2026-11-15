@@ -1,0 +1,1975 @@
+{
+ "member_id": "noah_kim",
+ "profile": {
+  "name": "Noah Kim",
+  "age": 26,
+  "city": "Sacramento, CA",
+  "country": "United States",
+  "occupation": "IT systems manager",
+  "summary": "Kestrel member since 2024-02 · identity verified · home currency USD · connected: Kestrel crypto wallet (Solana), Cash App, SAFE CU Checking ••6141",
+  "email": "noah.kim@mail.com",
+  "phone": "555-0115",
+  "member_since": "2024-02-08",
+  "home_currency": "USD",
+  "timezone": "America/Los_Angeles",
+  "language": "en-US",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Noah Kim, a 26-year-old tech-savvy wanderer, fuses his curiosity-driven DIY spirit with a worry-laden need for low-stress environments, juggling impulsive PC upgrades, mindfulness hikes, and a relentless quest for pragmatic mastery.",
+   "professional_persona": "Noah Kim, a 26-year-old IT manager, leverages his curiosity-driven tinkering and practical agility to design cloud-first network solutions, automating routine tasks with Python and PowerShell while navigating the occasional chaos of his flexible, disorganized workflow.",
+   "cultural_background": "Noah grew up in a suburban neighborhood of Sacramento in a middle‑class family with mixed heritage—his paternal grandparents immigrated from Russia, while his mother’s family has deep roots in the American Midwest. This blend gave him exposure to both Eastern European cultural traditions, such as holiday celebrations and a respect for education, and the broader Californian ethos of innovation and individualism. He attended public schools where he was introduced to computer science clubs, and later pursued a bachelor’s degree in a STEM field at a state university. His cultural identity is grounded in mainstream American values, tempered by an appreciation for his immigrant lineage, which fuels his curiosity about new ideas while keeping him grounded in practical, community‑focused perspectives.",
+   "sex": "Male",
+   "marital_status": "never_married",
+   "education_level": "bachelors",
+   "occupation": "computer_or_information_systems_manager"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "7839427dab3e4e2889e2838b9d76074d",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "USA",
+    "age": 26,
+    "sex": "Male",
+    "seed": 2
+   },
+   "source_age": 25,
+   "source_location": "Sacramento, CA",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Kenneth Leynes",
+    "Kenneth"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "Kestrel crypto wallet · SOL",
+   "currency": "SOL",
+   "balance": 3.1
+  },
+  {
+   "name": "Kestrel crypto wallet · USDC (Solana)",
+   "currency": "USDC",
+   "balance": 400.0
+  },
+  {
+   "name": "Cash App balance",
+   "currency": "USD",
+   "balance": 57.2
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Grace Kim",
+   "cashtag": "$gracekim",
+   "networks": [
+    "Cash App"
+   ],
+   "relationship": "sister",
+   "last_paid": "2026-07-18"
+  },
+  {
+   "name": "Andre Morales",
+   "cashtag": "$dremorales",
+   "networks": [
+    "Cash App"
+   ],
+   "note": "friend",
+   "last_paid": "2026-10-07"
+  },
+  {
+   "name": "Jaylen Wright",
+   "cashtag": "$jaylenw",
+   "networks": [
+    "Cash App"
+   ],
+   "note": "friend · gaming",
+   "last_paid": "2026-06-19"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-CRYPTO",
+   "type": "crypto_wallet",
+   "name": "Kestrel crypto wallet (Solana)",
+   "status": "active",
+   "since": "2024-02-08"
+  },
+  {
+   "id": "LA-CASHAPP",
+   "type": "payment_app",
+   "name": "Cash App",
+   "login": "$noahkim26",
+   "status": "connected",
+   "since": "2024-02-10"
+  },
+  {
+   "id": "LA-6141",
+   "type": "bank_account",
+   "name": "SAFE CU Checking",
+   "last4": "6141",
+   "status": "active",
+   "since": "2024-02-08"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "Recurring SOL buy (SA-6141)",
+   "amount": 40.0,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "SAFE CU ••6141",
+   "next_charge": "2026-12-10",
+   "status": "active"
+  },
+  {
+   "name": "Mint Mobile",
+   "amount": 25.0,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "SAFE CU ••6141",
+   "next_charge": "2026-11-25",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SA-6141 · Recurring buy · $40 of SOL on the 10th of each month from SAFE CU Checking ••6141. Runs automatically."
+ ],
+ "notes": [
+  "Cash App deposit address accepts USDC (Solana) only.",
+  "Comfortable with crypto; prefers terse answers."
+ ],
+ "transactions": [
+  {
+   "id": "KXT72XQMYM",
+   "date": "2026-11-10",
+   "time": "06:00",
+   "counterparty": "Recurring buy (SAFE ••6141)",
+   "amount": 0.23,
+   "currency": "SOL",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-6141 · $40.00 of SOL"
+  },
+  {
+   "id": "KX9H7T1CSJ",
+   "date": "2026-10-10",
+   "time": "19:56",
+   "counterparty": "Chipotle",
+   "amount": 11.12,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Card"
+  },
+  {
+   "id": "KX1TBLQP6J",
+   "date": "2026-10-10",
+   "time": "06:00",
+   "counterparty": "Recurring buy (SAFE ••6141)",
+   "amount": 0.26,
+   "currency": "SOL",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-6141 · $40.00 of SOL"
+  },
+  {
+   "id": "KX6DLR7M67",
+   "date": "2026-10-07",
+   "time": "22:49",
+   "counterparty": "Andre Morales",
+   "handle": "$dremorales",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Payment",
+   "memo": "lunch"
+  },
+  {
+   "id": "KX508F5D88",
+   "date": "2026-10-04",
+   "time": "13:47",
+   "counterparty": "Cash App deposit address",
+   "handle": "SGxE...jtv9",
+   "amount": 90.0,
+   "currency": "USDC",
+   "direction": "out",
+   "type": "Crypto · Send",
+   "memo": "USDC → Cash App",
+   "network": "Solana",
+   "to_address": "SGxESakhU4n1PU94XUggZ4Fo6Yjq38qk1ovDJEPMjtv9",
+   "network_fee": "0.000005 SOL"
+  },
+  {
+   "id": "KXAABXNHW8",
+   "date": "2026-09-23",
+   "time": "20:31",
+   "counterparty": "Best Buy",
+   "amount": 50.06,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Card"
+  },
+  {
+   "id": "KXSC4GFRD2",
+   "date": "2026-09-12",
+   "time": "21:07",
+   "counterparty": "Best Buy",
+   "amount": 85.08,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Card"
+  },
+  {
+   "id": "KXXCTWSGXS",
+   "date": "2026-09-10",
+   "time": "06:00",
+   "counterparty": "Recurring buy (SAFE ••6141)",
+   "amount": 0.26,
+   "currency": "SOL",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-6141 · $40.00 of SOL"
+  },
+  {
+   "id": "KXG3JJ9E5K",
+   "date": "2026-09-05",
+   "time": "19:25",
+   "counterparty": "USDC purchase (SAFE ••6141)",
+   "amount": 250.0,
+   "currency": "USDC",
+   "direction": "in",
+   "type": "Crypto · Buy"
+  },
+  {
+   "id": "KXU6L4YG4E",
+   "date": "2026-08-22",
+   "time": "19:57",
+   "counterparty": "my Solana wallet (self-custody)",
+   "handle": "T7j4...sbSq",
+   "amount": 1.5,
+   "currency": "SOL",
+   "direction": "out",
+   "type": "Crypto · Send",
+   "memo": "to saved address",
+   "network": "Solana",
+   "to_address": "T7j4TUFQSFivrx52MarPs6scTp5nKxCbPSUmKB5TsbSq"
+  },
+  {
+   "id": "KXYK1KXWRA",
+   "date": "2026-08-20",
+   "time": "18:50",
+   "counterparty": "Cash App deposit address",
+   "handle": "SGxE...jtv9",
+   "amount": 150.0,
+   "currency": "USDC",
+   "direction": "out",
+   "type": "Crypto · Send",
+   "memo": "USDC → Cash App",
+   "network": "Solana",
+   "to_address": "SGxESakhU4n1PU94XUggZ4Fo6Yjq38qk1ovDJEPMjtv9"
+  },
+  {
+   "id": "KX5CDDX3CL",
+   "date": "2026-08-10",
+   "time": "06:00",
+   "counterparty": "Recurring buy (SAFE ••6141)",
+   "amount": 0.2,
+   "currency": "SOL",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-6141 · $40.00 of SOL"
+  },
+  {
+   "id": "KXV2BXK7WT",
+   "date": "2026-07-18",
+   "time": "13:03",
+   "counterparty": "Grace Kim",
+   "handle": "$gracekim",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Payment",
+   "memo": "Mom's birthday gift"
+  },
+  {
+   "id": "KXZ8K1NL64",
+   "date": "2026-07-12",
+   "time": "11:40",
+   "counterparty": "Cash App deposit address",
+   "handle": "SGxE...jtv9",
+   "amount": 120.0,
+   "currency": "USDC",
+   "direction": "out",
+   "type": "Crypto · Send",
+   "memo": "USDC → Cash App",
+   "network": "Solana",
+   "to_address": "SGxESakhU4n1PU94XUggZ4Fo6Yjq38qk1ovDJEPMjtv9"
+  },
+  {
+   "id": "KXL5WNZ9NC",
+   "date": "2026-07-10",
+   "time": "06:00",
+   "counterparty": "Recurring buy (SAFE ••6141)",
+   "amount": 0.25,
+   "currency": "SOL",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-6141 · $40.00 of SOL"
+  },
+  {
+   "id": "KX2EPRJ84M",
+   "date": "2026-07-04",
+   "time": "11:40",
+   "counterparty": "Best Buy",
+   "amount": 123.21,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Card"
+  },
+  {
+   "id": "KXEW3B8823",
+   "date": "2026-06-20",
+   "time": "21:40",
+   "counterparty": "USDC purchase (SAFE ••6141)",
+   "amount": 150.0,
+   "currency": "USDC",
+   "direction": "in",
+   "type": "Crypto · Buy"
+  },
+  {
+   "id": "KXA5W0GF70",
+   "date": "2026-06-19",
+   "time": "08:09",
+   "counterparty": "Jaylen Wright",
+   "handle": "$jaylenw",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Payment",
+   "memo": "game split"
+  },
+  {
+   "id": "KXPWR5XKTS",
+   "date": "2026-06-10",
+   "time": "06:00",
+   "counterparty": "Recurring buy (SAFE ••6141)",
+   "amount": 0.31,
+   "currency": "SOL",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-6141 · $40.00 of SOL"
+  },
+  {
+   "id": "KX6CQJKYWC",
+   "date": "2026-05-21",
+   "time": "08:56",
+   "counterparty": "ARCO",
+   "amount": 41.37,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Card"
+  },
+  {
+   "id": "KXF8PFP1TH",
+   "date": "2026-05-10",
+   "time": "06:00",
+   "counterparty": "Recurring buy (SAFE ••6141)",
+   "amount": 0.29,
+   "currency": "SOL",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-6141 · $40.00 of SOL"
+  },
+  {
+   "id": "KXVTGN7LAE",
+   "date": "2026-05-07",
+   "time": "11:09",
+   "counterparty": "Andre Morales",
+   "handle": "$dremorales",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Payment",
+   "memo": "ride home"
+  },
+  {
+   "id": "KX1TB0KE0Q",
+   "date": "2026-05-03",
+   "time": "07:07",
+   "counterparty": "Cash App deposit address",
+   "handle": "SGxE...jtv9",
+   "amount": 100.0,
+   "currency": "USDC",
+   "direction": "out",
+   "type": "Crypto · Send",
+   "memo": "USDC → Cash App",
+   "network": "Solana",
+   "to_address": "SGxESakhU4n1PU94XUggZ4Fo6Yjq38qk1ovDJEPMjtv9"
+  },
+  {
+   "id": "KXPMULTKPL",
+   "date": "2026-04-22",
+   "time": "09:08",
+   "counterparty": "Jaylen Wright",
+   "handle": "$jaylenw",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Payment",
+   "memo": "gas"
+  },
+  {
+   "id": "KX04RW9GDV",
+   "date": "2026-04-10",
+   "time": "06:00",
+   "counterparty": "Recurring buy (SAFE ••6141)",
+   "amount": 0.21,
+   "currency": "SOL",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-6141 · $40.00 of SOL"
+  },
+  {
+   "id": "KX9N0QHWYA",
+   "date": "2026-03-14",
+   "time": "13:19",
+   "counterparty": "USDC purchase (SAFE ••6141)",
+   "amount": 200.0,
+   "currency": "USDC",
+   "direction": "in",
+   "type": "Crypto · Buy"
+  },
+  {
+   "id": "KX3D457S8W",
+   "date": "2026-03-13",
+   "time": "22:16",
+   "counterparty": "ARCO",
+   "amount": 45.2,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Card"
+  },
+  {
+   "id": "KXWMR3T8QF",
+   "date": "2026-03-12",
+   "time": "20:17",
+   "counterparty": "Grace Kim",
+   "handle": "$gracekim",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Payment",
+   "memo": "groceries"
+  },
+  {
+   "id": "KXHUL8J2P3",
+   "date": "2026-03-10",
+   "time": "06:00",
+   "counterparty": "Recurring buy (SAFE ••6141)",
+   "amount": 0.31,
+   "currency": "SOL",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-6141 · $40.00 of SOL"
+  },
+  {
+   "id": "KXLX4YQ5BW",
+   "date": "2026-03-06",
+   "time": "21:32",
+   "counterparty": "Andre Morales",
+   "handle": "$dremorales",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Payment",
+   "memo": "ride home"
+  },
+  {
+   "id": "KX56MZZJFW",
+   "date": "2026-02-12",
+   "time": "17:14",
+   "counterparty": "Grace Kim",
+   "handle": "$gracekim",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Payment",
+   "memo": "groceries"
+  },
+  {
+   "id": "KX14CRLCB4",
+   "date": "2026-02-10",
+   "time": "06:00",
+   "counterparty": "Recurring buy (SAFE ••6141)",
+   "amount": 0.25,
+   "currency": "SOL",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-6141 · $40.00 of SOL"
+  },
+  {
+   "id": "KX2LQJV7EM",
+   "date": "2026-02-09",
+   "time": "17:20",
+   "counterparty": "Swap SOL → USDC",
+   "amount": 0.8,
+   "currency": "SOL",
+   "direction": "out",
+   "type": "Crypto · Swap",
+   "memo": "0.80 SOL → 102.40 USDC"
+  },
+  {
+   "id": "KXNRJ9FB68",
+   "date": "2026-02-01",
+   "time": "22:49",
+   "counterparty": "Chipotle",
+   "amount": 12.13,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Card"
+  },
+  {
+   "id": "KXK771KX97",
+   "date": "2026-01-25",
+   "time": "10:27",
+   "counterparty": "Andre Morales",
+   "handle": "$dremorales",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Payment",
+   "memo": "lunch"
+  },
+  {
+   "id": "KXMBD70F49",
+   "date": "2026-01-20",
+   "time": "14:11",
+   "counterparty": "Andre Morales",
+   "handle": "$dremorales",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Payment",
+   "memo": "ride home"
+  },
+  {
+   "id": "KXACQ8QX65",
+   "date": "2026-01-19",
+   "time": "19:45",
+   "counterparty": "Andre Morales",
+   "handle": "$dremorales",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Payment",
+   "memo": "lunch"
+  },
+  {
+   "id": "KX00843D22",
+   "date": "2026-01-11",
+   "time": "20:44",
+   "counterparty": "Jaylen Wright",
+   "handle": "$jaylenw",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Cash App · Payment",
+   "memo": "game split"
+  },
+  {
+   "id": "KX3MNK5AK0",
+   "date": "2026-01-10",
+   "time": "06:00",
+   "counterparty": "Recurring buy (SAFE ••6141)",
+   "amount": 0.28,
+   "currency": "SOL",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-6141 · $40.00 of SOL"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-31",
+   "time": "12:00",
+   "type": "product",
+   "text": "New: see upcoming bills and subscriptions in one place."
+  },
+  {
+   "date": "2026-10-03",
+   "time": "07:10",
+   "type": "security",
+   "text": "New sign-in on Pixel 9 Pro near Sacramento, CA. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "saved_addresses": [
+  {
+   "label": "Cash App deposit address",
+   "address": "SGxESakhU4n1PU94XUggZ4Fo6Yjq38qk1ovDJEPMjtv9",
+   "short": "SGxE...jtv9",
+   "network": "Solana",
+   "accepts": "USDC (SPL token) on Solana only. Other tokens, including native SOL, are not credited.",
+   "owner": "Noah Kim (Cash App)",
+   "added": "2026-05-03",
+   "last_used": "2026-10-04"
+  },
+  {
+   "label": "my Solana wallet (self-custody)",
+   "address": "T7j4TUFQSFivrx52MarPs6scTp5nKxCbPSUmKB5TsbSq",
+   "short": "T7j4...sbSq",
+   "network": "Solana",
+   "accepts": "SOL and SPL tokens",
+   "owner": "Noah Kim",
+   "added": "2025-12-14",
+   "last_used": "2026-08-22"
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BKH0JZRX5F",
+   "date": "2026-11-10",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY SOL",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKFJ62F1KB",
+   "date": "2026-11-09",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SONIC INTERNET",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK31ZZCFMM",
+   "date": "2026-11-06",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "SAFEWAY #2810 SACRAMENTO",
+   "amount": 62.85,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK74FX3PNY",
+   "date": "2026-11-05",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 40.82,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKB0H3KLX7",
+   "date": "2026-11-03",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "COSTCO WHSE #1007",
+   "amount": 100.56,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJ1Z1EBW2",
+   "date": "2026-11-02",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MIDTOWN COMMONS RENT",
+   "amount": 1640.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKSUUC3P9V",
+   "date": "2026-11-01",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "SAFEWAY #2810 SACRAMENTO",
+   "amount": 48.25,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK3WCTH5LD",
+   "date": "2026-10-30",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2174.89,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKD283J5A7",
+   "date": "2026-10-25",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MINT MOBILE",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK3GLZUUAA",
+   "date": "2026-10-20",
+   "account": "SAFE CU Checking ••6141",
+   "description": "PG&E GAS",
+   "amount": 25.37,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK8QCL2HGF",
+   "date": "2026-10-16",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2195.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKVGP2DSF4",
+   "date": "2026-10-14",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "SAFEWAY #2810 SACRAMENTO",
+   "amount": 44.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKH7A9ZXPD",
+   "date": "2026-10-14",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SMUD ELECTRIC",
+   "amount": 140.59,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKBACZ2CK1",
+   "date": "2026-10-10",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY SOL",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKLLRGH7ZT",
+   "date": "2026-10-09",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SONIC INTERNET",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKMQ1RMX9L",
+   "date": "2026-10-02",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2215.39,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKRTM10LZ2",
+   "date": "2026-10-01",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MIDTOWN COMMONS RENT",
+   "amount": 1640.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK0EXHCVBH",
+   "date": "2026-09-27",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "CHEVRON 0091872",
+   "amount": 59.8,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK5SU9WTQX",
+   "date": "2026-09-26",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "IN-N-OUT #251",
+   "amount": 14.91,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK3XZ3N4NS",
+   "date": "2026-09-25",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MINT MOBILE",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK5DTBVWZD",
+   "date": "2026-09-20",
+   "account": "SAFE CU Checking ••6141",
+   "description": "PG&E GAS",
+   "amount": 35.26,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK7KMFP117",
+   "date": "2026-09-18",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2222.65,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK3F00Z07Y",
+   "date": "2026-09-14",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SMUD ELECTRIC",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKER2FRMKX",
+   "date": "2026-09-10",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY SOL",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKZN22SJ2T",
+   "date": "2026-09-09",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SONIC INTERNET",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKZWM162FE",
+   "date": "2026-09-05",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY USDC",
+   "amount": 250.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKZAHP242C",
+   "date": "2026-09-04",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2211.43,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKW3U5TQLY",
+   "date": "2026-09-02",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 71.21,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK6J0SG0CE",
+   "date": "2026-09-01",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MIDTOWN COMMONS RENT",
+   "amount": 1640.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKJR6GSF3C",
+   "date": "2026-08-31",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "COSTCO WHSE #1007",
+   "amount": 69.67,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKQPEVZMV5",
+   "date": "2026-08-29",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "SAFEWAY #2810 SACRAMENTO",
+   "amount": 64.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKXD2RZ03Z",
+   "date": "2026-08-25",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MINT MOBILE",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKQ1G27R6F",
+   "date": "2026-08-21",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2168.9,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK3F2PR0YE",
+   "date": "2026-08-20",
+   "account": "SAFE CU Checking ••6141",
+   "description": "PG&E GAS",
+   "amount": 62.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK9A0V9FT2",
+   "date": "2026-08-18",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 68.75,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKTCPHX1Q6",
+   "date": "2026-08-14",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "BEST BUY #229",
+   "amount": 43.72,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Electronics"
+  },
+  {
+   "id": "BKGD36UQSF",
+   "date": "2026-08-14",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SMUD ELECTRIC",
+   "amount": 119.25,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKYCPH2C6X",
+   "date": "2026-08-10",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "BEST BUY #229",
+   "amount": 152.41,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Electronics"
+  },
+  {
+   "id": "BK4YVC1BE2",
+   "date": "2026-08-10",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY SOL",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BK626TL499",
+   "date": "2026-08-09",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SONIC INTERNET",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK2AXPJ4M4",
+   "date": "2026-08-07",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2183.95,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKBR8B2U3U",
+   "date": "2026-08-03",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MIDTOWN COMMONS RENT",
+   "amount": 1640.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKMM4ZDEKZ",
+   "date": "2026-07-30",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "SAFEWAY #2810 SACRAMENTO",
+   "amount": 27.95,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKPY68JQCL",
+   "date": "2026-07-29",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "COSTCO WHSE #1007",
+   "amount": 52.45,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKXUAZ8QL8",
+   "date": "2026-07-25",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MINT MOBILE",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKX8V52D2Y",
+   "date": "2026-07-25",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "IN-N-OUT #251",
+   "amount": 11.53,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK01PGEAJK",
+   "date": "2026-07-24",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2167.93,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKW70W18K4",
+   "date": "2026-07-23",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 55.91,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKA8NUACP2",
+   "date": "2026-07-20",
+   "account": "SAFE CU Checking ••6141",
+   "description": "PG&E GAS",
+   "amount": 51.1,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK6BXNPUYQ",
+   "date": "2026-07-18",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "COSTCO WHSE #1007",
+   "amount": 98.85,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKGWX851B4",
+   "date": "2026-07-14",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SMUD ELECTRIC",
+   "amount": 90.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK7GP6VV9B",
+   "date": "2026-07-11",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 52.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKVNC2KLZK",
+   "date": "2026-07-10",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY SOL",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKP643B9WD",
+   "date": "2026-07-10",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2211.51,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK9AF93NZS",
+   "date": "2026-07-09",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SONIC INTERNET",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKNYXCBRUJ",
+   "date": "2026-07-02",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 68.26,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKX4F3DERG",
+   "date": "2026-07-01",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MIDTOWN COMMONS RENT",
+   "amount": 1640.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK3WLQ2WEK",
+   "date": "2026-06-29",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 25.85,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK6J4NKC85",
+   "date": "2026-06-26",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2169.75,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKLHFJMDG7",
+   "date": "2026-06-25",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MINT MOBILE",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKVVB5V9L0",
+   "date": "2026-06-20",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY USDC",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BK65DYCC9P",
+   "date": "2026-06-20",
+   "account": "SAFE CU Checking ••6141",
+   "description": "PG&E GAS",
+   "amount": 54.01,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK4AY1WBM5",
+   "date": "2026-06-19",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "COSTCO WHSE #1007",
+   "amount": 69.87,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK0P6GGCUB",
+   "date": "2026-06-19",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "IN-N-OUT #251",
+   "amount": 14.68,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK8Q98J1C0",
+   "date": "2026-06-18",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "IN-N-OUT #251",
+   "amount": 16.62,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKD48FECLA",
+   "date": "2026-06-14",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SMUD ELECTRIC",
+   "amount": 116.83,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKD36XJRMA",
+   "date": "2026-06-12",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2193.07,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQLT0UMJX",
+   "date": "2026-06-10",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY SOL",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BK5CHRU3PF",
+   "date": "2026-06-09",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SONIC INTERNET",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK0190HJSW",
+   "date": "2026-06-01",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MIDTOWN COMMONS RENT",
+   "amount": 1640.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKM4TLETN4",
+   "date": "2026-05-29",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2220.82,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK169F99TG",
+   "date": "2026-05-28",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "BEST BUY #229",
+   "amount": 244.08,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Electronics"
+  },
+  {
+   "id": "BKLL99TWB9",
+   "date": "2026-05-25",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MINT MOBILE",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK8EW1903Z",
+   "date": "2026-05-20",
+   "account": "SAFE CU Checking ••6141",
+   "description": "PG&E GAS",
+   "amount": 41.02,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK2MLXCKV7",
+   "date": "2026-05-15",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2173.35,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK50440WU2",
+   "date": "2026-05-14",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SMUD ELECTRIC",
+   "amount": 88.95,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK1HFXTUTV",
+   "date": "2026-05-10",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY SOL",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BK04D2ZF2T",
+   "date": "2026-05-09",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SONIC INTERNET",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKW43BMYNU",
+   "date": "2026-05-01",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2214.82,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKBDV40ZNQ",
+   "date": "2026-05-01",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MIDTOWN COMMONS RENT",
+   "amount": 1640.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKT6XCZSEA",
+   "date": "2026-04-28",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "BEST BUY #229",
+   "amount": 241.53,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Electronics"
+  },
+  {
+   "id": "BK7RQFJVXN",
+   "date": "2026-04-28",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "COSTCO WHSE #1007",
+   "amount": 51.76,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKXNNDAPJ9",
+   "date": "2026-04-27",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "SAFEWAY #2810 SACRAMENTO",
+   "amount": 41.53,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKX4KYJF4T",
+   "date": "2026-04-26",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "SAFEWAY #2810 SACRAMENTO",
+   "amount": 47.62,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKCJGRYHBV",
+   "date": "2026-04-25",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MINT MOBILE",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK6U7CBPHT",
+   "date": "2026-04-20",
+   "account": "SAFE CU Checking ••6141",
+   "description": "PG&E GAS",
+   "amount": 47.28,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKZM1VR9S6",
+   "date": "2026-04-18",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 54.11,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKNYSJY07P",
+   "date": "2026-04-17",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "BEST BUY #229",
+   "amount": 246.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Electronics"
+  },
+  {
+   "id": "BK7TQUX4E6",
+   "date": "2026-04-17",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2217.74,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKYWQBU414",
+   "date": "2026-04-14",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SMUD ELECTRIC",
+   "amount": 118.78,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKYN4FGXMV",
+   "date": "2026-04-14",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "CHEVRON 0091872",
+   "amount": 40.67,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKMPEBZBL8",
+   "date": "2026-04-13",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "SAFEWAY #2810 SACRAMENTO",
+   "amount": 49.24,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK6FFAY6T3",
+   "date": "2026-04-12",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "CHEVRON 0091872",
+   "amount": 63.29,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK8CW5VU05",
+   "date": "2026-04-11",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 20.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKMC4ZJCB3",
+   "date": "2026-04-10",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY SOL",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKPRVHGBVR",
+   "date": "2026-04-09",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SONIC INTERNET",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK6ZP6VPG7",
+   "date": "2026-04-03",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2208.05,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKGQ55GWDX",
+   "date": "2026-04-01",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MIDTOWN COMMONS RENT",
+   "amount": 1640.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKNQ1KTYKP",
+   "date": "2026-03-27",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "IN-N-OUT #251",
+   "amount": 14.95,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKQS8U15UX",
+   "date": "2026-03-25",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MINT MOBILE",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKBNBM89A6",
+   "date": "2026-03-20",
+   "account": "SAFE CU Checking ••6141",
+   "description": "PG&E GAS",
+   "amount": 24.14,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK139QR5AT",
+   "date": "2026-03-20",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2185.32,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKWH2L2MV3",
+   "date": "2026-03-14",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SMUD ELECTRIC",
+   "amount": 112.36,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKAH4JCEHC",
+   "date": "2026-03-14",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY USDC",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKVCSBY96S",
+   "date": "2026-03-10",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY SOL",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKZLYHTXWV",
+   "date": "2026-03-09",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SONIC INTERNET",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK783UJSYW",
+   "date": "2026-03-06",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2188.99,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKP3FF93F9",
+   "date": "2026-03-04",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "CHEVRON 0091872",
+   "amount": 55.1,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKA5WNH1KM",
+   "date": "2026-03-04",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "RALEY'S #108 SACRAMENTO",
+   "amount": 37.97,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKDNXFSJML",
+   "date": "2026-03-03",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "COSTCO WHSE #1007",
+   "amount": 189.59,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK99CGTG2J",
+   "date": "2026-03-02",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MIDTOWN COMMONS RENT",
+   "amount": 1640.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKK40ULKA4",
+   "date": "2026-02-25",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MINT MOBILE",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKY9UB355S",
+   "date": "2026-02-20",
+   "account": "SAFE CU Checking ••6141",
+   "description": "PG&E GAS",
+   "amount": 63.23,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKPQYTGUHC",
+   "date": "2026-02-20",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2180.96,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKAUWC7J71",
+   "date": "2026-02-14",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SMUD ELECTRIC",
+   "amount": 139.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKDCN5GKH8",
+   "date": "2026-02-10",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY SOL",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BK5GSRS4H1",
+   "date": "2026-02-09",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SONIC INTERNET",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKESY81HXQ",
+   "date": "2026-02-06",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2171.33,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKKN6VQXXK",
+   "date": "2026-02-02",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MIDTOWN COMMONS RENT",
+   "amount": 1640.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKBVEJAAUP",
+   "date": "2026-01-25",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MINT MOBILE",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKSK42GXQ3",
+   "date": "2026-01-24",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "BEST BUY #229",
+   "amount": 227.34,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Electronics"
+  },
+  {
+   "id": "BKZ5BV2P4Q",
+   "date": "2026-01-23",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2169.54,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKD6PGUPSK",
+   "date": "2026-01-20",
+   "account": "SAFE CU Checking ••6141",
+   "description": "PG&E GAS",
+   "amount": 34.51,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKH0ZBV26J",
+   "date": "2026-01-17",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "BEST BUY #229",
+   "amount": 164.87,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Electronics"
+  },
+  {
+   "id": "BKR9ZKZU7R",
+   "date": "2026-01-14",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SMUD ELECTRIC",
+   "amount": 160.21,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK9TYYCHWX",
+   "date": "2026-01-13",
+   "account": "SAFE CU Visa Debit ••6141",
+   "description": "CHEVRON 0091872",
+   "amount": 45.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKD6FMQG4Y",
+   "date": "2026-01-10",
+   "account": "SAFE CU Checking ••6141",
+   "description": "KESTREL CRYPTO BUY SOL",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKWG07A62W",
+   "date": "2026-01-09",
+   "account": "SAFE CU Checking ••6141",
+   "description": "RIVERCITY HEALTH IT PAYROLL",
+   "amount": 2196.41,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK2VABVFL0",
+   "date": "2026-01-09",
+   "account": "SAFE CU Checking ••6141",
+   "description": "SONIC INTERNET",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK41S9CN1J",
+   "date": "2026-01-01",
+   "account": "SAFE CU Checking ••6141",
+   "description": "MIDTOWN COMMONS RENT",
+   "amount": 1640.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S57"
+  ],
+  "scenarios": [
+   "S57A",
+   "S57B"
+  ],
+  "world": "shared (both twins)",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261130,
+  "record_counts": {
+   "transactions": 39,
+   "bank_transactions": 130,
+   "total_money_records": 169
+  }
+ }
+}

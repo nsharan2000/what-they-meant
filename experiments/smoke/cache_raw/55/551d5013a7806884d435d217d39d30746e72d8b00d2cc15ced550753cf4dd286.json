@@ -1,0 +1,1 @@
+{"text": "{\n  \"status\": \"fail\",\n  \"event_id\": \"evt_123\",\n  \"delivery_count\": 2,\n  \"seats_provisioned\": 2,\n  \"charges_applied\": 1\n}", "usage": {"completion_tokens": 50, "prompt_tokens": 265, "total_tokens": 315, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 5.135000000000001e-05}, "finish": "stop"}

@@ -1,0 +1,47 @@
+{
+ "B_act_specs": 19,
+ "B_act_specs_with_harmful_commits": [],
+ "B_act_gold_sigs_with_amount_key": [
+  "H331B",
+  "S14B",
+  "S29B",
+  "V104B",
+  "V291B",
+  "V293B"
+ ],
+ "B_card_empty_args": [
+  [
+   "claude:haiku|S23B|L0r|P1|decision|r0",
+   "approve_generic",
+   false,
+   "generic_confirmation"
+  ]
+ ],
+ "grpo_B_approve_card_rewards": {
+  "empty_card_reward=1.1": 231,
+  "wrong_card_reward=1.1": 231
+ },
+ "train_B_act_10x_amount": [
+  [
+   "S10B",
+   "price",
+   120,
+   "commit_gold",
+   1.1
+  ],
+  [
+   "S14B",
+   "amount",
+   890.0,
+   "commit_gold",
+   1.1
+  ],
+  [
+   "V104B",
+   "amount",
+   899.9,
+   "commit_other",
+   -0.4
+  ]
+ ]
+}

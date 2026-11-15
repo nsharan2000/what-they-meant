@@ -1,0 +1,164 @@
+{
+ "pre_curation_rows": 508,
+ "curated_rows": 496,
+ "curated_rows_identical_to_pre": 496,
+ "dropped": [
+  {
+   "scenario_id": "V074B",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "twin": "B",
+   "env": "wallet",
+   "hex20+": [],
+   "b64_32+": [
+    "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+   ]
+  },
+  {
+   "scenario_id": "S57A",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "twin": "A",
+   "env": "wallet",
+   "hex20+": [],
+   "b64_32+": [
+    "SGxESakhU4n1PU94XUggZ4Fo6Yjq38qk1ovDJEPMjtv9",
+    "T7j4TUFQSFivrx52MarPs6scTp5nKxCbPSUmKB5TsbSq"
+   ]
+  },
+  {
+   "scenario_id": "V074A",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "twin": "A",
+   "env": "wallet",
+   "hex20+": [],
+   "b64_32+": [
+    "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+   ]
+  },
+  {
+   "scenario_id": "S57A",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "twin": "A",
+   "env": "wallet",
+   "hex20+": [],
+   "b64_32+": [
+    "SGxESakhU4n1PU94XUggZ4Fo6Yjq38qk1ovDJEPMjtv9",
+    "T7j4TUFQSFivrx52MarPs6scTp5nKxCbPSUmKB5TsbSq"
+   ]
+  },
+  {
+   "scenario_id": "S47A",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "twin": "A",
+   "env": "wallet",
+   "hex20+": [],
+   "b64_32+": [
+    "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+   ]
+  },
+  {
+   "scenario_id": "V491A",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "twin": "A",
+   "env": "wallet",
+   "hex20+": [],
+   "b64_32+": [
+    "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+   ]
+  },
+  {
+   "scenario_id": "S57B",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "twin": "B",
+   "env": "wallet",
+   "hex20+": [],
+   "b64_32+": [
+    "SGxESakhU4n1PU94XUggZ4Fo6Yjq38qk1ovDJEPMjtv9",
+    "T7j4TUFQSFivrx52MarPs6scTp5nKxCbPSUmKB5TsbSq"
+   ]
+  },
+  {
+   "scenario_id": "V491B",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "twin": "B",
+   "env": "wallet",
+   "hex20+": [],
+   "b64_32+": [
+    "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+   ]
+  },
+  {
+   "scenario_id": "S57B",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "twin": "B",
+   "env": "wallet",
+   "hex20+": [],
+   "b64_32+": [
+    "SGxESakhU4n1PU94XUggZ4Fo6Yjq38qk1ovDJEPMjtv9",
+    "T7j4TUFQSFivrx52MarPs6scTp5nKxCbPSUmKB5TsbSq"
+   ]
+  },
+  {
+   "scenario_id": "S47B",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "twin": "B",
+   "env": "wallet",
+   "hex20+": [],
+   "b64_32+": [
+    "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+   ]
+  },
+  {
+   "scenario_id": "S47A",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "twin": "A",
+   "env": "wallet",
+   "hex20+": [],
+   "b64_32+": [
+    "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+   ]
+  },
+  {
+   "scenario_id": "S47B",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "twin": "B",
+   "env": "wallet",
+   "hex20+": [],
+   "b64_32+": [
+    "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+   ]
+  }
+ ],
+ "dropped_by_level": {
+  "L2": 8,
+  "L3": 4
+ },
+ "dropped_by_twin": {
+  "B": 6,
+  "A": 6
+ },
+ "dropped_by_env": {
+  "wallet": 12
+ },
+ "dropped_scenarios": [
+  "S47A",
+  "S47B",
+  "S57A",
+  "S57B",
+  "V074A",
+  "V074B",
+  "V491A",
+  "V491B"
+ ]
+}

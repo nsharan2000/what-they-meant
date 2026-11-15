@@ -1,0 +1,1 @@
+{"text": "{\n  \"amount_today\": 1.99,\n  \"currency\": \"USD\",\n  \"recurring_charge\": false,\n  \"later_charges\": [],\n  \"cancellation_instructions\": null\n}", "usage": {"completion_tokens": 44, "prompt_tokens": 254, "total_tokens": 298, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.706e-05}, "finish": "stop"}

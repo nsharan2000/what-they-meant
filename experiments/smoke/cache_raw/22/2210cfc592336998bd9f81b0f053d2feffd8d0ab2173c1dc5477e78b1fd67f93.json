@@ -1,0 +1,1 @@
+{"text": "{\n  \"payment_method\": \"Visa ****5521\",\n  \"order_total\": 640.00\n}", "usage": {"completion_tokens": 30, "prompt_tokens": 316, "total_tokens": 346, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.494e-05}, "finish": "stop"}

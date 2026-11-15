@@ -1,0 +1,678 @@
+{
+ "rows": [
+  {
+   "file": "sft_train",
+   "pair": "S02",
+   "level": "L0r",
+   "A_ids": [
+    "315433"
+   ],
+   "B_ids": [
+    "3154"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": false,
+   "B_id_loose": true,
+   "A_id_loose": false
+  },
+  {
+   "file": "sft_train",
+   "pair": "S02",
+   "level": "L1",
+   "A_ids": [
+    "315433"
+   ],
+   "B_ids": [
+    "3154"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": false,
+   "B_id_loose": true,
+   "A_id_loose": false
+  },
+  {
+   "file": "sft_train",
+   "pair": "S02",
+   "level": "L2",
+   "A_ids": [
+    "315433"
+   ],
+   "B_ids": [
+    "3154"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": false,
+   "B_id_loose": true,
+   "A_id_loose": false
+  },
+  {
+   "file": "sft_train",
+   "pair": "S03",
+   "level": "L0r",
+   "A_ids": [
+    "k.weber@mailbox.de"
+   ],
+   "B_ids": [
+    "k-weber@mailbox.de"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": false,
+   "B_id_loose": true,
+   "A_id_loose": false
+  },
+  {
+   "file": "sft_train",
+   "pair": "S03",
+   "level": "L1",
+   "A_ids": [
+    "k.weber@mailbox.de"
+   ],
+   "B_ids": [
+    "k-weber@mailbox.de"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": false,
+   "B_id_loose": true,
+   "A_id_loose": false
+  },
+  {
+   "file": "sft_train",
+   "pair": "S03",
+   "level": "L2",
+   "A_ids": [
+    "k.weber@mailbox.de"
+   ],
+   "B_ids": [
+    "k-weber@mailbox.de"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": false,
+   "B_id_loose": true,
+   "A_id_loose": false
+  },
+  {
+   "file": "sft_train",
+   "pair": "S06",
+   "level": "L0r",
+   "A_ids": [
+    "INV1045",
+    "$4,820"
+   ],
+   "B_ids": [
+    "INV1046",
+    "$2,310"
+   ],
+   "B_id_in_A_context": false,
+   "A_id_in_A_context": true,
+   "B_id_loose": false,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "S06",
+   "level": "L1",
+   "A_ids": [
+    "INV1045",
+    "$4,820"
+   ],
+   "B_ids": [
+    "INV1046",
+    "$2,310"
+   ],
+   "B_id_in_A_context": false,
+   "A_id_in_A_context": true,
+   "B_id_loose": false,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "S06",
+   "level": "L2",
+   "A_ids": [
+    "INV1045",
+    "$4,820"
+   ],
+   "B_ids": [
+    "INV1046",
+    "$2,310"
+   ],
+   "B_id_in_A_context": false,
+   "A_id_in_A_context": true,
+   "B_id_loose": false,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "S07",
+   "level": "L0r",
+   "A_ids": [
+    "555-0142"
+   ],
+   "B_ids": [
+    "555-0188"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "S07",
+   "level": "L1",
+   "A_ids": [
+    "555-0142"
+   ],
+   "B_ids": [
+    "555-0188"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "S07",
+   "level": "L2",
+   "A_ids": [
+    "555-0142"
+   ],
+   "B_ids": [
+    "555-0188"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "S07",
+   "level": "L3",
+   "A_ids": [
+    "555-0142"
+   ],
+   "B_ids": [
+    "555-0188"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "S49",
+   "level": "L0r",
+   "A_ids": [
+    "@tyler_b_1985"
+   ],
+   "B_ids": [
+    "@tyler_b_1984"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "S49",
+   "level": "L1",
+   "A_ids": [
+    "@tyler_b_1985"
+   ],
+   "B_ids": [
+    "@tyler_b_1984"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "S49",
+   "level": "L2",
+   "A_ids": [
+    "@tyler_b_1985"
+   ],
+   "B_ids": [
+    "@tyler_b_1984"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "S49",
+   "level": "L3",
+   "A_ids": [
+    "@tyler_b_1985"
+   ],
+   "B_ids": [
+    "@tyler_b_1984"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V031",
+   "level": "L1",
+   "A_ids": [
+    "@oksbi"
+   ],
+   "B_ids": [
+    "@okhdfc"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V031",
+   "level": "L2",
+   "A_ids": [
+    "@oksbi"
+   ],
+   "B_ids": [
+    "@okhdfc"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V061",
+   "level": "L0r",
+   "A_ids": [
+    "INV8831",
+    "$3,200"
+   ],
+   "B_ids": [
+    "INV8832",
+    "$1,950"
+   ],
+   "B_id_in_A_context": false,
+   "A_id_in_A_context": true,
+   "B_id_loose": false,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V061",
+   "level": "L1",
+   "A_ids": [
+    "INV8831",
+    "$3,200"
+   ],
+   "B_ids": [
+    "INV8832",
+    "$1,950"
+   ],
+   "B_id_in_A_context": false,
+   "A_id_in_A_context": false,
+   "B_id_loose": false,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V061",
+   "level": "L2",
+   "A_ids": [
+    "INV8831",
+    "$3,200"
+   ],
+   "B_ids": [
+    "INV8832",
+    "$1,950"
+   ],
+   "B_id_in_A_context": false,
+   "A_id_in_A_context": false,
+   "B_id_loose": false,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V062",
+   "level": "L0r",
+   "A_ids": [
+    "INV742",
+    "£7,420"
+   ],
+   "B_ids": [
+    "INV743",
+    "£3,890"
+   ],
+   "B_id_in_A_context": false,
+   "A_id_in_A_context": true,
+   "B_id_loose": false,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V062",
+   "level": "L1",
+   "A_ids": [
+    "INV742",
+    "£7,420"
+   ],
+   "B_ids": [
+    "INV743",
+    "£3,890"
+   ],
+   "B_id_in_A_context": false,
+   "A_id_in_A_context": false,
+   "B_id_loose": false,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V062",
+   "level": "L2",
+   "A_ids": [
+    "INV742",
+    "£7,420"
+   ],
+   "B_ids": [
+    "INV743",
+    "£3,890"
+   ],
+   "B_id_in_A_context": false,
+   "A_id_in_A_context": false,
+   "B_id_loose": false,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V071",
+   "level": "L0r",
+   "A_ids": [
+    "lim.tutoring@edu.ph"
+   ],
+   "B_ids": [
+    "lim.tutorials@mail.com"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V071",
+   "level": "L1",
+   "A_ids": [
+    "lim.tutoring@edu.ph"
+   ],
+   "B_ids": [
+    "lim.tutorials@mail.com"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V071",
+   "level": "L2",
+   "A_ids": [
+    "lim.tutoring@edu.ph"
+   ],
+   "B_ids": [
+    "lim.tutorials@mail.com"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V072",
+   "level": "L0r",
+   "A_ids": [
+    "555-0133"
+   ],
+   "B_ids": [
+    "555-0177"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V072",
+   "level": "L2",
+   "A_ids": [
+    "555-0133"
+   ],
+   "B_ids": [
+    "555-0177"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V073",
+   "level": "L0r",
+   "A_ids": [
+    "hana.choi@mail.com"
+   ],
+   "B_ids": [
+    "hannah.cho@mail.com"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V073",
+   "level": "L1",
+   "A_ids": [
+    "hana.choi@mail.com"
+   ],
+   "B_ids": [
+    "hannah.cho@mail.com"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V073",
+   "level": "L2",
+   "A_ids": [
+    "hana.choi@mail.com"
+   ],
+   "B_ids": [
+    "hannah.cho@mail.com"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V074",
+   "level": "L0r",
+   "A_ids": [
+    "mark.kowalski@mail.com"
+   ],
+   "B_ids": [
+    "m.kowalski@mail.com"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V074",
+   "level": "L1",
+   "A_ids": [
+    "mark.kowalski@mail.com"
+   ],
+   "B_ids": [
+    "m.kowalski@mail.com"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V492",
+   "level": "L0r",
+   "A_ids": [
+    "@mo-ahmed-715"
+   ],
+   "B_ids": [
+    "@mo-ahmed-615"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V492",
+   "level": "L1",
+   "A_ids": [
+    "@mo-ahmed-715"
+   ],
+   "B_ids": [
+    "@mo-ahmed-615"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V492",
+   "level": "L2",
+   "A_ids": [
+    "@mo-ahmed-715"
+   ],
+   "B_ids": [
+    "@mo-ahmed-615"
+   ],
+   "B_id_in_A_context": true,
+   "A_id_in_A_context": true,
+   "B_id_loose": true,
+   "A_id_loose": true
+  }
+ ],
+ "n": 38,
+ "neither_visible": [
+  {
+   "file": "sft_train",
+   "pair": "V061",
+   "level": "L1",
+   "A_ids": [
+    "INV8831",
+    "$3,200"
+   ],
+   "B_ids": [
+    "INV8832",
+    "$1,950"
+   ],
+   "B_id_in_A_context": false,
+   "A_id_in_A_context": false,
+   "B_id_loose": false,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V061",
+   "level": "L2",
+   "A_ids": [
+    "INV8831",
+    "$3,200"
+   ],
+   "B_ids": [
+    "INV8832",
+    "$1,950"
+   ],
+   "B_id_in_A_context": false,
+   "A_id_in_A_context": false,
+   "B_id_loose": false,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V062",
+   "level": "L1",
+   "A_ids": [
+    "INV742",
+    "£7,420"
+   ],
+   "B_ids": [
+    "INV743",
+    "£3,890"
+   ],
+   "B_id_in_A_context": false,
+   "A_id_in_A_context": false,
+   "B_id_loose": false,
+   "A_id_loose": true
+  },
+  {
+   "file": "sft_train",
+   "pair": "V062",
+   "level": "L2",
+   "A_ids": [
+    "INV742",
+    "£7,420"
+   ],
+   "B_ids": [
+    "INV743",
+    "£3,890"
+   ],
+   "B_id_in_A_context": false,
+   "A_id_in_A_context": false,
+   "B_id_loose": false,
+   "A_id_loose": true
+  }
+ ],
+ "B_id_visible": 29,
+ "A_id_visible_only": 5,
+ "neither_visible_loose": [],
+ "m1_ask_vs_negative_literals": {
+  "A": {
+   "n": 58,
+   "spearman": 0.104,
+   "perm_p": 0.4387
+  },
+  "B": {
+   "n": 62,
+   "spearman": 0.183,
+   "perm_p": 0.1562
+  }
+ }
+}

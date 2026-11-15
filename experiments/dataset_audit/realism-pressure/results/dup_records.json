@@ -1,0 +1,506 @@
+{
+ "spec_level": {
+  "train_pool": {
+   "scenarios": 271,
+   "with_duplicated_scenario_records": 114,
+   "by_field": {
+    "notes": 72,
+    "transactions": 102,
+    "contacts": 66,
+    "accounts": 6
+   },
+   "by_twin": {
+    "A": 57,
+    "B": 57
+   },
+   "ids": [
+    "V194A",
+    "V194B",
+    "V181A",
+    "V181B",
+    "V191A",
+    "V191B",
+    "V184A",
+    "V184B",
+    "V322A",
+    "V322B",
+    "V363A",
+    "V363B",
+    "V361A",
+    "V361B",
+    "V091A",
+    "V091B",
+    "V152A",
+    "V152B",
+    "V244A",
+    "V244B",
+    "V264A",
+    "V264B",
+    "V331A",
+    "V331B",
+    "V293A",
+    "V293B",
+    "V291A",
+    "V291B",
+    "V043A",
+    "V043B",
+    "V044A",
+    "V044B",
+    "V214A",
+    "V214B",
+    "V212A",
+    "V212B",
+    "V213A",
+    "V213B",
+    "V283A",
+    "V283B",
+    "V453A",
+    "V453B",
+    "V582A",
+    "V582B",
+    "V583A",
+    "V583B",
+    "V584A",
+    "V584B",
+    "V581A",
+    "V581B",
+    "V011A",
+    "V011B",
+    "V012A",
+    "V012B",
+    "V014A",
+    "V014B",
+    "V031A",
+    "V031B",
+    "V051A",
+    "V051B",
+    "V071A",
+    "V071B",
+    "V084A",
+    "V084B",
+    "V074A",
+    "V074B",
+    "V082A",
+    "V082B",
+    "V073A",
+    "V073B",
+    "V072A",
+    "V072B",
+    "V164A",
+    "V164B",
+    "V231A",
+    "V231B",
+    "V162A",
+    "V162B",
+    "V233A",
+    "V233B",
+    "V234A",
+    "V234B",
+    "V271A",
+    "V271B",
+    "V232A",
+    "V232B",
+    "V273A",
+    "V273B",
+    "V341A",
+    "V341B",
+    "V344A",
+    "V344B",
+    "V471A",
+    "V471B",
+    "V472A",
+    "V472B",
+    "V551A",
+    "V551B",
+    "V474A",
+    "V474B",
+    "V532A",
+    "V532B",
+    "V492A",
+    "V492B",
+    "V552A",
+    "V552B",
+    "V531A",
+    "V531B",
+    "V571A",
+    "V571B",
+    "V563A",
+    "V563B",
+    "V541A",
+    "V541B"
+   ]
+  },
+  "eval_test": {
+   "scenarios": 82,
+   "with_duplicated_scenario_records": 40,
+   "by_field": {
+    "notes": 26,
+    "transactions": 38,
+    "contacts": 18
+   },
+   "by_twin": {
+    "A": 20,
+    "B": 20
+   },
+   "ids": [
+    "V194A",
+    "V194B",
+    "V191A",
+    "V191B",
+    "V331A",
+    "V331B",
+    "V293A",
+    "V293B",
+    "V291A",
+    "V291B",
+    "V214A",
+    "V214B",
+    "V212A",
+    "V212B",
+    "V213A",
+    "V213B",
+    "V453A",
+    "V453B",
+    "V051A",
+    "V051B",
+    "V084A",
+    "V084B",
+    "V082A",
+    "V082B",
+    "V164A",
+    "V164B",
+    "V231A",
+    "V231B",
+    "V162A",
+    "V162B",
+    "V233A",
+    "V233B",
+    "V234A",
+    "V234B",
+    "V271A",
+    "V271B",
+    "V232A",
+    "V232B",
+    "V273A",
+    "V273B"
+   ]
+  },
+  "eval_hard_test": {
+   "scenarios": 26,
+   "with_duplicated_scenario_records": 14,
+   "by_field": {
+    "transactions": 14,
+    "contacts": 6
+   },
+   "by_twin": {
+    "A": 7,
+    "B": 7
+   },
+   "ids": [
+    "H201A",
+    "H201B",
+    "H291A",
+    "H291B",
+    "H451A",
+    "H451B",
+    "H051A",
+    "H051B",
+    "H231A",
+    "H231B",
+    "H271A",
+    "H271B",
+    "H391A",
+    "H391B"
+   ]
+  },
+  "eval_val": {
+   "scenarios": 35,
+   "with_duplicated_scenario_records": 16,
+   "by_field": {
+    "transactions": 12,
+    "notes": 10,
+    "contacts": 8
+   },
+   "by_twin": {
+    "A": 8,
+    "B": 8
+   },
+   "ids": [
+    "V363A",
+    "V363B",
+    "V361A",
+    "V361B",
+    "V244A",
+    "V244B",
+    "V283A",
+    "V283B",
+    "V011A",
+    "V011B",
+    "V012A",
+    "V012B",
+    "V014A",
+    "V014B",
+    "V563A",
+    "V563B"
+   ]
+  },
+  "eval_hard_train": {
+   "scenarios": 54,
+   "with_duplicated_scenario_records": 12,
+   "by_field": {
+    "contacts": 2,
+    "transactions": 10
+   },
+   "by_twin": {
+    "A": 6,
+    "B": 6
+   },
+   "ids": [
+    "H321A",
+    "H321B",
+    "H091A",
+    "H091B",
+    "H151A",
+    "H151B",
+    "H261A",
+    "H261B",
+    "H041A",
+    "H041B",
+    "H471A",
+    "H471B"
+   ]
+  }
+ },
+ "training_rows": {
+  "sft_train.jsonl": {
+   "L1|A": {
+    "rows": 137,
+    "rows_with_duplicated_history_line": 22,
+    "rows_with_any_duplicated_member_block_line": 40
+   },
+   "L1|B": {
+    "rows": 139,
+    "rows_with_duplicated_history_line": 21,
+    "rows_with_any_duplicated_member_block_line": 38
+   },
+   "L2|A": {
+    "rows": 129,
+    "rows_with_duplicated_history_line": 21,
+    "rows_with_any_duplicated_member_block_line": 46
+   },
+   "L2|B": {
+    "rows": 131,
+    "rows_with_duplicated_history_line": 21,
+    "rows_with_any_duplicated_member_block_line": 44
+   },
+   "L3|A": {
+    "rows": 41,
+    "rows_with_duplicated_history_line": 0,
+    "rows_with_any_duplicated_member_block_line": 0
+   },
+   "L3|B": {
+    "rows": 46,
+    "rows_with_duplicated_history_line": 0,
+    "rows_with_any_duplicated_member_block_line": 0
+   },
+   "total": {
+    "rows": 623,
+    "rows_with_duplicated_history_line": 85,
+    "rows_with_any_duplicated_member_block_line": 168
+   }
+  },
+  "sft_val.jsonl": {
+   "L1|A": {
+    "rows": 34,
+    "rows_with_duplicated_history_line": 10,
+    "rows_with_any_duplicated_member_block_line": 14
+   },
+   "L1|B": {
+    "rows": 34,
+    "rows_with_duplicated_history_line": 10,
+    "rows_with_any_duplicated_member_block_line": 14
+   },
+   "L2|A": {
+    "rows": 34,
+    "rows_with_duplicated_history_line": 10,
+    "rows_with_any_duplicated_member_block_line": 14
+   },
+   "L2|B": {
+    "rows": 34,
+    "rows_with_duplicated_history_line": 10,
+    "rows_with_any_duplicated_member_block_line": 14
+   },
+   "L3|A": {
+    "rows": 10,
+    "rows_with_duplicated_history_line": 0,
+    "rows_with_any_duplicated_member_block_line": 0
+   },
+   "L3|B": {
+    "rows": 10,
+    "rows_with_duplicated_history_line": 0,
+    "rows_with_any_duplicated_member_block_line": 0
+   },
+   "total": {
+    "rows": 156,
+    "rows_with_duplicated_history_line": 40,
+    "rows_with_any_duplicated_member_block_line": 56
+   }
+  },
+  "grpo_train.jsonl": {
+   "L1|A": {
+    "rows": 75,
+    "rows_with_duplicated_history_line": 11,
+    "rows_with_any_duplicated_member_block_line": 20
+   },
+   "L1|B": {
+    "rows": 76,
+    "rows_with_duplicated_history_line": 11,
+    "rows_with_any_duplicated_member_block_line": 21
+   },
+   "L2|A": {
+    "rows": 72,
+    "rows_with_duplicated_history_line": 11,
+    "rows_with_any_duplicated_member_block_line": 24
+   },
+   "L2|B": {
+    "rows": 72,
+    "rows_with_duplicated_history_line": 11,
+    "rows_with_any_duplicated_member_block_line": 24
+   },
+   "L3|A": {
+    "rows": 25,
+    "rows_with_duplicated_history_line": 0,
+    "rows_with_any_duplicated_member_block_line": 0
+   },
+   "L3|B": {
+    "rows": 25,
+    "rows_with_duplicated_history_line": 0,
+    "rows_with_any_duplicated_member_block_line": 0
+   },
+   "total": {
+    "rows": 345,
+    "rows_with_duplicated_history_line": 44,
+    "rows_with_any_duplicated_member_block_line": 89
+   }
+  },
+  "dpo_train.jsonl": {
+   "L1|A": {
+    "rows": 75,
+    "rows_with_duplicated_history_line": 11,
+    "rows_with_any_duplicated_member_block_line": 20
+   },
+   "L1|B": {
+    "rows": 76,
+    "rows_with_duplicated_history_line": 11,
+    "rows_with_any_duplicated_member_block_line": 21
+   },
+   "L2|A": {
+    "rows": 72,
+    "rows_with_duplicated_history_line": 11,
+    "rows_with_any_duplicated_member_block_line": 24
+   },
+   "L2|B": {
+    "rows": 72,
+    "rows_with_duplicated_history_line": 11,
+    "rows_with_any_duplicated_member_block_line": 24
+   },
+   "L3|A": {
+    "rows": 25,
+    "rows_with_duplicated_history_line": 0,
+    "rows_with_any_duplicated_member_block_line": 0
+   },
+   "L3|B": {
+    "rows": 25,
+    "rows_with_duplicated_history_line": 0,
+    "rows_with_any_duplicated_member_block_line": 0
+   },
+   "total": {
+    "rows": 345,
+    "rows_with_duplicated_history_line": 44,
+    "rows_with_any_duplicated_member_block_line": 89
+   }
+  }
+ },
+ "examples": [
+  {
+   "group": "train_pool",
+   "id": "V194A",
+   "file": "dataset/scenarios_synth/bills.jsonl",
+   "member": "envs/bills/members/colin_reid.json",
+   "duplicated_fields": [
+    "notes"
+   ]
+  },
+  {
+   "group": "train_pool",
+   "id": "V194B",
+   "file": "dataset/scenarios_synth/bills.jsonl",
+   "member": "envs/bills/members/colin_reid.json",
+   "duplicated_fields": [
+    "notes"
+   ]
+  },
+  {
+   "group": "train_pool",
+   "id": "V181A",
+   "file": "dataset/scenarios_synth/bills.jsonl",
+   "member": "envs/bills/members/zoe_park.json",
+   "duplicated_fields": [
+    "notes"
+   ]
+  },
+  {
+   "group": "train_pool",
+   "id": "V181B",
+   "file": "dataset/scenarios_synth/bills.jsonl",
+   "member": "envs/bills/members/zoe_park.json",
+   "duplicated_fields": [
+    "notes"
+   ]
+  },
+  {
+   "group": "train_pool",
+   "id": "V191A",
+   "file": "dataset/scenarios_synth/bills.jsonl",
+   "member": "envs/bills/members/zoe_park.json",
+   "duplicated_fields": [
+    "notes"
+   ]
+  },
+  {
+   "group": "train_pool",
+   "id": "V191B",
+   "file": "dataset/scenarios_synth/bills.jsonl",
+   "member": "envs/bills/members/zoe_park.json",
+   "duplicated_fields": [
+    "notes"
+   ]
+  }
+ ],
+ "m1_success_by_dup_any": [
+  {
+   "twin": "A",
+   "n_clean": 28,
+   "n_dup": 8,
+   "success_clean": 0.4911,
+   "success_dup": 0.6406,
+   "diff": 0.1496,
+   "ci": [
+    -0.0402,
+    0.3371
+   ]
+  },
+  {
+   "twin": "B",
+   "n_clean": 28,
+   "n_dup": 12,
+   "success_clean": 0.5134,
+   "success_dup": 0.6875,
+   "diff": 0.1741,
+   "ci": [
+    0.0179,
+    0.3155
+   ]
+  }
+ ]
+}

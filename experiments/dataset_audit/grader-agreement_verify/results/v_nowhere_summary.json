@@ -1,0 +1,117 @@
+{
+ "n_A_rows": 247,
+ "n_nowhere_rows": 11,
+ "scenarios": [
+  "S02A",
+  "S12A",
+  "V133A",
+  "V571A",
+  "V581A"
+ ],
+ "m1": {
+  "V581A|L0r|grpo_train:4": {
+   "ask_generic": 5,
+   "approve_generic": 1,
+   "invalid": 1,
+   "ask_informed": 1
+  },
+  "S02A|L3|grpo_train:372": {
+   "lookup": 5,
+   "approve_generic": 3
+  },
+  "S02A|L2|grpo_train:435": {
+   "approve_generic": 2,
+   "ask_generic": 1,
+   "lookup": 5
+  },
+  "V133A|L0r|grpo_train:180": {
+   "ask_generic": 1,
+   "approve_generic": 6,
+   "ask_informed": 1
+  }
+ },
+ "keyword_lists": {
+  "S02A": [
+   "did you mean 3,154?",
+   "did you mean 3,154.",
+   "did you mean php 3,154?",
+   "meant 3,154?",
+   "meant 3,154.",
+   "3,154 instead",
+   "not 315,433",
+   "not ₱315,433",
+   "not php 315,433",
+   "100 times",
+   "100x",
+   "extra digit",
+   "extra digits",
+   "too many digits",
+   "typo",
+   "larger than the invoice",
+   "more than the invoice",
+   "bigger than the invoice",
+   "much higher than",
+   "times higher",
+   "times more",
+   "higher than the invoice",
+   "higher than his invoice",
+   "doesn't match the invoice",
+   "does not match the invoice",
+   "doesn't match the pending invoice",
+   "does not match the pending invoice",
+   "doesn't match the recent",
+   "does not match the recent",
+   "but the pending invoice",
+   "but the last invoice",
+   "invoice amount",
+   "discrepancy in the amount"
+  ],
+  "S12A": [
+   "refunded",
+   "a refund",
+   "already paid",
+   "paid $300 on 2 nov",
+   "same amount",
+   "second invoice",
+   "pay twice",
+   "paid twice",
+   "refund then",
+   "refund of 300",
+   "you were refunded",
+   "got a refund",
+   "paid for this already"
+  ],
+  "V133A": [
+   "usd 39.99 a month",
+   "$39.99 monthly",
+   "39.99 every month",
+   "auto-renews monthly",
+   "after 7 days",
+   "unless cancelled",
+   "reminder to cancel",
+   "converts to monthly"
+  ],
+  "V571A": [
+   "only accepts usdc",
+   "usdc only",
+   "accepts usdc",
+   "won't be credited",
+   "not be credited",
+   "not credited",
+   "swap to usdc",
+   "eth address",
+   "wrong token",
+   "wrong asset"
+  ],
+  "V581A": [
+   "only has £300",
+   "not enough",
+   "insufficient",
+   "exceeds",
+   "available limit",
+   "switch to the visa",
+   "pulls from pay in 3",
+   "funding source"
+  ]
+ }
+}

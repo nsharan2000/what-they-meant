@@ -1,0 +1,1809 @@
+{
+ "by_level": {
+  "L0r": {
+   "counts": {
+    "pairs": 75,
+    "differs_in:lookup_result": 36,
+    "system_differs": 12,
+    "differs_in:system+lookup_result": 7,
+    "differs_in:request": 6,
+    "differs_in:lookup_call+lookup_result": 1,
+    "differs_in:request+lookup_call+lookup_result": 9,
+    "differs_in:request+lookup_result": 10,
+    "differs_in:system+request+lookup_result": 5,
+    "differs_in:lookup_result+msg5": 1
+   },
+   "earliest_diff_tokens_from_end_p10_p50_p90": [
+    31.0,
+    109.0,
+    836.0
+   ],
+   "pairs_differing_beyond_4096": []
+  },
+  "L1": {
+   "counts": {
+    "pairs": 75,
+    "differs_in:lookup_call+lookup_result": 1,
+    "system_differs": 2,
+    "differs_in:request+lookup_result": 14,
+    "differs_in:request+lookup_call+lookup_result": 9,
+    "differs_in:lookup_result": 42,
+    "differs_in:request": 6,
+    "differs_in:system+request+lookup_result": 1,
+    "differs_in:system+lookup_result": 1,
+    "differs_in:lookup_result+msg5": 1
+   },
+   "earliest_diff_tokens_from_end_p10_p50_p90": [
+    30.0,
+    77.0,
+    165.0
+   ],
+   "pairs_differing_beyond_4096": []
+  },
+  "L2": {
+   "counts": {
+    "pairs": 72,
+    "differs_in:lookup_result": 40,
+    "system_differs": 2,
+    "differs_in:request+lookup_call+lookup_result": 9,
+    "differs_in:request+lookup_result": 13,
+    "differs_in:lookup_call+lookup_result": 1,
+    "differs_in:request": 6,
+    "differs_in:system+request+lookup_result": 1,
+    "differs_in:lookup_result+msg5": 1,
+    "differs_in:system+lookup_result": 1
+   },
+   "earliest_diff_tokens_from_end_p10_p50_p90": [
+    36.0,
+    83.0,
+    171.0
+   ],
+   "pairs_differing_beyond_4096": [
+    [
+     "S12",
+     4190,
+     "system"
+    ],
+    [
+     "S54",
+     4136,
+     "system"
+    ]
+   ]
+  },
+  "L3": {
+   "counts": {
+    "pairs": 25,
+    "differs_in:request+lookup_result": 4,
+    "system_differs": 2,
+    "differs_in:lookup_call+lookup_result": 1,
+    "differs_in:request": 3,
+    "differs_in:lookup_result": 12,
+    "differs_in:system+lookup_result": 1,
+    "differs_in:request+lookup_call+lookup_result": 3,
+    "differs_in:system+request+lookup_result": 1
+   },
+   "earliest_diff_tokens_from_end_p10_p50_p90": [
+    33.0,
+    83.0,
+    221.0
+   ],
+   "pairs_differing_beyond_4096": [
+    [
+     "S54",
+     4138,
+     "system"
+    ],
+    [
+     "S12",
+     4193,
+     "system"
+    ]
+   ]
+  }
+ },
+ "per_pair": {
+  "L0r": {
+   "V474": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 32
+   },
+   "S54": {
+    "segments": [
+     "system",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 868
+   },
+   "S47": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 26
+   },
+   "S55": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 58
+   },
+   "S06": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 136
+   },
+   "V184": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 82
+   },
+   "S42": {
+    "segments": [
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 59
+   },
+   "V042": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 41
+   },
+   "S13": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 170
+   },
+   "S58": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 41
+   },
+   "S22": {
+    "segments": [
+     "system",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 973
+   },
+   "V182": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 110
+   },
+   "V183": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 124
+   },
+   "V061": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 136
+   },
+   "S25": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 51
+   },
+   "V253": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 28
+   },
+   "S15": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 44
+   },
+   "V254": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 49
+   },
+   "V551": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 32
+   },
+   "V044": {
+    "segments": [
+     "system",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 739
+   },
+   "V534": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 144
+   },
+   "V541": {
+    "segments": [
+     "system",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 918
+   },
+   "S02": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 9
+   },
+   "V071": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 155
+   },
+   "S32": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 63
+   },
+   "V581": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 25
+   },
+   "V554": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 32
+   },
+   "V471": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 41
+   },
+   "S53": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 138
+   },
+   "S12": {
+    "segments": [
+     "system",
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 986
+   },
+   "V573": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 46
+   },
+   "V223": {
+    "segments": [
+     "lookup_result",
+     "msg5"
+    ],
+    "earliest_diff_tokens_from_end(A)": 128
+   },
+   "V553": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 44
+   },
+   "V043": {
+    "segments": [
+     "system",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 742
+   },
+   "S10": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 191
+   },
+   "V341": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 203
+   },
+   "V113": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 38
+   },
+   "V073": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 156
+   },
+   "S14": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 42
+   },
+   "V552": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 43
+   },
+   "V582": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 56
+   },
+   "V321": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 24
+   },
+   "V133": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 158
+   },
+   "V074": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 134
+   },
+   "V531": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 127
+   },
+   "V094": {
+    "segments": [
+     "system",
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 939
+   },
+   "V104": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 185
+   },
+   "S07": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 116
+   },
+   "S35": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 54
+   },
+   "V181": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 85
+   },
+   "V322": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 26
+   },
+   "V472": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 43
+   },
+   "S18": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 108
+   },
+   "S04": {
+    "segments": [
+     "system",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 788
+   },
+   "S49": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 125
+   },
+   "V152": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 45
+   },
+   "V492": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 125
+   },
+   "V344": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 208
+   },
+   "V091": {
+    "segments": [
+     "system",
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 950
+   },
+   "V491": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 64
+   },
+   "V264": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 38
+   },
+   "V093": {
+    "segments": [
+     "system",
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 915
+   },
+   "V072": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 118
+   },
+   "S57": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 110
+   },
+   "S03": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 11
+   },
+   "V583": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 51
+   },
+   "V571": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 109
+   },
+   "V532": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 126
+   },
+   "S09": {
+    "segments": [
+     "system",
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 896
+   },
+   "S34": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 223
+   },
+   "S26": {
+    "segments": [
+     "system",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 470
+   },
+   "V062": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 134
+   },
+   "S11": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 77
+   },
+   "V473": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 30
+   },
+   "V584": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 52
+   }
+  },
+  "L1": {
+   "S42": {
+    "segments": [
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 63
+   },
+   "V094": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 142
+   },
+   "S07": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 116
+   },
+   "V182": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 81
+   },
+   "S25": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 51
+   },
+   "S11": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 77
+   },
+   "V061": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 136
+   },
+   "S58": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 42
+   },
+   "V073": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 156
+   },
+   "V074": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 135
+   },
+   "S10": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 192
+   },
+   "V553": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 44
+   },
+   "S47": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 26
+   },
+   "S09": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 136
+   },
+   "V344": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 208
+   },
+   "V581": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 19
+   },
+   "V541": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 96
+   },
+   "V264": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 38
+   },
+   "S35": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 57
+   },
+   "V571": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 110
+   },
+   "S03": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 12
+   },
+   "V552": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 43
+   },
+   "V184": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 112
+   },
+   "V534": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 145
+   },
+   "S02": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 9
+   },
+   "V532": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 126
+   },
+   "S04": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 41
+   },
+   "V551": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 42
+   },
+   "S15": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 44
+   },
+   "V093": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 119
+   },
+   "S12": {
+    "segments": [
+     "system",
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 2292
+   },
+   "V062": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 134
+   },
+   "V584": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 76
+   },
+   "V473": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 43
+   },
+   "S26": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 61
+   },
+   "V091": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 153
+   },
+   "V113": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 56
+   },
+   "V104": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 185
+   },
+   "V491": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 46
+   },
+   "V133": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 158
+   },
+   "V471": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 41
+   },
+   "S57": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 111
+   },
+   "V341": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 203
+   },
+   "S13": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 170
+   },
+   "V043": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 27
+   },
+   "V042": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 41
+   },
+   "V583": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 51
+   },
+   "V582": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 56
+   },
+   "V474": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 44
+   },
+   "S32": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 94
+   },
+   "V183": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 124
+   },
+   "V573": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 46
+   },
+   "V031": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 103
+   },
+   "V554": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 33
+   },
+   "S06": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 137
+   },
+   "V044": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 39
+   },
+   "S14": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 42
+   },
+   "S54": {
+    "segments": [
+     "system",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 1878
+   },
+   "V531": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 128
+   },
+   "S53": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 139
+   },
+   "V254": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 38
+   },
+   "V472": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 43
+   },
+   "V253": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 29
+   },
+   "V152": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 32
+   },
+   "V322": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 26
+   },
+   "V492": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 125
+   },
+   "V223": {
+    "segments": [
+     "lookup_result",
+     "msg5"
+    ],
+    "earliest_diff_tokens_from_end(A)": 131
+   },
+   "V321": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 24
+   },
+   "S22": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 65
+   },
+   "S55": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 58
+   },
+   "V181": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 85
+   },
+   "V071": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 155
+   },
+   "S18": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 108
+   },
+   "S49": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 125
+   },
+   "S34": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 223
+   }
+  },
+  "L2": {
+   "V254": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 46
+   },
+   "V073": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 157
+   },
+   "S53": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 141
+   },
+   "V492": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 125
+   },
+   "V043": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 41
+   },
+   "S09": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 143
+   },
+   "V044": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 39
+   },
+   "V554": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 41
+   },
+   "S58": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 59
+   },
+   "S42": {
+    "segments": [
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 74
+   },
+   "S04": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 32
+   },
+   "S35": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 68
+   },
+   "V062": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 135
+   },
+   "V061": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 137
+   },
+   "V344": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 209
+   },
+   "S12": {
+    "segments": [
+     "system",
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 4190
+   },
+   "V471": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 41
+   },
+   "S06": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 138
+   },
+   "V091": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 160
+   },
+   "V474": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 44
+   },
+   "V341": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 204
+   },
+   "V582": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 56
+   },
+   "S13": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 173
+   },
+   "V223": {
+    "segments": [
+     "lookup_result",
+     "msg5"
+    ],
+    "earliest_diff_tokens_from_end(A)": 161
+   },
+   "S02": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 10
+   },
+   "V551": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 38
+   },
+   "S32": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 94
+   },
+   "V253": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 38
+   },
+   "S49": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 125
+   },
+   "V321": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 24
+   },
+   "S07": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 116
+   },
+   "V133": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 160
+   },
+   "V104": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 185
+   },
+   "V573": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 46
+   },
+   "S26": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 61
+   },
+   "V072": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 118
+   },
+   "S15": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 36
+   },
+   "S18": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 108
+   },
+   "V031": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 104
+   },
+   "V541": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 96
+   },
+   "V531": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 129
+   },
+   "V113": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 47
+   },
+   "S22": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 81
+   },
+   "V071": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 156
+   },
+   "V552": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 43
+   },
+   "S34": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 224
+   },
+   "S03": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 13
+   },
+   "V152": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 38
+   },
+   "V473": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 43
+   },
+   "S14": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 42
+   },
+   "S10": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 193
+   },
+   "V181": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 85
+   },
+   "V581": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 22
+   },
+   "V182": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 102
+   },
+   "V184": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 112
+   },
+   "V093": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 123
+   },
+   "V532": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 127
+   },
+   "V571": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 111
+   },
+   "V553": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 44
+   },
+   "V583": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 51
+   },
+   "V183": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 124
+   },
+   "S11": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 77
+   },
+   "V584": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 76
+   },
+   "V534": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 146
+   },
+   "V042": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 31
+   },
+   "S25": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 51
+   },
+   "S55": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 51
+   },
+   "V322": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 23
+   },
+   "S54": {
+    "segments": [
+     "system",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 4136
+   },
+   "V472": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 43
+   },
+   "V094": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 149
+   },
+   "V264": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 38
+   }
+  },
+  "L3": {
+   "S09": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 147
+   },
+   "S42": {
+    "segments": [
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 74
+   },
+   "S06": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 155
+   },
+   "S26": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 61
+   },
+   "S54": {
+    "segments": [
+     "system",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 4138
+   },
+   "S25": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 51
+   },
+   "S14": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 34
+   },
+   "S04": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 32
+   },
+   "S02": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 14
+   },
+   "S53": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 144
+   },
+   "S32": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 83
+   },
+   "S49": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 128
+   },
+   "S10": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 202
+   },
+   "S34": {
+    "segments": [
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 234
+   },
+   "S15": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 36
+   },
+   "S11": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 77
+   },
+   "S07": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 118
+   },
+   "S55": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 58
+   },
+   "S58": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 49
+   },
+   "S03": {
+    "segments": [
+     "request"
+    ],
+    "earliest_diff_tokens_from_end(A)": 19
+   },
+   "S12": {
+    "segments": [
+     "system",
+     "request",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 4193
+   },
+   "S22": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 94
+   },
+   "S35": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 68
+   },
+   "S18": {
+    "segments": [
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 108
+   },
+   "S13": {
+    "segments": [
+     "request",
+     "lookup_call",
+     "lookup_result"
+    ],
+    "earliest_diff_tokens_from_end(A)": 182
+   }
+  }
+ },
+ "A_L2_targets_needing_system_prompt": {
+  "counts": {
+   "A_L2_message_targets": 72,
+   "cites_something_only_in_system_prompt": 23
+  },
+  "examples_only_in_system": [
+   [
+    17,
+    "V073A",
+    [
+     "hannah.cho@mail.com"
+    ],
+    "hana.choi@mail.com belongs to Hana Choi, not Hannah Cho. Hannah's saved email is hannah.cho@mail.com. Should I use that instead?"
+   ],
+   [
+    31,
+    "V492A",
+    [
+     "615",
+     "@mo-ahmed-615"
+    ],
+    "@mo-ahmed-715 is 'M. Ahmed', whom you've never paid. You paid Mo Ahmed at @mo-ahmed-615 before, one digit different. Did you mean that one?"
+   ],
+   [
+    51,
+    "V043A",
+    [
+     "5.98"
+    ],
+    "The garlic unit in the cart is lb (USD 1,196), but your past orders were 2 pieces (USD 5.98). Should I change it to pieces before I place th"
+   ],
+   [
+    94,
+    "S58A",
+    [
+     "****0912",
+     "****5521",
+     "5521"
+    ],
+    "Checkout is set to PayPal, which pulls from your bank ****0912, and that account only has $120. You usually use Visa ****5521 for big purcha"
+   ],
+   [
+    139,
+    "S04A",
+    [
+     "30"
+    ],
+    "The garlic unit in the cart is kg (INR 1,200), but your past orders were 2 pieces (INR 30). Should I change it to pieces before I place the "
+   ]
+  ],
+  "examples_all_in_tail": [
+   [
+    1,
+    "V254A",
+    "Premium Family is £17.99 a month, but extra usage is billed automatically up to £500 a month and is on by default. Do you want it off or cap"
+   ],
+   [
+    28,
+    "S53A",
+    "Paying a stranger as 'friends' means no purchase protection, and this account is 5 days old. Should I send it as a protected purchase instea"
+   ],
+   [
+    53,
+    "S09A",
+    "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Harlow on thei"
+   ],
+   [
+    67,
+    "V044A",
+    "The bananas unit in the cart is kg (USD 45.00), but your past orders were 3 lbs (USD 4.50). Should I change it to lbs before I place the ord"
+   ],
+   [
+    93,
+    "V554A",
+    "The QR code pays a personal account, 'A. Khan', not Crafted Goods, and personal payments have no purchase protection. Can you ask the assist"
+   ]
+  ]
+ }
+}

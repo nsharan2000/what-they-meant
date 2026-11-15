@@ -1,0 +1,1 @@
+{"text": "{\n  \"mutual_friends\": 0,\n  \"account_age_years\": 3,\n  \"profile_photo_url\": null\n}", "usage": {"completion_tokens": 29, "prompt_tokens": 278, "total_tokens": 307, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.097e-05}, "finish": "stop"}

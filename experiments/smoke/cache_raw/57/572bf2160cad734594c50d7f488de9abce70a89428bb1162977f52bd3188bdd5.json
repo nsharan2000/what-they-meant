@@ -1,0 +1,1 @@
+{"text": "{\n  \"crypto_address\": \"0x9f3c...b7e2\",\n  \"network\": \"ethereum\",\n  \"wallet_status\": \"saved\"\n}", "usage": {"completion_tokens": 36, "prompt_tokens": 277, "total_tokens": 313, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.4729999999999994e-05}, "finish": "stop"}

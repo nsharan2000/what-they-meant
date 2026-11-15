@@ -1,0 +1,118 @@
+{
+ "n_observed": 483,
+ "grid_prompt": {
+  "P1": 380,
+  "P0": 103
+ },
+ "grid_prompt_x_dpo_prompt": {
+  "P1->P0": 264,
+  "P0->P0": 71,
+  "P1->P2": 116,
+  "P0->P2": 32
+ },
+ "sys_same_len_given_grid_P0": {
+  "true": 103
+ },
+ "msgs_same": {
+  "false": 468,
+  "true": 15
+ },
+ "msgs_same_by_canon_n": {
+  "0": {
+   "false": 2,
+   "true": 14
+  },
+  "1": {
+   "false": 460,
+   "true": 1
+  },
+  "2": {
+   "false": 6
+  }
+ },
+ "no_prior_turns_but_dpo_has_lookup": 388,
+ "no_prior_turns_and_dpo_has_no_lookup": 15,
+ "user_same": {
+  "true": 481,
+  "false": 2
+ },
+ "fully_on_context(P0 grid, P0 dpo, same sys length, same messages)": 7,
+ "on_context_ignoring_prompt_setting(same messages, sys same len or grid P1)": 15,
+ "fully_on_context_idx": [
+  75,
+  165,
+  178,
+  228,
+  270,
+  445,
+  448
+ ],
+ "twin_levels_total": 249,
+ "twin_levels_with_both": 247,
+ "unpaired": [
+  [
+   "V031",
+   "L0r",
+   "B"
+  ],
+  [
+   "V072",
+   "L1",
+   "B"
+  ]
+ ],
+ "twin_levels_identical_rejected": 91,
+ "pairs_in_identical_twin_levels": 182,
+ "twin_levels_identical_rejected_ws_normalised": 92,
+ "identical_twin_levels_both_first_action": 85,
+ "identical_twin_levels_rej_dec_A_B": {
+  "commit_other|commit_other": 64,
+  "commit_gold|commit_other": 15,
+  "invalid|invalid": 1,
+  "commit_harmful|commit_other": 3,
+  "lookup|lookup": 1,
+  "statement|statement": 5,
+  "ask_generic|ask_generic": 2
+ },
+ "identical_twin_levels_synthetic": 0,
+ "distinct_rejected_texts_used_more_than_once": 93,
+ "pairs_using_a_reused_rejected_text": 200,
+ "examples_identical": [
+  [
+   0,
+   52,
+   "V581",
+   "L1"
+  ],
+  [
+   21,
+   2,
+   "V344",
+   "L0r"
+  ],
+  [
+   4,
+   81,
+   "V581",
+   "L0r"
+  ],
+  [
+   394,
+   7,
+   "V582",
+   "L1"
+  ],
+  [
+   15,
+   262,
+   "S58",
+   "L1"
+  ],
+  [
+   362,
+   17,
+   "S35",
+   "L3"
+  ]
+ ]
+}

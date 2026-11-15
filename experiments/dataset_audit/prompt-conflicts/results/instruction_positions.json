@@ -1,0 +1,384 @@
+{
+ "sliding_window": 4096,
+ "fit": {
+  "n_rows": 1624,
+  "coef_tokens_per_char_or_unit": {
+   "policy_chars": 0.2542,
+   "member_chars": 0.4407,
+   "tooldoc_chars": 0.1879,
+   "protocol_hint_chars": 0.2677,
+   "conversation_chars": 0.5237,
+   "n_messages": -19.4599,
+   "const": 554.7942
+  },
+  "chars_per_token_implied": {
+   "policy_chars": 3.93,
+   "member_chars": 2.27,
+   "tooldoc_chars": 5.32,
+   "protocol_hint_chars": 3.74,
+   "conversation_chars": 1.91,
+   "n_messages": null,
+   "const": null
+  },
+  "residual_tokens": {
+   "mean_abs": 68.4,
+   "p95_abs": 263.2,
+   "max_abs": 338.8
+  },
+  "r2": 0.9979,
+  "token_stats_join_mismatches": 0
+ },
+ "by_level": {
+  "L0r": {
+   "decision_rows": 152,
+   "prompt_tokens_mean": 1332.1,
+   "whole_prompt_beyond_window(>4096)": 0,
+   "policy_START_outside_window": 0,
+   "policy_END_outside_window(entire policy unseen by local layers)": 0,
+   "policy_END_outside_window_by_margin(>4096+p95|resid|)": 0,
+   "policy_END_outside_window_by_neg_margin(>4096-p95|resid|)": 0,
+   "tokens_after_policy_end": {
+    "min": 559,
+    "mean": 760.4,
+    "max": 968
+   },
+   "instructions": {},
+   "P2_hint": {
+    "rows": 50,
+    "outside_window": 0,
+    "mean_tokens_after": 139.5
+   }
+  },
+  "L1": {
+   "decision_rows": 151,
+   "prompt_tokens_mean": 4134.1,
+   "whole_prompt_beyond_window(>4096)": 83,
+   "policy_START_outside_window": 0,
+   "policy_END_outside_window(entire policy unseen by local layers)": 0,
+   "policy_END_outside_window_by_margin(>4096+p95|resid|)": 0,
+   "policy_END_outside_window_by_neg_margin(>4096-p95|resid|)": 0,
+   "tokens_after_policy_end": {
+    "min": 1713,
+    "mean": 2082.2,
+    "max": 2540
+   },
+   "instructions": {
+    "W-card-required": {
+     "rows": 67,
+     "outside_window": 0,
+     "mean_tokens_after": 3321.0
+    },
+    "W-keep-light": {
+     "rows": 67,
+     "outside_window": 0,
+     "mean_tokens_after": 3146.0
+    },
+    "W-SA": {
+     "rows": 67,
+     "outside_window": 0,
+     "mean_tokens_after": 3053.0
+    },
+    "W-new-payee": {
+     "rows": 67,
+     "outside_window": 0,
+     "mean_tokens_after": 2456.0
+    },
+    "W-warning-signs": {
+     "rows": 67,
+     "outside_window": 0,
+     "mean_tokens_after": 2405.0
+    },
+    "BL-card-content": {
+     "rows": 30,
+     "outside_window": 0,
+     "mean_tokens_after": 2786.1
+    },
+    "BL-SA": {
+     "rows": 30,
+     "outside_window": 0,
+     "mean_tokens_after": 2634.1
+    },
+    "BL-tone": {
+     "rows": 30,
+     "outside_window": 0,
+     "mean_tokens_after": 1898.1
+    },
+    "SH-card-content": {
+     "rows": 28,
+     "outside_window": 0,
+     "mean_tokens_after": 2806.1
+    },
+    "SH-SA": {
+     "rows": 28,
+     "outside_window": 0,
+     "mean_tokens_after": 2558.1
+    },
+    "SH-ask": {
+     "rows": 28,
+     "outside_window": 0,
+     "mean_tokens_after": 1862.1
+    },
+    "BZ-card-required": {
+     "rows": 26,
+     "outside_window": 0,
+     "mean_tokens_after": 3125.5
+    },
+    "BZ-SA": {
+     "rows": 26,
+     "outside_window": 0,
+     "mean_tokens_after": 2913.5
+    },
+    "BZ-fraud": {
+     "rows": 26,
+     "outside_window": 0,
+     "mean_tokens_after": 2387.5
+    },
+    "BZ-ask-only-if-needed": {
+     "rows": 26,
+     "outside_window": 0,
+     "mean_tokens_after": 2222.5
+    }
+   },
+   "P2_hint": {
+    "rows": 49,
+    "outside_window": 0,
+    "mean_tokens_after": 128.1
+   }
+  },
+  "L2": {
+   "decision_rows": 144,
+   "prompt_tokens_mean": 6805.0,
+   "whole_prompt_beyond_window(>4096)": 144,
+   "policy_START_outside_window": 144,
+   "policy_END_outside_window(entire policy unseen by local layers)": 138,
+   "policy_END_outside_window_by_margin(>4096+p95|resid|)": 135,
+   "policy_END_outside_window_by_neg_margin(>4096-p95|resid|)": 140,
+   "tokens_after_policy_end": {
+    "min": 3621,
+    "mean": 4754.8,
+    "max": 5424
+   },
+   "instructions": {
+    "W-card-required": {
+     "rows": 60,
+     "outside_window": 60,
+     "mean_tokens_after": 5493.3
+    },
+    "W-keep-light": {
+     "rows": 60,
+     "outside_window": 60,
+     "mean_tokens_after": 5318.3
+    },
+    "W-SA": {
+     "rows": 60,
+     "outside_window": 60,
+     "mean_tokens_after": 5225.3
+    },
+    "W-new-payee": {
+     "rows": 60,
+     "outside_window": 56,
+     "mean_tokens_after": 4628.3
+    },
+    "W-warning-signs": {
+     "rows": 60,
+     "outside_window": 56,
+     "mean_tokens_after": 4577.3
+    },
+    "BL-card-content": {
+     "rows": 30,
+     "outside_window": 30,
+     "mean_tokens_after": 6204.5
+    },
+    "BL-SA": {
+     "rows": 30,
+     "outside_window": 30,
+     "mean_tokens_after": 6052.5
+    },
+    "BL-tone": {
+     "rows": 30,
+     "outside_window": 30,
+     "mean_tokens_after": 5316.5
+    },
+    "SH-card-content": {
+     "rows": 28,
+     "outside_window": 28,
+     "mean_tokens_after": 5769.0
+    },
+    "SH-SA": {
+     "rows": 28,
+     "outside_window": 28,
+     "mean_tokens_after": 5521.0
+    },
+    "SH-ask": {
+     "rows": 28,
+     "outside_window": 28,
+     "mean_tokens_after": 4825.0
+    },
+    "BZ-card-required": {
+     "rows": 26,
+     "outside_window": 26,
+     "mean_tokens_after": 5822.2
+    },
+    "BZ-SA": {
+     "rows": 26,
+     "outside_window": 26,
+     "mean_tokens_after": 5610.2
+    },
+    "BZ-fraud": {
+     "rows": 26,
+     "outside_window": 26,
+     "mean_tokens_after": 5084.2
+    },
+    "BZ-ask-only-if-needed": {
+     "rows": 26,
+     "outside_window": 26,
+     "mean_tokens_after": 4919.2
+    }
+   },
+   "P2_hint": {
+    "rows": 39,
+    "outside_window": 0,
+    "mean_tokens_after": 143.8
+   }
+  },
+  "L3": {
+   "decision_rows": 50,
+   "prompt_tokens_mean": 6821.7,
+   "whole_prompt_beyond_window(>4096)": 50,
+   "policy_START_outside_window": 50,
+   "policy_END_outside_window(entire policy unseen by local layers)": 48,
+   "policy_END_outside_window_by_margin(>4096+p95|resid|)": 46,
+   "policy_END_outside_window_by_neg_margin(>4096-p95|resid|)": 48,
+   "tokens_after_policy_end": {
+    "min": 3584,
+    "mean": 4778.1,
+    "max": 5385
+   },
+   "instructions": {
+    "W-card-required": {
+     "rows": 18,
+     "outside_window": 18,
+     "mean_tokens_after": 5486.9
+    },
+    "W-keep-light": {
+     "rows": 18,
+     "outside_window": 18,
+     "mean_tokens_after": 5311.9
+    },
+    "W-SA": {
+     "rows": 18,
+     "outside_window": 18,
+     "mean_tokens_after": 5218.9
+    },
+    "W-new-payee": {
+     "rows": 18,
+     "outside_window": 16,
+     "mean_tokens_after": 4621.9
+    },
+    "W-warning-signs": {
+     "rows": 18,
+     "outside_window": 16,
+     "mean_tokens_after": 4570.9
+    },
+    "BL-card-content": {
+     "rows": 10,
+     "outside_window": 10,
+     "mean_tokens_after": 6219.7
+    },
+    "BL-SA": {
+     "rows": 10,
+     "outside_window": 10,
+     "mean_tokens_after": 6067.7
+    },
+    "BL-tone": {
+     "rows": 10,
+     "outside_window": 10,
+     "mean_tokens_after": 5331.7
+    },
+    "SH-card-content": {
+     "rows": 10,
+     "outside_window": 10,
+     "mean_tokens_after": 5744.8
+    },
+    "SH-SA": {
+     "rows": 10,
+     "outside_window": 10,
+     "mean_tokens_after": 5496.8
+    },
+    "SH-ask": {
+     "rows": 10,
+     "outside_window": 10,
+     "mean_tokens_after": 4800.8
+    },
+    "BZ-card-required": {
+     "rows": 12,
+     "outside_window": 12,
+     "mean_tokens_after": 5841.4
+    },
+    "BZ-SA": {
+     "rows": 12,
+     "outside_window": 12,
+     "mean_tokens_after": 5629.4
+    },
+    "BZ-fraud": {
+     "rows": 12,
+     "outside_window": 12,
+     "mean_tokens_after": 5103.4
+    },
+    "BZ-ask-only-if-needed": {
+     "rows": 12,
+     "outside_window": 12,
+     "mean_tokens_after": 4938.4
+    }
+   },
+   "P2_hint": {
+    "rows": 14,
+    "outside_window": 0,
+    "mean_tokens_after": 142.1
+   }
+  }
+ },
+ "examples_policy_farthest": [
+  {
+   "i": 750,
+   "scenario_id": "V183B",
+   "env": "bills",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "prompt_tokens": 7435,
+   "tokens_after_policy_start": 6880,
+   "tokens_after_policy_end": 5424,
+   "after:BL-card-content": 6345,
+   "after:BL-SA": 6193,
+   "after:BL-tone": 5457,
+   "after:P2-hint": 208
+  },
+  {
+   "i": 670,
+   "scenario_id": "V182A",
+   "env": "bills",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "prompt_tokens": 7406,
+   "tokens_after_policy_start": 6851,
+   "tokens_after_policy_end": 5395,
+   "after:BL-card-content": 6316,
+   "after:BL-SA": 6164,
+   "after:BL-tone": 5428
+  },
+  {
+   "i": 782,
+   "scenario_id": "V183A",
+   "env": "bills",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "prompt_tokens": 7402,
+   "tokens_after_policy_start": 6847,
+   "tokens_after_policy_end": 5391,
+   "after:BL-card-content": 6312,
+   "after:BL-SA": 6160,
+   "after:BL-tone": 5424
+  }
+ ],
+ "caveat": "section token counts are regression estimates (see fit.residual_tokens); global layers (1 in 4) still attend to the whole prompt"
+}

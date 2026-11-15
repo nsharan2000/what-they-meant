@@ -1,0 +1,107 @@
+{
+ "pair_level_cells": 249,
+ "cells_with_both_twins": 247,
+ "cells_missing_a_twin": [
+  "V031|L0r|['B']",
+  "V072|L1|['B']"
+ ],
+ "cells_both_same_prompt_setting": 134,
+ "mean_abs_token_diff_twins": 27.77,
+ "mean_abs_token_diff_twins_same_ps": 13.71,
+ "cells_both_twins_sampled": 13,
+ "cells_both_twins_sampled_same_step": 0,
+ "same_ps_cells_identical_prompts": 0,
+ "median_diff_chars_total": 116.0,
+ "where_counts": {
+  "tool_result": 71,
+  "user_request+tool_result": 23,
+  "user_request+assistant_prefix+tool_result": 17,
+  "user_request": 11,
+  "assistant_prefix+tool_result": 4,
+  "system+tool_result": 4,
+  "system+user_request+tool_result": 3,
+  "tool_result+tool_result": 1
+ },
+ "system_differs_share": 0.0522,
+ "first_diff_tokens_from_end_est_quantiles": {
+  "0.1": 26.1,
+  "0.5": 73.6,
+  "0.9": 176.4,
+  "1.0": 4535.9
+ },
+ "share_first_diff_beyond_4096_tokens_from_end": 0.0224,
+ "smallest_diffs": [
+  {
+   "pair_id": "S03",
+   "level": "L1",
+   "ps": "P0",
+   "where": "user_request",
+   "diff_chars_total": 1
+  },
+  {
+   "pair_id": "S02",
+   "level": "L2",
+   "ps": "P0",
+   "where": "user_request",
+   "diff_chars_total": 2
+  },
+  {
+   "pair_id": "S02",
+   "level": "L0r",
+   "ps": "P0",
+   "where": "user_request",
+   "diff_chars_total": 2
+  }
+ ],
+ "pairs_with_both_twins_sampled_any_level": 29,
+ "pair_corr_pask_A_vs_B": 0.093,
+ "pair_corr_perm_p_two_sided": 0.6313,
+ "pairs_A_minus_B_pask_mean": 0.2421,
+ "pairs_A_pask_le_B_pask": 8,
+ "pair_examples_A_le_B": [
+  {
+   "pair": "S22",
+   "pask_A": 0.375,
+   "pask_B": 0.5
+  },
+  {
+   "pair": "S26",
+   "pask_A": 0.125,
+   "pask_B": 0.125
+  },
+  {
+   "pair": "V061",
+   "pask_A": 0.875,
+   "pask_B": 1.0
+  },
+  {
+   "pair": "V093",
+   "pask_A": 0.25,
+   "pask_B": 0.25
+  },
+  {
+   "pair": "V254",
+   "pask_A": 0.25,
+   "pask_B": 1.0
+  },
+  {
+   "pair": "V541",
+   "pask_A": 0.125,
+   "pask_B": 0.25
+  },
+  {
+   "pair": "V551",
+   "pask_A": 0.625,
+   "pask_B": 0.625
+  },
+  {
+   "pair": "V581",
+   "pask_A": 0.75,
+   "pask_B": 0.875
+  }
+ ],
+ "B_prompts_with_any_informed_term_present": "34/62",
+ "B_ask_informed_on_prompts_with_terms_present": 56,
+ "B_ask_informed_on_prompts_without_terms": 28,
+ "pairs_informed_any_identical_A_B": "60/76"
+}

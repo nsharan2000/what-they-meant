@@ -1,0 +1,2123 @@
+{
+ "member_id": "victor_hale",
+ "profile": {
+  "name": "Victor Hale",
+  "age": 37,
+  "city": "Watertown, CT",
+  "country": "United States",
+  "occupation": "Operations manager",
+  "summary": "Kestrel member since 2021-09 · identity verified · home currency USD · connected: Kestrel crypto wallet, PayPal, Webster Bank Checking ••2546",
+  "email": "victor.hale@mail.com",
+  "phone": "555-0193",
+  "member_since": "2021-09-14",
+  "home_currency": "USD",
+  "timezone": "America/New_York",
+  "language": "en-US",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Victor Hale blends a methodical operational mind with a solitary, nature‑driven lifestyle, steering workshops with precision, budgeting like a spreadsheet, and occasionally forgetting to floss while obsessively polishing the grain of a hand‑made chair.",
+   "professional_persona": "Victor Hale, an operations manager with a talent for process optimization and a methodical mindset, deploys SAP Business One and Microsoft Dynamics to cut waste while mentoring small cross‑functional teams toward lean, sustainable practices.",
+   "cultural_background": "Victor grew up in Watertown, a modest New England town in Litchfield County, where community values emphasize self‑reliance, modesty, and practical problem‑solving. His family background reflects typical White, middle‑class roots of the region—often attending local church services and participating in town events such as the seasonal fair and volunteer fire department activities. The area's historical emphasis on hard work and understated ambition has shaped Victor's reserved demeanor, his appreciation for tradition, and his pragmatic approach to both personal and professional life.",
+   "sex": "Male",
+   "marital_status": "never_married",
+   "education_level": "high_school",
+   "occupation": "general_or_operations_manager"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "73639fd7665c46a9968f0cd6b7c8b945",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "USA",
+    "age": 37,
+    "sex": "Male",
+    "seed": 1
+   },
+   "source_age": 37,
+   "source_location": "Watertown, CT",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Danny Foster",
+    "Danny"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "Kestrel crypto wallet · PYUSD",
+   "currency": "PYUSD",
+   "balance": 1200.0
+  },
+  {
+   "name": "PayPal balance",
+   "currency": "USD",
+   "balance": 86.4
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Ray Delgado",
+   "email": "ray.delgado@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "friend · hiking",
+   "last_paid": "2026-10-05"
+  },
+  {
+   "name": "Erin Hale",
+   "email": "erin.hale@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "relationship": "sister",
+   "last_paid": "2026-09-20"
+  },
+  {
+   "name": "Matt Kowalski",
+   "email": "m.kowalski@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "coworker",
+   "last_paid": "2026-02-27"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-CRYPTO",
+   "type": "crypto_wallet",
+   "name": "Kestrel crypto wallet (Ethereum)",
+   "status": "active",
+   "since": "2025-11-30"
+  },
+  {
+   "id": "LA-PAYPAL",
+   "type": "payment_app",
+   "name": "PayPal",
+   "login": "victor.hale@mail.com",
+   "status": "connected",
+   "since": "2021-09-14"
+  },
+  {
+   "id": "LA-2546",
+   "type": "bank_account",
+   "name": "Webster Bank Checking",
+   "last4": "2546",
+   "status": "active",
+   "since": "2021-09-16"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "YouTube Premium",
+   "amount": 13.99,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "PayPal balance",
+   "next_charge": "2026-12-07",
+   "status": "active"
+  },
+  {
+   "name": "Recurring PYUSD buy (SA-9015)",
+   "amount": 150.0,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "Webster ••2546",
+   "next_charge": "2026-12-01",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SA-9015 · Recurring buy · $150 of PYUSD on the 1st of each month from Webster Bank Checking ••2546. Runs automatically.",
+  "SA-9016 · Billing agreement · YouTube Premium may charge the PayPal balance each month."
+ ],
+ "notes": [
+  "Saved wallet: 'my hardware wallet' 0x9f3c...b7e2.",
+  "Moves PYUSD to cold storage every few months."
+ ],
+ "transactions": [
+  {
+   "id": "KXEU198VTH",
+   "date": "2026-11-07",
+   "time": "09:40",
+   "counterparty": "YouTube Premium",
+   "amount": 13.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Individual"
+  },
+  {
+   "id": "KX81QET2U2",
+   "date": "2026-11-01",
+   "time": "06:00",
+   "counterparty": "Recurring buy (Webster ••2546)",
+   "amount": 150.0,
+   "currency": "PYUSD",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-9015 · $150.00 → 150.00 PYUSD"
+  },
+  {
+   "id": "KXWL7RFZ5Y",
+   "date": "2026-10-09",
+   "time": "21:53",
+   "counterparty": "Webster Bank Checking ••2546",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KXKEJMCEU6",
+   "date": "2026-10-07",
+   "time": "17:09",
+   "counterparty": "YouTube Premium",
+   "amount": 13.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Individual"
+  },
+  {
+   "id": "KX6LQ49W5L",
+   "date": "2026-10-05",
+   "time": "17:33",
+   "counterparty": "Ray Delgado",
+   "handle": "ray.delgado@mail.com",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "beer run"
+  },
+  {
+   "id": "KXHJ56783M",
+   "date": "2026-10-01",
+   "time": "22:19",
+   "counterparty": "Home Depot",
+   "amount": 92.25,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX2N2TWPKD",
+   "date": "2026-10-01",
+   "time": "06:00",
+   "counterparty": "Recurring buy (Webster ••2546)",
+   "amount": 150.0,
+   "currency": "PYUSD",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-9015 · $150.00 → 150.00 PYUSD"
+  },
+  {
+   "id": "KXQVYQWVWY",
+   "date": "2026-09-20",
+   "time": "09:37",
+   "counterparty": "Erin Hale",
+   "handle": "erin.hale@mail.com",
+   "amount": 75.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Mom's gift share"
+  },
+  {
+   "id": "KX520A289D",
+   "date": "2026-09-14",
+   "time": "10:31",
+   "counterparty": "my hardware wallet",
+   "handle": "0x9f3c...b7e2",
+   "amount": 500.0,
+   "currency": "PYUSD",
+   "direction": "out",
+   "type": "Crypto · Send",
+   "memo": "to saved address",
+   "network": "Ethereum",
+   "to_address": "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2",
+   "network_fee": "1.21 USD"
+  },
+  {
+   "id": "KXPD2YZ13H",
+   "date": "2026-09-07",
+   "time": "12:04",
+   "counterparty": "Erin Hale",
+   "handle": "erin.hale@mail.com",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "birthday"
+  },
+  {
+   "id": "KXK97A3U5D",
+   "date": "2026-09-07",
+   "time": "07:11",
+   "counterparty": "YouTube Premium",
+   "amount": 13.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Individual"
+  },
+  {
+   "id": "KXH1N0XMQ1",
+   "date": "2026-09-01",
+   "time": "06:00",
+   "counterparty": "Recurring buy (Webster ••2546)",
+   "amount": 150.0,
+   "currency": "PYUSD",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-9015 · $150.00 → 150.00 PYUSD"
+  },
+  {
+   "id": "KXNXDV8LX2",
+   "date": "2026-08-31",
+   "time": "13:56",
+   "counterparty": "Bass Pro Shops",
+   "amount": 111.16,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX0ACGW4SA",
+   "date": "2026-08-30",
+   "time": "12:03",
+   "counterparty": "REI",
+   "amount": 164.96,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXXV0CF29Q",
+   "date": "2026-08-14",
+   "time": "22:59",
+   "counterparty": "Steam",
+   "amount": 37.35,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXYRQWBGUJ",
+   "date": "2026-08-12",
+   "time": "16:18",
+   "counterparty": "Ray Delgado",
+   "handle": "ray.delgado@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "beer run"
+  },
+  {
+   "id": "KXVV6XZJ36",
+   "date": "2026-08-07",
+   "time": "21:02",
+   "counterparty": "YouTube Premium",
+   "amount": 13.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Individual"
+  },
+  {
+   "id": "KX30MVJWQC",
+   "date": "2026-08-01",
+   "time": "06:00",
+   "counterparty": "Recurring buy (Webster ••2546)",
+   "amount": 150.0,
+   "currency": "PYUSD",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-9015 · $150.00 → 150.00 PYUSD"
+  },
+  {
+   "id": "KX3WBP5ZVT",
+   "date": "2026-07-26",
+   "time": "14:06",
+   "counterparty": "Steam",
+   "amount": 37.14,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXK5QQMB7Q",
+   "date": "2026-07-07",
+   "time": "08:29",
+   "counterparty": "YouTube Premium",
+   "amount": 13.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Individual"
+  },
+  {
+   "id": "KXQNYL5058",
+   "date": "2026-07-01",
+   "time": "06:00",
+   "counterparty": "Recurring buy (Webster ••2546)",
+   "amount": 150.0,
+   "currency": "PYUSD",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-9015 · $150.00 → 150.00 PYUSD"
+  },
+  {
+   "id": "KX6V9XD0DU",
+   "date": "2026-06-25",
+   "time": "13:34",
+   "counterparty": "Webster Bank Checking ••2546",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KXWVTPTRBX",
+   "date": "2026-06-17",
+   "time": "11:58",
+   "counterparty": "Steam",
+   "amount": 22.57,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXNXN5J34Q",
+   "date": "2026-06-12",
+   "time": "15:45",
+   "counterparty": "Home Depot",
+   "amount": 109.62,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXZCJF2VXL",
+   "date": "2026-06-08",
+   "time": "17:30",
+   "counterparty": "my hardware wallet",
+   "handle": "0x9f3c...b7e2",
+   "amount": 450.0,
+   "currency": "PYUSD",
+   "direction": "out",
+   "type": "Crypto · Send",
+   "memo": "to saved address",
+   "network": "Ethereum",
+   "to_address": "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+  },
+  {
+   "id": "KX9AESL8Y7",
+   "date": "2026-06-07",
+   "time": "17:46",
+   "counterparty": "YouTube Premium",
+   "amount": 13.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Individual"
+  },
+  {
+   "id": "KXJSJLVJ5C",
+   "date": "2026-06-01",
+   "time": "07:50",
+   "counterparty": "REI",
+   "amount": 213.71,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX2WS62XDP",
+   "date": "2026-06-01",
+   "time": "06:00",
+   "counterparty": "Recurring buy (Webster ••2546)",
+   "amount": 150.0,
+   "currency": "PYUSD",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-9015 · $150.00 → 150.00 PYUSD"
+  },
+  {
+   "id": "KXNWWK7Y6K",
+   "date": "2026-05-21",
+   "time": "09:51",
+   "counterparty": "REI",
+   "amount": 136.53,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXSHAHMS7A",
+   "date": "2026-05-12",
+   "time": "14:55",
+   "counterparty": "Ray Delgado",
+   "handle": "ray.delgado@mail.com",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "hiking gas"
+  },
+  {
+   "id": "KX2JWJXCPJ",
+   "date": "2026-05-07",
+   "time": "12:08",
+   "counterparty": "YouTube Premium",
+   "amount": 13.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Individual"
+  },
+  {
+   "id": "KXLCB7CXRC",
+   "date": "2026-05-01",
+   "time": "06:00",
+   "counterparty": "Recurring buy (Webster ••2546)",
+   "amount": 150.0,
+   "currency": "PYUSD",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-9015 · $150.00 → 150.00 PYUSD"
+  },
+  {
+   "id": "KXNZLNQWCJ",
+   "date": "2026-04-28",
+   "time": "14:33",
+   "counterparty": "Ray Delgado",
+   "handle": "ray.delgado@mail.com",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "hiking gas"
+  },
+  {
+   "id": "KXXW1JKHDR",
+   "date": "2026-04-28",
+   "time": "08:53",
+   "counterparty": "Bass Pro Shops",
+   "amount": 75.18,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX9H1YT1NB",
+   "date": "2026-04-07",
+   "time": "15:59",
+   "counterparty": "YouTube Premium",
+   "amount": 13.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Individual"
+  },
+  {
+   "id": "KXYM1K291J",
+   "date": "2026-04-01",
+   "time": "06:00",
+   "counterparty": "Recurring buy (Webster ••2546)",
+   "amount": 150.0,
+   "currency": "PYUSD",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-9015 · $150.00 → 150.00 PYUSD"
+  },
+  {
+   "id": "KXSSRVQDTA",
+   "date": "2026-03-07",
+   "time": "12:39",
+   "counterparty": "YouTube Premium",
+   "amount": 13.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Individual"
+  },
+  {
+   "id": "KXBZ08BUBM",
+   "date": "2026-03-03",
+   "time": "18:21",
+   "counterparty": "my hardware wallet",
+   "handle": "0x9f3c...b7e2",
+   "amount": 400.0,
+   "currency": "PYUSD",
+   "direction": "out",
+   "type": "Crypto · Send",
+   "memo": "to saved address",
+   "network": "Ethereum",
+   "to_address": "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+  },
+  {
+   "id": "KX1NG44ZGA",
+   "date": "2026-03-01",
+   "time": "06:00",
+   "counterparty": "Recurring buy (Webster ••2546)",
+   "amount": 150.0,
+   "currency": "PYUSD",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-9015 · $150.00 → 150.00 PYUSD"
+  },
+  {
+   "id": "KXYZVS1E4S",
+   "date": "2026-02-27",
+   "time": "17:39",
+   "counterparty": "Matt Kowalski",
+   "handle": "m.kowalski@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "lunch"
+  },
+  {
+   "id": "KXZ097NYRP",
+   "date": "2026-02-14",
+   "time": "19:59",
+   "counterparty": "Steam",
+   "amount": 56.97,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXRHD8GC6S",
+   "date": "2026-02-12",
+   "time": "11:54",
+   "counterparty": "Webster Bank Checking ••2546",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KXDDSQ6L5K",
+   "date": "2026-02-07",
+   "time": "13:29",
+   "counterparty": "YouTube Premium",
+   "amount": 13.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Individual"
+  },
+  {
+   "id": "KXDDHULYW2",
+   "date": "2026-02-02",
+   "time": "17:49",
+   "counterparty": "Ray Delgado",
+   "handle": "ray.delgado@mail.com",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "hiking gas"
+  },
+  {
+   "id": "KXB028VXAU",
+   "date": "2026-02-01",
+   "time": "06:00",
+   "counterparty": "Recurring buy (Webster ••2546)",
+   "amount": 150.0,
+   "currency": "PYUSD",
+   "direction": "in",
+   "type": "Crypto · Recurring buy",
+   "memo": "SA-9015 · $150.00 → 150.00 PYUSD"
+  },
+  {
+   "id": "KX37K722QJ",
+   "date": "2026-01-29",
+   "time": "10:39",
+   "counterparty": "Home Depot",
+   "amount": 106.71,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXW15PQS1Q",
+   "date": "2026-01-20",
+   "time": "19:36",
+   "counterparty": "Bass Pro Shops",
+   "amount": 94.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXL36WB018",
+   "date": "2026-01-07",
+   "time": "07:22",
+   "counterparty": "YouTube Premium",
+   "amount": 13.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Individual"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-31",
+   "time": "12:00",
+   "type": "product",
+   "text": "New: split any activity item with up to 12 people."
+  },
+  {
+   "date": "2026-10-26",
+   "time": "10:14",
+   "type": "security",
+   "text": "New sign-in on iPhone 15 Pro near Watertown, CT. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "saved_addresses": [
+  {
+   "label": "my hardware wallet",
+   "address": "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2",
+   "short": "0x9f3c...b7e2",
+   "network": "Ethereum",
+   "accepts": "ETH and ERC-20 tokens (including PYUSD)",
+   "added": "2025-11-30",
+   "last_used": "2026-09-14"
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BKEC1TAUS3",
+   "date": "2026-11-12",
+   "account": "Webster Visa Debit ••2546",
+   "description": "CUMBERLAND FARMS #4712",
+   "amount": 55.3,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK5U20QLRA",
+   "date": "2026-11-09",
+   "account": "Webster Bank Checking ••2546",
+   "description": "FRONTIER COMMUNICATIONS",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKUVRKLNWZ",
+   "date": "2026-11-06",
+   "account": "Webster Visa Debit ••2546",
+   "description": "STOP & SHOP 0634 WATERTOWN",
+   "amount": 120.72,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKTXJL8CVC",
+   "date": "2026-11-03",
+   "account": "Webster Visa Debit ••2546",
+   "description": "LITCHFIELD COUNTY FARM STAND",
+   "amount": 16.87,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKVP5WFSE2",
+   "date": "2026-11-02",
+   "account": "Webster Bank Checking ••2546",
+   "description": "LITCHFIELD HOME LOANS PMT",
+   "amount": 1488.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKK8YHRTZE",
+   "date": "2026-11-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "KESTREL CRYPTO BUY PYUSD",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BK0P922708",
+   "date": "2026-10-30",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2654.87,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKDAWEYM12",
+   "date": "2026-10-27",
+   "account": "Webster Visa Debit ••2546",
+   "description": "LITCHFIELD COUNTY FARM STAND",
+   "amount": 13.06,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK376DPVAT",
+   "date": "2026-10-25",
+   "account": "Webster Visa Debit ••2546",
+   "description": "STOP & SHOP 0634 WATERTOWN",
+   "amount": 42.96,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKENL3BD3E",
+   "date": "2026-10-22",
+   "account": "Webster Bank Checking ••2546",
+   "description": "VERIZON WIRELESS",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKC9K2BAUG",
+   "date": "2026-10-20",
+   "account": "Webster Bank Checking ••2546",
+   "description": "AQUARION WATER CO",
+   "amount": 68.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK74HQR4D4",
+   "date": "2026-10-16",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2643.95,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK0AR4P4ZM",
+   "date": "2026-10-14",
+   "account": "Webster Bank Checking ••2546",
+   "description": "EVERSOURCE CT ELEC",
+   "amount": 153.21,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKYGHYAZ84",
+   "date": "2026-10-12",
+   "account": "Webster Visa Debit ••2546",
+   "description": "BIG Y #84 THOMASTON",
+   "amount": 37.33,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKG0DH6EMH",
+   "date": "2026-10-09",
+   "account": "Webster Bank Checking ••2546",
+   "description": "FRONTIER COMMUNICATIONS",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK6WK43NDV",
+   "date": "2026-10-09",
+   "account": "Webster Bank Checking ••2546",
+   "description": "PAYPAL INST XFER",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK15LU319K",
+   "date": "2026-10-09",
+   "account": "Webster Visa Debit ••2546",
+   "description": "STOP & SHOP 0634 WATERTOWN",
+   "amount": 36.87,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKY8HD0B05",
+   "date": "2026-10-02",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2690.31,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKGE0ZZH1Y",
+   "date": "2026-10-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "LITCHFIELD HOME LOANS PMT",
+   "amount": 1488.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BK5KZHC49L",
+   "date": "2026-10-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "KESTREL CRYPTO BUY PYUSD",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKNNSU7H8H",
+   "date": "2026-09-28",
+   "account": "Webster Visa Debit ••2546",
+   "description": "STOP & SHOP 0634 WATERTOWN",
+   "amount": 71.08,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKPS28LUQJ",
+   "date": "2026-09-22",
+   "account": "Webster Bank Checking ••2546",
+   "description": "VERIZON WIRELESS",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKDPT2FUTU",
+   "date": "2026-09-20",
+   "account": "Webster Bank Checking ••2546",
+   "description": "AQUARION WATER CO",
+   "amount": 72.73,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKTV02AJ30",
+   "date": "2026-09-18",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2701.98,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQA0S0DP7",
+   "date": "2026-09-14",
+   "account": "Webster Visa Debit ••2546",
+   "description": "CUMBERLAND FARMS #4712",
+   "amount": 32.46,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK9TNZEGEV",
+   "date": "2026-09-14",
+   "account": "Webster Bank Checking ••2546",
+   "description": "EVERSOURCE CT ELEC",
+   "amount": 119.65,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKBFSKXWMM",
+   "date": "2026-09-09",
+   "account": "Webster Bank Checking ••2546",
+   "description": "FRONTIER COMMUNICATIONS",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKNMM12E0N",
+   "date": "2026-09-04",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2694.17,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKCCDC4G3Y",
+   "date": "2026-09-03",
+   "account": "Webster Visa Debit ••2546",
+   "description": "MOBIL WATERTOWN",
+   "amount": 30.47,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK8CFDR93D",
+   "date": "2026-09-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "KESTREL CRYPTO BUY PYUSD",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BK4LJ4SH1K",
+   "date": "2026-09-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "LITCHFIELD HOME LOANS PMT",
+   "amount": 1488.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKAN0VNB79",
+   "date": "2026-08-28",
+   "account": "Webster Visa Debit ••2546",
+   "description": "STOP & SHOP 0634 WATERTOWN",
+   "amount": 53.28,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJ5FMD310",
+   "date": "2026-08-22",
+   "account": "Webster Bank Checking ••2546",
+   "description": "VERIZON WIRELESS",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKTEXT3LK5",
+   "date": "2026-08-21",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2649.42,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKBUA7HE9P",
+   "date": "2026-08-20",
+   "account": "Webster Bank Checking ••2546",
+   "description": "AQUARION WATER CO",
+   "amount": 54.49,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKXUYRCHN0",
+   "date": "2026-08-14",
+   "account": "Webster Bank Checking ••2546",
+   "description": "EVERSOURCE CT ELEC",
+   "amount": 231.35,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKWTFBEHZE",
+   "date": "2026-08-09",
+   "account": "Webster Bank Checking ••2546",
+   "description": "FRONTIER COMMUNICATIONS",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKFXRUJLVP",
+   "date": "2026-08-07",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2674.68,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKPM9K5TYJ",
+   "date": "2026-08-05",
+   "account": "Webster Visa Debit ••2546",
+   "description": "BIG Y #84 THOMASTON",
+   "amount": 61.13,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKAW1NGYTX",
+   "date": "2026-08-03",
+   "account": "Webster Bank Checking ••2546",
+   "description": "LITCHFIELD HOME LOANS PMT",
+   "amount": 1488.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKREDVHDPP",
+   "date": "2026-08-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "KESTREL CRYPTO BUY PYUSD",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKGEDXE0ZA",
+   "date": "2026-08-01",
+   "account": "Webster Visa Debit ••2546",
+   "description": "HOME DEPOT #6211 TORRINGTON",
+   "amount": 136.52,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Home"
+  },
+  {
+   "id": "BKCDQVZ383",
+   "date": "2026-07-31",
+   "account": "Webster Visa Debit ••2546",
+   "description": "LITCHFIELD COUNTY FARM STAND",
+   "amount": 20.02,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKDP1ULHBP",
+   "date": "2026-07-29",
+   "account": "Webster Visa Debit ••2546",
+   "description": "STOP & SHOP 0634 WATERTOWN",
+   "amount": 91.42,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK00KQMZJF",
+   "date": "2026-07-26",
+   "account": "Webster Visa Debit ••2546",
+   "description": "LITCHFIELD COUNTY FARM STAND",
+   "amount": 23.47,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK2GNEPYC9",
+   "date": "2026-07-24",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2650.83,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKB75G1BYH",
+   "date": "2026-07-22",
+   "account": "Webster Bank Checking ••2546",
+   "description": "VERIZON WIRELESS",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK1PVS3RCX",
+   "date": "2026-07-20",
+   "account": "Webster Bank Checking ••2546",
+   "description": "AQUARION WATER CO",
+   "amount": 48.97,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKQERSYY9C",
+   "date": "2026-07-14",
+   "account": "Webster Bank Checking ••2546",
+   "description": "EVERSOURCE CT ELEC",
+   "amount": 120.96,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKFS3J7ZCJ",
+   "date": "2026-07-10",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2663.98,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKZM2EAP4N",
+   "date": "2026-07-09",
+   "account": "Webster Bank Checking ••2546",
+   "description": "FRONTIER COMMUNICATIONS",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKRG2JJYBZ",
+   "date": "2026-07-05",
+   "account": "Webster Visa Debit ••2546",
+   "description": "BIG Y #84 THOMASTON",
+   "amount": 34.81,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKTH56PC3S",
+   "date": "2026-07-03",
+   "account": "Webster Visa Debit ••2546",
+   "description": "HOME DEPOT #6211 TORRINGTON",
+   "amount": 135.53,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Home"
+  },
+  {
+   "id": "BKHFTY4D2U",
+   "date": "2026-07-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "KESTREL CRYPTO BUY PYUSD",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BK4WREGKDE",
+   "date": "2026-07-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "LITCHFIELD HOME LOANS PMT",
+   "amount": 1488.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKB3C15KG1",
+   "date": "2026-06-26",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2656.09,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKW8A34F9W",
+   "date": "2026-06-25",
+   "account": "Webster Bank Checking ••2546",
+   "description": "PAYPAL INST XFER",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKPCN8MVFS",
+   "date": "2026-06-22",
+   "account": "Webster Bank Checking ••2546",
+   "description": "VERIZON WIRELESS",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKFMRMH1T6",
+   "date": "2026-06-21",
+   "account": "Webster Visa Debit ••2546",
+   "description": "DUNKIN #348901 WATERTOWN",
+   "amount": 9.58,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK8SN0MSJB",
+   "date": "2026-06-21",
+   "account": "Webster Visa Debit ••2546",
+   "description": "BIG Y #84 THOMASTON",
+   "amount": 43.41,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKSU3YBLWF",
+   "date": "2026-06-20",
+   "account": "Webster Bank Checking ••2546",
+   "description": "AQUARION WATER CO",
+   "amount": 77.38,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKQENCLYV5",
+   "date": "2026-06-17",
+   "account": "Webster Visa Debit ••2546",
+   "description": "LITCHFIELD COUNTY FARM STAND",
+   "amount": 21.36,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK8254U55U",
+   "date": "2026-06-14",
+   "account": "Webster Bank Checking ••2546",
+   "description": "EVERSOURCE CT ELEC",
+   "amount": 130.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKXF1KZ01E",
+   "date": "2026-06-12",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2649.39,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKUSFMPYG2",
+   "date": "2026-06-11",
+   "account": "Webster Visa Debit ••2546",
+   "description": "BIG Y #84 THOMASTON",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKNGY3FSKN",
+   "date": "2026-06-09",
+   "account": "Webster Visa Debit ••2546",
+   "description": "MOBIL WATERTOWN",
+   "amount": 50.96,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK5HJPBX1K",
+   "date": "2026-06-09",
+   "account": "Webster Bank Checking ••2546",
+   "description": "FRONTIER COMMUNICATIONS",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKVSN9MLDB",
+   "date": "2026-06-06",
+   "account": "Webster Visa Debit ••2546",
+   "description": "MOBIL WATERTOWN",
+   "amount": 36.17,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKXA9VL2GR",
+   "date": "2026-06-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "KESTREL CRYPTO BUY PYUSD",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKGX2HM9B4",
+   "date": "2026-06-01",
+   "account": "Webster Visa Debit ••2546",
+   "description": "LITCHFIELD COUNTY FARM STAND",
+   "amount": 13.66,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK2MCZHWZK",
+   "date": "2026-06-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "LITCHFIELD HOME LOANS PMT",
+   "amount": 1488.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKJG7DLA4K",
+   "date": "2026-05-31",
+   "account": "Webster Visa Debit ••2546",
+   "description": "LITCHFIELD COUNTY FARM STAND",
+   "amount": 14.94,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKTMVC76M4",
+   "date": "2026-05-29",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2683.58,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKS7GV4ST0",
+   "date": "2026-05-26",
+   "account": "Webster Visa Debit ••2546",
+   "description": "STOP & SHOP 0634 WATERTOWN",
+   "amount": 32.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJS4RWPH9",
+   "date": "2026-05-26",
+   "account": "Webster Visa Debit ••2546",
+   "description": "DUNKIN #348901 WATERTOWN",
+   "amount": 3.68,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKMKPN1052",
+   "date": "2026-05-22",
+   "account": "Webster Bank Checking ••2546",
+   "description": "VERIZON WIRELESS",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK90112EKL",
+   "date": "2026-05-22",
+   "account": "Webster Visa Debit ••2546",
+   "description": "CUMBERLAND FARMS #4712",
+   "amount": 39.96,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKS7P6G24A",
+   "date": "2026-05-20",
+   "account": "Webster Bank Checking ••2546",
+   "description": "AQUARION WATER CO",
+   "amount": 50.91,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK6M22VRPR",
+   "date": "2026-05-15",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2668.58,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKEVLTNF7T",
+   "date": "2026-05-14",
+   "account": "Webster Bank Checking ••2546",
+   "description": "EVERSOURCE CT ELEC",
+   "amount": 158.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKLA9N6VHV",
+   "date": "2026-05-09",
+   "account": "Webster Bank Checking ••2546",
+   "description": "FRONTIER COMMUNICATIONS",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKHP6LQ0XN",
+   "date": "2026-05-09",
+   "account": "Webster Visa Debit ••2546",
+   "description": "CUMBERLAND FARMS #4712",
+   "amount": 42.7,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKUN3CT0BM",
+   "date": "2026-05-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "LITCHFIELD HOME LOANS PMT",
+   "amount": 1488.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKFR1RD0M1",
+   "date": "2026-05-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2679.92,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK4SATQX6V",
+   "date": "2026-05-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "KESTREL CRYPTO BUY PYUSD",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKXDG8EKA0",
+   "date": "2026-04-29",
+   "account": "Webster Visa Debit ••2546",
+   "description": "LITCHFIELD COUNTY FARM STAND",
+   "amount": 18.33,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKQZFBWSXG",
+   "date": "2026-04-28",
+   "account": "Webster Visa Debit ••2546",
+   "description": "LITCHFIELD COUNTY FARM STAND",
+   "amount": 15.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJTGHWB02",
+   "date": "2026-04-24",
+   "account": "Webster Visa Debit ••2546",
+   "description": "BIG Y #84 THOMASTON",
+   "amount": 57.53,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK8S2QU8DL",
+   "date": "2026-04-22",
+   "account": "Webster Bank Checking ••2546",
+   "description": "VERIZON WIRELESS",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKRPFVBNHS",
+   "date": "2026-04-20",
+   "account": "Webster Bank Checking ••2546",
+   "description": "AQUARION WATER CO",
+   "amount": 72.25,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK1VF426F4",
+   "date": "2026-04-19",
+   "account": "Webster Visa Debit ••2546",
+   "description": "LITCHFIELD COUNTY FARM STAND",
+   "amount": 22.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKTJX8NNH7",
+   "date": "2026-04-17",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2698.03,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKUDZVJFVJ",
+   "date": "2026-04-14",
+   "account": "Webster Bank Checking ••2546",
+   "description": "EVERSOURCE CT ELEC",
+   "amount": 148.47,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK2R8CK809",
+   "date": "2026-04-10",
+   "account": "Webster Visa Debit ••2546",
+   "description": "HOME DEPOT #6211 TORRINGTON",
+   "amount": 52.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Home"
+  },
+  {
+   "id": "BKZQQKBAH5",
+   "date": "2026-04-09",
+   "account": "Webster Bank Checking ••2546",
+   "description": "FRONTIER COMMUNICATIONS",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKH9PL82B3",
+   "date": "2026-04-06",
+   "account": "Webster Visa Debit ••2546",
+   "description": "BIG Y #84 THOMASTON",
+   "amount": 52.61,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK14A3MW72",
+   "date": "2026-04-04",
+   "account": "Webster Visa Debit ••2546",
+   "description": "LITCHFIELD COUNTY FARM STAND",
+   "amount": 12.83,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKRRMTPJXF",
+   "date": "2026-04-03",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2651.76,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK12B03LUE",
+   "date": "2026-04-03",
+   "account": "Webster Visa Debit ••2546",
+   "description": "HOME DEPOT #6211 TORRINGTON",
+   "amount": 124.82,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Home"
+  },
+  {
+   "id": "BKZVRWRYTD",
+   "date": "2026-04-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "KESTREL CRYPTO BUY PYUSD",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKZR08FZJ0",
+   "date": "2026-04-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "LITCHFIELD HOME LOANS PMT",
+   "amount": 1488.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BK0SDJ5AHM",
+   "date": "2026-03-29",
+   "account": "Webster Visa Debit ••2546",
+   "description": "MOBIL WATERTOWN",
+   "amount": 48.85,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK7P99J4V6",
+   "date": "2026-03-24",
+   "account": "Webster Visa Debit ••2546",
+   "description": "HOME DEPOT #6211 TORRINGTON",
+   "amount": 109.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Home"
+  },
+  {
+   "id": "BKB0PRMSQN",
+   "date": "2026-03-22",
+   "account": "Webster Bank Checking ••2546",
+   "description": "VERIZON WIRELESS",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKL6USAR5M",
+   "date": "2026-03-20",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2678.06,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK3LU1D8PB",
+   "date": "2026-03-20",
+   "account": "Webster Bank Checking ••2546",
+   "description": "AQUARION WATER CO",
+   "amount": 58.82,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKPLFEEV4C",
+   "date": "2026-03-19",
+   "account": "Webster Visa Debit ••2546",
+   "description": "STOP & SHOP 0634 WATERTOWN",
+   "amount": 121.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK1RX615YK",
+   "date": "2026-03-14",
+   "account": "Webster Bank Checking ••2546",
+   "description": "EVERSOURCE CT ELEC",
+   "amount": 131.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK7WV72CZX",
+   "date": "2026-03-12",
+   "account": "Webster Visa Debit ••2546",
+   "description": "MOBIL WATERTOWN",
+   "amount": 51.46,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK3EWTLSUJ",
+   "date": "2026-03-09",
+   "account": "Webster Bank Checking ••2546",
+   "description": "FRONTIER COMMUNICATIONS",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKVK9LBJ04",
+   "date": "2026-03-06",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2692.82,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK129VYTE9",
+   "date": "2026-03-06",
+   "account": "Webster Visa Debit ••2546",
+   "description": "BIG Y #84 THOMASTON",
+   "amount": 79.77,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKTFDBY0P7",
+   "date": "2026-03-02",
+   "account": "Webster Bank Checking ••2546",
+   "description": "LITCHFIELD HOME LOANS PMT",
+   "amount": 1488.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKULEGGHP8",
+   "date": "2026-03-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "KESTREL CRYPTO BUY PYUSD",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKLMLC94FS",
+   "date": "2026-02-28",
+   "account": "Webster Visa Debit ••2546",
+   "description": "MOBIL WATERTOWN",
+   "amount": 38.86,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK91YPC8EY",
+   "date": "2026-02-22",
+   "account": "Webster Visa Debit ••2546",
+   "description": "MOBIL WATERTOWN",
+   "amount": 50.7,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK6NF7HGHN",
+   "date": "2026-02-22",
+   "account": "Webster Bank Checking ••2546",
+   "description": "VERIZON WIRELESS",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKBCRV7T6E",
+   "date": "2026-02-20",
+   "account": "Webster Bank Checking ••2546",
+   "description": "AQUARION WATER CO",
+   "amount": 73.69,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK4ZG9CB95",
+   "date": "2026-02-20",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2687.12,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKS26507Q5",
+   "date": "2026-02-15",
+   "account": "Webster Visa Debit ••2546",
+   "description": "HOME DEPOT #6211 TORRINGTON",
+   "amount": 41.43,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Home"
+  },
+  {
+   "id": "BKM3N5UACT",
+   "date": "2026-02-14",
+   "account": "Webster Bank Checking ••2546",
+   "description": "EVERSOURCE CT ELEC",
+   "amount": 227.92,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKH41ZQPWL",
+   "date": "2026-02-12",
+   "account": "Webster Bank Checking ••2546",
+   "description": "PAYPAL INST XFER",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKM7GUAZ8N",
+   "date": "2026-02-11",
+   "account": "Webster Visa Debit ••2546",
+   "description": "DUNKIN #348901 WATERTOWN",
+   "amount": 4.8,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK756JPS3H",
+   "date": "2026-02-09",
+   "account": "Webster Bank Checking ••2546",
+   "description": "FRONTIER COMMUNICATIONS",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK6LV4UEME",
+   "date": "2026-02-06",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2690.66,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKYUCE7RE9",
+   "date": "2026-02-05",
+   "account": "Webster Visa Debit ••2546",
+   "description": "BIG Y #84 THOMASTON",
+   "amount": 70.94,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK68ATDMKM",
+   "date": "2026-02-02",
+   "account": "Webster Bank Checking ••2546",
+   "description": "LITCHFIELD HOME LOANS PMT",
+   "amount": 1488.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKTF4039UJ",
+   "date": "2026-02-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "KESTREL CRYPTO BUY PYUSD",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Investments"
+  },
+  {
+   "id": "BKR5GABNDB",
+   "date": "2026-02-01",
+   "account": "Webster Visa Debit ••2546",
+   "description": "LITCHFIELD COUNTY FARM STAND",
+   "amount": 18.76,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKY02TFF7B",
+   "date": "2026-01-23",
+   "account": "Webster Visa Debit ••2546",
+   "description": "MOBIL WATERTOWN",
+   "amount": 44.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKTBJLJY26",
+   "date": "2026-01-23",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2671.96,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQL5WYNPF",
+   "date": "2026-01-22",
+   "account": "Webster Bank Checking ••2546",
+   "description": "VERIZON WIRELESS",
+   "amount": 72.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKRPNN2ZJK",
+   "date": "2026-01-20",
+   "account": "Webster Bank Checking ••2546",
+   "description": "AQUARION WATER CO",
+   "amount": 67.81,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKD1SFWETQ",
+   "date": "2026-01-14",
+   "account": "Webster Bank Checking ••2546",
+   "description": "EVERSOURCE CT ELEC",
+   "amount": 130.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKCEZABBH0",
+   "date": "2026-01-13",
+   "account": "Webster Visa Debit ••2546",
+   "description": "CUMBERLAND FARMS #4712",
+   "amount": 33.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKMXYKG571",
+   "date": "2026-01-09",
+   "account": "Webster Bank Checking ••2546",
+   "description": "NAUGATUCK VALLEY PRECISION PAYROLL",
+   "amount": 2662.86,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKJFQP3MN0",
+   "date": "2026-01-09",
+   "account": "Webster Bank Checking ••2546",
+   "description": "FRONTIER COMMUNICATIONS",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKA24VGH9L",
+   "date": "2026-01-01",
+   "account": "Webster Bank Checking ••2546",
+   "description": "LITCHFIELD HOME LOANS PMT",
+   "amount": 1488.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S47"
+  ],
+  "scenarios": [
+   "S47A",
+   "S47B"
+  ],
+  "world": "shared (both twins)",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261124,
+  "record_counts": {
+   "transactions": 48,
+   "bank_transactions": 138,
+   "total_money_records": 186
+  }
+ }
+}

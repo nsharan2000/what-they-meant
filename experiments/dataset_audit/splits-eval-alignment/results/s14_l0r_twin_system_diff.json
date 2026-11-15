@@ -1,0 +1,129 @@
+{
+ "sft_train_decision_rows": {
+  "L0r|differs:before_tools": 8,
+  "L0r|differs:tools": 4,
+  "L0r|pairs": 75,
+  "L1|differs:before_tools": 2,
+  "L1|pairs": 75,
+  "L2|differs:before_tools": 2,
+  "L2|pairs": 72,
+  "L3|differs:before_tools": 2,
+  "L3|pairs": 25
+ },
+ "tool_list_diff_examples": {
+  "L0r": [
+   {
+    "pair_id": "S04",
+    "tools_only_in_A": [
+     "update_cart"
+    ],
+    "tools_only_in_B": []
+   },
+   {
+    "pair_id": "S26",
+    "tools_only_in_A": [
+     "apply_patch"
+    ],
+    "tools_only_in_B": []
+   },
+   {
+    "pair_id": "V043",
+    "tools_only_in_A": [
+     "update_cart"
+    ],
+    "tools_only_in_B": []
+   },
+   {
+    "pair_id": "V044",
+    "tools_only_in_A": [
+     "update_cart"
+    ],
+    "tools_only_in_B": []
+   }
+  ]
+ },
+ "eval_L0r": {
+  "hard_test|pairs": 13,
+  "hard_test|tool_list_differs": 1,
+  "hard_train|pairs": 27,
+  "hard_train|tool_list_differs": 1,
+  "hard_val|pairs": 5,
+  "test|pairs": 41,
+  "test|tool_list_differs": 6,
+  "val|pairs": 17
+ },
+ "eval_L0r_examples": [
+  {
+   "file": "hard_test_shopping",
+   "pair_id": "H451",
+   "only_A": [
+    "get_payment_request"
+   ],
+   "only_B": [
+    "get_checkout"
+   ]
+  },
+  {
+   "file": "hard_train_shopping",
+   "pair_id": "H041",
+   "only_A": [
+    "update_cart"
+   ],
+   "only_B": []
+  },
+  {
+   "file": "test_shopping",
+   "pair_id": "S45",
+   "only_A": [
+    "upi_name_lookup"
+   ],
+   "only_B": []
+  },
+  {
+   "file": "test_shopping",
+   "pair_id": "V453",
+   "only_A": [
+    "upi_name_lookup"
+   ],
+   "only_B": []
+  },
+  {
+   "file": "test_wallet",
+   "pair_id": "S27",
+   "only_A": [
+    "search_recipient"
+   ],
+   "only_B": []
+  },
+  {
+   "file": "test_wallet",
+   "pair_id": "V272",
+   "only_A": [
+    "search_recipient"
+   ],
+   "only_B": [
+    "lookup_venmo"
+   ]
+  },
+  {
+   "file": "test_wallet",
+   "pair_id": "V274",
+   "only_A": [
+    "search_recipient"
+   ],
+   "only_B": [
+    "lookup_venmo"
+   ]
+  },
+  {
+   "file": "test_wallet",
+   "pair_id": "V271",
+   "only_A": [
+    "search_recipient"
+   ],
+   "only_B": [
+    "lookup_venmo"
+   ]
+  }
+ ]
+}

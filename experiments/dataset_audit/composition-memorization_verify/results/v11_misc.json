@@ -1,0 +1,43 @@
+{
+ "S49P_rows": [
+  {
+   "line": 149,
+   "level": "L0r",
+   "ps": "P2",
+   "turn": "decision",
+   "S49A_line": 624,
+   "S49A_ps": "P0",
+   "system_equal_hint_stripped": false,
+   "rest_equal": true,
+   "target_equal": true
+  },
+  {
+   "line": 162,
+   "level": "L0r",
+   "ps": "P2",
+   "turn": "lookup1",
+   "S49A_line": 629,
+   "S49A_ps": "P0",
+   "system_equal_hint_stripped": false,
+   "rest_equal": true,
+   "target_equal": true
+  }
+ ],
+ "decision_ps_by_twin": {
+  "A/P0": 178,
+  "A/P2": 70,
+  "B/P0": 167,
+  "B/P2": 82
+ },
+ "P2_share_A": 0.2823,
+ "P2_share_B": 0.3293,
+ "P_B_given_P2": 0.5395,
+ "P_B_given_P0": 0.4841,
+ "conversations_shared_by_2plus_scenarios": [
+  [
+   "S49A",
+   "S49P"
+  ]
+ ],
+ "distinct_scenario_request_pairs": 203
+}

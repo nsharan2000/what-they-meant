@@ -1,0 +1,179 @@
+{
+ "n_commits_on_B_act": 67,
+ "commit_gold": {
+  "right": 10,
+  "wrong": 5
+ },
+ "commit_other": {
+  "right": 15,
+  "wrong": 37
+ },
+ "wrong_commit_gold_rows": [
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|H151B|L2|P2|decision|r0",
+   {
+    "name": "Overnight Invoice Monitor",
+    "target": "api. coastalridgelab.example/v2/invoice-feed",
+    "schedule": "every 1 day",
+    "until": "2026-12-31",
+    "max_spend": 0
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|H291B|L2|P0|decision|r0",
+   {
+    "batch_id": "LV-DRAW-04",
+    "invoice_numbers": [],
+    "total": 2112000.0,
+    "currency": "USD"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|H291B|L2|P2|decision|r0",
+   {
+    "batch_id": "LV-DRAW-04",
+    "invoice_numbers": [],
+    "total": 2120000.0,
+    "currency": "USD",
+    "method": "ACH"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|H101B|L0r|P0|decision|r0",
+   {
+    "domain": "headingley-knits.co.uk",
+    "price": 15,
+    "currency": "GBP"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|H101B|L0r|P2|decision|r0",
+   {
+    "domain": "headingley-knits.co.uk",
+    "price": 15,
+    "currency": "GBP",
+    "payment_method_id": "2290"
+   }
+  ]
+ ],
+ "right_commit_other_rows": [
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|S33B|L0r|P0|decision|r0",
+   "finalize_invoices",
+   {
+    "billing_period": "this_month"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|S33B|L0r|P2|decision|r0",
+   "finalize_invoices",
+   {
+    "billing_period": "this_month"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|S33B|L1|P0|decision|r0",
+   "finalize_invoices",
+   {
+    "billing_period": "current_month"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|S33B|L1|P2|decision|r0",
+   "finalize_invoices",
+   {
+    "billing_period": "current_month"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|V331B|L1|P0|decision|r0",
+   "finalize_invoices",
+   {
+    "billing_period": "this_month"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|V331B|L0r|P0|decision|r0",
+   "finalize_invoices",
+   {
+    "billing_period": "this_month"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|V331B|L0r|P2|decision|r0",
+   "finalize_invoices",
+   {
+    "billing_period": "this_month"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|V331B|L1|P2|decision|r0",
+   "finalize_invoices",
+   {
+    "billing_period": "this_month"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|H361B|L0r|P0|decision|r0",
+   "cancel_subscription",
+   {
+    "merchant": "QueryLab",
+    "plan": "Pro"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|H361B|L0r|P2|decision|r0",
+   "cancel_subscription",
+   {
+    "merchant": "QueryLab",
+    "plan": "Pro"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|H361B|L2|P0|decision|r0",
+   "cancel_subscription",
+   {
+    "merchant": "QueryLab",
+    "plan": "Pro (monthly)",
+    "reason": "membership cancellation"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|H361B|L2|P2|decision|r0",
+   "cancel_subscription",
+   {
+    "merchant": "QueryLab",
+    "plan": "Pro (monthly)",
+    "reason": "membership cancellation"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|H361B|L2s|P2|decision|r0",
+   "cancel_subscription",
+   {
+    "merchant": "QueryLab",
+    "plan": "Pro (monthly)",
+    "reason": "membership cancellation"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|H141B|L1|P0|decision|r0",
+   "finalize_invoices",
+   {
+    "billing_period": "October 2026"
+   }
+  ],
+  [
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1|H141B|L1|P2|decision|r0",
+   "finalize_invoices",
+   {
+    "billing_period": "October 2026"
+   }
+  ]
+ ],
+ "B_success_current_rule": 113,
+ "B_success_commit_gold_rule": 61,
+ "B_success_my_reading": 71,
+ "B_act_strict_success_current": 67,
+ "B_act_right_by_my_reading": 25
+}

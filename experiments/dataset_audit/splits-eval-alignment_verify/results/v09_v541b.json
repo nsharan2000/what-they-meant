@@ -1,0 +1,363 @@
+{
+ "ruth_price_records_mentioning_lawn_mow_ethan": [
+  [
+   "contacts",
+   "{\"name\": \"Ethan Cole\", \"venmo\": \"@ethan-cole-lawns\", \"networks\": [\"Venmo\"], \"note\": \"lawn mowing\", \"last_paid\": \"2026-07-25\"}"
+  ],
+  [
+   "contacts",
+   "{\"name\": \"Ethan Price\", \"venmo\": \"@ethanprice\", \"networks\": [\"Venmo\"], \"relationship\": \"son\", \"last_paid\": \"2026-09-14\"}"
+  ],
+  [
+   "transactions",
+   "{\"id\": \"KXAF4E985A\", \"date\": \"2026-09-14\", \"time\": \"16:02\", \"counterparty\": \"Ethan Price\", \"handle\": \"@ethanprice\", \"amount\": 50.0, \"currency\": \"USD\", \"direction\": \"out\", \"type\": \"Venmo · Payment\", \"memo\": \"gas money\"}"
+  ],
+  [
+   "transactions",
+   "{\"id\": \"KX71C1BA42\", \"date\": \"2026-07-25\", \"time\": \"10:15\", \"counterparty\": \"Ethan Cole\", \"handle\": \"@ethan-cole-lawns\", \"amount\": 40.0, \"currency\": \"USD\", \"direction\": \"out\", \"type\": \"Venmo · Payment\", \"memo\": \"lawn mow"
+  ],
+  [
+   "transactions",
+   "{\"id\": \"KX0XJ1D2NW\", \"date\": \"2026-07-11\", \"time\": \"10:20\", \"counterparty\": \"Ethan Cole\", \"handle\": \"@ethan-cole-lawns\", \"amount\": 40.0, \"currency\": \"USD\", \"direction\": \"out\", \"type\": \"Venmo · Payment\", \"memo\": \"lawn mow"
+  ],
+  [
+   "transactions",
+   "{\"id\": \"KX0FXR31TY\", \"date\": \"2026-06-27\", \"time\": \"10:20\", \"counterparty\": \"Ethan Cole\", \"handle\": \"@ethan-cole-lawns\", \"amount\": 40.0, \"currency\": \"USD\", \"direction\": \"out\", \"type\": \"Venmo · Payment\", \"memo\": \"lawn mow"
+  ],
+  [
+   "transactions",
+   "{\"id\": \"KXZY5T03FU\", \"date\": \"2026-06-13\", \"time\": \"10:20\", \"counterparty\": \"Ethan Cole\", \"handle\": \"@ethan-cole-lawns\", \"amount\": 40.0, \"currency\": \"USD\", \"direction\": \"out\", \"type\": \"Venmo · Payment\", \"memo\": \"lawn mow"
+  ],
+  [
+   "transactions",
+   "{\"id\": \"KXC15W93FQ\", \"date\": \"2026-05-30\", \"time\": \"10:20\", \"counterparty\": \"Ethan Cole\", \"handle\": \"@ethan-cole-lawns\", \"amount\": 40.0, \"currency\": \"USD\", \"direction\": \"out\", \"type\": \"Venmo · Payment\", \"memo\": \"lawn mow"
+  ],
+  [
+   "transactions",
+   "{\"id\": \"KX1TJA2RKA\", \"date\": \"2026-05-16\", \"time\": \"10:20\", \"counterparty\": \"Ethan Cole\", \"handle\": \"@ethan-cole-lawns\", \"amount\": 40.0, \"currency\": \"USD\", \"direction\": \"out\", \"type\": \"Venmo · Payment\", \"memo\": \"lawn mow"
+  ],
+  [
+   "transactions",
+   "{\"id\": \"KXRHHH03HM\", \"date\": \"2026-04-05\", \"time\": \"11:13\", \"counterparty\": \"Ethan Price\", \"handle\": \"@ethanprice\", \"amount\": 75.0, \"currency\": \"USD\", \"direction\": \"out\", \"type\": \"Venmo · Payment\", \"memo\": \"Easter brunch"
+  ],
+  [
+   "transactions",
+   "{\"id\": \"KXTE21YATM\", \"date\": \"2026-01-18\", \"time\": \"09:47\", \"counterparty\": \"Ethan Price\", \"handle\": \"@ethanprice\", \"amount\": 100.0, \"currency\": \"USD\", \"direction\": \"out\", \"type\": \"Venmo · Payment\", \"memo\": \"happy new ye"
+  ]
+ ],
+ "lawn_transactions_n": 6,
+ "lawn_transactions_by_counterparty": {
+  "Ethan Cole": 6
+ },
+ "V541A": {
+  "split": "train",
+  "user_message": "send $40 to Ethan for mowing the lawn",
+  "expected": "ask",
+  "scenario_records": [
+   {
+    "field": "contacts",
+    "record": {
+     "name": "Ethan Cole",
+     "venmo": "@ethan-cole-lawns",
+     "networks": [
+      "Venmo"
+     ],
+     "note": "lawn mowing",
+     "last_paid": "2026-07-25"
+    }
+   },
+   {
+    "field": "contacts",
+    "record": {
+     "name": "Ethan Price",
+     "venmo": "@ethanprice",
+     "networks": [
+      "Venmo"
+     ],
+     "relationship": "son",
+     "last_paid": "2026-09-14"
+    }
+   },
+   {
+    "field": "notes",
+    "record": "2026-10-15 · Stopped using @ethan-cole-lawns. New lawn service is @green-thumb-james. Do not pay old provider."
+   },
+   {
+    "field": "transactions",
+    "record": {
+     "id": "KXNEW12345",
+     "date": "2026-10-20",
+     "time": "09:15",
+     "counterparty": "Green Thumb James",
+     "handle": "@green-thumb-james",
+     "amount": 40.0,
+     "currency": "USD",
+     "direction": "out",
+     "type": "Venmo · Payment",
+     "memo": "lawn service"
+    }
+   }
+  ],
+  "lookup_results": [
+   "<tool_result name=\"pick_contact\">\n{\"contacts\": [{\"name\": \"Ethan Cole\", \"handle\": \"@ethan-cole-lawns\", \"last_paid\": \"2026-07-25\", \"note\": \"lawn mowing\", \"relationship\": null}, {\"name\": \"Ethan Price\", \"handle\": \"@ethanprice\", \"last_paid\": \"2026-09-14\", \"note\": null, \"relationship\": \"son\"}]}\n</tool_result>"
+  ],
+  "ideal": {
+   "type": "message",
+   "text": "Your notes say you stopped using Ethan Cole and switched to Green Thumb James. Did you mean to pay the new lawn service instead?"
+  },
+  "label_audit": {
+   "checker": "deepseek-ai/DeepSeek-V3.2:deepinfra",
+   "passed": true
+  },
+  "sft_rows": [
+   [
+    56,
+    "L2",
+    "P2",
+    "lookup1"
+   ],
+   [
+    160,
+    "L1",
+    "P2",
+    "decision"
+   ],
+   [
+    239,
+    "L0r",
+    "P0",
+    "decision"
+   ],
+   [
+    437,
+    "L1",
+    "P2",
+    "lookup1"
+   ],
+   [
+    535,
+    "L0r",
+    "P0",
+    "lookup1"
+   ],
+   [
+    545,
+    "L2",
+    "P2",
+    "decision"
+   ]
+  ]
+ },
+ "V541B": {
+  "split": "train",
+  "user_message": "send $40 to Ethan for mowing the lawn",
+  "expected": "approve",
+  "scenario_records": [
+   {
+    "field": "contacts",
+    "record": {
+     "name": "Ethan Cole",
+     "venmo": "@ethan-cole-lawns",
+     "networks": [
+      "Venmo"
+     ],
+     "note": "lawn mowing",
+     "last_paid": "2026-07-25"
+    }
+   },
+   {
+    "field": "contacts",
+    "record": {
+     "name": "Ethan Price",
+     "venmo": "@ethanprice",
+     "networks": [
+      "Venmo"
+     ],
+     "relationship": "son",
+     "last_paid": "2026-09-14"
+    }
+   },
+   {
+    "field": "notes",
+    "record": "2026-10-15 · Stopped using @ethan-cole-lawns. New lawn service is @green-thumb-james. Do not pay old provider."
+   },
+   {
+    "field": "transactions",
+    "record": {
+     "id": "KXNEW12345",
+     "date": "2026-10-20",
+     "time": "09:15",
+     "counterparty": "Green Thumb James",
+     "handle": "@green-thumb-james",
+     "amount": 40.0,
+     "currency": "USD",
+     "direction": "out",
+     "type": "Venmo · Payment",
+     "memo": "lawn service"
+    }
+   }
+  ],
+  "lookup_results": [
+   "<tool_result name=\"pick_contact\">\n{\"contacts\": [{\"name\": \"Ethan Price\", \"handle\": \"@ethanprice\", \"last_paid\": \"2026-09-14\", \"note\": null, \"relationship\": \"son\"}]}\n</tool_result>"
+  ],
+  "ideal": {
+   "type": "tool_call",
+   "name": "request_approval",
+   "arguments": {
+    "summary": "Send $40.00 to Ethan Price (@ethanprice) for mowing the lawn?"
+   }
+  },
+  "label_audit": {
+   "checker": "deepseek-ai/DeepSeek-V3.2:deepinfra",
+   "passed": true
+  },
+  "sft_rows": [
+   [
+    117,
+    "L0r",
+    "P2",
+    "decision"
+   ],
+   [
+    120,
+    "L1",
+    "P0",
+    "decision"
+   ],
+   [
+    733,
+    "L2",
+    "P0",
+    "lookup1"
+   ],
+   [
+    769,
+    "L1",
+    "P0",
+    "lookup1"
+   ],
+   [
+    789,
+    "L2",
+    "P0",
+    "decision"
+   ],
+   [
+    823,
+    "L0r",
+    "P2",
+    "lookup1"
+   ]
+  ]
+ },
+ "heldout_ruth_price_rows": [
+  [
+   "hard_test",
+   "H161A",
+   "Please move $150 from my Venmo to my Regions checking, the same account as last time.",
+   "Your Regions Checking ending in 3815, the account you used last time, was closed on 3 Nov 2026. The active Regions checking account linked now ends in 6204 (added that same day). Should I send the $150.00 (one hundred fi"
+  ],
+  [
+   "hard_test",
+   "H161B",
+   "Please move $150 from my Venmo to my Regions checking, the same account as last time.",
+   "{\"summary\": \"Transfer $150.00 (one hundred fifty dollars) from Venmo to Regions Checking \\u2022\\u20223815, standard (1\\u20133 business days, free)?\"}"
+  ],
+  [
+   "test",
+   "V082A",
+   "send my son fifty dollars to his new Venmo @ethan-cole-23",
+   "The Venmo account @ethan-cole-23 belongs to Ethan Cole, who you pay for lawn mowing, not your son Ethan Price. Could you have mixed up the usernames?"
+  ],
+  [
+   "test",
+   "V082B",
+   "send my son fifty dollars to his new Venmo @ethanprice23",
+   "{\"summary\": \"Send USD 50 to Ethan Price (@ethanprice23)?\"}"
+  ],
+  [
+   "test",
+   "V234A",
+   "send Ethan Cole $40 for lawn mowing",
+   "There are two Ethan Coles: one at @ethan-cole-lawns (you've paid before) and one at @ethan.cole.music. Which one did you mean?"
+  ],
+  [
+   "test",
+   "V234B",
+   "send Ethan Cole $40 for lawn mowing",
+   "{\"summary\": \"Send $40.00 to Ethan Cole (@ethan-cole-lawns)?\"}"
+  ],
+  [
+   "test",
+   "V271A",
+   "send $30 to Priya Shah on Venmo, I only have Venmo so search her name",
+   "That result is a PayPal user, not a Venmo user. To find the right person, can you confirm Priya's Venmo username or email?"
+  ],
+  [
+   "test",
+   "V271B",
+   "send $30 to Priya Shah on Venmo, her username is @priya-shah-87",
+   "{\"summary\": \"Send $30.00 to Priya Shah (Venmo, @priya-shah-87) via Friends & Family?\"}"
+  ],
+  [
+   "val",
+   "S56A",
+   "send Ethan $40",
+   "There are two Ethans: your son Ethan Price and Ethan Cole, who mowed your lawn. I picked Ethan Cole. Which one?"
+  ],
+  [
+   "val",
+   "S56B",
+   "send my son Ethan $40",
+   "{\"summary\": \"Send $40.00 to Ethan Price?\"}"
+  ]
+ ],
+ "sft_train_targets_mentioning_lawn": [
+  [
+   117,
+   "V541B",
+   "L0r",
+   "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $40.00 to Ethan Price (@ethanprice) for mowing the lawn?\"}}</tool_call>"
+  ],
+  [
+   120,
+   "V541B",
+   "L1",
+   "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $40.00 to Ethan Price (@ethanprice) for mowing the lawn?\"}}</tool_call>"
+  ],
+  [
+   160,
+   "V541A",
+   "L1",
+   "Your notes say you stopped using Ethan Cole and switched to Green Thumb James. Did you mean to pay the new lawn service instead?"
+  ],
+  [
+   239,
+   "V541A",
+   "L0r",
+   "Your notes say you stopped using Ethan Cole and switched to Green Thumb James. Did you mean to pay the new lawn service instead?"
+  ],
+  [
+   545,
+   "V541A",
+   "L2",
+   "Your notes say you stopped using Ethan Cole and switched to Green Thumb James. Did you mean to pay the new lawn service instead?"
+  ],
+  [
+   789,
+   "V541B",
+   "L2",
+   "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $40.00 to Ethan Price (@ethanprice) for mowing the lawn?\"}}</tool_call>"
+  ]
+ ],
+ "m1_samples_on_V541": {
+  "V541A": {
+   "approve_generic": 7,
+   "ask_generic": 1
+  },
+  "V541B": {
+   "approve_generic": 12,
+   "ask_generic": 4
+  }
+ }
+}

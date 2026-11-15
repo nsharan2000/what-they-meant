@@ -1,0 +1,1095 @@
+{
+ "sft_train": {
+  "n_rows": 904,
+  "n_pushback_rows": 2,
+  "counts": {
+   "decision|A|counterpart_other_prompt_setting": 113,
+   "decision|A|strict_counterpart": 134,
+   "decision|B|counterpart_other_prompt_setting": 113,
+   "decision|B|no_counterpart": 2,
+   "decision|B|strict_counterpart": 134,
+   "lookup|A|counterpart_other_prompt_setting": 112,
+   "lookup|A|no_counterpart": 31,
+   "lookup|A|strict_counterpart": 54,
+   "lookup|B|counterpart_other_prompt_setting": 112,
+   "lookup|B|no_counterpart": 43,
+   "lookup|B|strict_counterpart": 54
+  },
+  "unmatched_rows": [
+   {
+    "pair_id": "S32",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     3
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V573",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     22
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "S58",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     27
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V321",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     58
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V182",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     66
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V253",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     102
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S15",
+    "level": "L3",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     114
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V322",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     125
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "S14",
+    "level": "L3",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     133
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S32",
+    "level": "L3",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     142
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V152",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     150
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S55",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     151
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S04",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     164
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "S35",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     167
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V552",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     177
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V581",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     182
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V042",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     186
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V583",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     194
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V582",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     198
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "S15",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     202
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "S58",
+    "level": "L3",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     206
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V043",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     215
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V322",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     217
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V253",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     221
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S58",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     243
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V554",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     250
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S04",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     261
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S35",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     267
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V184",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     276
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V581",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     292
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V491",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     293
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V474",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     301
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V044",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     304
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V321",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     307
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V031",
+    "level": "L0r",
+    "turn": "decision",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     327
+    ],
+    "why": "target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)"
+   },
+   {
+    "pair_id": "V184",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     342
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V584",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     350
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S35",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     356
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V181",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     364
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "S04",
+    "level": "L3",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     390
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S58",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     394
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V152",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     408
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V554",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     421
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V031",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     443
+    ],
+    "why": "target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)"
+   },
+   {
+    "pair_id": "S22",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     458
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S35",
+    "level": "L3",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     461
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V551",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     474
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V573",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     499
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V552",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     547
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V181",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     563
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V582",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     566
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "S25",
+    "level": "L3",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     571
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V581",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     575
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V183",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     584
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V182",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     585
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V472",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     589
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V473",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     593
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S55",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     597
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V072",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     600
+    ],
+    "why": "target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)"
+   },
+   {
+    "pair_id": "V254",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     601
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S25",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     604
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V043",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     607
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V113",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     625
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S15",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     654
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V072",
+    "level": "L1",
+    "turn": "decision",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     675
+    ],
+    "why": "target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)"
+   },
+   {
+    "pair_id": "V473",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     703
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "S22",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     716
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V322",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     722
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "S14",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     737
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V223",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     765
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V551",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     806
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V583",
+    "level": "L0r",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     815
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V553",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     837
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   },
+   {
+    "pair_id": "V113",
+    "level": "L2",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     839
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V254",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "sft_train",
+     851
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin B)"
+   },
+   {
+    "pair_id": "V471",
+    "level": "L1",
+    "turn": "lookup1",
+    "present": "A",
+    "missing": "B",
+    "present_row": [
+     "sft_train",
+     867
+    ],
+    "why": "curator_exact_duplicate (kept copy: twin A)"
+   }
+  ],
+  "unmatched_by_why": {
+   "lookup|curator_exact_duplicate (kept copy: twin B)": 41,
+   "lookup|curator_exact_duplicate (kept copy: twin A)": 31,
+   "decisi|target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)": 2,
+   "lookup|target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)": 2
+  },
+  "pair_majority_classifier_acc_decision_rows": 0.502,
+  "pairs_with_unequal_A_B_decision_rows": 2,
+  "n_pairs": 76,
+  "prompt_setting_by_twin_all_rows": {
+   "A|P0": 313,
+   "A|P2": 131,
+   "B|P0": 297,
+   "B|P2": 161
+  },
+  "prompt_setting_by_twin_decision_rows": {
+   "A|P0": 178,
+   "A|P2": 69,
+   "B|P0": 167,
+   "B|P2": 82
+  }
+ },
+ "sft_val": {
+  "n_rows": 224,
+  "n_pushback_rows": 0,
+  "counts": {
+   "decision|A|counterpart_other_prompt_setting": 22,
+   "decision|A|strict_counterpart": 34,
+   "decision|B|counterpart_other_prompt_setting": 22,
+   "decision|B|strict_counterpart": 34,
+   "lookup|A|counterpart_other_prompt_setting": 22,
+   "lookup|A|strict_counterpart": 34,
+   "lookup|B|counterpart_other_prompt_setting": 22,
+   "lookup|B|strict_counterpart": 34
+  },
+  "unmatched_rows": [],
+  "unmatched_by_why": {},
+  "pair_majority_classifier_acc_decision_rows": 0.5,
+  "pairs_with_unequal_A_B_decision_rows": 0,
+  "n_pairs": 17,
+  "prompt_setting_by_twin_all_rows": {
+   "A|P0": 78,
+   "A|P2": 34,
+   "B|P0": 86,
+   "B|P2": 26
+  },
+  "prompt_setting_by_twin_decision_rows": {
+   "A|P0": 39,
+   "A|P2": 17,
+   "B|P0": 43,
+   "B|P2": 13
+  }
+ },
+ "dpo_train": {
+  "n_rows": 496,
+  "n_pushback_rows": 0,
+  "counts": {
+   "decision|A|counterpart_other_prompt_setting": 113,
+   "decision|A|strict_counterpart": 134,
+   "decision|B|counterpart_other_prompt_setting": 113,
+   "decision|B|no_counterpart": 2,
+   "decision|B|strict_counterpart": 134
+  },
+  "unmatched_rows": [
+   {
+    "pair_id": "V031",
+    "level": "L0r",
+    "turn": "decision",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "dpo_train",
+     67
+    ],
+    "why": "target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)"
+   },
+   {
+    "pair_id": "V072",
+    "level": "L1",
+    "turn": "decision",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "dpo_train",
+     308
+    ],
+    "why": "target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)"
+   }
+  ],
+  "unmatched_by_why": {
+   "decisi|target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)": 2
+  },
+  "pair_majority_classifier_acc_decision_rows": 0.502,
+  "pairs_with_unequal_A_B_decision_rows": 2,
+  "n_pairs": 76,
+  "prompt_setting_by_twin_all_rows": {
+   "A|P0": 178,
+   "A|P2": 69,
+   "B|P0": 167,
+   "B|P2": 82
+  },
+  "prompt_setting_by_twin_decision_rows": {
+   "A|P0": 178,
+   "A|P2": 69,
+   "B|P0": 167,
+   "B|P2": 82
+  }
+ },
+ "grpo_train": {
+  "n_rows": 496,
+  "n_pushback_rows": 0,
+  "counts": {
+   "decision|A|counterpart_other_prompt_setting": 113,
+   "decision|A|strict_counterpart": 134,
+   "decision|B|counterpart_other_prompt_setting": 113,
+   "decision|B|no_counterpart": 2,
+   "decision|B|strict_counterpart": 134
+  },
+  "unmatched_rows": [
+   {
+    "pair_id": "V072",
+    "level": "L1",
+    "turn": "decision",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "grpo_train",
+     172
+    ],
+    "why": "grpo_prompt_not_in_curated_dpo"
+   },
+   {
+    "pair_id": "V031",
+    "level": "L0r",
+    "turn": "decision",
+    "present": "B",
+    "missing": "A",
+    "present_row": [
+     "grpo_train",
+     241
+    ],
+    "why": "grpo_prompt_not_in_curated_dpo"
+   }
+  ],
+  "unmatched_by_why": {
+   "decisi|grpo_prompt_not_in_curated_dpo": 2
+  },
+  "pair_majority_classifier_acc_decision_rows": 0.502,
+  "pairs_with_unequal_A_B_decision_rows": 2,
+  "n_pairs": 76,
+  "prompt_setting_by_twin_all_rows": {
+   "A|P0": 178,
+   "A|P2": 69,
+   "B|P0": 167,
+   "B|P2": 82
+  },
+  "prompt_setting_by_twin_decision_rows": {
+   "A|P0": 178,
+   "A|P2": 69,
+   "B|P0": 167,
+   "B|P2": 82
+  }
+ }
+}

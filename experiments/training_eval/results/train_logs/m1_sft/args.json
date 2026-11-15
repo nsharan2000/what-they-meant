@@ -1,0 +1,20 @@
+{
+ "model": "/root/.cache/huggingface/hub/models--1-800-LLMs--tiny-aya-global/snapshots/6ca951521be5148dec4e679f7cab4aca5362c523",
+ "revision": null,
+ "data": "/workspace/training/data_v121_curated",
+ "out": "/workspace/runs/m1_sft",
+ "epochs": 2.0,
+ "lr": 0.0001,
+ "lora_r": 16,
+ "batch": 1,
+ "grad_accum": 16,
+ "max_length": 12288,
+ "max_rows": null,
+ "save_steps": 10,
+ "fresh": false,
+ "smoke": false,
+ "n_train": 904,
+ "n_val": 224,
+ "train_sha256": "bf2791f90e2f78b17aeaca00dcd4e45eef1ee39f0a6e39bcdcebdbab83efea6b",
+ "val_sha256": "97b10fca9e7af9f4a9cfa8fcee1f898fa4f89ec46b8c78156f777d603aa694de"
+}

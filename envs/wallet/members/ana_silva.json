@@ -1,0 +1,2276 @@
+{
+ "member_id": "ana_silva",
+ "profile": {
+  "name": "Ana Silva",
+  "age": 31,
+  "city": "Carlisle, PA",
+  "country": "United States",
+  "occupation": "Firefighter / EMT",
+  "summary": "Kestrel member since 2021-03 · identity verified · home currency USD · connected: Venmo, Members 1st FCU Checking ••4826",
+  "email": "ana.silva@mail.com",
+  "phone": "555-0137",
+  "member_since": "2021-03-30",
+  "home_currency": "USD",
+  "timezone": "America/New_York",
+  "language": "en-US",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Ana Silva navigates life with a calm, routine‑driven spirit that fuels diligent firefighting, spontaneous bike rides, and a habit of forgetting to water houseplants when the garden is thriving, and they often laugh it off as a quirky reminder to stay flexible.",
+   "professional_persona": "Ana Silva, a 31‑year‑old firefighter with EMT‑B and Firefighter I/II certifications, channels their love of routine and calm under pressure into meticulous equipment maintenance and safety inspections, and when they lead regular training drills they assertively guide diverse teams during emergencies.",
+   "cultural_background": "Ana was born in Caracas and moved to the United States with her family at age 12, bringing with her a strong sense of Venezuelan identity. She speaks fluent Spanish and English, celebrates Venezuelan holidays such as Carnaval and Día de la Independencia, and preserves family traditions through music, food, and storytelling. Her Catholic upbringing influences her community involvement, and she actively participates in a local Hispanic cultural association. Ana leverages her bicultural perspective to bridge gaps between the fire department and Spanish‑speaking neighborhoods, ensuring that safety information is culturally relevant and linguistically accessible.",
+   "sex": "Female",
+   "marital_status": "married_present",
+   "education_level": "associates",
+   "occupation": "firefighter"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "d74fe6e146bb4de398ca67dc66d00443",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "USA",
+    "age": 31,
+    "sex": "Female",
+    "seed": 21
+   },
+   "source_age": 28,
+   "source_location": "Carlisle, PA",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Norma Vazquez",
+    "Norma"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "Venmo balance",
+   "currency": "USD",
+   "balance": 1900.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Jen Albright",
+   "venmo": "@jen-albright",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "friend",
+   "last_paid": "2026-10-30"
+  },
+  {
+   "name": "Tyler Brown",
+   "venmo": "@tyler_b_1984",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "firehouse crew · fantasy league",
+   "last_paid": "2026-10-02"
+  },
+  {
+   "name": "Station 3 Meal Fund",
+   "venmo": "@cvfe-station3-meals",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "firehouse meal fund",
+   "last_paid": "2026-11-05"
+  },
+  {
+   "name": "Matt Grove",
+   "venmo": "@mattgrove-cfd",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "firehouse crew",
+   "last_paid": "2026-07-27"
+  },
+  {
+   "name": "Kara Mitchell",
+   "venmo": "@kara-mitchell-7",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "friend",
+   "last_paid": "2026-10-21"
+  },
+  {
+   "name": "Carmen Silva",
+   "venmo": "@carmen-silva-1962",
+   "networks": [
+    "Venmo"
+   ],
+   "relationship": "mother"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-VENMO",
+   "type": "payment_app",
+   "name": "Venmo",
+   "login": "@ana-silva-cfd",
+   "status": "connected",
+   "since": "2021-03-30"
+  },
+  {
+   "id": "LA-4826",
+   "type": "bank_account",
+   "name": "Members 1st FCU Checking",
+   "last4": "4826",
+   "status": "active",
+   "since": "2021-04-01"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "Visible Wireless",
+   "amount": 30.0,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "Visa Debit ••4826",
+   "next_charge": "2026-11-18",
+   "status": "active"
+  },
+  {
+   "name": "Station 3 Meal Fund",
+   "amount": 60.0,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "Venmo balance",
+   "next_charge": "2026-12-05",
+   "status": "manual"
+  }
+ ],
+ "standing_instructions": [
+  "Preference · Venmo payments to friends as personal payments (no purchase protection needed)."
+ ],
+ "notes": [
+  "Treasurer of the station's fantasy football league in 2025; handed it over in 2026.",
+  "Prefers short replies."
+ ],
+ "transactions": [
+  {
+   "id": "KX07P71N3R",
+   "date": "2026-11-05",
+   "time": "21:57",
+   "counterparty": "Station 3 Meal Fund",
+   "handle": "@cvfe-station3-meals",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "meal fund Nov"
+  },
+  {
+   "id": "KXJPGJ2HV1",
+   "date": "2026-11-05",
+   "time": "13:35",
+   "counterparty": "Sheetz",
+   "amount": 28.55,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXDYEDRQ91",
+   "date": "2026-10-30",
+   "time": "13:47",
+   "counterparty": "Jen Albright",
+   "handle": "@jen-albright",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "movie"
+  },
+  {
+   "id": "KXF980YUTM",
+   "date": "2026-10-27",
+   "time": "16:56",
+   "counterparty": "Carmen Silva",
+   "handle": "@carmen-silva-1962",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "cumpleaños"
+  },
+  {
+   "id": "KX1STSG9YU",
+   "date": "2026-10-23",
+   "time": "15:50",
+   "counterparty": "Sheetz",
+   "amount": 24.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXK0QLZ0BH",
+   "date": "2026-10-21",
+   "time": "21:57",
+   "counterparty": "Kara Mitchell",
+   "handle": "@kara-mitchell-7",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Sheetz run"
+  },
+  {
+   "id": "KXLC90A4M5",
+   "date": "2026-10-18",
+   "time": "11:14",
+   "counterparty": "Ben Shuler",
+   "handle": "@ben-shuler",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "Trek FX3 bike"
+  },
+  {
+   "id": "KXA1UT0X6Y",
+   "date": "2026-10-13",
+   "time": "15:18",
+   "counterparty": "Kara Mitchell",
+   "handle": "@kara-mitchell-7",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "lunch"
+  },
+  {
+   "id": "KX9G7DB7BF",
+   "date": "2026-10-06",
+   "time": "08:51",
+   "counterparty": "Kara Mitchell",
+   "handle": "@kara-mitchell-7",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "lunch"
+  },
+  {
+   "id": "KXLSQSWXSV",
+   "date": "2026-10-05",
+   "time": "17:36",
+   "counterparty": "Station 3 Meal Fund",
+   "handle": "@cvfe-station3-meals",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "meal fund Oct"
+  },
+  {
+   "id": "KXN1ZTK3BN",
+   "date": "2026-10-05",
+   "time": "13:04",
+   "counterparty": "Jen Albright",
+   "handle": "@jen-albright",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "pizza"
+  },
+  {
+   "id": "KXAEC0C6A7",
+   "date": "2026-10-02",
+   "time": "18:44",
+   "counterparty": "Tyler Brown",
+   "handle": "@tyler_b_1984",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "fantasy league dues 🏈"
+  },
+  {
+   "id": "KXWNCJ4ZT4",
+   "date": "2026-09-18",
+   "time": "16:35",
+   "counterparty": "Kara Mitchell",
+   "handle": "@kara-mitchell-7",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Sheetz run"
+  },
+  {
+   "id": "KXPM62CVQA",
+   "date": "2026-09-05",
+   "time": "13:33",
+   "counterparty": "Station 3 Meal Fund",
+   "handle": "@cvfe-station3-meals",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "meal fund Sep"
+  },
+  {
+   "id": "KXPP828GM7",
+   "date": "2026-08-29",
+   "time": "08:16",
+   "counterparty": "Kara Mitchell",
+   "handle": "@kara-mitchell-7",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "lunch"
+  },
+  {
+   "id": "KXR2WYPWV5",
+   "date": "2026-08-28",
+   "time": "10:39",
+   "counterparty": "Diego Silva",
+   "handle": "@diego-silva-94",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "gas"
+  },
+  {
+   "id": "KX5HZ28EC4",
+   "date": "2026-08-25",
+   "time": "11:21",
+   "counterparty": "Jen Albright",
+   "handle": "@jen-albright",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "movie"
+  },
+  {
+   "id": "KX1SB5MC4K",
+   "date": "2026-08-17",
+   "time": "21:58",
+   "counterparty": "Kara Mitchell",
+   "handle": "@kara-mitchell-7",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "lunch"
+  },
+  {
+   "id": "KX5FHTLFPP",
+   "date": "2026-08-07",
+   "time": "15:48",
+   "counterparty": "Tyler Brown",
+   "handle": "@tyler_b_1984",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "fantasy draft pizza"
+  },
+  {
+   "id": "KXWX622KCH",
+   "date": "2026-08-05",
+   "time": "18:36",
+   "counterparty": "Station 3 Meal Fund",
+   "handle": "@cvfe-station3-meals",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "meal fund Aug"
+  },
+  {
+   "id": "KX1DG4ENRH",
+   "date": "2026-07-27",
+   "time": "18:20",
+   "counterparty": "Matt Grove",
+   "handle": "@mattgrove-cfd",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "wings"
+  },
+  {
+   "id": "KXE5UAHXE9",
+   "date": "2026-07-16",
+   "time": "15:29",
+   "counterparty": "Kara Mitchell",
+   "handle": "@kara-mitchell-7",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "yoga"
+  },
+  {
+   "id": "KXB9S2YK1G",
+   "date": "2026-07-16",
+   "time": "15:18",
+   "counterparty": "Sheetz",
+   "amount": 11.23,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXBPGV3Z14",
+   "date": "2026-07-15",
+   "time": "08:49",
+   "counterparty": "Kara Mitchell",
+   "handle": "@kara-mitchell-7",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "lunch"
+  },
+  {
+   "id": "KXMZQ28P16",
+   "date": "2026-07-09",
+   "time": "08:46",
+   "counterparty": "Matt Grove",
+   "handle": "@mattgrove-cfd",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "bowling"
+  },
+  {
+   "id": "KXTFFC3L32",
+   "date": "2026-07-05",
+   "time": "07:00",
+   "counterparty": "Station 3 Meal Fund",
+   "handle": "@cvfe-station3-meals",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "meal fund Jul"
+  },
+  {
+   "id": "KX18B6GH7U",
+   "date": "2026-06-30",
+   "time": "12:46",
+   "counterparty": "Sheetz",
+   "amount": 28.43,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KX7KU3K21J",
+   "date": "2026-06-19",
+   "time": "12:39",
+   "counterparty": "Tyler Brown",
+   "handle": "@tyler_b_1984",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "firehouse BBQ"
+  },
+  {
+   "id": "KXGQSLX7C8",
+   "date": "2026-06-11",
+   "time": "21:49",
+   "counterparty": "Kara Mitchell",
+   "handle": "@kara-mitchell-7",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "lunch"
+  },
+  {
+   "id": "KX337AEWHL",
+   "date": "2026-06-05",
+   "time": "10:00",
+   "counterparty": "Station 3 Meal Fund",
+   "handle": "@cvfe-station3-meals",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "meal fund Jun"
+  },
+  {
+   "id": "KXXW9VN2K2",
+   "date": "2026-06-04",
+   "time": "13:04",
+   "counterparty": "Dunkin'",
+   "amount": 4.09,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXJRT938TC",
+   "date": "2026-05-30",
+   "time": "15:21",
+   "counterparty": "Kara Mitchell",
+   "handle": "@kara-mitchell-7",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "yoga"
+  },
+  {
+   "id": "KXWNBMCV1X",
+   "date": "2026-05-25",
+   "time": "10:55",
+   "counterparty": "Matt Grove",
+   "handle": "@mattgrove-cfd",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "wings"
+  },
+  {
+   "id": "KXJD30MMJC",
+   "date": "2026-05-23",
+   "time": "18:00",
+   "counterparty": "Matt Grove",
+   "handle": "@mattgrove-cfd",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "wings"
+  },
+  {
+   "id": "KXZA936EWQ",
+   "date": "2026-05-09",
+   "time": "18:13",
+   "counterparty": "Matt Grove",
+   "handle": "@mattgrove-cfd",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "my share"
+  },
+  {
+   "id": "KXSS4FFNSU",
+   "date": "2026-05-05",
+   "time": "22:48",
+   "counterparty": "Station 3 Meal Fund",
+   "handle": "@cvfe-station3-meals",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "meal fund May"
+  },
+  {
+   "id": "KXZ5PC5NU9",
+   "date": "2026-04-29",
+   "time": "12:26",
+   "counterparty": "Sheetz",
+   "amount": 8.91,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXBSK58WQ7",
+   "date": "2026-04-18",
+   "time": "16:23",
+   "counterparty": "Diego Silva",
+   "handle": "@diego-silva-94",
+   "amount": 100.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "for mamá"
+  },
+  {
+   "id": "KXKCU7CSLY",
+   "date": "2026-04-10",
+   "time": "15:18",
+   "counterparty": "Diego Silva",
+   "handle": "@diego-silva-94",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "birthday"
+  },
+  {
+   "id": "KXK7KWBYGS",
+   "date": "2026-04-08",
+   "time": "21:48",
+   "counterparty": "Matt Grove",
+   "handle": "@mattgrove-cfd",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "wings"
+  },
+  {
+   "id": "KX1B4L7GYP",
+   "date": "2026-04-05",
+   "time": "15:51",
+   "counterparty": "Station 3 Meal Fund",
+   "handle": "@cvfe-station3-meals",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "meal fund Apr"
+  },
+  {
+   "id": "KX0W208YTT",
+   "date": "2026-04-02",
+   "time": "18:48",
+   "counterparty": "Matt Grove",
+   "handle": "@mattgrove-cfd",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "wings"
+  },
+  {
+   "id": "KXG8GANFS4",
+   "date": "2026-04-01",
+   "time": "07:26",
+   "counterparty": "Matt Grove",
+   "handle": "@mattgrove-cfd",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "wings"
+  },
+  {
+   "id": "KXQZ9FBJ32",
+   "date": "2026-03-30",
+   "time": "07:25",
+   "counterparty": "Sheetz",
+   "amount": 10.26,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KX0MUBTWT6",
+   "date": "2026-03-25",
+   "time": "18:12",
+   "counterparty": "Carmen Silva",
+   "handle": "@carmen-silva-1962",
+   "amount": 100.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "cumpleaños"
+  },
+  {
+   "id": "KX0M83B22B",
+   "date": "2026-03-23",
+   "time": "13:14",
+   "counterparty": "Matt Grove",
+   "handle": "@mattgrove-cfd",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "wings"
+  },
+  {
+   "id": "KX0LUF2ZRB",
+   "date": "2026-03-13",
+   "time": "22:48",
+   "counterparty": "Tyler Brown",
+   "handle": "@tyler_b_1984",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "softball fees"
+  },
+  {
+   "id": "KX69ZXL94Q",
+   "date": "2026-03-11",
+   "time": "12:21",
+   "counterparty": "Matt Grove",
+   "handle": "@mattgrove-cfd",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "my share"
+  },
+  {
+   "id": "KX7RBLUCVJ",
+   "date": "2026-03-05",
+   "time": "07:44",
+   "counterparty": "Station 3 Meal Fund",
+   "handle": "@cvfe-station3-meals",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "meal fund Mar"
+  },
+  {
+   "id": "KXJBAZ71A0",
+   "date": "2026-02-11",
+   "time": "17:23",
+   "counterparty": "Giant",
+   "amount": 32.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXSUCU3CKX",
+   "date": "2026-02-05",
+   "time": "09:07",
+   "counterparty": "Station 3 Meal Fund",
+   "handle": "@cvfe-station3-meals",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "meal fund Feb"
+  },
+  {
+   "id": "KXVKZ2TG37",
+   "date": "2026-02-04",
+   "time": "21:31",
+   "counterparty": "Giant",
+   "amount": 18.66,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KX9724RG62",
+   "date": "2026-01-28",
+   "time": "07:34",
+   "counterparty": "Jen Albright",
+   "handle": "@jen-albright",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "pizza"
+  },
+  {
+   "id": "KXVT1337PE",
+   "date": "2026-01-24",
+   "time": "20:03",
+   "counterparty": "Carmen Silva",
+   "handle": "@carmen-silva-1962",
+   "amount": 100.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "para la gasolina"
+  },
+  {
+   "id": "KXKU86G7E9",
+   "date": "2026-01-08",
+   "time": "07:49",
+   "counterparty": "Kara Mitchell",
+   "handle": "@kara-mitchell-7",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "lunch"
+  },
+  {
+   "id": "KXL1LURV7U",
+   "date": "2026-01-05",
+   "time": "11:14",
+   "counterparty": "Station 3 Meal Fund",
+   "handle": "@cvfe-station3-meals",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "meal fund Jan"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-27",
+   "time": "16:56",
+   "type": "payment_received",
+   "text": "Carmen Silva sent you $200.00 — “cumpleaños”"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "12:00",
+   "type": "product",
+   "text": "Tip: set a low-balance alert in Settings > Notifications."
+  },
+  {
+   "date": "2026-10-02",
+   "time": "13:14",
+   "type": "security",
+   "text": "New sign-in on iPhone 14 near Carlisle, PA. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BKF3GTZCN1",
+   "date": "2026-11-11",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "COMCAST XFINITY",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKPMKK5EWM",
+   "date": "2026-11-10",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "TARGET T-1820 CARLISLE",
+   "amount": 45.8,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK54TNRHMS",
+   "date": "2026-11-10",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "GIANT #6098 CARLISLE PA",
+   "amount": 30.64,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKNFLV17J0",
+   "date": "2026-11-02",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CARLISLE COMMONS APTS RENT",
+   "amount": 1190.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKB4ADQM66",
+   "date": "2026-10-30",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1923.58,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKYNM0KJXR",
+   "date": "2026-10-28",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "ALDI 66012 CARLISLE",
+   "amount": 44.64,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKPRP2P5TU",
+   "date": "2026-10-25",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "MEMBERS 1ST AUTO LOAN",
+   "amount": 296.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BK31R13ZAU",
+   "date": "2026-10-20",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PA AMERICAN WATER",
+   "amount": 38.37,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKMVB9N23G",
+   "date": "2026-10-18",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "VISIBLE WIRELESS",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKM6W8AD01",
+   "date": "2026-10-16",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "WEIS MARKETS #43 CARLISLE",
+   "amount": 34.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK9MDF4Z4G",
+   "date": "2026-10-16",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1913.93,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKK6F1UKEC",
+   "date": "2026-10-15",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PPL ELECTRIC UTILITIES",
+   "amount": 118.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKSQRB5482",
+   "date": "2026-10-14",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "GIANT #6098 CARLISLE PA",
+   "amount": 39.14,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK1QL9XK2Q",
+   "date": "2026-10-13",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "ALDI 66012 CARLISLE",
+   "amount": 37.7,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK711QDWRH",
+   "date": "2026-10-11",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "COMCAST XFINITY",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKFFYNU92X",
+   "date": "2026-10-02",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1938.49,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKYS8BFAYZ",
+   "date": "2026-10-01",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CARLISLE COMMONS APTS RENT",
+   "amount": 1190.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKYYZPPY0N",
+   "date": "2026-09-25",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "MEMBERS 1ST AUTO LOAN",
+   "amount": 296.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BK30KJXAVV",
+   "date": "2026-09-22",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "WEIS MARKETS #43 CARLISLE",
+   "amount": 57.41,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKDB3221K6",
+   "date": "2026-09-20",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PA AMERICAN WATER",
+   "amount": 50.21,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKNX04P0DS",
+   "date": "2026-09-18",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1922.12,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKHTR2TT49",
+   "date": "2026-09-18",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "WEIS MARKETS #43 CARLISLE",
+   "amount": 32.79,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKGZ8WJ97Y",
+   "date": "2026-09-18",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "VISIBLE WIRELESS",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKXGWE7A2P",
+   "date": "2026-09-15",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PPL ELECTRIC UTILITIES",
+   "amount": 75.88,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKE9YCEJLR",
+   "date": "2026-09-11",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "COMCAST XFINITY",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKXD0PRK17",
+   "date": "2026-09-08",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "TARGET T-1820 CARLISLE",
+   "amount": 58.92,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKU50T5H0Y",
+   "date": "2026-09-04",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1933.08,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKE4M7NRGK",
+   "date": "2026-09-04",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "SHEETZ 0215 CARLISLE",
+   "amount": 37.95,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKZJ7M5FUJ",
+   "date": "2026-09-01",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "IRON FORGE TAPHOUSE CARLISLE",
+   "amount": 29.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK7B9QQS1P",
+   "date": "2026-09-01",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CARLISLE COMMONS APTS RENT",
+   "amount": 1190.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKKH1Z57E9",
+   "date": "2026-08-30",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "SHEETZ 0215 CARLISLE",
+   "amount": 53.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKDPDLQNWJ",
+   "date": "2026-08-25",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "MEMBERS 1ST AUTO LOAN",
+   "amount": 296.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BKCBKDTSUT",
+   "date": "2026-08-23",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "SHEETZ 0215 CARLISLE",
+   "amount": 39.29,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKUZ9H5TXP",
+   "date": "2026-08-21",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "SHEETZ 0215 CARLISLE",
+   "amount": 37.93,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKEDS3HX2H",
+   "date": "2026-08-21",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1907.63,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKPESBY4Z4",
+   "date": "2026-08-20",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PA AMERICAN WATER",
+   "amount": 34.91,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK55BE5AJ5",
+   "date": "2026-08-20",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "TARGET T-1820 CARLISLE",
+   "amount": 41.49,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKQBRYWQYL",
+   "date": "2026-08-18",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "VISIBLE WIRELESS",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKXFFWPQ0K",
+   "date": "2026-08-15",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PPL ELECTRIC UTILITIES",
+   "amount": 112.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKKJGL3V35",
+   "date": "2026-08-14",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "WEIS MARKETS #43 CARLISLE",
+   "amount": 16.63,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK6AVG8BF9",
+   "date": "2026-08-11",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "COMCAST XFINITY",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK6DRGASVJ",
+   "date": "2026-08-09",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "GIANT #6098 CARLISLE PA",
+   "amount": 22.78,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK2XNHDQB0",
+   "date": "2026-08-07",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1945.94,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKLPFD3ZA3",
+   "date": "2026-08-06",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "CENTRAL PA FIRE SUPPLY",
+   "amount": 79.37,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Work gear"
+  },
+  {
+   "id": "BKSAK0PXEP",
+   "date": "2026-08-05",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "WEIS MARKETS #43 CARLISLE",
+   "amount": 63.17,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKALWQS046",
+   "date": "2026-08-03",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CARLISLE COMMONS APTS RENT",
+   "amount": 1190.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK13SR7EX3",
+   "date": "2026-08-03",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "ALDI 66012 CARLISLE",
+   "amount": 34.09,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKF641XD2J",
+   "date": "2026-07-25",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "MEMBERS 1ST AUTO LOAN",
+   "amount": 296.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BK5LWVM3BR",
+   "date": "2026-07-24",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1912.46,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK8Z5EL5J8",
+   "date": "2026-07-20",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PA AMERICAN WATER",
+   "amount": 45.71,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKZG8RXP13",
+   "date": "2026-07-18",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "VISIBLE WIRELESS",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKQDFLZ0PR",
+   "date": "2026-07-15",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PPL ELECTRIC UTILITIES",
+   "amount": 106.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK0TF0YA0B",
+   "date": "2026-07-15",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "GIANT #6098 CARLISLE PA",
+   "amount": 67.31,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK732S11MM",
+   "date": "2026-07-12",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "IRON FORGE TAPHOUSE CARLISLE",
+   "amount": 19.87,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKDY76FYDT",
+   "date": "2026-07-11",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "COMCAST XFINITY",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKCHLV4K9J",
+   "date": "2026-07-10",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "CENTRAL PA FIRE SUPPLY",
+   "amount": 82.38,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Work gear"
+  },
+  {
+   "id": "BK3D1RQYP8",
+   "date": "2026-07-10",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1948.74,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKELPHSASZ",
+   "date": "2026-07-09",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "ALDI 66012 CARLISLE",
+   "amount": 15.06,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKXVFWL8PW",
+   "date": "2026-07-01",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CARLISLE COMMONS APTS RENT",
+   "amount": 1190.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKYYST5FWB",
+   "date": "2026-06-27",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "CENTRAL PA FIRE SUPPLY",
+   "amount": 107.84,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Work gear"
+  },
+  {
+   "id": "BKM4RRUWCX",
+   "date": "2026-06-26",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1898.28,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKWWYC4PFV",
+   "date": "2026-06-25",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "MEMBERS 1ST AUTO LOAN",
+   "amount": 296.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BKH9B6ME6Q",
+   "date": "2026-06-25",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "WEIS MARKETS #43 CARLISLE",
+   "amount": 54.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK17HSMJ5A",
+   "date": "2026-06-21",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "WEIS MARKETS #43 CARLISLE",
+   "amount": 63.51,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK97VXHV5C",
+   "date": "2026-06-20",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PA AMERICAN WATER",
+   "amount": 37.92,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKT1F9MCE4",
+   "date": "2026-06-18",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "VISIBLE WIRELESS",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKMS1ZX32R",
+   "date": "2026-06-18",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "SHEETZ 0215 CARLISLE",
+   "amount": 33.28,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKGEXDLS2Y",
+   "date": "2026-06-15",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PPL ELECTRIC UTILITIES",
+   "amount": 113.71,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKXQ7L0F92",
+   "date": "2026-06-12",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1911.28,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKHZGUG9YM",
+   "date": "2026-06-11",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "COMCAST XFINITY",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK6WS26E72",
+   "date": "2026-06-11",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "CENTRAL PA FIRE SUPPLY",
+   "amount": 48.49,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Work gear"
+  },
+  {
+   "id": "BKU9P7A66H",
+   "date": "2026-06-09",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "TARGET T-1820 CARLISLE",
+   "amount": 23.92,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKAWUFH845",
+   "date": "2026-06-08",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "GIANT #6098 CARLISLE PA",
+   "amount": 73.21,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK14QWHAQK",
+   "date": "2026-06-01",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CARLISLE COMMONS APTS RENT",
+   "amount": 1190.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK1X25EZHL",
+   "date": "2026-05-30",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "WEIS MARKETS #43 CARLISLE",
+   "amount": 35.3,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKDP4SHRN4",
+   "date": "2026-05-29",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1945.69,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKWRZR1MJC",
+   "date": "2026-05-25",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "MEMBERS 1ST AUTO LOAN",
+   "amount": 296.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BKUH3GRW1R",
+   "date": "2026-05-22",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "GIANT #6098 CARLISLE PA",
+   "amount": 27.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKE0EMJQJ1",
+   "date": "2026-05-22",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "TARGET T-1820 CARLISLE",
+   "amount": 17.47,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKTLNE81NQ",
+   "date": "2026-05-20",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "GIANT #6098 CARLISLE PA",
+   "amount": 47.98,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK8AYECSP4",
+   "date": "2026-05-20",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PA AMERICAN WATER",
+   "amount": 45.54,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKFM9L8482",
+   "date": "2026-05-19",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "GIANT #6098 CARLISLE PA",
+   "amount": 25.04,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKUG033HDF",
+   "date": "2026-05-18",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "VISIBLE WIRELESS",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK4UPRQ51W",
+   "date": "2026-05-17",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "GIANT #6098 CARLISLE PA",
+   "amount": 52.92,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKZ9D00TA2",
+   "date": "2026-05-15",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PPL ELECTRIC UTILITIES",
+   "amount": 144.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK0J0ATLZ2",
+   "date": "2026-05-15",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1952.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKL0F9BFKP",
+   "date": "2026-05-11",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "COMCAST XFINITY",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK40U671WQ",
+   "date": "2026-05-05",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "GIANT #6098 CARLISLE PA",
+   "amount": 89.44,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKPKSFHDS3",
+   "date": "2026-05-01",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CARLISLE COMMONS APTS RENT",
+   "amount": 1190.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKBR9NMFF2",
+   "date": "2026-05-01",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1904.1,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKXBPJ2S82",
+   "date": "2026-04-25",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "SHEETZ 0215 CARLISLE",
+   "amount": 28.37,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKQSG2MBNC",
+   "date": "2026-04-25",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "MEMBERS 1ST AUTO LOAN",
+   "amount": 296.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BKEPG6X9QJ",
+   "date": "2026-04-24",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "ALDI 66012 CARLISLE",
+   "amount": 17.61,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK5Z1UETJZ",
+   "date": "2026-04-22",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "ALDI 66012 CARLISLE",
+   "amount": 30.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK03ALEKR9",
+   "date": "2026-04-20",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PA AMERICAN WATER",
+   "amount": 40.87,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKH4CZF3AV",
+   "date": "2026-04-18",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "IRON FORGE TAPHOUSE CARLISLE",
+   "amount": 20.96,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKAVXM98S1",
+   "date": "2026-04-18",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "VISIBLE WIRELESS",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKPKWT2WXL",
+   "date": "2026-04-17",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1946.45,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKS74VHRP5",
+   "date": "2026-04-15",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PPL ELECTRIC UTILITIES",
+   "amount": 70.3,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKK914SA4E",
+   "date": "2026-04-11",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "COMCAST XFINITY",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKC48FMQWK",
+   "date": "2026-04-03",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1952.67,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK4XK789GY",
+   "date": "2026-04-01",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CARLISLE COMMONS APTS RENT",
+   "amount": 1190.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKDDYEZS1Z",
+   "date": "2026-03-31",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "GIANT #6098 CARLISLE PA",
+   "amount": 48.54,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK5NR6R8WP",
+   "date": "2026-03-25",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "MEMBERS 1ST AUTO LOAN",
+   "amount": 296.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BK9XYW032C",
+   "date": "2026-03-24",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "SHEETZ 0215 CARLISLE",
+   "amount": 34.89,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK2Q5XBAZ8",
+   "date": "2026-03-22",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "IRON FORGE TAPHOUSE CARLISLE",
+   "amount": 31.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKLV8K80GW",
+   "date": "2026-03-20",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1940.67,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK11CFF2W0",
+   "date": "2026-03-20",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PA AMERICAN WATER",
+   "amount": 45.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKGV3A8LFN",
+   "date": "2026-03-18",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "VISIBLE WIRELESS",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKFW5K9B5E",
+   "date": "2026-03-15",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PPL ELECTRIC UTILITIES",
+   "amount": 107.61,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKFM8Q43XN",
+   "date": "2026-03-11",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "COMCAST XFINITY",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKM1Q8CK18",
+   "date": "2026-03-10",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "SHEETZ 0215 CARLISLE",
+   "amount": 30.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK5R42J6SY",
+   "date": "2026-03-07",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "ALDI 66012 CARLISLE",
+   "amount": 20.02,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK49TNL1JM",
+   "date": "2026-03-06",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1904.61,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKBAFHNGU0",
+   "date": "2026-03-02",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CARLISLE COMMONS APTS RENT",
+   "amount": 1190.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKT6X2N26Z",
+   "date": "2026-02-25",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "MEMBERS 1ST AUTO LOAN",
+   "amount": 296.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BK5QCZ1UZB",
+   "date": "2026-02-22",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "SHEETZ 0215 CARLISLE",
+   "amount": 38.05,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK4SYWJQCR",
+   "date": "2026-02-20",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PA AMERICAN WATER",
+   "amount": 47.91,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK1CXVRRXM",
+   "date": "2026-02-20",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1958.15,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKXN7P43LV",
+   "date": "2026-02-18",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "VISIBLE WIRELESS",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK00KEA4KU",
+   "date": "2026-02-17",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "IRON FORGE TAPHOUSE CARLISLE",
+   "amount": 46.25,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKZBZ9Y0LN",
+   "date": "2026-02-15",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PPL ELECTRIC UTILITIES",
+   "amount": 113.8,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKSMPNCA8B",
+   "date": "2026-02-11",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "COMCAST XFINITY",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKRL4GNZC3",
+   "date": "2026-02-11",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "SHEETZ 0215 CARLISLE",
+   "amount": 46.54,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK162BGMTH",
+   "date": "2026-02-09",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "ALDI 66012 CARLISLE",
+   "amount": 22.41,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKYG9S7WRV",
+   "date": "2026-02-07",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "TARGET T-1820 CARLISLE",
+   "amount": 55.49,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKHGH166X0",
+   "date": "2026-02-06",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1925.08,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKTS9FW94L",
+   "date": "2026-02-03",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "GIANT #6098 CARLISLE PA",
+   "amount": 23.16,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKZHPGRGGD",
+   "date": "2026-02-02",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CARLISLE COMMONS APTS RENT",
+   "amount": 1190.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKYNRTKVYU",
+   "date": "2026-02-02",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "TARGET T-1820 CARLISLE",
+   "amount": 89.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKLETAEJEH",
+   "date": "2026-01-29",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "ALDI 66012 CARLISLE",
+   "amount": 29.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKYFYV8RH4",
+   "date": "2026-01-25",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "MEMBERS 1ST AUTO LOAN",
+   "amount": 296.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Auto loan"
+  },
+  {
+   "id": "BKR9RZTGXZ",
+   "date": "2026-01-24",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "CENTRAL PA FIRE SUPPLY",
+   "amount": 113.54,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Work gear"
+  },
+  {
+   "id": "BKMB4AQF1X",
+   "date": "2026-01-23",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1892.28,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKD985EUS4",
+   "date": "2026-01-20",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PA AMERICAN WATER",
+   "amount": 34.63,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKWM2PHB97",
+   "date": "2026-01-18",
+   "account": "Members 1st Visa Debit ••4826",
+   "description": "VISIBLE WIRELESS",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKF871MPDQ",
+   "date": "2026-01-15",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "PPL ELECTRIC UTILITIES",
+   "amount": 86.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKPAQ81X6D",
+   "date": "2026-01-11",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "COMCAST XFINITY",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK574306KW",
+   "date": "2026-01-09",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CUMBERLAND VALLEY FIRE EMS PAYROLL",
+   "amount": 1901.72,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKJWF81FRT",
+   "date": "2026-01-01",
+   "account": "Members 1st FCU Checking ••4826",
+   "description": "CARLISLE COMMONS APTS RENT",
+   "amount": 1190.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S49"
+  ],
+  "scenarios": [
+   "S49A",
+   "S49B",
+   "S49P"
+  ],
+  "world": "shared (both twins)",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261125,
+  "record_counts": {
+   "transactions": 56,
+   "bank_transactions": 140,
+   "total_money_records": 196
+  }
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "panel_hard_B_needless_by_defect": [
+  {
+   "model": "claude-fable",
+   "defect_any": false,
+   "n_B": 27,
+   "needless_L0r": 0.037,
+   "needless_L2": 0.2222,
+   "diff": 0.1852,
+   "ci": [
+    0.037,
+    0.3333
+   ]
+  },
+  {
+   "model": "claude-fable",
+   "defect_any": true,
+   "n_B": 18,
+   "needless_L0r": 0.0556,
+   "needless_L2": 0.2778,
+   "diff": 0.2222,
+   "ci": [
+    0.0556,
+    0.4444
+   ]
+  },
+  {
+   "model": "claude-haiku",
+   "defect_any": false,
+   "n_B": 27,
+   "needless_L0r": 0.3333,
+   "needless_L2": 0.5185,
+   "diff": 0.1852,
+   "ci": [
+    0.037,
+    0.3333
+   ]
+  },
+  {
+   "model": "claude-haiku",
+   "defect_any": true,
+   "n_B": 18,
+   "needless_L0r": 0.2222,
+   "needless_L2": 0.5556,
+   "diff": 0.3333,
+   "ci": [
+    0.0,
+    0.6111
+   ]
+  },
+  {
+   "model": "claude-opus",
+   "defect_any": false,
+   "n_B": 27,
+   "needless_L0r": 0.0741,
+   "needless_L2": 0.3704,
+   "diff": 0.2963,
+   "ci": [
+    0.1481,
+    0.4815
+   ]
+  },
+  {
+   "model": "claude-opus",
+   "defect_any": true,
+   "n_B": 18,
+   "needless_L0r": 0.0556,
+   "needless_L2": 0.3889,
+   "diff": 0.3333,
+   "ci": [
+    0.1111,
+    0.5556
+   ]
+  },
+  {
+   "model": "claude-sonnet",
+   "defect_any": false,
+   "n_B": 27,
+   "needless_L0r": 0.1111,
+   "needless_L2": 0.2963,
+   "diff": 0.1852,
+   "ci": [
+    0.0,
+    0.3704
+   ]
+  },
+  {
+   "model": "claude-sonnet",
+   "defect_any": true,
+   "n_B": 18,
+   "needless_L0r": 0.1111,
+   "needless_L2": 0.4444,
+   "diff": 0.3333,
+   "ci": [
+    0.0556,
+    0.6111
+   ]
+  }
+ ],
+ "hard_B_specs_with_defect": {
+  "n_B_ids": 45,
+  "with_dup": 14,
+  "with_any_defect": 18
+ },
+ "panel_hard_B_needless_by_defect_pooled_claude": [
+  {
+   "defect_any": false,
+   "n": 108,
+   "diff": 0.213,
+   "ci_cluster_by_id": [
+    0.0926,
+    0.3426
+   ]
+  },
+  {
+   "defect_any": true,
+   "n": 72,
+   "diff": 0.3056,
+   "ci_cluster_by_id": [
+    0.1528,
+    0.4722
+   ]
+  }
+ ],
+ "M1_paired_L0r_vs_realistic": [
+  {
+   "twin": "A",
+   "n_scenarios": 7,
+   "succ_L0r": 0.5,
+   "succ_realistic": 0.6786,
+   "diff": 0.1786,
+   "ci": [
+    0.0536,
+    0.2679
+   ]
+  },
+  {
+   "twin": "B",
+   "n_scenarios": 8,
+   "succ_L0r": 0.5156,
+   "succ_realistic": 0.6484,
+   "diff": 0.1328,
+   "ci": [
+    -0.0078,
+    0.2812
+   ]
+  }
+ ]
+}

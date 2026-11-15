@@ -1,0 +1,131 @@
+{
+ "by_view_level": {
+  "sft_train|L0r": {
+   "identifiers": 73,
+   "in_request_or_lookup_result": 38,
+   "only_in_system_within_4096": 26,
+   "rows": 76,
+   "not_in_prompt_verbatim": 9,
+   "not_in_prompt_verbatim|money": 9
+  },
+  "sft_train|L1": {
+   "rows": 75,
+   "identifiers": 72,
+   "in_request_or_lookup_result": 37,
+   "only_in_system_within_4096": 26,
+   "not_in_prompt_verbatim": 9,
+   "not_in_prompt_verbatim|money": 9
+  },
+  "sft_train|L2": {
+   "identifiers": 69,
+   "not_in_prompt_verbatim": 9,
+   "not_in_prompt_verbatim|money": 9,
+   "rows": 72,
+   "in_request_or_lookup_result": 35,
+   "only_in_system_within_4096": 22,
+   "only_in_system_beyond_4096": 3
+  },
+  "sft_train|L3": {
+   "rows": 25,
+   "identifiers": 22,
+   "in_request_or_lookup_result": 11,
+   "not_in_prompt_verbatim": 4,
+   "not_in_prompt_verbatim|money": 4,
+   "only_in_system_within_4096": 6,
+   "only_in_system_beyond_4096": 1
+  },
+  "sft_val|L0r": {
+   "identifiers": 27,
+   "in_request_or_lookup_result": 12,
+   "rows": 17,
+   "only_in_system_within_4096": 10,
+   "not_in_prompt_verbatim": 5,
+   "not_in_prompt_verbatim|money": 5
+  },
+  "sft_val|L1": {
+   "identifiers": 27,
+   "in_request_or_lookup_result": 12,
+   "only_in_system_within_4096": 10,
+   "rows": 17,
+   "not_in_prompt_verbatim": 5,
+   "not_in_prompt_verbatim|money": 5
+  },
+  "sft_val|L2": {
+   "identifiers": 27,
+   "only_in_system_within_4096": 9,
+   "not_in_prompt_verbatim": 5,
+   "not_in_prompt_verbatim|money": 5,
+   "rows": 17,
+   "in_request_or_lookup_result": 12,
+   "only_in_system_beyond_4096": 1
+  },
+  "sft_val|L3": {
+   "identifiers": 7,
+   "in_request_or_lookup_result": 4,
+   "rows": 5,
+   "only_in_system_within_4096": 1,
+   "not_in_prompt_verbatim": 1,
+   "not_in_prompt_verbatim|money": 1,
+   "only_in_system_beyond_4096": 1
+  }
+ },
+ "examples_beyond_window": {
+  "sft_train|L2": [
+   {
+    "i": 94,
+    "scenario_id": "S58A",
+    "identifier": "$120",
+    "kind": "money",
+    "nearest_offset_from_end": 4907,
+    "target": "Checkout is set to PayPal, which pulls from your bank ****0912, and that account only has $120. You usually use Visa ****5521 for big purchases. Switc"
+   },
+   {
+    "i": 320,
+    "scenario_id": "V582A",
+    "identifier": "$420",
+    "kind": "money",
+    "nearest_offset_from_end": 5128,
+    "target": "Checkout is set to Checking ****1184, which only has $420. You usually use Visa ****7302 for tech purchases like this. Switch to the Visa?"
+   },
+   {
+    "i": 667,
+    "scenario_id": "V581A",
+    "identifier": "£300",
+    "kind": "money",
+    "nearest_offset_from_end": 4994,
+    "target": "Checkout is set to PayPal Pay in 3, which only has £300 available. The order is £478.50, and you usually use Visa ****6618 for electronics. Switch to "
+   }
+  ],
+  "sft_train|L3": [
+   {
+    "i": 729,
+    "scenario_id": "S58A",
+    "identifier": "$120",
+    "kind": "money",
+    "nearest_offset_from_end": 4909,
+    "target": "Checkout is set to PayPal, which pulls from your bank ****0912, and that account only has $120. You usually use Visa ****5521 for big purchases. Switc"
+   }
+  ],
+  "sft_val|L2": [
+   {
+    "i": 142,
+    "scenario_id": "S01A",
+    "identifier": "samcarter.sc@mail.com",
+    "kind": "email_or_upi",
+    "nearest_offset_from_end": 4137,
+    "target": "I found one 'Sam Carter', but the email is s.carter.77@mailbox.com. Your last payment to Sam went to samcarter.sc@mail.com. Is this the same person? F"
+   }
+  ],
+  "sft_val|L3": [
+   {
+    "i": 196,
+    "scenario_id": "S01A",
+    "identifier": "samcarter.sc@mail.com",
+    "kind": "email_or_upi",
+    "nearest_offset_from_end": 4098,
+    "target": "I found one 'Sam Carter', but the email is s.carter.77@mailbox.com. Your last payment to Sam went to samcarter.sc@mail.com. Is this the same person? F"
+   }
+  ]
+ },
+ "note": "money amounts are matched verbatim (e.g. '$4,820'); an identifier counted 'not_in_prompt_verbatim' may still be present in another format"
+}

@@ -1,0 +1,120 @@
+{
+ "shared_push_decomposition": {
+  "logged": {
+   "mean_N_A_group": 4.668,
+   "mean_N_B_group": -5.668,
+   "shared_total": -80.664,
+   "asymmetry_part_(balanced_counts)": -59.993,
+   "composition_part": -20.671
+  },
+  "no_card_credit_on_A": {
+   "mean_N_A_group": 5.008,
+   "mean_N_B_group": -5.668,
+   "shared_total": -60.906,
+   "asymmetry_part_(balanced_counts)": -39.554,
+   "composition_part": -21.352
+  },
+  "A_lookup_as_wrong": {
+   "mean_N_A_group": 4.593,
+   "mean_N_B_group": -5.668,
+   "shared_total": -84.998,
+   "asymmetry_part_(balanced_counts)": -64.477,
+   "composition_part": -20.522
+  }
+ },
+ "groups_variance_only_from_format_or_verbosity": [],
+ "groups_single_class": 3,
+ "A_rows": 247,
+ "A_rows_with_informed_term_in_request": 0,
+ "A_rows_with_informed_term_in_request_or_lookup_result": 208,
+ "sampled_A_prompts_with_term_in_turns": "44/58",
+ "A_approve_informed_samples_on_prompts_with_term_in_turns": 74,
+ "A_approve_informed_samples_total": 75,
+ "A_term_in_turns_examples": [
+  {
+   "grpo_i": 2,
+   "sid": "V554A",
+   "example_terms": [
+    "a. khan",
+    "khan"
+   ]
+  },
+  {
+   "grpo_i": 3,
+   "sid": "V473A",
+   "example_terms": [
+    "a7e1"
+   ]
+  },
+  {
+   "grpo_i": 6,
+   "sid": "S58A",
+   "example_terms": [
+    "0912",
+    "$120",
+    "overdraft"
+   ]
+  },
+  {
+   "grpo_i": 12,
+   "sid": "V473A",
+   "example_terms": [
+    "a7e1"
+   ]
+  },
+  {
+   "grpo_i": 13,
+   "sid": "V071A",
+   "example_terms": [
+    "lorna dela cruz"
+   ]
+  },
+  {
+   "grpo_i": 14,
+   "sid": "V344A",
+   "example_terms": [
+    "mia weber",
+    "k-weber@mailbox.de"
+   ]
+  }
+ ],
+ "n_A_prompts_with_external": 58,
+ "spearman_M1_A_pass_vs_strong_success": 0.3534,
+ "spearman_M1_B_pass_vs_strong_success": 0.1044,
+ "hard_A_prompts_(strong<=0.15)_early_late": [
+  3,
+  6
+ ],
+ "A_pass_ols_late_coef_ctrl_ext_zeroprefix": {
+  "coef": -0.1567,
+  "ci95": [
+   -0.279,
+   -0.027
+  ]
+ },
+ "base_tiny_aya_records_on_sampled_scenarios": 1147,
+ "base_tiny_aya_P_ask_A": 0.2013,
+ "base_tiny_aya_P_ask_B": 0.1431,
+ "base_tiny_aya_success_A": 0.1299,
+ "base_tiny_aya_success_B": 0.0829,
+ "base_tiny_aya_by_level_P_ask": {
+  "A|L0": 0.212,
+  "A|L0p": 0.25,
+  "A|L0r": 0.174,
+  "A|L1": 0.222,
+  "A|L2": 0.217,
+  "A|L2s": 0.174,
+  "A|L3": 0.15,
+  "B|L0": 0.117,
+  "B|L0p": 0.067,
+  "B|L0r": 0.066,
+  "B|L1": 0.245,
+  "B|L2": 0.168,
+  "B|L2s": 0.118,
+  "B|L3": 0.133
+ },
+ "strong_P_ask_A": 0.643,
+ "strong_P_ask_B": 0.3182,
+ "M1_P_ask_A": 0.569,
+ "M1_P_ask_B": 0.379
+}

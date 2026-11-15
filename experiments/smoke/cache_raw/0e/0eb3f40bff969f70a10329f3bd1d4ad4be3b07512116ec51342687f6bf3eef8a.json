@@ -1,0 +1,1 @@
+{"text": "{\n  \"payment_recipient\": \"J. Pham\",\n  \"account_type\": \"personal\",\n  \"merchant_name\": \"Bargain Warehouse\",\n  \"payment_allowed\": false\n}", "usage": {"completion_tokens": 41, "prompt_tokens": 276, "total_tokens": 317, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.739e-05}, "finish": "stop"}

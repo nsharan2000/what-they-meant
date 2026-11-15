@@ -1,0 +1,127 @@
+level twin    n  share_empty  mean_lookups
+   L0    A  763        0.022         0.315
+   L0    B  763        0.025         0.277
+  L0p    A  180        0.006         0.539
+  L0p    B  180        0.006         0.528
+  L0r    A 2733        0.021         0.521
+  L0r    B 2736        0.021         0.520
+   L1    A 1543        0.144         0.655
+   L1    B 1547        0.153         0.669
+   L2    A 3490        0.153         0.887
+   L2    B 3491        0.195         1.042
+  L2s    A  872        0.141         0.679
+  L2s    B  869        0.152         0.716
+   L3    A  179        0.117         0.810
+   L3    B  179        0.117         0.860
+level  empty_before  mean  size
+   L0             0 0.126   744
+   L0             1 0.474    19
+  L0p             0 0.218   179
+  L0p             1 1.000     1
+  L0r             0 0.189  2679
+  L0r             1 0.702    57
+   L1             0 0.255  1311
+   L1             1 0.657   236
+   L2             0 0.294  2809
+   L2             1 0.645   682
+  L2s             0 0.176   737
+  L2s             1 0.553   132
+   L3             0 0.272   158
+   L3             1 0.381    21
+         family                         model prompt twin   metric to   n  share_empty_from  share_empty_to  diff_total  diff_via_empty  diff_without_empty
+       eval_v12         tiny-aya-global-local     P0    A      ask L1  85            0.0824          0.1412      0.0471          0.0118              0.0353
+       eval_v12         tiny-aya-global-local     P0    A      ask L2  86            0.0930          0.1512     -0.0814          0.0000             -0.0814
+       eval_v12         tiny-aya-global-local     P0    B needless L1  85            0.0824          0.1176      0.0471          0.0353              0.0118
+       eval_v12         tiny-aya-global-local     P0    B needless L2  86            0.0930          0.1279     -0.0233          0.0233             -0.0465
+       eval_v12         tiny-aya-global-local     P2    A      ask L1  86            0.0698          0.1279     -0.0930          0.0349             -0.1279
+       eval_v12         tiny-aya-global-local     P2    A      ask L2  86            0.0698          0.2093     -0.0814          0.1047             -0.1860
+       eval_v12         tiny-aya-global-local     P2    B needless L1  86            0.0814          0.1279     -0.0814          0.0233             -0.1047
+       eval_v12         tiny-aya-global-local     P2    B needless L2  86            0.0814          0.1744     -0.0698          0.0581             -0.1279
+ panel_hard_v12                 DeepSeek-V3.2     P2    A      ask L2  45            0.0222          0.0889      0.1556          0.0667              0.0889
+ panel_hard_v12                 DeepSeek-V3.2     P2    B needless L2  45            0.0222          0.1556      0.0444          0.0000              0.0444
+ panel_hard_v12 Qwen3-235B-A22B-Instruct-2507     P2    A      ask L2  45            0.0667          0.0444     -0.0444          0.0000             -0.0444
+ panel_hard_v12 Qwen3-235B-A22B-Instruct-2507     P2    B needless L2  45            0.0444          0.1778     -0.1111          0.0222             -0.1333
+ panel_hard_v12                  claude-fable     P2    A      ask L2  45            0.0000          0.1333      0.0222          0.1333             -0.1111
+ panel_hard_v12                  claude-fable     P2    B needless L2  45            0.0000          0.2222      0.2000          0.0889              0.1111
+ panel_hard_v12                  claude-haiku     P2    A      ask L2  45            0.0000          0.0444     -0.0889          0.0444             -0.1333
+ panel_hard_v12                  claude-haiku     P2    B needless L2  45            0.0000          0.0889      0.2444          0.0444              0.2000
+ panel_hard_v12                   claude-opus     P2    A      ask L2  45            0.0222          0.1111      0.0000          0.0889             -0.0889
+ panel_hard_v12                   claude-opus     P2    B needless L2  45            0.0000          0.0889      0.3111          0.0444              0.2667
+ panel_hard_v12                 claude-sonnet     P2    A      ask L2  45            0.0000          0.0667      0.0222          0.0667             -0.0444
+ panel_hard_v12                 claude-sonnet     P2    B needless L2  45            0.0000          0.0889      0.2444          0.0667              0.1778
+seed_v11_claude                  claude-haiku     P0    A      ask L2  45            0.0222          0.2000      0.0444          0.1556             -0.1111
+seed_v11_claude                  claude-haiku     P0    B needless L2  45            0.0222          0.2667     -0.0444          0.1556             -0.2000
+seed_v11_claude                  claude-haiku     P1    A      ask L2  45            0.0000          0.1111     -0.0667          0.0889             -0.1556
+seed_v11_claude                  claude-haiku     P1    B needless L2  45            0.0222          0.2000     -0.0667          0.1111             -0.1778
+seed_v11_claude                   claude-opus     P0    A      ask L2  45            0.0222          0.2444     -0.0889          0.1778             -0.2667
+seed_v11_claude                   claude-opus     P0    B needless L2  45            0.0000          0.3111      0.1556          0.2000             -0.0444
+seed_v11_claude                   claude-opus     P1    A      ask L2  45            0.0222          0.1333     -0.0889          0.0889             -0.1778
+seed_v11_claude                   claude-opus     P1    B needless L2  45            0.0000          0.2889      0.0889          0.1778             -0.0889
+seed_v11_claude                 claude-sonnet     P0    A      ask L2  45            0.0222          0.1556     -0.0667          0.0889             -0.1556
+seed_v11_claude                 claude-sonnet     P0    B needless L2  45            0.0000          0.2444      0.0000          0.1556             -0.1556
+seed_v11_claude                 claude-sonnet     P1    A      ask L2  45            0.0000          0.0889     -0.1111          0.0667             -0.1778
+seed_v11_claude                 claude-sonnet     P1    B needless L2  45            0.0222          0.2222      0.0000          0.1556             -0.1556
+ seed_v11_local         tiny-aya-global-local     P0    A      ask L1  45            0.1333          0.1333      0.0667          0.0222              0.0444
+ seed_v11_local         tiny-aya-global-local     P0    A      ask L2  45            0.1333          0.1778     -0.0222          0.0222             -0.0444
+ seed_v11_local         tiny-aya-global-local     P0    B needless L1  45            0.1778          0.1778      0.0667          0.0222              0.0444
+ seed_v11_local         tiny-aya-global-local     P0    B needless L2  45            0.1778          0.2000     -0.1111         -0.0667             -0.0444
+ seed_v11_local         tiny-aya-global-local     P1    A      ask L1  45            0.1556          0.1778      0.0667          0.0667              0.0000
+ seed_v11_local         tiny-aya-global-local     P1    A      ask L2  45            0.1556          0.1556      0.0000          0.0222             -0.0222
+ seed_v11_local         tiny-aya-global-local     P1    B needless L1  45            0.1778          0.2222      0.1111          0.1111              0.0000
+ seed_v11_local         tiny-aya-global-local     P1    B needless L2  45            0.1778          0.2222      0.0444          0.0444              0.0000
+  seed_v11_open                 DeepSeek-V3.2     P0    A      ask L1  45            0.0000          0.4000      0.2667          0.2444              0.0222
+  seed_v11_open                 DeepSeek-V3.2     P0    A      ask L2  45            0.0000          0.2889      0.1778          0.1556              0.0222
+  seed_v11_open                 DeepSeek-V3.2     P0    B needless L1  45            0.0000          0.2222      0.0889          0.0889              0.0000
+  seed_v11_open                 DeepSeek-V3.2     P0    B needless L2  45            0.0000          0.2889      0.1333          0.0667              0.0667
+  seed_v11_open                 DeepSeek-V3.2     P1    A      ask L1  45            0.0000          0.4444      0.0889          0.3556             -0.2667
+  seed_v11_open                 DeepSeek-V3.2     P1    A      ask L2  45            0.0000          0.3111      0.0000          0.2000             -0.2000
+  seed_v11_open                 DeepSeek-V3.2     P1    B needless L1  45            0.0000          0.4222      0.1556          0.1778             -0.0222
+  seed_v11_open                 DeepSeek-V3.2     P1    B needless L2  45            0.0000          0.3333      0.1333          0.1111              0.0222
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507     P0    A      ask L1  45            0.0000          0.0889      0.0889          0.0667              0.0222
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507     P0    A      ask L2  45            0.0000          0.0667      0.0889          0.0667              0.0222
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507     P0    B needless L1  45            0.0000          0.1556      0.1111          0.0667              0.0444
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507     P0    B needless L2  45            0.0000          0.1333      0.0000          0.0444             -0.0444
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507     P1    A      ask L1  45            0.0000          0.1111     -0.1778          0.0667             -0.2444
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507     P1    A      ask L2  45            0.0000          0.0889     -0.1778          0.0667             -0.2444
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507     P1    B needless L1  45            0.0000          0.2000      0.1778          0.1333              0.0444
+  seed_v11_open Qwen3-235B-A22B-Instruct-2507     P1    B needless L2  45            0.0000          0.0889      0.1111          0.0667              0.0444
+  seed_v11_open               aya-expanse-32b     P0    A      ask L1  45            0.0222          0.0222      0.2000          0.0222              0.1778
+  seed_v11_open               aya-expanse-32b     P0    A      ask L2  45            0.0222          0.0222      0.0889          0.0000              0.0889
+  seed_v11_open               aya-expanse-32b     P0    B needless L1  45            0.0222          0.0222      0.1556          0.0222              0.1333
+  seed_v11_open               aya-expanse-32b     P0    B needless L2  45            0.0222          0.0000      0.1556          0.0000              0.1556
+  seed_v11_open               aya-expanse-32b     P1    A      ask L1  45            0.0000          0.0444     -0.0889          0.0000             -0.0889
+  seed_v11_open               aya-expanse-32b     P1    A      ask L2  45            0.0000          0.0222     -0.0889          0.0000             -0.0889
+  seed_v11_open               aya-expanse-32b     P1    B needless L1  45            0.0000          0.0000      0.0222          0.0000              0.0222
+  seed_v11_open               aya-expanse-32b     P1    B needless L2  45            0.0000          0.0444     -0.0444          0.0222             -0.0667
+  seed_v11_open               tiny-aya-global     P0    A      ask L1  45            0.0000          0.0222      0.1111          0.0000              0.1111
+  seed_v11_open               tiny-aya-global     P0    A      ask L2  43            0.0000          0.0000      0.0698          0.0000              0.0698
+  seed_v11_open               tiny-aya-global     P0    B needless L1  45            0.0000          0.0667      0.0444          0.0222              0.0222
+  seed_v11_open               tiny-aya-global     P0    B needless L2  44            0.0000          0.0227      0.0227          0.0000              0.0227
+  seed_v11_open               tiny-aya-global     P1    A      ask L1  45            0.0000          0.0222      0.0000          0.0222             -0.0222
+  seed_v11_open               tiny-aya-global     P1    A      ask L2  45            0.0000          0.0000     -0.0444          0.0000             -0.0444
+  seed_v11_open               tiny-aya-global     P1    B needless L1  45            0.0000          0.0444      0.0000          0.0222             -0.0222
+  seed_v11_open               tiny-aya-global     P1    B needless L2  45            0.0000          0.0222     -0.0222          0.0222             -0.0444
+    variants_v1                 DeepSeek-V3.2     P0    A      ask L2 109            0.0092          0.4312      0.4312          0.2569              0.1743
+    variants_v1                 DeepSeek-V3.2     P0    B needless L2 109            0.0183          0.4128      0.4312          0.2569              0.1743
+    variants_v1                 DeepSeek-V3.2     P1    A      ask L1 109            0.0459          0.5321      0.2018          0.3119             -0.1101
+    variants_v1                 DeepSeek-V3.2     P1    A      ask L2 109            0.0459          0.4220      0.2752          0.2661              0.0092
+    variants_v1                 DeepSeek-V3.2     P1    B needless L1 109            0.0459          0.4771      0.3211          0.2202              0.1009
+    variants_v1                 DeepSeek-V3.2     P1    B needless L2 109            0.0459          0.4771      0.3945          0.2477              0.1468
+    variants_v1 Qwen3-235B-A22B-Instruct-2507     P0    A      ask L2 109            0.0367          0.2477      0.0367          0.1560             -0.1193
+    variants_v1 Qwen3-235B-A22B-Instruct-2507     P0    B needless L2 109            0.0275          0.2661      0.1284          0.1835             -0.0550
+    variants_v1 Qwen3-235B-A22B-Instruct-2507     P1    A      ask L1 109            0.0183          0.1560     -0.0275          0.1193             -0.1468
+    variants_v1 Qwen3-235B-A22B-Instruct-2507     P1    A      ask L2 109            0.0183          0.1468     -0.0459          0.1193             -0.1651
+    variants_v1 Qwen3-235B-A22B-Instruct-2507     P1    B needless L1 109            0.0183          0.2477      0.1927          0.1927              0.0000
+    variants_v1 Qwen3-235B-A22B-Instruct-2507     P1    B needless L2 109            0.0183          0.2110      0.1651          0.1468              0.0183
+    variants_v1               aya-expanse-32b     P0    A      ask L2 109            0.0183          0.0459      0.2661          0.0275              0.2385
+    variants_v1               aya-expanse-32b     P0    B needless L2 109            0.0183          0.0550      0.2477          0.0183              0.2294
+    variants_v1               aya-expanse-32b     P1    A      ask L1 100            0.0200          0.0500      0.0800          0.0200              0.0600
+    variants_v1               aya-expanse-32b     P1    A      ask L2 100            0.0200          0.0300     -0.0100          0.0100             -0.0200
+    variants_v1               aya-expanse-32b     P1    B needless L1 104            0.0192          0.0865      0.0000          0.0385             -0.0385
+    variants_v1               aya-expanse-32b     P1    B needless L2 102            0.0196          0.0490     -0.0098          0.0098             -0.0196
+    variants_v1               tiny-aya-global     P0    A      ask L2 109            0.0092          0.0275      0.0092          0.0000              0.0092
+    variants_v1               tiny-aya-global     P0    B needless L2 108            0.0093          0.0093      0.0463         -0.0093              0.0556
+    variants_v1               tiny-aya-global     P1    A      ask L1 109            0.0092          0.0275      0.0459          0.0183              0.0275
+    variants_v1               tiny-aya-global     P1    A      ask L2 109            0.0092          0.0275      0.0000          0.0092             -0.0092
+    variants_v1               tiny-aya-global     P1    B needless L1 109            0.0092          0.0183      0.0917          0.0092              0.0826
+    variants_v1               tiny-aya-global     P1    B needless L2 109            0.0092          0.0092      0.0092          0.0000              0.0092

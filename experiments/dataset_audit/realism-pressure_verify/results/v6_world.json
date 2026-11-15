@@ -1,0 +1,151 @@
+{
+ "spec_level": {
+  "hard_test": {
+   "specs": 26,
+   "with_rule_txns": 21,
+   "missing_in_L1_window": 6,
+   "missing_in_history_span": 8
+  },
+  "hard_train": {
+   "specs": 54,
+   "with_rule_txns": 24,
+   "missing_in_L1_window": 4,
+   "missing_in_history_span": 6
+  },
+  "hard_val": {
+   "specs": 10,
+   "with_rule_txns": 6,
+   "missing_in_L1_window": 3,
+   "missing_in_history_span": 3
+  },
+  "test": {
+   "specs": 82,
+   "with_rule_txns": 1,
+   "missing_in_L1_window": 0,
+   "missing_in_history_span": 0
+  },
+  "train": {
+   "specs": 152,
+   "with_rule_txns": 7,
+   "missing_in_L1_window": 0,
+   "missing_in_history_span": 2
+  },
+  "val": {
+   "specs": 35,
+   "with_rule_txns": 0,
+   "missing_in_L1_window": 0,
+   "missing_in_history_span": 0
+  }
+ },
+ "spec_examples": [
+  {
+   "sid": "H191A",
+   "group": "hard_test",
+   "example": "{\"id\": null, \"date\": \"2026-11-12\", \"amount\": 1.99, \"who\": \"Quillo AI\", \"tool\": \"get_checkout_terms\"}"
+  },
+  {
+   "sid": "H191B",
+   "group": "hard_test",
+   "example": "{\"id\": null, \"date\": \"2026-11-12\", \"amount\": 1.99, \"who\": \"Quillo AI\", \"tool\": \"get_checkout_terms\"}"
+  },
+  {
+   "sid": "H291A",
+   "group": "hard_test",
+   "example": "{\"id\": \"cp0157\", \"date\": \"2026-11-13\", \"amount\": 212000.0, \"who\": \"Lakeview rehab draw packet\", \"tool\": \"get_transactions\"}"
+  },
+  {
+   "sid": "H451A",
+   "group": "hard_test",
+   "example": "{\"id\": null, \"date\": \"2026-11-13\", \"amount\": 85.0, \"who\": \"\", \"tool\": \"get_payment_request\"}"
+  },
+  {
+   "sid": "H051A",
+   "group": "hard_test",
+   "example": "{\"id\": \"RQ-88341\", \"date\": \"2026-11-12\", \"amount\": 300.0, \"who\": \"\", \"tool\": \"list_requests\"}"
+  },
+  {
+   "sid": "H051B",
+   "group": "hard_test",
+   "example": "{\"id\": \"RQ-88297\", \"date\": \"2026-11-12\", \"amount\": 300.0, \"who\": \"\", \"tool\": \"list_requests\"}"
+  },
+  {
+   "sid": "H581A",
+   "group": "hard_train",
+   "example": "{\"id\": null, \"date\": \"2026-11-13\", \"amount\": 189.5, \"who\": \"Hartwell Auto Service\", \"tool\": \"get_payment_request\"}"
+  },
+  {
+   "sid": "H581B",
+   "group": "hard_train",
+   "example": "{\"id\": null, \"date\": \"2026-11-13\", \"amount\": 189.5, \"who\": \"Hartwell Auto Service\", \"tool\": \"get_payment_request\"}"
+  }
+ ],
+ "training_rows_L1to3": {
+  "grpo_train": {
+   "rows_with_history": 345,
+   "rows_tool_txn_missing_from_history": 2,
+   "A": 2,
+   "B": 0,
+   "scenarios": [
+    "S22A"
+   ]
+  },
+  "sft_train": {
+   "rows_with_history": 623,
+   "rows_tool_txn_missing_from_history": 2,
+   "A": 2,
+   "B": 0,
+   "scenarios": [
+    "S22A"
+   ]
+  },
+  "sft_val": {
+   "rows_with_history": 156,
+   "rows_tool_txn_missing_from_history": 0,
+   "A": 0,
+   "B": 0,
+   "scenarios": []
+  }
+ },
+ "training_row_examples": [
+  {
+   "file": "sft_train",
+   "line": 565,
+   "sid": "S22A",
+   "twin": "A",
+   "level": "L2",
+   "turn": "decision",
+   "n_missing": 1,
+   "example": "{\"id\": null, \"date\": \"2026-08-20\", \"amount\": 3600.0, \"who\": \"\"}"
+  },
+  {
+   "file": "sft_train",
+   "line": 853,
+   "sid": "S22A",
+   "twin": "A",
+   "level": "L3",
+   "turn": "decision",
+   "n_missing": 1,
+   "example": "{\"id\": null, \"date\": \"2026-08-20\", \"amount\": 3600.0, \"who\": \"\"}"
+  },
+  {
+   "file": "grpo_train",
+   "line": 114,
+   "sid": "S22A",
+   "twin": "A",
+   "level": "L3",
+   "turn": "decision",
+   "n_missing": 1,
+   "example": "{\"id\": null, \"date\": \"2026-08-20\", \"amount\": 3600.0, \"who\": \"\"}"
+  },
+  {
+   "file": "grpo_train",
+   "line": 247,
+   "sid": "S22A",
+   "twin": "A",
+   "level": "L2",
+   "turn": "decision",
+   "n_missing": 1,
+   "example": "{\"id\": null, \"date\": \"2026-08-20\", \"amount\": 3600.0, \"who\": \"\"}"
+  }
+ ]
+}

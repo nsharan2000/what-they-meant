@@ -1,0 +1,17 @@
+{
+ "counts": {
+  "hard_test|adj": 26,
+  "hard_test|n": 208,
+  "hard_test|raw": 26,
+  "hard_train|adj": 41,
+  "hard_train|n": 432,
+  "hard_train|raw": 41,
+  "hard_val|adj": 7,
+  "hard_val|n": 80,
+  "hard_val|raw": 7,
+  "test|adj": 63,
+  "test|n": 654,
+  "test|raw": 63
+ },
+ "changed_rows": []
+}

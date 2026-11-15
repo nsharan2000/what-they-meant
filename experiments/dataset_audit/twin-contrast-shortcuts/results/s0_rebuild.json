@@ -1,0 +1,1292 @@
+{
+ "rebuild_dir": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/twin-contrast-shortcuts/cache/rebuild_v121",
+ "counts_rebuild": {
+  "sft_train": 1000,
+  "sft_val": 224,
+  "dpo_train": 508,
+  "grpo_train": 510
+ },
+ "counts_reported": {
+  "sft_train": 1000,
+  "sft_val": 224,
+  "dpo_train": 508,
+  "grpo_train": 510
+ },
+ "counts_match": true,
+ "dropped_match": true,
+ "sha256": {
+  "sft_train": "de5631ae85c38474781f9ccaef6c040b396507e19767d3fc3365a01ee9759637",
+  "sft_val": "cf122cffd91dc66dd358f1b07228de0575dc0e1e77e9f6dd6777028bfeb79847",
+  "dpo_train": "8573adfabd3ed9c2a52d5f26086c64add9901edf7b1df94eb5083e6bff66e20b",
+  "grpo_train": "242afb724f3dcc4f9d5637d7de51aa9669ce42e60caebe1ca889d46ffa36cf46"
+ },
+ "sha256_curated_sft_val_equals_rebuild": true,
+ "curation_attribution": {
+  "sft_train": {
+   "n_pre": 1000,
+   "n_curated": 904,
+   "curated_rows_not_in_rebuild": 0,
+   "dropped": [
+    {
+     "scenario_id": "S47B",
+     "pair_id": "S47",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S57A",
+     "pair_id": "S57",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V074A",
+     "pair_id": "V074",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S47A",
+     "pair_id": "S47",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V253A",
+     "pair_id": "V253",
+     "twin": "A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "S58B",
+     "pair_id": "S58",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S15A",
+     "pair_id": "S15",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "S47A",
+     "pair_id": "S47",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V491A",
+     "pair_id": "V491",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S47A",
+     "pair_id": "S47",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S57B",
+     "pair_id": "S57",
+     "twin": "B",
+     "level": "L3",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S57B",
+     "pair_id": "S57",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S32A",
+     "pair_id": "S32",
+     "twin": "A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V253A",
+     "pair_id": "V253",
+     "twin": "A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "S57A",
+     "pair_id": "S57",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S57A",
+     "pair_id": "S57",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S47A",
+     "pair_id": "S47",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V552B",
+     "pair_id": "V552",
+     "twin": "B",
+     "level": "L0r",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S04B",
+     "pair_id": "S04",
+     "twin": "B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S35A",
+     "pair_id": "S35",
+     "twin": "A",
+     "level": "L1",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "S58A",
+     "pair_id": "S58",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V554A",
+     "pair_id": "V554",
+     "twin": "A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V474A",
+     "pair_id": "V474",
+     "twin": "A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "S15B",
+     "pair_id": "S15",
+     "twin": "B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V581A",
+     "pair_id": "V581",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V491B",
+     "pair_id": "V491",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V491B",
+     "pair_id": "V491",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S55A",
+     "pair_id": "S55",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "S14A",
+     "pair_id": "S14",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "S47B",
+     "pair_id": "S47",
+     "twin": "B",
+     "level": "L3",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V322B",
+     "pair_id": "V322",
+     "twin": "B",
+     "level": "L1",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S55B",
+     "pair_id": "S55",
+     "twin": "B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V181B",
+     "pair_id": "V181",
+     "twin": "B",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S32A",
+     "pair_id": "S32",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "S47B",
+     "pair_id": "S47",
+     "twin": "B",
+     "level": "L3",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V473A",
+     "pair_id": "V473",
+     "twin": "A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "S04A",
+     "pair_id": "S04",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V551A",
+     "pair_id": "V551",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V043A",
+     "pair_id": "V043",
+     "twin": "A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V472B",
+     "pair_id": "V472",
+     "twin": "B",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S04A",
+     "pair_id": "S04",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V184A",
+     "pair_id": "V184",
+     "twin": "A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V552B",
+     "pair_id": "V552",
+     "twin": "B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V074B",
+     "pair_id": "V074",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S35A",
+     "pair_id": "S35",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "S25B",
+     "pair_id": "S25",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S57A",
+     "pair_id": "S57",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V152A",
+     "pair_id": "V152",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "S35A",
+     "pair_id": "S35",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V321B",
+     "pair_id": "V321",
+     "twin": "B",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S58A",
+     "pair_id": "S58",
+     "twin": "A",
+     "level": "L1",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V582B",
+     "pair_id": "V582",
+     "twin": "B",
+     "level": "L0r",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S22A",
+     "pair_id": "S22",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V074B",
+     "pair_id": "V074",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V581A",
+     "pair_id": "V581",
+     "twin": "A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V181B",
+     "pair_id": "V181",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V113A",
+     "pair_id": "V113",
+     "twin": "A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V044B",
+     "pair_id": "V044",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V573B",
+     "pair_id": "V573",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V491A",
+     "pair_id": "V491",
+     "twin": "A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V583B",
+     "pair_id": "V583",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V322B",
+     "pair_id": "V322",
+     "twin": "B",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V184B",
+     "pair_id": "V184",
+     "twin": "B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V573B",
+     "pair_id": "V573",
+     "twin": "B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V584A",
+     "pair_id": "V584",
+     "twin": "A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V074A",
+     "pair_id": "V074",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S22A",
+     "pair_id": "S22",
+     "twin": "A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V491A",
+     "pair_id": "V491",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate_of_secrets_gated_row",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V473B",
+     "pair_id": "V473",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V183B",
+     "pair_id": "V183",
+     "twin": "B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S15A",
+     "pair_id": "S15",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V581B",
+     "pair_id": "V581",
+     "twin": "B",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V321B",
+     "pair_id": "V321",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V042A",
+     "pair_id": "V042",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V182A",
+     "pair_id": "V182",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V582B",
+     "pair_id": "V582",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S25B",
+     "pair_id": "S25",
+     "twin": "B",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S47B",
+     "pair_id": "S47",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate_of_secrets_gated_row",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V254A",
+     "pair_id": "V254",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V554A",
+     "pair_id": "V554",
+     "twin": "A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V551A",
+     "pair_id": "V551",
+     "twin": "A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V322A",
+     "pair_id": "V322",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V223B",
+     "pair_id": "V223",
+     "twin": "B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V043B",
+     "pair_id": "V043",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S58A",
+     "pair_id": "S58",
+     "twin": "A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V583B",
+     "pair_id": "V583",
+     "twin": "B",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S57B",
+     "pair_id": "S57",
+     "twin": "B",
+     "level": "L3",
+     "prompt_setting": "P2",
+     "turn": "lookup1",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S35A",
+     "pair_id": "S35",
+     "twin": "A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V152A",
+     "pair_id": "V152",
+     "twin": "A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "S14B",
+     "pair_id": "S14",
+     "twin": "B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V553B",
+     "pair_id": "V553",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "V182A",
+     "pair_id": "V182",
+     "twin": "A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V471B",
+     "pair_id": "V471",
+     "twin": "B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "A"
+    },
+    {
+     "scenario_id": "S57B",
+     "pair_id": "S57",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V113A",
+     "pair_id": "V113",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    },
+    {
+     "scenario_id": "V254A",
+     "pair_id": "V254",
+     "twin": "A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "lookup1",
+     "reason": "curator_exact_duplicate",
+     "kept_duplicate_twin": "B"
+    }
+   ],
+   "dropped_by_reason_twin": {
+    "curator_secrets_gate|B|decision": 6,
+    "curator_secrets_gate|A|lookup1": 5,
+    "curator_secrets_gate|A|decision": 6,
+    "curator_exact_duplicate|A|lookup1": 41,
+    "curator_exact_duplicate|B|lookup1": 31,
+    "curator_secrets_gate|B|lookup1": 5,
+    "curator_exact_duplicate_of_secrets_gated_row|A|lookup1": 1,
+    "curator_exact_duplicate_of_secrets_gated_row|B|lookup1": 1
+   }
+  },
+  "sft_val": {
+   "n_pre": 224,
+   "n_curated": 224,
+   "curated_rows_not_in_rebuild": 0,
+   "dropped": [],
+   "dropped_by_reason_twin": {}
+  },
+  "dpo_train": {
+   "n_pre": 508,
+   "n_curated": 496,
+   "curated_rows_not_in_rebuild": 0,
+   "dropped": [
+    {
+     "scenario_id": "V074B",
+     "pair_id": "V074",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S57A",
+     "pair_id": "S57",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V074A",
+     "pair_id": "V074",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S57A",
+     "pair_id": "S57",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S47A",
+     "pair_id": "S47",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V491A",
+     "pair_id": "V491",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S57B",
+     "pair_id": "S57",
+     "twin": "B",
+     "level": "L3",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V491B",
+     "pair_id": "V491",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S57B",
+     "pair_id": "S57",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S47B",
+     "pair_id": "S47",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S47A",
+     "pair_id": "S47",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S47B",
+     "pair_id": "S47",
+     "twin": "B",
+     "level": "L3",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "curator_secrets_gate",
+     "kept_duplicate_twin": null
+    }
+   ],
+   "dropped_by_reason_twin": {
+    "curator_secrets_gate|B|decision": 6,
+    "curator_secrets_gate|A|decision": 6
+   }
+  },
+  "grpo_train": {
+   "n_pre": 510,
+   "n_curated": 496,
+   "curated_rows_not_in_rebuild": 0,
+   "dropped": [
+    {
+     "scenario_id": "V074B",
+     "pair_id": "V074",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V491A",
+     "pair_id": "V491",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V031A",
+     "pair_id": "V031",
+     "twin": "A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S47A",
+     "pair_id": "S47",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S47B",
+     "pair_id": "S47",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S47A",
+     "pair_id": "S47",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S57B",
+     "pair_id": "S57",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S57B",
+     "pair_id": "S57",
+     "twin": "B",
+     "level": "L3",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S57A",
+     "pair_id": "S57",
+     "twin": "A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V072A",
+     "pair_id": "V072",
+     "twin": "A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S47B",
+     "pair_id": "S47",
+     "twin": "B",
+     "level": "L3",
+     "prompt_setting": "P2",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V074A",
+     "pair_id": "V074",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "V491B",
+     "pair_id": "V491",
+     "twin": "B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    },
+    {
+     "scenario_id": "S57A",
+     "pair_id": "S57",
+     "twin": "A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "turn": "decision",
+     "reason": "grpo_prompt_not_in_curated_dpo",
+     "kept_duplicate_twin": null
+    }
+   ],
+   "dropped_by_reason_twin": {
+    "grpo_prompt_not_in_curated_dpo|B|decision": 6,
+    "grpo_prompt_not_in_curated_dpo|A|decision": 8
+   }
+  }
+ }
+}

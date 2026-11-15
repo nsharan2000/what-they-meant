@@ -1,0 +1,361 @@
+{
+ "distinct_decision_targets": {
+  "sft_train": 149,
+  "sft_val": 34
+ },
+ "ngram_coverage_mean": {
+  "3gram": {
+   "message": {
+    "val_vs_train": 0.096,
+    "train_leave_cluster_out": 0.119,
+    "train_leave_pair_out": 0.544,
+    "n_val": 17,
+    "n_train": 74
+   },
+   "ui": {
+    "val_vs_train": 0.186,
+    "train_leave_cluster_out": 0.124,
+    "train_leave_pair_out": 0.322,
+    "n_val": 14,
+    "n_train": 70
+   },
+   "commit": {
+    "val_vs_train": 0.0,
+    "train_leave_cluster_out": 0.026,
+    "train_leave_pair_out": 0.132,
+    "n_val": 3,
+    "n_train": 5
+   },
+   "all": {
+    "val_vs_train": 0.125,
+    "train_leave_cluster_out": 0.118,
+    "train_leave_pair_out": 0.426,
+    "n_val": 34,
+    "n_train": 149
+   }
+  },
+  "4gram": {
+   "message": {
+    "val_vs_train": 0.033,
+    "train_leave_cluster_out": 0.061,
+    "train_leave_pair_out": 0.469,
+    "n_val": 17,
+    "n_train": 74
+   },
+   "ui": {
+    "val_vs_train": 0.14,
+    "train_leave_cluster_out": 0.081,
+    "train_leave_pair_out": 0.222,
+    "n_val": 14,
+    "n_train": 70
+   },
+   "commit": {
+    "val_vs_train": 0.0,
+    "train_leave_cluster_out": 0.017,
+    "train_leave_pair_out": 0.12,
+    "n_val": 3,
+    "n_train": 5
+   },
+   "all": {
+    "val_vs_train": 0.074,
+    "train_leave_cluster_out": 0.069,
+    "train_leave_pair_out": 0.343,
+    "n_val": 34,
+    "n_train": 149
+   }
+  }
+ },
+ "variant_vs_own_seed_similarity": {
+  "n_variant_targets_with_seed_in_train": 93,
+  "mean_sim_to_own_seed": 0.627,
+  "mean_max_sim_other_cluster": 0.383,
+  "share_sim_to_own_seed_ge_0.6": 0.613,
+  "share_sim_to_own_seed_ge_0.8": 0.258,
+  "by_kind": {
+   "commit": 0.344,
+   "message": 0.689,
+   "ui": 0.58
+  },
+  "top_examples": [
+   {
+    "scenario_id": "V532A",
+    "kind": "message",
+    "sim_to_own_seed": 0.9666666666666667,
+    "max_sim_other_cluster": 0.2571428571428571,
+    "target": "Paying a stranger as 'friends' means no purchase protection, and this account is 3 days old. Should I send it as a prote"
+   },
+   {
+    "scenario_id": "V091A",
+    "kind": "message",
+    "sim_to_own_seed": 0.96,
+    "max_sim_other_cluster": 0.23076923076923078,
+    "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by ca"
+   },
+   {
+    "scenario_id": "V094A",
+    "kind": "message",
+    "sim_to_own_seed": 0.9473684210526315,
+    "max_sim_other_cluster": 0.22784810126582278,
+    "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by ca"
+   },
+   {
+    "scenario_id": "V093A",
+    "kind": "message",
+    "sim_to_own_seed": 0.9333333333333333,
+    "max_sim_other_cluster": 0.22857142857142856,
+    "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by ca"
+   }
+  ]
+ },
+ "top_train_message_4grams": [
+  {
+   "phrase": "do you still want",
+   "train_targets": 9,
+   "val_targets": 0
+  },
+  {
+   "phrase": ". do you still",
+   "train_targets": 9,
+   "val_targets": 0
+  },
+  {
+   "phrase": ". did you mean",
+   "train_targets": 8,
+   "val_targets": 0
+  },
+  {
+   "phrase": ". do you want",
+   "train_targets": 7,
+   "val_targets": 1
+  },
+  {
+   "phrase": "the qr code pays",
+   "train_targets": 7,
+   "val_targets": 0
+  },
+  {
+   "phrase": "@ mail . com",
+   "train_targets": 6,
+   "val_targets": 4
+  },
+  {
+   "phrase": "visa * * *",
+   "train_targets": 6,
+   "val_targets": 0
+  },
+  {
+   "phrase": ". should i use",
+   "train_targets": 5,
+   "val_targets": 0
+  },
+  {
+   "phrase": ", but your saved",
+   "train_targets": 5,
+   "val_targets": 0
+  },
+  {
+   "phrase": ") , but your",
+   "train_targets": 5,
+   "val_targets": 0
+  },
+  {
+   "phrase": ", but the billing",
+   "train_targets": 5,
+   "val_targets": 0
+  },
+  {
+   "phrase": "the sign - up",
+   "train_targets": 5,
+   "val_targets": 0
+  },
+  {
+   "phrase": ". that does not",
+   "train_targets": 5,
+   "val_targets": 0
+  },
+  {
+   "phrase": "sign - up popup",
+   "train_targets": 5,
+   "val_targets": 0
+  },
+  {
+   "phrase": "says the trial renews",
+   "train_targets": 5,
+   "val_targets": 0
+  }
+ ],
+ "style": {
+  "sft_train|message|seed": {
+   "n": 26,
+   "tokens_mean": 43.0,
+   "words_mean": 37.8,
+   "chars_mean": 158.1,
+   "ends_with_question_mark": 0.962,
+   "question_marks_mean": 1.0,
+   "sentences_mean": 2.92,
+   "starts_The": 0.577,
+   "has_should_i": 0.346,
+   "has_do_you_want": 0.154,
+   "has_did_you_mean": 0.038,
+   "has_digit": 0.808
+  },
+  "sft_train|message|variant": {
+   "n": 47,
+   "tokens_mean": 44.7,
+   "words_mean": 39.2,
+   "chars_mean": 162.2,
+   "ends_with_question_mark": 0.979,
+   "question_marks_mean": 1.02,
+   "sentences_mean": 2.94,
+   "starts_The": 0.553,
+   "has_should_i": 0.298,
+   "has_do_you_want": 0.064,
+   "has_did_you_mean": 0.149,
+   "has_digit": 0.66
+  },
+  "sft_train|ui|seed": {
+   "n": 23,
+   "tokens_mean": 46.7,
+   "words_mean": 14.3,
+   "chars_mean": 52.2,
+   "ends_with_question_mark": 1.0,
+   "question_marks_mean": 1.0,
+   "sentences_mean": 1.04,
+   "starts_The": 0.0,
+   "has_should_i": 0.0,
+   "has_do_you_want": 0.0,
+   "has_did_you_mean": 0.0,
+   "has_digit": 0.957
+  },
+  "sft_train|ui|variant": {
+   "n": 47,
+   "tokens_mean": 49.1,
+   "words_mean": 15.9,
+   "chars_mean": 59.1,
+   "ends_with_question_mark": 1.0,
+   "question_marks_mean": 1.0,
+   "sentences_mean": 1.02,
+   "starts_The": 0.0,
+   "has_should_i": 0.0,
+   "has_do_you_want": 0.0,
+   "has_did_you_mean": 0.0,
+   "has_digit": 1.0
+  },
+  "sft_val|message|seed": {
+   "n": 5,
+   "tokens_mean": 44.0,
+   "words_mean": 39.4,
+   "chars_mean": 164.6,
+   "ends_with_question_mark": 0.8,
+   "question_marks_mean": 1.0,
+   "sentences_mean": 3.6,
+   "starts_The": 0.4,
+   "has_should_i": 0.4,
+   "has_do_you_want": 0.2,
+   "has_did_you_mean": 0.0,
+   "has_digit": 0.8
+  },
+  "sft_val|message|variant": {
+   "n": 12,
+   "tokens_mean": 50.1,
+   "words_mean": 44.1,
+   "chars_mean": 180.9,
+   "ends_with_question_mark": 0.667,
+   "question_marks_mean": 1.0,
+   "sentences_mean": 4.08,
+   "starts_The": 0.5,
+   "has_should_i": 0.5,
+   "has_do_you_want": 0.0,
+   "has_did_you_mean": 0.0,
+   "has_digit": 0.917
+  },
+  "sft_val|ui|seed": {
+   "n": 4,
+   "tokens_mean": 47.0,
+   "words_mean": 14.2,
+   "chars_mean": 53.0,
+   "ends_with_question_mark": 0.75,
+   "question_marks_mean": 1.0,
+   "sentences_mean": 1.5,
+   "starts_The": 0.0,
+   "has_should_i": 0.0,
+   "has_do_you_want": 0.0,
+   "has_did_you_mean": 0.0,
+   "has_digit": 1.0
+  },
+  "sft_val|ui|variant": {
+   "n": 10,
+   "tokens_mean": 50.6,
+   "words_mean": 17.4,
+   "chars_mean": 66.1,
+   "ends_with_question_mark": 0.6,
+   "question_marks_mean": 1.0,
+   "sentences_mean": 1.6,
+   "starts_The": 0.0,
+   "has_should_i": 0.0,
+   "has_do_you_want": 0.0,
+   "has_did_you_mean": 0.0,
+   "has_digit": 1.0
+  }
+ },
+ "val_most_novel": [
+  {
+   "scenario_id": "V363B",
+   "kind": "commit",
+   "cov4_vs_train": 0.0,
+   "target": "<tool_call>{\"name\": \"click_button\", \"arguments\": {\"page\": \"Shellscape > Manage plan\", \"button\": \"Cancel subscription\"}}</tool_call>"
+  },
+  {
+   "scenario_id": "V283B",
+   "kind": "ui",
+   "cov4_vs_train": 0.0,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Pay ₹890.00 for invoice D. Rao (brake service) at Speedy Brake Care?\"}}</tool_call>"
+  },
+  {
+   "scenario_id": "V281B",
+   "kind": "ui",
+   "cov4_vs_train": 0.0,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Pay $195.00 for invoice Chris Allen (cleaning and X-ray)?\"}}</tool_call>"
+  },
+  {
+   "scenario_id": "S28B",
+   "kind": "ui",
+   "cov4_vs_train": 0.0,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Pay $189.50 for invoice R. Menon (brake pads)?\"}}</tool_call>"
+  }
+ ],
+ "val_least_novel": [
+  {
+   "scenario_id": "V563B",
+   "kind": "ui",
+   "cov4_vs_train": 0.25,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $40.00 to Kelsey Gray?\"}}</tool_call>"
+  },
+  {
+   "scenario_id": "S01B",
+   "kind": "ui",
+   "cov4_vs_train": 0.45454545454545453,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $175.00 to Sam Carter (samcarter.sc@mail.com) via Friends & Family? (cannot be reversed)\"}}</tool_call>"
+  },
+  {
+   "scenario_id": "S56B",
+   "kind": "ui",
+   "cov4_vs_train": 0.75,
+   "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $40.00 to Ethan Price?\"}}</tool_call>"
+  }
+ ],
+ "val_vs_train_trained_token_mix": {
+  "val_lookup_token_share": 0.393,
+  "train_lookup_token_share": 0.365,
+  "val_decision_kind_rows": {
+   "commit": 10,
+   "ui": 46,
+   "message": 56
+  },
+  "train_decision_kind_rows": {
+   "message": 248,
+   "ui": 231,
+   "commit": 18
+  }
+ }
+}

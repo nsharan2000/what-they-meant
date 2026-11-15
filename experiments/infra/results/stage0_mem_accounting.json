@@ -1,0 +1,93 @@
+{
+ "gib": 8.0,
+ "torch": "2.13.0+cu130",
+ "device": "NVIDIA GB10",
+ "alloc_conf": "expandable_segments:True",
+ "wtm_gpu_cap_gb": "10.0",
+ "apply_mem_cap_fraction": 0.08217586740313895,
+ "before": {
+  "MemTotal": 121.69,
+  "MemFree": 112.137,
+  "MemAvailable": 111.978,
+  "Unevictable": 0.025,
+  "Mlocked": 0.025,
+  "SwapTotal": 16.0,
+  "SwapFree": 15.75,
+  "VmRSS": 0.606,
+  "cgroup_memory_current": 0.567,
+  "cgroup_memory_max": 105.0,
+  "cuda_free": 112.137,
+  "cuda_total": 121.69,
+  "torch_reserved": 0.002
+ },
+ "holding": {
+  "MemTotal": 121.69,
+  "MemFree": 103.962,
+  "MemAvailable": 103.804,
+  "Unevictable": 0.025,
+  "Mlocked": 0.025,
+  "SwapTotal": 16.0,
+  "SwapFree": 15.75,
+  "VmRSS": 0.608,
+  "cgroup_memory_current": 0.583,
+  "cgroup_memory_max": 105.0,
+  "cuda_free": 103.962,
+  "cuda_total": 121.69,
+  "torch_reserved": 8.01
+ },
+ "after_free": {
+  "MemTotal": 121.69,
+  "MemFree": 112.04,
+  "MemAvailable": 111.881,
+  "Unevictable": 0.025,
+  "Mlocked": 0.025,
+  "SwapTotal": 16.0,
+  "SwapFree": 15.75,
+  "VmRSS": 0.608,
+  "cgroup_memory_current": 0.567,
+  "cgroup_memory_max": 105.0,
+  "cuda_free": 112.04,
+  "cuda_total": 121.69,
+  "torch_reserved": 0.0
+ },
+ "deltas": {
+  "memavailable_drop_gib": 8.174,
+  "memfree_drop_gib": 8.175,
+  "vmrss_rise_gib": 0.002,
+  "cgroup_current_rise_gib": 0.016,
+  "cuda_free_drop_gib": 8.175,
+  "unevictable_rise_gib": 0.0,
+  "mlocked_rise_gib": 0.0,
+  "memavailable_not_returned_gib": 0.097
+ },
+ "cap_test": {
+  "alloc_conf": "expandable_segments:True",
+  "fraction": 0.03287,
+  "request_gib": 8.0,
+  "raised_oom": true,
+  "error": "CUDA out of memory. Tried to allocate 8.00 GiB. GPU 0 has a total capacity of 121.69 GiB of which 112.04 GiB is free. Including non-PyTorch memory, this process has 194.98 MiB memory in use. 4.00 GiB "
+ },
+ "cap_test_other_conf": {
+  "alloc_conf": "",
+  "fraction": 0.03287,
+  "request_gib": 8.0,
+  "raised_oom": true,
+  "error": "CUDA out of memory. Tried to allocate 8.00 GiB. GPU 0 has a total capacity of 121.69 GiB of which 111.55 GiB is free. Process 120 has 194.98 MiB memory in use. Including non-PyTorch memory, this proce"
+ },
+ "ulimit_l": {
+  "soft": 8192,
+  "hard": 8192
+ },
+ "psi_memory_exists": true,
+ "psi_memory": "some avg10=0.00 avg60=0.00 avg300=1.96 total=6789650320\nfull avg10=0.00 avg60=0.00 avg300=1.93 total=6571991656",
+ "verdict": {
+  "memavailable_tracks_cuda": true,
+  "cap_raises_oom": true,
+  "cap_raises_oom_other_conf": true
+ },
+ "peak_mem": {
+  "torch_allocated_gb": 8.0,
+  "torch_reserved_gb": 8.01,
+  "rss_max_gb": 0.61
+ }
+}

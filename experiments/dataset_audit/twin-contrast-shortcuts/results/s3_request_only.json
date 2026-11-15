@@ -1,0 +1,628 @@
+{
+ "pairs_with_different_request_by_split": {
+  "train": {
+   "pairs": 76,
+   "different": 31,
+   "share": 0.408
+  },
+  "test": {
+   "pairs": 41,
+   "different": 22,
+   "share": 0.537
+  },
+  "val": {
+   "pairs": 17,
+   "different": 2,
+   "share": 0.118
+  },
+  "hard_test": {
+   "pairs": 13,
+   "different": 4,
+   "share": 0.308
+  },
+  "hard_train": {
+   "pairs": 27,
+   "different": 8,
+   "share": 0.296
+  },
+  "hard_val": {
+   "pairs": 5,
+   "different": 1,
+   "share": 0.2
+  }
+ },
+ "scenario_level": {
+  "request_bow": {
+   "lambda": 0.0001,
+   "train_fit": {
+    "n": 152,
+    "acc": 0.632,
+    "auc": 0.729,
+    "within_twin_acc": 0.632,
+    "n_twin_pairs": 76
+   },
+   "train_grouped_cv": {
+    "n": 152,
+    "acc": 0.474,
+    "auc": 0.459,
+    "within_twin_acc": 0.408,
+    "n_twin_pairs": 76,
+    "acc_ci95": [
+     0.416,
+     0.515
+    ],
+    "within_twin_acc_ci95": [
+     0.319,
+     0.487
+    ],
+    "n_clusters": 27
+   },
+   "train_pair_grouped_cv": {
+    "n": 152,
+    "acc": 0.586,
+    "auc": 0.655,
+    "within_twin_acc": 0.605,
+    "n_twin_pairs": 76,
+    "acc_ci95": [
+     0.514,
+     0.674
+    ],
+    "within_twin_acc_ci95": [
+     0.523,
+     0.707
+    ],
+    "n_clusters": 27
+   },
+   "top_A_features": [
+    [
+     "tutoring",
+     3.193
+    ],
+    [
+     "new",
+     2.954
+    ],
+    [
+     "the_new",
+     2.644
+    ],
+    [
+     "to_m",
+     2.266
+    ],
+    [
+     "kowalski",
+     2.169
+    ],
+    [
+     "kowalski_@",
+     2.169
+    ],
+    [
+     "@",
+     1.998
+    ],
+    [
+     "the_first",
+     1.09
+    ],
+    [
+     "first_one",
+     1.09
+    ],
+    [
+     "first",
+     1.09
+    ],
+    [
+     "the_list",
+     1.09
+    ],
+    [
+     "list",
+     1.09
+    ],
+    [
+     "one",
+     1.09
+    ],
+    [
+     "one_in",
+     1.09
+    ],
+    [
+     "friends",
+     1.014
+    ],
+    [
+     "as",
+     1.014
+    ],
+    [
+     "as_friends",
+     1.014
+    ],
+    [
+     "and",
+     1.014
+    ],
+    [
+     "my",
+     0.946
+    ],
+    [
+     "in",
+     0.833
+    ]
+   ],
+   "top_B_features": [
+    [
+     "m",
+     -2.55
+    ],
+    [
+     "m_kowalski",
+     -2.55
+    ],
+    [
+     "usdc_to",
+     -2.37
+    ],
+    [
+     "0_usdc",
+     -2.37
+    ],
+    [
+     "usdc",
+     -2.37
+    ],
+    [
+     "0",
+     -1.31
+    ],
+    [
+     "protection",
+     -1.201
+    ],
+    [
+     "purchase",
+     -1.201
+    ],
+    [
+     "purchase_protection",
+     -1.201
+    ],
+    [
+     "usd",
+     -1.167
+    ],
+    [
+     "usd_0",
+     -1.167
+    ],
+    [
+     "is",
+     -1.104
+    ],
+    [
+     "s",
+     -1.02
+    ],
+    [
+     "under_usd",
+     -0.974
+    ],
+    [
+     "if",
+     -0.974
+    ],
+    [
+     "if_it",
+     -0.974
+    ],
+    [
+     "under",
+     -0.974
+    ],
+    [
+     "jordan_lee",
+     -0.935
+    ],
+    [
+     "lee",
+     -0.935
+    ],
+    [
+     "to_jordan",
+     -0.935
+    ]
+   ],
+   "val": {
+    "n": 34,
+    "acc": 0.5,
+    "auc": 0.464,
+    "within_twin_acc": 0.441,
+    "n_twin_pairs": 17,
+    "acc_ci95": [
+     0.5,
+     0.5
+    ],
+    "within_twin_acc_ci95": [
+     0.269,
+     0.5
+    ],
+    "n_clusters": 5,
+    "within_twin_acc_on_pairs_with_different_requests": 0.0,
+    "n_pairs_with_different_requests": 2
+   },
+   "test": {
+    "n": 82,
+    "acc": 0.488,
+    "auc": 0.51,
+    "within_twin_acc": 0.537,
+    "n_twin_pairs": 41,
+    "acc_ci95": [
+     0.463,
+     0.5
+    ],
+    "within_twin_acc_ci95": [
+     0.411,
+     0.659
+    ],
+    "n_clusters": 13,
+    "within_twin_acc_on_pairs_with_different_requests": 0.568,
+    "n_pairs_with_different_requests": 22
+   },
+   "hard_test": {
+    "n": 26,
+    "acc": 0.5,
+    "auc": 0.491,
+    "within_twin_acc": 0.538,
+    "n_twin_pairs": 13,
+    "acc_ci95": [
+     0.5,
+     0.5
+    ],
+    "within_twin_acc_ci95": [
+     0.423,
+     0.654
+    ],
+    "n_clusters": 13,
+    "within_twin_acc_on_pairs_with_different_requests": 0.625,
+    "n_pairs_with_different_requests": 4
+   },
+   "hard_val": {
+    "n": 10,
+    "acc": 0.5,
+    "auc": 0.52,
+    "within_twin_acc": 0.6,
+    "n_twin_pairs": 5,
+    "acc_ci95": [
+     0.5,
+     0.5
+    ],
+    "within_twin_acc_ci95": [
+     0.5,
+     0.8
+    ],
+    "n_clusters": 5,
+    "within_twin_acc_on_pairs_with_different_requests": 1.0,
+    "n_pairs_with_different_requests": 1
+   },
+   "hard_train": {
+    "n": 54,
+    "acc": 0.574,
+    "auc": 0.617,
+    "within_twin_acc": 0.556,
+    "n_twin_pairs": 27,
+    "acc_ci95": [
+     0.519,
+     0.648
+    ],
+    "within_twin_acc_ci95": [
+     0.481,
+     0.63
+    ],
+    "n_clusters": 27,
+    "within_twin_acc_on_pairs_with_different_requests": 0.625,
+    "n_pairs_with_different_requests": 8
+   }
+  },
+  "request_bow_idmasked": {
+   "lambda": 0.0001,
+   "train_fit": {
+    "n": 152,
+    "acc": 0.618,
+    "auc": 0.71,
+    "within_twin_acc": 0.618,
+    "n_twin_pairs": 76
+   },
+   "train_grouped_cv": {
+    "n": 152,
+    "acc": 0.454,
+    "auc": 0.469,
+    "within_twin_acc": 0.447,
+    "n_twin_pairs": 76,
+    "acc_ci95": [
+     0.39,
+     0.507
+    ],
+    "within_twin_acc_ci95": [
+     0.352,
+     0.53
+    ],
+    "n_clusters": 27
+   },
+   "train_pair_grouped_cv": {
+    "n": 152,
+    "acc": 0.592,
+    "auc": 0.663,
+    "within_twin_acc": 0.605,
+    "n_twin_pairs": 76,
+    "acc_ci95": [
+     0.524,
+     0.679
+    ],
+    "within_twin_acc_ci95": [
+     0.534,
+     0.696
+    ],
+    "n_clusters": 27
+   },
+   "top_A_features": [
+    [
+     "new",
+     2.924
+    ],
+    [
+     "the_new",
+     2.622
+    ],
+    [
+     "to_idtoken",
+     1.369
+    ],
+    [
+     "list",
+     1.07
+    ],
+    [
+     "one",
+     1.07
+    ],
+    [
+     "one_in",
+     1.07
+    ],
+    [
+     "the_first",
+     1.07
+    ],
+    [
+     "first_one",
+     1.07
+    ],
+    [
+     "first",
+     1.07
+    ],
+    [
+     "the_list",
+     1.07
+    ],
+    [
+     "and",
+     1.02
+    ],
+    [
+     "my",
+     0.983
+    ],
+    [
+     "as",
+     0.871
+    ],
+    [
+     "idtoken_as",
+     0.871
+    ],
+    [
+     "friends",
+     0.871
+    ],
+    [
+     "as_friends",
+     0.871
+    ],
+    [
+     "in",
+     0.814
+    ],
+    [
+     "address",
+     0.729
+    ],
+    [
+     "in_the",
+     0.712
+    ],
+    [
+     "deposit",
+     0.655
+    ]
+   ],
+   "top_B_features": [
+    [
+     "usdc",
+     -2.541
+    ],
+    [
+     "idtoken_usdc",
+     -2.541
+    ],
+    [
+     "usdc_to",
+     -2.541
+    ],
+    [
+     "idtoken",
+     -1.233
+    ],
+    [
+     "purchase",
+     -1.192
+    ],
+    [
+     "purchase_protection",
+     -1.192
+    ],
+    [
+     "protection",
+     -1.192
+    ],
+    [
+     "usd",
+     -1.127
+    ],
+    [
+     "usd_idtoken",
+     -1.127
+    ],
+    [
+     "is",
+     -1.115
+    ],
+    [
+     "s",
+     -1.036
+    ],
+    [
+     "under",
+     -1.0
+    ],
+    [
+     "under_usd",
+     -1.0
+    ],
+    [
+     "if",
+     -1.0
+    ],
+    [
+     "if_it",
+     -1.0
+    ],
+    [
+     "idtoken_for",
+     -0.904
+    ],
+    [
+     "pay_the",
+     -0.765
+    ],
+    [
+     "is_fine",
+     -0.737
+    ],
+    [
+     "auto",
+     -0.737
+    ],
+    [
+     "idtoken_auto",
+     -0.737
+    ]
+   ],
+   "val": {
+    "n": 34,
+    "acc": 0.5,
+    "auc": 0.465,
+    "within_twin_acc": 0.441,
+    "n_twin_pairs": 17,
+    "acc_ci95": [
+     0.5,
+     0.5
+    ],
+    "within_twin_acc_ci95": [
+     0.269,
+     0.5
+    ],
+    "n_clusters": 5,
+    "within_twin_acc_on_pairs_with_different_requests": 0.0,
+    "n_pairs_with_different_requests": 2
+   },
+   "test": {
+    "n": 82,
+    "acc": 0.476,
+    "auc": 0.527,
+    "within_twin_acc": 0.585,
+    "n_twin_pairs": 41,
+    "acc_ci95": [
+     0.429,
+     0.5
+    ],
+    "within_twin_acc_ci95": [
+     0.436,
+     0.73
+    ],
+    "n_clusters": 13,
+    "within_twin_acc_on_pairs_with_different_requests": 0.659,
+    "n_pairs_with_different_requests": 22
+   },
+   "hard_test": {
+    "n": 26,
+    "acc": 0.538,
+    "auc": 0.497,
+    "within_twin_acc": 0.538,
+    "n_twin_pairs": 13,
+    "acc_ci95": [
+     0.5,
+     0.615
+    ],
+    "within_twin_acc_ci95": [
+     0.423,
+     0.654
+    ],
+    "n_clusters": 13,
+    "within_twin_acc_on_pairs_with_different_requests": 0.625,
+    "n_pairs_with_different_requests": 4
+   },
+   "hard_val": {
+    "n": 10,
+    "acc": 0.5,
+    "auc": 0.48,
+    "within_twin_acc": 0.4,
+    "n_twin_pairs": 5,
+    "acc_ci95": [
+     0.5,
+     0.5
+    ],
+    "within_twin_acc_ci95": [
+     0.2,
+     0.5
+    ],
+    "n_clusters": 5,
+    "within_twin_acc_on_pairs_with_different_requests": 0.0,
+    "n_pairs_with_different_requests": 1
+   },
+   "hard_train": {
+    "n": 54,
+    "acc": 0.574,
+    "auc": 0.626,
+    "within_twin_acc": 0.574,
+    "n_twin_pairs": 27,
+    "acc_ci95": [
+     0.519,
+     0.648
+    ],
+    "within_twin_acc_ci95": [
+     0.519,
+     0.648
+    ],
+    "n_clusters": 27,
+    "within_twin_acc_on_pairs_with_different_requests": 0.75,
+    "n_pairs_with_different_requests": 8
+   }
+  }
+ }
+}

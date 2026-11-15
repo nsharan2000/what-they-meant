@@ -1,0 +1,263 @@
+{
+ "train": {
+  "counts": {
+   "pairs": 76,
+   "L0r_first_prompt_identical": 38,
+   "first_lookup_tool_differs": 0,
+   "first_lookup_tool_differs_and_same_request": 0,
+   "first_lookup_call_differs(tool or args)": 11,
+   "first_lookup_call_differs_and_same_request": 1,
+   "l0_tools_differ": 4,
+   "extra_tool_only_in_A": 4,
+   "extra_tool_only_in_B": 0,
+   "both_have_extra": 0
+  },
+  "pairs_with_l0_tool_diff": [
+   {
+    "pair": "S04",
+    "only_A": [
+     "update_cart"
+    ],
+    "only_B": [],
+    "member_block_same": true,
+    "same_request": true,
+    "L0r_system_identical_otherwise": true
+   },
+   {
+    "pair": "S26",
+    "only_A": [
+     "apply_patch"
+    ],
+    "only_B": [],
+    "member_block_same": true,
+    "same_request": true,
+    "L0r_system_identical_otherwise": true
+   },
+   {
+    "pair": "V043",
+    "only_A": [
+     "update_cart"
+    ],
+    "only_B": [],
+    "member_block_same": true,
+    "same_request": true,
+    "L0r_system_identical_otherwise": true
+   },
+   {
+    "pair": "V044",
+    "only_A": [
+     "update_cart"
+    ],
+    "only_B": [],
+    "member_block_same": true,
+    "same_request": true,
+    "L0r_system_identical_otherwise": true
+   }
+  ],
+  "pairs_with_first_lookup_tool_diff": []
+ },
+ "hard_test": {
+  "counts": {
+   "pairs": 13,
+   "L0r_first_prompt_identical": 6,
+   "first_lookup_tool_differs": 0,
+   "first_lookup_tool_differs_and_same_request": 0,
+   "first_lookup_call_differs(tool or args)": 1,
+   "first_lookup_call_differs_and_same_request": 0,
+   "l0_tools_differ": 1,
+   "extra_tool_only_in_A": 0,
+   "extra_tool_only_in_B": 0,
+   "both_have_extra": 1
+  },
+  "pairs_with_l0_tool_diff": [
+   {
+    "pair": "H451",
+    "only_A": [
+     "get_payment_request"
+    ],
+    "only_B": [
+     "get_checkout"
+    ],
+    "member_block_same": false,
+    "same_request": false,
+    "L0r_system_identical_otherwise": false
+   }
+  ],
+  "pairs_with_first_lookup_tool_diff": []
+ },
+ "hard_train": {
+  "counts": {
+   "pairs": 27,
+   "L0r_first_prompt_identical": 15,
+   "first_lookup_tool_differs": 0,
+   "first_lookup_tool_differs_and_same_request": 0,
+   "first_lookup_call_differs(tool or args)": 4,
+   "first_lookup_call_differs_and_same_request": 0,
+   "l0_tools_differ": 1,
+   "extra_tool_only_in_A": 1,
+   "extra_tool_only_in_B": 0,
+   "both_have_extra": 0
+  },
+  "pairs_with_l0_tool_diff": [
+   {
+    "pair": "H041",
+    "only_A": [
+     "update_cart"
+    ],
+    "only_B": [],
+    "member_block_same": true,
+    "same_request": true,
+    "L0r_system_identical_otherwise": true
+   }
+  ],
+  "pairs_with_first_lookup_tool_diff": []
+ },
+ "hard_val": {
+  "counts": {
+   "pairs": 5,
+   "L0r_first_prompt_identical": 4,
+   "first_lookup_tool_differs": 0,
+   "first_lookup_tool_differs_and_same_request": 0,
+   "first_lookup_call_differs(tool or args)": 1,
+   "first_lookup_call_differs_and_same_request": 0
+  },
+  "pairs_with_l0_tool_diff": [],
+  "pairs_with_first_lookup_tool_diff": []
+ },
+ "test": {
+  "counts": {
+   "pairs": 41,
+   "L0r_first_prompt_identical": 15,
+   "first_lookup_tool_differs": 4,
+   "first_lookup_tool_differs_and_same_request": 0,
+   "first_lookup_call_differs(tool or args)": 15,
+   "first_lookup_call_differs_and_same_request": 1,
+   "l0_tools_differ": 6,
+   "extra_tool_only_in_A": 3,
+   "extra_tool_only_in_B": 0,
+   "both_have_extra": 3
+  },
+  "pairs_with_l0_tool_diff": [
+   {
+    "pair": "S27",
+    "only_A": [
+     "search_recipient"
+    ],
+    "only_B": [],
+    "member_block_same": true,
+    "same_request": false,
+    "L0r_system_identical_otherwise": true
+   },
+   {
+    "pair": "S45",
+    "only_A": [
+     "upi_name_lookup"
+    ],
+    "only_B": [],
+    "member_block_same": false,
+    "same_request": false,
+    "L0r_system_identical_otherwise": false
+   },
+   {
+    "pair": "V271",
+    "only_A": [
+     "search_recipient"
+    ],
+    "only_B": [
+     "lookup_venmo"
+    ],
+    "member_block_same": true,
+    "same_request": false,
+    "L0r_system_identical_otherwise": true
+   },
+   {
+    "pair": "V272",
+    "only_A": [
+     "search_recipient"
+    ],
+    "only_B": [
+     "lookup_venmo"
+    ],
+    "member_block_same": true,
+    "same_request": false,
+    "L0r_system_identical_otherwise": true
+   },
+   {
+    "pair": "V274",
+    "only_A": [
+     "search_recipient"
+    ],
+    "only_B": [
+     "lookup_venmo"
+    ],
+    "member_block_same": true,
+    "same_request": false,
+    "L0r_system_identical_otherwise": true
+   },
+   {
+    "pair": "V453",
+    "only_A": [
+     "upi_name_lookup"
+    ],
+    "only_B": [],
+    "member_block_same": false,
+    "same_request": false,
+    "L0r_system_identical_otherwise": false
+   }
+  ],
+  "pairs_with_first_lookup_tool_diff": [
+   {
+    "pair": "S27",
+    "A_first_lookup": [
+     "search_recipient"
+    ],
+    "B_first_lookup": [
+     "lookup_venmo"
+    ],
+    "same_request": false
+   },
+   {
+    "pair": "V271",
+    "A_first_lookup": [
+     "search_recipient"
+    ],
+    "B_first_lookup": [
+     "lookup_venmo"
+    ],
+    "same_request": false
+   },
+   {
+    "pair": "V272",
+    "A_first_lookup": [
+     "search_recipient"
+    ],
+    "B_first_lookup": [
+     "lookup_venmo"
+    ],
+    "same_request": false
+   },
+   {
+    "pair": "V274",
+    "A_first_lookup": [
+     "search_recipient"
+    ],
+    "B_first_lookup": [
+     "lookup_venmo"
+    ],
+    "same_request": false
+   }
+  ]
+ },
+ "val": {
+  "counts": {
+   "pairs": 17,
+   "L0r_first_prompt_identical": 15,
+   "first_lookup_tool_differs": 0,
+   "first_lookup_tool_differs_and_same_request": 0,
+   "first_lookup_call_differs(tool or args)": 2,
+   "first_lookup_call_differs_and_same_request": 0
+  },
+  "pairs_with_l0_tool_diff": [],
+  "pairs_with_first_lookup_tool_diff": []
+ }
+}

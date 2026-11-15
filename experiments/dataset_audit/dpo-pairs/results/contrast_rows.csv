@@ -1,0 +1,497 @@
+idx,scenario_id,pair_id,twin,level,prompt_setting,env,expected,chosen_action,rejected_action,rejected_action_true,chosen_decision,rejected_decision,contrast,decision_class_differs,action_differs,same_tool_name_in_text,char_similarity,divergence,common_prefix_chars,rejected_is_question
+0,V581A,V581,A,L1,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.104,first character (different action type or leading whitespace),0,False
+1,S35B,S35,B,L2,P0,shopping,approve,ui,commit,commit,approve_informed,commit_other,ui > commit,True,True,False,0.479,first character (different action type or leading whitespace),0,False
+2,V344B,V344,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.556,at or before the tool name,21,False
+3,S11A,S11,A,L1,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.2,first character (different action type or leading whitespace),0,False
+4,V581A,V581,A,L0r,P0,shopping,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.317,first character (different action type or leading whitespace),0,False
+5,S53B,S53,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.518,at or before the tool name,21,False
+6,S54A,S54,A,L2,P0,wallet,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.152,first character (different action type or leading whitespace),0,True
+7,V582B,V582,B,L1,P2,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.431,at or before the tool name,11,False
+8,S09A,S09,A,L1,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.234,first character (different action type or leading whitespace),0,False
+9,V321A,V321,A,L2,P2,bills,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.08,first character (different action type or leading whitespace),0,False
+10,V104B,V104,B,L2,P0,shopping,act,commit,message,message,commit_gold,ask_generic,commit > message,True,True,False,0.18,first character (different action type or leading whitespace),0,True
+11,V094B,V094,B,L0r,P0,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.543,at or before the tool name,21,False
+12,S53A,S53,A,L3,P2,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.186,first character (different action type or leading whitespace),0,False
+13,V061A,V061,A,L2,P0,bizops,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.29,first character (different action type or leading whitespace),0,False
+14,V073A,V073,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.272,first character (different action type or leading whitespace),0,False
+15,S58A,S58,A,L1,P2,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.136,first character (different action type or leading whitespace),0,False
+16,V073A,V073,A,L1,P0,wallet,ask,message,message,malformed commit call read as message,ask_informed,statement,message > malformed commit call read as message,True,True,False,0.309,first character (different action type or leading whitespace),0,False
+17,S35B,S35,B,L3,P2,shopping,approve,ui,commit,commit,approve_informed,commit_other,ui > commit,True,True,False,0.464,at or before the tool name,11,False
+18,S09B,S09,B,L1,P2,bizops,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.152,first character (different action type or leading whitespace),0,True
+19,V474A,V474,A,L2,P0,wallet,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.211,inside message text,1,False
+20,V321B,V321,B,L0r,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.685,at or before the tool name,23,False
+21,V344A,V344,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.257,first character (different action type or leading whitespace),0,False
+22,S53B,S53,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.504,at or before the tool name,21,False
+23,V492B,V492,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.462,at or before the tool name,21,False
+24,S07B,S07,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.459,first character (different action type or leading whitespace),0,False
+25,V072B,V072,B,L2,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.51,at or before the tool name,21,False
+26,S35B,S35,B,L1,P2,shopping,approve,ui,commit,commit,approve_informed,commit_other,ui > commit,True,True,False,0.423,first character (different action type or leading whitespace),0,False
+27,V583B,V583,B,L2,P0,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.428,at or before the tool name,11,False
+28,S03B,S03,B,L3,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.508,at or before the tool name,21,False
+29,V541B,V541,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.506,at or before the tool name,21,False
+30,S34B,S34,B,L3,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.486,at or before the tool name,21,False
+31,V043B,V043,B,L2,P0,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.273,first character (different action type or leading whitespace),0,True
+32,V182A,V182,A,L0r,P2,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.124,first character (different action type or leading whitespace),0,False
+33,V104A,V104,A,L0r,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.174,first character (different action type or leading whitespace),0,False
+34,V531B,V531,B,L0r,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.501,at or before the tool name,21,False
+35,V571B,V571,B,L2,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.529,at or before the tool name,21,False
+36,S03A,S03,A,L2,P2,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.306,first character (different action type or leading whitespace),0,False
+37,S03B,S03,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.513,at or before the tool name,21,False
+38,V473B,V473,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.61,at or before the tool name,21,False
+39,V152A,V152,A,L2,P0,bizops,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.196,first character (different action type or leading whitespace),0,False
+40,V062B,V062,B,L2,P0,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.582,at or before the tool name,21,False
+41,V552B,V552,B,L0r,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.524,at or before the tool name,21,False
+42,S10A,S10,A,L0r,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.103,first character (different action type or leading whitespace),0,False
+43,S18A,S18,A,L1,P2,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.152,first character (different action type or leading whitespace),0,False
+44,V104A,V104,A,L2,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.206,first character (different action type or leading whitespace),0,False
+45,V091A,V091,A,L0r,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.239,first character (different action type or leading whitespace),0,False
+46,V473B,V473,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.507,at or before the tool name,21,False
+47,V571A,V571,A,L2,P0,wallet,ask,message,invalid,invalid,ask_informed,invalid,message > invalid,True,True,False,0.212,first character (different action type or leading whitespace),0,False
+48,V532A,V532,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.179,first character (different action type or leading whitespace),0,False
+49,V344B,V344,B,L1,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.474,at or before the tool name,21,False
+50,V583A,V583,A,L0r,P0,shopping,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.151,first character (different action type or leading whitespace),0,False
+51,V044B,V044,B,L2,P0,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.166,first character (different action type or leading whitespace),0,True
+52,V581B,V581,B,L1,P0,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.434,at or before the tool name,11,False
+53,V541A,V541,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.151,first character (different action type or leading whitespace),0,False
+54,V471B,V471,B,L0r,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.552,at or before the tool name,21,False
+55,S42B,S42,B,L0r,P0,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.398,at or before the tool name,21,False
+56,V094B,V094,B,L1,P2,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.506,at or before the tool name,21,False
+57,S34B,S34,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.537,at or before the tool name,21,False
+58,V133A,V133,A,L0r,P0,bills,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.231,first character (different action type or leading whitespace),0,False
+59,V264B,V264,B,L2,P0,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.504,at or before the tool name,22,False
+60,V223A,V223,A,L1,P0,bills,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.339,first character (different action type or leading whitespace),0,False
+61,V152B,V152,B,L1,P0,bizops,act,commit,invalid,invalid,commit_gold,invalid,commit > invalid,True,True,False,0.435,at or before the tool name,21,False
+62,V184A,V184,A,L1,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.119,first character (different action type or leading whitespace),0,False
+63,V253B,V253,B,L2,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.606,at or before the tool name,21,False
+64,V541B,V541,B,L0r,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.516,at or before the tool name,21,False
+65,S04A,S04,A,L2,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.088,first character (different action type or leading whitespace),0,False
+66,V061B,V061,B,L0r,P0,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.62,at or before the tool name,21,False
+67,V031B,V031,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.588,at or before the tool name,21,False
+68,V472B,V472,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.606,at or before the tool name,21,False
+69,S58A,S58,A,L3,P0,shopping,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.18,first character (different action type or leading whitespace),0,False
+70,V254A,V254,A,L1,P0,bills,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.171,first character (different action type or leading whitespace),0,True
+71,V532B,V532,B,L0r,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.497,at or before the tool name,21,False
+72,S25A,S25,A,L3,P0,bills,ask,message,ui,ui,ask_informed,approve_generic,message > ui,True,True,False,0.184,first character (different action type or leading whitespace),0,False
+73,V552A,V552,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.233,first character (different action type or leading whitespace),0,False
+74,S04B,S04,B,L2,P0,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.436,first character (different action type or leading whitespace),0,False
+75,S03A,S03,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.235,first character (different action type or leading whitespace),0,False
+76,S12B,S12,B,L2,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.494,at or before the tool name,21,False
+77,V471A,V471,A,L2,P2,wallet,ask,message,message,malformed commit call read as message,ask_informed,statement,message > malformed commit call read as message,True,True,False,0.22,first character (different action type or leading whitespace),0,False
+78,V254A,V254,A,L2,P0,bills,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.197,first character (different action type or leading whitespace),0,False
+79,S15A,S15,A,L2,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.048,inside message text,1,False
+80,V044A,V044,A,L0r,P0,shopping,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.294,first character (different action type or leading whitespace),0,True
+81,V581B,V581,B,L0r,P0,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.523,at or before the tool name,21,False
+82,V093A,V093,A,L2,P0,bizops,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.255,first character (different action type or leading whitespace),0,False
+83,S32B,S32,B,L3,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.383,at or before the tool name,11,False
+84,V152A,V152,A,L1,P0,bizops,ask,message,invalid,invalid,ask_informed,invalid,message > invalid,True,True,False,0.183,first character (different action type or leading whitespace),0,False
+85,V091A,V091,A,L2,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.239,first character (different action type or leading whitespace),0,False
+86,V182A,V182,A,L2,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.129,first character (different action type or leading whitespace),0,False
+87,S32B,S32,B,L2,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.527,first character (different action type or leading whitespace),0,False
+88,V043A,V043,A,L0r,P0,shopping,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.196,first character (different action type or leading whitespace),0,True
+89,V264A,V264,A,L0r,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.269,first character (different action type or leading whitespace),0,False
+90,V223A,V223,A,L0r,P0,bills,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.26,first character (different action type or leading whitespace),0,False
+91,V584A,V584,A,L1,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.132,first character (different action type or leading whitespace),0,False
+92,V473A,V473,A,L1,P2,wallet,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.32,inside message text,12,False
+93,S22A,S22,A,L0r,P2,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.169,first character (different action type or leading whitespace),0,False
+94,V554B,V554,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.528,at or before the tool name,21,False
+95,S35A,S35,A,L1,P2,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.132,first character (different action type or leading whitespace),0,False
+96,V264B,V264,B,L0r,P0,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.561,at or before the tool name,22,False
+97,V322B,V322,B,L0r,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.671,at or before the tool name,23,False
+98,V073B,V073,B,L0r,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.501,at or before the tool name,21,False
+99,V584B,V584,B,L0r,P0,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.525,at or before the tool name,21,False
+100,S55B,S55,B,L0r,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.51,at or before the tool name,21,False
+101,S57B,S57,B,L0r,P0,wallet,approve,ui,message,message,approve_generic,statement,ui > message,True,True,False,0.329,first character (different action type or leading whitespace),0,False
+102,V552A,V552,A,L0r,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.224,first character (different action type or leading whitespace),0,False
+103,S13B,S13,B,L2,P2,bills,approve,ui,commit,commit,approve_informed,commit_other,ui > commit,True,True,False,0.578,first character (different action type or leading whitespace),0,False
+104,S34B,S34,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.504,at or before the tool name,21,False
+105,V531A,V531,A,L1,P2,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.198,first character (different action type or leading whitespace),0,False
+106,S54B,S54,B,L0r,P0,wallet,approve,ui,message,message,approve_generic,tell_informed,ui > message,True,True,False,0.209,first character (different action type or leading whitespace),0,False
+107,V473A,V473,A,L2,P0,wallet,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.225,inside message text,12,True
+108,V321B,V321,B,L1,P0,bills,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.055,first character (different action type or leading whitespace),0,True
+109,S34A,S34,A,L3,P0,wallet,ask,message,invalid,invalid,ask_informed,invalid,message > invalid,True,True,False,0.224,first character (different action type or leading whitespace),0,False
+110,V031A,V031,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.163,first character (different action type or leading whitespace),0,False
+111,V573A,V573,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.213,first character (different action type or leading whitespace),0,False
+112,V044B,V044,B,L0r,P2,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.223,first character (different action type or leading whitespace),0,True
+113,V031B,V031,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.546,at or before the tool name,21,False
+114,S47A,S47,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.173,first character (different action type or leading whitespace),0,False
+115,S14B,S14,B,L3,P2,bizops,act,commit,message,message,commit_gold,ask_generic,commit > message,True,True,False,0.031,first character (different action type or leading whitespace),0,True
+116,V254B,V254,B,L1,P0,bills,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.112,first character (different action type or leading whitespace),0,True
+117,S26A,S26,A,L3,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.069,first character (different action type or leading whitespace),0,False
+118,S10B,S10,B,L1,P0,shopping,act,commit,message,message,commit_gold,ask_generic,commit > message,True,True,False,0.149,first character (different action type or leading whitespace),0,True
+119,V253A,V253,A,L1,P0,bills,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.135,first character (different action type or leading whitespace),0,True
+120,V223A,V223,A,L2,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.128,first character (different action type or leading whitespace),0,False
+121,V071B,V071,B,L1,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.552,at or before the tool name,21,False
+122,V571A,V571,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.185,first character (different action type or leading whitespace),0,False
+123,S10B,S10,B,L2,P0,shopping,act,commit,message,message,commit_gold,ask_generic,commit > message,True,True,False,0.176,first character (different action type or leading whitespace),0,True
+124,V133B,V133,B,L1,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.552,at or before the tool name,21,False
+125,V071A,V071,A,L0r,P2,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.147,first character (different action type or leading whitespace),0,False
+126,S54B,S54,B,L1,P2,wallet,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.361,first character (different action type or leading whitespace),0,True
+127,S14A,S14,A,L3,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.116,first character (different action type or leading whitespace),0,False
+128,V322A,V322,A,L0r,P0,bills,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.229,first character (different action type or leading whitespace),0,False
+129,V554A,V554,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.249,first character (different action type or leading whitespace),0,False
+130,V184B,V184,B,L2,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.523,at or before the tool name,21,False
+131,V094A,V094,A,L1,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.294,first character (different action type or leading whitespace),0,False
+132,V341A,V341,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.183,first character (different action type or leading whitespace),0,False
+133,S02B,S02,B,L3,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.503,at or before the tool name,21,False
+134,V113B,V113,B,L1,P2,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.322,first character (different action type or leading whitespace),0,True
+135,V583B,V583,B,L0r,P0,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.447,at or before the tool name,21,False
+136,V182A,V182,A,L1,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.119,first character (different action type or leading whitespace),0,False
+137,S25A,S25,A,L2,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.228,first character (different action type or leading whitespace),0,False
+138,S14B,S14,B,L2,P2,bizops,act,commit,invalid,invalid,commit_gold,invalid,commit > invalid,True,True,True,0.996,inside arguments (same tool),108,False
+139,V091B,V091,B,L0r,P0,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.611,at or before the tool name,21,False
+140,S54B,S54,B,L2,P0,wallet,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.144,first character (different action type or leading whitespace),0,True
+141,V471A,V471,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.192,first character (different action type or leading whitespace),0,False
+142,V184A,V184,A,L0r,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.117,first character (different action type or leading whitespace),0,False
+143,V573A,V573,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.236,first character (different action type or leading whitespace),0,False
+144,V582B,V582,B,L0r,P2,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.449,at or before the tool name,21,False
+145,V491A,V491,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.207,first character (different action type or leading whitespace),0,False
+146,V534B,V534,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.519,at or before the tool name,21,False
+147,V471B,V471,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.424,at or before the tool name,11,False
+148,S35A,S35,A,L2,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.147,first character (different action type or leading whitespace),0,False
+149,S26A,S26,A,L0r,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.088,first character (different action type or leading whitespace),0,False
+150,S10A,S10,A,L2,P0,shopping,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.071,first character (different action type or leading whitespace),0,False
+151,V322B,V322,B,L1,P2,bills,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.129,first character (different action type or leading whitespace),0,True
+152,V492B,V492,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.481,at or before the tool name,21,False
+153,S10B,S10,B,L0r,P0,shopping,act,commit,message,malformed commit call read as message,commit_gold,ask_generic,commit > malformed commit call read as message,True,True,True,0.515,at or before the tool name,10,True
+154,S49A,S49,A,L3,P2,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.205,first character (different action type or leading whitespace),0,False
+155,V584B,V584,B,L1,P2,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.43,at or before the tool name,11,False
+156,S34A,S34,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.206,first character (different action type or leading whitespace),0,False
+157,V091A,V091,A,L1,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.256,first character (different action type or leading whitespace),0,False
+158,S26B,S26,B,L3,P0,bizops,approve,ui,commit,commit,approve_informed,commit_other,ui > commit,True,True,False,0.456,at or before the tool name,11,False
+159,V093B,V093,B,L2,P2,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.491,at or before the tool name,21,False
+160,V474B,V474,B,L0r,P0,wallet,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.249,first character (different action type or leading whitespace),0,True
+161,S58A,S58,A,L0r,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.223,first character (different action type or leading whitespace),0,False
+162,S14B,S14,B,L0r,P0,bizops,act,commit,message,message,commit_gold,ask_generic,commit > message,True,True,False,0.031,first character (different action type or leading whitespace),0,True
+163,V534B,V534,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.545,at or before the tool name,21,False
+164,V344B,V344,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.493,at or before the tool name,21,False
+165,S03B,S03,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.453,first character (different action type or leading whitespace),0,False
+166,V254B,V254,B,L0r,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.624,at or before the tool name,21,False
+167,V062A,V062,A,L0r,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.237,first character (different action type or leading whitespace),0,False
+168,V113B,V113,B,L0r,P0,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.647,at or before the tool name,21,False
+169,V073B,V073,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.483,at or before the tool name,21,False
+170,V061A,V061,A,L0r,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.291,first character (different action type or leading whitespace),0,False
+171,V571A,V571,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.128,first character (different action type or leading whitespace),0,False
+172,V532A,V532,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.138,first character (different action type or leading whitespace),0,False
+173,S02A,S02,A,L1,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.164,first character (different action type or leading whitespace),0,False
+174,S47B,S47,B,L1,P2,wallet,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.245,first character (different action type or leading whitespace),0,True
+175,V113B,V113,B,L2,P0,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.318,first character (different action type or leading whitespace),0,True
+176,S11A,S11,A,L2,P2,shopping,ask,message,lookup,lookup,ask_informed,lookup,message > lookup,True,True,False,0.12,first character (different action type or leading whitespace),0,False
+177,S57A,S57,A,L1,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.146,first character (different action type or leading whitespace),0,False
+178,S02B,S02,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.503,at or before the tool name,21,False
+179,S55A,S55,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.309,first character (different action type or leading whitespace),0,False
+180,V061B,V061,B,L1,P0,bizops,approve,ui,commit,commit,approve_generic,commit_gold,ui > commit,True,True,False,0.63,at or before the tool name,21,False
+181,S11B,S11,B,L3,P2,shopping,approve,ui,message,message,approve_generic,ask_informed,ui > message,True,True,False,0.223,first character (different action type or leading whitespace),0,True
+182,V254B,V254,B,L2,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.591,at or before the tool name,21,False
+183,S26B,S26,B,L2,P0,bizops,approve,ui,commit,commit,approve_informed,commit_other,ui > commit,True,True,False,0.537,at or before the tool name,11,False
+184,S42A,S42,A,L1,P0,bizops,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.241,first character (different action type or leading whitespace),0,False
+185,S11A,S11,A,L0r,P2,shopping,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.197,first character (different action type or leading whitespace),0,False
+186,V552B,V552,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.265,at or before the tool name,11,False
+187,V062A,V062,A,L1,P0,bizops,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.184,first character (different action type or leading whitespace),0,True
+188,S22B,S22,B,L0r,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.493,at or before the tool name,21,False
+189,S53B,S53,B,L3,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.504,at or before the tool name,21,False
+190,S12B,S12,B,L3,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.585,at or before the tool name,21,False
+191,V492A,V492,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.233,first character (different action type or leading whitespace),0,False
+192,S06A,S06,A,L3,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.251,first character (different action type or leading whitespace),0,False
+193,S04A,S04,A,L0r,P2,shopping,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.194,first character (different action type or leading whitespace),0,True
+194,V093A,V093,A,L1,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.277,first character (different action type or leading whitespace),0,False
+195,V584B,V584,B,L2,P2,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.581,at or before the tool name,21,False
+196,V043A,V043,A,L1,P0,shopping,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.182,first character (different action type or leading whitespace),0,False
+197,S12A,S12,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.152,first character (different action type or leading whitespace),0,False
+198,V474A,V474,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.229,first character (different action type or leading whitespace),0,False
+199,V091B,V091,B,L2,P0,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.643,at or before the tool name,21,False
+200,V531B,V531,B,L1,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.492,at or before the tool name,21,False
+201,V071B,V071,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.54,at or before the tool name,21,False
+202,V044A,V044,A,L1,P2,shopping,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.338,first character (different action type or leading whitespace),0,True
+203,S32A,S32,A,L0r,P0,bills,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.183,first character (different action type or leading whitespace),0,False
+204,V531A,V531,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.188,first character (different action type or leading whitespace),0,False
+205,S22A,S22,A,L1,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.176,first character (different action type or leading whitespace),0,False
+206,S57B,S57,B,L1,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.512,at or before the tool name,21,False
+207,V223B,V223,B,L1,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.48,at or before the tool name,21,False
+208,V553A,V553,A,L0r,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.293,first character (different action type or leading whitespace),0,False
+209,V183A,V183,A,L0r,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.125,first character (different action type or leading whitespace),0,False
+210,S54A,S54,A,L1,P2,wallet,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.185,first character (different action type or leading whitespace),0,True
+211,S35A,S35,A,L0r,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.146,first character (different action type or leading whitespace),0,False
+212,S06B,S06,B,L0r,P2,bizops,approve,ui,message,message,approve_generic,statement,ui > message,True,True,False,0.138,first character (different action type or leading whitespace),0,False
+213,V472A,V472,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.244,first character (different action type or leading whitespace),0,False
+214,S09A,S09,A,L3,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.214,first character (different action type or leading whitespace),0,False
+215,S53A,S53,A,L1,P2,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.246,first character (different action type or leading whitespace),0,False
+216,S25B,S25,B,L1,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.188,first character (different action type or leading whitespace),0,False
+217,V113A,V113,A,L1,P0,shopping,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.197,first character (different action type or leading whitespace),0,False
+218,V042B,V042,B,L2,P0,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.15,first character (different action type or leading whitespace),0,True
+219,V181A,V181,A,L1,P2,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.121,first character (different action type or leading whitespace),0,False
+220,V152B,V152,B,L0r,P0,bizops,act,commit,message,message,commit_gold,statement,commit > message,True,True,False,0.272,first character (different action type or leading whitespace),0,False
+221,S47A,S47,A,L0r,P2,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.203,first character (different action type or leading whitespace),0,False
+222,V253B,V253,B,L1,P0,bills,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.112,first character (different action type or leading whitespace),0,True
+223,V074A,V074,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.3,first character (different action type or leading whitespace),0,False
+224,V182B,V182,B,L2,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.525,at or before the tool name,21,False
+225,S22B,S22,B,L2,P0,bills,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.247,first character (different action type or leading whitespace),0,True
+226,S07A,S07,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.238,first character (different action type or leading whitespace),0,False
+227,S32A,S32,A,L2,P2,bills,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.2,first character (different action type or leading whitespace),0,False
+228,S02B,S02,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.506,at or before the tool name,21,False
+229,S14A,S14,A,L0r,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.209,first character (different action type or leading whitespace),0,False
+230,S18B,S18,B,L2,P2,bills,approve,ui,message,message,approve_generic,statement,ui > message,True,True,False,0.148,first character (different action type or leading whitespace),0,False
+231,S26B,S26,B,L1,P2,bizops,approve,ui,commit,commit,approve_informed,commit_other,ui > commit,True,True,False,0.464,first character (different action type or leading whitespace),0,False
+232,S04B,S04,B,L3,P0,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.339,first character (different action type or leading whitespace),0,True
+233,S12A,S12,A,L3,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.156,first character (different action type or leading whitespace),0,False
+234,V551A,V551,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.251,first character (different action type or leading whitespace),0,False
+235,S06B,S06,B,L3,P0,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.515,at or before the tool name,21,False
+236,S22B,S22,B,L1,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.474,at or before the tool name,21,False
+237,V583A,V583,A,L1,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.106,first character (different action type or leading whitespace),0,False
+238,S25A,S25,A,L0r,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.058,first character (different action type or leading whitespace),0,False
+239,V551B,V551,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.483,at or before the tool name,21,False
+240,V072B,V072,B,L0r,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.53,at or before the tool name,21,False
+241,S10A,S10,A,L1,P0,shopping,ask,message,message,malformed lookup call read as message,ask_informed,ask_generic,message > malformed lookup call read as message,True,True,False,0.172,first character (different action type or leading whitespace),0,True
+242,V091B,V091,B,L1,P0,bizops,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.126,first character (different action type or leading whitespace),0,True
+243,V071A,V071,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.203,first character (different action type or leading whitespace),0,False
+244,S06B,S06,B,L2,P0,bizops,approve,ui,message,message,approve_generic,statement,ui > message,True,True,False,0.172,first character (different action type or leading whitespace),0,False
+245,V181B,V181,B,L1,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.544,at or before the tool name,21,False
+246,V062B,V062,B,L1,P2,bizops,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.25,first character (different action type or leading whitespace),0,True
+247,S25A,S25,A,L1,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.117,first character (different action type or leading whitespace),0,False
+248,S09A,S09,A,L0r,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.121,first character (different action type or leading whitespace),0,False
+249,V584A,V584,A,L2,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.231,first character (different action type or leading whitespace),0,False
+250,V183B,V183,B,L0r,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.56,at or before the tool name,21,False
+251,S18A,S18,A,L2,P0,bills,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.204,first character (different action type or leading whitespace),0,False
+252,S04A,S04,A,L3,P0,shopping,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.184,first character (different action type or leading whitespace),0,False
+253,S09B,S09,B,L2,P0,bizops,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.157,first character (different action type or leading whitespace),0,True
+254,S07B,S07,B,L2,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.48,first character (different action type or leading whitespace),0,False
+255,S02A,S02,A,L3,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.227,first character (different action type or leading whitespace),0,False
+256,V341B,V341,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.531,at or before the tool name,21,False
+257,S35B,S35,B,L0r,P0,shopping,approve,ui,commit,commit,approve_informed,commit_other,ui > commit,True,True,False,0.497,at or before the tool name,21,False
+258,V184A,V184,A,L2,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.116,first character (different action type or leading whitespace),0,False
+259,V093B,V093,B,L1,P2,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.568,at or before the tool name,21,False
+260,S42A,S42,A,L0r,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.149,first character (different action type or leading whitespace),0,False
+261,V071B,V071,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.5,at or before the tool name,21,False
+262,S58B,S58,B,L1,P2,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.439,first character (different action type or leading whitespace),0,False
+263,S25B,S25,B,L3,P0,bills,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.171,first character (different action type or leading whitespace),0,True
+264,V492B,V492,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.61,at or before the tool name,21,False
+265,S07B,S07,B,L3,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.529,at or before the tool name,21,False
+266,V551B,V551,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.573,at or before the tool name,21,False
+267,V181A,V181,A,L2,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.22,first character (different action type or leading whitespace),0,False
+268,V474A,V474,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.204,first character (different action type or leading whitespace),0,False
+269,V474B,V474,B,L1,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.482,at or before the tool name,11,False
+270,S02A,S02,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.173,first character (different action type or leading whitespace),0,False
+271,S32A,S32,A,L3,P0,bills,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.19,first character (different action type or leading whitespace),0,False
+272,V043B,V043,B,L1,P0,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.267,first character (different action type or leading whitespace),0,True
+273,V534B,V534,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.519,at or before the tool name,21,False
+274,V573B,V573,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.635,at or before the tool name,21,False
+275,S49B,S49,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.485,at or before the tool name,21,False
+276,V093B,V093,B,L0r,P2,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.568,at or before the tool name,21,False
+277,S11B,S11,B,L2,P0,shopping,approve,ui,lookup,lookup,approve_generic,lookup,ui > lookup,True,True,False,0.645,first character (different action type or leading whitespace),0,False
+278,S18B,S18,B,L3,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.543,at or before the tool name,11,False
+279,V253B,V253,B,L0r,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.648,at or before the tool name,21,False
+280,V061A,V061,A,L1,P0,bizops,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.271,first character (different action type or leading whitespace),0,False
+281,V344A,V344,A,L2,P2,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.261,first character (different action type or leading whitespace),0,False
+282,S07B,S07,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.462,at or before the tool name,21,False
+283,V584A,V584,A,L0r,P0,shopping,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.182,first character (different action type or leading whitespace),0,False
+284,V074B,V074,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.446,at or before the tool name,21,False
+285,V531A,V531,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.14,first character (different action type or leading whitespace),0,False
+286,V133A,V133,A,L1,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.149,first character (different action type or leading whitespace),0,False
+287,S34B,S34,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.511,at or before the tool name,21,False
+288,V104B,V104,B,L1,P2,shopping,act,commit,message,message,commit_gold,ask_generic,commit > message,True,True,False,0.083,first character (different action type or leading whitespace),0,True
+289,S49A,S49,A,L2,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.202,first character (different action type or leading whitespace),0,False
+290,S47B,S47,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.473,at or before the tool name,21,False
+291,S34A,S34,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.216,first character (different action type or leading whitespace),0,False
+292,V043B,V043,B,L0r,P2,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.533,at or before the tool name,21,False
+293,V553A,V553,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.248,first character (different action type or leading whitespace),0,False
+294,V341B,V341,B,L1,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.488,at or before the tool name,21,False
+295,V181A,V181,A,L0r,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.119,first character (different action type or leading whitespace),0,False
+296,V554A,V554,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.259,first character (different action type or leading whitespace),0,False
+297,S11B,S11,B,L0r,P0,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.282,first character (different action type or leading whitespace),0,True
+298,S18A,S18,A,L0r,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.107,first character (different action type or leading whitespace),0,False
+299,S13A,S13,A,L2,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.208,first character (different action type or leading whitespace),0,False
+300,S15A,S15,A,L1,P0,bizops,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.227,inside message text,4,False
+301,S04A,S04,A,L1,P0,shopping,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.325,first character (different action type or leading whitespace),0,True
+302,S49B,S49,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.397,at or before the tool name,21,False
+303,V043A,V043,A,L2,P0,shopping,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.182,first character (different action type or leading whitespace),0,False
+304,S22B,S22,B,L3,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.495,at or before the tool name,21,False
+305,S13A,S13,A,L0r,P2,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.099,first character (different action type or leading whitespace),0,False
+306,V321A,V321,A,L0r,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.215,first character (different action type or leading whitespace),0,False
+307,V074A,V074,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.2,first character (different action type or leading whitespace),0,False
+308,V072B,V072,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.522,at or before the tool name,21,False
+309,S22A,S22,A,L3,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.182,first character (different action type or leading whitespace),0,False
+310,V044B,V044,B,L1,P0,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.137,first character (different action type or leading whitespace),0,True
+311,S42B,S42,B,L1,P0,bizops,approve,ui,message,message,approve_generic,statement,ui > message,True,True,False,0.3,first character (different action type or leading whitespace),0,False
+312,V491A,V491,A,L0r,P2,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.21,first character (different action type or leading whitespace),0,False
+313,V471A,V471,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.233,first character (different action type or leading whitespace),0,False
+314,S12A,S12,A,L0r,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.24,first character (different action type or leading whitespace),0,False
+315,S15B,S15,B,L0r,P0,bizops,act,commit,message,message,commit_gold,statement,commit > message,True,True,False,0.238,first character (different action type or leading whitespace),0,False
+316,V534A,V534,A,L0r,P2,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.226,first character (different action type or leading whitespace),0,False
+317,S25B,S25,B,L2,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.497,first character (different action type or leading whitespace),0,False
+318,S10A,S10,A,L3,P0,shopping,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.071,first character (different action type or leading whitespace),0,False
+319,S13A,S13,A,L1,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.207,first character (different action type or leading whitespace),0,False
+320,V182B,V182,B,L1,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.54,at or before the tool name,21,False
+321,S12B,S12,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.38,first character (different action type or leading whitespace),0,False
+322,V094A,V094,A,L2,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.292,first character (different action type or leading whitespace),0,False
+323,V184B,V184,B,L1,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.536,at or before the tool name,21,False
+324,S26B,S26,B,L0r,P2,bizops,approve,ui,commit,commit,approve_informed,commit_other,ui > commit,True,True,False,0.688,first character (different action type or leading whitespace),0,False
+325,V031B,V031,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.512,at or before the tool name,21,False
+326,V181B,V181,B,L2,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.6,at or before the tool name,21,False
+327,S42B,S42,B,L3,P0,bizops,approve,ui,message,message,approve_generic,statement,ui > message,True,True,False,0.192,first character (different action type or leading whitespace),0,False
+328,V264A,V264,A,L2,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.262,first character (different action type or leading whitespace),0,False
+329,S58B,S58,B,L3,P0,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.429,at or before the tool name,21,False
+330,S53A,S53,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.151,first character (different action type or leading whitespace),0,False
+331,S07A,S07,A,L3,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.24,first character (different action type or leading whitespace),0,False
+332,S42B,S42,B,L2,P0,bizops,approve,ui,message,message,approve_generic,statement,ui > message,True,True,False,0.161,first character (different action type or leading whitespace),0,False
+333,V474B,V474,B,L2,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.503,at or before the tool name,11,False
+334,V582B,V582,B,L2,P0,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.44,at or before the tool name,21,False
+335,V472B,V472,B,L2,P0,wallet,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.193,first character (different action type or leading whitespace),0,True
+336,S04B,S04,B,L1,P0,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.212,first character (different action type or leading whitespace),0,True
+337,S02B,S02,B,L0r,P0,wallet,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.181,first character (different action type or leading whitespace),0,True
+338,V471B,V471,B,L2,P0,wallet,approve,ui,message,malformed commit call read as message,approve_generic,statement,ui > malformed commit call read as message,True,True,False,0.521,at or before the tool name,10,False
+339,V322B,V322,B,L2,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.648,at or before the tool name,23,False
+340,S57A,S57,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.189,first character (different action type or leading whitespace),0,False
+341,S15B,S15,B,L1,P0,bizops,act,commit,message,message,commit_gold,statement,commit > message,True,True,False,0.294,first character (different action type or leading whitespace),0,False
+342,V253A,V253,A,L2,P2,bills,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.098,first character (different action type or leading whitespace),0,False
+343,S26A,S26,A,L1,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.064,first character (different action type or leading whitespace),0,False
+344,S32B,S32,B,L1,P0,bills,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.187,first character (different action type or leading whitespace),0,True
+345,V062A,V062,A,L2,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.238,first character (different action type or leading whitespace),0,False
+346,V473B,V473,B,L2,P0,wallet,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.232,first character (different action type or leading whitespace),0,True
+347,V554B,V554,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.521,at or before the tool name,21,False
+348,V541A,V541,A,L2,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.278,first character (different action type or leading whitespace),0,False
+349,S03A,S03,A,L3,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.254,first character (different action type or leading whitespace),0,False
+350,S12B,S12,B,L1,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.471,at or before the tool name,21,False
+351,S06A,S06,A,L2,P2,bizops,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.247,first character (different action type or leading whitespace),0,True
+352,V264A,V264,A,L1,P0,bizops,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.266,first character (different action type or leading whitespace),0,True
+353,V573B,V573,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.538,at or before the tool name,21,False
+354,S18A,S18,A,L3,P2,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.146,first character (different action type or leading whitespace),0,False
+355,S07A,S07,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.137,first character (different action type or leading whitespace),0,False
+356,V062B,V062,B,L0r,P0,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.586,at or before the tool name,21,False
+357,V582A,V582,A,L2,P0,shopping,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.182,first character (different action type or leading whitespace),0,False
+358,S03B,S03,B,L0r,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.567,at or before the tool name,21,False
+359,V113A,V113,A,L0r,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.208,first character (different action type or leading whitespace),0,False
+360,S14B,S14,B,L1,P0,bizops,act,commit,message,message,commit_gold,ask_generic,commit > message,True,True,False,0.031,first character (different action type or leading whitespace),0,True
+361,V491B,V491,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.611,at or before the tool name,21,False
+362,S35A,S35,A,L3,P2,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.16,first character (different action type or leading whitespace),0,False
+363,V042A,V042,A,L1,P0,shopping,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.182,first character (different action type or leading whitespace),0,False
+364,V072A,V072,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.208,first character (different action type or leading whitespace),0,False
+365,V042B,V042,B,L1,P2,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.287,first character (different action type or leading whitespace),0,True
+366,V113A,V113,A,L2,P0,shopping,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.197,first character (different action type or leading whitespace),0,False
+367,V104A,V104,A,L1,P0,shopping,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.399,first character (different action type or leading whitespace),0,True
+368,V042A,V042,A,L0r,P2,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.147,first character (different action type or leading whitespace),0,False
+369,V182B,V182,B,L0r,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.567,at or before the tool name,21,False
+370,S54A,S54,A,L0r,P0,wallet,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.123,first character (different action type or leading whitespace),0,True
+371,V072A,V072,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.207,first character (different action type or leading whitespace),0,False
+372,S58B,S58,B,L2,P0,shopping,approve,ui,message,message,approve_generic,statement,ui > message,True,True,False,0.177,first character (different action type or leading whitespace),0,False
+373,S55A,S55,A,L3,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.279,first character (different action type or leading whitespace),0,False
+374,V183A,V183,A,L1,P0,bills,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.219,inside message text,1,True
+375,V321A,V321,A,L1,P2,bills,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.111,inside message text,1,True
+376,V532B,V532,B,L2,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.514,at or before the tool name,21,False
+377,V491B,V491,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.481,at or before the tool name,21,False
+378,V573B,V573,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.582,at or before the tool name,21,False
+379,S53A,S53,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.185,first character (different action type or leading whitespace),0,False
+380,V152B,V152,B,L2,P0,bizops,act,commit,message,message,commit_gold,statement,commit > message,True,True,False,0.212,first character (different action type or leading whitespace),0,False
+381,S09A,S09,A,L2,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.235,first character (different action type or leading whitespace),0,False
+382,S55A,S55,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.265,first character (different action type or leading whitespace),0,False
+383,V583B,V583,B,L1,P2,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.43,at or before the tool name,11,False
+384,V581B,V581,B,L2,P0,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.406,at or before the tool name,11,False
+385,V184B,V184,B,L0r,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.556,at or before the tool name,21,False
+386,V571B,V571,B,L1,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.5,at or before the tool name,21,False
+387,V554A,V554,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.233,first character (different action type or leading whitespace),0,False
+388,V133A,V133,A,L2,P2,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.241,first character (different action type or leading whitespace),0,False
+389,S55B,S55,B,L2,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.487,at or before the tool name,21,False
+390,V473A,V473,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.188,first character (different action type or leading whitespace),0,False
+391,S58B,S58,B,L0r,P0,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.451,at or before the tool name,21,False
+392,V553B,V553,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.542,at or before the tool name,21,False
+393,V093A,V093,A,L0r,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.255,first character (different action type or leading whitespace),0,False
+394,V582A,V582,A,L1,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.106,first character (different action type or leading whitespace),0,False
+395,S15A,S15,A,L3,P0,bizops,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.1,inside message text,1,True
+396,V042A,V042,A,L2,P0,shopping,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.384,first character (different action type or leading whitespace),0,True
+397,V554B,V554,B,L2,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.528,at or before the tool name,21,False
+398,V071A,V071,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.24,first character (different action type or leading whitespace),0,False
+399,V341A,V341,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.215,first character (different action type or leading whitespace),0,False
+400,V133B,V133,B,L2,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.505,at or before the tool name,21,False
+401,S13A,S13,A,L3,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.206,first character (different action type or leading whitespace),0,False
+402,S15B,S15,B,L3,P0,bizops,act,commit,message,message,commit_gold,statement,commit > message,True,True,False,0.299,first character (different action type or leading whitespace),0,False
+403,V223B,V223,B,L0r,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.68,at or before the tool name,21,False
+404,S42A,S42,A,L3,P0,bizops,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.115,first character (different action type or leading whitespace),0,False
+405,S06A,S06,A,L0r,P0,bizops,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.271,first character (different action type or leading whitespace),0,True
+406,V341B,V341,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.512,at or before the tool name,21,False
+407,V571B,V571,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.499,at or before the tool name,21,False
+408,S26A,S26,A,L2,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.1,first character (different action type or leading whitespace),0,False
+409,V344A,V344,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.228,first character (different action type or leading whitespace),0,False
+410,S09B,S09,B,L3,P0,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.56,at or before the tool name,21,False
+411,V094B,V094,B,L2,P2,bizops,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.586,at or before the tool name,21,False
+412,S53B,S53,B,L1,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.493,at or before the tool name,21,False
+413,S13B,S13,B,L0r,P2,bills,approve,ui,commit,commit,approve_informed,commit_other,ui > commit,True,True,False,0.605,at or before the tool name,21,False
+414,S55A,S55,A,L2,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.265,first character (different action type or leading whitespace),0,False
+415,S15A,S15,A,L0r,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.048,inside message text,1,False
+416,S34A,S34,A,L0r,P2,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.169,first character (different action type or leading whitespace),0,False
+417,V472A,V472,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.261,first character (different action type or leading whitespace),0,False
+418,V074B,V074,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.432,at or before the tool name,21,False
+419,V044A,V044,A,L2,P0,shopping,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.281,first character (different action type or leading whitespace),0,True
+420,V541B,V541,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.5,at or before the tool name,21,False
+421,V582A,V582,A,L0r,P2,shopping,ask,message,commit,commit,ask_informed,commit_gold,message > commit,True,True,False,0.179,first character (different action type or leading whitespace),0,False
+422,V264B,V264,B,L1,P2,bizops,approve,ui,message,message,approve_generic,ask_informed,ui > message,True,True,False,0.348,first character (different action type or leading whitespace),0,True
+423,S49A,S49,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.209,first character (different action type or leading whitespace),0,False
+424,V152A,V152,A,L0r,P2,bizops,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.102,first character (different action type or leading whitespace),0,False
+425,S55B,S55,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.487,first character (different action type or leading whitespace),0,False
+426,V551B,V551,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.211,at or before the tool name,11,False
+427,S15B,S15,B,L2,P0,bizops,act,commit,message,message,commit_gold,statement,commit > message,True,True,False,0.258,first character (different action type or leading whitespace),0,False
+428,S12A,S12,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.181,first character (different action type or leading whitespace),0,False
+429,V073B,V073,B,L2,P2,wallet,approve,ui,message,malformed commit call read as message,approve_generic,statement,ui > malformed commit call read as message,True,True,False,0.526,at or before the tool name,10,False
+430,V253A,V253,A,L0r,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.12,first character (different action type or leading whitespace),0,False
+431,V492A,V492,A,L0r,P2,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.212,first character (different action type or leading whitespace),0,False
+432,V073A,V073,A,L2,P0,wallet,ask,message,message,malformed commit call read as message,ask_informed,statement,message > malformed commit call read as message,True,True,False,0.285,first character (different action type or leading whitespace),0,False
+433,V534A,V534,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.21,first character (different action type or leading whitespace),0,False
+434,V472A,V472,A,L2,P2,wallet,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.192,inside message text,1,False
+435,V322A,V322,A,L1,P2,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.118,first character (different action type or leading whitespace),0,False
+436,S11B,S11,B,L1,P2,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.341,first character (different action type or leading whitespace),0,True
+437,S11A,S11,A,L3,P0,shopping,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.197,first character (different action type or leading whitespace),0,False
+438,V254A,V254,A,L0r,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.148,first character (different action type or leading whitespace),0,False
+439,S49A,S49,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.202,first character (different action type or leading whitespace),0,False
+440,S18B,S18,B,L1,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.57,first character (different action type or leading whitespace),0,False
+441,V532B,V532,B,L1,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.536,at or before the tool name,21,False
+442,S14A,S14,A,L1,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.235,first character (different action type or leading whitespace),0,False
+443,V552B,V552,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.541,at or before the tool name,21,False
+444,S13B,S13,B,L1,P0,bills,approve,ui,commit,commit,approve_informed,commit_other,ui > commit,True,True,False,0.57,at or before the tool name,21,False
+445,S02A,S02,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.298,first character (different action type or leading whitespace),0,False
+446,V553A,V553,A,L1,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.282,first character (different action type or leading whitespace),0,False
+447,S22A,S22,A,L2,P0,bills,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.247,first character (different action type or leading whitespace),0,True
+448,S03A,S03,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.269,first character (different action type or leading whitespace),0,False
+449,S06A,S06,A,L1,P0,bizops,ask,message,message,message,ask_informed,ask_generic,message > message,True,False,False,0.31,first character (different action type or leading whitespace),0,True
+450,V183B,V183,B,L2,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.598,at or before the tool name,21,False
+451,S58A,S58,A,L2,P0,shopping,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.154,first character (different action type or leading whitespace),0,False
+452,S18B,S18,B,L0r,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.549,at or before the tool name,21,False
+453,S07A,S07,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.197,first character (different action type or leading whitespace),0,False
+454,S54B,S54,B,L3,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.527,at or before the tool name,21,False
+455,V551A,V551,A,L1,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.188,first character (different action type or leading whitespace),0,False
+456,V104B,V104,B,L0r,P2,shopping,act,commit,message,message,commit_gold,ask_generic,commit > message,True,True,False,0.147,first character (different action type or leading whitespace),0,True
+457,S13B,S13,B,L3,P0,bills,approve,ui,commit,commit,approve_informed,commit_other,ui > commit,True,True,False,0.635,at or before the tool name,21,False
+458,V183B,V183,B,L1,P0,bills,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.178,first character (different action type or leading whitespace),0,True
+459,V531B,V531,B,L2,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.543,at or before the tool name,21,False
+460,S54A,S54,A,L3,P0,wallet,ask,message,ui,ui,ask_informed,approve_generic,message > ui,True,True,False,0.196,first character (different action type or leading whitespace),0,False
+461,V472B,V472,B,L1,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.473,at or before the tool name,21,False
+462,S32B,S32,B,L0r,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.615,at or before the tool name,23,False
+463,V321B,V321,B,L2,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.188,at or before the tool name,11,False
+464,S25B,S25,B,L0r,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.508,at or before the tool name,21,False
+465,V583A,V583,A,L2,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.105,first character (different action type or leading whitespace),0,False
+466,S42A,S42,A,L2,P0,bizops,ask,message,message,message,ask_informed,statement,message > message,True,False,False,0.183,first character (different action type or leading whitespace),0,False
+467,S04B,S04,B,L0r,P0,shopping,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.345,first character (different action type or leading whitespace),0,True
+468,V341A,V341,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.245,first character (different action type or leading whitespace),0,False
+469,V553B,V553,B,L1,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.513,at or before the tool name,11,False
+470,V061B,V061,B,L2,P0,bizops,approve,ui,commit,commit,approve_generic,commit_gold,ui > commit,True,True,False,0.617,at or before the tool name,21,False
+471,V094A,V094,A,L0r,P2,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.271,first character (different action type or leading whitespace),0,False
+472,V581A,V581,A,L2,P0,shopping,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.104,first character (different action type or leading whitespace),0,False
+473,S06B,S06,B,L1,P0,bizops,approve,ui,message,malformed unknown-tool call read as message,approve_generic,ask_generic,ui > malformed unknown-tool call read as message,True,True,False,0.154,first character (different action type or leading whitespace),0,True
+474,V133B,V133,B,L0r,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.562,at or before the tool name,21,False
+475,V532A,V532,A,L0r,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.219,first character (different action type or leading whitespace),0,False
+476,V551A,V551,A,L2,P0,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.185,first character (different action type or leading whitespace),0,False
+477,V552A,V552,A,L2,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.23,first character (different action type or leading whitespace),0,False
+478,V573A,V573,A,L0r,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.28,first character (different action type or leading whitespace),0,False
+479,S14A,S14,A,L2,P0,bizops,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.207,first character (different action type or leading whitespace),0,False
+480,V492A,V492,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.169,first character (different action type or leading whitespace),0,False
+481,V541A,V541,A,L1,P2,wallet,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.223,first character (different action type or leading whitespace),0,False
+482,S49B,S49,B,L3,P2,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.459,at or before the tool name,21,False
+483,V183A,V183,A,L2,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.204,first character (different action type or leading whitespace),0,False
+484,V223B,V223,B,L2,P2,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.577,at or before the tool name,21,False
+485,V534A,V534,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.205,first character (different action type or leading whitespace),0,False
+486,S32A,S32,A,L1,P2,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.208,first character (different action type or leading whitespace),0,False
+487,S55B,S55,B,L3,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.541,at or before the tool name,21,False
+488,V181B,V181,B,L0r,P0,bills,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.564,at or before the tool name,21,False
+489,S49B,S49,B,L0r,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.527,at or before the tool name,21,False
+490,S09B,S09,B,L0r,P0,bizops,approve,ui,message,message,approve_generic,ask_generic,ui > message,True,True,False,0.26,first character (different action type or leading whitespace),0,True
+491,V031A,V031,A,L1,P0,wallet,ask,message,commit,commit,ask_informed,commit_harmful,message > commit,True,True,False,0.161,first character (different action type or leading whitespace),0,False
+492,S10B,S10,B,L3,P0,shopping,act,commit,message,malformed lookup call read as message,commit_gold,ask_generic,commit > malformed lookup call read as message,True,True,False,0.377,at or before the tool name,10,True
+493,V042B,V042,B,L0r,P0,shopping,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.493,at or before the tool name,21,False
+494,V553B,V553,B,L2,P0,wallet,approve,ui,commit,commit,approve_generic,commit_other,ui > commit,True,True,False,0.566,at or before the tool name,21,False
+495,V322A,V322,A,L2,P0,bills,ask,message,commit,commit,ask_informed,commit_other,message > commit,True,True,False,0.202,first character (different action type or leading whitespace),0,False

@@ -1,0 +1,1 @@
+{"text": "{\"remittance_account_last_four\": \"4471\", \"pending_change_request\": false, \"callback_on_file\": null}", "usage": {"completion_tokens": 28, "prompt_tokens": 288, "total_tokens": 316, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.1320000000000004e-05}, "finish": "stop"}

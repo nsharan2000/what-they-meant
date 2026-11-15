@@ -1,0 +1,807 @@
+{
+ "sft_train": {
+  "pre": 1000,
+  "post": 904,
+  "distinct_pre": 926,
+  "exact_duplicates": 74,
+  "removed_not_duplicate": 22,
+  "dups_by_turn": {
+   "lookup1": 74
+  },
+  "dups_scenarios": [
+   "S04A",
+   "S04B",
+   "S14A",
+   "S14B",
+   "S15A",
+   "S15B",
+   "S22A",
+   "S25B",
+   "S32A",
+   "S35A",
+   "S47B",
+   "S55A",
+   "S55B",
+   "S58A",
+   "S58B",
+   "V042A",
+   "V043A",
+   "V043B",
+   "V044B",
+   "V113A",
+   "V152A",
+   "V181B",
+   "V182A",
+   "V183B",
+   "V184A",
+   "V184B",
+   "V223B",
+   "V253A",
+   "V254A",
+   "V321B",
+   "V322A",
+   "V322B",
+   "V471B",
+   "V472B",
+   "V473A",
+   "V473B",
+   "V474A",
+   "V491A",
+   "V551A",
+   "V552B",
+   "V553B",
+   "V554A",
+   "V573B",
+   "V581A",
+   "V581B",
+   "V582B",
+   "V583B",
+   "V584A"
+  ],
+  "removed_by_turn": {
+   "decision": 12,
+   "lookup1": 10
+  },
+  "removed_by_scenario": {
+   "S57A": 4,
+   "S47A": 4,
+   "S57B": 4,
+   "S47B": 3,
+   "V074A": 2,
+   "V491B": 2,
+   "V074B": 2,
+   "V491A": 1
+  },
+  "removed_by_pair": {
+   "S57": 8,
+   "S47": 7,
+   "V074": 4,
+   "V491": 3
+  },
+  "removed_rows": [
+   {
+    "pre_row": 19,
+    "scenario_id": "S47B",
+    "level": "L2",
+    "ps": "P2",
+    "turn": "decision",
+    "twin": "B_should_act",
+    "source": "seed",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 111,
+    "scenario_id": "S57A",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "lookup1",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 130,
+    "scenario_id": "V074A",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "decision",
+    "twin": "A_should_ask",
+    "source": "variant",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 202,
+    "scenario_id": "S47A",
+    "level": "L3",
+    "ps": "P0",
+    "turn": "decision",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 298,
+    "scenario_id": "S47A",
+    "level": "L2",
+    "ps": "P2",
+    "turn": "lookup1",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 309,
+    "scenario_id": "V491A",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "decision",
+    "twin": "A_should_ask",
+    "source": "variant",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 320,
+    "scenario_id": "S47A",
+    "level": "L2",
+    "ps": "P2",
+    "turn": "decision",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 346,
+    "scenario_id": "S57B",
+    "level": "L3",
+    "ps": "P2",
+    "turn": "decision",
+    "twin": "B_should_act",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 358,
+    "scenario_id": "S57B",
+    "level": "L2",
+    "ps": "P2",
+    "turn": "lookup1",
+    "twin": "B_should_act",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 380,
+    "scenario_id": "S57A",
+    "level": "L3",
+    "ps": "P0",
+    "turn": "lookup1",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 385,
+    "scenario_id": "S57A",
+    "level": "L3",
+    "ps": "P0",
+    "turn": "decision",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 398,
+    "scenario_id": "S47A",
+    "level": "L3",
+    "ps": "P0",
+    "turn": "lookup1",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 503,
+    "scenario_id": "V491B",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "lookup1",
+    "twin": "B_should_act",
+    "source": "variant",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 520,
+    "scenario_id": "V491B",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "decision",
+    "twin": "B_should_act",
+    "source": "variant",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 629,
+    "scenario_id": "S47B",
+    "level": "L3",
+    "ps": "P2",
+    "turn": "decision",
+    "twin": "B_should_act",
+    "source": "seed",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 651,
+    "scenario_id": "S47B",
+    "level": "L3",
+    "ps": "P2",
+    "turn": "lookup1",
+    "twin": "B_should_act",
+    "source": "seed",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 717,
+    "scenario_id": "V074B",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "lookup1",
+    "twin": "B_should_act",
+    "source": "variant",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 742,
+    "scenario_id": "S57A",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "decision",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 788,
+    "scenario_id": "V074B",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "decision",
+    "twin": "B_should_act",
+    "source": "variant",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 848,
+    "scenario_id": "V074A",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "lookup1",
+    "twin": "A_should_ask",
+    "source": "variant",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 956,
+    "scenario_id": "S57B",
+    "level": "L3",
+    "ps": "P2",
+    "turn": "lookup1",
+    "twin": "B_should_act",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 993,
+    "scenario_id": "S57B",
+    "level": "L2",
+    "ps": "P2",
+    "turn": "decision",
+    "twin": "B_should_act",
+    "source": "seed",
+    "hex16_in_row": []
+   }
+  ],
+  "dup_examples": [
+   {
+    "pre_row": 238,
+    "scenario_id": "V253A",
+    "level": "L0r",
+    "ps": "P0",
+    "turn": "lookup1",
+    "twin": "A_should_ask",
+    "source": "variant",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 249,
+    "scenario_id": "S58B",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "lookup1",
+    "twin": "B_should_act",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 275,
+    "scenario_id": "S15A",
+    "level": "L3",
+    "ps": "P0",
+    "turn": "lookup1",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 359,
+    "scenario_id": "S32A",
+    "level": "L0r",
+    "ps": "P0",
+    "turn": "lookup1",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 366,
+    "scenario_id": "V253A",
+    "level": "L1",
+    "ps": "P0",
+    "turn": "lookup1",
+    "twin": "A_should_ask",
+    "source": "variant",
+    "hex16_in_row": []
+   }
+  ],
+  "decision_renderings_lost": 12,
+  "decision_renderings_lost_list": [
+   [
+    "S47A",
+    "L2"
+   ],
+   [
+    "S47A",
+    "L3"
+   ],
+   [
+    "S47B",
+    "L2"
+   ],
+   [
+    "S47B",
+    "L3"
+   ],
+   [
+    "S57A",
+    "L2"
+   ],
+   [
+    "S57A",
+    "L3"
+   ],
+   [
+    "S57B",
+    "L2"
+   ],
+   [
+    "S57B",
+    "L3"
+   ],
+   [
+    "V074A",
+    "L2"
+   ],
+   [
+    "V074B",
+    "L2"
+   ],
+   [
+    "V491A",
+    "L2"
+   ],
+   [
+    "V491B",
+    "L2"
+   ]
+  ],
+  "pairs_losing_rows": {
+   "V254": [
+    12,
+    10
+   ],
+   "S32": [
+    16,
+    14
+   ],
+   "V552": [
+    12,
+    10
+   ],
+   "S22": [
+    16,
+    14
+   ],
+   "V042": [
+    12,
+    11
+   ],
+   "V474": [
+    12,
+    11
+   ],
+   "V043": [
+    12,
+    10
+   ],
+   "S47": [
+    16,
+    8
+   ],
+   "V182": [
+    12,
+    10
+   ],
+   "V573": [
+    12,
+    10
+   ],
+   "V554": [
+    12,
+    10
+   ],
+   "S25": [
+    16,
+    14
+   ],
+   "S58": [
+    16,
+    12
+   ],
+   "V471": [
+    12,
+    11
+   ],
+   "S57": [
+    16,
+    8
+   ],
+   "V321": [
+    12,
+    10
+   ],
+   "V183": [
+    12,
+    11
+   ],
+   "V223": [
+    18,
+    17
+   ],
+   "V584": [
+    12,
+    11
+   ],
+   "V582": [
+    12,
+    10
+   ],
+   "V181": [
+    12,
+    10
+   ],
+   "S55": [
+    16,
+    14
+   ],
+   "V491": [
+    12,
+    7
+   ],
+   "V044": [
+    12,
+    11
+   ],
+   "V074": [
+    12,
+    8
+   ],
+   "V322": [
+    12,
+    9
+   ],
+   "S14": [
+    16,
+    14
+   ],
+   "V184": [
+    12,
+    10
+   ],
+   "V583": [
+    12,
+    10
+   ],
+   "S35": [
+    16,
+    12
+   ],
+   "V113": [
+    12,
+    10
+   ],
+   "V253": [
+    12,
+    10
+   ],
+   "V553": [
+    12,
+    11
+   ],
+   "S15": [
+    16,
+    13
+   ],
+   "V152": [
+    12,
+    10
+   ],
+   "V472": [
+    12,
+    11
+   ],
+   "S04": [
+    16,
+    13
+   ],
+   "V581": [
+    12,
+    9
+   ],
+   "V473": [
+    12,
+    10
+   ],
+   "V551": [
+    12,
+    10
+   ]
+  },
+  "pair_levels_with_one_twin_only": [
+   [
+    "V031",
+    "L0r",
+    "B"
+   ],
+   [
+    "V072",
+    "L1",
+    "B"
+   ]
+  ]
+ },
+ "dpo_train": {
+  "pre": 508,
+  "post": 496,
+  "distinct_pre": 508,
+  "exact_duplicates": 0,
+  "removed_not_duplicate": 12,
+  "dups_by_turn": {},
+  "dups_scenarios": [],
+  "removed_by_turn": {
+   "-": 12
+  },
+  "removed_by_scenario": {
+   "S57A": 2,
+   "S47A": 2,
+   "S57B": 2,
+   "S47B": 2,
+   "V074B": 1,
+   "V074A": 1,
+   "V491A": 1,
+   "V491B": 1
+  },
+  "removed_by_pair": {
+   "S57": 4,
+   "S47": 4,
+   "V074": 2,
+   "V491": 2
+  },
+  "removed_rows": [
+   {
+    "pre_row": 62,
+    "scenario_id": "V074B",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "-",
+    "twin": "B_should_act",
+    "source": "variant",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 91,
+    "scenario_id": "S57A",
+    "level": "L3",
+    "ps": "P0",
+    "turn": "-",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 100,
+    "scenario_id": "V074A",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "-",
+    "twin": "A_should_ask",
+    "source": "variant",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 122,
+    "scenario_id": "S57A",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "-",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 166,
+    "scenario_id": "S47A",
+    "level": "L3",
+    "ps": "P0",
+    "turn": "-",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 208,
+    "scenario_id": "V491A",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "-",
+    "twin": "A_should_ask",
+    "source": "variant",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 213,
+    "scenario_id": "S57B",
+    "level": "L3",
+    "ps": "P2",
+    "turn": "-",
+    "twin": "B_should_act",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 273,
+    "scenario_id": "V491B",
+    "level": "L2",
+    "ps": "P0",
+    "turn": "-",
+    "twin": "B_should_act",
+    "source": "variant",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 278,
+    "scenario_id": "S57B",
+    "level": "L2",
+    "ps": "P2",
+    "turn": "-",
+    "twin": "B_should_act",
+    "source": "seed",
+    "hex16_in_row": []
+   },
+   {
+    "pre_row": 282,
+    "scenario_id": "S47B",
+    "level": "L2",
+    "ps": "P2",
+    "turn": "-",
+    "twin": "B_should_act",
+    "source": "seed",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 356,
+    "scenario_id": "S47A",
+    "level": "L2",
+    "ps": "P2",
+    "turn": "-",
+    "twin": "A_should_ask",
+    "source": "seed",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   },
+   {
+    "pre_row": 458,
+    "scenario_id": "S47B",
+    "level": "L3",
+    "ps": "P2",
+    "turn": "-",
+    "twin": "B_should_act",
+    "source": "seed",
+    "hex16_in_row": [
+     "0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2"
+    ]
+   }
+  ],
+  "dup_examples": []
+ },
+ "provenance": {
+  "rebuild_sft_train_sha256": "de5631ae85c38474781f9ccaef6c040b396507e19767d3fc3365a01ee9759637",
+  "original_build_sft_train_sha256": "de5631ae85c38474781f9ccaef6c040b396507e19767d3fc3365a01ee9759637",
+  "original_build_path": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/v121_check",
+  "rebuild_sft_val_sha256": "cf122cffd91dc66dd358f1b07228de0575dc0e1e77e9f6dd6777028bfeb79847",
+  "curated_sft_val_sha256": "cf122cffd91dc66dd358f1b07228de0575dc0e1e77e9f6dd6777028bfeb79847",
+  "rebuild_build_report_counts": {
+   "sft_train": 1000,
+   "sft_val": 224,
+   "dpo_train": 508,
+   "grpo_train": 510
+  },
+  "curated_build_report_counts": {
+   "sft_train": 1000,
+   "sft_val": 224,
+   "dpo_train": 508,
+   "grpo_train": 510
+  },
+  "sft_train_identical": true
+ },
+ "curatorkit_stage_counts_sft": {
+  "exact_duplicates_removed": 74,
+  "secrets_rejected": 22,
+  "rejected_breakdown": {
+   "secret_detected:Hex High Entropy String": 14,
+   "secret_detected:Base64 High Entropy String": 8
+  }
+ },
+ "curatorkit_stage_counts_dpo": {
+  "secrets_rejected": 12
+ }
+}

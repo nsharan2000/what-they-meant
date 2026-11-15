@@ -1,0 +1,273 @@
+{
+ "policy_words": {
+  "wallet": {
+   "L0_role_line": 15,
+   "L1_policy": 1033
+  },
+  "bills": {
+   "L0_role_line": 7,
+   "L1_policy": 955
+  },
+  "shopping": {
+   "L0_role_line": 15,
+   "L1_policy": 1007
+  },
+  "bizops": {
+   "L0_role_line": 6,
+   "L1_policy": 904
+  }
+ },
+ "sft_decision_by_level": {
+  "L1": 151,
+  "L2": 144,
+  "L0r": 152,
+  "L3": 50
+ },
+ "sft_decision_L0r_P0": 102,
+ "sft_decision_L0r_P0_by_twin": {
+  "A": 49,
+  "B": 53
+ },
+ "fit": {
+  "coef": {
+   "const": 740.59277,
+   "policy_chars": 0.24962,
+   "member_L0r": 0.35117,
+   "member_L1": 0.44614,
+   "member_L2L3": 0.442,
+   "tools_chars": 0.18886,
+   "post_chars": 0.53069,
+   "n_msgs": -19.88399,
+   "P2": 51.26015
+  },
+  "r2": 0.99793,
+  "resid_abs_p95": 267.0,
+  "n": 2120,
+  "chars_per_token_policy": 4.01,
+  "hint_chars": 190
+ },
+ "template_preamble_chars": 1894,
+ "late_rows": {
+  "L2": 144,
+  "L3": 50
+ },
+ "policy_beyond_window_grid": {
+  "ratio3.6_pre450": {
+   "L2": 137,
+   "L3": 48
+  },
+  "ratio3.6_pre550": {
+   "L2": 136,
+   "L3": 48
+  },
+  "ratio3.6_pre650": {
+   "L2": 135,
+   "L3": 46
+  },
+  "ratio4.0_pre450": {
+   "L2": 140,
+   "L3": 48
+  },
+  "ratio4.0_pre550": {
+   "L2": 138,
+   "L3": 48
+  },
+  "ratio4.0_pre650": {
+   "L2": 136,
+   "L3": 48
+  },
+  "ratio4.4_pre450": {
+   "L2": 140,
+   "L3": 48
+  },
+  "ratio4.4_pre550": {
+   "L2": 140,
+   "L3": 48
+  },
+  "ratio4.4_pre650": {
+   "L2": 138,
+   "L3": 48
+  }
+ },
+ "policy_beyond_window_fit_policy_coef_pre550": {
+  "L2": 138,
+  "L3": 48
+ },
+ "policy_tokens_fit_by_env": {
+  "wallet": 1505.0,
+  "bills": 1430.0,
+  "shopping": 1506.0,
+  "bizops": 1385.0
+ },
+ "hint_to_generation_tokens_est": {
+  "median": 113.0,
+  "p95": 225.0,
+  "n": 152
+ },
+ "late_prompt_tokens": {
+  "L2": {
+   "min": 5709,
+   "p50": 6778,
+   "max": 7435
+  },
+  "L3": {
+   "min": 5672,
+   "p50": 6826,
+   "max": 7396
+  }
+ },
+ "examples_far": [
+  {
+   "line": 750,
+   "sid": "V183B",
+   "level": "L2",
+   "ps": "P2",
+   "prompt_tokens": 7435,
+   "policy_end_to_generation_est": 5455
+  },
+  {
+   "line": 670,
+   "sid": "V182A",
+   "level": "L2",
+   "ps": "P0",
+   "prompt_tokens": 7406,
+   "policy_end_to_generation_est": 5426
+  },
+  {
+   "line": 782,
+   "sid": "V183A",
+   "level": "L2",
+   "ps": "P0",
+   "prompt_tokens": 7402,
+   "policy_end_to_generation_est": 5422
+  }
+ ],
+ "pc10": {
+  "rows_by_file_turn": {
+   "sft_train:lookup1": 8,
+   "sft_train:decision": 10,
+   "dpo_train:decision": 10,
+   "grpo_train:decision": 10,
+   "sft_val:decision": 4,
+   "sft_val:lookup1": 4
+  },
+  "decision_rows_sft_plus_dpo": 20,
+  "names_in_decision_rows_sft_plus_dpo": {
+   "upgrade": 8,
+   "renew": 8,
+   "usage_check": 4
+  },
+  "not_env_tools_at_all": [
+   "click",
+   "refund",
+   "renew",
+   "upgrade"
+  ],
+  "scenarios": [
+   "S24A",
+   "S24B",
+   "S25A",
+   "S25B",
+   "S32A",
+   "S32B",
+   "S36A",
+   "S36B",
+   "V062A",
+   "V062B",
+   "V254A",
+   "V254B",
+   "V321A",
+   "V321B"
+  ],
+  "examples": [
+   {
+    "file": "sft_train",
+    "i": 3,
+    "sid": "S32B",
+    "turn": "lookup1",
+    "ps": "P0",
+    "missing": [
+     "renew"
+    ],
+    "missing_not_env_tool": [
+     "renew"
+    ],
+    "note": "get_billing (read-only), renew."
+   },
+   {
+    "file": "sft_train",
+    "i": 30,
+    "sid": "V062A",
+    "turn": "lookup1",
+    "ps": "P2",
+    "missing": [
+     "usage_check"
+    ],
+    "missing_not_env_tool": [],
+    "note": "usage_check (read-only), dedupe_usage, finalize_invoices."
+   },
+   {
+    "file": "sft_train",
+    "i": 37,
+    "sid": "S25A",
+    "turn": "lookup1",
+    "ps": "P0",
+    "missing": [
+     "upgrade"
+    ],
+    "missing_not_env_tool": [
+     "upgrade"
+    ],
+    "note": "get_plan_terms (read-only), upgrade."
+   },
+   {
+    "file": "sft_train",
+    "i": 58,
+    "sid": "V321A",
+    "turn": "lookup1",
+    "ps": "P0",
+    "missing": [
+     "renew"
+    ],
+    "missing_not_env_tool": [
+     "renew"
+    ],
+    "note": "get_billing (read-only), renew."
+   },
+   {
+    "file": "sft_train",
+    "i": 132,
+    "sid": "S25B",
+    "turn": "decision",
+    "ps": "P2",
+    "missing": [
+     "upgrade"
+    ],
+    "missing_not_env_tool": [
+     "upgrade"
+    ],
+    "note": "get_plan_terms (read-only), upgrade."
+   },
+   {
+    "file": "sft_train",
+    "i": 176,
+    "sid": "S25A",
+    "turn": "decision",
+    "ps": "P0",
+    "missing": [
+     "upgrade"
+    ],
+    "missing_not_env_tool": [
+     "upgrade"
+    ],
+    "note": "get_plan_terms (read-only), upgrade."
+   }
+  ]
+ },
+ "L0r_seed_card_instruction_like_notes_sft_decision": {
+  "Tools:": 51,
+  "Policy:": 8,
+  "Type 2 agent": 16,
+  "Type 1": 0
+ }
+}

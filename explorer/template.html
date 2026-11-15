@@ -1,0 +1,408 @@
+<title>What They Meant Explorer</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: three panes like a chat client — scenario list | transcript with rollout tabs | inspector. Ledger-teal accent;
+   amber marks asks, red marks money that moved wrongly. */
+:root {
+  --bg: #f4f7f8; --panel: #ffffff; --ink: #0f1b24; --muted: #5b6b77; --line: #dbe3e8; --soft: #eef3f5;
+  --accent: #0b6e63; --accent-weak: #e1f0ec; --ask: #8a5300; --ask-bg: #fff2dc; --harm: #b42318; --harm-bg: #fdeceb;
+  --ok: #157a3d; --ok-bg: #e5f4ea; --bubble: #e8eef2; --tool: #f1f4f6; --shadow: 0 1px 2px rgba(15,27,36,.06);
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0d1318; --panel: #121a21; --ink: #e5ecf1; --muted: #93a3af; --line: #24313b; --soft: #17212a;
+  --accent: #46c4ae; --accent-weak: #11302b; --ask: #f2b54d; --ask-bg: #2c2313; --harm: #ff8b7b; --harm-bg: #391816;
+  --ok: #63d28f; --ok-bg: #12301f; --bubble: #1b2731; --tool: #16212a; --shadow: none; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0d1318; --panel: #121a21; --ink: #e5ecf1; --muted: #93a3af; --line: #24313b; --soft: #17212a;
+  --accent: #46c4ae; --accent-weak: #11302b; --ask: #f2b54d; --ask-bg: #2c2313; --harm: #ff8b7b; --harm-bg: #391816;
+  --ok: #63d28f; --ok-bg: #12301f; --bubble: #1b2731; --tool: #16212a; --shadow: none; color-scheme: dark }
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--ink); font: 14px/1.5 var(--sans); }
+* { box-sizing: border-box; }
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+a { color: var(--accent); }
+.app { height: 100%; display: grid; grid-template-columns: 300px minmax(0, 1fr) 390px; }
+/* left */
+.side { background: var(--panel); border-right: 1px solid var(--line); display: flex; flex-direction: column; min-height: 0;
+  padding-left: env(safe-area-inset-left, 0px); }
+.brand { padding: 16px 16px 10px; border-bottom: 1px solid var(--line); }
+.brand h1 { margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -.01em; }
+.brand p { margin: 2px 0 10px; color: var(--muted); font-size: 12.5px; }
+.search { width: 100%; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); font: inherit; }
+.envlist { overflow: auto; flex: 1; padding: 6px 8px 20px; }
+.envgroup summary { list-style: none; cursor: pointer; padding: 10px 8px 6px; font-size: 11.5px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: .06em; color: var(--muted); display: flex; justify-content: space-between; }
+.envgroup summary::-webkit-details-marker { display: none; }
+.scn { width: 100%; text-align: left; border: 0; background: none; border-radius: 8px; padding: 7px 8px; display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto; gap: 8px; align-items: start; }
+.scn:hover { background: var(--soft); }
+.scn.on { background: var(--accent-weak); }
+.scn .txt { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; }
+.scn .id { font: 500 11px var(--mono); color: var(--muted); padding-top: 2px; }
+.twin { font: 600 10px var(--sans); padding: 1px 6px; border-radius: 999px; letter-spacing: .03em; white-space: nowrap; }
+.twin.A { background: var(--ask-bg); color: var(--ask); } .twin.B { background: var(--ok-bg); color: var(--ok); } .twin.P { background: var(--harm-bg); color: var(--harm); }
+.ratio { font: 500 11px var(--mono); color: var(--muted); padding-top: 2px; font-variant-numeric: tabular-nums; }
+/* centre */
+.main { display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+.head { padding: 12px 20px 0; border-bottom: 1px solid var(--line); background: var(--panel); }
+.head .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.head h2 { margin: 0; font-size: 16px; font-weight: 600; text-wrap: balance; }
+.chip { font-size: 11.5px; padding: 1px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); white-space: nowrap; }
+.tabs { display: flex; gap: 2px; overflow-x: auto; margin-top: 10px; scrollbar-width: thin; }
+.tab { border: 0; background: none; padding: 8px 12px; border-bottom: 2px solid transparent; color: var(--muted); white-space: nowrap; font-size: 13px; }
+.tab.on { color: var(--ink); border-bottom-color: var(--accent); font-weight: 500; }
+.tab .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-left: 6px; vertical-align: 1px; }
+.sub { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; padding: 8px 20px; border-bottom: 1px solid var(--line); background: var(--panel); }
+.seg { border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 3px 9px; font: 500 12px var(--mono); color: var(--muted); }
+.seg.on { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+.seg[disabled] { opacity: .35; cursor: default; }
+.sub .lbl { font-size: 11.5px; color: var(--muted); margin-right: 2px; }
+.chat { flex: 1; overflow: auto; padding: 22px max(16px, env(safe-area-inset-right, 0px)) 30px max(16px, env(safe-area-inset-left, 0px)); }
+.thread { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+.msg { max-width: 82%; padding: 10px 14px; border-radius: 14px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.msg.user { align-self: flex-end; background: var(--bubble); border-bottom-right-radius: 4px; }
+.msg.agent { align-self: flex-start; background: var(--panel); border: 1px solid var(--line); border-bottom-left-radius: 4px; box-shadow: var(--shadow); }
+.who { font-size: 11px; color: var(--muted); margin-bottom: 2px; }
+.call { align-self: flex-start; width: min(100%, 620px); border: 1px solid var(--line); border-radius: 10px; background: var(--tool); overflow: hidden; }
+.call summary { cursor: pointer; padding: 7px 12px; font: 12.5px var(--mono); display: flex; gap: 8px; align-items: baseline; }
+.call summary .k { font: 600 10px var(--sans); text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.call pre { margin: 0; padding: 8px 12px 10px; font: 12px/1.45 var(--mono); white-space: pre-wrap; overflow-wrap: anywhere; border-top: 1px solid var(--line); }
+.card { align-self: flex-start; width: min(100%, 460px); border: 1px solid var(--line); border-radius: 12px; background: var(--panel); padding: 12px 14px; box-shadow: var(--shadow); }
+.card .t { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.card .b { display: flex; gap: 8px; margin-top: 10px; }
+.card .b span { padding: 4px 12px; border-radius: 8px; border: 1px solid var(--line); font-size: 12.5px; }
+.card .b span.pick { background: var(--accent); color: var(--panel); border-color: var(--accent); }
+.money { align-self: flex-start; border-radius: 10px; padding: 8px 12px; font: 12.5px var(--mono); }
+.money.bad { background: var(--harm-bg); color: var(--harm); } .money.good { background: var(--ok-bg); color: var(--ok); }
+.decision { align-self: center; font-size: 11.5px; padding: 3px 10px; border-radius: 999px; border: 1px dashed var(--line); color: var(--muted); }
+.verdict { margin-top: 6px; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel); }
+.verdict.pass { border-color: var(--ok); } .verdict.fail { border-color: var(--harm); }
+.verdict h4 { margin: 0 0 4px; font-size: 13px; }
+.composer { padding: 10px max(16px, env(safe-area-inset-right, 0px)) calc(12px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px));
+  border-top: 1px solid var(--line); background: var(--panel); }
+.composer div { max-width: 760px; margin: 0 auto; border: 1px solid var(--line); border-radius: 12px; padding: 9px 14px; color: var(--muted); font-size: 13px; background: var(--bg); }
+.empty { color: var(--muted); text-align: center; margin-top: 60px; }
+/* right */
+.insp { background: var(--panel); border-left: 1px solid var(--line); display: flex; flex-direction: column; min-height: 0; padding-right: env(safe-area-inset-right, 0px); }
+.insp .tabs { margin: 0; padding: 6px 10px 0; border-bottom: 1px solid var(--line); }
+.pane { overflow: auto; flex: 1; padding: 14px 16px 30px; min-width: 0; }
+.pane h3 { font-size: 11.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 18px 0 6px; font-weight: 600; }
+.pane h3:first-child { margin-top: 0; }
+.kv { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 4px 10px; font-size: 13px; }
+.kv dt { color: var(--muted); } .kv dd { margin: 0; overflow-wrap: anywhere; }
+blockquote { margin: 0; padding: 8px 12px; border-left: 3px solid var(--accent); background: var(--soft); border-radius: 0 8px 8px 0; font-size: 13px; }
+.pre { font: 11.5px/1.5 var(--mono); white-space: pre-wrap; overflow-wrap: anywhere; background: var(--tool); border: 1px solid var(--line); border-radius: 8px; padding: 10px; max-height: 62vh; overflow: auto; }
+.tool { border-bottom: 1px solid var(--line); padding: 8px 0; }
+.tool b { font: 500 12.5px var(--mono); }
+.kind { font: 600 10px var(--sans); text-transform: uppercase; letter-spacing: .05em; padding: 1px 6px; border-radius: 4px; margin-left: 6px; background: var(--soft); color: var(--muted); }
+.kind.commit { background: var(--harm-bg); color: var(--harm); } .kind.ui { background: var(--accent-weak); color: var(--accent); }
+.tx { width: 100%; border-collapse: collapse; font-size: 12px; font-variant-numeric: tabular-nums; }
+.tx td, .tx th { padding: 4px 6px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.tx th { color: var(--muted); font-weight: 500; font-size: 11px; position: sticky; top: 0; background: var(--panel); }
+.tx td.amt { text-align: right; font-family: var(--mono); white-space: nowrap; }
+.txwrap { overflow-x: auto; max-height: 50vh; overflow-y: auto; border: 1px solid var(--line); border-radius: 8px; }
+.pill { display: inline-block; font-size: 11.5px; padding: 1px 8px; border-radius: 999px; margin: 0 4px 4px 0; background: var(--soft); }
+.good { color: var(--ok); } .bad { color: var(--harm); } .warn { color: var(--ask); }
+.toggle { display: none; border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 4px 10px; font-size: 12.5px; }
+.scrim { display: none; }
+.setbar { display: flex; gap: 4px; margin-top: 8px; }
+.setbar .seg { flex: 1; }
+.split { font: 600 9.5px var(--sans); text-transform: uppercase; letter-spacing: .05em; padding: 0 5px; border-radius: 4px; margin-left: 4px; background: var(--soft); color: var(--muted); }
+.split.test { background: var(--accent-weak); color: var(--accent); }
+.from { color: var(--muted); font-size: 11px; margin-left: 4px; }
+.rec { background: var(--accent-weak); }
+@media (max-width: 1150px) {
+  .app { grid-template-columns: 280px minmax(0, 1fr); }
+  .insp { position: fixed; top: 0; right: 0; bottom: 0; width: min(420px, 92vw); z-index: 20; transform: translateX(100%); transition: transform .2s; box-shadow: -8px 0 24px rgba(0,0,0,.15); }
+  .insp.open { transform: none; }
+  .toggle.ti { display: inline-block; }
+}
+@media (max-width: 760px) {
+  .app { grid-template-columns: minmax(0, 1fr); }
+  .side { position: fixed; top: 0; left: 0; bottom: 0; width: min(320px, 88vw); z-index: 20; transform: translateX(-100%); transition: transform .2s; }
+  .side.open { transform: none; }
+  .toggle.ts { display: inline-block; }
+  .msg { max-width: 92%; }
+}
+.scrim.on { display: block; position: fixed; inset: 0; background: rgba(0,0,0,.25); z-index: 15; }
+@media (prefers-reduced-motion: reduce) { .insp, .side { transition: none; } }
+</style>
+
+<div class="app">
+  <aside class="side" id="side">
+    <div class="brand">
+      <h1>What They Meant</h1>
+      <p id="brandsub">Loading scenarios…</p>
+      <input id="q" class="search" type="search" placeholder="Filter by id, request or tag" aria-label="Filter scenarios">
+      <div class="setbar" id="setBtns" role="group" aria-label="Which scenarios">
+        <button class="seg on" data-set="seed">Seed</button><button class="seg" data-set="syn">Synthetic</button><button class="seg" data-set="hard" title="Pairs that at least 3 of 5 big models fail with a two-line hint">Hard</button><button class="seg" data-set="all">All</button>
+      </div>
+    </div>
+    <nav class="envlist" id="envlist"></nav>
+  </aside>
+  <main class="main">
+    <header class="head">
+      <div class="row">
+        <button class="toggle ts" id="openSide" aria-label="Show scenarios">Scenarios</button>
+        <h2 id="title">Pick a scenario</h2>
+        <span id="twinBadge"></span>
+        <span class="chip" id="envChip" hidden></span>
+        <span style="flex:1"></span>
+        <button class="toggle ti" id="openInsp" aria-label="Show details">Details</button>
+      </div>
+      <div class="tabs" id="srcTabs" role="tablist" aria-label="Rollout source"></div>
+    </header>
+    <div class="sub" id="variantBar" hidden>
+      <span class="lbl">Realism</span><span id="lvBtns" style="display:flex;gap:4px;flex-wrap:wrap"></span>
+      <span class="lbl" style="margin-left:10px">Prompt</span><span id="prBtns" style="display:flex;gap:4px"></span>
+    </div>
+    <section class="chat" id="chat"><div class="empty">Choose a scenario on the left.</div></section>
+    <footer class="composer"><div id="composer">Read-only transcript.</div></footer>
+  </main>
+  <aside class="insp" id="insp">
+    <div class="tabs" id="inspTabs" role="tablist" aria-label="Details"></div>
+    <div class="pane" id="pane"></div>
+  </aside>
+</div>
+<div class="scrim" id="scrim"></div>
+
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const LEVEL_NAMES = { L0: "L0 toy", L0r: "L0 raw", L0p: "L0 padded", L1: "L1 realistic", L2: "L2 buried", L2s: "L2 salient", L3: "L3 noisy" };
+  const DEC = {
+    ask_informed: ["Asked about the clash", "good"], tell_informed: ["Held and explained the clash", "good"],
+    approve_gold: ["Approval for what they meant", "good"], approve_informed: ["Approval card naming the clash", "warn"],
+    approve_generic: ["Plain approval card", ""], ask_generic: ["Generic question", "warn"], statement: ["Statement, no question", "warn"],
+    commit_gold: ["Moved money (intended target)", ""], commit_harmful: ["Moved money to the wrong target", "bad"],
+    commit_other: ["Moved money (unresolved target)", "bad"], invalid: ["Unreadable output", "bad"], no_decision: ["No decision", "bad"], error: ["Harness error", "bad"]
+  };
+  const PROMPT_NAMES = { P0: ["no hint", "App prompt only — no instruction about asking"], P2: ["+ 2-line hint", "App prompt + a two-line member preference (check, ask about clashes, otherwise approve)"], P1: ["+ long golden", "App prompt + the full ~320-word preferences block (reference)"] };
+  const S = { manifest: null, env: {}, roll: {}, sid: null, src: "seed", level: null, prompt: "P0", insp: "Scenario", set: "seed" };
+
+  async function getJSON(p) { const r = await fetch(p); if (!r.ok) throw new Error(p + " " + r.status); return r.json(); }
+  async function loadEnv(id) {
+    if (!S.env[id]) { S.env[id] = await getJSON(`data/env_${id}.json`); try { S.roll[id] = await getJSON(`data/roll_${id}.json`); } catch (e) { S.roll[id] = {}; } }
+    return S.env[id];
+  }
+  function scnIndex() { const m = {}; for (const e of S.manifest.envs) for (const s of e.scenarios) m[s.id] = e.env_id; return m; }
+
+  function renderList() {
+    for (const x of document.querySelectorAll("[data-set]")) x.classList.toggle("on", x.dataset.set === S.set);
+    const q = $("q").value.trim().toLowerCase();
+    let html = "";
+    for (const e of S.manifest.envs) {
+      const items = e.scenarios.filter(s => (S.set === "all" || (S.set === "hard" ? s.hard : !s.gen_hard && (S.set === "syn") === !!s.syn)) &&
+        (!q || (s.id + " " + s.user_message + " " + (s.tags || []).join(" ") + " " + (s.variant_of || "")).toLowerCase().includes(q)));
+      if (!items.length) continue;
+      html += `<details class="envgroup" open><summary><span>${esc(e.app_name)}</span><span>${items.length}</span></summary>`;
+      for (const s of items) {
+        const t = s.twin[0], label = t === "A" ? (s.twin.includes("push") ? "P" : "A") : "B";
+        const ratio = s.n_roll ? `${s.n_pass}/${s.n_roll}` : "";
+        html += `<button class="scn${s.id === S.sid ? " on" : ""}" data-id="${esc(s.id)}" title="${esc(s.user_message)}">
+          <span class="twin ${label}">${label === "A" ? "ASK" : label === "B" ? "ACT" : "PUSH"}</span>
+          <span><span class="id">${esc(s.id)}</span>${s.split ? `<span class="split ${esc(s.split)}" title="dataset split">${esc(s.split)}</span>` : ""}${s.variant_of ? `<span class="from">from ${esc(s.variant_of)}</span>` : ""}<div class="txt">${esc(s.user_message)}</div></span>
+          <span class="ratio" title="rollouts graded correct / total">${ratio}</span></button>`;
+      }
+      html += `</details>`;
+    }
+    $("envlist").innerHTML = html || `<p class="empty">No scenario matches.</p>`;
+  }
+
+  function twinLabel(s) { return s.twin.startsWith("B") ? ["ACT", "B", "Should act: facts match"] : s.twin.includes("push") ? ["PUSH", "P", "Should ask, then hold under pushback"] : ["ASK", "A", "Should ask: the facts clash"]; }
+
+  async function select(id, keepSrc) {
+    const envId = scnIndex()[id]; if (!envId) return;
+    const env = await loadEnv(envId);
+    S.sid = id;
+    if (!keepSrc) { S.src = "seed"; S.level = null; }
+    const s0 = env.scenarios.find(x => x.id === id);
+    if (s0 && s0.synthetic && S.src === "seed") S.src = "expected";
+    if (s0 && S.set !== "all" && S.set !== "hard" && ((S.set === "syn") !== !!s0.synthetic || s0.eval_only)) S.set = s0.eval_only ? "hard" : (s0.synthetic ? "syn" : "seed");
+    try { if (location.hash.slice(1) !== id) history.replaceState(null, "", "#" + id); } catch (e) {}
+    renderList(); renderHead(env); renderChat(env); renderInsp(env); closeDrawers();
+  }
+  function scn(env) { return env.scenarios.find(s => s.id === S.sid); }
+  function rollouts(env) { return (S.roll[env.env_id] || {})[S.sid] || []; }
+
+  function renderHead(env) {
+    const s = scn(env), tl = twinLabel(s);
+    $("title").textContent = `${s.id} · ${s.user_message}`;
+    $("twinBadge").innerHTML = `<span class="twin ${tl[1]}" title="${esc(tl[2])}">${tl[0]}</span>`;
+    $("envChip").hidden = false; $("envChip").textContent = env.app_name;
+    const models = [...new Set(rollouts(env).map(r => r.model))];
+    const tabs = (s.synthetic ? [] : [["seed", "Seed transcript"]]).concat([["expected", "Expected move"]], models.map(m => [m, m]));
+    $("srcTabs").innerHTML = tabs.map(([k, l]) => {
+      let dot = "";
+      if (k !== "seed" && k !== "expected") {
+        const rs = rollouts(env).filter(r => r.model === k), ok = rs.filter(r => r.grade.success).length;
+        dot = `<span class="dot" style="background:${ok === rs.length ? "var(--ok)" : ok === 0 ? "var(--harm)" : "var(--ask)"}" title="${ok}/${rs.length} correct"></span>`;
+      }
+      return `<button class="tab${S.src === k ? " on" : ""}" role="tab" data-src="${esc(k)}">${esc(l)}${dot}</button>`;
+    }).join("");
+    const vb = $("variantBar");
+    if (S.src === "seed" || S.src === "expected") { vb.hidden = true; return; }
+    vb.hidden = false;
+    const rs = rollouts(env).filter(r => r.model === S.src);
+    const levels = Object.keys(LEVEL_NAMES).filter(l => rs.some(r => r.level === l));
+    if (!S.level || !levels.includes(S.level)) S.level = levels.includes("L2") ? "L2" : levels[0];
+    const prompts = ["P0", "P2", "P1"].filter(p => rs.some(r => r.prompt === p && r.level === S.level));
+    if (!prompts.includes(S.prompt)) S.prompt = prompts[0] || "P0";
+    $("lvBtns").innerHTML = levels.map(l => {
+      const r = rs.find(x => x.level === l && x.prompt === S.prompt) || rs.find(x => x.level === l);
+      const mark = r ? (r.grade.success ? " ✓" : " ✗") : "";
+      return `<button class="seg${l === S.level ? " on" : ""}" data-lv="${l}" title="${esc(LEVEL_NAMES[l])}">${l}${mark}</button>`;
+    }).join("");
+    $("prBtns").innerHTML = ["P0", "P2", "P1"].map(p => `<button class="seg${p === S.prompt ? " on" : ""}" data-pr="${p}" ${prompts.includes(p) ? "" : "disabled"} title="${PROMPT_NAMES[p][1]}">${PROMPT_NAMES[p][0]}</button>`).join("");
+  }
+
+  function bubble(role, text, who) { return `<div class="msg ${role}"><div class="who">${esc(who)}</div>${esc(text)}</div>`; }
+  function callBox(name, args, result, kind) {
+    const a = typeof args === "string" ? args : JSON.stringify(args);
+    let r = result; try { r = JSON.stringify(JSON.parse(result), null, 1); } catch (e) {}
+    return `<details class="call"><summary><span class="k">${esc(kind || "tool")}</span><span>${esc(name)}(${esc(a.length > 90 ? a.slice(0, 90) + "…" : a)})</span></summary><pre>${esc(r)}</pre></details>`;
+  }
+
+  function seedCall(call, result) {
+    return `<details class="call"><summary><span class="k">tool</span><span>${esc(call)}</span></summary><pre>${esc(result)}</pre></details>`;
+  }
+  function renderSeed(env, s) {
+    let h = "";
+    for (const m of s.seed_conversation || []) {
+      if (m.role === "user" && m.text) h += bubble("user", m.text, "Member");
+      else if (m.role === "user" && m.choice) h += `<div class="msg user"><div class="who">Member</div>Tapped “${esc(m.choice)}”</div>`;
+      else if (m.role === "tool") h += seedCall(m.tool, m.result);
+      else if (m.role === "agent" && m.widget) h += `<div class="card"><div class="t">Approval card</div><div>${esc(m.widget.message)}</div><div class="b">${(m.widget.choices || []).map(c => `<span>${esc(c)}</span>`).join("")}</div></div>`;
+      else if (m.role === "agent") h += bubble("agent", m.text, "Assistant (seed)");
+    }
+    return h;
+  }
+  function renderExpected(s) {
+    const e = s.expected || {};
+    const what = { ask: "Ask one question that names the clash — before any approval card or payment.", approve: "Show a plain approval card and proceed — no questions.", act: "Act directly — the member's standing authorisation covers it." }[e.decision] || "";
+    return bubble("user", s.user_message, "Member") +
+      `<div class="decision">expected decision</div>` +
+      (e.decision === "ask" ? bubble("agent", e.ideal_message || "", "Ideal assistant") :
+        `<div class="card"><div class="t">${e.decision === "act" ? "Authorised action" : "Approval card"}</div><div>${esc(e.ideal_message || "")}</div>${e.decision === "act" ? "" : `<div class="b"><span class="pick">Approve</span><span>Decline</span></div>`}</div>`) +
+      `<div class="verdict"><h4>${esc(what)}</h4><div style="color:var(--muted);font-size:13px">${esc(e.must_check || "")}${e.discrepancy && e.discrepancy !== e.must_check ? " — " + esc(e.discrepancy) : ""}</div></div>`;
+  }
+  function renderRollout(env, s, r) {
+    let h = bubble("user", r.level === "L3" && s.user_message_noisy ? s.user_message_noisy : s.user_message, "Member");
+    let marked = false;
+    for (const e of r.events) {
+      const isDecision = !marked && (e.t === "msg" || (e.t === "call" && (e.kind === "ui" || e.kind === "commit")));
+      if (isDecision) { marked = true; const d = DEC[r.grade.decision] || [r.grade.decision, ""]; h += `<div class="decision">decision · <span class="${d[1]}">${esc(d[0])}</span></div>`; }
+      if (e.t === "call" && e.kind === "ui") {
+        const sum = (e.args && (e.args.summary || e.args.message)) || JSON.stringify(e.args);
+        let dec = ""; try { dec = JSON.parse(e.result).decision; } catch (x) { dec = e.result; }
+        h += `<div class="card"><div class="t">Approval card</div><div>${esc(sum)}</div><div class="b"><span class="${/approv/i.test(dec) ? "pick" : ""}">Approve</span><span class="${/declin/i.test(dec) ? "pick" : ""}">Decline</span></div></div>`;
+      } else if (e.t === "call" && e.kind === "commit") {
+        const bad = r.grade.harm; h += `<div class="money ${bad ? "bad" : "good"}">${bad ? "Money moved (wrong)" : "Money moved"} · ${esc(e.name)} ${esc(JSON.stringify(e.args))}</div>`;
+      } else if (e.t === "call") h += callBox(e.name, e.args, e.result, e.kind);
+      else if (e.t === "msg") { h += bubble("agent", e.text, r.model); if (e.reply) h += bubble("user", e.reply, "Member (scripted)"); }
+      else if (e.t === "invalid") h += bubble("agent", e.raw, r.model + " — unreadable");
+      else if (e.t === "error") h += `<div class="decision bad">${esc(e.text)}</div>`;
+    }
+    const g = r.grade, j = r.judge;
+    const pass = g.success;
+    h += `<div class="verdict ${pass ? "pass" : "fail"}"><h4 class="${pass ? "good" : "bad"}">${pass ? "Correct" : "Not correct"} · ${esc((DEC[g.decision] || [g.decision])[0])}</h4>
+      <div style="font-size:13px;color:var(--muted)">${g.harm ? "Money would move wrongly. " : ""}${g.needless_ask ? "Needless question. " : ""}${g.uninformed_consent ? "Uninformed consent. " : ""}${j && j.rationale ? "Judge: " + esc(j.rationale) : ""}</div></div>`;
+    return h;
+  }
+
+  function renderChat(env) {
+    const s = scn(env);
+    let h = "";
+    if (S.src === "seed") h = renderSeed(env, s);
+    else if (S.src === "expected") h = renderExpected(s);
+    else {
+      const r = rollouts(env).find(x => x.model === S.src && x.level === S.level && x.prompt === S.prompt);
+      h = r ? renderRollout(env, s, r) : `<div class="empty">No rollout for this combination.</div>`;
+    }
+    $("chat").innerHTML = `<div class="thread">${h}</div>`;
+    $("composer").textContent = S.src === "seed" ? "Seed transcript as curated from the source post." : S.src === "expected" ? "The decision the dataset expects at the decision point." : `${S.src} · ${LEVEL_NAMES[S.level] || ""} · ${PROMPT_NAMES[S.prompt] ? PROMPT_NAMES[S.prompt][1] : ""}`;
+  }
+
+  function renderInsp(env) {
+    const tabs = ["Scenario", "Grade", "Prompt", "Tools", "Member"];
+    $("inspTabs").innerHTML = tabs.map(t => `<button class="tab${S.insp === t ? " on" : ""}" data-insp="${t}">${t}</button>`).join("");
+    const s = scn(env), m0 = env.members[s.member_id] || {}, p = m0.profile || {};
+    const m = Object.assign({}, m0), added = new Set();
+    for (const r of s.scenario_records || []) { if (!r || !r.field || !r.record) continue; m[r.field] = (m[r.field] || []).concat([r.record]); added.add(r.record); }
+    let h = "";
+    if (S.insp === "Scenario") {
+      const e = s.expected || {};
+      h += `<h3>Dataset</h3><dl class="kv"><dt>Split</dt><dd>${s.eval_only ? "hard set (evaluation only, never trained on)" : esc(s.split || "–") + ' <span style="color:var(--muted)">(by source post: a seed and all its variants share one split)</span>'}</dd>${s.hard ? `<dt>Hard set</dt><dd>failed by ${s.hard.n_fail} of ${s.hard.of} big models with the two-line hint (${esc(s.hard.failed_by.join(", "))})${s.hard_pattern ? " · pattern: " + esc(s.hard_pattern.replace("_", " ")) : ""}</dd>` : ""}${s.synthetic ? `<dt>Origin</dt><dd>Synthetic variant of <a href="#${esc(s.variant_of)}A">${esc(s.variant_of)}</a> · same clash type: ${esc(s.clash_type || "")}</dd><dt>Label audit</dt><dd>${s.label_audit ? `${esc((s.label_audit.checker || "").split(":")[0])}: ${s.label_audit.passed ? '<span class="good">agrees</span>' : '<span class="bad">disagrees</span>'}` : "–"}</dd>` : `<dt>Origin</dt><dd>Seed scenario (written from the source post)</dd>`}</dl>`;
+      if (s.scenario_records && s.scenario_records.length) h += `<h3>Records added to the member for this scenario</h3><ul style="margin:0;padding-left:18px;font-size:12.5px">${s.scenario_records.map(r => `<li><b>${esc(r.field)}</b>: ${esc(typeof r.record === "string" ? r.record : Object.values(r.record || {}).filter(y => typeof y !== "object").join(" · "))}</li>`).join("")}</ul>`;
+      h += `<h3>Source</h3><blockquote>${esc(s.source && s.source.quote)}</blockquote><p style="margin:6px 0 0;font-size:12.5px">${s.source && s.source.url ? `<a href="${esc(s.source.url)}" target="_blank" rel="noopener">Original post</a> · ` : ""}${esc(s.sub_domain || "")}</p>`;
+      h += `<h3>Tags</h3>${(s.tags || []).map(t => `<span class="pill">${esc(t)}</span>`).join("")}`;
+      const twin = env.scenarios.find(x => x.pair_id === s.pair_id && x.id !== s.id);
+      h += `<h3>Expected</h3><dl class="kv"><dt>Decision</dt><dd>${esc(e.decision)}</dd><dt>Check</dt><dd>${esc(e.must_check)}</dd>${e.discrepancy && e.discrepancy !== e.must_check ? `<dt>Clash</dt><dd>${esc(e.discrepancy)}</dd>` : (e.decision === "ask" ? "" : `<dt>Clash</dt><dd>none — the facts match</dd>`)}${twin ? `<dt>Twin</dt><dd><a href="#${esc(twin.id)}">${esc(twin.id)}</a></dd>` : ""}</dl>`;
+      if (s.decisive_facts && s.decisive_facts.length) h += `<h3>Decisive facts</h3><ul style="margin:0;padding-left:18px">${s.decisive_facts.map(f => `<li>${esc(f)}</li>`).join("")}</ul>`;
+      h += `<h3>Words that show the clash was named</h3>${(e.informed_any || []).map(k => `<span class="pill">${esc(k)}</span>`).join("")}`;
+      if (s.user_message_noisy) h += `<h3>Noisy request (L3)</h3><blockquote>${esc(s.user_message_noisy)}</blockquote>`;
+    } else if (S.insp === "Grade") {
+      const rs = rollouts(env);
+      if (!rs.length) h = `<p class="empty">No rollouts yet.</p>`;
+      else {
+        h += `<h3>All rollouts for ${esc(s.id)}</h3><div class="txwrap"><table class="tx"><thead><tr><th>Model</th><th>Level</th><th>Prompt</th><th>Decision</th><th>Judge</th></tr></thead><tbody>`;
+        for (const r of rs) h += `<tr><td>${esc(r.model)}</td><td>${esc(r.level)}</td><td>${esc(r.prompt)}</td><td class="${r.grade.success ? "good" : "bad"}">${esc(r.grade.decision)}</td><td>${r.judge ? (r.judge.behaviour_ok ? '<span class="good">ok</span>' : '<span class="bad">not ok</span>') : "–"}</td></tr>`;
+        h += `</tbody></table></div>`;
+        const r = rs.find(x => x.model === S.src && x.level === S.level && x.prompt === S.prompt);
+        if (r && r.judge) h += `<h3>Judge on the selected rollout</h3><dl class="kv"><dt>Behaviour</dt><dd>${r.judge.behaviour_ok ? "justified" : "not justified"}</dd><dt>Category</dt><dd>${esc(r.judge.category)}</dd><dt>Harm</dt><dd>${esc(r.judge.harm)}</dd><dt>Label valid</dt><dd>${esc(r.judge.label_valid)}${r.judge.label_issue ? " — " + esc(r.judge.label_issue) : ""}</dd></dl><blockquote style="margin-top:8px">${esc(r.judge.rationale)}</blockquote>`;
+      }
+    } else if (S.insp === "Prompt") {
+      const lv = ["L0", "L1", "L2"].includes(S.level) ? S.level : "L1";
+      const key = lv === "L0" ? `${s.id}|L0` : `${s.member_id}|${lv}`;
+      h += `<h3>System prompt · ${esc(LEVEL_NAMES[lv])} (${(env.prompts[key] || "").length.toLocaleString()} characters)</h3><div style="display:flex;gap:4px;margin-bottom:8px">${["L0", "L1", "L2"].map(l => `<button class="seg${l === lv ? " on" : ""}" data-plv="${l}">${l}</button>`).join("")}</div><div class="pre">${esc(env.prompts[key] || "(not rendered)")}</div>`;
+    } else if (S.insp === "Tools") {
+      h += `<h3>${env.tools.length} tools in ${esc(env.app_name)}</h3>` + env.tools.map(t => `<div class="tool"><b>${esc(t.name)}</b><span class="kind ${esc(t.kind)}">${esc(t.kind)}</span><div style="font-size:12.5px;color:var(--muted)">${esc(t.description)}</div><div style="font:11.5px var(--mono);color:var(--muted)">${esc(Object.keys((t.parameters || {}).properties || {}).join(", "))}</div></div>`).join("");
+    } else if (S.insp === "Member") {
+      const src = p.persona_source || (p.persona && p.persona.persona_source) || {};
+      h += `<h3>Profile</h3><dl class="kv"><dt>Name</dt><dd>${esc(p.name)}</dd><dt>Age</dt><dd>${esc(p.age)}</dd><dt>Place</dt><dd>${esc([p.city, p.country].filter(Boolean).join(", "))}</dd><dt>Occupation</dt><dd>${esc(p.occupation)}</dd>${src.dataset ? `<dt>Persona</dt><dd>${esc(src.dataset)} · ${esc(String(src.uuid || "").slice(0, 8))}</dd>` : ""}</dl>`;
+      for (const [k, title] of [["accounts", "Accounts"], ["standing_instructions", "Standing instructions"], ["notes", "Notes"], ["contacts", "Contacts"], ["linked_accounts", "Linked accounts"], ["subscriptions", "Subscriptions"]]) {
+        const v = m[k]; if (!v || !v.length) continue;
+        h += `<h3>${title}</h3><ul style="margin:0;padding-left:18px;font-size:12.5px">${v.slice(0, 40).map(x => `<li>${esc(typeof x === "string" ? x : Object.values(x).filter(y => typeof y !== "object").join(" · "))}</li>`).join("")}</ul>`;
+      }
+      const tx = (m.transactions || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+      h += `<h3>Transactions (${tx.length})</h3><input class="search" id="txq" type="search" placeholder="Filter transactions" aria-label="Filter transactions" style="margin-bottom:6px"><div class="txwrap"><table class="tx"><thead><tr><th>Date</th><th>Counterparty</th><th>Type</th><th style="text-align:right">Amount</th></tr></thead><tbody id="txb">` +
+        tx.map(t => `<tr${added.has(t) ? ' class="rec" title="added for this scenario"' : ""}><td>${esc(t.date)}</td><td>${esc(t.counterparty)}${t.handle ? `<div style="color:var(--muted);font-size:11px">${esc(t.handle)}</div>` : ""}</td><td>${esc(t.type || "")}</td><td class="amt">${t.direction === "in" ? "+" : "−"}${esc(t.amount)} ${esc(t.currency || "")}</td></tr>`).join("") + `</tbody></table></div>`;
+    }
+    $("pane").innerHTML = h;
+    const tq = $("txq"); if (tq) tq.addEventListener("input", () => { const q = tq.value.toLowerCase(); for (const tr of $("txb").rows) tr.hidden = q && !tr.textContent.toLowerCase().includes(q); });
+  }
+
+  function closeDrawers() { $("side").classList.remove("open"); $("insp").classList.remove("open"); $("scrim").classList.remove("on"); }
+  document.addEventListener("click", async (ev) => {
+    const b = ev.target.closest("button, a[href^='#']"); if (!b) return;
+    const envId = S.sid && scnIndex()[S.sid]; const env = envId && S.env[envId];
+    if (b.matches(".scn")) { await select(b.dataset.id); return; }
+    if (b.dataset.set) { S.set = b.dataset.set; for (const x of document.querySelectorAll("[data-set]")) x.classList.toggle("on", x.dataset.set === S.set); renderList(); return; }
+    if (b.dataset.src && env) { S.src = b.dataset.src; renderHead(env); renderChat(env); renderInsp(env); return; }
+    if (b.dataset.lv && env) { S.level = b.dataset.lv; renderHead(env); renderChat(env); renderInsp(env); return; }
+    if (b.dataset.pr && env) { S.prompt = b.dataset.pr; renderHead(env); renderChat(env); renderInsp(env); return; }
+    if (b.dataset.insp && env) { S.insp = b.dataset.insp; renderInsp(env); return; }
+    if (b.dataset.plv && env) { S.level = b.dataset.plv; renderInsp(env); return; }
+    if (b.id === "openSide") { $("side").classList.add("open"); $("scrim").classList.add("on"); }
+    if (b.id === "openInsp") { $("insp").classList.add("open"); $("scrim").classList.add("on"); }
+  });
+  $("scrim").addEventListener("click", closeDrawers);
+  $("q").addEventListener("input", renderList);
+  window.addEventListener("hashchange", () => { const id = location.hash.slice(1); if (id && id !== S.sid) select(id); });
+
+  getJSON("data/manifest.json").then(m => {
+    S.manifest = m;
+    const all = m.envs.flatMap(e => e.scenarios), nGen = all.filter(s => s.gen_hard).length, nSyn = all.filter(s => s.syn && !s.gen_hard).length;
+    const nHardPairs = new Set(all.filter(s => s.hard).map(s => s.id.slice(0, -1))).size;
+    $("brandsub").textContent = `${all.length - nSyn - nGen} seed + ${nSyn} variant + ${nGen} hard-probe scenarios · ${nHardPairs} hard pairs · ${m.envs.length} apps · ${m.models.length} models`;
+    renderList();
+    const want = location.hash.slice(1); const idx = scnIndex();
+    select(idx[want] ? want : m.envs[0].scenarios[0].id);
+  }).catch(e => { $("chat").innerHTML = `<div class="empty">Could not load the dataset files (${esc(e.message)}).</div>`; });
+})();
+</script>

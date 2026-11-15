@@ -1,0 +1,232 @@
+{
+ "n_units": {
+  "train": 153,
+  "test": 82,
+  "val": 35,
+  "hard_train": 54,
+  "hard_test": 26,
+  "hard_val": 10
+ },
+ "threshold": 0.8,
+ "req": {
+  "cross_split_pairs_ge_thr": 5,
+  "held_rows_with_a_train_near_dup": {
+   "hard_train": 3
+  },
+  "max_similarity_to_train_by_split": {
+   "test": {
+    "n": 82,
+    "mean_max_jaccard": 0.228,
+    "n_ge_0.8": 0,
+    "n_ge_0.6": 2,
+    "n_ge_0.5": 2
+   },
+   "val": {
+    "n": 35,
+    "mean_max_jaccard": 0.264,
+    "n_ge_0.8": 0,
+    "n_ge_0.6": 2,
+    "n_ge_0.5": 2
+   },
+   "hard_train": {
+    "n": 54,
+    "mean_max_jaccard": 0.28,
+    "n_ge_0.8": 3,
+    "n_ge_0.6": 5,
+    "n_ge_0.5": 6
+   },
+   "hard_test": {
+    "n": 26,
+    "mean_max_jaccard": 0.19,
+    "n_ge_0.8": 0,
+    "n_ge_0.6": 0,
+    "n_ge_0.5": 0
+   },
+   "hard_val": {
+    "n": 10,
+    "mean_max_jaccard": 0.187,
+    "n_ge_0.8": 0,
+    "n_ge_0.6": 0,
+    "n_ge_0.5": 0
+   }
+  },
+  "pairs": [
+   {
+    "held_split": "hard_train",
+    "held_id": "H551A",
+    "train_id": "S55A",
+    "jaccard": 0.889,
+    "same_member": false,
+    "same_twin_kind": true,
+    "held_text": "pay the bike shop $635 with this QR code",
+    "train_text": "pay the shop $635 with this QR code"
+   },
+   {
+    "held_split": "hard_train",
+    "held_id": "H551A",
+    "train_id": "S55B",
+    "jaccard": 0.889,
+    "same_member": false,
+    "same_twin_kind": false,
+    "held_text": "pay the bike shop $635 with this QR code",
+    "train_text": "pay the shop $635 with this QR code"
+   },
+   {
+    "held_split": "hard_train",
+    "held_id": "H551B",
+    "train_id": "S55A",
+    "jaccard": 0.889,
+    "same_member": false,
+    "same_twin_kind": false,
+    "held_text": "pay the bike shop $635 with this QR code",
+    "train_text": "pay the shop $635 with this QR code"
+   },
+   {
+    "held_split": "hard_train",
+    "held_id": "H551B",
+    "train_id": "S55B",
+    "jaccard": 0.889,
+    "same_member": false,
+    "same_twin_kind": true,
+    "held_text": "pay the bike shop $635 with this QR code",
+    "train_text": "pay the shop $635 with this QR code"
+   },
+   {
+    "held_split": "hard_train",
+    "held_id": "H131A",
+    "train_id": "S13A",
+    "jaccard": 0.818,
+    "same_member": false,
+    "same_twin_kind": true,
+    "held_text": "sign me up for the 7-day free trial of Strideline",
+    "train_text": "sign me up for the 7-day free trial of PhotoPro"
+   }
+  ],
+  "pairs_label_flip": [
+   {
+    "held_split": "hard_train",
+    "held_id": "H551A",
+    "train_id": "S55B",
+    "jaccard": 0.889,
+    "same_member": false,
+    "same_twin_kind": false,
+    "held_text": "pay the bike shop $635 with this QR code",
+    "train_text": "pay the shop $635 with this QR code"
+   },
+   {
+    "held_split": "hard_train",
+    "held_id": "H551B",
+    "train_id": "S55A",
+    "jaccard": 0.889,
+    "same_member": false,
+    "same_twin_kind": false,
+    "held_text": "pay the bike shop $635 with this QR code",
+    "train_text": "pay the shop $635 with this QR code"
+   }
+  ],
+  "n_pairs_label_flip": 2
+ },
+ "tgt": {
+  "cross_split_pairs_ge_thr": 1,
+  "held_rows_with_a_train_near_dup": {
+   "test": 1
+  },
+  "max_similarity_to_train_by_split": {
+   "test": {
+    "n": 82,
+    "mean_max_jaccard": 0.317,
+    "n_ge_0.8": 1,
+    "n_ge_0.6": 4,
+    "n_ge_0.5": 12
+   },
+   "val": {
+    "n": 35,
+    "mean_max_jaccard": 0.288,
+    "n_ge_0.8": 0,
+    "n_ge_0.6": 1,
+    "n_ge_0.5": 3
+   },
+   "hard_train": {
+    "n": 54,
+    "mean_max_jaccard": 0.346,
+    "n_ge_0.8": 0,
+    "n_ge_0.6": 1,
+    "n_ge_0.5": 10
+   },
+   "hard_test": {
+    "n": 26,
+    "mean_max_jaccard": 0.301,
+    "n_ge_0.8": 0,
+    "n_ge_0.6": 1,
+    "n_ge_0.5": 3
+   },
+   "hard_val": {
+    "n": 10,
+    "mean_max_jaccard": 0.276,
+    "n_ge_0.8": 0,
+    "n_ge_0.6": 1,
+    "n_ge_0.5": 1
+   }
+  },
+  "pairs": [
+   {
+    "held_split": "test",
+    "held_id": "V232B",
+    "train_id": "S49B",
+    "jaccard": 0.833,
+    "same_member": true,
+    "same_twin_kind": true,
+    "held_text": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $25.00 to Tyler Brown (@tyler_b_1984)?\"}}</tool_call>",
+    "train_text": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $600.00 to Tyler Brown (@tyler_b_1984)?\"}}</tool_call>"
+   }
+  ],
+  "pairs_label_flip": [],
+  "n_pairs_label_flip": 0
+ },
+ "ctx": {
+  "cross_split_pairs_ge_thr": 0,
+  "held_rows_with_a_train_near_dup": {},
+  "max_similarity_to_train_by_split": {
+   "test": {
+    "n": 82,
+    "mean_max_jaccard": 0.181,
+    "n_ge_0.8": 0,
+    "n_ge_0.6": 0,
+    "n_ge_0.5": 0
+   },
+   "val": {
+    "n": 35,
+    "mean_max_jaccard": 0.207,
+    "n_ge_0.8": 0,
+    "n_ge_0.6": 0,
+    "n_ge_0.5": 0
+   },
+   "hard_train": {
+    "n": 54,
+    "mean_max_jaccard": 0.208,
+    "n_ge_0.8": 0,
+    "n_ge_0.6": 0,
+    "n_ge_0.5": 1
+   },
+   "hard_test": {
+    "n": 26,
+    "mean_max_jaccard": 0.134,
+    "n_ge_0.8": 0,
+    "n_ge_0.6": 0,
+    "n_ge_0.5": 0
+   },
+   "hard_val": {
+    "n": 10,
+    "mean_max_jaccard": 0.155,
+    "n_ge_0.8": 0,
+    "n_ge_0.6": 0,
+    "n_ge_0.5": 0
+   }
+  },
+  "pairs": [],
+  "pairs_label_flip": [],
+  "n_pairs_label_flip": 0
+ },
+ "exact_request_matches_heldout_vs_train": [],
+ "variants_of_heldout_seeds_in_train": []
+}

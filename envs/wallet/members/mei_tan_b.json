@@ -1,0 +1,2287 @@
+{
+ "member_id": "mei_tan_b",
+ "profile": {
+  "name": "Mei Tan",
+  "age": 35,
+  "city": "Palm Springs, CA",
+  "country": "United States",
+  "occupation": "Quality-control specialist",
+  "summary": "Kestrel member since 2021-04 · identity verified · home currency USD · connected: Venmo, Desert Palms Credit Union",
+  "email": "mei.tan@mail.com",
+  "phone": "555-0167",
+  "member_since": "2021-04-17",
+  "home_currency": "USD",
+  "timezone": "America/Los_Angeles",
+  "language": "en-US",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Mei Tan is a hyper-organized quality-control nerd who channels anxiety into disciplined routines, competitive puzzles, and desert adventures, while constantly chasing the next precision-driven improvement—often at the cost of occasional sleepless nights.",
+   "professional_persona": "Mei Tan is a meticulous quality control specialist in regulated manufacturing, leveraging precision measurement, statistical process control, and lean principles to drive compliance, while their competitive drive fuels a relentless pursuit of Six Sigma Black Belt certification and future leadership of cross-functional improvement teams.",
+   "cultural_background": "Mei is a first‑generation American of East Asian descent, raised in a bilingual household where both English and her parents' native language were spoken. Her family emphasizes respect for elders, diligence in education, and communal celebrations such as Lunar New Year, which have ingrained a strong work ethic and appreciation for tradition. Growing up in Southern California, she also absorbed the region's multicultural vibe, blending her heritage with Western independence. This dual cultural lens informs her pragmatic curiosity, competitive drive, and the balance she seeks between personal ambition and familial expectations.",
+   "sex": "Female",
+   "marital_status": "never_married",
+   "education_level": "some_college",
+   "occupation": "inspector_tester_sorter_sampler_or_weigher"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "294cb351bc0d47fe933a4a0d83116ab1",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "USA",
+    "age": 35,
+    "sex": "Female",
+    "seed": 52
+   },
+   "source_age": 27,
+   "source_location": "Palm Springs, CA",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Sunae Mak",
+    "Sunae"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "Venmo balance",
+   "currency": "USD",
+   "balance": 1050.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Rosa Delgado",
+   "venmo": "@rosa-delgado-ps",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "neighbor"
+  },
+  {
+   "name": "Amber Liu",
+   "venmo": "@amber-liu",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "friend · climbing",
+   "last_paid": "2026-08-16"
+  },
+  {
+   "name": "Kevin Ong",
+   "venmo": "@kevin-ong-760",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "friend · camping trips",
+   "last_paid": "2026-09-20"
+  },
+  {
+   "name": "Jenna Park",
+   "venmo": "@jennapark",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "coworker",
+   "last_paid": "2026-10-18"
+  },
+  {
+   "name": "Grace Tan",
+   "venmo": "@grace-tan-58",
+   "networks": [
+    "Venmo"
+   ],
+   "relationship": "mother"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-VENMO",
+   "type": "payment_app",
+   "name": "Venmo",
+   "login": "@mei-tan-ps",
+   "status": "connected",
+   "since": "2021-04-17"
+  },
+  {
+   "id": "LA-5530",
+   "type": "bank_account",
+   "name": "Desert Palms CU Checking",
+   "last4": "5530",
+   "status": "active",
+   "since": "2021-04-20"
+  },
+  {
+   "id": "LA-7742",
+   "type": "bank_account",
+   "name": "Desert Palms CU Savings",
+   "last4": "7742",
+   "status": "active",
+   "since": "2021-04-20"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "Spectrum Internet",
+   "amount": 69.99,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "bank account",
+   "next_charge": "2026-12-12",
+   "status": "active"
+  },
+  {
+   "name": "Verizon Wireless",
+   "amount": 62.0,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "bank account",
+   "next_charge": "2026-12-08",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "Preference · Bank transfers at Standard speed (free) unless I ask for Instant."
+ ],
+ "notes": [
+  "Linked accounts listed by list_linked_accounts (read-only).",
+  "Prefers concise answers."
+ ],
+ "transactions": [
+  {
+   "id": "KXSS2HYA2T",
+   "date": "2026-11-07",
+   "time": "11:43",
+   "counterparty": "Kevin Ong",
+   "handle": "@kevin-ong-760",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "tacos + gas"
+  },
+  {
+   "id": "KXYHYG2V24",
+   "date": "2026-10-25",
+   "time": "19:54",
+   "counterparty": "Rosa Delgado",
+   "handle": "@rosa-delgado-ps",
+   "amount": 95.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "bookshelf"
+  },
+  {
+   "id": "KX223N99P7",
+   "date": "2026-10-18",
+   "time": "14:03",
+   "counterparty": "Jenna Park",
+   "handle": "@jennapark",
+   "amount": 28.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "lunch"
+  },
+  {
+   "id": "KXQK9QJ41U",
+   "date": "2026-10-11",
+   "time": "07:03",
+   "counterparty": "Amber Liu",
+   "handle": "@amber-liu",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "concert tickets"
+  },
+  {
+   "id": "KX53M47JKQ",
+   "date": "2026-09-26",
+   "time": "16:59",
+   "counterparty": "Kevin Ong",
+   "handle": "@kevin-ong-760",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "climbing day passes"
+  },
+  {
+   "id": "KXBSBGJUUV",
+   "date": "2026-09-20",
+   "time": "08:25",
+   "counterparty": "Kevin Ong",
+   "handle": "@kevin-ong-760",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "gas to Idyllwild"
+  },
+  {
+   "id": "KX6SYD7BR2",
+   "date": "2026-09-13",
+   "time": "11:32",
+   "counterparty": "Grace Tan",
+   "handle": "@grace-tan-58",
+   "amount": 120.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "happy birthday!"
+  },
+  {
+   "id": "KXL79FCLTE",
+   "date": "2026-08-30",
+   "time": "18:34",
+   "counterparty": "Kevin Ong",
+   "handle": "@kevin-ong-760",
+   "amount": 85.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "Big Bear cabin"
+  },
+  {
+   "id": "KXQDNPYBWV",
+   "date": "2026-08-30",
+   "time": "13:03",
+   "counterparty": "Amber Liu",
+   "handle": "@amber-liu",
+   "amount": 85.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "Big Bear cabin"
+  },
+  {
+   "id": "KXGE89BD6K",
+   "date": "2026-08-16",
+   "time": "18:53",
+   "counterparty": "Amber Liu",
+   "handle": "@amber-liu",
+   "amount": 32.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "brunch"
+  },
+  {
+   "id": "KXSYWAA6NP",
+   "date": "2026-08-09",
+   "time": "09:09",
+   "counterparty": "Rosa Delgado",
+   "handle": "@rosa-delgado-ps",
+   "amount": 400.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "desk 🪑"
+  },
+  {
+   "id": "KX8SBKEBA6",
+   "date": "2026-07-27",
+   "time": "17:51",
+   "counterparty": "Kevin Ong",
+   "handle": "@kevin-ong-760",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "gas"
+  },
+  {
+   "id": "KXF46052FC",
+   "date": "2026-07-21",
+   "time": "18:05",
+   "counterparty": "Desert Palms CU Checking ••5530",
+   "amount": 260.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Transfer to bank",
+   "memo": "Standard transfer (1–3 business days)"
+  },
+  {
+   "id": "KXN19Q1W1B",
+   "date": "2026-07-03",
+   "time": "08:54",
+   "counterparty": "Amber Liu",
+   "handle": "@amber-liu",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "sushi"
+  },
+  {
+   "id": "KXRML32XKJ",
+   "date": "2026-06-19",
+   "time": "16:39",
+   "counterparty": "Desert Palms CU Checking ••5530",
+   "amount": 350.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Transfer to bank",
+   "memo": "Standard transfer (1–3 business days)"
+  },
+  {
+   "id": "KXTR82FQSS",
+   "date": "2026-06-06",
+   "time": "14:16",
+   "counterparty": "Kevin Ong",
+   "handle": "@kevin-ong-760",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "gas"
+  },
+  {
+   "id": "KXZSV86L6R",
+   "date": "2026-06-03",
+   "time": "08:35",
+   "counterparty": "Jenna Park",
+   "handle": "@jennapark",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "team gift"
+  },
+  {
+   "id": "KX7DU36B6L",
+   "date": "2026-06-01",
+   "time": "22:24",
+   "counterparty": "Desert Palms CU Savings ••7742",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Transfer to bank",
+   "memo": "Standard transfer (1–3 business days)"
+  },
+  {
+   "id": "KXJ3ZTYXSG",
+   "date": "2026-05-22",
+   "time": "21:30",
+   "counterparty": "Desert Palms CU Checking ••5530",
+   "amount": 220.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Transfer to bank",
+   "memo": "Standard transfer (1–3 business days)"
+  },
+  {
+   "id": "KXZUMPFAFG",
+   "date": "2026-05-08",
+   "time": "21:05",
+   "counterparty": "Amber Liu",
+   "handle": "@amber-liu",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "climbing gym"
+  },
+  {
+   "id": "KX4FBWVSET",
+   "date": "2026-04-24",
+   "time": "22:10",
+   "counterparty": "Desert Palms CU Checking ••5530",
+   "amount": 400.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Transfer to bank",
+   "memo": "Standard transfer (1–3 business days)"
+  },
+  {
+   "id": "KX0Y1WJ5M4",
+   "date": "2026-03-31",
+   "time": "16:12",
+   "counterparty": "Amber Liu",
+   "handle": "@amber-liu",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "climbing"
+  },
+  {
+   "id": "KXTUEZK2EN",
+   "date": "2026-03-27",
+   "time": "07:05",
+   "counterparty": "Desert Palms CU Checking ••5530",
+   "amount": 180.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Transfer to bank",
+   "memo": "Standard transfer (1–3 business days)"
+  },
+  {
+   "id": "KX4K5B9G10",
+   "date": "2026-03-20",
+   "time": "21:42",
+   "counterparty": "Grace Tan",
+   "handle": "@grace-tan-58",
+   "amount": 100.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "groceries"
+  },
+  {
+   "id": "KX18ZWMQ0F",
+   "date": "2026-03-02",
+   "time": "10:04",
+   "counterparty": "Desert Palms CU Savings ••7742",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Transfer to bank",
+   "memo": "Standard transfer (1–3 business days)"
+  },
+  {
+   "id": "KXD30EEW3A",
+   "date": "2026-02-20",
+   "time": "17:24",
+   "counterparty": "Desert Palms CU Checking ••5530",
+   "amount": 300.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Transfer to bank",
+   "memo": "Standard transfer (1–3 business days)"
+  },
+  {
+   "id": "KXMCNUYPVE",
+   "date": "2026-02-19",
+   "time": "09:49",
+   "counterparty": "Jenna Park",
+   "handle": "@jennapark",
+   "amount": 22.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "team gift"
+  },
+  {
+   "id": "KXABGGLQPA",
+   "date": "2026-02-09",
+   "time": "14:56",
+   "counterparty": "Amber Liu",
+   "handle": "@amber-liu",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "climbing gym"
+  },
+  {
+   "id": "KXB2106XWN",
+   "date": "2026-02-08",
+   "time": "18:24",
+   "counterparty": "Amber Liu",
+   "handle": "@amber-liu",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "climbing"
+  },
+  {
+   "id": "KXWZD1GUP3",
+   "date": "2026-01-23",
+   "time": "15:38",
+   "counterparty": "Desert Palms CU Checking ••5530",
+   "amount": 250.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Transfer to bank",
+   "memo": "Standard transfer (1–3 business days)"
+  },
+  {
+   "id": "KXS3XLLDT6",
+   "date": "2026-01-22",
+   "time": "17:59",
+   "counterparty": "Kevin Ong",
+   "handle": "@kevin-ong-760",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "campsite"
+  },
+  {
+   "id": "KXHX0V0EEE",
+   "date": "2026-01-19",
+   "time": "17:43",
+   "counterparty": "Grace Tan",
+   "handle": "@grace-tan-58",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "love, mom"
+  },
+  {
+   "id": "KXBWQW398C",
+   "date": "2026-01-13",
+   "time": "18:24",
+   "counterparty": "Amber Liu",
+   "handle": "@amber-liu",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "sushi"
+  },
+  {
+   "id": "KXUD2DR85V",
+   "date": "2026-01-12",
+   "time": "14:26",
+   "counterparty": "Amber Liu",
+   "handle": "@amber-liu",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "my half"
+  },
+  {
+   "id": "KXQSMSHCEL",
+   "date": "2026-01-08",
+   "time": "14:30",
+   "counterparty": "Amber Liu",
+   "handle": "@amber-liu",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "climbing gym"
+  },
+  {
+   "id": "KX952VWMAF",
+   "date": "2026-01-06",
+   "time": "22:17",
+   "counterparty": "Kevin Ong",
+   "handle": "@kevin-ong-760",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "gas"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-07",
+   "time": "11:43",
+   "type": "payment_received",
+   "text": "Kevin Ong sent you $40.00 — “tacos + gas”"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-27",
+   "time": "12:00",
+   "type": "product",
+   "text": "New: split any activity item with up to 12 people."
+  },
+  {
+   "date": "2026-10-25",
+   "time": "19:54",
+   "type": "payment_received",
+   "text": "Rosa Delgado sent you $95.00 — “bookshelf”"
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-07",
+   "time": "17:07",
+   "type": "security",
+   "text": "New sign-in on iPhone 15 Pro near Palm Springs, CA. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BKJ2926EF1",
+   "date": "2026-11-12",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SPECTRUM INTERNET",
+   "amount": 69.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKW9B4586M",
+   "date": "2026-11-11",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 21.45,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKDD51D9EN",
+   "date": "2026-11-08",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VERIZON WIRELESS",
+   "amount": 62.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK50X6Q0CQ",
+   "date": "2026-11-08",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "REI #67 RANCHO MIRAGE",
+   "amount": 145.39,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK4EKL8Z9F",
+   "date": "2026-11-02",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SUNSET PALMS APTS RENT",
+   "amount": 1480.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKCR7482UY",
+   "date": "2026-10-30",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1701.15,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK2UVJMUUS",
+   "date": "2026-10-28",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "DIVIDEND",
+   "amount": 4.43,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Interest"
+  },
+  {
+   "id": "BKFK2U7XKN",
+   "date": "2026-10-26",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 75.91,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK7NWP13ET",
+   "date": "2026-10-23",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "DESERT WATER AGENCY",
+   "amount": 56.24,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK0P3THXN1",
+   "date": "2026-10-17",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SO CAL EDISON BILLPAY",
+   "amount": 203.57,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKTX56DRPW",
+   "date": "2026-10-16",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1703.46,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKLKHC61TL",
+   "date": "2026-10-15",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "ONLINE TRANSFER TO SAVINGS ••7742",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKDA4UWPLE",
+   "date": "2026-10-15",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "ONLINE TRANSFER FROM CHECKING",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKRP2VLCU4",
+   "date": "2026-10-12",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SPECTRUM INTERNET",
+   "amount": 69.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKEF4XYEND",
+   "date": "2026-10-08",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VERIZON WIRELESS",
+   "amount": 62.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK289ZFQ3E",
+   "date": "2026-10-02",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1706.02,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKALL8KS6X",
+   "date": "2026-10-01",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SUNSET PALMS APTS RENT",
+   "amount": 1480.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK9AHPG5R2",
+   "date": "2026-09-28",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "DIVIDEND",
+   "amount": 6.25,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Interest"
+  },
+  {
+   "id": "BK3S0KU33V",
+   "date": "2026-09-23",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "DESERT WATER AGENCY",
+   "amount": 53.24,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK4E6C22XJ",
+   "date": "2026-09-22",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "REI #67 RANCHO MIRAGE",
+   "amount": 52.79,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK1EQDHME9",
+   "date": "2026-09-18",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1729.1,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK65W01SMW",
+   "date": "2026-09-17",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SO CAL EDISON BILLPAY",
+   "amount": 212.96,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKWENRYJQB",
+   "date": "2026-09-15",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "ONLINE TRANSFER FROM CHECKING",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKR0RV86JH",
+   "date": "2026-09-15",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "ONLINE TRANSFER TO SAVINGS ••7742",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKR01T9XYE",
+   "date": "2026-09-12",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SPECTRUM INTERNET",
+   "amount": 69.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKM1LVFVXU",
+   "date": "2026-09-08",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VERIZON WIRELESS",
+   "amount": 62.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKFWQF315C",
+   "date": "2026-09-04",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1690.32,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK5ZMPJMEF",
+   "date": "2026-09-01",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SUNSET PALMS APTS RENT",
+   "amount": 1480.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK5660H7P4",
+   "date": "2026-08-28",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "DIVIDEND",
+   "amount": 5.36,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Interest"
+  },
+  {
+   "id": "BKKBHYDXEB",
+   "date": "2026-08-23",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "DESERT WATER AGENCY",
+   "amount": 35.9,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKM53VQ5ET",
+   "date": "2026-08-22",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "CHEVRON PALM SPRINGS",
+   "amount": 40.59,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKN49AZX03",
+   "date": "2026-08-21",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1717.61,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKZ5ECWNVQ",
+   "date": "2026-08-18",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "TRADER JOE'S #121 PALM SPRINGS",
+   "amount": 74.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK6SUYS7NH",
+   "date": "2026-08-17",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SO CAL EDISON BILLPAY",
+   "amount": 122.87,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKUWC4W0TD",
+   "date": "2026-08-15",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "ONLINE TRANSFER FROM CHECKING",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKL8KQDARL",
+   "date": "2026-08-15",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "TRADER JOE'S #121 PALM SPRINGS",
+   "amount": 67.65,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK6WS37D4E",
+   "date": "2026-08-15",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "ONLINE TRANSFER TO SAVINGS ••7742",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKC9XGUP31",
+   "date": "2026-08-12",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SPECTRUM INTERNET",
+   "amount": 69.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKU0KLYD8M",
+   "date": "2026-08-11",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "STATER BROS #157 PALM SPRINGS",
+   "amount": 70.88,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKF44ZCTPQ",
+   "date": "2026-08-09",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "TRADER JOE'S #121 PALM SPRINGS",
+   "amount": 65.9,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKLE8UDSMB",
+   "date": "2026-08-08",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VERIZON WIRELESS",
+   "amount": 62.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKB3M9CTTX",
+   "date": "2026-08-07",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1717.8,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK9PHXJTZY",
+   "date": "2026-08-04",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "STATER BROS #157 PALM SPRINGS",
+   "amount": 46.46,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK43Z68VS8",
+   "date": "2026-08-03",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SUNSET PALMS APTS RENT",
+   "amount": 1480.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKF1W3CWPS",
+   "date": "2026-07-28",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "DIVIDEND",
+   "amount": 5.98,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Interest"
+  },
+  {
+   "id": "BKPE8SRUPF",
+   "date": "2026-07-24",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1732.23,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "KX85C55FCC",
+   "date": "2026-07-23",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VENMO CASHOUT PPD",
+   "amount": 260.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK57WMN921",
+   "date": "2026-07-23",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "DESERT WATER AGENCY",
+   "amount": 48.04,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKF4S2ZX45",
+   "date": "2026-07-17",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SO CAL EDISON BILLPAY",
+   "amount": 213.41,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKBR0V73BF",
+   "date": "2026-07-17",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "ARCO #82177 PALM SPRINGS",
+   "amount": 41.34,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKZ2C12HSV",
+   "date": "2026-07-15",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "ONLINE TRANSFER FROM CHECKING",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKMYWXMM33",
+   "date": "2026-07-15",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "ONLINE TRANSFER TO SAVINGS ••7742",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKV0FSFW3Q",
+   "date": "2026-07-12",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SPECTRUM INTERNET",
+   "amount": 69.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKHV7LQRE3",
+   "date": "2026-07-10",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1705.93,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK56ENNBZX",
+   "date": "2026-07-08",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VERIZON WIRELESS",
+   "amount": 62.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKFWFXYK27",
+   "date": "2026-07-07",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 71.52,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK7AGV82U5",
+   "date": "2026-07-03",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "STATER BROS #157 PALM SPRINGS",
+   "amount": 32.17,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK1W1VWHH3",
+   "date": "2026-07-01",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SUNSET PALMS APTS RENT",
+   "amount": 1480.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKYSAB3TPR",
+   "date": "2026-06-28",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "STATER BROS #157 PALM SPRINGS",
+   "amount": 75.08,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKW8XXFHFV",
+   "date": "2026-06-28",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "DIVIDEND",
+   "amount": 4.97,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Interest"
+  },
+  {
+   "id": "BKBXUBGZ8D",
+   "date": "2026-06-26",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1715.16,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKZKQ7RV1M",
+   "date": "2026-06-23",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "DESERT WATER AGENCY",
+   "amount": 57.65,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKZRY1TLVU",
+   "date": "2026-06-21",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "REI #67 RANCHO MIRAGE",
+   "amount": 94.56,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK23BUA5QY",
+   "date": "2026-06-21",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VENMO CASHOUT PPD",
+   "amount": 350.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK67SCGZNT",
+   "date": "2026-06-18",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 23.32,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKB0X5B3SS",
+   "date": "2026-06-17",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SO CAL EDISON BILLPAY",
+   "amount": 115.83,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKX3UY918Z",
+   "date": "2026-06-15",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "ONLINE TRANSFER FROM CHECKING",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKGYX3XL5Q",
+   "date": "2026-06-15",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "ONLINE TRANSFER TO SAVINGS ••7742",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK24JKHR98",
+   "date": "2026-06-13",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "ARCO #82177 PALM SPRINGS",
+   "amount": 33.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKQ0CB7ESF",
+   "date": "2026-06-12",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1703.02,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKN5W4Q6Q8",
+   "date": "2026-06-12",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SPECTRUM INTERNET",
+   "amount": 69.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKY4WXEV54",
+   "date": "2026-06-08",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VERIZON WIRELESS",
+   "amount": 62.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKYB6TRL1H",
+   "date": "2026-06-07",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 80.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKMR708X1F",
+   "date": "2026-06-07",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "REI #67 RANCHO MIRAGE",
+   "amount": 55.82,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKZ01WF0TE",
+   "date": "2026-06-03",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "VENMO CASHOUT PPD",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK5DRN108Z",
+   "date": "2026-06-03",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 50.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKMS95QF70",
+   "date": "2026-06-01",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SUNSET PALMS APTS RENT",
+   "amount": 1480.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKRHD26Z7U",
+   "date": "2026-05-30",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "TRADER JOE'S #121 PALM SPRINGS",
+   "amount": 34.3,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK7ZP0Y42L",
+   "date": "2026-05-29",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1690.59,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKTG3XCMBS",
+   "date": "2026-05-28",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "DIVIDEND",
+   "amount": 4.67,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Interest"
+  },
+  {
+   "id": "BK3DY8GDL4",
+   "date": "2026-05-27",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "CHEVRON PALM SPRINGS",
+   "amount": 47.34,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKFV2WX4B8",
+   "date": "2026-05-26",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "TRADER JOE'S #121 PALM SPRINGS",
+   "amount": 40.86,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKWKLLSYEE",
+   "date": "2026-05-24",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VENMO CASHOUT PPD",
+   "amount": 220.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKVKRDZJYT",
+   "date": "2026-05-24",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "REI #67 RANCHO MIRAGE",
+   "amount": 26.42,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKH6R82U9D",
+   "date": "2026-05-23",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "DESERT WATER AGENCY",
+   "amount": 44.29,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK1U6XQHFW",
+   "date": "2026-05-23",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "REI #67 RANCHO MIRAGE",
+   "amount": 132.09,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKHAZZEHBQ",
+   "date": "2026-05-17",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SO CAL EDISON BILLPAY",
+   "amount": 120.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKFLL7ZSDF",
+   "date": "2026-05-17",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "ARCO #82177 PALM SPRINGS",
+   "amount": 55.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKQEHXYA5D",
+   "date": "2026-05-15",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1698.67,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKNU6C4528",
+   "date": "2026-05-15",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "ONLINE TRANSFER FROM CHECKING",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKL3CQKQC7",
+   "date": "2026-05-15",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "ONLINE TRANSFER TO SAVINGS ••7742",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKS7ZZLW03",
+   "date": "2026-05-12",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SPECTRUM INTERNET",
+   "amount": 69.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKL389TUS3",
+   "date": "2026-05-08",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VERIZON WIRELESS",
+   "amount": 62.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK3WRTRSCM",
+   "date": "2026-05-06",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "TRADER JOE'S #121 PALM SPRINGS",
+   "amount": 41.38,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK77XU66HK",
+   "date": "2026-05-02",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "STATER BROS #157 PALM SPRINGS",
+   "amount": 52.39,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKCNLQREL8",
+   "date": "2026-05-01",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1716.15,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK2WFH9582",
+   "date": "2026-05-01",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SUNSET PALMS APTS RENT",
+   "amount": 1480.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKUZ059EX4",
+   "date": "2026-04-30",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "STATER BROS #157 PALM SPRINGS",
+   "amount": 37.26,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKM18JNQNN",
+   "date": "2026-04-28",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "DIVIDEND",
+   "amount": 4.26,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Interest"
+  },
+  {
+   "id": "BKW0M4W8U9",
+   "date": "2026-04-26",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VENMO CASHOUT PPD",
+   "amount": 400.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKA8Z51491",
+   "date": "2026-04-26",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "HIDDEN VALLEY CLIMBING GYM",
+   "amount": 19.28,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKB6ZZM8UP",
+   "date": "2026-04-23",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "DESERT WATER AGENCY",
+   "amount": 52.29,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKPUHCHXDK",
+   "date": "2026-04-22",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "HIDDEN VALLEY CLIMBING GYM",
+   "amount": 18.85,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKQAB682QB",
+   "date": "2026-04-17",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1721.05,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKNRGNP6K1",
+   "date": "2026-04-17",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SO CAL EDISON BILLPAY",
+   "amount": 136.82,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKF09TVN3H",
+   "date": "2026-04-15",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "ONLINE TRANSFER TO SAVINGS ••7742",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK38ZUL294",
+   "date": "2026-04-15",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "ONLINE TRANSFER FROM CHECKING",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK27FK3X4F",
+   "date": "2026-04-12",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SPECTRUM INTERNET",
+   "amount": 69.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKKHGMT08S",
+   "date": "2026-04-09",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 43.59,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKHGZ235ZK",
+   "date": "2026-04-08",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VERIZON WIRELESS",
+   "amount": 62.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK8HQ49HNE",
+   "date": "2026-04-08",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 78.11,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKPMA9666U",
+   "date": "2026-04-03",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "TRADER JOE'S #121 PALM SPRINGS",
+   "amount": 62.7,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK6XA06UUA",
+   "date": "2026-04-03",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1741.51,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKXYK561E2",
+   "date": "2026-04-01",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SUNSET PALMS APTS RENT",
+   "amount": 1480.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK85HUZTKS",
+   "date": "2026-03-31",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "HIDDEN VALLEY CLIMBING GYM",
+   "amount": 19.39,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKRWU1Z30X",
+   "date": "2026-03-30",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 81.47,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK3TV75DXE",
+   "date": "2026-03-30",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "ARCO #82177 PALM SPRINGS",
+   "amount": 52.34,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK6VBSR3XH",
+   "date": "2026-03-29",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VENMO CASHOUT PPD",
+   "amount": 180.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKJUKFFL2H",
+   "date": "2026-03-28",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 49.36,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJ71A25XD",
+   "date": "2026-03-28",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "DIVIDEND",
+   "amount": 4.88,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Interest"
+  },
+  {
+   "id": "BKX0EVBPLQ",
+   "date": "2026-03-23",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "STATER BROS #157 PALM SPRINGS",
+   "amount": 52.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKMS4QEE9G",
+   "date": "2026-03-23",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "DESERT WATER AGENCY",
+   "amount": 39.7,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKT7JE5VMQ",
+   "date": "2026-03-22",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 19.45,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKV77MXLKS",
+   "date": "2026-03-20",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1715.25,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK2NFFV4DV",
+   "date": "2026-03-20",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "TRADER JOE'S #121 PALM SPRINGS",
+   "amount": 37.8,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK4Z5LBJ9Y",
+   "date": "2026-03-17",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SO CAL EDISON BILLPAY",
+   "amount": 189.76,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKFCMUZ1NR",
+   "date": "2026-03-15",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "ONLINE TRANSFER TO SAVINGS ••7742",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK6XBNSRYV",
+   "date": "2026-03-15",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "ONLINE TRANSFER FROM CHECKING",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKX71XLPHF",
+   "date": "2026-03-12",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SPECTRUM INTERNET",
+   "amount": 69.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK2S42FWJN",
+   "date": "2026-03-10",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 68.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK7MMKQX57",
+   "date": "2026-03-08",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VERIZON WIRELESS",
+   "amount": 62.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKZ6PK5N0M",
+   "date": "2026-03-06",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1706.1,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKZPX6LGP9",
+   "date": "2026-03-05",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 50.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKV4XBQRZL",
+   "date": "2026-03-04",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "VENMO CASHOUT PPD",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKEM22Z5Q9",
+   "date": "2026-03-02",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SUNSET PALMS APTS RENT",
+   "amount": 1480.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK59E2GW43",
+   "date": "2026-03-01",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 28.81,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKN5JDCQCQ",
+   "date": "2026-02-28",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "DIVIDEND",
+   "amount": 2.41,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Interest"
+  },
+  {
+   "id": "BK1LR8L9DW",
+   "date": "2026-02-23",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "DESERT WATER AGENCY",
+   "amount": 42.91,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK038LDDG5",
+   "date": "2026-02-22",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VENMO CASHOUT PPD",
+   "amount": 300.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK6Q0FVC5Q",
+   "date": "2026-02-20",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1713.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKK8UQH39Q",
+   "date": "2026-02-17",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SO CAL EDISON BILLPAY",
+   "amount": 203.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKQPSDBFQ5",
+   "date": "2026-02-15",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "STATER BROS #157 PALM SPRINGS",
+   "amount": 72.73,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKLRVJL9QW",
+   "date": "2026-02-15",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "ONLINE TRANSFER TO SAVINGS ••7742",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK7KTJQ4EF",
+   "date": "2026-02-15",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "ONLINE TRANSFER FROM CHECKING",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKE8RNU13G",
+   "date": "2026-02-12",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SPECTRUM INTERNET",
+   "amount": 69.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK6V1U2SC9",
+   "date": "2026-02-09",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "STATER BROS #157 PALM SPRINGS",
+   "amount": 59.32,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKEHR4BHDY",
+   "date": "2026-02-08",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VERIZON WIRELESS",
+   "amount": 62.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKVBRUKU02",
+   "date": "2026-02-06",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1713.51,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKKK1JZBFQ",
+   "date": "2026-02-05",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "ARCO #82177 PALM SPRINGS",
+   "amount": 47.23,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKT9UCGQ1J",
+   "date": "2026-02-02",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SUNSET PALMS APTS RENT",
+   "amount": 1480.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKS7XRDGY4",
+   "date": "2026-02-02",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "RALPHS #0731 PALM SPRINGS",
+   "amount": 26.21,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK6DDH3X6F",
+   "date": "2026-01-28",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "DIVIDEND",
+   "amount": 2.25,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Interest"
+  },
+  {
+   "id": "BK3BJ1XYMK",
+   "date": "2026-01-25",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VENMO CASHOUT PPD",
+   "amount": 250.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKXZKYAGV1",
+   "date": "2026-01-23",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "DESERT WATER AGENCY",
+   "amount": 48.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK0R24PA6E",
+   "date": "2026-01-23",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1706.71,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKWX1MC16Y",
+   "date": "2026-01-19",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "TRADER JOE'S #121 PALM SPRINGS",
+   "amount": 59.34,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKV6R135YQ",
+   "date": "2026-01-17",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SO CAL EDISON BILLPAY",
+   "amount": 158.73,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKZT36XE19",
+   "date": "2026-01-15",
+   "account": "Desert Palms CU Savings ••7742",
+   "description": "ONLINE TRANSFER FROM CHECKING",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKF498VKGZ",
+   "date": "2026-01-15",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "ONLINE TRANSFER TO SAVINGS ••7742",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKHRLWJZJJ",
+   "date": "2026-01-12",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SPECTRUM INTERNET",
+   "amount": 69.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKB8HSPTCD",
+   "date": "2026-01-11",
+   "account": "Desert Palms CU Visa Debit",
+   "description": "HIDDEN VALLEY CLIMBING GYM",
+   "amount": 23.36,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BK0D22P3L1",
+   "date": "2026-01-09",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "COACHELLA PRECISION MFG PAYROLL",
+   "amount": 1731.03,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKJ0Z0E777",
+   "date": "2026-01-08",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "VERIZON WIRELESS",
+   "amount": 62.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKWXBA2HL8",
+   "date": "2026-01-01",
+   "account": "Desert Palms CU Checking ••5530",
+   "description": "SUNSET PALMS APTS RENT",
+   "amount": 1480.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S16"
+  ],
+  "scenarios": [
+   "S16B"
+  ],
+  "world": "twin B world",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261119,
+  "record_counts": {
+   "transactions": 36,
+   "bank_transactions": 164,
+   "total_money_records": 200
+  }
+ }
+}

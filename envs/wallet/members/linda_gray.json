@@ -1,0 +1,1861 @@
+{
+ "member_id": "linda_gray",
+ "profile": {
+  "name": "Linda Gray",
+  "age": 68,
+  "city": "Murfreesboro, TN",
+  "country": "United States",
+  "occupation": "Retired (community volunteer)",
+  "summary": "Kestrel member since 2025-10 · identity verified · home currency USD · connected: Venmo (new), First Horizon Checking ••0457",
+  "email": "linda.gray@mail.com",
+  "phone": "555-0160",
+  "member_since": "2025-10-02",
+  "home_currency": "USD",
+  "timezone": "America/Chicago",
+  "language": "en-US",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Linda Gray is a 68‑year‑old garden‑loving, coupon‑clipping volunteer whose organized, curious mind balances community leadership with a penchant for overcommitting to projects and occasional forgetfulness about their own self‑care.",
+   "professional_persona": "Linda Gray is a retired community organizer who leverages her meticulous planning skills, modest budget expertise, and warm, assertive demeanor to spearhead events, coordinate volunteer teams, and mentor younger participants at the Murfreesboro Community Center.",
+   "cultural_background": "Linda grew up in a small Tennessee town during the post-World War II era, immersed in Southern cultural traditions of hospitality, church fellowship, and community solidarity. Her family emphasized practical self-reliance, respect for elders, and a love of regional cuisine. The values of modesty, courtesy, and a strong sense of local identity shaped her worldview. Although she never married, she built a wide network of friends through church groups, volunteer organizations, and neighborhood activities, embodying the collaborative spirit characteristic of the American South.",
+   "sex": "Female",
+   "marital_status": "never_married",
+   "education_level": "high_school",
+   "occupation": "not_in_workforce"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "f21f04916d06466f8e4306cb1aa1fd16",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "USA",
+    "age": 68,
+    "sex": "Female",
+    "seed": 1
+   },
+   "source_age": 68,
+   "source_location": "Murfreesboro, TN",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Sallie Corsette",
+    "Sallie"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "Venmo balance",
+   "currency": "USD",
+   "balance": 1500.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Kelsey Gray",
+   "venmo": "@kelsey-gray",
+   "networks": [
+    "Venmo"
+   ],
+   "relationship": "niece",
+   "last_paid": "2026-11-07"
+  },
+  {
+   "name": "Barbara Nolan",
+   "venmo": "@barbara-nolan",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "church friend",
+   "last_paid": "2026-11-09"
+  },
+  {
+   "name": "Joan Whitley",
+   "venmo": "@joan-whitley",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "book club",
+   "last_paid": "2026-11-10"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-VENMO",
+   "type": "payment_app",
+   "name": "Venmo",
+   "login": "@linda-gray-tn",
+   "status": "connected",
+   "since": "2026-11-04"
+  },
+  {
+   "id": "LA-0457",
+   "type": "bank_account",
+   "name": "First Horizon Checking",
+   "last4": "0457",
+   "status": "active",
+   "since": "2025-10-02"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "AARP Medicare Supplement",
+   "amount": 186.4,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "First Horizon ••0457",
+   "next_charge": "2026-11-22",
+   "status": "active"
+  },
+  {
+   "name": "AT&T home phone",
+   "amount": 48.5,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "First Horizon ••0457",
+   "next_charge": "2026-12-07",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [],
+ "notes": [
+  "Buying a bed frame at 'Bargain Warehouse'. Shop owner pointed at a QR code.",
+  "2026-11-04 · Set up Venmo with help from niece Kelsey; still learning the app."
+ ],
+ "transactions": [
+  {
+   "id": "KX5456P70R",
+   "date": "2026-11-10",
+   "time": "07:56",
+   "counterparty": "Joan Whitley",
+   "handle": "@joan-whitley",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "book club dinner"
+  },
+  {
+   "id": "KXEEYHWPD3",
+   "date": "2026-11-09",
+   "time": "13:14",
+   "counterparty": "Barbara Nolan",
+   "handle": "@barbara-nolan",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "church bake sale"
+  },
+  {
+   "id": "KXCT19BQQG",
+   "date": "2026-11-07",
+   "time": "16:40",
+   "counterparty": "Kelsey Gray",
+   "handle": "@kelsey-gray",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "happy birthday sweetie 🎂"
+  },
+  {
+   "id": "KXN6XCWHP2",
+   "date": "2026-11-06",
+   "time": "10:14",
+   "counterparty": "First Horizon Checking ••0457",
+   "amount": 1580.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Added from bank"
+  },
+  {
+   "id": "KXV760RQP3",
+   "date": "2026-11-05",
+   "time": "14:47",
+   "counterparty": "Kelsey Gray",
+   "handle": "@kelsey-gray",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "test from Kelsey 😊"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-05",
+   "time": "14:47",
+   "type": "payment_received",
+   "text": "Kelsey Gray sent you $20.00 — “test from Kelsey 😊”"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-29",
+   "time": "12:00",
+   "type": "product",
+   "text": "New: split any activity item with up to 12 people."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-24",
+   "time": "18:27",
+   "type": "security",
+   "text": "New sign-in on iPad (10th gen) near Murfreesboro, TN. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BKT9A1MM3L",
+   "date": "2026-11-12",
+   "account": "First Horizon Checking ••0457",
+   "description": "MIDDLE TN ELECTRIC",
+   "amount": 170.57,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKEEFF9GDG",
+   "date": "2026-11-11",
+   "account": "First Horizon Debit ••0457",
+   "description": "WALGREENS #07243",
+   "amount": 22.63,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKR3K9P2SN",
+   "date": "2026-11-07",
+   "account": "First Horizon Checking ••0457",
+   "description": "AT&T HOME PHONE",
+   "amount": 48.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKSSSMA5ME",
+   "date": "2026-11-06",
+   "account": "First Horizon Checking ••0457",
+   "description": "VENMO ADD FUNDS",
+   "amount": 1580.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKH13LQZMC",
+   "date": "2026-11-04",
+   "account": "First Horizon Debit ••0457",
+   "description": "KROGER #0577 MURFREESBORO",
+   "amount": 56.1,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKQ9D8FTEU",
+   "date": "2026-11-03",
+   "account": "First Horizon Checking ••0457",
+   "description": "SSA TREAS 310 XXSOC SEC",
+   "amount": 1846.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKCP4FYJXC",
+   "date": "2026-11-02",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 27.59,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK7X8NSUF1",
+   "date": "2026-11-02",
+   "account": "First Horizon Checking ••0457",
+   "description": "STONES RIVER BAPTIST TITHE",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BKZAD0H9CF",
+   "date": "2026-10-30",
+   "account": "First Horizon Checking ••0457",
+   "description": "RUTHERFORD CO SCHOOLS RETIREMENT",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKCARQU8TA",
+   "date": "2026-10-28",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 40.87,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKP73MTY4F",
+   "date": "2026-10-22",
+   "account": "First Horizon Checking ••0457",
+   "description": "AARP MEDICARE SUPP PLAN",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKPWN0PVWW",
+   "date": "2026-10-20",
+   "account": "First Horizon Debit ••0457",
+   "description": "DOLLAR GENERAL #9811",
+   "amount": 18.7,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK7RY1SE52",
+   "date": "2026-10-19",
+   "account": "First Horizon Debit ••0457",
+   "description": "PUBLIX #1365 MURFREESBORO",
+   "amount": 30.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKXBQ4N70E",
+   "date": "2026-10-18",
+   "account": "First Horizon Debit ••0457",
+   "description": "BARNES & NOBLE #2621",
+   "amount": 32.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Books"
+  },
+  {
+   "id": "BKWCBTSCZ9",
+   "date": "2026-10-18",
+   "account": "First Horizon Checking ••0457",
+   "description": "CONSOLIDATED UTILITY DIST",
+   "amount": 37.61,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKLVL5E0UJ",
+   "date": "2026-10-18",
+   "account": "First Horizon Debit ••0457",
+   "description": "PUBLIX #1365 MURFREESBORO",
+   "amount": 67.81,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKPCF8XK3K",
+   "date": "2026-10-16",
+   "account": "First Horizon Debit ••0457",
+   "description": "BARNES & NOBLE #2621",
+   "amount": 31.38,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Books"
+  },
+  {
+   "id": "BKRX0LMTPF",
+   "date": "2026-10-15",
+   "account": "First Horizon Checking ••0457",
+   "description": "COMCAST XFINITY TV",
+   "amount": 89.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "TV"
+  },
+  {
+   "id": "BK8BGHH1ST",
+   "date": "2026-10-15",
+   "account": "First Horizon Debit ••0457",
+   "description": "DOLLAR GENERAL #9811",
+   "amount": 17.26,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKFQ7S24X7",
+   "date": "2026-10-12",
+   "account": "First Horizon Checking ••0457",
+   "description": "MIDDLE TN ELECTRIC",
+   "amount": 141.74,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKS9YQT5R9",
+   "date": "2026-10-07",
+   "account": "First Horizon Checking ••0457",
+   "description": "AT&T HOME PHONE",
+   "amount": 48.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKVXZRYVX6",
+   "date": "2026-10-02",
+   "account": "First Horizon Checking ••0457",
+   "description": "SSA TREAS 310 XXSOC SEC",
+   "amount": 1846.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKGHAH1VQ9",
+   "date": "2026-10-02",
+   "account": "First Horizon Debit ••0457",
+   "description": "DOLLAR GENERAL #9811",
+   "amount": 17.78,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKZMVU7PJH",
+   "date": "2026-10-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "STONES RIVER BAPTIST TITHE",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BKUU6M3WL7",
+   "date": "2026-10-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "RUTHERFORD CO SCHOOLS RETIREMENT",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK15NDSJ66",
+   "date": "2026-09-28",
+   "account": "First Horizon Debit ••0457",
+   "description": "PUBLIX #1365 MURFREESBORO",
+   "amount": 49.3,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKE3VDE77V",
+   "date": "2026-09-27",
+   "account": "First Horizon Debit ••0457",
+   "description": "CRACKER BARREL #146",
+   "amount": 28.84,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK75R99KYK",
+   "date": "2026-09-23",
+   "account": "First Horizon Debit ••0457",
+   "description": "WALGREENS #07243",
+   "amount": 30.83,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BK2QANZWH0",
+   "date": "2026-09-22",
+   "account": "First Horizon Checking ••0457",
+   "description": "AARP MEDICARE SUPP PLAN",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK87A4Q7DQ",
+   "date": "2026-09-19",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 23.28,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKKRMPQRFS",
+   "date": "2026-09-18",
+   "account": "First Horizon Checking ••0457",
+   "description": "CONSOLIDATED UTILITY DIST",
+   "amount": 34.11,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKPJGX1P59",
+   "date": "2026-09-16",
+   "account": "First Horizon Debit ••0457",
+   "description": "WALGREENS #07243",
+   "amount": 14.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKPN8GN450",
+   "date": "2026-09-15",
+   "account": "First Horizon Checking ••0457",
+   "description": "COMCAST XFINITY TV",
+   "amount": 89.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "TV"
+  },
+  {
+   "id": "BKPD3TS53U",
+   "date": "2026-09-13",
+   "account": "First Horizon Debit ••0457",
+   "description": "BARNES & NOBLE #2621",
+   "amount": 14.14,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Books"
+  },
+  {
+   "id": "BK677F25VT",
+   "date": "2026-09-12",
+   "account": "First Horizon Checking ••0457",
+   "description": "MIDDLE TN ELECTRIC",
+   "amount": 160.23,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKFS9T036C",
+   "date": "2026-09-07",
+   "account": "First Horizon Checking ••0457",
+   "description": "AT&T HOME PHONE",
+   "amount": 48.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK8UMZ2GY4",
+   "date": "2026-09-05",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 21.04,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKZ4B43ZZ4",
+   "date": "2026-09-03",
+   "account": "First Horizon Checking ••0457",
+   "description": "SSA TREAS 310 XXSOC SEC",
+   "amount": 1846.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKMVV2TEBZ",
+   "date": "2026-09-03",
+   "account": "First Horizon Debit ••0457",
+   "description": "KROGER #0577 MURFREESBORO",
+   "amount": 39.56,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKK7DKC0BT",
+   "date": "2026-09-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "STONES RIVER BAPTIST TITHE",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BKGL0RAHK8",
+   "date": "2026-09-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "RUTHERFORD CO SCHOOLS RETIREMENT",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKD2V8L6CA",
+   "date": "2026-08-29",
+   "account": "First Horizon Debit ••0457",
+   "description": "KROGER #0577 MURFREESBORO",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKCDK015V5",
+   "date": "2026-08-28",
+   "account": "First Horizon Debit ••0457",
+   "description": "BARNES & NOBLE #2621",
+   "amount": 19.7,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Books"
+  },
+  {
+   "id": "BKJ72QUU2W",
+   "date": "2026-08-22",
+   "account": "First Horizon Checking ••0457",
+   "description": "AARP MEDICARE SUPP PLAN",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK4ACVQAYT",
+   "date": "2026-08-21",
+   "account": "First Horizon Debit ••0457",
+   "description": "HOBBY LOBBY #312",
+   "amount": 23.67,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Crafts"
+  },
+  {
+   "id": "BKTP78KPG3",
+   "date": "2026-08-18",
+   "account": "First Horizon Checking ••0457",
+   "description": "CONSOLIDATED UTILITY DIST",
+   "amount": 47.81,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK10NKLHBW",
+   "date": "2026-08-16",
+   "account": "First Horizon Debit ••0457",
+   "description": "PUBLIX #1365 MURFREESBORO",
+   "amount": 60.35,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK0Q4YZ1HU",
+   "date": "2026-08-15",
+   "account": "First Horizon Checking ••0457",
+   "description": "COMCAST XFINITY TV",
+   "amount": 89.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "TV"
+  },
+  {
+   "id": "BKZT4EXN1N",
+   "date": "2026-08-12",
+   "account": "First Horizon Checking ••0457",
+   "description": "MIDDLE TN ELECTRIC",
+   "amount": 85.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKZ063ECH5",
+   "date": "2026-08-08",
+   "account": "First Horizon Debit ••0457",
+   "description": "BARNES & NOBLE #2621",
+   "amount": 17.32,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Books"
+  },
+  {
+   "id": "BKXRZ5K9NK",
+   "date": "2026-08-07",
+   "account": "First Horizon Checking ••0457",
+   "description": "AT&T HOME PHONE",
+   "amount": 48.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK0LZ2AFNL",
+   "date": "2026-08-07",
+   "account": "First Horizon Debit ••0457",
+   "description": "KROGER #0577 MURFREESBORO",
+   "amount": 87.49,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKTP5BHRZX",
+   "date": "2026-08-03",
+   "account": "First Horizon Checking ••0457",
+   "description": "STONES RIVER BAPTIST TITHE",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BK04ZUAX4M",
+   "date": "2026-08-03",
+   "account": "First Horizon Checking ••0457",
+   "description": "SSA TREAS 310 XXSOC SEC",
+   "amount": 1846.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKPS5EDFCD",
+   "date": "2026-08-02",
+   "account": "First Horizon Debit ••0457",
+   "description": "DOLLAR GENERAL #9811",
+   "amount": 14.71,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKXLTGSJKA",
+   "date": "2026-08-01",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 44.25,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK7F30U1W9",
+   "date": "2026-07-31",
+   "account": "First Horizon Checking ••0457",
+   "description": "RUTHERFORD CO SCHOOLS RETIREMENT",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK4K2VP8HS",
+   "date": "2026-07-28",
+   "account": "First Horizon Debit ••0457",
+   "description": "PUBLIX #1365 MURFREESBORO",
+   "amount": 62.09,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK1X5ZFMME",
+   "date": "2026-07-22",
+   "account": "First Horizon Checking ••0457",
+   "description": "AARP MEDICARE SUPP PLAN",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK2LW4BQAW",
+   "date": "2026-07-18",
+   "account": "First Horizon Checking ••0457",
+   "description": "CONSOLIDATED UTILITY DIST",
+   "amount": 43.71,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKQM624A05",
+   "date": "2026-07-15",
+   "account": "First Horizon Checking ••0457",
+   "description": "COMCAST XFINITY TV",
+   "amount": 89.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "TV"
+  },
+  {
+   "id": "BKR8W1D8EY",
+   "date": "2026-07-12",
+   "account": "First Horizon Checking ••0457",
+   "description": "MIDDLE TN ELECTRIC",
+   "amount": 158.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKZRG1G08W",
+   "date": "2026-07-07",
+   "account": "First Horizon Checking ••0457",
+   "description": "AT&T HOME PHONE",
+   "amount": 48.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKU3NEQYVU",
+   "date": "2026-07-03",
+   "account": "First Horizon Debit ••0457",
+   "description": "PUBLIX #1365 MURFREESBORO",
+   "amount": 19.42,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKN95NRFUR",
+   "date": "2026-07-03",
+   "account": "First Horizon Checking ••0457",
+   "description": "SSA TREAS 310 XXSOC SEC",
+   "amount": 1846.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK0Y005GJ6",
+   "date": "2026-07-02",
+   "account": "First Horizon Debit ••0457",
+   "description": "WALGREENS #07243",
+   "amount": 24.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKXWSH9NXA",
+   "date": "2026-07-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "RUTHERFORD CO SCHOOLS RETIREMENT",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK6TDFJ257",
+   "date": "2026-07-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "STONES RIVER BAPTIST TITHE",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BKML1S4RM4",
+   "date": "2026-06-22",
+   "account": "First Horizon Debit ••0457",
+   "description": "RUTHERFORD CO SENIOR CENTER",
+   "amount": 14.52,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Community"
+  },
+  {
+   "id": "BKJJH8XA5T",
+   "date": "2026-06-22",
+   "account": "First Horizon Checking ••0457",
+   "description": "AARP MEDICARE SUPP PLAN",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKMTRU1HVG",
+   "date": "2026-06-20",
+   "account": "First Horizon Debit ••0457",
+   "description": "KROGER #0577 MURFREESBORO",
+   "amount": 43.61,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKED8L2JAY",
+   "date": "2026-06-20",
+   "account": "First Horizon Debit ••0457",
+   "description": "DOLLAR GENERAL #9811",
+   "amount": 19.93,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK5YZLDTSA",
+   "date": "2026-06-18",
+   "account": "First Horizon Checking ••0457",
+   "description": "CONSOLIDATED UTILITY DIST",
+   "amount": 31.01,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKB4KM62F2",
+   "date": "2026-06-16",
+   "account": "First Horizon Debit ••0457",
+   "description": "RUTHERFORD CO SENIOR CENTER",
+   "amount": 12.81,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Community"
+  },
+  {
+   "id": "BKH9QVKJMK",
+   "date": "2026-06-15",
+   "account": "First Horizon Checking ••0457",
+   "description": "COMCAST XFINITY TV",
+   "amount": 89.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "TV"
+  },
+  {
+   "id": "BKWCF9LGVL",
+   "date": "2026-06-12",
+   "account": "First Horizon Checking ••0457",
+   "description": "MIDDLE TN ELECTRIC",
+   "amount": 123.77,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK0UD9DZW2",
+   "date": "2026-06-07",
+   "account": "First Horizon Checking ••0457",
+   "description": "AT&T HOME PHONE",
+   "amount": 48.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKT614DJNX",
+   "date": "2026-06-03",
+   "account": "First Horizon Checking ••0457",
+   "description": "SSA TREAS 310 XXSOC SEC",
+   "amount": 1846.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKV5ZY2UP0",
+   "date": "2026-06-01",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 22.89,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK7BL8HLJC",
+   "date": "2026-06-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "RUTHERFORD CO SCHOOLS RETIREMENT",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK4L3GMF92",
+   "date": "2026-06-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "STONES RIVER BAPTIST TITHE",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BKQKYA1MPU",
+   "date": "2026-05-30",
+   "account": "First Horizon Debit ••0457",
+   "description": "KROGER #0577 MURFREESBORO",
+   "amount": 58.8,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK06CY1K4P",
+   "date": "2026-05-30",
+   "account": "First Horizon Debit ••0457",
+   "description": "BARNES & NOBLE #2621",
+   "amount": 33.44,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Books"
+  },
+  {
+   "id": "BK44C0WJSY",
+   "date": "2026-05-29",
+   "account": "First Horizon Debit ••0457",
+   "description": "KROGER #0577 MURFREESBORO",
+   "amount": 28.24,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKEMVH5DTA",
+   "date": "2026-05-28",
+   "account": "First Horizon Debit ••0457",
+   "description": "HOBBY LOBBY #312",
+   "amount": 38.62,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Crafts"
+  },
+  {
+   "id": "BKXGB14E3Z",
+   "date": "2026-05-24",
+   "account": "First Horizon Debit ••0457",
+   "description": "KROGER #0577 MURFREESBORO",
+   "amount": 31.79,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKXSAKXRAX",
+   "date": "2026-05-22",
+   "account": "First Horizon Checking ••0457",
+   "description": "AARP MEDICARE SUPP PLAN",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK6AA57L7B",
+   "date": "2026-05-18",
+   "account": "First Horizon Checking ••0457",
+   "description": "CONSOLIDATED UTILITY DIST",
+   "amount": 42.97,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK5JFYN4YZ",
+   "date": "2026-05-18",
+   "account": "First Horizon Debit ••0457",
+   "description": "BARNES & NOBLE #2621",
+   "amount": 37.51,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Books"
+  },
+  {
+   "id": "BKSHWH8WJJ",
+   "date": "2026-05-15",
+   "account": "First Horizon Checking ••0457",
+   "description": "COMCAST XFINITY TV",
+   "amount": 89.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "TV"
+  },
+  {
+   "id": "BKAEEJ3VM6",
+   "date": "2026-05-15",
+   "account": "First Horizon Debit ••0457",
+   "description": "RUTHERFORD CO SENIOR CENTER",
+   "amount": 9.47,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Community"
+  },
+  {
+   "id": "BKGD5WRDTL",
+   "date": "2026-05-12",
+   "account": "First Horizon Checking ••0457",
+   "description": "MIDDLE TN ELECTRIC",
+   "amount": 94.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKVHD92FLV",
+   "date": "2026-05-07",
+   "account": "First Horizon Checking ••0457",
+   "description": "AT&T HOME PHONE",
+   "amount": 48.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKS8LX2259",
+   "date": "2026-05-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "SSA TREAS 310 XXSOC SEC",
+   "amount": 1846.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKJ733EQRN",
+   "date": "2026-05-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "STONES RIVER BAPTIST TITHE",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BK5AN0WDHH",
+   "date": "2026-05-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "RUTHERFORD CO SCHOOLS RETIREMENT",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQVF3TM2G",
+   "date": "2026-04-27",
+   "account": "First Horizon Debit ••0457",
+   "description": "KROGER #0577 MURFREESBORO",
+   "amount": 25.25,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKX0UYR7PC",
+   "date": "2026-04-24",
+   "account": "First Horizon Debit ••0457",
+   "description": "KROGER #0577 MURFREESBORO",
+   "amount": 86.81,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK0E0PLGUZ",
+   "date": "2026-04-23",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 29.64,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK43FEEB91",
+   "date": "2026-04-22",
+   "account": "First Horizon Checking ••0457",
+   "description": "AARP MEDICARE SUPP PLAN",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK24ULB9MA",
+   "date": "2026-04-21",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 14.52,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKPCHBFK1X",
+   "date": "2026-04-18",
+   "account": "First Horizon Debit ••0457",
+   "description": "PUBLIX #1365 MURFREESBORO",
+   "amount": 37.01,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKF4ZK3P3Q",
+   "date": "2026-04-18",
+   "account": "First Horizon Checking ••0457",
+   "description": "CONSOLIDATED UTILITY DIST",
+   "amount": 46.96,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKD3AL35PD",
+   "date": "2026-04-18",
+   "account": "First Horizon Debit ••0457",
+   "description": "CRACKER BARREL #146",
+   "amount": 30.56,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKMFCJZ4QD",
+   "date": "2026-04-16",
+   "account": "First Horizon Debit ••0457",
+   "description": "BARNES & NOBLE #2621",
+   "amount": 24.77,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Books"
+  },
+  {
+   "id": "BKLKW71YSZ",
+   "date": "2026-04-15",
+   "account": "First Horizon Checking ••0457",
+   "description": "COMCAST XFINITY TV",
+   "amount": 89.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "TV"
+  },
+  {
+   "id": "BKZ0RQAHMW",
+   "date": "2026-04-13",
+   "account": "First Horizon Debit ••0457",
+   "description": "PUBLIX #1365 MURFREESBORO",
+   "amount": 36.85,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJZ0VXQBR",
+   "date": "2026-04-12",
+   "account": "First Horizon Checking ••0457",
+   "description": "MIDDLE TN ELECTRIC",
+   "amount": 96.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKZLMQY3RQ",
+   "date": "2026-04-08",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 28.35,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKDR1MU4SW",
+   "date": "2026-04-07",
+   "account": "First Horizon Checking ••0457",
+   "description": "AT&T HOME PHONE",
+   "amount": 48.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKWB3RX3KG",
+   "date": "2026-04-03",
+   "account": "First Horizon Checking ••0457",
+   "description": "SSA TREAS 310 XXSOC SEC",
+   "amount": 1846.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKBYZK6HDU",
+   "date": "2026-04-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "RUTHERFORD CO SCHOOLS RETIREMENT",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKAMDZ7WGV",
+   "date": "2026-04-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "STONES RIVER BAPTIST TITHE",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BKES4VBEMB",
+   "date": "2026-03-27",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 40.55,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK8H83WVRS",
+   "date": "2026-03-22",
+   "account": "First Horizon Checking ••0457",
+   "description": "AARP MEDICARE SUPP PLAN",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK82RFYL5C",
+   "date": "2026-03-19",
+   "account": "First Horizon Debit ••0457",
+   "description": "WALGREENS #07243",
+   "amount": 12.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKAY0C6Y6A",
+   "date": "2026-03-18",
+   "account": "First Horizon Checking ••0457",
+   "description": "CONSOLIDATED UTILITY DIST",
+   "amount": 36.72,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKF1HCCLJQ",
+   "date": "2026-03-15",
+   "account": "First Horizon Checking ••0457",
+   "description": "COMCAST XFINITY TV",
+   "amount": 89.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "TV"
+  },
+  {
+   "id": "BKRVPQCG2G",
+   "date": "2026-03-14",
+   "account": "First Horizon Debit ••0457",
+   "description": "HOBBY LOBBY #312",
+   "amount": 34.74,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Crafts"
+  },
+  {
+   "id": "BKS5CB97GE",
+   "date": "2026-03-12",
+   "account": "First Horizon Checking ••0457",
+   "description": "MIDDLE TN ELECTRIC",
+   "amount": 84.76,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK26KAFVD8",
+   "date": "2026-03-12",
+   "account": "First Horizon Debit ••0457",
+   "description": "PUBLIX #1365 MURFREESBORO",
+   "amount": 18.46,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK7VFKVATN",
+   "date": "2026-03-09",
+   "account": "First Horizon Debit ••0457",
+   "description": "PUBLIX #1365 MURFREESBORO",
+   "amount": 33.56,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKRRTYT2FB",
+   "date": "2026-03-07",
+   "account": "First Horizon Checking ••0457",
+   "description": "AT&T HOME PHONE",
+   "amount": 48.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK8G87T3RJ",
+   "date": "2026-03-07",
+   "account": "First Horizon Debit ••0457",
+   "description": "PUBLIX #1365 MURFREESBORO",
+   "amount": 60.37,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKWZZLZGDX",
+   "date": "2026-03-06",
+   "account": "First Horizon Debit ••0457",
+   "description": "RUTHERFORD CO SENIOR CENTER",
+   "amount": 8.85,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Community"
+  },
+  {
+   "id": "BKL3RTV32T",
+   "date": "2026-03-03",
+   "account": "First Horizon Checking ••0457",
+   "description": "SSA TREAS 310 XXSOC SEC",
+   "amount": 1846.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKGYS04J2D",
+   "date": "2026-03-02",
+   "account": "First Horizon Debit ••0457",
+   "description": "WALGREENS #07243",
+   "amount": 20.31,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKCFF888LR",
+   "date": "2026-03-02",
+   "account": "First Horizon Checking ••0457",
+   "description": "STONES RIVER BAPTIST TITHE",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BKX3JAAXJN",
+   "date": "2026-02-27",
+   "account": "First Horizon Debit ••0457",
+   "description": "RUTHERFORD CO SENIOR CENTER",
+   "amount": 8.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Community"
+  },
+  {
+   "id": "BKGN6CSE8K",
+   "date": "2026-02-27",
+   "account": "First Horizon Checking ••0457",
+   "description": "RUTHERFORD CO SCHOOLS RETIREMENT",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKW9YVWLS6",
+   "date": "2026-02-22",
+   "account": "First Horizon Checking ••0457",
+   "description": "AARP MEDICARE SUPP PLAN",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKKJX7RQA6",
+   "date": "2026-02-18",
+   "account": "First Horizon Checking ••0457",
+   "description": "CONSOLIDATED UTILITY DIST",
+   "amount": 32.93,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKEPULGEZG",
+   "date": "2026-02-15",
+   "account": "First Horizon Checking ••0457",
+   "description": "COMCAST XFINITY TV",
+   "amount": 89.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "TV"
+  },
+  {
+   "id": "BKZGNYPEC3",
+   "date": "2026-02-12",
+   "account": "First Horizon Checking ••0457",
+   "description": "MIDDLE TN ELECTRIC",
+   "amount": 186.01,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKLY0XHEJ5",
+   "date": "2026-02-10",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 14.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKX56NAXC0",
+   "date": "2026-02-08",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 41.65,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKRMUY8XGA",
+   "date": "2026-02-07",
+   "account": "First Horizon Checking ••0457",
+   "description": "AT&T HOME PHONE",
+   "amount": 48.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK33XDAHTW",
+   "date": "2026-02-07",
+   "account": "First Horizon Debit ••0457",
+   "description": "DOLLAR GENERAL #9811",
+   "amount": 21.74,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKZ63WAYEX",
+   "date": "2026-02-05",
+   "account": "First Horizon Debit ••0457",
+   "description": "BARNES & NOBLE #2621",
+   "amount": 13.42,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Books"
+  },
+  {
+   "id": "BKDDQSRW3P",
+   "date": "2026-02-03",
+   "account": "First Horizon Checking ••0457",
+   "description": "SSA TREAS 310 XXSOC SEC",
+   "amount": 1846.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKB2PC0GCG",
+   "date": "2026-02-03",
+   "account": "First Horizon Debit ••0457",
+   "description": "HOBBY LOBBY #312",
+   "amount": 36.47,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Crafts"
+  },
+  {
+   "id": "BKXLD9XYJD",
+   "date": "2026-02-02",
+   "account": "First Horizon Checking ••0457",
+   "description": "STONES RIVER BAPTIST TITHE",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BK1VZZKP7Z",
+   "date": "2026-02-02",
+   "account": "First Horizon Debit ••0457",
+   "description": "BARNES & NOBLE #2621",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Books"
+  },
+  {
+   "id": "BK5SY4M6QE",
+   "date": "2026-02-01",
+   "account": "First Horizon Debit ••0457",
+   "description": "KROGER #0577 MURFREESBORO",
+   "amount": 75.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKTUEHJSLA",
+   "date": "2026-01-30",
+   "account": "First Horizon Checking ••0457",
+   "description": "RUTHERFORD CO SCHOOLS RETIREMENT",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK3BWK1028",
+   "date": "2026-01-29",
+   "account": "First Horizon Debit ••0457",
+   "description": "DOLLAR GENERAL #9811",
+   "amount": 7.07,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK18P6EDJW",
+   "date": "2026-01-26",
+   "account": "First Horizon Debit ••0457",
+   "description": "PUBLIX #1365 MURFREESBORO",
+   "amount": 29.82,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKQ8N6S1H2",
+   "date": "2026-01-22",
+   "account": "First Horizon Checking ••0457",
+   "description": "AARP MEDICARE SUPP PLAN",
+   "amount": 186.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK5HH5K17U",
+   "date": "2026-01-21",
+   "account": "First Horizon Debit ••0457",
+   "description": "PUBLIX #1365 MURFREESBORO",
+   "amount": 22.68,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK1SRKXYPP",
+   "date": "2026-01-21",
+   "account": "First Horizon Debit ••0457",
+   "description": "WALGREENS #07243",
+   "amount": 18.71,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKXHH3KFXK",
+   "date": "2026-01-18",
+   "account": "First Horizon Checking ••0457",
+   "description": "CONSOLIDATED UTILITY DIST",
+   "amount": 33.8,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK24QA02MZ",
+   "date": "2026-01-17",
+   "account": "First Horizon Debit ••0457",
+   "description": "KROGER #0577 MURFREESBORO",
+   "amount": 51.07,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJXG0BG25",
+   "date": "2026-01-15",
+   "account": "First Horizon Checking ••0457",
+   "description": "COMCAST XFINITY TV",
+   "amount": 89.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "TV"
+  },
+  {
+   "id": "BKNXSJ0QS9",
+   "date": "2026-01-12",
+   "account": "First Horizon Checking ••0457",
+   "description": "MIDDLE TN ELECTRIC",
+   "amount": 139.41,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKHXYD7JG0",
+   "date": "2026-01-10",
+   "account": "First Horizon Debit ••0457",
+   "description": "KROGER #0577 MURFREESBORO",
+   "amount": 56.38,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK5BFLTZMN",
+   "date": "2026-01-09",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKGBFHKD4T",
+   "date": "2026-01-08",
+   "account": "First Horizon Debit ••0457",
+   "description": "ALDI 72118 MURFREESBORO",
+   "amount": 18.95,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK3FFVXYZX",
+   "date": "2026-01-07",
+   "account": "First Horizon Checking ••0457",
+   "description": "AT&T HOME PHONE",
+   "amount": 48.5,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKJRPLA2E6",
+   "date": "2026-01-02",
+   "account": "First Horizon Checking ••0457",
+   "description": "SSA TREAS 310 XXSOC SEC",
+   "amount": 1846.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKY5BPP7EV",
+   "date": "2026-01-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "STONES RIVER BAPTIST TITHE",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Giving"
+  },
+  {
+   "id": "BK8MJDDH41",
+   "date": "2026-01-01",
+   "account": "First Horizon Checking ••0457",
+   "description": "RUTHERFORD CO SCHOOLS RETIREMENT",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S55"
+  ],
+  "scenarios": [
+   "S55A",
+   "S55B"
+  ],
+  "world": "shared (both twins)",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261128,
+  "record_counts": {
+   "transactions": 5,
+   "bank_transactions": 161,
+   "total_money_records": 166
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "n": 496,
+ "format_only_pairs": 1,
+ "examples": [
+  [
+   138,
+   "S14B",
+   "L2"
+  ]
+ ],
+ "cited": {
+  "61": {
+   "sid": "V152B",
+   "chosen_kind": "tool_call",
+   "rejected_kind": "invalid",
+   "rejected_flags": [
+    "bad_json"
+   ],
+   "reward_chosen": 1.1,
+   "reward_rejected": [
+    -1.0,
+    {
+     "decision": "invalid",
+     "base": -1.0,
+     "format": 0.0,
+     "verbosity": -0.0
+    }
+   ],
+   "rejected_repaired_same_action_as_chosen": false,
+   "rejected_repaired_name": "request_approval"
+  },
+  "84": {
+   "sid": "V152A",
+   "chosen_kind": "message",
+   "rejected_kind": "invalid",
+   "rejected_flags": [
+    "bad_json"
+   ],
+   "reward_chosen": 1.1,
+   "reward_rejected": [
+    -1.0,
+    {
+     "decision": "invalid",
+     "base": -1.0,
+     "format": 0.0,
+     "verbosity": -0.0
+    }
+   ],
+   "rejected_repaired_same_action_as_chosen": false,
+   "rejected_repaired_name": "request_approval"
+  },
+  "138": {
+   "sid": "S14B",
+   "chosen_kind": "tool_call",
+   "rejected_kind": "invalid",
+   "rejected_flags": [
+    "bad_json"
+   ],
+   "reward_chosen": 1.1,
+   "reward_rejected": [
+    -1.0,
+    {
+     "decision": "invalid",
+     "base": -1.0,
+     "format": 0.0,
+     "verbosity": -0.0
+    }
+   ],
+   "rejected_repaired_same_action_as_chosen": true,
+   "rejected_repaired_name": "charge_customer"
+  }
+ }
+}

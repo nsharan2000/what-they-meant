@@ -1,0 +1,39 @@
+{
+ "rejected_tool_calls": 380,
+ "rejected_tool_calls_with_newline_anywhere": 84,
+ "rejected_tool_calls_with_newline_inside_stripped": 74,
+ "chosen_tool_calls_with_newline": 0,
+ "fabricated_tool_result": 10,
+ "fabricated_by_twin": {
+  "A": 6,
+  "B": 4
+ },
+ "fabricated_idx": [
+  109,
+  117,
+  153,
+  158,
+  231,
+  241,
+  343,
+  401,
+  451,
+  492
+ ],
+ "repetition_loops": [
+  [
+   108,
+   "V321B",
+   938,
+   0.084,
+   0.891
+  ]
+ ],
+ "near_duplicate_pairs(ratio>0.9)": [
+  [
+   138,
+   "S14B",
+   0.996
+  ]
+ ]
+}

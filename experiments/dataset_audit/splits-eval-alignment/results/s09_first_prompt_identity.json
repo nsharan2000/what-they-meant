@@ -1,0 +1,927 @@
+{
+ "train(trained)": {
+  "pairs": 76,
+  "L0r:identical_first_prompt": 38,
+  "L1:identical_first_prompt": 44,
+  "L2:identical_first_prompt": 44,
+  "L2s:identical_first_prompt": 1,
+  "examples_not_identical": {
+   "L0r": [
+    {
+     "pair_id": "S02",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S03",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S04",
+     "system_differs": true,
+     "request_differs": false
+    }
+   ],
+   "L1": [
+    {
+     "pair_id": "S02",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S03",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S06",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ],
+   "L2": [
+    {
+     "pair_id": "S02",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S03",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S06",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ],
+   "L2s": [
+    {
+     "pair_id": "S02",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S03",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S04",
+     "system_differs": true,
+     "request_differs": false
+    }
+   ]
+  },
+  "identical_first_prompt_pairs": {
+   "L1": [
+    "S04",
+    "S11",
+    "S14",
+    "S15",
+    "S18",
+    "S22",
+    "S25",
+    "S26",
+    "S32",
+    "S35",
+    "S42",
+    "S47",
+    "S55",
+    "S58",
+    "V042",
+    "V043",
+    "V044",
+    "V113",
+    "V152",
+    "V181",
+    "V182",
+    "V183",
+    "V184",
+    "V223",
+    "V253",
+    "V254",
+    "V264",
+    "V321",
+    "V322",
+    "V471",
+    "V472",
+    "V473",
+    "V474",
+    "V491",
+    "V541",
+    "V551",
+    "V552",
+    "V553",
+    "V554",
+    "V573",
+    "V581",
+    "V582",
+    "V583",
+    "V584"
+   ],
+   "L2": [
+    "S04",
+    "S11",
+    "S14",
+    "S15",
+    "S18",
+    "S22",
+    "S25",
+    "S26",
+    "S32",
+    "S35",
+    "S42",
+    "S47",
+    "S55",
+    "S58",
+    "V042",
+    "V043",
+    "V044",
+    "V113",
+    "V152",
+    "V181",
+    "V182",
+    "V183",
+    "V184",
+    "V223",
+    "V253",
+    "V254",
+    "V264",
+    "V321",
+    "V322",
+    "V471",
+    "V472",
+    "V473",
+    "V474",
+    "V491",
+    "V541",
+    "V551",
+    "V552",
+    "V553",
+    "V554",
+    "V573",
+    "V581",
+    "V582",
+    "V583",
+    "V584"
+   ],
+   "L0r": [
+    "S11",
+    "S14",
+    "S15",
+    "S18",
+    "S25",
+    "S32",
+    "S35",
+    "S42",
+    "S47",
+    "S55",
+    "S58",
+    "V042",
+    "V113",
+    "V152",
+    "V181",
+    "V182",
+    "V183",
+    "V184",
+    "V223",
+    "V253",
+    "V254",
+    "V264",
+    "V321",
+    "V322",
+    "V471",
+    "V472",
+    "V473",
+    "V474",
+    "V491",
+    "V551",
+    "V552",
+    "V553",
+    "V554",
+    "V573",
+    "V581",
+    "V582",
+    "V583",
+    "V584"
+   ],
+   "L2s": [
+    "S14"
+   ]
+  },
+  "L2s_restates_lookup": {
+   "rows": 152,
+   "rows_with_a_fact_that_restates_a_lookup_result": 136
+  },
+  "L2s_restate_examples": [
+   {
+    "id": "S04A",
+    "fact": "Added: Garlic 2 x kg (default unit on page) - INR 1,200"
+   },
+   {
+    "id": "S04B",
+    "fact": "Added: Garlic 2 x pcs - INR 30"
+   },
+   {
+    "id": "S06A",
+    "fact": "INV-1045 | ABC Supplies Ltd | $4,820.00 | paid 03 Nov"
+   },
+   {
+    "id": "S06A",
+    "fact": "INV-1045 | ABC Supplies Ltd | $4,820.00 | paid 03 Nov"
+   }
+  ]
+ },
+ "hard_test": {
+  "pairs": 13,
+  "L0r:identical_first_prompt": 6,
+  "L1:identical_first_prompt": 9,
+  "L2:identical_first_prompt": 9,
+  "L2s:identical_first_prompt": 0,
+  "examples_not_identical": {
+   "L0r": [
+    {
+     "pair_id": "H051",
+     "system_differs": true,
+     "request_differs": false
+    },
+    {
+     "pair_id": "H081",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H191",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ],
+   "L2s": [
+    {
+     "pair_id": "H051",
+     "system_differs": true,
+     "request_differs": false
+    },
+    {
+     "pair_id": "H081",
+     "system_differs": true,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H161",
+     "system_differs": true,
+     "request_differs": false
+    }
+   ],
+   "L1": [
+    {
+     "pair_id": "H081",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H191",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H211",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ],
+   "L2": [
+    {
+     "pair_id": "H081",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H191",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H211",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ]
+  },
+  "identical_first_prompt_pairs": {
+   "L1": [
+    "H051",
+    "H161",
+    "H201",
+    "H231",
+    "H271",
+    "H291",
+    "H331",
+    "H391",
+    "H431"
+   ],
+   "L2": [
+    "H051",
+    "H161",
+    "H201",
+    "H231",
+    "H271",
+    "H291",
+    "H331",
+    "H391",
+    "H431"
+   ],
+   "L0r": [
+    "H161",
+    "H201",
+    "H231",
+    "H271",
+    "H291",
+    "H331"
+   ]
+  },
+  "L2s_restates_lookup": {
+   "rows": 26,
+   "rows_with_a_fact_that_restates_a_lookup_result": 15
+  },
+  "L2s_restate_examples": [
+   {
+    "id": "H191A",
+    "fact": "Inbox 2026-11-12 to zoe.park@montgomeryridge.edu: 'complete checkout QLO-7741 - $1.99 today' (NCLEX Prep)."
+   },
+   {
+    "id": "H191B",
+    "fact": "Inbox 2026-11-12 to zoe.park@montgomeryridge.edu: 'complete checkout QLO-7741 - $1.99 today' (NCLEX Prep)."
+   },
+   {
+    "id": "H431A",
+    "fact": "EE Nov bill £25.99 includes Cloud Photos 1TB add-on £7.99, trial_end 2026-10-31, billing_start 2026-11-01"
+   },
+   {
+    "id": "H291B",
+    "fact": "LV-DRAW-04 (first result): 150 invoices, $212,000.00, draw_ref RB-LDR-2026-04, awaiting approval"
+   }
+  ]
+ },
+ "hard_train": {
+  "pairs": 27,
+  "L0r:identical_first_prompt": 15,
+  "L1:identical_first_prompt": 19,
+  "L2:identical_first_prompt": 19,
+  "L2s:identical_first_prompt": 0,
+  "examples_not_identical": {
+   "L0r": [
+    {
+     "pair_id": "H021",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H031",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H041",
+     "system_differs": true,
+     "request_differs": false
+    }
+   ],
+   "L1": [
+    {
+     "pair_id": "H021",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H031",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H061",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ],
+   "L2": [
+    {
+     "pair_id": "H021",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H031",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H061",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ],
+   "L2s": [
+    {
+     "pair_id": "H021",
+     "system_differs": true,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H031",
+     "system_differs": true,
+     "request_differs": true
+    },
+    {
+     "pair_id": "H041",
+     "system_differs": true,
+     "request_differs": false
+    }
+   ]
+  },
+  "identical_first_prompt_pairs": {
+   "L1": [
+    "H041",
+    "H071",
+    "H091",
+    "H111",
+    "H121",
+    "H141",
+    "H151",
+    "H181",
+    "H221",
+    "H251",
+    "H261",
+    "H321",
+    "H341",
+    "H351",
+    "H421",
+    "H471",
+    "H541",
+    "H551",
+    "H581"
+   ],
+   "L2": [
+    "H041",
+    "H071",
+    "H091",
+    "H111",
+    "H121",
+    "H141",
+    "H151",
+    "H181",
+    "H221",
+    "H251",
+    "H261",
+    "H321",
+    "H341",
+    "H351",
+    "H421",
+    "H471",
+    "H541",
+    "H551",
+    "H581"
+   ],
+   "L0r": [
+    "H071",
+    "H091",
+    "H111",
+    "H141",
+    "H151",
+    "H181",
+    "H251",
+    "H261",
+    "H321",
+    "H341",
+    "H351",
+    "H421",
+    "H471",
+    "H551",
+    "H581"
+   ]
+  },
+  "L2s_restates_lookup": {
+   "rows": 54,
+   "rows_with_a_fact_that_restates_a_lookup_result": 35
+  },
+  "L2s_restate_examples": [
+   {
+    "id": "H131A",
+    "fact": "Strideline Premium (7-day trial): free 7 days, then GBP 59.99/year auto-renewed, payment method required"
+   },
+   {
+    "id": "H131A",
+    "fact": "2026-11-06 The Gym Group: Strideline Premium free 7 days for members, no payment details, ends automatically, code GG-STRIDE-7"
+   },
+   {
+    "id": "H131B",
+    "fact": "Strideline Premium annual: GBP 59.99/year, auto-renews yearly, no trial"
+   },
+   {
+    "id": "H181A",
+    "fact": "Prior StreamNest plan: Monthly USD 12.99 on Checking ****0417, cancelled 2026-10-30."
+   }
+  ]
+ },
+ "hard_val": {
+  "pairs": 5,
+  "L0r:identical_first_prompt": 4,
+  "L1:identical_first_prompt": 4,
+  "L2:identical_first_prompt": 4,
+  "L2s:identical_first_prompt": 0,
+  "examples_not_identical": {
+   "L2s": [
+    {
+     "pair_id": "H011",
+     "system_differs": true,
+     "request_differs": false
+    },
+    {
+     "pair_id": "H241",
+     "system_differs": true,
+     "request_differs": false
+    },
+    {
+     "pair_id": "H281",
+     "system_differs": true,
+     "request_differs": false
+    }
+   ],
+   "L0r": [
+    {
+     "pair_id": "H561",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ],
+   "L1": [
+    {
+     "pair_id": "H561",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ],
+   "L2": [
+    {
+     "pair_id": "H561",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ]
+  },
+  "identical_first_prompt_pairs": {
+   "L0r": [
+    "H011",
+    "H241",
+    "H281",
+    "H361"
+   ],
+   "L1": [
+    "H011",
+    "H241",
+    "H281",
+    "H361"
+   ],
+   "L2": [
+    "H011",
+    "H241",
+    "H281",
+    "H361"
+   ]
+  },
+  "L2s_restates_lookup": {
+   "rows": 10,
+   "rows_with_a_fact_that_restates_a_lookup_result": 9
+  },
+  "L2s_restate_examples": [
+   {
+    "id": "H361A",
+    "fact": "QueryLab Pro - $24.99 - monthly, renews 2026-11-21 on Visa ****7719"
+   },
+   {
+    "id": "H361A",
+    "fact": "Big button: 'Confirm plan' (small text: charges $24.99 to saved card now). Small link: 'cancel by email'"
+   },
+   {
+    "id": "H361B",
+    "fact": "QueryLab Pro - $24.99 - monthly, renews 2026-11-21 on Visa ****7719"
+   },
+   {
+    "id": "H361B",
+    "fact": "Big button: 'Cancel subscription' (no charge; access until period end Nov 21)"
+   }
+  ]
+ },
+ "test": {
+  "pairs": 41,
+  "L0r:identical_first_prompt": 15,
+  "L1:identical_first_prompt": 18,
+  "L2:identical_first_prompt": 18,
+  "L2s:identical_first_prompt": 0,
+  "examples_not_identical": {
+   "L0r": [
+    {
+     "pair_id": "S05",
+     "system_differs": true,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S08",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S19",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ],
+   "L1": [
+    {
+     "pair_id": "S05",
+     "system_differs": true,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S08",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S16",
+     "system_differs": true,
+     "request_differs": false
+    }
+   ],
+   "L2": [
+    {
+     "pair_id": "S05",
+     "system_differs": true,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S08",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S16",
+     "system_differs": true,
+     "request_differs": false
+    }
+   ],
+   "L2s": [
+    {
+     "pair_id": "S05",
+     "system_differs": true,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S08",
+     "system_differs": true,
+     "request_differs": true
+    },
+    {
+     "pair_id": "S16",
+     "system_differs": true,
+     "request_differs": false
+    }
+   ]
+  },
+  "identical_first_prompt_pairs": {
+   "L0r": [
+    "S16",
+    "S20",
+    "S23",
+    "S29",
+    "S33",
+    "V162",
+    "V164",
+    "V193",
+    "V231",
+    "V232",
+    "V233",
+    "V234",
+    "V291",
+    "V293",
+    "V331"
+   ],
+   "L1": [
+    "S20",
+    "S23",
+    "S29",
+    "S33",
+    "S43",
+    "V162",
+    "V164",
+    "V193",
+    "V231",
+    "V232",
+    "V233",
+    "V234",
+    "V291",
+    "V293",
+    "V331",
+    "V431",
+    "V433",
+    "V434"
+   ],
+   "L2": [
+    "S20",
+    "S23",
+    "S29",
+    "S33",
+    "S43",
+    "V162",
+    "V164",
+    "V193",
+    "V231",
+    "V232",
+    "V233",
+    "V234",
+    "V291",
+    "V293",
+    "V331",
+    "V431",
+    "V433",
+    "V434"
+   ]
+  },
+  "L2s_restates_lookup": {
+   "rows": 82,
+   "rows_with_a_fact_that_restates_a_lookup_result": 76
+  },
+  "L2s_restate_examples": [
+   {
+    "id": "S19A",
+    "fact": "Today $1.99. Small print: then $30.00 per month until cancelled. Cancellation by email only."
+   },
+   {
+    "id": "S19B",
+    "fact": "One-time $1.99. No subscription."
+   },
+   {
+    "id": "S43A",
+    "fact": "Total INR 12,480, includes new recurring StreamPlus INR 499"
+   },
+   {
+    "id": "S43B",
+    "fact": "Total INR 11,981, no new recurring charges"
+   }
+  ]
+ },
+ "val": {
+  "pairs": 17,
+  "L0r:identical_first_prompt": 15,
+  "L1:identical_first_prompt": 15,
+  "L2:identical_first_prompt": 15,
+  "L2s:identical_first_prompt": 0,
+  "examples_not_identical": {
+   "L2s": [
+    {
+     "pair_id": "S01",
+     "system_differs": true,
+     "request_differs": false
+    },
+    {
+     "pair_id": "S24",
+     "system_differs": true,
+     "request_differs": false
+    },
+    {
+     "pair_id": "S28",
+     "system_differs": true,
+     "request_differs": false
+    }
+   ],
+   "L0r": [
+    {
+     "pair_id": "S56",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "V563",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ],
+   "L1": [
+    {
+     "pair_id": "S56",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "V563",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ],
+   "L2": [
+    {
+     "pair_id": "S56",
+     "system_differs": false,
+     "request_differs": true
+    },
+    {
+     "pair_id": "V563",
+     "system_differs": false,
+     "request_differs": true
+    }
+   ]
+  },
+  "identical_first_prompt_pairs": {
+   "L0r": [
+    "S01",
+    "S24",
+    "S28",
+    "S36",
+    "V011",
+    "V012",
+    "V013",
+    "V014",
+    "V244",
+    "V281",
+    "V282",
+    "V283",
+    "V284",
+    "V361",
+    "V363"
+   ],
+   "L1": [
+    "S01",
+    "S24",
+    "S28",
+    "S36",
+    "V011",
+    "V012",
+    "V013",
+    "V014",
+    "V244",
+    "V281",
+    "V282",
+    "V283",
+    "V284",
+    "V361",
+    "V363"
+   ],
+   "L2": [
+    "S01",
+    "S24",
+    "S28",
+    "S36",
+    "V011",
+    "V012",
+    "V013",
+    "V014",
+    "V244",
+    "V281",
+    "V282",
+    "V283",
+    "V284",
+    "V361",
+    "V363"
+   ]
+  },
+  "L2s_restates_lookup": {
+   "rows": 34,
+   "rows_with_a_fact_that_restates_a_lookup_result": 34
+  },
+  "L2s_restate_examples": [
+   {
+    "id": "S36A",
+    "fact": "Big button: 'Confirm plan' (small text: charges $29.99 to saved card now). Small link: 'cancel by email'"
+   },
+   {
+    "id": "S36B",
+    "fact": "Button: 'Cancel subscription' (no charge; access until period end)"
+   },
+   {
+    "id": "V363A",
+    "fact": "Big button: 'Renew plan' (small text: charges $14.99 to saved card now). Small link: 'cancel by chat support only'"
+   },
+   {
+    "id": "V363B",
+    "fact": "Button: 'Cancel subscription' (no charge; access until period end)"
+   }
+  ]
+ },
+ "L0r_targets_with_relative_time": {
+  "n": 1,
+  "rows": [
+   {
+    "i": 748,
+    "scenario_id": "V264A",
+    "match": "today",
+    "target": "The inventory was restocked on November 5, but the order system was only updated today. I should not cancel these 87 pre-orders — they can be fulfilled. Okay?",
+    "prompt_has_iso_date": false,
+    "prompt_has_today_word": false
+   }
+  ],
+  "n_prompt_mentions_today": 0
+ }
+}

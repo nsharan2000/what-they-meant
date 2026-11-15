@@ -1,0 +1,2546 @@
+{
+ "member_id": "colin_reid",
+ "profile": {
+  "name": "Colin Reid",
+  "age": 24,
+  "sex": "Male",
+  "city": "Leeds (Headingley)",
+  "country": "United Kingdom",
+  "currency": "GBP",
+  "occupation": "Housing officer",
+  "summary": "Customer since 2020. Housing officer at a Leeds housing association; rents a room in a shared house in Headingley. Uses his linked PayPal wallet for most online shopping and subscriptions.",
+  "persona": {
+   "persona": "Colin Reid is a civic-minded housing professional who balances his intellectual curiosity for sociology and art with a tendency to fret over his heavy caseload and a love for Leeds United.",
+   "professional_persona": "A dedicated housing officer, Colin Reid blends a deep knowledge of UK housing legislation with an empathetic yet firm approach to guide vulnerable clients through bureaucratic hurdles. While he is highly proficient in case management, Colin Reid often carries the emotional burden of his caseload home, fuelling his ambition to move into senior management to influence systemic policy.",
+   "cultural_background": "Colin Reid grew up in a secular English household, rooted in the suburban values of West Yorkshire. His upbringing emphasised education and civic duty, which influenced his decision to work in the public sector. He identifies strongly with a modern British identity that values intellectual curiosity and social progress, often spending his weekends exploring the eclectic mix of galleries and independent venues that Leeds offers.",
+   "sex": "Male",
+   "age": 24,
+   "marital_status": "Never married",
+   "education_level": "Degree or other higher education",
+   "occupation": "322 Welfare and housing associate professionals",
+   "country": "United Kingdom"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-UK",
+   "split": "train",
+   "uuid": "3d2e4a31-3bdb-4ce2-b0f9-a2894c69b369",
+   "license": "CC-BY-4.0",
+   "match": {
+    "country": "UK",
+    "age": 24,
+    "sex": "Male",
+    "seed": 2,
+    "reason": "closest-age employed male UK persona (salaried housing officer in Leeds); seeds 0-1 are an Aberdeen persona of Chinese heritage and a persona with no occupation"
+   },
+   "adaptation": "persona name 'David' replaced with 'Colin Reid'; age 25 replaced with 24"
+  }
+ },
+ "account_profile": {
+  "customer_id": "LDG-UK-51893",
+  "name": "Colin Reid",
+  "email": "colin.reid.lds@outlook.com",
+  "phone": "+44 7700 900583",
+  "address": "Room 3, 27 Brookfold Terrace, Leeds LS6",
+  "member_since": "2020-10-05",
+  "segment": "Everyday",
+  "language": "en-GB",
+  "features": {
+   "bill_pay": true,
+   "subscription_tracker": true,
+   "merchant_actions": false
+  },
+  "alerts": {
+   "low_balance": "£50"
+  }
+ },
+ "accounts": [
+  {
+   "id": "CUR-9034",
+   "name": "Current Account (Mastercard debit ****9034)",
+   "type": "current",
+   "currency": "GBP",
+   "balance": 1086.4
+  },
+  {
+   "id": "PAYPAL-7781",
+   "name": "PayPal balance (linked)",
+   "type": "wallet",
+   "currency": "GBP",
+   "balance": 410.0
+  },
+  {
+   "id": "LISA-9040",
+   "name": "Lifetime ISA",
+   "type": "savings",
+   "currency": "GBP",
+   "balance": 6312.84
+  },
+  {
+   "id": "SAV-9036",
+   "name": "Easy Saver",
+   "type": "savings",
+   "currency": "GBP",
+   "balance": 1940.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Ollie Brennan",
+   "type": "person",
+   "relationship": "housemate",
+   "handle": "60-83-71 ****4410",
+   "last_paid": "2026-11-09"
+  },
+  {
+   "name": "Sam Okafor",
+   "type": "person",
+   "relationship": "housemate",
+   "handle": "30-90-12 ****6623"
+  },
+  {
+   "name": "Liam Doyle",
+   "type": "person",
+   "relationship": "friend",
+   "handle": "09-01-28 ****3307"
+  },
+  {
+   "name": "Kirkstall Lettings Ltd",
+   "type": "biller",
+   "category": "rent",
+   "reference": "****0575"
+  },
+  {
+   "name": "Leeds City Council",
+   "type": "biller",
+   "category": "council tax",
+   "reference": "****5530"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "type": "wallet",
+   "provider": "PayPal",
+   "handle": "colin.reid.lds@outlook.com",
+   "funding": "Mastercard debit ****9034",
+   "status": "connected (balance and activity)"
+  }
+ ],
+ "subscriptions": [
+  {
+   "merchant": "Spotify",
+   "plan": "Premium",
+   "price": 11.99,
+   "currency": "GBP",
+   "billing": "monthly, 12th",
+   "charged_to": "Mastercard debit ****9034",
+   "status": "active"
+  },
+  {
+   "merchant": "Xbox",
+   "plan": "Game Pass Ultimate",
+   "price": 14.99,
+   "currency": "GBP",
+   "billing": "monthly, 27th",
+   "charged_to": "PayPal",
+   "status": "active"
+  },
+  {
+   "merchant": "The Gym Group",
+   "plan": "Standard",
+   "price": 22.99,
+   "currency": "GBP",
+   "billing": "monthly, 5th (direct debit)",
+   "status": "active"
+  },
+  {
+   "merchant": "giffgaff",
+   "plan": "£12 goodybag",
+   "price": 12.0,
+   "currency": "GBP",
+   "billing": "monthly, 22nd",
+   "charged_to": "Mastercard debit ****9034",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SO-0575 · Standing order: £575.00 rent to Kirkstall Lettings Ltd on the 1st of each month (runs automatically)."
+ ],
+ "notes": [
+  "Prefers to pay online shops and subscriptions from his PayPal balance."
+ ],
+ "bills": [
+  {
+   "biller": "Leeds City Council",
+   "issued": "2026-03-10",
+   "due": "2026-11-16",
+   "amount": 87.0,
+   "currency": "GBP",
+   "status": "council tax instalment 8 of 10, direct debit"
+  },
+  {
+   "biller": "Octopus Energy",
+   "issued": "2026-11-02",
+   "due": "2026-11-18",
+   "amount": 46.0,
+   "currency": "GBP",
+   "status": "direct debit scheduled"
+  }
+ ],
+ "notifications": [
+  {
+   "date": "2026-11-11",
+   "from": "ClipMaker",
+   "text": "Make your first edit in minutes. Start your 7-day free trial of ClipMaker Premium."
+  },
+  {
+   "date": "2026-11-02",
+   "from": "Kirkstall Lettings Ltd",
+   "text": "Rent received for November. Thanks, Colin!"
+  },
+  {
+   "date": "2026-10-27",
+   "from": "PayPal",
+   "text": "You paid £14.99 to Xbox (Game Pass Ultimate)."
+  },
+  {
+   "date": "2026-10-15",
+   "from": "Leeds City Council",
+   "text": "Council tax instalment of £87.00 collected."
+  }
+ ],
+ "event_log": [
+  {
+   "date": "2026-09-01",
+   "actor": "member",
+   "action": "standing_order_changed",
+   "detail": "SO-0575 rent £550 -> £575 (new tenancy)"
+  },
+  {
+   "date": "2026-06-12",
+   "actor": "member",
+   "action": "account_linked",
+   "detail": "PayPal wallet linked (balance and activity)"
+  }
+ ],
+ "transactions": [
+  {
+   "id": "txn_28xj3vg3",
+   "date": "2026-11-12",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Premium",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_4xhyp4wb",
+   "date": "2026-11-09",
+   "counterparty": "Ollie Brennan",
+   "handle": "60-83-71 ****4410",
+   "amount": 11.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "wifi",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_m2c9ey3k",
+   "date": "2026-11-05",
+   "counterparty": "The Gym Group",
+   "amount": 22.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Leeds Kirkstall Road",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_w7mqd9fe",
+   "date": "2026-11-03",
+   "counterparty": "Amazon.co.uk",
+   "amount": 31.73,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_e6e4rdj4",
+   "date": "2026-11-02",
+   "counterparty": "Easy Saver",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Rainy-day pot",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_rvb2k7zv",
+   "date": "2026-11-02",
+   "counterparty": "Lifetime ISA",
+   "amount": 333.33,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Monthly saving (house deposit)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ct3xyvwh",
+   "date": "2026-11-02",
+   "counterparty": "Kirkstall Lettings Ltd",
+   "handle": "****0575",
+   "amount": 575.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "Rent, room 3",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_7ug9r4ht",
+   "date": "2026-11-01",
+   "counterparty": "BrewDog Leeds",
+   "amount": 36.75,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_pmuw3hgb",
+   "date": "2026-10-30",
+   "counterparty": "Aire Valley Homes",
+   "amount": 2004.85,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "Salary",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_65da2m4g",
+   "date": "2026-10-27",
+   "counterparty": "Xbox",
+   "amount": 14.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "memo": "Game Pass Ultimate",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_zbsmc3s3",
+   "date": "2026-10-26",
+   "counterparty": "Just Eat",
+   "amount": 25.44,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_p6c9h5tm",
+   "date": "2026-10-24",
+   "counterparty": "PayPal",
+   "amount": 60.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer to PayPal",
+   "memo": "Top-up",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_zt96ya76",
+   "date": "2026-10-23",
+   "counterparty": "eBay",
+   "amount": 38.22,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_5775fx4p",
+   "date": "2026-10-23",
+   "counterparty": "Greggs",
+   "amount": 6.46,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_c38hf6tp",
+   "date": "2026-10-23",
+   "counterparty": "Aldi",
+   "amount": 21.55,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ts4z2nty",
+   "date": "2026-10-23",
+   "counterparty": "Morrisons",
+   "amount": 33.17,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_9f8k5cre",
+   "date": "2026-10-22",
+   "counterparty": "giffgaff",
+   "amount": 12.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "goodybag",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_6adpydq4",
+   "date": "2026-10-21",
+   "counterparty": "BrewDog Leeds",
+   "amount": 29.35,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_5wmbhjy5",
+   "date": "2026-10-19",
+   "counterparty": "Octopus Energy",
+   "amount": 46.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Energy (my share)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ftghxsm9",
+   "date": "2026-10-15",
+   "counterparty": "Leeds City Council",
+   "amount": 87.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Council tax ****5530",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ed92dsc3",
+   "date": "2026-10-14",
+   "counterparty": "Liam Doyle",
+   "handle": "09-01-28 ****3307",
+   "amount": 5.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "5-a-side",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ycs6v9w4",
+   "date": "2026-10-12",
+   "counterparty": "eBay",
+   "amount": 6.55,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_8xxkmcqu",
+   "date": "2026-10-12",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Premium",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_5g9p5tcn",
+   "date": "2026-10-09",
+   "counterparty": "Amazon.co.uk",
+   "amount": 24.61,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_3nm87beh",
+   "date": "2026-10-09",
+   "counterparty": "Ollie Brennan",
+   "handle": "60-83-71 ****4410",
+   "amount": 11.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "wifi",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_2q3ses6w",
+   "date": "2026-10-05",
+   "counterparty": "The Gym Group",
+   "amount": 22.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Leeds Kirkstall Road",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_rw7tbkft",
+   "date": "2026-10-02",
+   "counterparty": "Easy Saver",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Rainy-day pot",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_zmvkb4jv",
+   "date": "2026-10-02",
+   "counterparty": "Lifetime ISA",
+   "amount": 333.33,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Monthly saving (house deposit)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_qec9yrmw",
+   "date": "2026-10-01",
+   "counterparty": "Kirkstall Lettings Ltd",
+   "handle": "****0575",
+   "amount": 575.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "Rent, room 3",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_gkdqt88r",
+   "date": "2026-09-30",
+   "counterparty": "Aire Valley Homes",
+   "amount": 2004.85,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "Salary",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_xsnxkz87",
+   "date": "2026-09-29",
+   "counterparty": "Morrisons",
+   "amount": 21.71,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_h9jyrvkf",
+   "date": "2026-09-27",
+   "counterparty": "Xbox",
+   "amount": 14.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "memo": "Game Pass Ultimate",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_cxmnubt3",
+   "date": "2026-09-26",
+   "counterparty": "Amazon.co.uk",
+   "amount": 25.32,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ve65ba9s",
+   "date": "2026-09-26",
+   "counterparty": "The Skyrack",
+   "amount": 34.21,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ktcr3vqj",
+   "date": "2026-09-26",
+   "counterparty": "Leeds United FC",
+   "amount": 42.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Match ticket",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_aazc4ef7",
+   "date": "2026-09-24",
+   "counterparty": "PayPal",
+   "amount": 120.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer to PayPal",
+   "memo": "Top-up",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_3h4ujqgb",
+   "date": "2026-09-22",
+   "counterparty": "giffgaff",
+   "amount": 12.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "goodybag",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_b5bzm6ap",
+   "date": "2026-09-19",
+   "counterparty": "Vinted",
+   "amount": 10.75,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_gpnbwvmp",
+   "date": "2026-09-18",
+   "counterparty": "Octopus Energy",
+   "amount": 46.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Energy (my share)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_t96yzpba",
+   "date": "2026-09-16",
+   "counterparty": "Steam",
+   "amount": 23.38,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_ztgt3r8j",
+   "date": "2026-09-15",
+   "counterparty": "Leeds City Council",
+   "amount": 87.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Council tax ****5530",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_69adsj5q",
+   "date": "2026-09-13",
+   "counterparty": "Tesco",
+   "amount": 36.79,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_zkgp35zm",
+   "date": "2026-09-12",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Premium",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_32q5p8yz",
+   "date": "2026-09-11",
+   "counterparty": "LNER",
+   "amount": 44.2,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Leeds - Newcastle return, visiting Mum",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_mqb4wfsa",
+   "date": "2026-09-09",
+   "counterparty": "Ollie Brennan",
+   "handle": "60-83-71 ****4410",
+   "amount": 11.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "wifi",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_aaxvga8p",
+   "date": "2026-09-07",
+   "counterparty": "The Gym Group",
+   "amount": 22.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Leeds Kirkstall Road",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_r5f2ucke",
+   "date": "2026-09-05",
+   "counterparty": "Costa Coffee",
+   "amount": 5.51,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_f5ft43cx",
+   "date": "2026-09-03",
+   "counterparty": "Greggs",
+   "amount": 4.89,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_qtfv87qd",
+   "date": "2026-09-03",
+   "counterparty": "Aldi",
+   "amount": 19.25,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_eupredvk",
+   "date": "2026-09-02",
+   "counterparty": "Easy Saver",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Rainy-day pot",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_rbagq7y2",
+   "date": "2026-09-02",
+   "counterparty": "Lifetime ISA",
+   "amount": 333.33,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Monthly saving (house deposit)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_v3tzdn33",
+   "date": "2026-09-01",
+   "counterparty": "Kirkstall Lettings Ltd",
+   "handle": "****0575",
+   "amount": 575.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "Rent, room 3",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_nzkzvgs5",
+   "date": "2026-08-31",
+   "counterparty": "Aire Valley Homes",
+   "amount": 2004.85,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "Salary",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_std4gjf4",
+   "date": "2026-08-29",
+   "counterparty": "Just Eat",
+   "amount": 21.18,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_c3re7bys",
+   "date": "2026-08-27",
+   "counterparty": "Xbox",
+   "amount": 14.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "memo": "Game Pass Ultimate",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_q3h23sx9",
+   "date": "2026-08-24",
+   "counterparty": "PayPal",
+   "amount": 50.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer to PayPal",
+   "memo": "Top-up",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_jjqdy3q7",
+   "date": "2026-08-22",
+   "counterparty": "giffgaff",
+   "amount": 12.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "goodybag",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_aa3q2z56",
+   "date": "2026-08-21",
+   "counterparty": "Northern",
+   "amount": 17.51,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ty45jbfr",
+   "date": "2026-08-21",
+   "counterparty": "Co-op",
+   "amount": 15.23,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_aa7xe5ek",
+   "date": "2026-08-20",
+   "counterparty": "Greggs",
+   "amount": 6.42,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_wauaazjt",
+   "date": "2026-08-18",
+   "counterparty": "Octopus Energy",
+   "amount": 46.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Energy (my share)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_3kqpevhs",
+   "date": "2026-08-17",
+   "counterparty": "Depop",
+   "amount": 16.68,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_qhe2hm3h",
+   "date": "2026-08-17",
+   "counterparty": "The Original Oak",
+   "amount": 25.93,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_zg2vwjy7",
+   "date": "2026-08-17",
+   "counterparty": "Leeds City Council",
+   "amount": 87.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Council tax ****5530",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_sy4x8cd6",
+   "date": "2026-08-14",
+   "counterparty": "Leeds United FC",
+   "amount": 45.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Match ticket",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_x9ywz4g9",
+   "date": "2026-08-13",
+   "counterparty": "Sam Okafor",
+   "handle": "30-90-12 ****6623",
+   "amount": 9.95,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "taxi",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_3hm3c96g",
+   "date": "2026-08-12",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Premium",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_uytgxeut",
+   "date": "2026-08-11",
+   "counterparty": "Aldi",
+   "amount": 40.13,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_z8shgeeq",
+   "date": "2026-08-09",
+   "counterparty": "Ollie Brennan",
+   "handle": "60-83-71 ****4410",
+   "amount": 11.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "wifi",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_rmy3fqu6",
+   "date": "2026-08-08",
+   "counterparty": "Aldi",
+   "amount": 18.36,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_xxnayk3b",
+   "date": "2026-08-05",
+   "counterparty": "The Gym Group",
+   "amount": 22.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Leeds Kirkstall Road",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_begt2e3h",
+   "date": "2026-08-03",
+   "counterparty": "Easy Saver",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Rainy-day pot",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_57vpm7gd",
+   "date": "2026-08-03",
+   "counterparty": "Lifetime ISA",
+   "amount": 333.33,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Monthly saving (house deposit)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_j4hbxu84",
+   "date": "2026-08-03",
+   "counterparty": "Kirkstall Lettings Ltd",
+   "handle": "****0575",
+   "amount": 550.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "Rent, room 3",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_vvaj5gnh",
+   "date": "2026-07-31",
+   "counterparty": "Aire Valley Homes",
+   "amount": 2004.85,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "Salary",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_n9ea4xhp",
+   "date": "2026-07-30",
+   "counterparty": "Steam",
+   "amount": 16.6,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_cjvnnxc8",
+   "date": "2026-07-30",
+   "counterparty": "Greggs",
+   "amount": 2.8,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_76tgyzw2",
+   "date": "2026-07-28",
+   "counterparty": "Amazon.co.uk",
+   "amount": 40.6,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_mcp8eqj9",
+   "date": "2026-07-27",
+   "counterparty": "Xbox",
+   "amount": 14.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "memo": "Game Pass Ultimate",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_muu2xptd",
+   "date": "2026-07-26",
+   "counterparty": "Co-op",
+   "amount": 12.11,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_hkwjjfhk",
+   "date": "2026-07-25",
+   "counterparty": "Morrisons",
+   "amount": 25.98,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_nxxetzb4",
+   "date": "2026-07-24",
+   "counterparty": "The Original Oak",
+   "amount": 16.1,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_dr9tm764",
+   "date": "2026-07-24",
+   "counterparty": "PayPal",
+   "amount": 100.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer to PayPal",
+   "memo": "Top-up",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_9qr26ajv",
+   "date": "2026-07-22",
+   "counterparty": "giffgaff",
+   "amount": 12.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "goodybag",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_kn8xr25m",
+   "date": "2026-07-21",
+   "counterparty": "Depop",
+   "amount": 13.85,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_4mtkp3g9",
+   "date": "2026-07-20",
+   "counterparty": "Octopus Energy",
+   "amount": 46.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Energy (my share)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_cnt62avs",
+   "date": "2026-07-15",
+   "counterparty": "Leeds City Council",
+   "amount": 87.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Council tax ****5530",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_8rwjnr9c",
+   "date": "2026-07-12",
+   "counterparty": "Liam Doyle",
+   "handle": "09-01-28 ****3307",
+   "amount": 5.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "5-a-side pitch",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_frcnhvyv",
+   "date": "2026-07-12",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Premium",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_pkkrachy",
+   "date": "2026-07-11",
+   "counterparty": "Ticketmaster",
+   "amount": 68.5,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Gig tickets x2",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_5bba32s9",
+   "date": "2026-07-09",
+   "counterparty": "Ollie Brennan",
+   "handle": "60-83-71 ****4410",
+   "amount": 11.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "wifi",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_65cnk2pq",
+   "date": "2026-07-06",
+   "counterparty": "The Gym Group",
+   "amount": 22.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Leeds Kirkstall Road",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_xn2up2bq",
+   "date": "2026-07-03",
+   "counterparty": "Greggs",
+   "amount": 5.89,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_uf5w9kp2",
+   "date": "2026-07-02",
+   "counterparty": "Easy Saver",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Rainy-day pot",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_6tnafcx9",
+   "date": "2026-07-02",
+   "counterparty": "Lifetime ISA",
+   "amount": 333.33,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Monthly saving (house deposit)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_u3y6b5b3",
+   "date": "2026-07-01",
+   "counterparty": "Kirkstall Lettings Ltd",
+   "handle": "****0575",
+   "amount": 550.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "Rent, room 3",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_y4exgdgn",
+   "date": "2026-06-30",
+   "counterparty": "Co-op",
+   "amount": 5.31,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_2s2g4x96",
+   "date": "2026-06-30",
+   "counterparty": "Aire Valley Homes",
+   "amount": 2004.85,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "Salary",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_g4n3u6z6",
+   "date": "2026-06-27",
+   "counterparty": "Xbox",
+   "amount": 14.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "memo": "Game Pass Ultimate",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_w5sbsbfs",
+   "date": "2026-06-24",
+   "counterparty": "PayPal",
+   "amount": 50.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer to PayPal",
+   "memo": "Top-up",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_zfzzmnx6",
+   "date": "2026-06-22",
+   "counterparty": "giffgaff",
+   "amount": 12.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "goodybag",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_v5mzjmq9",
+   "date": "2026-06-20",
+   "counterparty": "Jet2holidays",
+   "amount": 486.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Majorca, 7 nights (balance)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_bmqtdaf9",
+   "date": "2026-06-19",
+   "counterparty": "Northern",
+   "amount": 12.55,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_pm29n9x3",
+   "date": "2026-06-18",
+   "counterparty": "Octopus Energy",
+   "amount": 46.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Energy (my share)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_57esg39j",
+   "date": "2026-06-15",
+   "counterparty": "Leeds United FC",
+   "amount": 595.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Season ticket 2026/27",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_6sy2m44v",
+   "date": "2026-06-15",
+   "counterparty": "Leeds City Council",
+   "amount": 87.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Council tax ****5530",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_f9nfgpab",
+   "date": "2026-06-14",
+   "counterparty": "Liam Doyle",
+   "handle": "09-01-28 ****3307",
+   "amount": 5.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "5-a-side pitch",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_d4kkyv2q",
+   "date": "2026-06-14",
+   "counterparty": "eBay",
+   "amount": 47.71,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_bg2ycbdf",
+   "date": "2026-06-14",
+   "counterparty": "Vinted",
+   "amount": 25.29,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_pk3qcek4",
+   "date": "2026-06-14",
+   "counterparty": "Subway",
+   "amount": 8.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_xepx2mtg",
+   "date": "2026-06-12",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Premium",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_76qnw7yk",
+   "date": "2026-06-11",
+   "counterparty": "Sam Okafor",
+   "handle": "30-90-12 ****6623",
+   "amount": 7.28,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "faster payment",
+   "memo": "taxi",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_vneegv2f",
+   "date": "2026-06-11",
+   "counterparty": "Amazon.co.uk",
+   "amount": 29.71,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_pak8mkzk",
+   "date": "2026-06-11",
+   "counterparty": "Aldi",
+   "amount": 25.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_rsnafq8y",
+   "date": "2026-06-09",
+   "counterparty": "Ollie Brennan",
+   "handle": "60-83-71 ****4410",
+   "amount": 11.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "wifi",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_s2psncqb",
+   "date": "2026-06-06",
+   "counterparty": "The Original Oak",
+   "amount": 26.05,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_7gj97azu",
+   "date": "2026-06-05",
+   "counterparty": "The Original Oak",
+   "amount": 30.87,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ehp72kx7",
+   "date": "2026-06-05",
+   "counterparty": "The Gym Group",
+   "amount": 22.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Leeds Kirkstall Road",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_nhuvegnz",
+   "date": "2026-06-03",
+   "counterparty": "Subway",
+   "amount": 8.16,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_fmq44k2b",
+   "date": "2026-06-02",
+   "counterparty": "Easy Saver",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Rainy-day pot",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_zstdjq6u",
+   "date": "2026-06-02",
+   "counterparty": "Lifetime ISA",
+   "amount": 333.33,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Monthly saving (house deposit)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_vprwfrxc",
+   "date": "2026-06-01",
+   "counterparty": "Kirkstall Lettings Ltd",
+   "handle": "****0575",
+   "amount": 550.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "Rent, room 3",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_qwg2p954",
+   "date": "2026-05-29",
+   "counterparty": "Aire Valley Homes",
+   "amount": 2004.85,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "Salary",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_v2byb7xd",
+   "date": "2026-05-27",
+   "counterparty": "Xbox",
+   "amount": 14.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "memo": "Game Pass Ultimate",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_6h7jkvm2",
+   "date": "2026-05-24",
+   "counterparty": "Vinted",
+   "amount": 13.8,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_2uznphcb",
+   "date": "2026-05-24",
+   "counterparty": "PayPal",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer to PayPal",
+   "memo": "Top-up",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ney229gx",
+   "date": "2026-05-23",
+   "counterparty": "Tesco",
+   "amount": 21.92,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_pb6eupb4",
+   "date": "2026-05-22",
+   "counterparty": "LNER",
+   "amount": 38.9,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Leeds - Newcastle return, visiting Mum",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_8edw9a6z",
+   "date": "2026-05-22",
+   "counterparty": "giffgaff",
+   "amount": 12.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "goodybag",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_u8p4s572",
+   "date": "2026-05-18",
+   "counterparty": "Octopus Energy",
+   "amount": 46.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Energy (my share)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_9r6mcpy8",
+   "date": "2026-05-15",
+   "counterparty": "Leeds City Council",
+   "amount": 87.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Council tax ****5530",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_fwaxdtef",
+   "date": "2026-05-12",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Premium",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_jq67435v",
+   "date": "2026-05-11",
+   "counterparty": "The Original Oak",
+   "amount": 22.98,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_s84vfyp8",
+   "date": "2026-05-10",
+   "counterparty": "Northern",
+   "amount": 12.31,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_w4hme5mn",
+   "date": "2026-05-09",
+   "counterparty": "Ollie Brennan",
+   "handle": "60-83-71 ****4410",
+   "amount": 11.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "wifi",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_9u6vqfb6",
+   "date": "2026-05-06",
+   "counterparty": "Liam Doyle",
+   "handle": "09-01-28 ****3307",
+   "amount": 10.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "5-a-side",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_f2pzfzhs",
+   "date": "2026-05-06",
+   "counterparty": "Costa Coffee",
+   "amount": 6.85,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_9ctzy7c4",
+   "date": "2026-05-06",
+   "counterparty": "Tesco",
+   "amount": 30.67,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_c3vjm5bv",
+   "date": "2026-05-05",
+   "counterparty": "The Gym Group",
+   "amount": 22.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Leeds Kirkstall Road",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_4qxvpnbk",
+   "date": "2026-05-04",
+   "counterparty": "Aldi",
+   "amount": 10.28,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_kwkp6w3p",
+   "date": "2026-05-04",
+   "counterparty": "Easy Saver",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Rainy-day pot",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_pjrw5rqm",
+   "date": "2026-05-04",
+   "counterparty": "Lifetime ISA",
+   "amount": 333.33,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Monthly saving (house deposit)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_kxv6m4ds",
+   "date": "2026-05-01",
+   "counterparty": "Kirkstall Lettings Ltd",
+   "handle": "****0575",
+   "amount": 550.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "Rent, room 3",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_g5hnug3z",
+   "date": "2026-04-30",
+   "counterparty": "The Skyrack",
+   "amount": 34.48,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_hdf8d66a",
+   "date": "2026-04-30",
+   "counterparty": "Aire Valley Homes",
+   "amount": 2004.85,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "Salary",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_s7kygey7",
+   "date": "2026-04-27",
+   "counterparty": "Xbox",
+   "amount": 14.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "memo": "Game Pass Ultimate",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_wbq8vha3",
+   "date": "2026-04-24",
+   "counterparty": "PayPal",
+   "amount": 75.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer to PayPal",
+   "memo": "Top-up",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_5ktseez2",
+   "date": "2026-04-22",
+   "counterparty": "giffgaff",
+   "amount": 12.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "goodybag",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_8bp5meac",
+   "date": "2026-04-21",
+   "counterparty": "eBay",
+   "amount": 43.24,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_5xs3fby9",
+   "date": "2026-04-20",
+   "counterparty": "Liam Doyle",
+   "handle": "09-01-28 ****3307",
+   "amount": 5.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "5-a-side",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_z9u4xvcn",
+   "date": "2026-04-20",
+   "counterparty": "Tesco",
+   "amount": 26.63,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ybbu72wv",
+   "date": "2026-04-20",
+   "counterparty": "Octopus Energy",
+   "amount": 46.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Energy (my share)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_9xzb2rcm",
+   "date": "2026-04-19",
+   "counterparty": "The Skyrack",
+   "amount": 32.81,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_emvrtdb2",
+   "date": "2026-04-18",
+   "counterparty": "Halfords",
+   "amount": 349.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Commuter bike + lock",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_kej2vc92",
+   "date": "2026-04-16",
+   "counterparty": "Primark",
+   "amount": 25.19,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_gw79r22p",
+   "date": "2026-04-15",
+   "counterparty": "Leeds City Council",
+   "amount": 87.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Council tax ****5530",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_xgujhu48",
+   "date": "2026-04-12",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Premium",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ky487gxh",
+   "date": "2026-04-11",
+   "counterparty": "Co-op",
+   "amount": 10.5,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_mwccwutg",
+   "date": "2026-04-09",
+   "counterparty": "Ollie Brennan",
+   "handle": "60-83-71 ****4410",
+   "amount": 11.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "wifi",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_f75kqf84",
+   "date": "2026-04-06",
+   "counterparty": "The Gym Group",
+   "amount": 22.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Leeds Kirkstall Road",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_x2xfhqs3",
+   "date": "2026-04-02",
+   "counterparty": "Deliveroo",
+   "amount": 18.8,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_746s93p9",
+   "date": "2026-04-02",
+   "counterparty": "Easy Saver",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Rainy-day pot",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_eujsuhzg",
+   "date": "2026-04-02",
+   "counterparty": "Lifetime ISA",
+   "amount": 333.33,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Monthly saving (house deposit)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_jvdnm6qe",
+   "date": "2026-04-01",
+   "counterparty": "Kirkstall Lettings Ltd",
+   "handle": "****0575",
+   "amount": 550.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "Rent, room 3",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_8cyw5epa",
+   "date": "2026-03-31",
+   "counterparty": "Aire Valley Homes",
+   "amount": 1962.4,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "Salary",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_4yfdryeh",
+   "date": "2026-03-28",
+   "counterparty": "Aldi",
+   "amount": 32.35,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_3kkh2t87",
+   "date": "2026-03-27",
+   "counterparty": "Steam",
+   "amount": 17.48,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_ha6yunb4",
+   "date": "2026-03-27",
+   "counterparty": "Morrisons",
+   "amount": 28.66,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_guf278j4",
+   "date": "2026-03-27",
+   "counterparty": "Xbox",
+   "amount": 14.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "memo": "Game Pass Ultimate",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_uckf7vky",
+   "date": "2026-03-26",
+   "counterparty": "Amazon.co.uk",
+   "amount": 46.51,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_4qquaccj",
+   "date": "2026-03-24",
+   "counterparty": "PayPal",
+   "amount": 60.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer to PayPal",
+   "memo": "Top-up",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_wjjdw6yg",
+   "date": "2026-03-23",
+   "counterparty": "BrewDog Leeds",
+   "amount": 35.14,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_u7dtsnnk",
+   "date": "2026-03-22",
+   "counterparty": "Greggs",
+   "amount": 4.64,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_d3j8erzn",
+   "date": "2026-03-22",
+   "counterparty": "giffgaff",
+   "amount": 12.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "goodybag",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_yt2wa3sq",
+   "date": "2026-03-18",
+   "counterparty": "Octopus Energy",
+   "amount": 46.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Energy (my share)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_t8yuztk7",
+   "date": "2026-03-12",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Premium",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_85pd8p4y",
+   "date": "2026-03-10",
+   "counterparty": "Costa Coffee",
+   "amount": 3.4,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_9pyrrvuc",
+   "date": "2026-03-09",
+   "counterparty": "Fiona Reid",
+   "amount": 50.0,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "faster payment",
+   "memo": "Happy birthday love Mum x",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_k4dajrdr",
+   "date": "2026-03-09",
+   "counterparty": "Ollie Brennan",
+   "handle": "60-83-71 ****4410",
+   "amount": 11.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "wifi",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_mw6ywyyp",
+   "date": "2026-03-08",
+   "counterparty": "Northern",
+   "amount": 7.16,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_bywqq9e9",
+   "date": "2026-03-06",
+   "counterparty": "LNER",
+   "amount": 41.6,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Leeds - Newcastle return, visiting Mum",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_dddky2ne",
+   "date": "2026-03-05",
+   "counterparty": "The Gym Group",
+   "amount": 22.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Leeds Kirkstall Road",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ykn4ryaj",
+   "date": "2026-03-02",
+   "counterparty": "Easy Saver",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Rainy-day pot",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_r6cyseth",
+   "date": "2026-03-02",
+   "counterparty": "Lifetime ISA",
+   "amount": 333.33,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Monthly saving (house deposit)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_yesqajmx",
+   "date": "2026-03-02",
+   "counterparty": "Kirkstall Lettings Ltd",
+   "handle": "****0575",
+   "amount": 550.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "Rent, room 3",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_fs4gpvsj",
+   "date": "2026-02-27",
+   "counterparty": "Xbox",
+   "amount": 14.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "memo": "Game Pass Ultimate",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_andudgua",
+   "date": "2026-02-27",
+   "counterparty": "Aire Valley Homes",
+   "amount": 1962.4,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "Salary",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_hsaqhee9",
+   "date": "2026-02-24",
+   "counterparty": "Aldi",
+   "amount": 14.37,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_3fzyh92u",
+   "date": "2026-02-24",
+   "counterparty": "PayPal",
+   "amount": 50.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer to PayPal",
+   "memo": "Top-up",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_z5ftuduy",
+   "date": "2026-02-23",
+   "counterparty": "Vinted",
+   "amount": 23.76,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_nfjdrmzp",
+   "date": "2026-02-22",
+   "counterparty": "Co-op",
+   "amount": 7.9,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_fs65pt75",
+   "date": "2026-02-22",
+   "counterparty": "giffgaff",
+   "amount": 12.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "goodybag",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_tah8ussu",
+   "date": "2026-02-21",
+   "counterparty": "Leeds Festival",
+   "amount": 298.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Weekend camping ticket",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_scttxt5u",
+   "date": "2026-02-18",
+   "counterparty": "Octopus Energy",
+   "amount": 46.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Energy (my share)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_g3bdjycs",
+   "date": "2026-02-17",
+   "counterparty": "Sam Okafor",
+   "handle": "30-90-12 ****6623",
+   "amount": 16.07,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "faster payment",
+   "memo": "taxi",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_yn5sy2pz",
+   "date": "2026-02-12",
+   "counterparty": "The Original Oak",
+   "amount": 21.64,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_nsm6jb94",
+   "date": "2026-02-12",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Premium",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_xfsm5e5f",
+   "date": "2026-02-11",
+   "counterparty": "The Original Oak",
+   "amount": 12.61,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_usyhmjbn",
+   "date": "2026-02-09",
+   "counterparty": "Ollie Brennan",
+   "handle": "60-83-71 ****4410",
+   "amount": 11.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "faster payment",
+   "memo": "wifi",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_b9h36pqh",
+   "date": "2026-02-05",
+   "counterparty": "The Gym Group",
+   "amount": 22.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Leeds Kirkstall Road",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_vrkdferc",
+   "date": "2026-02-04",
+   "counterparty": "Aldi",
+   "amount": 18.08,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_r5ffwqpn",
+   "date": "2026-02-02",
+   "counterparty": "Easy Saver",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Rainy-day pot",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_ghdvg3ag",
+   "date": "2026-02-02",
+   "counterparty": "Lifetime ISA",
+   "amount": 333.33,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer",
+   "memo": "Monthly saving (house deposit)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_62a7wxsr",
+   "date": "2026-02-02",
+   "counterparty": "Kirkstall Lettings Ltd",
+   "handle": "****0575",
+   "amount": 550.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "standing order",
+   "memo": "Rent, room 3",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_fjzdxpq6",
+   "date": "2026-01-30",
+   "counterparty": "Aire Valley Homes",
+   "amount": 1962.4,
+   "currency": "GBP",
+   "direction": "in",
+   "type": "BACS credit",
+   "memo": "Salary",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_hhtjjb88",
+   "date": "2026-01-29",
+   "counterparty": "Aldi",
+   "amount": 19.06,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_4a3xkfy8",
+   "date": "2026-01-27",
+   "counterparty": "Xbox",
+   "amount": 14.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "memo": "Game Pass Ultimate",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_aggns7pf",
+   "date": "2026-01-25",
+   "counterparty": "The Original Oak",
+   "amount": 30.14,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "contactless",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_bykkbtt3",
+   "date": "2026-01-24",
+   "counterparty": "eBay",
+   "amount": 22.6,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal",
+   "account": "PAYPAL-7781"
+  },
+  {
+   "id": "txn_vz3xvz9s",
+   "date": "2026-01-24",
+   "counterparty": "PayPal",
+   "amount": 60.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "transfer to PayPal",
+   "memo": "Top-up",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_4kwsnh7m",
+   "date": "2026-01-22",
+   "counterparty": "giffgaff",
+   "amount": 12.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "goodybag",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_q4qfrf8k",
+   "date": "2026-01-19",
+   "counterparty": "Octopus Energy",
+   "amount": 46.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Energy (my share)",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_75srdk7e",
+   "date": "2026-01-15",
+   "counterparty": "Leeds City Council",
+   "amount": 87.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "direct debit",
+   "memo": "Council tax ****5530",
+   "account": "CUR-9034"
+  },
+  {
+   "id": "txn_hxcxwcf5",
+   "date": "2026-01-12",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "Mastercard debit",
+   "memo": "Premium",
+   "account": "CUR-9034"
+  }
+ ],
+ "_meta": {
+  "env_id": "bills",
+  "seed_pairs": [
+   "S18"
+  ],
+  "rng_seed": 20261113,
+  "generator": "envs/bills/build_members.py",
+  "history_window": [
+   "2026-01-12",
+   "2026-11-12"
+  ],
+  "decisive_transactions": []
+ }
+}

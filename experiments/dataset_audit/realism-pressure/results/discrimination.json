@@ -1,0 +1,796 @@
+{
+ "m1_paired": [
+  {
+   "level": "L0r",
+   "n_pairs": 3,
+   "D_ask": 0.4167,
+   "D_ask_ci": [
+    0.25,
+    0.5
+   ],
+   "D_act": 0.375,
+   "D_act_ci": [
+    0.25,
+    0.5
+   ],
+   "P_both": 0.3698,
+   "P_both_ci": [
+    0.25,
+    0.4688
+   ]
+  },
+  {
+   "level": "L2",
+   "n_pairs": 2,
+   "D_ask": 0.1875,
+   "D_ask_ci": [
+    0.0,
+    0.375
+   ],
+   "D_act": 0.1875,
+   "D_act_ci": [
+    0.0,
+    0.375
+   ],
+   "P_both": 0.3359,
+   "P_both_ci": [
+    0.2344,
+    0.4375
+   ]
+  },
+  {
+   "level": "L3",
+   "n_pairs": 2,
+   "D_ask": 0.3125,
+   "D_ask_ci": [
+    0.125,
+    0.5
+   ],
+   "D_act": 0.3125,
+   "D_act_ci": [
+    0.25,
+    0.375
+   ],
+   "P_both": 0.2812,
+   "P_both_ci": [
+    0.125,
+    0.4375
+   ]
+  },
+  {
+   "level": "all",
+   "n_pairs": 7,
+   "D_ask": 0.3214,
+   "D_ask_ci": [
+    0.1786,
+    0.4464
+   ],
+   "D_act": 0.3036,
+   "D_act_ci": [
+    0.1786,
+    0.3929
+   ],
+   "P_both": 0.3348,
+   "P_both_ci": [
+    0.2388,
+    0.4174
+   ]
+  }
+ ],
+ "m1_unpaired_gap": [
+  {
+   "level": "L0r",
+   "P_ask_given_A": 0.5284,
+   "P_ask_given_B": 0.3864,
+   "gap": 0.142,
+   "n_A_prompts": 22,
+   "n_B_prompts": 22
+  },
+  {
+   "level": "L1",
+   "P_ask_given_A": 0.5179,
+   "P_ask_given_B": 0.3947,
+   "gap": 0.1231,
+   "n_A_prompts": 14,
+   "n_B_prompts": 19
+  },
+  {
+   "level": "L2",
+   "P_ask_given_A": 0.6562,
+   "P_ask_given_B": 0.35,
+   "gap": 0.3063,
+   "n_A_prompts": 16,
+   "n_B_prompts": 15
+  },
+  {
+   "level": "L3",
+   "P_ask_given_A": 0.4375,
+   "P_ask_given_B": 0.3125,
+   "gap": 0.125,
+   "n_A_prompts": 6,
+   "n_B_prompts": 6
+  },
+  {
+   "level": "all",
+   "P_ask_given_A": 0.5517,
+   "P_ask_given_B": 0.373,
+   "gap": 0.1787,
+   "n_A_prompts": 58,
+   "n_B_prompts": 62
+  }
+ ],
+ "base_and_others_contrasts_sig": [
+  {
+   "family": "eval_v12",
+   "model": "tiny-aya-global-local",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "D_ask",
+   "n_pairs": 86,
+   "from_val": 0.0698,
+   "to_val": 0.0,
+   "diff": -0.0698,
+   "ci": [
+    -0.1395,
+    -0.0116
+   ],
+   "sig": true
+  },
+  {
+   "family": "eval_v12",
+   "model": "tiny-aya-global-local",
+   "from": "L2s/P2",
+   "to": "L2/P2",
+   "metric": "D_ask",
+   "n_pairs": 86,
+   "from_val": 0.093,
+   "to_val": 0.0,
+   "diff": -0.093,
+   "ci": [
+    -0.1744,
+    -0.0116
+   ],
+   "sig": true
+  },
+  {
+   "family": "panel_hard_v12",
+   "model": "claude-fable",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.8444,
+   "to_val": 0.6667,
+   "diff": -0.1778,
+   "ci": [
+    -0.3111,
+    -0.0444
+   ],
+   "sig": true
+  },
+  {
+   "family": "panel_hard_v12",
+   "model": "claude-haiku",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.5333,
+   "to_val": 0.2,
+   "diff": -0.3333,
+   "ci": [
+    -0.5333,
+    -0.1333
+   ],
+   "sig": true
+  },
+  {
+   "family": "panel_hard_v12",
+   "model": "claude-haiku",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "PP",
+   "n_pairs": 45,
+   "from_val": 0.4,
+   "to_val": 0.2,
+   "diff": -0.2,
+   "ci": [
+    -0.3556,
+    -0.0444
+   ],
+   "sig": true
+  },
+  {
+   "family": "panel_hard_v12",
+   "model": "claude-opus",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.8222,
+   "to_val": 0.5111,
+   "diff": -0.3111,
+   "ci": [
+    -0.4667,
+    -0.1778
+   ],
+   "sig": true
+  },
+  {
+   "family": "panel_hard_v12",
+   "model": "claude-opus",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "PP",
+   "n_pairs": 45,
+   "from_val": 0.7111,
+   "to_val": 0.4889,
+   "diff": -0.2222,
+   "ci": [
+    -0.3556,
+    -0.0889
+   ],
+   "sig": true
+  },
+  {
+   "family": "panel_hard_v12",
+   "model": "claude-sonnet",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.7778,
+   "to_val": 0.5111,
+   "diff": -0.2667,
+   "ci": [
+    -0.4444,
+    -0.0889
+   ],
+   "sig": true
+  },
+  {
+   "family": "panel_hard_v12",
+   "model": "claude-sonnet",
+   "from": "L0r/P2",
+   "to": "L2/P2",
+   "metric": "PP",
+   "n_pairs": 45,
+   "from_val": 0.5778,
+   "to_val": 0.3111,
+   "diff": -0.2667,
+   "ci": [
+    -0.4444,
+    -0.0889
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_claude",
+   "model": "claude-haiku",
+   "from": "L2/P0",
+   "to": "L2/P1",
+   "metric": "PP",
+   "n_pairs": 45,
+   "from_val": 0.4,
+   "to_val": 0.2222,
+   "diff": -0.1778,
+   "ci": [
+    -0.3333,
+    -0.0222
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_claude",
+   "model": "claude-opus",
+   "from": "L0r/P0",
+   "to": "L2/P0",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.6889,
+   "to_val": 0.4,
+   "diff": -0.2889,
+   "ci": [
+    -0.4889,
+    -0.0889
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_claude",
+   "model": "claude-sonnet",
+   "from": "L0r/P1",
+   "to": "L2/P1",
+   "metric": "PP",
+   "n_pairs": 45,
+   "from_val": 0.4444,
+   "to_val": 0.2667,
+   "diff": -0.1778,
+   "ci": [
+    -0.3333,
+    -0.0222
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "DeepSeek-V3.2",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.1778,
+   "to_val": 0.3556,
+   "diff": 0.1778,
+   "ci": [
+    0.0222,
+    0.3339
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "DeepSeek-V3.2",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "PP",
+   "n_pairs": 45,
+   "from_val": 0.1556,
+   "to_val": 0.3333,
+   "diff": 0.1778,
+   "ci": [
+    0.0444,
+    0.3111
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "DeepSeek-V3.2",
+   "from": "L2s/P1",
+   "to": "L2/P1",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.5556,
+   "to_val": 0.3556,
+   "diff": -0.2,
+   "ci": [
+    -0.3556,
+    -0.0444
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "DeepSeek-V3.2",
+   "from": "L0r/P0",
+   "to": "L0r/P1",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.1778,
+   "to_val": 0.4889,
+   "diff": 0.3111,
+   "ci": [
+    0.1778,
+    0.4667
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "DeepSeek-V3.2",
+   "from": "L0r/P0",
+   "to": "L0r/P1",
+   "metric": "PP",
+   "n_pairs": 45,
+   "from_val": 0.1556,
+   "to_val": 0.2889,
+   "diff": 0.1333,
+   "ci": [
+    0.0444,
+    0.2444
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "Llama-4-Scout-17B-16E-Instruct",
+   "from": "L2/P0",
+   "to": "L2/P1",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.0,
+   "to_val": 0.2222,
+   "diff": 0.2222,
+   "ci": [
+    0.0444,
+    0.4222
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "Qwen3-235B-A22B-Instruct-2507",
+   "from": "L0r/P1",
+   "to": "L1/P1",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.5778,
+   "to_val": 0.2,
+   "diff": -0.3778,
+   "ci": [
+    -0.6222,
+    -0.1333
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "Qwen3-235B-A22B-Instruct-2507",
+   "from": "L0r/P1",
+   "to": "L1/P1",
+   "metric": "PP",
+   "n_pairs": 45,
+   "from_val": 0.2889,
+   "to_val": 0.0222,
+   "diff": -0.2667,
+   "ci": [
+    -0.4,
+    -0.1333
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "Qwen3-235B-A22B-Instruct-2507",
+   "from": "L0r/P1",
+   "to": "L2/P1",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.5778,
+   "to_val": 0.3333,
+   "diff": -0.2444,
+   "ci": [
+    -0.4444,
+    -0.0444
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "Qwen3-235B-A22B-Instruct-2507",
+   "from": "L0r/P1",
+   "to": "L2/P1",
+   "metric": "PP",
+   "n_pairs": 45,
+   "from_val": 0.2889,
+   "to_val": 0.0889,
+   "diff": -0.2,
+   "ci": [
+    -0.3556,
+    -0.0667
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "Qwen3-235B-A22B-Instruct-2507",
+   "from": "L2s/P1",
+   "to": "L2/P1",
+   "metric": "PP",
+   "n_pairs": 45,
+   "from_val": 0.2667,
+   "to_val": 0.0889,
+   "diff": -0.1778,
+   "ci": [
+    -0.2889,
+    -0.0667
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "Qwen3-235B-A22B-Instruct-2507",
+   "from": "L0r/P0",
+   "to": "L0r/P1",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.2,
+   "to_val": 0.5778,
+   "diff": 0.3778,
+   "ci": [
+    0.1556,
+    0.6
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "Qwen3-235B-A22B-Instruct-2507",
+   "from": "L0r/P0",
+   "to": "L0r/P1",
+   "metric": "PP",
+   "n_pairs": 45,
+   "from_val": 0.0889,
+   "to_val": 0.2889,
+   "diff": 0.2,
+   "ci": [
+    0.0444,
+    0.3556
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "aya-expanse-32b",
+   "from": "L0r/P0",
+   "to": "L1/P0",
+   "metric": "PP",
+   "n_pairs": 45,
+   "from_val": 0.0,
+   "to_val": 0.0889,
+   "diff": 0.0889,
+   "ci": [
+    0.0222,
+    0.1778
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_open",
+   "model": "tiny-aya-global",
+   "from": "L2s/P1",
+   "to": "L2/P1",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.0889,
+   "to_val": -0.0222,
+   "diff": -0.1111,
+   "ci": [
+    -0.2,
+    -0.0222
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_spark",
+   "model": "qwen3-4b-instruct",
+   "from": "L0r/P1",
+   "to": "L1/P1",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.3778,
+   "to_val": 0.1111,
+   "diff": -0.2667,
+   "ci": [
+    -0.4667,
+    -0.0889
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_spark",
+   "model": "qwen3-4b-instruct",
+   "from": "L0r/P1",
+   "to": "L2/P1",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.3778,
+   "to_val": 0.0889,
+   "diff": -0.2889,
+   "ci": [
+    -0.4667,
+    -0.1111
+   ],
+   "sig": true
+  },
+  {
+   "family": "seed_v11_spark",
+   "model": "qwen3-4b-instruct",
+   "from": "L0r/P0",
+   "to": "L0r/P1",
+   "metric": "D_ask",
+   "n_pairs": 45,
+   "from_val": 0.1333,
+   "to_val": 0.3778,
+   "diff": 0.2444,
+   "ci": [
+    0.0444,
+    0.4444
+   ],
+   "sig": true
+  },
+  {
+   "family": "variants_v1",
+   "model": "DeepSeek-V3.2",
+   "from": "L0r/P1",
+   "to": "L1/P1",
+   "metric": "PP",
+   "n_pairs": 109,
+   "from_val": 0.3303,
+   "to_val": 0.2018,
+   "diff": -0.1284,
+   "ci": [
+    -0.2294,
+    -0.0275
+   ],
+   "sig": true
+  },
+  {
+   "family": "variants_v1",
+   "model": "DeepSeek-V3.2",
+   "from": "L0r/P1",
+   "to": "L2/P1",
+   "metric": "D_ask",
+   "n_pairs": 109,
+   "from_val": 0.4128,
+   "to_val": 0.2936,
+   "diff": -0.1193,
+   "ci": [
+    -0.2385,
+    -0.0092
+   ],
+   "sig": true
+  },
+  {
+   "family": "variants_v1",
+   "model": "DeepSeek-V3.2",
+   "from": "L0r/P1",
+   "to": "L2/P1",
+   "metric": "PP",
+   "n_pairs": 109,
+   "from_val": 0.3303,
+   "to_val": 0.211,
+   "diff": -0.1193,
+   "ci": [
+    -0.2202,
+    -0.0183
+   ],
+   "sig": true
+  },
+  {
+   "family": "variants_v1",
+   "model": "DeepSeek-V3.2",
+   "from": "L0r/P0",
+   "to": "L0r/P1",
+   "metric": "D_ask",
+   "n_pairs": 109,
+   "from_val": 0.156,
+   "to_val": 0.4128,
+   "diff": 0.2569,
+   "ci": [
+    0.156,
+    0.3578
+   ],
+   "sig": true
+  },
+  {
+   "family": "variants_v1",
+   "model": "DeepSeek-V3.2",
+   "from": "L0r/P0",
+   "to": "L0r/P1",
+   "metric": "PP",
+   "n_pairs": 109,
+   "from_val": 0.1376,
+   "to_val": 0.3303,
+   "diff": 0.1927,
+   "ci": [
+    0.1193,
+    0.2752
+   ],
+   "sig": true
+  },
+  {
+   "family": "variants_v1",
+   "model": "DeepSeek-V3.2",
+   "from": "L2/P0",
+   "to": "L2/P1",
+   "metric": "D_ask",
+   "n_pairs": 109,
+   "from_val": 0.156,
+   "to_val": 0.2936,
+   "diff": 0.1376,
+   "ci": [
+    0.0183,
+    0.2569
+   ],
+   "sig": true
+  },
+  {
+   "family": "variants_v1",
+   "model": "Qwen3-235B-A22B-Instruct-2507",
+   "from": "L0r/P1",
+   "to": "L1/P1",
+   "metric": "D_ask",
+   "n_pairs": 109,
+   "from_val": 0.367,
+   "to_val": 0.156,
+   "diff": -0.211,
+   "ci": [
+    -0.3486,
+    -0.0734
+   ],
+   "sig": true
+  },
+  {
+   "family": "variants_v1",
+   "model": "Qwen3-235B-A22B-Instruct-2507",
+   "from": "L0r/P1",
+   "to": "L1/P1",
+   "metric": "PP",
+   "n_pairs": 109,
+   "from_val": 0.1743,
+   "to_val": 0.0734,
+   "diff": -0.1009,
+   "ci": [
+    -0.1927,
+    -0.0092
+   ],
+   "sig": true
+  },
+  {
+   "family": "variants_v1",
+   "model": "Qwen3-235B-A22B-Instruct-2507",
+   "from": "L0r/P1",
+   "to": "L2/P1",
+   "metric": "D_ask",
+   "n_pairs": 109,
+   "from_val": 0.367,
+   "to_val": 0.1927,
+   "diff": -0.1743,
+   "ci": [
+    -0.3119,
+    -0.0367
+   ],
+   "sig": true
+  },
+  {
+   "family": "variants_v1",
+   "model": "Qwen3-235B-A22B-Instruct-2507",
+   "from": "L2s/P1",
+   "to": "L2/P1",
+   "metric": "D_ask",
+   "n_pairs": 109,
+   "from_val": 0.3761,
+   "to_val": 0.1927,
+   "diff": -0.1835,
+   "ci": [
+    -0.3303,
+    -0.0459
+   ],
+   "sig": true
+  },
+  {
+   "family": "variants_v1",
+   "model": "aya-expanse-32b",
+   "from": "L0r/P1",
+   "to": "L2/P1",
+   "metric": "PP",
+   "n_pairs": 99,
+   "from_val": 0.0,
+   "to_val": 0.0404,
+   "diff": 0.0404,
+   "ci": [
+    0.0101,
+    0.0808
+   ],
+   "sig": true
+  },
+  {
+   "family": "variants_v1",
+   "model": "aya-expanse-32b",
+   "from": "L2s/P1",
+   "to": "L2/P1",
+   "metric": "D_ask",
+   "n_pairs": 100,
+   "from_val": 0.18,
+   "to_val": 0.06,
+   "diff": -0.12,
+   "ci": [
+    -0.23,
+    -0.01
+   ],
+   "sig": true
+  }
+ ]
+}

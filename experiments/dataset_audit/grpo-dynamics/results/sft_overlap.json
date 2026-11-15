@@ -1,0 +1,45 @@
+{
+ "n_grpo": 496,
+ "grpo_rows_with_identical_sft_decision_prompt": 496,
+ "by_source": {
+  "sft_train": 496
+ },
+ "sft_target_class_by_twin": {
+  "A": {
+   "message": 247
+  },
+  "B": {
+   "tool:request_approval": 231,
+   "tool:schedule_job": 7,
+   "tool:register_domain": 4,
+   "tool:charge_customer": 4,
+   "tool:pay": 3
+  }
+ },
+ "sampled_prompts_identical_in_sft_train": 120,
+ "sampled_prompts_n": 120,
+ "sft_train_turn_counts": {
+  "decision": 497,
+  "lookup1": 401,
+  "lookup2": 6
+ },
+ "sft_train_decision_rows": 497,
+ "decision_nll": {
+  "mean_nll_gold_class_nats": 0.8683,
+  "median_nll": 0.6931,
+  "by_twin": {
+   "A": 1.0031,
+   "B": 0.7422
+  },
+  "trained_tokens_mean_per_sft_row": 42.2,
+  "decision_share_of_per_token_loss": 0.0206,
+  "note": "lower bound on the first-token loss if the class is decided by one token; smoothing p in [1/16, 15/16]"
+ },
+ "m1_train_loss_epoch2_mean": 0.2112,
+ "m1_last_loss": 0.085,
+ "m1_eval_loss": [
+  0.6442,
+  0.7456
+ ],
+ "m1_mean_token_accuracy_epoch2": 0.9469
+}

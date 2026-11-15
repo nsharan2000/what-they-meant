@@ -1,0 +1,31 @@
+{
+ "rows": 904,
+ "decision_rows": 497,
+ "trained_tokens_mean_all_rows": 42.21,
+ "trained_tokens_mean_decision_rows": 48.79,
+ "trained_tokens_total_per_epoch": 38160,
+ "loss_epoch1_mean": 0.7229,
+ "loss_epoch2_mean": 0.2112,
+ "loss_last": 0.085,
+ "loss_last5_mean": 0.1772,
+ "token_acc_epoch2_mean": 0.9469,
+ "gold_class": {
+  "nll_per_decision_row": 0.8683,
+  "analyst_style_nll_over_42.2": 0.0206,
+  "contribution_nats_per_trained_token_all_rows": 0.0113,
+  "share_of_epoch2_mean_loss": 0.0535,
+  "share_of_last5_mean_loss": 0.0638,
+  "share_within_a_decision_row_at_epoch2_loss": 0.0843,
+  "loss_if_decision_were_perfect_epoch2": 0.1999
+ },
+ "first_token_family": {
+  "nll_per_decision_row": 0.693,
+  "analyst_style_nll_over_42.2": 0.0164,
+  "contribution_nats_per_trained_token_all_rows": 0.009,
+  "share_of_epoch2_mean_loss": 0.0427,
+  "share_of_last5_mean_loss": 0.0509,
+  "share_within_a_decision_row_at_epoch2_loss": 0.0673,
+  "loss_if_decision_were_perfect_epoch2": 0.2022
+ },
+ "first_token_share_of_trained_tokens": 0.013
+}

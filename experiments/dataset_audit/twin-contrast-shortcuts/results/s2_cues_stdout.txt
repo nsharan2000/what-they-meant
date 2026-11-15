@@ -1,0 +1,284 @@
+===== sft_train 496 247
+  results|false                A_rows= 59 B_rows= 30  pairsA>B= 43 B>A= 10 eq=194 p=1e-05
+  request|new                  A_rows= 34 B_rows= 17  pairsA>B= 17 B>A=  0 eq=230 p=2e-05
+  results|true                 A_rows= 37 B_rows= 48  pairsA>B= 10 B>A= 27 eq=210 p=0.00763
+  request|changed              A_rows=  0 B_rows= 13  pairsA>B=  0 B>A= 13 eq=234 p=0.00024
+  results|null                 A_rows=148 B_rows=167  pairsA>B= 80 B>A= 93 eq= 74 p=0.36163
+  request|first                A_rows= 10 B_rows=  0  pairsA>B= 10 B>A=  0 eq=237 p=0.00195
+  results|not                  A_rows=  7 B_rows=  0  pairsA>B=  7 B>A=  0 eq=240 p=0.01562
+  member_block|new             A_rows= 71 B_rows= 71  pairsA>B=  5 B>A=  0 eq=242 p=0.0625
+  member_block|verify          A_rows= 74 B_rows= 79  pairsA>B=  0 B>A=  4 eq=243 p=0.125
+  member_block|note            A_rows=239 B_rows=241  pairsA>B=  4 B>A=  0 eq=243 p=0.125
+  member_block|changed         A_rows= 15 B_rows= 19  pairsA>B=  0 B>A=  4 eq=243 p=0.125
+  results|failed               A_rows=  4 B_rows=  0  pairsA>B=  4 B>A=  0 eq=243 p=0.125
+  results|note                 A_rows=  7 B_rows=  7  pairsA>B=  3 B>A=  0 eq=244 p=0.25
+  member_block|not             A_rows= 52 B_rows= 51  pairsA>B=  1 B>A=  0 eq=246 p=1.0
+  structure {"leaves": {"mean_A": 6.923, "mean_B": 6.462, "pairs_A_more": 36, "pairs_B_more": 9, "pairs_equal": 202, "sign_test_p": 7e-05}, "nulls": {"mean_A": 1.595, "mean_B": 1.635, "pairs_A_more": 80, "pairs_B_more": 93, "pairs_equal": 74, "sign_test_p": 0.36163}, "empties": {"mean_A": 0.211, "mean_B": 0.161, "pairs_A_more": 19, "pairs_B_more": 7, "pairs_equal": 221, "sign_test_p": 0.02896}, "falses": {"mean_A": 0.243, "mean_B": 0.149, "pairs_A_more": 43, "pairs_B_more": 10, "pairs_equal": 194, "sign_test_p": 1e-05}, "trues": {"mean_A": 0.223, "mean_B": 0.313, "pairs_A_more": 10, "pairs_B_more": 27, "pairs_equal": 210, "sign_test_p": 0.00763}, "zeros": {"mean_A": 0.385, "mean_B": 0.112, "pairs_A_more": 41, "pairs_B_more": 4, "pairs_equal": 202, "sign_test_p": 0.0}, "result_chars": {"mean_A": 235.4, "mean_B": 223.2, "pairs_A_more": 129, "pairs_B_more": 95, "pairs_equal": 23, "sign_test_p": 0.02724}, "verdict_words_in_results": {"stems": ["flag", "warning", "unusual", "mismatch", "duplicate", "suspicious", "scam", "fraud", "risk", "alert", "caution", "failed", "expired", "not", "unknown", "never"], "rows_A": 11, "rows_B": 0, "pairs_A": 3, "pairs_B": 0, "pairs_A_only": ["S15", "S26", "V152"], "pairs_B_only": [], "examples_A": [["sft_train", 112, "S26", "L3"], ["sft_train", 188, "S15", "L0r"], ["sft_train", 298, "S15", "L1"]], "examples_B": []}}
+  length {'n_strict_pairs': 134, 'mean_A_minus_B': 3.56, 'median': 1.5, 'A_longer': 78, 'B_longer': 40, 'equal': 16, 'sign_test_p': 0.0006, 'row_mean_tokens_A': 4334.8, 'row_mean_tokens_B': 4319.8}
+  ps {'A|P0': 178, 'A|P2': 69, 'B|P0': 167, 'B|P2': 82} lookups {'A|0': 8, 'A|1': 236, 'A|2': 3, 'B|0': 8, 'B|1': 238, 'B|2': 3}
+   pure account_type=business 0 5
+   pure merchant_name=null 0 5
+   pure account_type=personal 6 1
+   pure payment_allowed=false 5 0
+   pure payment_allowed=null 0 4
+   pure callback_status=null 4 0
+   pure change_approved_date=null 4 0
+   pure last_payment_date=null 4 0
+   pure callback_status=completed 0 4
+   pure total_payments_received=0 4 0
+   pure renewal_frequency=monthly 1 5
+   pure renewal_plan=null 0 4
+   pure usage_charges_billed_automatically=true 3 0
+   pure currency=null 0 3
+   pure unit=pcs 0 3
+   pure renewal_frequency=annual 3 0
+   pure total_payments_sent=0 3 0
+   pure payments_from_member=0 3 0
+   pure network=null 3 0
+   pure wallet_status=null 3 0
+   pure network=ethereum 0 3
+   pure wallet_status=saved 0 3
+   pure unit=kg 3 0
+   pure results[].last_payment_date=null 3 0
+   pure results[].payments_from_member=0 3 0
+===== sft_val 112 56
+  results|null                 A_rows= 37 B_rows= 56  pairsA>B=  0 B>A= 36 eq= 20 p=0.0
+  results|true                 A_rows=  0 B_rows= 26  pairsA>B=  0 B>A= 26 eq= 30 p=0.0
+  results|false                A_rows= 22 B_rows= 10  pairsA>B= 19 B>A=  4 eq= 33 p=0.0026
+  results|alert                A_rows=  4 B_rows=  0  pairsA>B=  4 B>A=  0 eq= 52 p=0.125
+  member_block|duplicate       A_rows=  2 B_rows=  2  pairsA>B=  0 B>A=  0 eq= 56 p=1.0
+  member_block|verify          A_rows= 16 B_rows= 16  pairsA>B=  0 B>A=  0 eq= 56 p=1.0
+  member_block|note            A_rows= 49 B_rows= 49  pairsA>B=  0 B>A=  0 eq= 56 p=1.0
+  member_block|alert           A_rows=  5 B_rows=  5  pairsA>B=  0 B>A=  0 eq= 56 p=1.0
+  member_block|new             A_rows= 14 B_rows= 14  pairsA>B=  0 B>A=  0 eq= 56 p=1.0
+  member_block|first           A_rows= 23 B_rows= 23  pairsA>B=  0 B>A=  0 eq= 56 p=1.0
+  member_block|changed         A_rows=  2 B_rows=  2  pairsA>B=  0 B>A=  0 eq= 56 p=1.0
+  member_block|pending         A_rows=  3 B_rows=  3  pairsA>B=  0 B>A=  0 eq= 56 p=1.0
+  member_block|not             A_rows= 13 B_rows= 13  pairsA>B=  0 B>A=  0 eq= 56 p=1.0
+  member_block|true            A_rows=  5 B_rows=  5  pairsA>B=  0 B>A=  0 eq= 56 p=1.0
+  structure {"leaves": {"mean_A": 7.375, "mean_B": 6.464, "pairs_A_more": 17, "pairs_B_more": 0, "pairs_equal": 39, "sign_test_p": 2e-05}, "nulls": {"mean_A": 1.321, "mean_B": 2.679, "pairs_A_more": 0, "pairs_B_more": 36, "pairs_equal": 20, "sign_test_p": 0.0}, "empties": {"mean_A": 0.429, "mean_B": 0.607, "pairs_A_more": 0, "pairs_B_more": 10, "pairs_equal": 46, "sign_test_p": 0.00195}, "falses": {"mean_A": 0.446, "mean_B": 0.179, "pairs_A_more": 19, "pairs_B_more": 4, "pairs_equal": 33, "sign_test_p": 0.0026}, "trues": {"mean_A": 0, "mean_B": 0.464, "pairs_A_more": 0, "pairs_B_more": 26, "pairs_equal": 30, "sign_test_p": 0.0}, "zeros": {"mean_A": 0.071, "mean_B": 0.179, "pairs_A_more": 0, "pairs_B_more": 6, "pairs_equal": 50, "sign_test_p": 0.03125}, "result_chars": {"mean_A": 266.0, "mean_B": 207.4, "pairs_A_more": 56, "pairs_B_more": 0, "pairs_equal": 0, "sign_test_p": 0.0}, "verdict_words_in_results": {"stems": ["flag", "warning", "unusual", "mismatch", "duplicate", "suspicious", "scam", "fraud", "risk", "alert", "caution", "failed", "expired", "not", "unknown", "never"], "rows_A": 4, "rows_B": 0, "pairs_A": 1, "pairs_B": 0, "pairs_A_only": ["S24"], "pairs_B_only": [], "examples_A": [["sft_val", 22, "S24", "L0r"], ["sft_val", 29, "S24", "L1"], ["sft_val", 53, "S24", "L3"]], "examples_B": []}}
+  length {'n_strict_pairs': 34, 'mean_A_minus_B': 20.29, 'median': 9.0, 'A_longer': 32, 'B_longer': 2, 'equal': 0, 'sign_test_p': 0.0, 'row_mean_tokens_A': 4307.4, 'row_mean_tokens_B': 4283.9}
+  ps {'A|P0': 39, 'A|P2': 17, 'B|P0': 43, 'B|P2': 13} lookups {'A|1': 56, 'B|1': 56}
+   pure payment_method=null 0 5
+   pure results[].has_paid_before=false 5 0
+   pure payment_method=counter_terminal_or_link 5 0
+   pure results[].has_paid_before=true 0 5
+   pure buttons[].access_until_period_end=true 0 3
+   pure buttons[].currency=null 0 3
+   pure buttons[].label=cancel subscription 0 3
+   pure buttons[].payment_method=null 0 3
+   pure buttons[].trigger=null 0 3
+   pure buttons[].type=null 0 3
+   pure links=empty 0 3
+   pure page_content=null 0 3
+   pure buttons[].currency=usd 3 0
+   pure buttons[].payment_method=saved_card 3 0
+   pure buttons[].trigger=immediate 3 0
+   pure buttons[].type=primary 3 0
+   pure links[].action=cancel 3 0
+   pure links[].type=secondary 3 0
+{
+"hard_val": {
+"pairs": 5,
+"user_message_differs": 1,
+"prefix_calls_differ": 1
+},
+"hard_train": {
+"pairs": 27,
+"user_message_differs": 8,
+"prefix_calls_differ": 5,
+"l0_tools_differ": 1,
+"l0_tools_A_superset": 1,
+"l0_member_block_differs": 3,
+"n_prefix_calls_differ": 1
+},
+"hard_test": {
+"pairs": 13,
+"l0_member_block_differs": 4,
+"prefix_calls_differ": 5,
+"user_message_differs": 4,
+"l0_tools_differ": 1,
+"n_prefix_calls_differ": 1
+},
+"val": {
+"pairs": 17,
+"user_message_differs": 2,
+"prefix_calls_differ": 2
+},
+"train": {
+"pairs": 76,
+"user_message_differs": 31,
+"l0_tools_differ": 4,
+"l0_tools_A_superset": 4,
+"prefix_calls_differ": 11,
+"l0_member_block_differs": 8,
+"member_id_differs": 2
+},
+"test": {
+"pairs": 41,
+"member_id_differs": 4,
+"l0_member_block_differs": 9,
+"user_message_differs": 22,
+"prefix_calls_differ": 17,
+"l0_tools_differ": 6,
+"l0_tools_A_superset": 3,
+"n_prefix_calls_differ": 2
+}
+}
+{
+"hard_train|user_message_differs": [
+"H021",
+"H031",
+"H061",
+"H101",
+"H131",
+"H491"
+],
+"hard_train|prefix_calls_differ": [
+"H031",
+"H061",
+"H101",
+"H131",
+"H491"
+],
+"hard_train|l0_tools_differ": [
+"H041 A-only=['update_cart'] B-only=[]"
+],
+"hard_train|l0_tools_A_superset": [
+"H041 A-only=['update_cart'] B-only=[]"
+],
+"hard_test|l0_member_block_differs": [
+"H051",
+"H391",
+"H431",
+"H451"
+],
+"hard_test|prefix_calls_differ": [
+"H051",
+"H081",
+"H211",
+"H331",
+"H451"
+],
+"hard_test|user_message_differs": [
+"H081",
+"H191",
+"H211",
+"H451"
+],
+"hard_train|l0_member_block_differs": [
+"H121",
+"H221",
+"H541"
+],
+"hard_train|n_prefix_calls_differ": [
+"H131"
+],
+"hard_test|l0_tools_differ": [
+"H451 A-only=['get_payment_request'] B-only=['get_checkout']"
+],
+"hard_test|n_prefix_calls_differ": [
+"H451"
+],
+"hard_val|user_message_differs": [
+"H561"
+],
+"hard_val|prefix_calls_differ": [
+"H561"
+],
+"train|user_message_differs": [
+"S02",
+"S03",
+"S06",
+"S07",
+"S09",
+"S10"
+],
+"train|l0_tools_differ": [
+"S04 A-only=['update_cart'] B-only=[]",
+"S26 A-only=['apply_patch'] B-only=[]",
+"V043 A-only=['update_cart'] B-only=[]",
+"V044 A-only=['update_cart'] B-only=[]"
+],
+"train|l0_tools_A_superset": [
+"S04 A-only=['update_cart'] B-only=[]",
+"S26 A-only=['apply_patch'] B-only=[]",
+"V043 A-only=['update_cart'] B-only=[]",
+"V044 A-only=['update_cart'] B-only=[]"
+],
+"test|member_id_differs": [
+"S05 maya_brooks vs maya_brooks_b",
+"S16 mei_tan vs mei_tan_b",
+"S39 hamid_raza vs hamid_raza_b",
+"S45 arjun_mehta vs arjun_mehta_b"
+],
+"test|l0_member_block_differs": [
+"S05",
+"S39",
+"S43",
+"S45",
+"V051",
+"V431"
+],
+"test|user_message_differs": [
+"S05",
+"S08",
+"S19",
+"S21",
+"S27",
+"S39"
+],
+"train|prefix_calls_differ": [
+"S07",
+"S13",
+"S42",
+"S49",
+"V031",
+"V071"
+],
+"test|prefix_calls_differ": [
+"S08",
+"S21",
+"S27",
+"S45",
+"V051",
+"V082"
+],
+"train|l0_member_block_differs": [
+"S09",
+"S12",
+"S22",
+"S54",
+"V091",
+"V093"
+],
+"train|member_id_differs": [
+"S12 lena_ortiz vs lena_ortiz_b",
+"S54 rick_moreno vs rick_moreno_b"
+],
+"test|l0_tools_differ": [
+"S27 A-only=['search_recipient'] B-only=[]",
+"S45 A-only=['upi_name_lookup'] B-only=[]",
+"V271 A-only=['search_recipient'] B-only=['lookup_venmo']",
+"V272 A-only=['search_recipient'] B-only=['lookup_venmo']",
+"V274 A-only=['search_recipient'] B-only=['lookup_venmo']",
+"V453 A-only=['upi_name_lookup'] B-only=[]"
+],
+"test|l0_tools_A_superset": [
+"S27 A-only=['search_recipient'] B-only=[]",
+"S45 A-only=['upi_name_lookup'] B-only=[]",
+"V453 A-only=['upi_name_lookup'] B-only=[]"
+],
+"test|n_prefix_calls_differ": [
+"S45",
+"V453"
+],
+"val|user_message_differs": [
+"S56",
+"V563"
+],
+"val|prefix_calls_differ": [
+"S56",
+"V563"
+]
+}

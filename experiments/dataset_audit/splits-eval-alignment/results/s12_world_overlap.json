@@ -1,0 +1,346 @@
+{
+ "stats": {
+  "hard_test|near_dup_and_decisive_identifier_in_train_target": 1,
+  "hard_test|rows": 26,
+  "hard_test|rows_with_same_member_trained_row": 22,
+  "hard_test|rows_with_world_near_duplicate": 3,
+  "hard_val|rows": 10,
+  "hard_val|rows_with_same_member_trained_row": 10,
+  "test|near_dup_and_decisive_identifier_in_train_target": 0,
+  "test|rows": 82,
+  "test|rows_with_same_member_trained_row": 65,
+  "test|rows_with_world_near_duplicate": 6,
+  "val|near_dup_and_decisive_identifier_in_train_target": 1,
+  "val|rows": 35,
+  "val|rows_with_same_member_trained_row": 29,
+  "val|rows_with_world_near_duplicate": 8
+ },
+ "pairs": [
+  {
+   "held_split": "hard_test",
+   "held_id": "H231B",
+   "train_id": "V492B",
+   "entity_jaccard": 1.0,
+   "shared_identifiers": [
+    "@mo-ahmed-615"
+   ],
+   "shared_money": [
+    "45.00"
+   ],
+   "shared_names": [
+    "Mo Ahmed"
+   ],
+   "held_twin": "B",
+   "train_twin": "B",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "venmo Mo Ahmed $45 for the Titans tickets",
+   "train_request": "send $45 to @mo-ahmed-615"
+  },
+  {
+   "held_split": "val",
+   "held_id": "V361A",
+   "train_id": "V322B",
+   "entity_jaccard": 0.625,
+   "shared_identifiers": [
+    "chk-5584"
+   ],
+   "shared_money": [
+    "8.00",
+    "8.99"
+   ],
+   "shared_names": [
+    "Premium Student",
+    "Uses Quillo"
+   ],
+   "held_twin": "A",
+   "train_twin": "B",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "cancel my Quillo AI subscription",
+   "train_request": "renew my Quillo AI subscription"
+  },
+  {
+   "held_split": "val",
+   "held_id": "V361B",
+   "train_id": "V181B",
+   "entity_jaccard": 0.6,
+   "shared_identifiers": [
+    "chk-5584"
+   ],
+   "shared_money": [],
+   "shared_names": [
+    "Premium Student",
+    "Uses Quillo"
+   ],
+   "held_twin": "B",
+   "train_twin": "B",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "cancel my Quillo AI subscription",
+   "train_request": "start the 7-day free trial of Quillo AI Pro"
+  },
+  {
+   "held_split": "hard_test",
+   "held_id": "H231A",
+   "train_id": "V492B",
+   "entity_jaccard": 0.5,
+   "shared_identifiers": [
+    "@mo-ahmed-615"
+   ],
+   "shared_money": [
+    "45.00"
+   ],
+   "shared_names": [
+    "Mo Ahmed"
+   ],
+   "held_twin": "A",
+   "train_twin": "B",
+   "held_decisive_identifier_in_train_target": [
+    "mo-ahmed-615"
+   ],
+   "held_request": "venmo Mo Ahmed $45 for the Titans tickets",
+   "train_request": "send $45 to @mo-ahmed-615"
+  },
+  {
+   "held_split": "test",
+   "held_id": "S08B",
+   "train_id": "V031A",
+   "entity_jaccard": 0.5,
+   "shared_identifiers": [],
+   "shared_money": [],
+   "shared_names": [
+    "Meera Joshi"
+   ],
+   "held_twin": "B",
+   "train_twin": "A",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "send my sister INR 15,000 on her new number 98765-43211",
+   "train_request": "send INR 5000 to meera.joshi@oksbi for the loan repayment"
+  },
+  {
+   "held_split": "test",
+   "held_id": "V232B",
+   "train_id": "S49B",
+   "entity_jaccard": 0.5,
+   "shared_identifiers": [
+    "@tyler_b_1984"
+   ],
+   "shared_money": [],
+   "shared_names": [
+    "Tyler Brown"
+   ],
+   "held_twin": "B",
+   "train_twin": "B",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "send Tyler Brown $25 for the fantasy league",
+   "train_request": "send $600 to @tyler_b_1984"
+  },
+  {
+   "held_split": "val",
+   "held_id": "S01B",
+   "train_id": "V474B",
+   "entity_jaccard": 0.5,
+   "shared_identifiers": [
+    "samcarter.sc@mail.com"
+   ],
+   "shared_money": [],
+   "shared_names": [
+    "Sam Carter"
+   ],
+   "held_twin": "B",
+   "train_twin": "B",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "send Sam Carter $175 for the concert tickets, friends and family",
+   "train_request": "send $60 to Sam Carter using this QR code"
+  },
+  {
+   "held_split": "test",
+   "held_id": "V082B",
+   "train_id": "V541B",
+   "entity_jaccard": 0.444,
+   "shared_identifiers": [
+    "@ethan-cole-lawns",
+    "@ethanprice"
+   ],
+   "shared_money": [],
+   "shared_names": [
+    "Ethan Cole",
+    "Ethan Price"
+   ],
+   "held_twin": "B",
+   "train_twin": "B",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "send my son fifty dollars to his new Venmo @ethanprice23",
+   "train_request": "send $40 to Ethan for mowing the lawn"
+  },
+  {
+   "held_split": "val",
+   "held_id": "V363B",
+   "train_id": "V183B",
+   "entity_jaccard": 0.429,
+   "shared_identifiers": [
+    "chk-7719"
+   ],
+   "shared_money": [
+    "14.99",
+    "50.00"
+   ],
+   "shared_names": [],
+   "held_twin": "B",
+   "train_twin": "B",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "cancel my Shellscape subscription",
+   "train_request": "start the 7-day free trial of Skillify Pro"
+  },
+  {
+   "held_split": "hard_test",
+   "held_id": "H271B",
+   "train_id": "V072B",
+   "entity_jaccard": 0.4,
+   "shared_identifiers": [
+    "@ava-lind"
+   ],
+   "shared_money": [],
+   "shared_names": [
+    "Ava Lind"
+   ],
+   "held_twin": "B",
+   "train_twin": "B",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "send $60 to Ava Lind on venmo for my concert ticket, just search her name, it's the same Ava I always pay",
+   "train_request": "venmo Ava the $85 concert ticket using the number I have, 555-0177"
+  },
+  {
+   "held_split": "test",
+   "held_id": "V082A",
+   "train_id": "V541A",
+   "entity_jaccard": 0.4,
+   "shared_identifiers": [
+    "@ethan-cole-lawns",
+    "@ethanprice"
+   ],
+   "shared_money": [],
+   "shared_names": [
+    "Ethan Cole",
+    "Ethan Price"
+   ],
+   "held_twin": "A",
+   "train_twin": "A",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "send my son fifty dollars to his new Venmo @ethan-cole-23",
+   "train_request": "send $40 to Ethan for mowing the lawn"
+  },
+  {
+   "held_split": "val",
+   "held_id": "S01A",
+   "train_id": "V474B",
+   "entity_jaccard": 0.4,
+   "shared_identifiers": [
+    "samcarter.sc@mail.com"
+   ],
+   "shared_money": [],
+   "shared_names": [
+    "Sam Carter"
+   ],
+   "held_twin": "A",
+   "train_twin": "B",
+   "held_decisive_identifier_in_train_target": [
+    "samcarter.sc"
+   ],
+   "held_request": "send Sam Carter $175 for the concert tickets, friends and family",
+   "train_request": "send $60 to Sam Carter using this QR code"
+  },
+  {
+   "held_split": "val",
+   "held_id": "S01P",
+   "train_id": "V474B",
+   "entity_jaccard": 0.4,
+   "shared_identifiers": [
+    "samcarter.sc@mail.com"
+   ],
+   "shared_money": [],
+   "shared_names": [
+    "Sam Carter"
+   ],
+   "held_twin": "A",
+   "train_twin": "B",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "send Sam Carter $175 for the concert tickets, friends and family",
+   "train_request": "send $60 to Sam Carter using this QR code"
+  },
+  {
+   "held_split": "test",
+   "held_id": "V293A",
+   "train_id": "V091A",
+   "entity_jaccard": 0.375,
+   "shared_identifiers": [],
+   "shared_money": [
+    "9264.98"
+   ],
+   "shared_names": [
+    "Harbor Point Property Management",
+    "Lakeview Apartments"
+   ],
+   "held_twin": "A",
+   "train_twin": "A",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "release the rehab draw batch",
+   "train_request": "Harbor Point emailed new bank details in our usual thread, their old account is down for an audit. Update it and pay the"
+  },
+  {
+   "held_split": "test",
+   "held_id": "V293B",
+   "train_id": "V091A",
+   "entity_jaccard": 0.375,
+   "shared_identifiers": [],
+   "shared_money": [
+    "9264.98"
+   ],
+   "shared_names": [
+    "Harbor Point Property Management",
+    "Lakeview Apartments"
+   ],
+   "held_twin": "B",
+   "train_twin": "A",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "release the rehab draw batch",
+   "train_request": "Harbor Point emailed new bank details in our usual thread, their old account is down for an audit. Update it and pay the"
+  },
+  {
+   "held_split": "val",
+   "held_id": "V363A",
+   "train_id": "V183B",
+   "entity_jaccard": 0.375,
+   "shared_identifiers": [
+    "chk-7719"
+   ],
+   "shared_money": [
+    "14.99",
+    "50.00"
+   ],
+   "shared_names": [],
+   "held_twin": "A",
+   "train_twin": "B",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "cancel my Shellscape subscription",
+   "train_request": "start the 7-day free trial of Skillify Pro"
+  },
+  {
+   "held_split": "val",
+   "held_id": "S56A",
+   "train_id": "V541A",
+   "entity_jaccard": 0.375,
+   "shared_identifiers": [],
+   "shared_money": [
+    "40.00"
+   ],
+   "shared_names": [
+    "Ethan Cole",
+    "Ethan Price"
+   ],
+   "held_twin": "A",
+   "train_twin": "A",
+   "held_decisive_identifier_in_train_target": [],
+   "held_request": "send Ethan $40",
+   "train_request": "send $40 to Ethan for mowing the lawn"
+  }
+ ]
+}

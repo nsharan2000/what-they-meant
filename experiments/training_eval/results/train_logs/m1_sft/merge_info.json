@@ -1,0 +1,38 @@
+{
+ "ok": true,
+ "base": "/root/.cache/huggingface/hub/models--1-800-LLMs--tiny-aya-global/snapshots/6ca951521be5148dec4e679f7cab4aca5362c523",
+ "adapter": "/workspace/runs/m1_sft/final",
+ "adapter_sha256": "51d1d6ed0cce99e8b1b9348aa3cbfa28fbec64854c3deb64faa0d65ad59f4d98",
+ "probe": {
+  "tokens": 479,
+  "reply_positions": 25,
+  "reply": "I'll pay the $82.40 electricity bill from your checking account now. Shall I go ahead?"
+ },
+ "merge_delta": {
+  "mean_abs_dlogprob": 0.032374,
+  "max_abs_dlogprob": 0.144981,
+  "top1_agree": 1.0,
+  "kl_mean": 0.000908
+ },
+ "adapter_effect": {
+  "mean_abs_dlogprob": 3.307699,
+  "max_abs_dlogprob": 36.406101,
+  "top1_agree": 0.6,
+  "kl_mean": 3.012572
+ },
+ "max_abs_logit_delta_all_positions": 1.125,
+ "tol": 0.05,
+ "min_effect": 0.001,
+ "effect_ratio": 0.1,
+ "reasons": [],
+ "generation_eos_token_id": [
+  6,
+  3
+ ],
+ "minutes": 1.99,
+ "peak_mem": {
+  "torch_allocated_gb": 8.21,
+  "torch_reserved_gb": 8.86,
+  "rss_max_gb": 8.31
+ }
+}

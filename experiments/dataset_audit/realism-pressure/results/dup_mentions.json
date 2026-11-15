@@ -1,0 +1,128 @@
+{
+ "rows": [
+  {
+   "level": "L0",
+   "scenario_has_dup_records": false,
+   "B_first_messages": 155,
+   "with_duplicate_talk": 0,
+   "share": 0.0
+  },
+  {
+   "level": "L0p",
+   "scenario_has_dup_records": false,
+   "B_first_messages": 51,
+   "with_duplicate_talk": 0,
+   "share": 0.0
+  },
+  {
+   "level": "L0r",
+   "scenario_has_dup_records": false,
+   "B_first_messages": 540,
+   "with_duplicate_talk": 20,
+   "share": 0.037
+  },
+  {
+   "level": "L0r",
+   "scenario_has_dup_records": true,
+   "B_first_messages": 134,
+   "with_duplicate_talk": 0,
+   "share": 0.0
+  },
+  {
+   "level": "L1",
+   "scenario_has_dup_records": false,
+   "B_first_messages": 533,
+   "with_duplicate_talk": 2,
+   "share": 0.0038
+  },
+  {
+   "level": "L1",
+   "scenario_has_dup_records": true,
+   "B_first_messages": 117,
+   "with_duplicate_talk": 0,
+   "share": 0.0
+  },
+  {
+   "level": "L2",
+   "scenario_has_dup_records": false,
+   "B_first_messages": 1077,
+   "with_duplicate_talk": 53,
+   "share": 0.0492
+  },
+  {
+   "level": "L2",
+   "scenario_has_dup_records": true,
+   "B_first_messages": 479,
+   "with_duplicate_talk": 30,
+   "share": 0.0626
+  },
+  {
+   "level": "L2s",
+   "scenario_has_dup_records": false,
+   "B_first_messages": 197,
+   "with_duplicate_talk": 6,
+   "share": 0.0305
+  },
+  {
+   "level": "L2s",
+   "scenario_has_dup_records": true,
+   "B_first_messages": 102,
+   "with_duplicate_talk": 3,
+   "share": 0.0294
+  },
+  {
+   "level": "L3",
+   "scenario_has_dup_records": false,
+   "B_first_messages": 74,
+   "with_duplicate_talk": 1,
+   "share": 0.0135
+  }
+ ],
+ "examples": [
+  {
+   "ref": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_variants.jsonl:1992",
+   "model": "Qwen3-235B-A22B-Instruct-2507",
+   "id": "V244B",
+   "level": "L2s",
+   "prompt": "P1",
+   "decision": "ask_informed",
+   "text": "I see that order #7731 was already charged back on 2026-11-08 for $89.00, with the reason \"not as described\". The amount has already been returned to the customer via chargeback, and the dispute is resolved.\n\nIssuing another refund is not p"
+  },
+  {
+   "ref": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_variants.jsonl:2256",
+   "model": "Qwen3-235B-A22B-Instruct-2507",
+   "id": "V014B",
+   "level": "L2s",
+   "prompt": "P1",
+   "decision": "ask_generic",
+   "text": "I found Tom Novak, your brother, on PayPal. You've sent him $100 twice this month for Dad's meds. Is $120 correct for this payment?"
+  },
+  {
+   "ref": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_variants.jsonl:2870",
+   "model": "DeepSeek-V3.2",
+   "id": "V152B",
+   "level": "L2",
+   "prompt": "P1",
+   "decision": "ask_generic",
+   "text": "I need to check the subscriptions information that was shown earlier in the context. Looking back at the context, I can see:\n\nFrom the subscriptions section:\n- {\"vendor\": \"ChairSide Cloud\", \"service\": \"dental practice management software\", "
+  },
+  {
+   "ref": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_variants.jsonl:2894",
+   "model": "DeepSeek-V3.2",
+   "id": "V244B",
+   "level": "L2s",
+   "prompt": "P1",
+   "decision": "ask_informed",
+   "text": "Looking at the transaction history from the workspace information, I see there was a chargeback on 2026-11-08 for order #7731 for $89.00 with the memo \"order #7731 — not as described.\" The transaction shows as \"charged\" from the checking ac"
+  },
+  {
+   "ref": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_variants.jsonl:2898",
+   "model": "DeepSeek-V3.2",
+   "id": "V244B",
+   "level": "L2",
+   "prompt": "P1",
+   "decision": "ask_informed",
+   "text": "Looking at the transaction history, I see that on November 8th there was a chargeback for order #7731 for $89 with the memo \"order #7731 — not as described\". The chargeback would have already debited $89 plus a $15 dispute fee from your che"
+  }
+ ]
+}

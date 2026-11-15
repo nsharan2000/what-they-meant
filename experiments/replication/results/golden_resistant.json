@@ -1,0 +1,1320 @@
+{
+ "models": [
+  "hf:CohereLabs/aya-expanse-32b:cohere",
+  "hf:CohereLabs/c4ai-command-r7b-12-2024:cohere",
+  "hf:CohereLabs/tiny-aya-earth:cohere",
+  "hf:CohereLabs/tiny-aya-fire:cohere",
+  "hf:CohereLabs/tiny-aya-global:cohere",
+  "hf:CohereLabs/tiny-aya-water:cohere",
+  "hf:Qwen/Qwen3-235B-A22B-Instruct-2507:deepinfra",
+  "hf:deepseek-ai/DeepSeek-V3.2:deepinfra",
+  "hf:meta-llama/Llama-4-Scout-17B-16E-Instruct:deepinfra",
+  "vllm:llama-3.1-8b-instruct@http://localhost:8001/v1",
+  "vllm:mistral-7b-instruct@http://localhost:8001/v1",
+  "vllm:qwen3-4b-instruct@http://localhost:8001/v1"
+ ],
+ "cells": [
+  {
+   "id": "S01A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S01A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S01B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S01B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 6,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S01P",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S01P",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S02A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 7,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S02A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S02B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S02B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S03A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S03A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S03B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S03B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S04A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 5,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S04A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S04B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S04B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S05A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S05A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S05B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S05B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S06A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S06A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S06B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S06B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S07A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S07A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S07B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S07B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S07P",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S07P",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S08A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S08A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S08B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S08B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S09A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S09A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S09B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S09B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S10A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S10A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S10B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S10B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S11A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 1,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S11A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 2,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S11B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 6,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S11B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S12A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S12A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S12B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S12B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S13A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S13A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S13B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S13B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S14A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S14A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S14B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 1,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S14B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 1,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S15A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S15A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S15B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S15B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S16A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S16A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S16B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S16B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S18A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S18A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S18B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S18B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S19A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S19A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S19B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S19B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S20A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S20A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S20B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 7,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S20B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 2,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S21A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S21A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S21B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S21B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S22A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S22A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S22B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S22B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 7,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S23A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S23A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S23B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S23B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 7,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S24A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S24A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S24B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S24B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S25A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S25A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S25B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S25B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S26A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S26A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S26B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S26B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S27A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S27A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S27B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S27B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S28A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S28A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 6,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S28B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S28B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S29A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S29A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S29B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S29B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 2,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S32A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S32A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S32B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S32B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S33A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S33A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S33B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 1,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S33B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 1,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S34A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S34A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S34B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S34B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 6,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S35A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S35A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S35B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S35B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S36A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S36A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S36B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 3,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S36B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 7,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S39A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S39A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S39B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S39B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S42A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S42A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S42B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S42B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S43A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S43A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S43B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S43B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S45A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 5,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S45A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S45B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S45B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 12,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S47A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S47A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S47B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S47B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S49A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S49A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S49B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S49B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 7,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S49P",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S49P",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S53A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S53A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S53B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S53B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S54A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S54A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S54B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S54B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 7,
+   "tiny_aya_global_pass": true
+  },
+  {
+   "id": "S55A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S55A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S55B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S55B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S56A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S56A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S56B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 11,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S56B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 6,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S57A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S57A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S57B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 9,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S57B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S58A",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S58A",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 8,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S58B",
+   "level": "L0r",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  },
+  {
+   "id": "S58B",
+   "level": "L2",
+   "n_models": 12,
+   "n_fail": 10,
+   "tiny_aya_global_pass": false
+  }
+ ]
+}

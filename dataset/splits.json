@@ -1,0 +1,549 @@
+{
+ "train": [
+  "S02",
+  "S03",
+  "S04",
+  "S06",
+  "S07",
+  "S09",
+  "S10",
+  "S11",
+  "S12",
+  "S13",
+  "S14",
+  "S15",
+  "S18",
+  "S22",
+  "S25",
+  "S26",
+  "S32",
+  "S34",
+  "S35",
+  "S42",
+  "S47",
+  "S49",
+  "S53",
+  "S54",
+  "S55",
+  "S57",
+  "S58",
+  "V031",
+  "V042",
+  "V043",
+  "V044",
+  "V061",
+  "V062",
+  "V071",
+  "V072",
+  "V073",
+  "V074",
+  "V091",
+  "V093",
+  "V094",
+  "V104",
+  "V113",
+  "V133",
+  "V152",
+  "V181",
+  "V182",
+  "V183",
+  "V184",
+  "V223",
+  "V253",
+  "V254",
+  "V264",
+  "V321",
+  "V322",
+  "V341",
+  "V344",
+  "V471",
+  "V472",
+  "V473",
+  "V474",
+  "V491",
+  "V492",
+  "V531",
+  "V532",
+  "V534",
+  "V541",
+  "V551",
+  "V552",
+  "V553",
+  "V554",
+  "V571",
+  "V573",
+  "V581",
+  "V582",
+  "V583",
+  "V584"
+ ],
+ "val": [
+  "S01",
+  "S24",
+  "S28",
+  "S36",
+  "S56",
+  "V011",
+  "V012",
+  "V013",
+  "V014",
+  "V244",
+  "V281",
+  "V282",
+  "V283",
+  "V284",
+  "V361",
+  "V363",
+  "V563"
+ ],
+ "test": [
+  "S05",
+  "S08",
+  "S16",
+  "S19",
+  "S20",
+  "S21",
+  "S23",
+  "S27",
+  "S29",
+  "S33",
+  "S39",
+  "S43",
+  "S45",
+  "V051",
+  "V082",
+  "V084",
+  "V162",
+  "V164",
+  "V191",
+  "V192",
+  "V193",
+  "V194",
+  "V211",
+  "V212",
+  "V213",
+  "V214",
+  "V231",
+  "V232",
+  "V233",
+  "V234",
+  "V271",
+  "V272",
+  "V273",
+  "V274",
+  "V291",
+  "V293",
+  "V331",
+  "V431",
+  "V433",
+  "V434",
+  "V453"
+ ],
+ "clusters": {
+  "1mk677e": {
+   "env": "bills",
+   "split": "test",
+   "pairs": [
+    "S19",
+    "V191",
+    "V192",
+    "V193",
+    "V194"
+   ]
+  },
+  "1mpvjb6": {
+   "env": "bizops",
+   "split": "test",
+   "pairs": [
+    "S29",
+    "V291",
+    "V293"
+   ]
+  },
+  "1nb70b6": {
+   "env": "wallet",
+   "split": "train",
+   "pairs": [
+    "S55",
+    "V551",
+    "V552",
+    "V553",
+    "V554"
+   ]
+  },
+  "1nbvem8": {
+   "env": "bizops",
+   "split": "train",
+   "pairs": [
+    "S15",
+    "V152"
+   ]
+  },
+  "1ncpi8a": {
+   "env": "wallet",
+   "split": "train",
+   "pairs": [
+    "S34",
+    "V341",
+    "V344"
+   ]
+  },
+  "1nno6l9": {
+   "env": "wallet",
+   "split": "train",
+   "pairs": [
+    "S47",
+    "V471",
+    "V472",
+    "V473",
+    "V474"
+   ]
+  },
+  "1ntr5ob": {
+   "env": "wallet",
+   "split": "val",
+   "pairs": [
+    "S01",
+    "V011",
+    "V012",
+    "V013",
+    "V014"
+   ]
+  },
+  "1o0iq5d": {
+   "env": "wallet",
+   "split": "train",
+   "pairs": [
+    "S07",
+    "V071",
+    "V072",
+    "V073",
+    "V074"
+   ]
+  },
+  "1o3cgz2": {
+   "env": "wallet",
+   "split": "train",
+   "pairs": [
+    "S53",
+    "V531",
+    "V532",
+    "V534"
+   ]
+  },
+  "1o4ra48": {
+   "env": "shopping",
+   "split": "train",
+   "pairs": [
+    "S58",
+    "V581",
+    "V582",
+    "V583",
+    "V584"
+   ]
+  },
+  "1o5uq6w": {
+   "env": "wallet",
+   "split": "test",
+   "pairs": [
+    "S23",
+    "V231",
+    "V232",
+    "V233",
+    "V234"
+   ]
+  },
+  "1o6vvx3": {
+   "env": "wallet",
+   "split": "val",
+   "pairs": [
+    "S56",
+    "V563"
+   ]
+  },
+  "1o782sl": {
+   "env": "wallet",
+   "split": "train",
+   "pairs": [
+    "S54",
+    "V541"
+   ]
+  },
+  "1oedbqd": {
+   "env": "wallet",
+   "split": "train",
+   "pairs": [
+    "S49",
+    "V491",
+    "V492"
+   ]
+  },
+  "1onafqj": {
+   "env": "shopping",
+   "split": "train",
+   "pairs": [
+    "S35"
+   ]
+  },
+  "1onliv4": {
+   "env": "bizops",
+   "split": "train",
+   "pairs": [
+    "S42"
+   ]
+  },
+  "1ooakt6": {
+   "env": "wallet",
+   "split": "test",
+   "pairs": [
+    "S39"
+   ]
+  },
+  "1oqbvqm": {
+   "env": "wallet",
+   "split": "train",
+   "pairs": [
+    "S02"
+   ]
+  },
+  "1our3q4": {
+   "env": "bills",
+   "split": "train",
+   "pairs": [
+    "S18",
+    "V181",
+    "V182",
+    "V183",
+    "V184"
+   ]
+  },
+  "1ovrgu1": {
+   "env": "bills",
+   "split": "train",
+   "pairs": [
+    "S13",
+    "V133"
+   ]
+  },
+  "1pu0yff": {
+   "env": "shopping",
+   "split": "test",
+   "pairs": [
+    "S45",
+    "V453"
+   ]
+  },
+  "1q0z95o": {
+   "env": "bills",
+   "split": "train",
+   "pairs": [
+    "S22",
+    "V223"
+   ]
+  },
+  "1qu0p1h": {
+   "env": "wallet",
+   "split": "train",
+   "pairs": [
+    "S03",
+    "V031"
+   ]
+  },
+  "1r3w7sd": {
+   "env": "wallet",
+   "split": "test",
+   "pairs": [
+    "S16",
+    "V162",
+    "V164"
+   ]
+  },
+  "1rdyxso": {
+   "env": "wallet",
+   "split": "test",
+   "pairs": [
+    "S27",
+    "V271",
+    "V272",
+    "V273",
+    "V274"
+   ]
+  },
+  "1s5ys6f": {
+   "env": "wallet",
+   "split": "test",
+   "pairs": [
+    "S08",
+    "V082",
+    "V084"
+   ]
+  },
+  "1sfw741": {
+   "env": "wallet",
+   "split": "test",
+   "pairs": [
+    "S05",
+    "V051"
+   ]
+  },
+  "1simd16": {
+   "env": "bizops",
+   "split": "val",
+   "pairs": [
+    "S24",
+    "V244"
+   ]
+  },
+  "1sjprqz": {
+   "env": "shopping",
+   "split": "train",
+   "pairs": [
+    "S10",
+    "V104"
+   ]
+  },
+  "1t1qzto": {
+   "env": "wallet",
+   "split": "train",
+   "pairs": [
+    "S12"
+   ]
+  },
+  "1tcec4m": {
+   "env": "shopping",
+   "split": "train",
+   "pairs": [
+    "S04",
+    "V042",
+    "V043",
+    "V044"
+   ]
+  },
+  "1tkomdq": {
+   "env": "bills",
+   "split": "test",
+   "pairs": [
+    "S43",
+    "V431",
+    "V433",
+    "V434"
+   ]
+  },
+  "1u5pe9p": {
+   "env": "bizops",
+   "split": "train",
+   "pairs": [
+    "S06",
+    "V061",
+    "V062"
+   ]
+  },
+  "1uaz7yz": {
+   "env": "bills",
+   "split": "train",
+   "pairs": [
+    "S25",
+    "V253",
+    "V254"
+   ]
+  },
+  "1uzke61": {
+   "env": "bizops",
+   "split": "train",
+   "pairs": [
+    "S14"
+   ]
+  },
+  "1v65e50": {
+   "env": "bizops",
+   "split": "train",
+   "pairs": [
+    "S09",
+    "V091",
+    "V093",
+    "V094"
+   ]
+  },
+  "1vjt9gy": {
+   "env": "bizops",
+   "split": "train",
+   "pairs": [
+    "S26",
+    "V264"
+   ]
+  },
+  "1vyis8b": {
+   "env": "bizops",
+   "split": "test",
+   "pairs": [
+    "S20"
+   ]
+  },
+  "1wfrwb6": {
+   "env": "shopping",
+   "split": "test",
+   "pairs": [
+    "S21",
+    "V211",
+    "V212",
+    "V213",
+    "V214"
+   ]
+  },
+  "1wupymj": {
+   "env": "bills",
+   "split": "val",
+   "pairs": [
+    "S36",
+    "V361",
+    "V363"
+   ]
+  },
+  "1wyfzha": {
+   "env": "bizops",
+   "split": "test",
+   "pairs": [
+    "S33",
+    "V331"
+   ]
+  },
+  "1x4yv4t": {
+   "env": "shopping",
+   "split": "val",
+   "pairs": [
+    "S28",
+    "V281",
+    "V282",
+    "V283",
+    "V284"
+   ]
+  },
+  "1xeuqaq": {
+   "env": "wallet",
+   "split": "train",
+   "pairs": [
+    "S57",
+    "V571",
+    "V573"
+   ]
+  },
+  "1xhq1o0": {
+   "env": "bills",
+   "split": "train",
+   "pairs": [
+    "S32",
+    "V321",
+    "V322"
+   ]
+  },
+  "1xsuwzf": {
+   "env": "shopping",
+   "split": "train",
+   "pairs": [
+    "S11",
+    "V113"
+   ]
+  }
+ },
+ "policy": "clusters = source posts; a seed pair, its pushback variant and its synthetic variants share a cluster; per-environment deterministic hash split, test\u22480.3, val\u22480.1"
+}

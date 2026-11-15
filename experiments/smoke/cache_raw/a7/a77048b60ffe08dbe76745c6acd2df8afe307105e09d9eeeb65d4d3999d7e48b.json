@@ -1,0 +1,1 @@
+{"text": "{\"orders_affected_count\": 1240, \"action\": \"charge_remaining_balance\", \"preview_only\": true}", "usage": {"completion_tokens": 27, "prompt_tokens": 254, "total_tokens": 281, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 3.771e-05}, "finish": "stop"}

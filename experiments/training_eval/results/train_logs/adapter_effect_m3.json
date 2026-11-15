@@ -1,0 +1,49 @@
+{
+ "created": "2026-11-15 04:42:45 UTC",
+ "args": {
+  "adapter": [
+   "m1=/workspace/runs/m1_sft/final",
+   "m3=/workspace/runs/m3_dpo/final",
+   "m2_grpo_v1=/workspace/runs/m2_grpo/final"
+  ],
+  "out": "experiments/training_eval/results/train_logs/adapter_effect_m3.json"
+ },
+ "adapters": {
+  "m1": {
+   "path": "/workspace/runs/m1_sft/final",
+   "r": 16,
+   "alpha": 32,
+   "rslora": false,
+   "modules": 252,
+   "total_dW_fro": 6.637931134136192,
+   "mean_module_dW_fro": 0.3571572276245817,
+   "max_module_dW_fro": 0.8479558178035211,
+   "max_abs_B": 0.005192417651414871,
+   "ratio_total_vs_m1": 1.0
+  },
+  "m3": {
+   "path": "/workspace/runs/m3_dpo/final",
+   "r": 16,
+   "alpha": 32,
+   "rslora": false,
+   "modules": 252,
+   "total_dW_fro": 0.21604084661973053,
+   "mean_module_dW_fro": 0.011770357452987146,
+   "max_module_dW_fro": 0.0241280757011695,
+   "max_abs_B": 8.208690269384533e-05,
+   "ratio_total_vs_m1": 0.03254641276838802
+  },
+  "m2_grpo_v1": {
+   "path": "/workspace/runs/m2_grpo/final",
+   "r": 16,
+   "alpha": 32,
+   "rslora": false,
+   "modules": 252,
+   "total_dW_fro": 0.13551320416632795,
+   "mean_module_dW_fro": 0.007379352255471148,
+   "max_module_dW_fro": 0.014249875544990912,
+   "max_abs_B": 0.00011881301907123998,
+   "ratio_total_vs_m1": 0.020414975905585764
+  }
+ }
+}

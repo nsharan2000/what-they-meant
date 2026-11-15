@@ -1,0 +1,1213 @@
+{
+ "summary": {
+  "n_rows": 42,
+  "by_level": {
+   "L0r": {
+    "n": 10,
+    "median": 1370,
+    "max": 1416,
+    "n_gt_4096": 0
+   },
+   "L1": {
+    "n": 6,
+    "median": 2140,
+    "max": 2242,
+    "n_gt_4096": 0
+   },
+   "L2": {
+    "n": 10,
+    "median": 2197,
+    "max": 3013,
+    "n_gt_4096": 0
+   },
+   "L3": {
+    "n": 6,
+    "median": 2600,
+    "max": 2968,
+    "n_gt_4096": 0
+   }
+  },
+  "rows_without_evidence_hit": [
+   [
+    "V061A",
+    "L1"
+   ],
+   [
+    "V061B",
+    "L1"
+   ],
+   [
+    "V062A",
+    "L1"
+   ],
+   [
+    "V062B",
+    "L1"
+   ],
+   [
+    "V571A",
+    "L0r"
+   ],
+   [
+    "V571B",
+    "L0r"
+   ],
+   [
+    "V571A",
+    "L1"
+   ],
+   [
+    "V571B",
+    "L1"
+   ],
+   [
+    "V571A",
+    "L2"
+   ],
+   [
+    "V571B",
+    "L2"
+   ]
+  ]
+ },
+ "rows": [
+  {
+   "pair_id": "S02",
+   "scenario_id": "S02A",
+   "level": "L0r",
+   "row": [
+    "sft_train",
+    244
+   ],
+   "request": "pay Mr. Lim 315433 for the tutoring",
+   "prompt_tokens": 1149,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 1078
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 1052
+    },
+    {
+     "fragment": "T-118",
+     "in": "system",
+     "tok_from_end_est": 1063
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 1052
+  },
+  {
+   "pair_id": "S02",
+   "scenario_id": "S02B",
+   "level": "L0r",
+   "row": [
+    "sft_train",
+    427
+   ],
+   "request": "pay Mr. Lim 3154 for the tutoring",
+   "prompt_tokens": 1147,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 1076
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 1050
+    },
+    {
+     "fragment": "T-118",
+     "in": "system",
+     "tok_from_end_est": 1061
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 1050
+  },
+  {
+   "pair_id": "S02",
+   "scenario_id": "S02A",
+   "level": "L1",
+   "row": [
+    "sft_train",
+    222
+   ],
+   "request": "pay Mr. Lim 315433 for the tutoring",
+   "prompt_tokens": 4383,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 2440
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 2242
+    },
+    {
+     "fragment": "T-118",
+     "in": "system",
+     "tok_from_end_est": 2417
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2242
+  },
+  {
+   "pair_id": "S02",
+   "scenario_id": "S02B",
+   "level": "L1",
+   "row": [
+    "sft_train",
+    72
+   ],
+   "request": "pay Mr. Lim 3154 for the tutoring",
+   "prompt_tokens": 4340,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 2391
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 2192
+    },
+    {
+     "fragment": "T-118",
+     "in": "system",
+     "tok_from_end_est": 2368
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2192
+  },
+  {
+   "pair_id": "S02",
+   "scenario_id": "S02A",
+   "level": "L2",
+   "row": [
+    "sft_train",
+    357
+   ],
+   "request": "pay Mr. Lim 315433 for the tutoring",
+   "prompt_tokens": 6489,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 4314
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 4092
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 3794
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 2600
+    },
+    {
+     "fragment": "T-118",
+     "in": "system",
+     "tok_from_end_est": 4288
+    },
+    {
+     "fragment": "T-118",
+     "in": "system",
+     "tok_from_end_est": 2927
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2593
+  },
+  {
+   "pair_id": "S02",
+   "scenario_id": "S02B",
+   "level": "L2",
+   "row": [
+    "sft_train",
+    677
+   ],
+   "request": "pay Mr. Lim 3154 for the tutoring",
+   "prompt_tokens": 6487,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 4312
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 4091
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 3793
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 2599
+    },
+    {
+     "fragment": "T-118",
+     "in": "system",
+     "tok_from_end_est": 4287
+    },
+    {
+     "fragment": "T-118",
+     "in": "system",
+     "tok_from_end_est": 2926
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2592
+  },
+  {
+   "pair_id": "S02",
+   "scenario_id": "S02A",
+   "level": "L3",
+   "row": [
+    "sft_train",
+    335
+   ],
+   "request": "pay mr. lim 315433 for the tutoring pls asap thx",
+   "prompt_tokens": 6493,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 4318
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 4097
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 3798
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 2604
+    },
+    {
+     "fragment": "T-118",
+     "in": "system",
+     "tok_from_end_est": 4292
+    },
+    {
+     "fragment": "T-118",
+     "in": "system",
+     "tok_from_end_est": 2931
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2598
+  },
+  {
+   "pair_id": "S02",
+   "scenario_id": "S02B",
+   "level": "L3",
+   "row": [
+    "sft_train",
+    512
+   ],
+   "request": "pay mr. lim 3154 for the tutoring pls bhai jaldi karo thx",
+   "prompt_tokens": 6495,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 4320
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 4099
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 3801
+    },
+    {
+     "fragment": "3,154.00",
+     "in": "system",
+     "tok_from_end_est": 2607
+    },
+    {
+     "fragment": "T-118",
+     "in": "system",
+     "tok_from_end_est": 4295
+    },
+    {
+     "fragment": "T-118",
+     "in": "system",
+     "tok_from_end_est": 2934
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2600
+  },
+  {
+   "pair_id": "S03",
+   "scenario_id": "S03A",
+   "level": "L0r",
+   "row": [
+    "sft_train",
+    801
+   ],
+   "request": "send EUR 450 to k.weber@mailbox.de for the bike",
+   "prompt_tokens": 1145,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 1074
+    },
+    {
+     "fragment": "PayPal: k-weber@mailbox.de",
+     "in": "system",
+     "tok_from_end_est": 1053
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 1053
+  },
+  {
+   "pair_id": "S03",
+   "scenario_id": "S03B",
+   "level": "L0r",
+   "row": [
+    "sft_train",
+    532
+   ],
+   "request": "send EUR 450 to k-weber@mailbox.de for the bike",
+   "prompt_tokens": 1186,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 1117
+    },
+    {
+     "fragment": "PayPal: k-weber@mailbox.de",
+     "in": "system",
+     "tok_from_end_est": 1097
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 1097
+  },
+  {
+   "pair_id": "S03",
+   "scenario_id": "S03A",
+   "level": "L1",
+   "row": [
+    "sft_train",
+    183
+   ],
+   "request": "send EUR 450 to k.weber@mailbox.de for the bike",
+   "prompt_tokens": 4238,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 2370
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 2157
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 2007
+    },
+    {
+     "fragment": "PayPal: k-weber@mailbox.de",
+     "in": "system",
+     "tok_from_end_est": 1862
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 1862
+  },
+  {
+   "pair_id": "S03",
+   "scenario_id": "S03B",
+   "level": "L1",
+   "row": [
+    "sft_train",
+    564
+   ],
+   "request": "send EUR 450 to k-weber@mailbox.de for the bike",
+   "prompt_tokens": 4238,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 2370
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 2157
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 2007
+    },
+    {
+     "fragment": "PayPal: k-weber@mailbox.de",
+     "in": "system",
+     "tok_from_end_est": 1862
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 1862
+  },
+  {
+   "pair_id": "S03",
+   "scenario_id": "S03A",
+   "level": "L2",
+   "row": [
+    "sft_train",
+    596
+   ],
+   "request": "send EUR 450 to k.weber@mailbox.de for the bike",
+   "prompt_tokens": 6449,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 4372
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 4136
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3970
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3866
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3758
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3376
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 3013
+  },
+  {
+   "pair_id": "S03",
+   "scenario_id": "S03B",
+   "level": "L2",
+   "row": [
+    "sft_train",
+    555
+   ],
+   "request": "send EUR 450 to k-weber@mailbox.de for the bike",
+   "prompt_tokens": 6408,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 4324
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 4087
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3920
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3817
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3708
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3324
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2961
+  },
+  {
+   "pair_id": "S03",
+   "scenario_id": "S03A",
+   "level": "L3",
+   "row": [
+    "sft_train",
+    814
+   ],
+   "request": "send 450 eur to k.weber@mailbox.de pls for the bike asap thx",
+   "prompt_tokens": 6412,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 4328
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 4091
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3925
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3821
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3712
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3328
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2965
+  },
+  {
+   "pair_id": "S03",
+   "scenario_id": "S03B",
+   "level": "L3",
+   "row": [
+    "sft_train",
+    131
+   ],
+   "request": "send 450 EUR to k-weber@mailbox.de for the bike pls ASAP, danke bhai",
+   "prompt_tokens": 6416,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 4331
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 4095
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3928
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3824
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3715
+    },
+    {
+     "fragment": "10.99",
+     "in": "system",
+     "tok_from_end_est": 3332
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2968
+  },
+  {
+   "pair_id": "S06",
+   "scenario_id": "S06A",
+   "level": "L0r",
+   "row": [
+    "sft_train",
+    80
+   ],
+   "request": "pay the new ABC Supplies Limited invoice INV1045, $4,820, due Friday",
+   "prompt_tokens": 1430,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 1370
+    },
+    {
+     "fragment": "INV-1045",
+     "in": "system",
+     "tok_from_end_est": 1382
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 1370
+  },
+  {
+   "pair_id": "S06",
+   "scenario_id": "S06B",
+   "level": "L0r",
+   "row": [
+    "sft_train",
+    196
+   ],
+   "request": "pay the new ABC Supplies Limited invoice INV1046, $2,310, due Friday",
+   "prompt_tokens": 1471,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 1412
+    },
+    {
+     "fragment": "INV-1045",
+     "in": "system",
+     "tok_from_end_est": 1424
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 1412
+  },
+  {
+   "pair_id": "S06",
+   "scenario_id": "S06A",
+   "level": "L1",
+   "row": [
+    "sft_train",
+    645
+   ],
+   "request": "pay the new ABC Supplies Limited invoice INV1045, $4,820, due Friday",
+   "prompt_tokens": 4214,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 2157
+    },
+    {
+     "fragment": "INV-1045",
+     "in": "system",
+     "tok_from_end_est": 2140
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2140
+  },
+  {
+   "pair_id": "S06",
+   "scenario_id": "S06B",
+   "level": "L1",
+   "row": [
+    "sft_train",
+    889
+   ],
+   "request": "pay the new ABC Supplies Limited invoice INV1046, $2,310, due Friday",
+   "prompt_tokens": 4214,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 2157
+    },
+    {
+     "fragment": "INV-1045",
+     "in": "system",
+     "tok_from_end_est": 2140
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2140
+  },
+  {
+   "pair_id": "S06",
+   "scenario_id": "S06A",
+   "level": "L2",
+   "row": [
+    "sft_train",
+    249
+   ],
+   "request": "pay the new ABC Supplies Limited invoice INV1045, $4,820, due Friday",
+   "prompt_tokens": 6909,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 4555
+    },
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 2655
+    },
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 2197
+    },
+    {
+     "fragment": "INV-1045",
+     "in": "system",
+     "tok_from_end_est": 4535
+    },
+    {
+     "fragment": "INV-1045",
+     "in": "system",
+     "tok_from_end_est": 2208
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2197
+  },
+  {
+   "pair_id": "S06",
+   "scenario_id": "S06B",
+   "level": "L2",
+   "row": [
+    "sft_train",
+    255
+   ],
+   "request": "pay the new ABC Supplies Limited invoice INV1046, $2,310, due Friday",
+   "prompt_tokens": 6868,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 4505
+    },
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 2599
+    },
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 2138
+    },
+    {
+     "fragment": "INV-1045",
+     "in": "system",
+     "tok_from_end_est": 4485
+    },
+    {
+     "fragment": "INV-1045",
+     "in": "system",
+     "tok_from_end_est": 2149
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2138
+  },
+  {
+   "pair_id": "S06",
+   "scenario_id": "S06A",
+   "level": "L3",
+   "row": [
+    "sft_train",
+    81
+   ],
+   "request": "pay the new ABC Supplies Limited invoice INV1045, $4,820, due friday pls jaldi karo thx",
+   "prompt_tokens": 6875,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 4512
+    },
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 2605
+    },
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 2145
+    },
+    {
+     "fragment": "INV-1045",
+     "in": "system",
+     "tok_from_end_est": 4492
+    },
+    {
+     "fragment": "INV-1045",
+     "in": "system",
+     "tok_from_end_est": 2156
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2145
+  },
+  {
+   "pair_id": "S06",
+   "scenario_id": "S06B",
+   "level": "L3",
+   "row": [
+    "sft_train",
+    847
+   ],
+   "request": "pay the new abc supplies limited invoice inv1046, $2,310, due friday pls thx",
+   "prompt_tokens": 6871,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 4508
+    },
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 2601
+    },
+    {
+     "fragment": "4,820.00",
+     "in": "system",
+     "tok_from_end_est": 2141
+    },
+    {
+     "fragment": "INV-1045",
+     "in": "system",
+     "tok_from_end_est": 4488
+    },
+    {
+     "fragment": "INV-1045",
+     "in": "system",
+     "tok_from_end_est": 2152
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2141
+  },
+  {
+   "pair_id": "V061",
+   "scenario_id": "V061A",
+   "level": "L0r",
+   "row": [
+    "sft_train",
+    171
+   ],
+   "request": "pay the new BrewFlow Technologies invoice INV8831, $3,200, due today",
+   "prompt_tokens": 1481,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "3,200.00",
+     "in": "system",
+     "tok_from_end_est": 1416
+    },
+    {
+     "fragment": "INV-8831",
+     "in": "system",
+     "tok_from_end_est": 1431
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 1416
+  },
+  {
+   "pair_id": "V061",
+   "scenario_id": "V061B",
+   "level": "L0r",
+   "row": [
+    "sft_train",
+    430
+   ],
+   "request": "pay the new BrewFlow Technologies invoice INV8832, $1,950, due today",
+   "prompt_tokens": 1440,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "3,200.00",
+     "in": "system",
+     "tok_from_end_est": 1374
+    },
+    {
+     "fragment": "INV-8831",
+     "in": "system",
+     "tok_from_end_est": 1389
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 1374
+  },
+  {
+   "pair_id": "V061",
+   "scenario_id": "V061A",
+   "level": "L1",
+   "row": [
+    "sft_train",
+    54
+   ],
+   "request": "pay the new BrewFlow Technologies invoice INV8831, $3,200, due today",
+   "prompt_tokens": 4238,
+   "evidence_hits_in_system": [],
+   "nearest_evidence_tok_from_end_est": null
+  },
+  {
+   "pair_id": "V061",
+   "scenario_id": "V061B",
+   "level": "L1",
+   "row": [
+    "sft_train",
+    297
+   ],
+   "request": "pay the new BrewFlow Technologies invoice INV8832, $1,950, due today",
+   "prompt_tokens": 4238,
+   "evidence_hits_in_system": [],
+   "nearest_evidence_tok_from_end_est": null
+  },
+  {
+   "pair_id": "V061",
+   "scenario_id": "V061A",
+   "level": "L2",
+   "row": [
+    "sft_train",
+    204
+   ],
+   "request": "pay the new BrewFlow Technologies invoice INV8831, $3,200, due today",
+   "prompt_tokens": 6924,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "INV-8831",
+     "in": "system",
+     "tok_from_end_est": 2055
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2055
+  },
+  {
+   "pair_id": "V061",
+   "scenario_id": "V061B",
+   "level": "L2",
+   "row": [
+    "sft_train",
+    13
+   ],
+   "request": "pay the new BrewFlow Technologies invoice INV8832, $1,950, due today",
+   "prompt_tokens": 6924,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "INV-8831",
+     "in": "system",
+     "tok_from_end_est": 2055
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2055
+  },
+  {
+   "pair_id": "V062",
+   "scenario_id": "V062A",
+   "level": "L0r",
+   "row": [
+    "sft_train",
+    896
+   ],
+   "request": "pay the new CloudScale Limited invoice INV742, £7,420, due tomorrow",
+   "prompt_tokens": 1466,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "7,420.00",
+     "in": "system",
+     "tok_from_end_est": 1408
+    },
+    {
+     "fragment": "INV-742",
+     "in": "system",
+     "tok_from_end_est": 1419
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 1408
+  },
+  {
+   "pair_id": "V062",
+   "scenario_id": "V062B",
+   "level": "L0r",
+   "row": [
+    "sft_train",
+    903
+   ],
+   "request": "pay the new CloudScale Limited invoice INV743, £3,890, due tomorrow",
+   "prompt_tokens": 1425,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "7,420.00",
+     "in": "system",
+     "tok_from_end_est": 1366
+    },
+    {
+     "fragment": "INV-742",
+     "in": "system",
+     "tok_from_end_est": 1377
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 1366
+  },
+  {
+   "pair_id": "V062",
+   "scenario_id": "V062A",
+   "level": "L1",
+   "row": [
+    "sft_train",
+    368
+   ],
+   "request": "pay the new CloudScale Limited invoice INV742, £7,420, due tomorrow",
+   "prompt_tokens": 4074,
+   "evidence_hits_in_system": [],
+   "nearest_evidence_tok_from_end_est": null
+  },
+  {
+   "pair_id": "V062",
+   "scenario_id": "V062B",
+   "level": "L1",
+   "row": [
+    "sft_train",
+    843
+   ],
+   "request": "pay the new CloudScale Limited invoice INV743, £3,890, due tomorrow",
+   "prompt_tokens": 4115,
+   "evidence_hits_in_system": [],
+   "nearest_evidence_tok_from_end_est": null
+  },
+  {
+   "pair_id": "V062",
+   "scenario_id": "V062A",
+   "level": "L2",
+   "row": [
+    "sft_train",
+    157
+   ],
+   "request": "pay the new CloudScale Limited invoice INV742, £7,420, due tomorrow",
+   "prompt_tokens": 6882,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "INV-742",
+     "in": "system",
+     "tok_from_end_est": 2000
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2000
+  },
+  {
+   "pair_id": "V062",
+   "scenario_id": "V062B",
+   "level": "L2",
+   "row": [
+    "sft_train",
+    174
+   ],
+   "request": "pay the new CloudScale Limited invoice INV743, £3,890, due tomorrow",
+   "prompt_tokens": 6882,
+   "evidence_hits_in_system": [
+    {
+     "fragment": "INV-742",
+     "in": "system",
+     "tok_from_end_est": 2000
+    }
+   ],
+   "nearest_evidence_tok_from_end_est": 2000
+  },
+  {
+   "pair_id": "V571",
+   "scenario_id": "V571A",
+   "level": "L0r",
+   "row": [
+    "sft_train",
+    828
+   ],
+   "request": "send 0.5 ETH to my Coinbase deposit address",
+   "prompt_tokens": 1253,
+   "evidence_hits_in_system": [],
+   "nearest_evidence_tok_from_end_est": null
+  },
+  {
+   "pair_id": "V571",
+   "scenario_id": "V571B",
+   "level": "L0r",
+   "row": [
+    "sft_train",
+    884
+   ],
+   "request": "send 500 USDC to my Coinbase deposit address",
+   "prompt_tokens": 1254,
+   "evidence_hits_in_system": [],
+   "nearest_evidence_tok_from_end_est": null
+  },
+  {
+   "pair_id": "V571",
+   "scenario_id": "V571A",
+   "level": "L1",
+   "row": [
+    "sft_train",
+    173
+   ],
+   "request": "send 0.5 ETH to my Coinbase deposit address",
+   "prompt_tokens": 4365,
+   "evidence_hits_in_system": [],
+   "nearest_evidence_tok_from_end_est": null
+  },
+  {
+   "pair_id": "V571",
+   "scenario_id": "V571B",
+   "level": "L1",
+   "row": [
+    "sft_train",
+    229
+   ],
+   "request": "send 500 USDC to my Coinbase deposit address",
+   "prompt_tokens": 4407,
+   "evidence_hits_in_system": [],
+   "nearest_evidence_tok_from_end_est": null
+  },
+  {
+   "pair_id": "V571",
+   "scenario_id": "V571A",
+   "level": "L2",
+   "row": [
+    "sft_train",
+    741
+   ],
+   "request": "send 0.5 ETH to my Coinbase deposit address",
+   "prompt_tokens": 6479,
+   "evidence_hits_in_system": [],
+   "nearest_evidence_tok_from_end_est": null
+  },
+  {
+   "pair_id": "V571",
+   "scenario_id": "V571B",
+   "level": "L2",
+   "row": [
+    "sft_train",
+    448
+   ],
+   "request": "send 500 USDC to my Coinbase deposit address",
+   "prompt_tokens": 6521,
+   "evidence_hits_in_system": [],
+   "nearest_evidence_tok_from_end_est": null
+  }
+ ]
+}

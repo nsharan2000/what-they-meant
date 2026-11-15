@@ -1,0 +1,1 @@
+{"text": "{\n  \"network\": \"Solana\",\n  \"accepted_assets\": [\n    \"USDC\"\n  ],\n  \"rejected_assets\": null,\n  \"owner_label\": null,\n  \"is_saved_address\": false\n}", "usage": {"completion_tokens": 46, "prompt_tokens": 268, "total_tokens": 314, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.9420000000000005e-05}, "finish": "stop"}

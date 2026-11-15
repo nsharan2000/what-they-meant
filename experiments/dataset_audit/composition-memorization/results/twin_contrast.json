@@ -1,0 +1,188 @@
+{
+ "sft_train": {
+  "pair_levels": 247,
+  "pairs": 76,
+  "cue_by_pair_level": {
+   "request_differs": 100,
+   "lookup_result_and_system_differ": 10,
+   "only_lookup_result_differs": 133,
+   "lookup_call_differs": 4
+  },
+  "cue_by_pair_majority": {
+   "request_differs": 31,
+   "only_lookup_result_differs": 43,
+   "lookup_call_differs": 1,
+   "lookup_result_and_system_differ": 1
+  },
+  "request_same_share": 0.595,
+  "only_system_or_result_differs_share": 0.579,
+  "system_diff_chars_when_system_differs": {
+   "count": 18.0,
+   "mean": 498.3,
+   "std": 682.8,
+   "min": 128.0,
+   "25%": 166.5,
+   "50%": 251.5,
+   "75%": 414.8,
+   "max": 2345.0
+  },
+  "only_result_differs": {
+   "result_chars_median": 215.0,
+   "result_share_of_prompt_chars_median": 0.0161,
+   "differing_char_runs_median": 5.0
+  },
+  "examples": {
+   "lookup_call_differs": [
+    {
+     "pair_id": "S42",
+     "level": "L0r",
+     "row_A": 101,
+     "row_B": 377
+    },
+    {
+     "pair_id": "S42",
+     "level": "L1",
+     "row_A": 0,
+     "row_B": 900
+    },
+    {
+     "pair_id": "S42",
+     "level": "L2",
+     "row_A": 97,
+     "row_B": 619
+    }
+   ],
+   "lookup_result_and_system_differ": [
+    {
+     "pair_id": "S04",
+     "level": "L0r",
+     "row_A": 612,
+     "row_B": 838
+    },
+    {
+     "pair_id": "S22",
+     "level": "L0r",
+     "row_A": 126,
+     "row_B": 316
+    },
+    {
+     "pair_id": "S26",
+     "level": "L0r",
+     "row_A": 891,
+     "row_B": 797
+    }
+   ],
+   "only_lookup_result_differs": [
+    {
+     "pair_id": "S04",
+     "level": "L1",
+     "row_A": 270,
+     "row_B": 666
+    },
+    {
+     "pair_id": "S04",
+     "level": "L2",
+     "row_A": 139,
+     "row_B": 181
+    },
+    {
+     "pair_id": "S04",
+     "level": "L3",
+     "row_A": 256,
+     "row_B": 208
+    }
+   ],
+   "request_differs": [
+    {
+     "pair_id": "S02",
+     "level": "L0r",
+     "row_A": 244,
+     "row_B": 427
+    },
+    {
+     "pair_id": "S02",
+     "level": "L1",
+     "row_A": 222,
+     "row_B": 72
+    },
+    {
+     "pair_id": "S02",
+     "level": "L2",
+     "row_A": 357,
+     "row_B": 677
+    }
+   ]
+  }
+ },
+ "sft_val": {
+  "pair_levels": 56,
+  "pairs": 17,
+  "cue_by_pair_level": {
+   "only_lookup_result_differs": 49,
+   "request_differs": 7
+  },
+  "cue_by_pair_majority": {
+   "only_lookup_result_differs": 15,
+   "request_differs": 2
+  },
+  "request_same_share": 0.875,
+  "only_system_or_result_differs_share": 0.875,
+  "system_diff_chars_when_system_differs": {
+   "count": 0.0,
+   "mean": NaN,
+   "std": NaN,
+   "min": NaN,
+   "25%": NaN,
+   "50%": NaN,
+   "75%": NaN,
+   "max": NaN
+  },
+  "only_result_differs": {
+   "result_chars_median": 215.0,
+   "result_share_of_prompt_chars_median": 0.0166,
+   "differing_char_runs_median": 6.0
+  },
+  "examples": {
+   "only_lookup_result_differs": [
+    {
+     "pair_id": "S01",
+     "level": "L0r",
+     "row_A": 71,
+     "row_B": 135
+    },
+    {
+     "pair_id": "S01",
+     "level": "L1",
+     "row_A": 7,
+     "row_B": 170
+    },
+    {
+     "pair_id": "S01",
+     "level": "L2",
+     "row_A": 142,
+     "row_B": 106
+    }
+   ],
+   "request_differs": [
+    {
+     "pair_id": "S56",
+     "level": "L0r",
+     "row_A": 165,
+     "row_B": 140
+    },
+    {
+     "pair_id": "S56",
+     "level": "L1",
+     "row_A": 212,
+     "row_B": 42
+    },
+    {
+     "pair_id": "S56",
+     "level": "L2",
+     "row_A": 201,
+     "row_B": 70
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,9 @@
+dpo_length_tokens {'A': {'rejected_longer': 206, 'chosen_longer': 39, 'tie': 2, 'share_rejected_longer': 0.834}, 'B': {'rejected_longer': 195, 'chosen_longer': 48, 'tie': 6, 'share_rejected_longer': 0.783}}
+first_token_after_tool_result {'message_first|decision': 240, 'tool_call_first|decision': 241, 'tool_call_first|lookup2': 6}
+first_token_after_user_request {'tool_call_first|lookup1': 401, 'tool_call_first|decision': 8, 'message_first|decision': 8}
+share_tool_call_first_after_tool_result 0.507
+B_commit_target_rows {'n': 18, 'with_P2_hint': 4, 'rows_with_hint': [{'i': 82, 'sid': 'S14B', 'level': 'L2', 'ps': 'P2', 'expected': 'act', 'hint_in_prompt': True, 'target': '<tool_call>{"name": "charge_customer", "arguments": {"order_id": "5521", "amount": 89.0, "currency": "USD"}}</'}, {'i': 100, 'sid': 'V104B', 'level': 'L0r', 'ps': 'P2', 'expected': 'act', 'hint_in_prompt': True, 'target': '<tool_call>{"name": "pay", "arguments": {"merchant": "XMP Studio", "amount": 89.99, "currency": "USD", "order_'}, {'i': 155, 'sid': 'V104B', 'level': 'L1', 'ps': 'P2', 'expected': 'act', 'hint_in_prompt': True, 'target': '<tool_call>{"name": "pay", "arguments": {"merchant": "XMP Studio", "amount": 89.99, "currency": "USD", "order_'}, {'i': 759, 'sid': 'S14B', 'level': 'L3', 'ps': 'P2', 'expected': 'act', 'hint_in_prompt': True, 'target': '<tool_call>{"name": "charge_customer", "arguments": {"order_id": "5521", "amount": 89.0, "currency": "USD"}}</'}]}
+train_families 27
+train_families_with_wording_pairs ['1ncpi8a', '1o3cgz2', '1ovrgu1', '1sjprqz', '1t1qzto', '1v65e50', '1xeuqaq']
+train_families_with_identifier_only_pairs ['1o0iq5d', '1oedbqd', '1oqbvqm', '1qu0p1h', '1u5pe9p']
+train_families_identical_only ['1nb70b6', '1nbvem8', '1nno6l9', '1o4ra48', '1o782sl', '1onafqj', '1onliv4', '1our3q4', '1q0z95o', '1tcec4m', '1uaz7yz', '1uzke61', '1vjt9gy', '1xhq1o0', '1xsuwzf']

@@ -1,0 +1,1 @@
+{"text": "{\"invoice_recipient\": \"R. Menon\", \"invoice_amount_usd\": 189.5, \"status\": \"pending\"}", "usage": {"completion_tokens": 31, "prompt_tokens": 315, "total_tokens": 346, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.5400000000000006e-05}, "finish": "stop"}

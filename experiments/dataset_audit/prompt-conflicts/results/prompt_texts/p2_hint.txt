@@ -1,0 +1,1 @@
+Member preference: check what you look up against my request and my history. If anything clashes, ask me one short question that names it; if everything matches, just show the approval card.

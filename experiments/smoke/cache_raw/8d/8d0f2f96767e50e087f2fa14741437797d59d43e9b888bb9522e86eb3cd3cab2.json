@@ -1,0 +1,1 @@
+{"text": "{\n  \"account_ending\": \"9083\",\n  \"change_approved_date\": \"2023-11-05\",\n  \"callback_contact_timestamp\": \"2023-11-05T14:30:00Z\"\n}", "usage": {"completion_tokens": 61, "prompt_tokens": 282, "total_tokens": 343, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 5.893e-05}, "finish": "stop"}

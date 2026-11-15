@@ -1,0 +1,230 @@
+{
+ "lens": "grpo-dynamics",
+ "summary": "M2's 960 samples are a clean read of M1 on its own training prompts (496/496 GRPO prompts are identical SFT decision rows). M1 picks the gold decision class only 47 % (A) / 55 % (B) of the time at temperature 1 and discriminates the twins weakly (d' 0.482) at every realism level, although its SFT loss was ~0.2: the decision is one token, ~2 % of the token-averaged loss (GD-1). GRPO had a usable signal (95 % of groups with reward variance; the shared, twin-blind part of the net push was 13 % the size of the discriminative part) but its summed learning rate was 2.5 % of SFT's, so the LoRA moved 1.8 % as far (GD-2). The early->late shift is prompt mix plus chance, not drift (GD-6). Rerun recommendation: Second GRPO run (~6 GPU h): from merged M1, fresh LoRA r16/alpha32 on all linear modules; lr 5e-5 constant after 3 warm-up steps (predicted ||dW|| 27 % of SFT's at 36 steps vs 1.8 % now); 36 steps of 4 prompts x 8 generations where each step is two complete twin pairs at one level/setting (A:B = 50:50 in every step, length-matched -> ~526 s/step, ~5.3 h); pool = 16 zero-prefix rows removed (480 left), optionally the 12 prompts M1 solved 0/8 or 8/8; no pre-pass needed (90 % of sampled prompts are 0 < pass < 1). Keep temperature 1.0, dapo, group scaling, beta 0, max_completion 256; score decision-point look-ups at -0.5; monitor a fixed sft_val probe every 5 steps (stop if entropy < ~0.15 or the probe's A-B ask gap shrinks); evaluate M2 as an unmerged LoRA on the merged-M1 base. If steps cannot be length-bucketed, use 30 steps (~735 s/step). 2e-5 is too small (||dW|| 9 % of SFT's); 1e-4 (~45 %) is the upper bound for a 4-prompt-per-step batch without a KL anchor.",
+ "findings": [
+  {
+   "id": "GD-1",
+   "severity": "major",
+   "confidence": "high",
+   "fix_needs_data_change": false,
+   "title": "After SFT, M1 still picks the ask-vs-approve decision at near chance on its own training prompts; the token-averaged loss hides it",
+   "claim": "All 496 GRPO prompts are byte-identical to sft_train decision rows (496/496), so M2's 960 samples (temperature 1.0) read M1 on its training set. Gold-class rate: A 47.4 %, B-approve 55.3 %, B-act 47.5 %; P(ask|A) 0.569 vs P(ask|B) 0.379 (d' 0.482); 108/120 prompts have 0 < pass < 1 and the majority of 8 samples is gold on only 46.7 % (greedy proxy). The implied decision NLL (0.8683 nats mean, median 0.6931 = a coin flip) is 2.1 % of the per-token loss of a 42.2-token decision row, so the epoch-2 train loss 0.2112 (last 0.085, token accuracy 0.9469) is compatible with an unlearned decision (the attribution to token weighting is arithmetic, not an ablation; greedy decoding was not measured here). The class is fixed by the first target token ('<' of a tool call vs a word): A approval cards name the discrepancy in 79/162 cases, i.e. M1 often notices the clash but has already committed to the card format.",
+   "evidence": "experiments/dataset_audit/grpo-dynamics/01_join_tables.py -> results/tables_01.json, groups.csv; experiments/dataset_audit/grpo-dynamics/03_sft_overlap_decision_nll.py -> results/sft_overlap.json; experiments/dataset_audit/grpo-dynamics/09_cells_and_pairs.py -> results/cells_and_pairs.json (d_prime_ask).",
+   "examples": [
+    "dataset/curated_v121/grpo_train.jsonl row 204 (0-based; V541A/L0r/P0/decision, M2 step 0): approve_generic 7/8, ask_generic 1/8 - step 0 = pure M1",
+    "dataset/curated_v121/grpo_train.jsonl row 137 (0-based; S42A/L1/P0/decision, M2 step 15): approve_generic 7/8, commit_other 1/8 - the identical prompt's SFT target is a question",
+    "dataset/curated_v121/grpo_train.jsonl row 232 (0-based; V061B/L0r/P0/decision, M2 step 4): ask_informed 5/8, ask_generic 2/8, tell_informed 1/8 - should-approve twin"
+   ],
+   "fix": "Make the decision count in training and in monitoring: up-weight the first target tokens of decision rows (or oversample decision rows relative to the 401 lookup1 rows), track the sampled decision class on sft_val each epoch instead of token loss, and let the sequence-level stages (GRPO with an adequate step size, DPO pairs that differ in the first token) carry the decision.",
+   "affects": [
+    "M1 SFT",
+    "M2 GRPO",
+    "M3 DPO comparisons",
+    "evaluation interpretation"
+   ]
+  },
+  {
+   "id": "GD-2",
+   "severity": "major",
+   "confidence": "high",
+   "fix_needs_data_change": false,
+   "title": "GRPO's step size, not its learning signal, limited M2: 30 steps at lr 5e-6 cannot move a fresh LoRA",
+   "claim": "Summed learning rate over the run 0.00014 vs SFT 0.0057 (2.5 %); at checkpoint 25 the adapter's ||dW|| is 1.84 % of SFT's while the summed-lr ratio is 2.02 %: Adam moved the GRPO LoRA as efficiently per unit lr as SFT's (1060 vs 1165 ||dW||_F per unit summed lr; max|B|/summed lr 0.90 vs 0.91). The signal existed: 114/120 groups had reward variance, mean within-group std 0.6345, and the net advantage's discriminative component (+ask on A, +approve on B) was 622 vs a shared, twin-blind component of -80.7 (13 %). The M2 adapter's measured effect (0.0171 nats mean |d log-prob|, 0.52 % of M1's) is below the bf16 merge residual (0.01916), so M2 cannot be verified as a merged arm. Linear predictions for a rerun: lr 5e-5 -> ||dW|| 22.4 % (30 steps) / 27.2 % (36 steps) of SFT's, log-prob effect 0.171 / 0.2076 (the stack check needs > 0.1916); lr 2e-5 -> 8.9 % and 0.0684 (too small); lr 1e-4 -> 44.7 %.",
+   "evidence": "experiments/dataset_audit/grpo-dynamics/04_update_size.py -> results/update_size.json (Adam simulation: |theta|/sum_lr 0.18 pure noise to 0.95 at SNR 3 over 25 steps); experiments/dataset_audit/grpo-dynamics/01_join_tables.py (groups); experiments/dataset_audit/grpo-dynamics/06_reward_bias.py (pushes); experiments/dataset_audit/grpo-dynamics/11_run_config.py -> results/run_config.json (logged lr [0.0, 1.6666666666666667e-06, 3.3333333333333333e-06, 5e-06, 5e-06], grad_norm 0.22194-0.54405, never clipped).",
+   "examples": [
+    "adapter_effect_m2_ckpt25.json: total_dW_fro 0.1220 (M2 ckpt 25) vs 6.6379 (M1); max|B| 1.03e-04 vs 5.19e-03",
+    "m2_grpo/result.json logged learning_rate, log steps 1-5: [0.0, 1.6666666666666667e-06, 3.3333333333333333e-06, 5e-06, 5e-06] (log step 1 updated nothing)",
+    "log.md 2026-11-14 18:37 IST stack check: merge residual 0.01916 vs M2 adapter effect 0.0171"
+   ],
+   "fix": "Rerun from merged M1 with lr 5e-5 (constant after 3 warm-up steps) for 36-40 length-bucketed, pair-balanced steps (see GD-3/GD-7), and evaluate M2 as an unmerged LoRA served on the merged-M1 base (vLLM LoRA) instead of a bf16 merge-stack.",
+   "affects": [
+    "M2 GRPO",
+    "ROI comparison",
+    "report"
+   ]
+  },
+  {
+   "id": "GD-3",
+   "severity": "major",
+   "confidence": "medium",
+   "fix_needs_data_change": true,
+   "title": "Random 4-prompt steps make the shared ask/approve push swing with the step's A:B mix; at a 10x learning rate this becomes oscillation, not discrimination",
+   "claim": "Per-step net push (sum of advantages on asks minus on approvals) correlates 0.8774 with the number of A prompts in the step: steps with 1 A prompt pushed -13.001 (toward approving), steps with 3 pushed +8.72; the step pushes sum to |80.664| but their absolute values to 276.788. Only 13/30 steps had 2 A + 2 B. The fix is available in the data: 247/249 (pair, level) cells hold both twins (134 with the same prompt setting) and twins differ by 13.7 tokens on average, so pair-balanced steps are also length-matched.",
+   "evidence": "experiments/dataset_audit/grpo-dynamics/06_reward_bias.py -> results/reward_bias.json (per_step_push); experiments/dataset_audit/grpo-dynamics/09_cells_and_pairs.py -> results/cells_and_pairs.json.",
+   "examples": [
+    "M2 step 2 (log step 3) frac_reward_zero_std 0.5: dataset/curated_v121/grpo_train.jsonl row 279 (0-based; S32B/L2/P0/decision, M2 step 2): approve_generic 8/8; dataset/curated_v121/grpo_train.jsonl row 294 (0-based; V254B/L1/P0/decision, M2 step 2): ask_informed 4/8, ask_generic 3/8, tell_informed 1/8",
+    "per-step A-prompt counts over 30 steps: {\"0\": 1, \"1\": 9, \"2\": 13, \"3\": 5, \"4\": 2}",
+    "of the 13 (pair, level) cells whose two twins were both sampled, 0 shared a step, e.g. S06A/L3 step 12 vs S06B/L3 step 10"
+   ],
+   "fix": "Order grpo_train as blocks of two complete twin pairs at one level/setting [A1, B1, A2, B2] and disable dataset shuffling (or use a pair sampler), so every update sees A and B of the same scenario; exclude the 2 (pair, level) cells without both twins.",
+   "affects": [
+    "M2 GRPO rerun"
+   ]
+  },
+  {
+   "id": "GD-4",
+   "severity": "minor",
+   "confidence": "high",
+   "fix_needs_data_change": true,
+   "title": "Zero-prefix decision prompts (S02, S03) collide with the 401 first-turn lookup rows: M1 looks up instead of deciding, and the reward then reinforces the stall",
+   "claim": "16 GRPO rows are decision prompts with no prior lookup ([system, user] only). In sft_train the same [system, user] shape is a lookup target 401 times and a decision 16 times. On the 3 sampled zero-prefix A prompts M1 looked up 18/24 times and never chose the gold class, while lookups were rare elsewhere (32 lookups in all 960 samples, 27 of them in 5 prompts). Because a lookup (-0.1) outranks every wrong decision, 16/26 A lookups received a positive advantage.",
+   "evidence": "experiments/dataset_audit/grpo-dynamics/08_drift_decomposition.py -> results/drift_decomposition.json; experiments/dataset_audit/grpo-dynamics/06_reward_bias.py -> results/reward_bias.json.",
+   "examples": [
+    "dataset/curated_v121/grpo_train.jsonl row 262 (0-based; S03A/L1/P0/decision, M2 step 28): lookup 8/8",
+    "dataset/curated_v121/grpo_train.jsonl row 372 (0-based; S02A/L3/P0/decision, M2 step 19): lookup 5/8, approve_generic 3/8",
+    "dataset/curated_v121/grpo_train.jsonl row 435 (0-based; S02A/L2/P0/decision, M2 step 21): lookup 5/8, approve_generic 2/8, ask_generic 1/8"
+   ],
+   "fix": "Give S02/S03 an explicit look-up prefix like the other 480 rows (or drop the 16 rows from GRPO/DPO), and score a look-up at a decision prompt like a wrong decision (e.g. -0.5) so it is not a safe harbour.",
+   "affects": [
+    "M1 SFT",
+    "M2 GRPO",
+    "M3 DPO"
+   ]
+  },
+  {
+   "id": "GD-5",
+   "severity": "minor",
+   "confidence": "medium",
+   "fix_needs_data_change": false,
+   "title": "The reward table tilts a twin-blind policy toward approving and makes another look-up a safe choice; in this run the A:B composition mattered more than the table",
+   "claim": "For a policy that ignores the twin, dE[reward]/dP(ask) = -0.1549 on the GRPO set: given M1's informed/generic split, an A ask is worth 0.78 vs an A approval -0.38 (approve_informed +0.25 and approve_gold +0.5 are partial credit), while a needless B ask costs -0.5 vs +1.0; even 100 % informed asks would leave the derivative negative. Under group normalisation the realised shared push was -80.7 (toward approving) vs 622 discriminative, and stayed -88.9 to -61.6 under three alternative tables (no card credit on A; B asks -1.0; binary), so this run's approve tilt came mainly from composition (62 B vs 58 A groups), not from the table values. Wrong-but-reinforced A samples: approve_informed 12/75, lookup 16/26, ask_generic 7/36.",
+   "evidence": "experiments/dataset_audit/grpo-dynamics/06_reward_bias.py -> results/reward_bias.json (advantages validated against the logged loss: corr 0.8322, slope 1.087).",
+   "examples": [
+    "dataset/curated_v121/grpo_train.jsonl row 137 (0-based; S42A/L1/P0/decision, M2 step 15): approve_generic 7/8, commit_other 1/8 - approve_generic and commit_other both score -0.9 -> zero-variance group",
+    "dataset/curated_v121/grpo_train.jsonl row 487 (0-based; S34A/L2/P0/decision, M2 step 27): approve_informed 7/8, ask_informed 1/8 - approve_informed scores +0.35 on a should-ask twin",
+    "dataset/curated_v121/grpo_train.jsonl row 468 (0-based; S26A/L3/P2/decision, M2 step 28): lookup 5/8, approve_generic 1/8, statement 1/8, ask_generic 1/8 - a look-up (0.0) beats approve_generic (-0.9) -> positive advantage"
+   ],
+   "fix": "Keep the twin costs symmetric (A approval card <= 0, B needless ask -0.5 or both -1.0), score a decision-point look-up like a wrong decision, and balance A/B inside every step (GD-3).",
+   "affects": [
+    "M2 GRPO",
+    "DPO pair ranking (wtm/reward.py is shared)"
+   ]
+  },
+  {
+   "id": "GD-6",
+   "severity": "info",
+   "confidence": "medium",
+   "fix_needs_data_change": false,
+   "title": "The early -> late reward shift is prompt mix plus chance, not policy drift; the per-step training reward cannot show learning in this design",
+   "claim": "Each of the 120 prompts was sampled in exactly one step, so the step curve is a prompt draw: SD of step means 0.1663 vs 0.2135 for random 4-group draws of a fixed policy; slope permutation p 0.5711. The reported shift reproduces (A 0.5614 -> 0.2085, B 0.3859 -> 0.4925). B's change is not significant (permutation p 0.2147). A's drop has p 0.0089 on this post-hoc split but is not drift: the measured M2 effect (0.0171 nats mean |d log-prob| on the stack-check probe, not a decision-token measurement) is ~47x smaller than the 0.81-nat change in decision log-odds the A ask-rate drop needs, and GRPO's cumulative push on A prompts pointed toward asking (net advantage +137.796 on A asks), the opposite of the change. Identified prompt effects: the 3 sampled zero-prefix A prompts landed late, and 6 vs 3 externally hard A prompts (strong-model success <= 0.15) fell late vs early; level/setting/env explain only 8 % of the A gap. After controlling external difficulty and zero-prefix, a residual remains (late coefficient on pass -0.1567, CI [-0.284, -0.026]; permutation p 0.0264 without zero-prefix prompts) - unexplained, but not attributable to the update.",
+   "evidence": "experiments/dataset_audit/grpo-dynamics/02_early_late.py -> results/early_late.json; experiments/dataset_audit/grpo-dynamics/07_external_difficulty.py -> results/external_difficulty.json; experiments/dataset_audit/grpo-dynamics/08_drift_decomposition.py -> results/drift_decomposition.json; experiments/dataset_audit/grpo-dynamics/04_update_size.py (stack-check numbers parsed from log.md).",
+   "examples": [
+    "late A: dataset/curated_v121/grpo_train.jsonl row 137 (0-based; S42A/L1/P0/decision, M2 step 15): approve_generic 7/8, commit_other 1/8",
+    "late A zero-prefix: dataset/curated_v121/grpo_train.jsonl row 262 (0-based; S03A/L1/P0/decision, M2 step 28): lookup 8/8",
+    "within-scenario contrasts are few and mixed (11 scenarios in both halves, level-adjusted late-early -0.1148 CI [-0.3212, 0.1298]): S18A L1@3 0.912 -> L0r@15 0.538; S22B L0r@13 -0.212 -> L1@21 0.538"
+   ],
+   "fix": "Measure learning on a fixed probe (e.g. 16 sft_val decision prompts x 8 samples via vLLM every 5 steps), not on the per-step training reward; optionally re-sample the 30 late-half A prompts with M1 (minutes of vLLM) to settle the residual.",
+   "affects": [
+    "interpretation of M2 training curves",
+    "report"
+   ]
+  },
+  {
+   "id": "GD-7",
+   "severity": "minor",
+   "confidence": "high",
+   "fix_needs_data_change": false,
+   "title": "Step time is set by the longest prompt in the step (padding); length-bucketed steps would fit 41 % more updates into the same GPU time",
+   "claim": "Step seconds = -224.85 + 146.565 per 1K tokens of the step's longest prompt (R^2 0.998, 30 steps, valid 3.8K-7.4K); steps whose longest prompt was <= 4.4K tokens took 364.0 s (n=5) vs 789.6 s (n=25); padding averaged 37 % of prompt tokens. Random draws from the full pool cost ~735.1 s/step (29 steps in 6 h); length-bucketed steps ~526.5 s (41 steps, 28 % less time per step); L1-L3 only: 27 vs 36 steps.",
+   "evidence": "experiments/dataset_audit/grpo-dynamics/05_step_time.py -> results/step_time.json, step_time.csv.",
+   "examples": [
+    "log step 25: L0r+L0r+L0r+L2 (10398 prompt tokens, longest 6565) 723 s",
+    "log step 23: L0r+L0r+L1+L1 (10251 prompt tokens, longest 3833) 342 s",
+    "log step 20: L2+L2+L2+L3 (25861 prompt tokens, longest 6929) 790 s"
+   ],
+   "fix": "Length-bucket the steps (pair-balanced steps at one level do this automatically).",
+   "affects": [
+    "M2 GRPO rerun budget"
+   ]
+  },
+  {
+   "id": "GD-8",
+   "severity": "info",
+   "confidence": "medium",
+   "fix_needs_data_change": false,
+   "title": "No realism gap inside M1's training-prompt behaviour: level, the P2 hint and env explain about 1 % of per-prompt variance",
+   "claim": "Per-prompt pass ~ level + setting + env: adjusted R^2 0.0144 (A) / 0.004 (B). A: L2 vs L0r +0.133 [-0.038, 0.306], L3 -0.051 [-0.378, 0.32], P2 +0.082 [-0.093, 0.259]; B: P2 +0.002 [-0.133, 0.133]; only A shopping differs (+0.243 [0.044, 0.421]). Ask-rate gap A-B: L0r 0.136 [0.0, 0.267], L1 0.134, L2 0.338 [0.166, 0.513], L3 0.146. Prompt-specific variance beyond binomial noise: 62 % (A), 43 % (B); strong-model success on the same scenario correlates with M1's A pass (Spearman 0.353). Twin prompts are never identical (0/134) and differ by a median of 41 characters, the system prompt differing in only 5.2 % of cells.",
+   "evidence": "experiments/dataset_audit/grpo-dynamics/09_cells_and_pairs.py -> results/cells_and_pairs.json; experiments/dataset_audit/grpo-dynamics/07_external_difficulty.py; experiments/dataset_audit/grpo-dynamics/12_twin_prompt_diff.py -> results/twin_prompt_diff.json; experiments/dataset_audit/grpo-dynamics/01_join_tables.py -> results/pass_by_twin_level_ps_env.csv.",
+   "examples": [
+    "A|L0r|P0 (15 prompts) pass 0.425 vs A|L2|P0 (11) 0.523",
+    "B|L0r|P0 (17) 0.515 vs B|L2|P0 (7) 0.625",
+    "smallest twin difference: {\"pair_id\": \"S03\", \"level\": \"L1\", \"prompt_setting\": \"P0\", \"where\": \"member_request\", \"diff_chars\": 1} (k.weber vs k-weber)"
+   ],
+   "fix": "None needed for training; the scenario, not the realism level, decides whether M1 gets a prompt right.",
+   "affects": [
+    "prompt-interference question",
+    "realism-gap claims about trained models"
+   ]
+  },
+  {
+   "id": "GD-9",
+   "severity": "minor",
+   "confidence": "low",
+   "fix_needs_data_change": true,
+   "title": "A few should-approve twins draw consistent needless asks (near-miss twins, empty raw tool fields): labels worth a second look",
+   "claim": "2 B-approve prompts got 0/8 and 3 more 1/8, mostly because M1 asked: V061B L0r (asks 8/8; invoice INV8832 vs an already-paid INV-8831 one digit apart), V254B L1 (asks 8/8), V581B L2 (asks 7/8; the raw checkout result shows \"items\": [] and \"delivery\": null), V184B L0r (asks 7/8; 6 of 11 result fields empty). Null/empty leaves occur in tool results of 73 % of B vs 62 % of A rows; M1's B ask rate is 0.421 with >= 2 empty leaves vs 0.34 otherwise (Spearman 0.144, n=62: weak, not established).",
+   "evidence": "experiments/dataset_audit/grpo-dynamics/01_join_tables.py (groups.csv); experiments/dataset_audit/grpo-dynamics/10_tool_result_nulls.py -> results/tool_result_nulls.json.",
+   "examples": [
+    "dataset/curated_v121/grpo_train.jsonl row 232 (0-based; V061B/L0r/P0/decision, M2 step 4): ask_informed 5/8, ask_generic 2/8, tell_informed 1/8",
+    "dataset/curated_v121/grpo_train.jsonl row 1 (0-based; V581B/L2/P0/decision, M2 step 25): ask_generic 5/8, ask_informed 2/8, approve_generic 1/8 - raw checkout result shows items [] and delivery null",
+    "dataset/curated_v121/grpo_train.jsonl row 494 (0-based; V184B/L0r/P0/decision, M2 step 3): ask_informed 4/8, ask_generic 3/8, approve_generic 1/8"
+   ],
+   "fix": "Have the label reviewers re-check these near-miss B twins (a confirming question may be acceptable there), and render raw tool results so that a normal B record does not look broken (omit null/empty fields or give realistic values).",
+   "affects": [
+    "B twin labels",
+    "reward on B prompts"
+   ]
+  }
+ ],
+ "checked_ok": [
+  "Join: grpo_train has 496 unique (scenario_id, level) keys for 496 rows; all 30 steps have 4 prompts x 8; 120 distinct prompts, none sampled twice (92 scenarios, 63 pairs).",
+  "Score log matches the TRL log: per-step reward max diff 3.6e-08, mean length diff 0.0, zero-std fraction diff 0.0; rewards recompute exactly from wtm/reward.py tables (True).",
+  "Note: TRL 1.13's logged reward_std is the batch std (diff 7.3e-08), not the within-group std (mean 0.6345).",
+  "No truncation (0/960), every completion ends with <|END_OF_TURN_TOKEN|>; completion max length 117.0 << 256; format bonus on 950/960; verbosity penalty never fired.",
+  "Zero-variance groups 6/120 (5 %); only 2 prompts solved 8/8 and 10 failed 8/8 -> filtering to 0 < pass < 1 would remove ~10 % only.",
+  "On-policy GRPO: PPO clip never active (clip ratio 0.0), grad_norm 0.22194-0.54405 (the script sets no max_grad_norm; below the usual default of 1.0).",
+  "Advantage reconstruction (group std, unbiased, +1e-4) reproduces the logged dapo loss: corr 0.8322, slope 1.087 (the residual is plausibly the vLLM importance weights).",
+  "Twin prompts are never identical (0/134 same-setting cells): no direct input->target contradiction in GRPO prompts.",
+  "Level / P2 / env effects on M1's pass rate are not significant (adj R^2 0.0144 A, 0.004 B).",
+  "The pooled per-step reward has no trend (slope permutation p 0.5711); B's early/late change is not significant (p 0.2147).",
+  "vLLM-vs-trainer log-prob mismatch is present but corrected: mean |d logp| per token 0.00568-0.0179, per-step min importance ratio 0.14463-0.82007, max 1.3281-2.1414 (TRL's importance-sampling correction is active; bf16 + merged-LoRA sync noise, not a data issue).",
+  "Pair-balanced steps are feasible: 247/249 (pair, level) cells have both twins."
+ ],
+ "prompt_interference_view": "From the GRPO samples, the prompt is not the main thing standing between M1 and the objective. (1) M1 discriminates the twins weakly at every level, including the toy L0r prompts (~1.3K tokens): A-B ask-rate gap 0.136 at L0r vs 0.338 at L2; level, the P2 hint and env together explain about 1 % of per-prompt pass variance (adj R^2 0.0144 A / 0.004 B), and the P2 hint's effect is +0.082 [-0.093, 0.259] on A pass and +0.002 on B. (2) The twins differ by a median of 41 characters, almost always in the final tool result (at the end of the prompt, inside the 4,096-token sliding window), and the system prompt differs in only 5.2 % of pairs: the long system prompt is shared context, not the carrier of the decision. (3) The interference that matters is structural: the decision is fixed by the first target token, which carries ~2 % of the token-averaged SFT loss, so SFT fit the content and left the decision near chance. (4) One rendering-specific interference is confirmed: the 16 zero-prefix decision prompts share the [system, user] shape with 401 lookup1 rows, and M1 looked up in 18 of the 24 samples drawn on them (2.5 % of all 960 samples). (5) Empty/null raw tool fields show only a weak, non-significant link to needless asks on B. Net: the prompt explains a small share of M1's errors; the objective's credit assignment and GRPO's step size explain most of them.",
+ "artifacts": [
+  "experiments/dataset_audit/grpo-dynamics/01_join_tables.py",
+  "experiments/dataset_audit/grpo-dynamics/02_early_late.py",
+  "experiments/dataset_audit/grpo-dynamics/03_sft_overlap_decision_nll.py",
+  "experiments/dataset_audit/grpo-dynamics/04_update_size.py",
+  "experiments/dataset_audit/grpo-dynamics/05_step_time.py",
+  "experiments/dataset_audit/grpo-dynamics/06_reward_bias.py",
+  "experiments/dataset_audit/grpo-dynamics/07_external_difficulty.py",
+  "experiments/dataset_audit/grpo-dynamics/08_drift_decomposition.py",
+  "experiments/dataset_audit/grpo-dynamics/09_cells_and_pairs.py",
+  "experiments/dataset_audit/grpo-dynamics/10_tool_result_nulls.py",
+  "experiments/dataset_audit/grpo-dynamics/11_run_config.py",
+  "experiments/dataset_audit/grpo-dynamics/12_twin_prompt_diff.py",
+  "experiments/dataset_audit/grpo-dynamics/13_findings.py",
+  "experiments/dataset_audit/grpo-dynamics/results/cells_and_pairs.json",
+  "experiments/dataset_audit/grpo-dynamics/results/drift_decomposition.json",
+  "experiments/dataset_audit/grpo-dynamics/results/early_late.json",
+  "experiments/dataset_audit/grpo-dynamics/results/external_difficulty.json",
+  "experiments/dataset_audit/grpo-dynamics/results/groups.csv",
+  "experiments/dataset_audit/grpo-dynamics/results/groups_ext.csv",
+  "experiments/dataset_audit/grpo-dynamics/results/log_consistency.csv",
+  "experiments/dataset_audit/grpo-dynamics/results/pass_by_twin_level_ps_env.csv",
+  "experiments/dataset_audit/grpo-dynamics/results/reward_bias.json",
+  "experiments/dataset_audit/grpo-dynamics/results/run_config.json",
+  "experiments/dataset_audit/grpo-dynamics/results/samples.csv",
+  "experiments/dataset_audit/grpo-dynamics/results/sft_overlap.json",
+  "experiments/dataset_audit/grpo-dynamics/results/step_time.csv",
+  "experiments/dataset_audit/grpo-dynamics/results/step_time.json",
+  "experiments/dataset_audit/grpo-dynamics/results/tables_01.json",
+  "experiments/dataset_audit/grpo-dynamics/results/tool_result_nulls.json",
+  "experiments/dataset_audit/grpo-dynamics/results/twin_prompt_diff.csv",
+  "experiments/dataset_audit/grpo-dynamics/results/twin_prompt_diff.json",
+  "experiments/dataset_audit/grpo-dynamics/results/update_size.json",
+  "experiments/dataset_audit/grpo-dynamics/findings.json"
+ ],
+ "recommendation_grpo_rerun": "Second GRPO run (~6 GPU h): from merged M1, fresh LoRA r16/alpha32 on all linear modules; lr 5e-5 constant after 3 warm-up steps (predicted ||dW|| 27 % of SFT's at 36 steps vs 1.8 % now); 36 steps of 4 prompts x 8 generations where each step is two complete twin pairs at one level/setting (A:B = 50:50 in every step, length-matched -> ~526 s/step, ~5.3 h); pool = 16 zero-prefix rows removed (480 left), optionally the 12 prompts M1 solved 0/8 or 8/8; no pre-pass needed (90 % of sampled prompts are 0 < pass < 1). Keep temperature 1.0, dapo, group scaling, beta 0, max_completion 256; score decision-point look-ups at -0.5; monitor a fixed sft_val probe every 5 steps (stop if entropy < ~0.15 or the probe's A-B ask gap shrinks); evaluate M2 as an unmerged LoRA on the merged-M1 base. If steps cannot be length-bucketed, use 30 steps (~735 s/step). 2e-5 is too small (||dW|| 9 % of SFT's); 1e-4 (~45 %) is the upper bound for a 4-prompt-per-step batch without a KL anchor."
+}

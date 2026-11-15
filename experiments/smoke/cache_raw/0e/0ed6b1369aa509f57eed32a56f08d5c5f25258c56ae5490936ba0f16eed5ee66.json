@@ -1,0 +1,1 @@
+{"text": "{\n  \"buttons\": [\n    {\n      \"label\": \"Cancel subscription\",\n      \"charge\": false,\n      \"access_until_period_end\": true\n    }\n  ]\n}", "usage": {"completion_tokens": 37, "prompt_tokens": 267, "total_tokens": 304, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.438e-05}, "finish": "stop"}

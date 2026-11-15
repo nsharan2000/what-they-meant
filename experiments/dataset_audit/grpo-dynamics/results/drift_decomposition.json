@@ -1,0 +1,287 @@
+{
+ "sft_first_turn_targets": {
+  "lookup1": 401,
+  "decision": 16
+ },
+ "grpo_zero_prefix_rows": 16,
+ "zero_prefix_sampled": [
+  {
+   "step": 28,
+   "scenario_id": "S03A",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "pass_top": 0.0,
+   "p_lookup": 1.0,
+   "classes": "{\"lookup\": 8}"
+  },
+  {
+   "step": 19,
+   "scenario_id": "S02A",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "pass_top": 0.0,
+   "p_lookup": 0.625,
+   "classes": "{\"lookup\": 5, \"approve_generic\": 3}"
+  },
+  {
+   "step": 21,
+   "scenario_id": "S02A",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "pass_top": 0.0,
+   "p_lookup": 0.625,
+   "classes": "{\"lookup\": 5, \"approve_generic\": 2, \"ask_generic\": 1}"
+  }
+ ],
+ "perm_A": {
+  "all": {
+   "reward": {
+    "obs": -0.3528,
+    "p_two_sided": 0.0078,
+    "n": 58
+   },
+   "pass": {
+    "obs": -0.1967,
+    "p_two_sided": 0.0095,
+    "n": 58
+   }
+  },
+  "without_zero_prefix": {
+   "reward": {
+    "obs": -0.307,
+    "p_two_sided": 0.0264,
+    "n": 55
+   },
+   "pass": {
+    "obs": -0.1546,
+    "p_two_sided": 0.0394,
+    "n": 55
+   }
+  },
+  "without_lookup_majority_prompts": {
+   "reward": {
+    "obs": -0.2902,
+    "p_two_sided": 0.0364,
+    "n": 54
+   },
+   "pass": {
+    "obs": -0.1384,
+    "p_two_sided": 0.0621,
+    "n": 54
+   },
+   "removed": [
+    {
+     "scenario_id": "S03A",
+     "level": "L1",
+     "step": 28
+    },
+    {
+     "scenario_id": "S02A",
+     "level": "L3",
+     "step": 19
+    },
+    {
+     "scenario_id": "S02A",
+     "level": "L2",
+     "step": 21
+    },
+    {
+     "scenario_id": "S26A",
+     "level": "L3",
+     "step": 28
+    }
+   ]
+  }
+ },
+ "ols_A_pass": {
+  "late_only": {
+   "late": {
+    "coef": -0.1967,
+    "ci95": [
+     -0.3318,
+     -0.0584
+    ]
+   }
+  },
+  "ext+late": {
+   "ext_strong_all": {
+    "coef": 0.4549,
+    "ci95": [
+     0.168,
+     0.7004
+    ]
+   },
+   "late": {
+    "coef": -0.2055,
+    "ci95": [
+     -0.3354,
+     -0.0714
+    ]
+   }
+  },
+  "ext+zero_prefix+late": {
+   "ext_strong_all": {
+    "coef": 0.5332,
+    "ci95": [
+     0.2846,
+     0.7698
+    ]
+   },
+   "zero_prefix": {
+    "coef": -0.5028,
+    "ci95": [
+     -0.5998,
+     -0.4014
+    ]
+   },
+   "late": {
+    "coef": -0.1567,
+    "ci95": [
+     -0.284,
+     -0.026
+    ]
+   }
+  }
+ },
+ "ols_A_reward": {
+  "ext+zero_prefix+late": {
+   "ext_strong_all": {
+    "coef": 1.0566,
+    "ci95": [
+     0.5254,
+     1.5797
+    ]
+   },
+   "zero_prefix": {
+    "coef": -0.6201,
+    "ci95": [
+     -0.9045,
+     -0.2612
+    ]
+   },
+   "late": {
+    "coef": -0.3111,
+    "ci95": [
+     -0.5296,
+     -0.0613
+    ]
+   }
+  }
+ },
+ "A_decisions_without_zero_prefix": {
+  "early": {
+   "n": 224,
+   "prompts": 28,
+   "pass_top": 0.5759,
+   "reward": 0.5614,
+   "ask_informed": 129,
+   "approve_informed": 41,
+   "approve_generic": 28,
+   "ask_generic": 15,
+   "tell_informed": 6,
+   "lookup": 2,
+   "invalid": 1,
+   "commit_gold": 1,
+   "commit_harmful": 1
+  },
+  "late": {
+   "n": 216,
+   "prompts": 27,
+   "pass_top": 0.4213,
+   "reward": 0.2544,
+   "ask_informed": 91,
+   "approve_generic": 50,
+   "approve_informed": 34,
+   "ask_generic": 20,
+   "commit_other": 6,
+   "lookup": 6,
+   "approve_gold": 4,
+   "invalid": 2,
+   "tell_informed": 2,
+   "statement": 1
+  }
+ },
+ "lookups_by_prompt": [
+  {
+   "twin": "A",
+   "scenario_id": "S03A",
+   "level": "L1",
+   "step": 28,
+   "n": 8
+  },
+  {
+   "twin": "A",
+   "scenario_id": "S02A",
+   "level": "L2",
+   "step": 21,
+   "n": 5
+  },
+  {
+   "twin": "A",
+   "scenario_id": "S02A",
+   "level": "L3",
+   "step": 19,
+   "n": 5
+  },
+  {
+   "twin": "A",
+   "scenario_id": "S26A",
+   "level": "L3",
+   "step": 28,
+   "n": 5
+  },
+  {
+   "twin": "B",
+   "scenario_id": "S26B",
+   "level": "L2",
+   "step": 12,
+   "n": 4
+  },
+  {
+   "twin": "B",
+   "scenario_id": "S04B",
+   "level": "L3",
+   "step": 5,
+   "n": 2
+  },
+  {
+   "twin": "A",
+   "scenario_id": "S12A",
+   "level": "L3",
+   "step": 6,
+   "n": 1
+  },
+  {
+   "twin": "A",
+   "scenario_id": "V044A",
+   "level": "L0r",
+   "step": 8,
+   "n": 1
+  },
+  {
+   "twin": "A",
+   "scenario_id": "V113A",
+   "level": "L1",
+   "step": 20,
+   "n": 1
+  }
+ ],
+ "lookup_concentration": {
+  "total": 32,
+  "in_prompts_with_ge4": 27,
+  "n_prompts_with_any": 9,
+  "n_prompts_with_ge4": 5
+ },
+ "A_ext_strong_by_half": {
+  "early": {
+   "mean": 0.407,
+   "n_le_0.15": 3,
+   "n": 28
+  },
+  "late": {
+   "mean": 0.426,
+   "n_le_0.15": 6,
+   "n": 30
+  }
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "twin_levels": 247,
+ "with_no_difference": 0,
+ "nearest_diff_tok_median": 66.0,
+ "nearest_diff_tok_p90": 126.80000000000001,
+ "where": {
+  "lookup-result": 133,
+  "lookup-result+request": 41,
+  "lookup-call+lookup-result+request": 30,
+  "request": 21,
+  "lookup-result+system": 10,
+  "lookup-result+request+system": 8,
+  "lookup-call+lookup-result": 4
+ },
+ "only_lookup_result_differs": 133,
+ "any_diff_beyond_4096_tokens_from_end": 4,
+ "beyond_4096_rows": [
+  [
+   "S12",
+   "L2",
+   4546,
+   "lookup-result+request+system"
+  ],
+  [
+   "S12",
+   "L3",
+   4549,
+   "lookup-result+request+system"
+  ],
+  [
+   "S54",
+   "L2",
+   4514,
+   "lookup-result+system"
+  ],
+  [
+   "S54",
+   "L3",
+   4517,
+   "lookup-result+system"
+  ]
+ ],
+ "nearest_beyond_4096": 0,
+ "method_note": "token distances approximated from characters with each row's exact tokens/characters ratio"
+}

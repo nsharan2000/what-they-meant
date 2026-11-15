@@ -1,0 +1,61 @@
+2511 jobs to run (0 already done)
+20/2511 done (3s)
+40/2511 done (8s)
+60/2511 done (8s)
+80/2511 done (11s)
+100/2511 done (34s)
+120/2511 done (34s)
+140/2511 done (34s)
+160/2511 done (34s)
+180/2511 done (34s)
+200/2511 done (34s)
+220/2511 done (40s)
+240/2511 done (40s)
+260/2511 done (40s)
+280/2511 done (40s)
+300/2511 done (86s)
+320/2511 done (86s)
+340/2511 done (86s)
+360/2511 done (86s)
+380/2511 done (86s)
+400/2511 done (88s)
+420/2511 done (88s)
+440/2511 done (88s)
+460/2511 done (88s)
+480/2511 done (88s)
+500/2511 done (88s)
+520/2511 done (88s)
+540/2511 done (88s)
+560/2511 done (142s)
+580/2511 done (142s)
+600/2511 done (142s)
+620/2511 done (142s)
+640/2511 done (142s)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/wtm/run.py", line 117, in <module>
+    main()
+    ~~~~^^
+  File "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/wtm/run.py", line 108, in main
+    for i, d in enumerate(ex.map(run, jobs), 1):
+                ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 639, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 311, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/wtm/run.py", line 102, in run
+    with _LOCK, open(ns.out, "a") as fh:
+                ~~~~^^^^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted: 'experiments/replication/results/grid_open_seedtools_P0.jsonl'

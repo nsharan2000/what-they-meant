@@ -1,0 +1,7065 @@
+{
+ "rows_checked": 2120,
+ "contract_violations": [],
+ "policy_summary": {
+  "bills/L0r": {
+   "chars": 46,
+   "words": 7,
+   "distinct_texts": 1
+  },
+  "bills/L1": {
+   "chars": 5728,
+   "words": 955,
+   "distinct_texts": 1
+  },
+  "bizops/L0r": {
+   "chars": 42,
+   "words": 6,
+   "distinct_texts": 1
+  },
+  "bizops/L1": {
+   "chars": 5550,
+   "words": 904,
+   "distinct_texts": 1
+  },
+  "shopping/L0r": {
+   "chars": 82,
+   "words": 15,
+   "distinct_texts": 1
+  },
+  "shopping/L1": {
+   "chars": 6033,
+   "words": 1007,
+   "distinct_texts": 1
+  },
+  "wallet/L0r": {
+   "chars": 78,
+   "words": 15,
+   "distinct_texts": 1
+  },
+  "wallet/L1": {
+   "chars": 6032,
+   "words": 1033,
+   "distinct_texts": 1
+  }
+ },
+ "protocol": {
+  "chars": 650,
+  "words": 116
+ },
+ "p2_hint": {
+  "text": "Member preference: check what you look up against my request and my history. If anything clashes, ask me one short question that names it; if everything matches, just show the approval card.",
+  "chars": 190,
+  "words": 32,
+  "position": "appended after the protocol block = last text of the system prompt",
+  "chars_after_hint_to_generation_point": {
+   "n": 656,
+   "mean": 290.2,
+   "min": 14,
+   "p50": 320,
+   "max": 715
+  }
+ },
+ "cells": [
+  {
+   "file": "dpo_train",
+   "env": "bills",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 20,
+   "system_chars": {
+    "n": 20,
+    "mean": 2962.6,
+    "min": 2926,
+    "p50": 2933,
+    "max": 3143
+   },
+   "policy_chars": {
+    "n": 20,
+    "mean": 46,
+    "min": 46,
+    "p50": 46,
+    "max": 46
+   },
+   "member_chars": {
+    "n": 20,
+    "mean": 137.1,
+    "min": 104,
+    "p50": 110,
+    "max": 219
+   },
+   "tooldoc_chars": {
+    "n": 20,
+    "mean": 2125.6,
+    "min": 2108,
+    "p50": 2121,
+    "max": 2257
+   },
+   "n_tools": {
+    "n": 20,
+    "mean": 13.1,
+    "min": 13,
+    "p50": 13,
+    "max": 14
+   },
+   "conv_chars": {
+    "n": 20,
+    "mean": 447.9,
+    "min": 363,
+    "p50": 445,
+    "max": 648
+   },
+   "n_lookups_in_prompt": {
+    "n": 20,
+    "mean": 1.1,
+    "min": 1,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bills",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 10,
+   "system_chars": {
+    "n": 10,
+    "mean": 3162.8,
+    "min": 3118,
+    "p50": 3123,
+    "max": 3335
+   },
+   "policy_chars": {
+    "n": 10,
+    "mean": 46,
+    "min": 46,
+    "p50": 46,
+    "max": 46
+   },
+   "member_chars": {
+    "n": 10,
+    "mean": 136.3,
+    "min": 103,
+    "p50": 108,
+    "max": 259
+   },
+   "tooldoc_chars": {
+    "n": 10,
+    "mean": 2134.5,
+    "min": 2108,
+    "p50": 2123,
+    "max": 2257
+   },
+   "n_tools": {
+    "n": 10,
+    "mean": 13.1,
+    "min": 13,
+    "p50": 13,
+    "max": 14
+   },
+   "conv_chars": {
+    "n": 10,
+    "mean": 456.8,
+    "min": 363,
+    "p50": 467,
+    "max": 533
+   },
+   "n_lookups_in_prompt": {
+    "n": 10,
+    "mean": 1.1,
+    "min": 1,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bills",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 22,
+   "system_chars": {
+    "n": 22,
+    "mean": 12241.5,
+    "min": 12068,
+    "p50": 12237,
+    "max": 12564
+   },
+   "policy_chars": {
+    "n": 22,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 22,
+    "mean": 1670.5,
+    "min": 1497,
+    "p50": 1666,
+    "max": 1993
+   },
+   "tooldoc_chars": {
+    "n": 22,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 22,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 22,
+    "mean": 467.4,
+    "min": 363,
+    "p50": 467,
+    "max": 648
+   },
+   "n_lookups_in_prompt": {
+    "n": 22,
+    "mean": 1.1,
+    "min": 1,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bills",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 12398.8,
+    "min": 12260,
+    "p50": 12399,
+    "max": 12756
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 1635.8,
+    "min": 1497,
+    "p50": 1636,
+    "max": 1993
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 405.6,
+    "min": 363,
+    "p50": 393,
+    "max": 504
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bills",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 19,
+   "system_chars": {
+    "n": 19,
+    "mean": 19469.4,
+    "min": 19440,
+    "p50": 19470,
+    "max": 19499
+   },
+   "policy_chars": {
+    "n": 19,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 19,
+    "mean": 8898.4,
+    "min": 8869,
+    "p50": 8899,
+    "max": 8928
+   },
+   "tooldoc_chars": {
+    "n": 19,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 19,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 19,
+    "mean": 458.9,
+    "min": 363,
+    "p50": 459,
+    "max": 648
+   },
+   "n_lookups_in_prompt": {
+    "n": 19,
+    "mean": 1.1,
+    "min": 1,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bills",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 11,
+   "system_chars": {
+    "n": 11,
+    "mean": 19661.8,
+    "min": 19632,
+    "p50": 19662,
+    "max": 19691
+   },
+   "policy_chars": {
+    "n": 11,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 11,
+    "mean": 8898.8,
+    "min": 8869,
+    "p50": 8899,
+    "max": 8928
+   },
+   "tooldoc_chars": {
+    "n": 11,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 11,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 11,
+    "mean": 437.1,
+    "min": 372,
+    "p50": 412,
+    "max": 519
+   },
+   "n_lookups_in_prompt": {
+    "n": 11,
+    "mean": 1.1,
+    "min": 1,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bills",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 19476.4,
+    "min": 19440,
+    "p50": 19486,
+    "max": 19499
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 8905.4,
+    "min": 8869,
+    "p50": 8915,
+    "max": 8928
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 425.1,
+    "min": 376,
+    "p50": 430,
+    "max": 485
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bills",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 2,
+   "system_chars": {
+    "n": 2,
+    "mean": 19642.5,
+    "min": 19632,
+    "p50": 19653,
+    "max": 19653
+   },
+   "policy_chars": {
+    "n": 2,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 2,
+    "mean": 8879.5,
+    "min": 8869,
+    "p50": 8890,
+    "max": 8890
+   },
+   "tooldoc_chars": {
+    "n": 2,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 2,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 2,
+    "mean": 489,
+    "min": 466,
+    "p50": 512,
+    "max": 512
+   },
+   "n_lookups_in_prompt": {
+    "n": 2,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bizops",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 14,
+   "system_chars": {
+    "n": 14,
+    "mean": 3270.7,
+    "min": 3154,
+    "p50": 3295,
+    "max": 3375
+   },
+   "policy_chars": {
+    "n": 14,
+    "mean": 42,
+    "min": 42,
+    "p50": 42,
+    "max": 42
+   },
+   "member_chars": {
+    "n": 14,
+    "mean": 203.6,
+    "min": 113,
+    "p50": 203,
+    "max": 318
+   },
+   "tooldoc_chars": {
+    "n": 14,
+    "mean": 2371.1,
+    "min": 2329,
+    "p50": 2361,
+    "max": 2499
+   },
+   "n_tools": {
+    "n": 14,
+    "mean": 14.1,
+    "min": 14,
+    "p50": 14,
+    "max": 15
+   },
+   "conv_chars": {
+    "n": 14,
+    "mean": 373.2,
+    "min": 285,
+    "p50": 358,
+    "max": 580
+   },
+   "n_lookups_in_prompt": {
+    "n": 14,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bizops",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 12,
+   "system_chars": {
+    "n": 12,
+    "mean": 3445.8,
+    "min": 3333,
+    "p50": 3482,
+    "max": 3533
+   },
+   "policy_chars": {
+    "n": 12,
+    "mean": 42,
+    "min": 42,
+    "p50": 42,
+    "max": 42
+   },
+   "member_chars": {
+    "n": 12,
+    "mean": 193.2,
+    "min": 113,
+    "p50": 204,
+    "max": 265
+   },
+   "tooldoc_chars": {
+    "n": 12,
+    "mean": 2364.6,
+    "min": 2329,
+    "p50": 2361,
+    "max": 2499
+   },
+   "n_tools": {
+    "n": 12,
+    "mean": 14.1,
+    "min": 14,
+    "p50": 14,
+    "max": 15
+   },
+   "conv_chars": {
+    "n": 12,
+    "mean": 386.7,
+    "min": 283,
+    "p50": 358,
+    "max": 617
+   },
+   "n_lookups_in_prompt": {
+    "n": 12,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bizops",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 19,
+   "system_chars": {
+    "n": 19,
+    "mean": 13426.4,
+    "min": 13129,
+    "p50": 13558,
+    "max": 13647
+   },
+   "policy_chars": {
+    "n": 19,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 19,
+    "mean": 2505.4,
+    "min": 2208,
+    "p50": 2637,
+    "max": 2726
+   },
+   "tooldoc_chars": {
+    "n": 19,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 19,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 19,
+    "mean": 373.5,
+    "min": 283,
+    "p50": 352,
+    "max": 617
+   },
+   "n_lookups_in_prompt": {
+    "n": 19,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bizops",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 7,
+   "system_chars": {
+    "n": 7,
+    "mean": 13459.7,
+    "min": 13321,
+    "p50": 13474,
+    "max": 13544
+   },
+   "policy_chars": {
+    "n": 7,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 7,
+    "mean": 2346.7,
+    "min": 2208,
+    "p50": 2361,
+    "max": 2431
+   },
+   "tooldoc_chars": {
+    "n": 7,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 7,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 7,
+    "mean": 395.4,
+    "min": 341,
+    "p50": 364,
+    "max": 580
+   },
+   "n_lookups_in_prompt": {
+    "n": 7,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bizops",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 18,
+   "system_chars": {
+    "n": 18,
+    "mean": 19447.4,
+    "min": 19409,
+    "p50": 19454,
+    "max": 19495
+   },
+   "policy_chars": {
+    "n": 18,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 18,
+    "mean": 8526.4,
+    "min": 8488,
+    "p50": 8533,
+    "max": 8574
+   },
+   "tooldoc_chars": {
+    "n": 18,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 18,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 18,
+    "mean": 370.7,
+    "min": 283,
+    "p50": 353,
+    "max": 580
+   },
+   "n_lookups_in_prompt": {
+    "n": 18,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bizops",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 19637.2,
+    "min": 19601,
+    "p50": 19641,
+    "max": 19687
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 8524.2,
+    "min": 8488,
+    "p50": 8528,
+    "max": 8574
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 399.1,
+    "min": 285,
+    "p50": 400,
+    "max": 617
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bizops",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 9,
+   "system_chars": {
+    "n": 9,
+    "mean": 19452.4,
+    "min": 19411,
+    "p50": 19454,
+    "max": 19483
+   },
+   "policy_chars": {
+    "n": 9,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 9,
+    "mean": 8531.4,
+    "min": 8490,
+    "p50": 8533,
+    "max": 8562
+   },
+   "tooldoc_chars": {
+    "n": 9,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 9,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 9,
+    "mean": 360,
+    "min": 311,
+    "p50": 366,
+    "max": 418
+   },
+   "n_lookups_in_prompt": {
+    "n": 9,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "bizops",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 3,
+   "system_chars": {
+    "n": 3,
+    "mean": 19616,
+    "min": 19601,
+    "p50": 19601,
+    "max": 19646
+   },
+   "policy_chars": {
+    "n": 3,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 3,
+    "mean": 8503,
+    "min": 8488,
+    "p50": 8488,
+    "max": 8533
+   },
+   "tooldoc_chars": {
+    "n": 3,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 3,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 3,
+    "mean": 316,
+    "min": 293,
+    "p50": 295,
+    "max": 360
+   },
+   "n_lookups_in_prompt": {
+    "n": 3,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "shopping",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 20,
+   "system_chars": {
+    "n": 20,
+    "mean": 2592.1,
+    "min": 2532,
+    "p50": 2569,
+    "max": 2823
+   },
+   "policy_chars": {
+    "n": 20,
+    "mean": 82,
+    "min": 82,
+    "p50": 82,
+    "max": 82
+   },
+   "member_chars": {
+    "n": 20,
+    "mean": 170.9,
+    "min": 102,
+    "p50": 178,
+    "max": 258
+   },
+   "tooldoc_chars": {
+    "n": 20,
+    "mean": 1685.2,
+    "min": 1646,
+    "p50": 1668,
+    "max": 1829
+   },
+   "n_tools": {
+    "n": 20,
+    "mean": 9.1,
+    "min": 9,
+    "p50": 9,
+    "max": 10
+   },
+   "conv_chars": {
+    "n": 20,
+    "mean": 341.9,
+    "min": 166,
+    "p50": 331,
+    "max": 540
+   },
+   "n_lookups_in_prompt": {
+    "n": 20,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "shopping",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 2821.8,
+    "min": 2724,
+    "p50": 2809,
+    "max": 3007
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 82,
+    "min": 82,
+    "p50": 82,
+    "max": 82
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 201.2,
+    "min": 108,
+    "p50": 214,
+    "max": 258
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 1692.5,
+    "min": 1655,
+    "p50": 1668,
+    "max": 1829
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 9.1,
+    "min": 9,
+    "p50": 9,
+    "max": 10
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 328,
+    "min": 254,
+    "p50": 312,
+    "max": 455
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "shopping",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 16,
+   "system_chars": {
+    "n": 16,
+    "mean": 12622.1,
+    "min": 12227,
+    "p50": 12640,
+    "max": 12958
+   },
+   "policy_chars": {
+    "n": 16,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 16,
+    "mean": 1944.1,
+    "min": 1549,
+    "p50": 1962,
+    "max": 2280
+   },
+   "tooldoc_chars": {
+    "n": 16,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 16,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 16,
+    "mean": 353.5,
+    "min": 281,
+    "p50": 331,
+    "max": 540
+   },
+   "n_lookups_in_prompt": {
+    "n": 16,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "shopping",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 12,
+   "system_chars": {
+    "n": 12,
+    "mean": 12667.1,
+    "min": 12419,
+    "p50": 12587,
+    "max": 13150
+   },
+   "policy_chars": {
+    "n": 12,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 12,
+    "mean": 1797.1,
+    "min": 1549,
+    "p50": 1717,
+    "max": 2280
+   },
+   "tooldoc_chars": {
+    "n": 12,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 12,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 12,
+    "mean": 317.1,
+    "min": 166,
+    "p50": 309,
+    "max": 455
+   },
+   "n_lookups_in_prompt": {
+    "n": 12,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "shopping",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 26,
+   "system_chars": {
+    "n": 26,
+    "mean": 19466.3,
+    "min": 19422,
+    "p50": 19476,
+    "max": 19495
+   },
+   "policy_chars": {
+    "n": 26,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 26,
+    "mean": 8788.3,
+    "min": 8744,
+    "p50": 8798,
+    "max": 8817
+   },
+   "tooldoc_chars": {
+    "n": 26,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 26,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 26,
+    "mean": 339.8,
+    "min": 166,
+    "p50": 312,
+    "max": 540
+   },
+   "n_lookups_in_prompt": {
+    "n": 26,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "shopping",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 2,
+   "system_chars": {
+    "n": 2,
+    "mean": 19654.5,
+    "min": 19643,
+    "p50": 19666,
+    "max": 19666
+   },
+   "policy_chars": {
+    "n": 2,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 2,
+    "mean": 8784.5,
+    "min": 8773,
+    "p50": 8796,
+    "max": 8796
+   },
+   "tooldoc_chars": {
+    "n": 2,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 2,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 2,
+    "mean": 313.5,
+    "min": 259,
+    "p50": 368,
+    "max": 368
+   },
+   "n_lookups_in_prompt": {
+    "n": 2,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "shopping",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 7,
+   "system_chars": {
+    "n": 7,
+    "mean": 19485.1,
+    "min": 19474,
+    "p50": 19487,
+    "max": 19495
+   },
+   "policy_chars": {
+    "n": 7,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 7,
+    "mean": 8807.1,
+    "min": 8796,
+    "p50": 8809,
+    "max": 8817
+   },
+   "tooldoc_chars": {
+    "n": 7,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 7,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 7,
+    "mean": 389.7,
+    "min": 300,
+    "p50": 333,
+    "max": 550
+   },
+   "n_lookups_in_prompt": {
+    "n": 7,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "shopping",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 3,
+   "system_chars": {
+    "n": 3,
+    "mean": 19660,
+    "min": 19657,
+    "p50": 19657,
+    "max": 19666
+   },
+   "policy_chars": {
+    "n": 3,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 3,
+    "mean": 8790,
+    "min": 8787,
+    "p50": 8787,
+    "max": 8796
+   },
+   "tooldoc_chars": {
+    "n": 3,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 3,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 3,
+    "mean": 306.3,
+    "min": 170,
+    "p50": 356,
+    "max": 393
+   },
+   "n_lookups_in_prompt": {
+    "n": 3,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "wallet",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 48,
+   "system_chars": {
+    "n": 48,
+    "mean": 2910.3,
+    "min": 2700,
+    "p50": 2888,
+    "max": 3260
+   },
+   "policy_chars": {
+    "n": 48,
+    "mean": 78,
+    "min": 78,
+    "p50": 78,
+    "max": 78
+   },
+   "member_chars": {
+    "n": 48,
+    "mean": 142.0,
+    "min": 91,
+    "p50": 124,
+    "max": 240
+   },
+   "tooldoc_chars": {
+    "n": 48,
+    "mean": 2036.3,
+    "min": 1795,
+    "p50": 2020,
+    "max": 2288
+   },
+   "n_tools": {
+    "n": 48,
+    "mean": 9,
+    "min": 8,
+    "p50": 9,
+    "max": 11
+   },
+   "conv_chars": {
+    "n": 48,
+    "mean": 340.3,
+    "min": 33,
+    "p50": 331,
+    "max": 707
+   },
+   "n_lookups_in_prompt": {
+    "n": 48,
+    "mean": 0.9,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "wallet",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 19,
+   "system_chars": {
+    "n": 19,
+    "mean": 3103.9,
+    "min": 2909,
+    "p50": 3078,
+    "max": 3292
+   },
+   "policy_chars": {
+    "n": 19,
+    "mean": 78,
+    "min": 78,
+    "p50": 78,
+    "max": 78
+   },
+   "member_chars": {
+    "n": 19,
+    "mean": 144.3,
+    "min": 91,
+    "p50": 128,
+    "max": 291
+   },
+   "tooldoc_chars": {
+    "n": 19,
+    "mean": 2035.6,
+    "min": 1795,
+    "p50": 2020,
+    "max": 2151
+   },
+   "n_tools": {
+    "n": 19,
+    "mean": 9,
+    "min": 8,
+    "p50": 9,
+    "max": 10
+   },
+   "conv_chars": {
+    "n": 19,
+    "mean": 354.4,
+    "min": 47,
+    "p50": 315,
+    "max": 619
+   },
+   "n_lookups_in_prompt": {
+    "n": 19,
+    "mean": 0.9,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "wallet",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 45,
+   "system_chars": {
+    "n": 45,
+    "mean": 14087.2,
+    "min": 13103,
+    "p50": 14131,
+    "max": 14517
+   },
+   "policy_chars": {
+    "n": 45,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 45,
+    "mean": 1892.2,
+    "min": 908,
+    "p50": 1936,
+    "max": 2322
+   },
+   "tooldoc_chars": {
+    "n": 45,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 45,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 45,
+    "mean": 342.8,
+    "min": 33,
+    "p50": 321,
+    "max": 707
+   },
+   "n_lookups_in_prompt": {
+    "n": 45,
+    "mean": 0.9,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "wallet",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 22,
+   "system_chars": {
+    "n": 22,
+    "mean": 14367,
+    "min": 13939,
+    "p50": 14376,
+    "max": 14709
+   },
+   "policy_chars": {
+    "n": 22,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 22,
+    "mean": 1980,
+    "min": 1552,
+    "p50": 1989,
+    "max": 2322
+   },
+   "tooldoc_chars": {
+    "n": 22,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 22,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 22,
+    "mean": 343.5,
+    "min": 35,
+    "p50": 350,
+    "max": 606
+   },
+   "n_lookups_in_prompt": {
+    "n": 22,
+    "mean": 1.0,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "wallet",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 42,
+   "system_chars": {
+    "n": 42,
+    "mean": 19323.9,
+    "min": 17800,
+    "p50": 19450,
+    "max": 19500
+   },
+   "policy_chars": {
+    "n": 42,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 42,
+    "mean": 7128.9,
+    "min": 5605,
+    "p50": 7255,
+    "max": 7305
+   },
+   "tooldoc_chars": {
+    "n": 42,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 42,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 42,
+    "mean": 338.3,
+    "min": 33,
+    "p50": 331,
+    "max": 619
+   },
+   "n_lookups_in_prompt": {
+    "n": 42,
+    "mean": 0.9,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "wallet",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 18,
+   "system_chars": {
+    "n": 18,
+    "mean": 19405.7,
+    "min": 17707,
+    "p50": 19642,
+    "max": 19690
+   },
+   "policy_chars": {
+    "n": 18,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 18,
+    "mean": 7018.7,
+    "min": 5320,
+    "p50": 7255,
+    "max": 7303
+   },
+   "tooldoc_chars": {
+    "n": 18,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 18,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 18,
+    "mean": 357.3,
+    "min": 47,
+    "p50": 320,
+    "max": 707
+   },
+   "n_lookups_in_prompt": {
+    "n": 18,
+    "mean": 0.9,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "wallet",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 12,
+   "system_chars": {
+    "n": 12,
+    "mean": 19282.4,
+    "min": 17515,
+    "p50": 19446,
+    "max": 19461
+   },
+   "policy_chars": {
+    "n": 12,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 12,
+    "mean": 7087.4,
+    "min": 5320,
+    "p50": 7251,
+    "max": 7266
+   },
+   "tooldoc_chars": {
+    "n": 12,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 12,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 12,
+    "mean": 321.1,
+    "min": 48,
+    "p50": 398,
+    "max": 627
+   },
+   "n_lookups_in_prompt": {
+    "n": 12,
+    "mean": 0.7,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "dpo_train",
+   "env": "wallet",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 6,
+   "system_chars": {
+    "n": 6,
+    "mean": 19316.3,
+    "min": 17707,
+    "p50": 19650,
+    "max": 19653
+   },
+   "policy_chars": {
+    "n": 6,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 6,
+    "mean": 6929.3,
+    "min": 5320,
+    "p50": 7263,
+    "max": 7266
+   },
+   "tooldoc_chars": {
+    "n": 6,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 6,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 6,
+    "mean": 418.8,
+    "min": 319,
+    "p50": 395,
+    "max": 715
+   },
+   "n_lookups_in_prompt": {
+    "n": 6,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bills",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 20,
+   "system_chars": {
+    "n": 20,
+    "mean": 2962.6,
+    "min": 2926,
+    "p50": 2933,
+    "max": 3143
+   },
+   "policy_chars": {
+    "n": 20,
+    "mean": 46,
+    "min": 46,
+    "p50": 46,
+    "max": 46
+   },
+   "member_chars": {
+    "n": 20,
+    "mean": 137.1,
+    "min": 104,
+    "p50": 110,
+    "max": 219
+   },
+   "tooldoc_chars": {
+    "n": 20,
+    "mean": 2125.6,
+    "min": 2108,
+    "p50": 2121,
+    "max": 2257
+   },
+   "n_tools": {
+    "n": 20,
+    "mean": 13.1,
+    "min": 13,
+    "p50": 13,
+    "max": 14
+   },
+   "conv_chars": {
+    "n": 20,
+    "mean": 447.9,
+    "min": 363,
+    "p50": 445,
+    "max": 648
+   },
+   "n_lookups_in_prompt": {
+    "n": 20,
+    "mean": 1.1,
+    "min": 1,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bills",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 10,
+   "system_chars": {
+    "n": 10,
+    "mean": 3162.8,
+    "min": 3118,
+    "p50": 3123,
+    "max": 3335
+   },
+   "policy_chars": {
+    "n": 10,
+    "mean": 46,
+    "min": 46,
+    "p50": 46,
+    "max": 46
+   },
+   "member_chars": {
+    "n": 10,
+    "mean": 136.3,
+    "min": 103,
+    "p50": 108,
+    "max": 259
+   },
+   "tooldoc_chars": {
+    "n": 10,
+    "mean": 2134.5,
+    "min": 2108,
+    "p50": 2123,
+    "max": 2257
+   },
+   "n_tools": {
+    "n": 10,
+    "mean": 13.1,
+    "min": 13,
+    "p50": 13,
+    "max": 14
+   },
+   "conv_chars": {
+    "n": 10,
+    "mean": 456.8,
+    "min": 363,
+    "p50": 467,
+    "max": 533
+   },
+   "n_lookups_in_prompt": {
+    "n": 10,
+    "mean": 1.1,
+    "min": 1,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bills",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 22,
+   "system_chars": {
+    "n": 22,
+    "mean": 12241.5,
+    "min": 12068,
+    "p50": 12237,
+    "max": 12564
+   },
+   "policy_chars": {
+    "n": 22,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 22,
+    "mean": 1670.5,
+    "min": 1497,
+    "p50": 1666,
+    "max": 1993
+   },
+   "tooldoc_chars": {
+    "n": 22,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 22,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 22,
+    "mean": 467.4,
+    "min": 363,
+    "p50": 467,
+    "max": 648
+   },
+   "n_lookups_in_prompt": {
+    "n": 22,
+    "mean": 1.1,
+    "min": 1,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bills",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 12398.8,
+    "min": 12260,
+    "p50": 12399,
+    "max": 12756
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 1635.8,
+    "min": 1497,
+    "p50": 1636,
+    "max": 1993
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 405.6,
+    "min": 363,
+    "p50": 393,
+    "max": 504
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bills",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 19,
+   "system_chars": {
+    "n": 19,
+    "mean": 19469.4,
+    "min": 19440,
+    "p50": 19470,
+    "max": 19499
+   },
+   "policy_chars": {
+    "n": 19,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 19,
+    "mean": 8898.4,
+    "min": 8869,
+    "p50": 8899,
+    "max": 8928
+   },
+   "tooldoc_chars": {
+    "n": 19,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 19,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 19,
+    "mean": 458.9,
+    "min": 363,
+    "p50": 459,
+    "max": 648
+   },
+   "n_lookups_in_prompt": {
+    "n": 19,
+    "mean": 1.1,
+    "min": 1,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bills",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 11,
+   "system_chars": {
+    "n": 11,
+    "mean": 19661.8,
+    "min": 19632,
+    "p50": 19662,
+    "max": 19691
+   },
+   "policy_chars": {
+    "n": 11,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 11,
+    "mean": 8898.8,
+    "min": 8869,
+    "p50": 8899,
+    "max": 8928
+   },
+   "tooldoc_chars": {
+    "n": 11,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 11,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 11,
+    "mean": 437.1,
+    "min": 372,
+    "p50": 412,
+    "max": 519
+   },
+   "n_lookups_in_prompt": {
+    "n": 11,
+    "mean": 1.1,
+    "min": 1,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bills",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 19476.4,
+    "min": 19440,
+    "p50": 19486,
+    "max": 19499
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 8905.4,
+    "min": 8869,
+    "p50": 8915,
+    "max": 8928
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 425.1,
+    "min": 376,
+    "p50": 430,
+    "max": 485
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bills",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 2,
+   "system_chars": {
+    "n": 2,
+    "mean": 19642.5,
+    "min": 19632,
+    "p50": 19653,
+    "max": 19653
+   },
+   "policy_chars": {
+    "n": 2,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 2,
+    "mean": 8879.5,
+    "min": 8869,
+    "p50": 8890,
+    "max": 8890
+   },
+   "tooldoc_chars": {
+    "n": 2,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 2,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 2,
+    "mean": 489,
+    "min": 466,
+    "p50": 512,
+    "max": 512
+   },
+   "n_lookups_in_prompt": {
+    "n": 2,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bizops",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 14,
+   "system_chars": {
+    "n": 14,
+    "mean": 3270.7,
+    "min": 3154,
+    "p50": 3295,
+    "max": 3375
+   },
+   "policy_chars": {
+    "n": 14,
+    "mean": 42,
+    "min": 42,
+    "p50": 42,
+    "max": 42
+   },
+   "member_chars": {
+    "n": 14,
+    "mean": 203.6,
+    "min": 113,
+    "p50": 203,
+    "max": 318
+   },
+   "tooldoc_chars": {
+    "n": 14,
+    "mean": 2371.1,
+    "min": 2329,
+    "p50": 2361,
+    "max": 2499
+   },
+   "n_tools": {
+    "n": 14,
+    "mean": 14.1,
+    "min": 14,
+    "p50": 14,
+    "max": 15
+   },
+   "conv_chars": {
+    "n": 14,
+    "mean": 373.2,
+    "min": 285,
+    "p50": 358,
+    "max": 580
+   },
+   "n_lookups_in_prompt": {
+    "n": 14,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bizops",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 12,
+   "system_chars": {
+    "n": 12,
+    "mean": 3445.8,
+    "min": 3333,
+    "p50": 3482,
+    "max": 3533
+   },
+   "policy_chars": {
+    "n": 12,
+    "mean": 42,
+    "min": 42,
+    "p50": 42,
+    "max": 42
+   },
+   "member_chars": {
+    "n": 12,
+    "mean": 193.2,
+    "min": 113,
+    "p50": 204,
+    "max": 265
+   },
+   "tooldoc_chars": {
+    "n": 12,
+    "mean": 2364.6,
+    "min": 2329,
+    "p50": 2361,
+    "max": 2499
+   },
+   "n_tools": {
+    "n": 12,
+    "mean": 14.1,
+    "min": 14,
+    "p50": 14,
+    "max": 15
+   },
+   "conv_chars": {
+    "n": 12,
+    "mean": 386.7,
+    "min": 283,
+    "p50": 358,
+    "max": 617
+   },
+   "n_lookups_in_prompt": {
+    "n": 12,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bizops",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 19,
+   "system_chars": {
+    "n": 19,
+    "mean": 13426.4,
+    "min": 13129,
+    "p50": 13558,
+    "max": 13647
+   },
+   "policy_chars": {
+    "n": 19,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 19,
+    "mean": 2505.4,
+    "min": 2208,
+    "p50": 2637,
+    "max": 2726
+   },
+   "tooldoc_chars": {
+    "n": 19,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 19,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 19,
+    "mean": 373.5,
+    "min": 283,
+    "p50": 352,
+    "max": 617
+   },
+   "n_lookups_in_prompt": {
+    "n": 19,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bizops",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 7,
+   "system_chars": {
+    "n": 7,
+    "mean": 13459.7,
+    "min": 13321,
+    "p50": 13474,
+    "max": 13544
+   },
+   "policy_chars": {
+    "n": 7,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 7,
+    "mean": 2346.7,
+    "min": 2208,
+    "p50": 2361,
+    "max": 2431
+   },
+   "tooldoc_chars": {
+    "n": 7,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 7,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 7,
+    "mean": 395.4,
+    "min": 341,
+    "p50": 364,
+    "max": 580
+   },
+   "n_lookups_in_prompt": {
+    "n": 7,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bizops",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 18,
+   "system_chars": {
+    "n": 18,
+    "mean": 19447.4,
+    "min": 19409,
+    "p50": 19454,
+    "max": 19495
+   },
+   "policy_chars": {
+    "n": 18,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 18,
+    "mean": 8526.4,
+    "min": 8488,
+    "p50": 8533,
+    "max": 8574
+   },
+   "tooldoc_chars": {
+    "n": 18,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 18,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 18,
+    "mean": 370.7,
+    "min": 283,
+    "p50": 353,
+    "max": 580
+   },
+   "n_lookups_in_prompt": {
+    "n": 18,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bizops",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 19637.2,
+    "min": 19601,
+    "p50": 19641,
+    "max": 19687
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 8524.2,
+    "min": 8488,
+    "p50": 8528,
+    "max": 8574
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 399.1,
+    "min": 285,
+    "p50": 400,
+    "max": 617
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bizops",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 9,
+   "system_chars": {
+    "n": 9,
+    "mean": 19452.4,
+    "min": 19411,
+    "p50": 19454,
+    "max": 19483
+   },
+   "policy_chars": {
+    "n": 9,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 9,
+    "mean": 8531.4,
+    "min": 8490,
+    "p50": 8533,
+    "max": 8562
+   },
+   "tooldoc_chars": {
+    "n": 9,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 9,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 9,
+    "mean": 360,
+    "min": 311,
+    "p50": 366,
+    "max": 418
+   },
+   "n_lookups_in_prompt": {
+    "n": 9,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "bizops",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 3,
+   "system_chars": {
+    "n": 3,
+    "mean": 19616,
+    "min": 19601,
+    "p50": 19601,
+    "max": 19646
+   },
+   "policy_chars": {
+    "n": 3,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 3,
+    "mean": 8503,
+    "min": 8488,
+    "p50": 8488,
+    "max": 8533
+   },
+   "tooldoc_chars": {
+    "n": 3,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 3,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 3,
+    "mean": 316,
+    "min": 293,
+    "p50": 295,
+    "max": 360
+   },
+   "n_lookups_in_prompt": {
+    "n": 3,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "shopping",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 20,
+   "system_chars": {
+    "n": 20,
+    "mean": 2592.1,
+    "min": 2532,
+    "p50": 2569,
+    "max": 2823
+   },
+   "policy_chars": {
+    "n": 20,
+    "mean": 82,
+    "min": 82,
+    "p50": 82,
+    "max": 82
+   },
+   "member_chars": {
+    "n": 20,
+    "mean": 170.9,
+    "min": 102,
+    "p50": 178,
+    "max": 258
+   },
+   "tooldoc_chars": {
+    "n": 20,
+    "mean": 1685.2,
+    "min": 1646,
+    "p50": 1668,
+    "max": 1829
+   },
+   "n_tools": {
+    "n": 20,
+    "mean": 9.1,
+    "min": 9,
+    "p50": 9,
+    "max": 10
+   },
+   "conv_chars": {
+    "n": 20,
+    "mean": 341.9,
+    "min": 166,
+    "p50": 331,
+    "max": 540
+   },
+   "n_lookups_in_prompt": {
+    "n": 20,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "shopping",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 2821.8,
+    "min": 2724,
+    "p50": 2809,
+    "max": 3007
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 82,
+    "min": 82,
+    "p50": 82,
+    "max": 82
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 201.2,
+    "min": 108,
+    "p50": 214,
+    "max": 258
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 1692.5,
+    "min": 1655,
+    "p50": 1668,
+    "max": 1829
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 9.1,
+    "min": 9,
+    "p50": 9,
+    "max": 10
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 328,
+    "min": 254,
+    "p50": 312,
+    "max": 455
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "shopping",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 16,
+   "system_chars": {
+    "n": 16,
+    "mean": 12622.1,
+    "min": 12227,
+    "p50": 12640,
+    "max": 12958
+   },
+   "policy_chars": {
+    "n": 16,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 16,
+    "mean": 1944.1,
+    "min": 1549,
+    "p50": 1962,
+    "max": 2280
+   },
+   "tooldoc_chars": {
+    "n": 16,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 16,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 16,
+    "mean": 353.5,
+    "min": 281,
+    "p50": 331,
+    "max": 540
+   },
+   "n_lookups_in_prompt": {
+    "n": 16,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "shopping",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 12,
+   "system_chars": {
+    "n": 12,
+    "mean": 12667.1,
+    "min": 12419,
+    "p50": 12587,
+    "max": 13150
+   },
+   "policy_chars": {
+    "n": 12,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 12,
+    "mean": 1797.1,
+    "min": 1549,
+    "p50": 1717,
+    "max": 2280
+   },
+   "tooldoc_chars": {
+    "n": 12,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 12,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 12,
+    "mean": 317.1,
+    "min": 166,
+    "p50": 309,
+    "max": 455
+   },
+   "n_lookups_in_prompt": {
+    "n": 12,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "shopping",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 26,
+   "system_chars": {
+    "n": 26,
+    "mean": 19466.3,
+    "min": 19422,
+    "p50": 19476,
+    "max": 19495
+   },
+   "policy_chars": {
+    "n": 26,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 26,
+    "mean": 8788.3,
+    "min": 8744,
+    "p50": 8798,
+    "max": 8817
+   },
+   "tooldoc_chars": {
+    "n": 26,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 26,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 26,
+    "mean": 339.8,
+    "min": 166,
+    "p50": 312,
+    "max": 540
+   },
+   "n_lookups_in_prompt": {
+    "n": 26,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "shopping",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 2,
+   "system_chars": {
+    "n": 2,
+    "mean": 19654.5,
+    "min": 19643,
+    "p50": 19666,
+    "max": 19666
+   },
+   "policy_chars": {
+    "n": 2,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 2,
+    "mean": 8784.5,
+    "min": 8773,
+    "p50": 8796,
+    "max": 8796
+   },
+   "tooldoc_chars": {
+    "n": 2,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 2,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 2,
+    "mean": 313.5,
+    "min": 259,
+    "p50": 368,
+    "max": 368
+   },
+   "n_lookups_in_prompt": {
+    "n": 2,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "shopping",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 7,
+   "system_chars": {
+    "n": 7,
+    "mean": 19485.1,
+    "min": 19474,
+    "p50": 19487,
+    "max": 19495
+   },
+   "policy_chars": {
+    "n": 7,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 7,
+    "mean": 8807.1,
+    "min": 8796,
+    "p50": 8809,
+    "max": 8817
+   },
+   "tooldoc_chars": {
+    "n": 7,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 7,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 7,
+    "mean": 389.7,
+    "min": 300,
+    "p50": 333,
+    "max": 550
+   },
+   "n_lookups_in_prompt": {
+    "n": 7,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "shopping",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 3,
+   "system_chars": {
+    "n": 3,
+    "mean": 19660,
+    "min": 19657,
+    "p50": 19657,
+    "max": 19666
+   },
+   "policy_chars": {
+    "n": 3,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 3,
+    "mean": 8790,
+    "min": 8787,
+    "p50": 8787,
+    "max": 8796
+   },
+   "tooldoc_chars": {
+    "n": 3,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 3,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 3,
+    "mean": 306.3,
+    "min": 170,
+    "p50": 356,
+    "max": 393
+   },
+   "n_lookups_in_prompt": {
+    "n": 3,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "wallet",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 48,
+   "system_chars": {
+    "n": 48,
+    "mean": 2910.3,
+    "min": 2700,
+    "p50": 2888,
+    "max": 3260
+   },
+   "policy_chars": {
+    "n": 48,
+    "mean": 78,
+    "min": 78,
+    "p50": 78,
+    "max": 78
+   },
+   "member_chars": {
+    "n": 48,
+    "mean": 142.0,
+    "min": 91,
+    "p50": 124,
+    "max": 240
+   },
+   "tooldoc_chars": {
+    "n": 48,
+    "mean": 2036.3,
+    "min": 1795,
+    "p50": 2020,
+    "max": 2288
+   },
+   "n_tools": {
+    "n": 48,
+    "mean": 9,
+    "min": 8,
+    "p50": 9,
+    "max": 11
+   },
+   "conv_chars": {
+    "n": 48,
+    "mean": 340.3,
+    "min": 33,
+    "p50": 331,
+    "max": 707
+   },
+   "n_lookups_in_prompt": {
+    "n": 48,
+    "mean": 0.9,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "wallet",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 19,
+   "system_chars": {
+    "n": 19,
+    "mean": 3103.9,
+    "min": 2909,
+    "p50": 3078,
+    "max": 3292
+   },
+   "policy_chars": {
+    "n": 19,
+    "mean": 78,
+    "min": 78,
+    "p50": 78,
+    "max": 78
+   },
+   "member_chars": {
+    "n": 19,
+    "mean": 144.3,
+    "min": 91,
+    "p50": 128,
+    "max": 291
+   },
+   "tooldoc_chars": {
+    "n": 19,
+    "mean": 2035.6,
+    "min": 1795,
+    "p50": 2020,
+    "max": 2151
+   },
+   "n_tools": {
+    "n": 19,
+    "mean": 9,
+    "min": 8,
+    "p50": 9,
+    "max": 10
+   },
+   "conv_chars": {
+    "n": 19,
+    "mean": 354.4,
+    "min": 47,
+    "p50": 315,
+    "max": 619
+   },
+   "n_lookups_in_prompt": {
+    "n": 19,
+    "mean": 0.9,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "wallet",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 45,
+   "system_chars": {
+    "n": 45,
+    "mean": 14087.2,
+    "min": 13103,
+    "p50": 14131,
+    "max": 14517
+   },
+   "policy_chars": {
+    "n": 45,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 45,
+    "mean": 1892.2,
+    "min": 908,
+    "p50": 1936,
+    "max": 2322
+   },
+   "tooldoc_chars": {
+    "n": 45,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 45,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 45,
+    "mean": 342.8,
+    "min": 33,
+    "p50": 321,
+    "max": 707
+   },
+   "n_lookups_in_prompt": {
+    "n": 45,
+    "mean": 0.9,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "wallet",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 22,
+   "system_chars": {
+    "n": 22,
+    "mean": 14367,
+    "min": 13939,
+    "p50": 14376,
+    "max": 14709
+   },
+   "policy_chars": {
+    "n": 22,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 22,
+    "mean": 1980,
+    "min": 1552,
+    "p50": 1989,
+    "max": 2322
+   },
+   "tooldoc_chars": {
+    "n": 22,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 22,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 22,
+    "mean": 343.5,
+    "min": 35,
+    "p50": 350,
+    "max": 606
+   },
+   "n_lookups_in_prompt": {
+    "n": 22,
+    "mean": 1.0,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "wallet",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 42,
+   "system_chars": {
+    "n": 42,
+    "mean": 19323.9,
+    "min": 17800,
+    "p50": 19450,
+    "max": 19500
+   },
+   "policy_chars": {
+    "n": 42,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 42,
+    "mean": 7128.9,
+    "min": 5605,
+    "p50": 7255,
+    "max": 7305
+   },
+   "tooldoc_chars": {
+    "n": 42,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 42,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 42,
+    "mean": 338.3,
+    "min": 33,
+    "p50": 331,
+    "max": 619
+   },
+   "n_lookups_in_prompt": {
+    "n": 42,
+    "mean": 0.9,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "wallet",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 18,
+   "system_chars": {
+    "n": 18,
+    "mean": 19405.7,
+    "min": 17707,
+    "p50": 19642,
+    "max": 19690
+   },
+   "policy_chars": {
+    "n": 18,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 18,
+    "mean": 7018.7,
+    "min": 5320,
+    "p50": 7255,
+    "max": 7303
+   },
+   "tooldoc_chars": {
+    "n": 18,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 18,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 18,
+    "mean": 357.3,
+    "min": 47,
+    "p50": 320,
+    "max": 707
+   },
+   "n_lookups_in_prompt": {
+    "n": 18,
+    "mean": 0.9,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "wallet",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 12,
+   "system_chars": {
+    "n": 12,
+    "mean": 19282.4,
+    "min": 17515,
+    "p50": 19446,
+    "max": 19461
+   },
+   "policy_chars": {
+    "n": 12,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 12,
+    "mean": 7087.4,
+    "min": 5320,
+    "p50": 7251,
+    "max": 7266
+   },
+   "tooldoc_chars": {
+    "n": 12,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 12,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 12,
+    "mean": 321.1,
+    "min": 48,
+    "p50": 398,
+    "max": 627
+   },
+   "n_lookups_in_prompt": {
+    "n": 12,
+    "mean": 0.7,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "grpo_train",
+   "env": "wallet",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 6,
+   "system_chars": {
+    "n": 6,
+    "mean": 19316.3,
+    "min": 17707,
+    "p50": 19650,
+    "max": 19653
+   },
+   "policy_chars": {
+    "n": 6,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 6,
+    "mean": 6929.3,
+    "min": 5320,
+    "p50": 7263,
+    "max": 7266
+   },
+   "tooldoc_chars": {
+    "n": 6,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 6,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 6,
+    "mean": 418.8,
+    "min": 319,
+    "p50": 395,
+    "max": 715
+   },
+   "n_lookups_in_prompt": {
+    "n": 6,
+    "mean": 1,
+    "min": 1,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bills",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 35,
+   "system_chars": {
+    "n": 35,
+    "mean": 2969.4,
+    "min": 2926,
+    "p50": 2933,
+    "max": 3143
+   },
+   "policy_chars": {
+    "n": 35,
+    "mean": 46,
+    "min": 46,
+    "p50": 46,
+    "max": 46
+   },
+   "member_chars": {
+    "n": 35,
+    "mean": 138.7,
+    "min": 104,
+    "p50": 110,
+    "max": 219
+   },
+   "tooldoc_chars": {
+    "n": 35,
+    "mean": 2130.7,
+    "min": 2108,
+    "p50": 2121,
+    "max": 2257
+   },
+   "n_tools": {
+    "n": 35,
+    "mean": 13.1,
+    "min": 13,
+    "p50": 13,
+    "max": 14
+   },
+   "conv_chars": {
+    "n": 35,
+    "mean": 280.8,
+    "min": 26,
+    "p50": 368,
+    "max": 648
+   },
+   "n_lookups_in_prompt": {
+    "n": 35,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bills",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 21,
+   "system_chars": {
+    "n": 21,
+    "mean": 3171,
+    "min": 3118,
+    "p50": 3123,
+    "max": 3335
+   },
+   "policy_chars": {
+    "n": 21,
+    "mean": 46,
+    "min": 46,
+    "p50": 46,
+    "max": 46
+   },
+   "member_chars": {
+    "n": 21,
+    "mean": 138.7,
+    "min": 103,
+    "p50": 108,
+    "max": 259
+   },
+   "tooldoc_chars": {
+    "n": 21,
+    "mean": 2140.3,
+    "min": 2108,
+    "p50": 2123,
+    "max": 2257
+   },
+   "n_tools": {
+    "n": 21,
+    "mean": 13.1,
+    "min": 13,
+    "p50": 13,
+    "max": 14
+   },
+   "conv_chars": {
+    "n": 21,
+    "mean": 255.1,
+    "min": 26,
+    "p50": 332,
+    "max": 533
+   },
+   "n_lookups_in_prompt": {
+    "n": 21,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bills",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 39,
+   "system_chars": {
+    "n": 39,
+    "mean": 12248.9,
+    "min": 12068,
+    "p50": 12237,
+    "max": 12564
+   },
+   "policy_chars": {
+    "n": 39,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 39,
+    "mean": 1677.9,
+    "min": 1497,
+    "p50": 1666,
+    "max": 1993
+   },
+   "tooldoc_chars": {
+    "n": 39,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 39,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 39,
+    "mean": 296.3,
+    "min": 26,
+    "p50": 394,
+    "max": 648
+   },
+   "n_lookups_in_prompt": {
+    "n": 39,
+    "mean": 0.7,
+    "min": 0,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bills",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 15,
+   "system_chars": {
+    "n": 15,
+    "mean": 12406.1,
+    "min": 12260,
+    "p50": 12399,
+    "max": 12756
+   },
+   "policy_chars": {
+    "n": 15,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 15,
+    "mean": 1643.1,
+    "min": 1497,
+    "p50": 1636,
+    "max": 1993
+   },
+   "tooldoc_chars": {
+    "n": 15,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 15,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 15,
+    "mean": 235,
+    "min": 26,
+    "p50": 363,
+    "max": 504
+   },
+   "n_lookups_in_prompt": {
+    "n": 15,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bills",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 33,
+   "system_chars": {
+    "n": 33,
+    "mean": 19469.5,
+    "min": 19440,
+    "p50": 19470,
+    "max": 19499
+   },
+   "policy_chars": {
+    "n": 33,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 33,
+    "mean": 8898.5,
+    "min": 8869,
+    "p50": 8899,
+    "max": 8928
+   },
+   "tooldoc_chars": {
+    "n": 33,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 33,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 33,
+    "mean": 289.1,
+    "min": 26,
+    "p50": 364,
+    "max": 648
+   },
+   "n_lookups_in_prompt": {
+    "n": 33,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bills",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 22,
+   "system_chars": {
+    "n": 22,
+    "mean": 19662.3,
+    "min": 19632,
+    "p50": 19668,
+    "max": 19691
+   },
+   "policy_chars": {
+    "n": 22,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 22,
+    "mean": 8899.3,
+    "min": 8869,
+    "p50": 8905,
+    "max": 8928
+   },
+   "tooldoc_chars": {
+    "n": 22,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 22,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 22,
+    "mean": 255,
+    "min": 29,
+    "p50": 372,
+    "max": 519
+   },
+   "n_lookups_in_prompt": {
+    "n": 22,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 2
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bills",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 14,
+   "system_chars": {
+    "n": 14,
+    "mean": 19474.1,
+    "min": 19440,
+    "p50": 19470,
+    "max": 19499
+   },
+   "policy_chars": {
+    "n": 14,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 14,
+    "mean": 8903.1,
+    "min": 8869,
+    "p50": 8899,
+    "max": 8928
+   },
+   "tooldoc_chars": {
+    "n": 14,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 14,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 14,
+    "mean": 264.6,
+    "min": 39,
+    "p50": 377,
+    "max": 485
+   },
+   "n_lookups_in_prompt": {
+    "n": 14,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bills",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 4,
+   "system_chars": {
+    "n": 4,
+    "mean": 19642.5,
+    "min": 19632,
+    "p50": 19653,
+    "max": 19653
+   },
+   "policy_chars": {
+    "n": 4,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 4,
+    "mean": 8879.5,
+    "min": 8869,
+    "p50": 8890,
+    "max": 8890
+   },
+   "tooldoc_chars": {
+    "n": 4,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 4,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 4,
+    "mean": 267.5,
+    "min": 45,
+    "p50": 466,
+    "max": 512
+   },
+   "n_lookups_in_prompt": {
+    "n": 4,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bizops",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 26,
+   "system_chars": {
+    "n": 26,
+    "mean": 3273.7,
+    "min": 3154,
+    "p50": 3295,
+    "max": 3375
+   },
+   "policy_chars": {
+    "n": 26,
+    "mean": 42,
+    "min": 42,
+    "p50": 42,
+    "max": 42
+   },
+   "member_chars": {
+    "n": 26,
+    "mean": 203.7,
+    "min": 113,
+    "p50": 203,
+    "max": 318
+   },
+   "tooldoc_chars": {
+    "n": 26,
+    "mean": 2374,
+    "min": 2329,
+    "p50": 2361,
+    "max": 2499
+   },
+   "n_tools": {
+    "n": 26,
+    "mean": 14.2,
+    "min": 14,
+    "p50": 14,
+    "max": 15
+   },
+   "conv_chars": {
+    "n": 26,
+    "mean": 237.3,
+    "min": 31,
+    "p50": 302,
+    "max": 580
+   },
+   "n_lookups_in_prompt": {
+    "n": 26,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bizops",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 24,
+   "system_chars": {
+    "n": 24,
+    "mean": 3445.8,
+    "min": 3333,
+    "p50": 3482,
+    "max": 3533
+   },
+   "policy_chars": {
+    "n": 24,
+    "mean": 42,
+    "min": 42,
+    "p50": 42,
+    "max": 42
+   },
+   "member_chars": {
+    "n": 24,
+    "mean": 193.2,
+    "min": 113,
+    "p50": 204,
+    "max": 265
+   },
+   "tooldoc_chars": {
+    "n": 24,
+    "mean": 2364.6,
+    "min": 2329,
+    "p50": 2361,
+    "max": 2499
+   },
+   "n_tools": {
+    "n": 24,
+    "mean": 14.1,
+    "min": 14,
+    "p50": 14,
+    "max": 15
+   },
+   "conv_chars": {
+    "n": 24,
+    "mean": 236.6,
+    "min": 31,
+    "p50": 283,
+    "max": 617
+   },
+   "n_lookups_in_prompt": {
+    "n": 24,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bizops",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 33,
+   "system_chars": {
+    "n": 33,
+    "mean": 13433.8,
+    "min": 13129,
+    "p50": 13558,
+    "max": 13647
+   },
+   "policy_chars": {
+    "n": 33,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 33,
+    "mean": 2512.8,
+    "min": 2208,
+    "p50": 2637,
+    "max": 2726
+   },
+   "tooldoc_chars": {
+    "n": 33,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 33,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 33,
+    "mean": 252.2,
+    "min": 31,
+    "p50": 302,
+    "max": 617
+   },
+   "n_lookups_in_prompt": {
+    "n": 33,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bizops",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 14,
+   "system_chars": {
+    "n": 14,
+    "mean": 13459.7,
+    "min": 13321,
+    "p50": 13474,
+    "max": 13544
+   },
+   "policy_chars": {
+    "n": 14,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 14,
+    "mean": 2346.7,
+    "min": 2208,
+    "p50": 2361,
+    "max": 2431
+   },
+   "tooldoc_chars": {
+    "n": 14,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 14,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 14,
+    "mean": 238.3,
+    "min": 62,
+    "p50": 341,
+    "max": 580
+   },
+   "n_lookups_in_prompt": {
+    "n": 14,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bizops",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 32,
+   "system_chars": {
+    "n": 32,
+    "mean": 19445.6,
+    "min": 19409,
+    "p50": 19449,
+    "max": 19495
+   },
+   "policy_chars": {
+    "n": 32,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 32,
+    "mean": 8524.6,
+    "min": 8488,
+    "p50": 8528,
+    "max": 8574
+   },
+   "tooldoc_chars": {
+    "n": 32,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 32,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 32,
+    "mean": 244.3,
+    "min": 31,
+    "p50": 309,
+    "max": 580
+   },
+   "n_lookups_in_prompt": {
+    "n": 32,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bizops",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 16,
+   "system_chars": {
+    "n": 16,
+    "mean": 19637.2,
+    "min": 19601,
+    "p50": 19641,
+    "max": 19687
+   },
+   "policy_chars": {
+    "n": 16,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 16,
+    "mean": 8524.2,
+    "min": 8488,
+    "p50": 8528,
+    "max": 8574
+   },
+   "tooldoc_chars": {
+    "n": 16,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 16,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 16,
+    "mean": 242.1,
+    "min": 31,
+    "p50": 285,
+    "max": 617
+   },
+   "n_lookups_in_prompt": {
+    "n": 16,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bizops",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 15,
+   "system_chars": {
+    "n": 15,
+    "mean": 19447.5,
+    "min": 19411,
+    "p50": 19449,
+    "max": 19483
+   },
+   "policy_chars": {
+    "n": 15,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 15,
+    "mean": 8526.5,
+    "min": 8490,
+    "p50": 8528,
+    "max": 8562
+   },
+   "tooldoc_chars": {
+    "n": 15,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 15,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 15,
+    "mean": 252.4,
+    "min": 72,
+    "p50": 318,
+    "max": 418
+   },
+   "n_lookups_in_prompt": {
+    "n": 15,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "bizops",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 5,
+   "system_chars": {
+    "n": 5,
+    "mean": 19619,
+    "min": 19601,
+    "p50": 19601,
+    "max": 19646
+   },
+   "policy_chars": {
+    "n": 5,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 5,
+    "mean": 8506,
+    "min": 8488,
+    "p50": 8488,
+    "max": 8533
+   },
+   "tooldoc_chars": {
+    "n": 5,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 5,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 5,
+    "mean": 212.2,
+    "min": 41,
+    "p50": 293,
+    "max": 360
+   },
+   "n_lookups_in_prompt": {
+    "n": 5,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "shopping",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 34,
+   "system_chars": {
+    "n": 34,
+    "mean": 2597,
+    "min": 2532,
+    "p50": 2569,
+    "max": 2823
+   },
+   "policy_chars": {
+    "n": 34,
+    "mean": 82,
+    "min": 82,
+    "p50": 82,
+    "max": 82
+   },
+   "member_chars": {
+    "n": 34,
+    "mean": 172.9,
+    "min": 102,
+    "p50": 178,
+    "max": 258
+   },
+   "tooldoc_chars": {
+    "n": 34,
+    "mean": 1688.1,
+    "min": 1646,
+    "p50": 1668,
+    "max": 1829
+   },
+   "n_tools": {
+    "n": 34,
+    "mean": 9.1,
+    "min": 9,
+    "p50": 9,
+    "max": 10
+   },
+   "conv_chars": {
+    "n": 34,
+    "mean": 218.6,
+    "min": 24,
+    "p50": 286,
+    "max": 540
+   },
+   "n_lookups_in_prompt": {
+    "n": 34,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "shopping",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 15,
+   "system_chars": {
+    "n": 15,
+    "mean": 2823.4,
+    "min": 2724,
+    "p50": 2809,
+    "max": 3007
+   },
+   "policy_chars": {
+    "n": 15,
+    "mean": 82,
+    "min": 82,
+    "p50": 82,
+    "max": 82
+   },
+   "member_chars": {
+    "n": 15,
+    "mean": 200.4,
+    "min": 108,
+    "p50": 214,
+    "max": 258
+   },
+   "tooldoc_chars": {
+    "n": 15,
+    "mean": 1695,
+    "min": 1655,
+    "p50": 1668,
+    "max": 1829
+   },
+   "n_tools": {
+    "n": 15,
+    "mean": 9.1,
+    "min": 9,
+    "p50": 9,
+    "max": 10
+   },
+   "conv_chars": {
+    "n": 15,
+    "mean": 197.1,
+    "min": 29,
+    "p50": 254,
+    "max": 455
+   },
+   "n_lookups_in_prompt": {
+    "n": 15,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "shopping",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 29,
+   "system_chars": {
+    "n": 29,
+    "mean": 12612.7,
+    "min": 12227,
+    "p50": 12640,
+    "max": 12958
+   },
+   "policy_chars": {
+    "n": 29,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 29,
+    "mean": 1934.7,
+    "min": 1549,
+    "p50": 1962,
+    "max": 2280
+   },
+   "tooldoc_chars": {
+    "n": 29,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 29,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 29,
+    "mean": 214.3,
+    "min": 24,
+    "p50": 286,
+    "max": 540
+   },
+   "n_lookups_in_prompt": {
+    "n": 29,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "shopping",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 22,
+   "system_chars": {
+    "n": 22,
+    "mean": 12680.6,
+    "min": 12419,
+    "p50": 12587,
+    "max": 13150
+   },
+   "policy_chars": {
+    "n": 22,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 22,
+    "mean": 1810.6,
+    "min": 1549,
+    "p50": 1717,
+    "max": 2280
+   },
+   "tooldoc_chars": {
+    "n": 22,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 22,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 22,
+    "mean": 190.9,
+    "min": 28,
+    "p50": 254,
+    "max": 455
+   },
+   "n_lookups_in_prompt": {
+    "n": 22,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "shopping",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 42,
+   "system_chars": {
+    "n": 42,
+    "mean": 19467.2,
+    "min": 19422,
+    "p50": 19476,
+    "max": 19495
+   },
+   "policy_chars": {
+    "n": 42,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 42,
+    "mean": 8789.2,
+    "min": 8744,
+    "p50": 8798,
+    "max": 8817
+   },
+   "tooldoc_chars": {
+    "n": 42,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 42,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 42,
+    "mean": 226.4,
+    "min": 24,
+    "p50": 292,
+    "max": 540
+   },
+   "n_lookups_in_prompt": {
+    "n": 42,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "shopping",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 4,
+   "system_chars": {
+    "n": 4,
+    "mean": 19654.5,
+    "min": 19643,
+    "p50": 19666,
+    "max": 19666
+   },
+   "policy_chars": {
+    "n": 4,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 4,
+    "mean": 8784.5,
+    "min": 8773,
+    "p50": 8796,
+    "max": 8796
+   },
+   "tooldoc_chars": {
+    "n": 4,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 4,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 4,
+    "mean": 174.8,
+    "min": 30,
+    "p50": 259,
+    "max": 368
+   },
+   "n_lookups_in_prompt": {
+    "n": 4,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "shopping",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 12,
+   "system_chars": {
+    "n": 12,
+    "mean": 19485.5,
+    "min": 19474,
+    "p50": 19487,
+    "max": 19495
+   },
+   "policy_chars": {
+    "n": 12,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 12,
+    "mean": 8807.5,
+    "min": 8796,
+    "p50": 8809,
+    "max": 8817
+   },
+   "tooldoc_chars": {
+    "n": 12,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 12,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 12,
+    "mean": 251.6,
+    "min": 36,
+    "p50": 304,
+    "max": 550
+   },
+   "n_lookups_in_prompt": {
+    "n": 12,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "shopping",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 5,
+   "system_chars": {
+    "n": 5,
+    "mean": 19660.6,
+    "min": 19657,
+    "p50": 19657,
+    "max": 19666
+   },
+   "policy_chars": {
+    "n": 5,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 5,
+    "mean": 8790.6,
+    "min": 8787,
+    "p50": 8787,
+    "max": 8796
+   },
+   "tooldoc_chars": {
+    "n": 5,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 5,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 5,
+    "mean": 202,
+    "min": 41,
+    "p50": 170,
+    "max": 393
+   },
+   "n_lookups_in_prompt": {
+    "n": 5,
+    "mean": 0.6,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "wallet",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 88,
+   "system_chars": {
+    "n": 88,
+    "mean": 2919.5,
+    "min": 2700,
+    "p50": 2890,
+    "max": 3260
+   },
+   "policy_chars": {
+    "n": 88,
+    "mean": 78,
+    "min": 78,
+    "p50": 78,
+    "max": 78
+   },
+   "member_chars": {
+    "n": 88,
+    "mean": 142.1,
+    "min": 91,
+    "p50": 124,
+    "max": 240
+   },
+   "tooldoc_chars": {
+    "n": 88,
+    "mean": 2045.4,
+    "min": 1795,
+    "p50": 2030,
+    "max": 2288
+   },
+   "n_tools": {
+    "n": 88,
+    "mean": 9.0,
+    "min": 8,
+    "p50": 9,
+    "max": 11
+   },
+   "conv_chars": {
+    "n": 88,
+    "mean": 207.8,
+    "min": 24,
+    "p50": 260,
+    "max": 707
+   },
+   "n_lookups_in_prompt": {
+    "n": 88,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "wallet",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 38,
+   "system_chars": {
+    "n": 38,
+    "mean": 3119.0,
+    "min": 2909,
+    "p50": 3078,
+    "max": 3292
+   },
+   "policy_chars": {
+    "n": 38,
+    "mean": 78,
+    "min": 78,
+    "p50": 78,
+    "max": 78
+   },
+   "member_chars": {
+    "n": 38,
+    "mean": 141.9,
+    "min": 91,
+    "p50": 120,
+    "max": 291
+   },
+   "tooldoc_chars": {
+    "n": 38,
+    "mean": 2053.0,
+    "min": 1795,
+    "p50": 2046,
+    "max": 2239
+   },
+   "n_tools": {
+    "n": 38,
+    "mean": 9.1,
+    "min": 8,
+    "p50": 9,
+    "max": 10
+   },
+   "conv_chars": {
+    "n": 38,
+    "mean": 210.1,
+    "min": 25,
+    "p50": 263,
+    "max": 619
+   },
+   "n_lookups_in_prompt": {
+    "n": 38,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "wallet",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 81,
+   "system_chars": {
+    "n": 81,
+    "mean": 14096.2,
+    "min": 13103,
+    "p50": 14131,
+    "max": 14517
+   },
+   "policy_chars": {
+    "n": 81,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 81,
+    "mean": 1901.2,
+    "min": 908,
+    "p50": 1936,
+    "max": 2322
+   },
+   "tooldoc_chars": {
+    "n": 81,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 81,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 81,
+    "mean": 212.8,
+    "min": 25,
+    "p50": 260,
+    "max": 707
+   },
+   "n_lookups_in_prompt": {
+    "n": 81,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "wallet",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 43,
+   "system_chars": {
+    "n": 43,
+    "mean": 14360.2,
+    "min": 13939,
+    "p50": 14368,
+    "max": 14709
+   },
+   "policy_chars": {
+    "n": 43,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 43,
+    "mean": 1973.2,
+    "min": 1552,
+    "p50": 1981,
+    "max": 2322
+   },
+   "tooldoc_chars": {
+    "n": 43,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 43,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 43,
+    "mean": 199.6,
+    "min": 24,
+    "p50": 93,
+    "max": 606
+   },
+   "n_lookups_in_prompt": {
+    "n": 43,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 0,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "wallet",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 77,
+   "system_chars": {
+    "n": 77,
+    "mean": 19344.1,
+    "min": 17800,
+    "p50": 19450,
+    "max": 19500
+   },
+   "policy_chars": {
+    "n": 77,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 77,
+    "mean": 7149.1,
+    "min": 5605,
+    "p50": 7255,
+    "max": 7305
+   },
+   "tooldoc_chars": {
+    "n": 77,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 77,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 77,
+    "mean": 207.0,
+    "min": 24,
+    "p50": 260,
+    "max": 619
+   },
+   "n_lookups_in_prompt": {
+    "n": 77,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "wallet",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 34,
+   "system_chars": {
+    "n": 34,
+    "mean": 19448.9,
+    "min": 17707,
+    "p50": 19642,
+    "max": 19690
+   },
+   "policy_chars": {
+    "n": 34,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 34,
+    "mean": 7061.9,
+    "min": 5320,
+    "p50": 7255,
+    "max": 7303
+   },
+   "tooldoc_chars": {
+    "n": 34,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 34,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 34,
+    "mean": 211.9,
+    "min": 26,
+    "p50": 260,
+    "max": 707
+   },
+   "n_lookups_in_prompt": {
+    "n": 34,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "wallet",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 20,
+   "system_chars": {
+    "n": 20,
+    "mean": 19249.4,
+    "min": 17515,
+    "p50": 19446,
+    "max": 19461
+   },
+   "policy_chars": {
+    "n": 20,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 20,
+    "mean": 7054.4,
+    "min": 5320,
+    "p50": 7251,
+    "max": 7266
+   },
+   "tooldoc_chars": {
+    "n": 20,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 20,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 20,
+    "mean": 215.1,
+    "min": 41,
+    "p50": 68,
+    "max": 627
+   },
+   "n_lookups_in_prompt": {
+    "n": 20,
+    "mean": 0.4,
+    "min": 0,
+    "p50": 0,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_train",
+   "env": "wallet",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 12,
+   "system_chars": {
+    "n": 12,
+    "mean": 19316.3,
+    "min": 17707,
+    "p50": 19650,
+    "max": 19653
+   },
+   "policy_chars": {
+    "n": 12,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 12,
+    "mean": 6929.3,
+    "min": 5320,
+    "p50": 7263,
+    "max": 7266
+   },
+   "tooldoc_chars": {
+    "n": 12,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 12,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 12,
+    "mean": 234.7,
+    "min": 38,
+    "p50": 319,
+    "max": 715
+   },
+   "n_lookups_in_prompt": {
+    "n": 12,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "bills",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 3002.8,
+    "min": 2980,
+    "p50": 3008,
+    "max": 3015
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 46,
+    "min": 46,
+    "p50": 46,
+    "max": 46
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 174.8,
+    "min": 152,
+    "p50": 180,
+    "max": 187
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 2128,
+    "min": 2128,
+    "p50": 2128,
+    "max": 2128
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 13,
+    "min": 13,
+    "p50": 13,
+    "max": 13
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 281.8,
+    "min": 32,
+    "p50": 419,
+    "max": 647
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "bills",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 4,
+   "system_chars": {
+    "n": 4,
+    "mean": 3189.5,
+    "min": 3172,
+    "p50": 3207,
+    "max": 3207
+   },
+   "policy_chars": {
+    "n": 4,
+    "mean": 46,
+    "min": 46,
+    "p50": 46,
+    "max": 46
+   },
+   "member_chars": {
+    "n": 4,
+    "mean": 169.5,
+    "min": 152,
+    "p50": 187,
+    "max": 187
+   },
+   "tooldoc_chars": {
+    "n": 4,
+    "mean": 2128,
+    "min": 2128,
+    "p50": 2128,
+    "max": 2128
+   },
+   "n_tools": {
+    "n": 4,
+    "mean": 13,
+    "min": 13,
+    "p50": 13,
+    "max": 13
+   },
+   "conv_chars": {
+    "n": 4,
+    "mean": 276.8,
+    "min": 32,
+    "p50": 414,
+    "max": 628
+   },
+   "n_lookups_in_prompt": {
+    "n": 4,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "bills",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 6,
+   "system_chars": {
+    "n": 6,
+    "mean": 12115,
+    "min": 12097,
+    "p50": 12097,
+    "max": 12151
+   },
+   "policy_chars": {
+    "n": 6,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 6,
+    "mean": 1544,
+    "min": 1526,
+    "p50": 1526,
+    "max": 1580
+   },
+   "tooldoc_chars": {
+    "n": 6,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 6,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 6,
+    "mean": 261.3,
+    "min": 32,
+    "p50": 414,
+    "max": 637
+   },
+   "n_lookups_in_prompt": {
+    "n": 6,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "bills",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 6,
+   "system_chars": {
+    "n": 6,
+    "mean": 12537.7,
+    "min": 12343,
+    "p50": 12635,
+    "max": 12635
+   },
+   "policy_chars": {
+    "n": 6,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 6,
+    "mean": 1774.7,
+    "min": 1580,
+    "p50": 1872,
+    "max": 1872
+   },
+   "tooldoc_chars": {
+    "n": 6,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 6,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 6,
+    "mean": 298.8,
+    "min": 33,
+    "p50": 419,
+    "max": 647
+   },
+   "n_lookups_in_prompt": {
+    "n": 6,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "bills",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 10,
+   "system_chars": {
+    "n": 10,
+    "mean": 19466.8,
+    "min": 19451,
+    "p50": 19472,
+    "max": 19480
+   },
+   "policy_chars": {
+    "n": 10,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 10,
+    "mean": 8895.8,
+    "min": 8880,
+    "p50": 8901,
+    "max": 8909
+   },
+   "tooldoc_chars": {
+    "n": 10,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 10,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 10,
+    "mean": 291.5,
+    "min": 32,
+    "p50": 419,
+    "max": 647
+   },
+   "n_lookups_in_prompt": {
+    "n": 10,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "bills",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 2,
+   "system_chars": {
+    "n": 2,
+    "mean": 19664,
+    "min": 19664,
+    "p50": 19664,
+    "max": 19664
+   },
+   "policy_chars": {
+    "n": 2,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 2,
+    "mean": 8901,
+    "min": 8901,
+    "p50": 8901,
+    "max": 8901
+   },
+   "tooldoc_chars": {
+    "n": 2,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 2,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 2,
+    "mean": 223,
+    "min": 32,
+    "p50": 414,
+    "max": 414
+   },
+   "n_lookups_in_prompt": {
+    "n": 2,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "bills",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 2,
+   "system_chars": {
+    "n": 2,
+    "mean": 19480,
+    "min": 19480,
+    "p50": 19480,
+    "max": 19480
+   },
+   "policy_chars": {
+    "n": 2,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 2,
+    "mean": 8909,
+    "min": 8909,
+    "p50": 8909,
+    "max": 8909
+   },
+   "tooldoc_chars": {
+    "n": 2,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 2,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 2,
+    "mean": 239,
+    "min": 46,
+    "p50": 432,
+    "max": 432
+   },
+   "n_lookups_in_prompt": {
+    "n": 2,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "bills",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 2,
+   "system_chars": {
+    "n": 2,
+    "mean": 19672,
+    "min": 19672,
+    "p50": 19672,
+    "max": 19672
+   },
+   "policy_chars": {
+    "n": 2,
+    "mean": 5728,
+    "min": 5728,
+    "p50": 5728,
+    "max": 5728
+   },
+   "member_chars": {
+    "n": 2,
+    "mean": 8909,
+    "min": 8909,
+    "p50": 8909,
+    "max": 8909
+   },
+   "tooldoc_chars": {
+    "n": 2,
+    "mean": 4189,
+    "min": 4189,
+    "p50": 4189,
+    "max": 4189
+   },
+   "n_tools": {
+    "n": 2,
+    "mean": 28,
+    "min": 28,
+    "p50": 28,
+    "max": 28
+   },
+   "conv_chars": {
+    "n": 2,
+    "mean": 343.5,
+    "min": 46,
+    "p50": 641,
+    "max": 641
+   },
+   "n_lookups_in_prompt": {
+    "n": 2,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "bizops",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 3230.5,
+    "min": 3221,
+    "p50": 3240,
+    "max": 3240
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 42,
+    "min": 42,
+    "p50": 42,
+    "max": 42
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 208.5,
+    "min": 199,
+    "p50": 218,
+    "max": 218
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 2326,
+    "min": 2326,
+    "p50": 2326,
+    "max": 2326
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 14,
+    "min": 14,
+    "p50": 14,
+    "max": 14
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 219,
+    "min": 63,
+    "p50": 273,
+    "max": 471
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "bizops",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 2,
+   "system_chars": {
+    "n": 2,
+    "mean": 13547,
+    "min": 13547,
+    "p50": 13547,
+    "max": 13547
+   },
+   "policy_chars": {
+    "n": 2,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 2,
+    "mean": 2626,
+    "min": 2626,
+    "p50": 2626,
+    "max": 2626
+   },
+   "tooldoc_chars": {
+    "n": 2,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 2,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 2,
+    "mean": 267,
+    "min": 63,
+    "p50": 471,
+    "max": 471
+   },
+   "n_lookups_in_prompt": {
+    "n": 2,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "bizops",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 6,
+   "system_chars": {
+    "n": 6,
+    "mean": 13583,
+    "min": 13505,
+    "p50": 13505,
+    "max": 13739
+   },
+   "policy_chars": {
+    "n": 6,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 6,
+    "mean": 2470,
+    "min": 2392,
+    "p50": 2392,
+    "max": 2626
+   },
+   "tooldoc_chars": {
+    "n": 6,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 6,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 6,
+    "mean": 203,
+    "min": 63,
+    "p50": 273,
+    "max": 390
+   },
+   "n_lookups_in_prompt": {
+    "n": 6,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "bizops",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 19442,
+    "min": 19434,
+    "p50": 19450,
+    "max": 19450
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 8521,
+    "min": 8513,
+    "p50": 8529,
+    "max": 8529
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 219,
+    "min": 63,
+    "p50": 273,
+    "max": 471
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "bizops",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 4,
+   "system_chars": {
+    "n": 4,
+    "mean": 19450,
+    "min": 19450,
+    "p50": 19450,
+    "max": 19450
+   },
+   "policy_chars": {
+    "n": 4,
+    "mean": 5550,
+    "min": 5550,
+    "p50": 5550,
+    "max": 5550
+   },
+   "member_chars": {
+    "n": 4,
+    "mean": 8529,
+    "min": 8529,
+    "p50": 8529,
+    "max": 8529
+   },
+   "tooldoc_chars": {
+    "n": 4,
+    "mean": 4717,
+    "min": 4717,
+    "p50": 4717,
+    "max": 4717
+   },
+   "n_tools": {
+    "n": 4,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 4,
+    "mean": 250.8,
+    "min": 67,
+    "p50": 394,
+    "max": 475
+   },
+   "n_lookups_in_prompt": {
+    "n": 4,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "shopping",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 16,
+   "system_chars": {
+    "n": 16,
+    "mean": 2564.4,
+    "min": 2549,
+    "p50": 2568,
+    "max": 2591
+   },
+   "policy_chars": {
+    "n": 16,
+    "mean": 82,
+    "min": 82,
+    "p50": 82,
+    "max": 82
+   },
+   "member_chars": {
+    "n": 16,
+    "mean": 151.4,
+    "min": 136,
+    "p50": 155,
+    "max": 178
+   },
+   "tooldoc_chars": {
+    "n": 16,
+    "mean": 1677,
+    "min": 1677,
+    "p50": 1677,
+    "max": 1677
+   },
+   "n_tools": {
+    "n": 16,
+    "mean": 9,
+    "min": 9,
+    "p50": 9,
+    "max": 9
+   },
+   "conv_chars": {
+    "n": 16,
+    "mean": 166.2,
+    "min": 30,
+    "p50": 278,
+    "max": 310
+   },
+   "n_lookups_in_prompt": {
+    "n": 16,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "shopping",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 4,
+   "system_chars": {
+    "n": 4,
+    "mean": 2771.5,
+    "min": 2760,
+    "p50": 2783,
+    "max": 2783
+   },
+   "policy_chars": {
+    "n": 4,
+    "mean": 82,
+    "min": 82,
+    "p50": 82,
+    "max": 82
+   },
+   "member_chars": {
+    "n": 4,
+    "mean": 166.5,
+    "min": 155,
+    "p50": 178,
+    "max": 178
+   },
+   "tooldoc_chars": {
+    "n": 4,
+    "mean": 1677,
+    "min": 1677,
+    "p50": 1677,
+    "max": 1677
+   },
+   "n_tools": {
+    "n": 4,
+    "mean": 9,
+    "min": 9,
+    "p50": 9,
+    "max": 9
+   },
+   "conv_chars": {
+    "n": 4,
+    "mean": 159.5,
+    "min": 37,
+    "p50": 281,
+    "max": 283
+   },
+   "n_lookups_in_prompt": {
+    "n": 4,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "shopping",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 16,
+   "system_chars": {
+    "n": 16,
+    "mean": 12474.2,
+    "min": 12233,
+    "p50": 12365,
+    "max": 12934
+   },
+   "policy_chars": {
+    "n": 16,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 16,
+    "mean": 1796.2,
+    "min": 1555,
+    "p50": 1687,
+    "max": 2256
+   },
+   "tooldoc_chars": {
+    "n": 16,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 16,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 16,
+    "mean": 164.4,
+    "min": 30,
+    "p50": 278,
+    "max": 310
+   },
+   "n_lookups_in_prompt": {
+    "n": 16,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "shopping",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 4,
+   "system_chars": {
+    "n": 4,
+    "mean": 12588,
+    "min": 12557,
+    "p50": 12619,
+    "max": 12619
+   },
+   "policy_chars": {
+    "n": 4,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 4,
+    "mean": 1718,
+    "min": 1687,
+    "p50": 1749,
+    "max": 1749
+   },
+   "tooldoc_chars": {
+    "n": 4,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 4,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 4,
+    "mean": 166.8,
+    "min": 30,
+    "p50": 298,
+    "max": 304
+   },
+   "n_lookups_in_prompt": {
+    "n": 4,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "shopping",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 16,
+   "system_chars": {
+    "n": 16,
+    "mean": 19453,
+    "min": 19416,
+    "p50": 19466,
+    "max": 19488
+   },
+   "policy_chars": {
+    "n": 16,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 16,
+    "mean": 8775,
+    "min": 8738,
+    "p50": 8788,
+    "max": 8810
+   },
+   "tooldoc_chars": {
+    "n": 16,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 16,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 16,
+    "mean": 164.4,
+    "min": 30,
+    "p50": 278,
+    "max": 310
+   },
+   "n_lookups_in_prompt": {
+    "n": 16,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "shopping",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 4,
+   "system_chars": {
+    "n": 4,
+    "mean": 19651,
+    "min": 19622,
+    "p50": 19680,
+    "max": 19680
+   },
+   "policy_chars": {
+    "n": 4,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 4,
+    "mean": 8781,
+    "min": 8752,
+    "p50": 8810,
+    "max": 8810
+   },
+   "tooldoc_chars": {
+    "n": 4,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 4,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 4,
+    "mean": 166.8,
+    "min": 30,
+    "p50": 298,
+    "max": 304
+   },
+   "n_lookups_in_prompt": {
+    "n": 4,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "shopping",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 2,
+   "system_chars": {
+    "n": 2,
+    "mean": 19466,
+    "min": 19466,
+    "p50": 19466,
+    "max": 19466
+   },
+   "policy_chars": {
+    "n": 2,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 2,
+    "mean": 8788,
+    "min": 8788,
+    "p50": 8788,
+    "max": 8788
+   },
+   "tooldoc_chars": {
+    "n": 2,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 2,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 2,
+    "mean": 169,
+    "min": 46,
+    "p50": 292,
+    "max": 292
+   },
+   "n_lookups_in_prompt": {
+    "n": 2,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "shopping",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 2,
+   "system_chars": {
+    "n": 2,
+    "mean": 19658,
+    "min": 19658,
+    "p50": 19658,
+    "max": 19658
+   },
+   "policy_chars": {
+    "n": 2,
+    "mean": 6033,
+    "min": 6033,
+    "p50": 6033,
+    "max": 6033
+   },
+   "member_chars": {
+    "n": 2,
+    "mean": 8788,
+    "min": 8788,
+    "p50": 8788,
+    "max": 8788
+   },
+   "tooldoc_chars": {
+    "n": 2,
+    "mean": 3991,
+    "min": 3991,
+    "p50": 3991,
+    "max": 3991
+   },
+   "n_tools": {
+    "n": 2,
+    "mean": 26,
+    "min": 26,
+    "p50": 26,
+    "max": 26
+   },
+   "conv_chars": {
+    "n": 2,
+    "mean": 181.5,
+    "min": 46,
+    "p50": 317,
+    "max": 317
+   },
+   "n_lookups_in_prompt": {
+    "n": 2,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "wallet",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "rows": 20,
+   "system_chars": {
+    "n": 20,
+    "mean": 3020,
+    "min": 2850,
+    "p50": 3071,
+    "max": 3148
+   },
+   "policy_chars": {
+    "n": 20,
+    "mean": 78,
+    "min": 78,
+    "p50": 78,
+    "max": 78
+   },
+   "member_chars": {
+    "n": 20,
+    "mean": 195.4,
+    "min": 143,
+    "p50": 196,
+    "max": 273
+   },
+   "tooldoc_chars": {
+    "n": 20,
+    "mean": 2092.6,
+    "min": 1975,
+    "p50": 2143,
+    "max": 2143
+   },
+   "n_tools": {
+    "n": 20,
+    "mean": 9,
+    "min": 9,
+    "p50": 9,
+    "max": 9
+   },
+   "conv_chars": {
+    "n": 20,
+    "mean": 199.1,
+    "min": 15,
+    "p50": 280,
+    "max": 426
+   },
+   "n_lookups_in_prompt": {
+    "n": 20,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "wallet",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 3194,
+    "min": 3044,
+    "p50": 3243,
+    "max": 3246
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 78,
+    "min": 78,
+    "p50": 78,
+    "max": 78
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 169,
+    "min": 145,
+    "p50": 176,
+    "max": 179
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 2101,
+    "min": 1975,
+    "p50": 2143,
+    "max": 2143
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 9,
+    "min": 9,
+    "p50": 9,
+    "max": 9
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 200.2,
+    "min": 14,
+    "p50": 280,
+    "max": 429
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "wallet",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "rows": 20,
+   "system_chars": {
+    "n": 20,
+    "mean": 13959.9,
+    "min": 13292,
+    "p50": 13995,
+    "max": 14422
+   },
+   "policy_chars": {
+    "n": 20,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 20,
+    "mean": 1764.9,
+    "min": 1097,
+    "p50": 1800,
+    "max": 2227
+   },
+   "tooldoc_chars": {
+    "n": 20,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 20,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 20,
+    "mean": 202.2,
+    "min": 14,
+    "p50": 280,
+    "max": 429
+   },
+   "n_lookups_in_prompt": {
+    "n": 20,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "wallet",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 14203.8,
+    "min": 14172,
+    "p50": 14228,
+    "max": 14228
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 1816.8,
+    "min": 1785,
+    "p50": 1841,
+    "max": 1841
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 192.4,
+    "min": 21,
+    "p50": 285,
+    "max": 357
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "wallet",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "rows": 20,
+   "system_chars": {
+    "n": 20,
+    "mean": 19322.6,
+    "min": 17957,
+    "p50": 19479,
+    "max": 19493
+   },
+   "policy_chars": {
+    "n": 20,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 20,
+    "mean": 7127.6,
+    "min": 5762,
+    "p50": 7284,
+    "max": 7298
+   },
+   "tooldoc_chars": {
+    "n": 20,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 20,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 20,
+    "mean": 195.4,
+    "min": 14,
+    "p50": 280,
+    "max": 426
+   },
+   "n_lookups_in_prompt": {
+    "n": 20,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "wallet",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "rows": 8,
+   "system_chars": {
+    "n": 8,
+    "mean": 19296.5,
+    "min": 18149,
+    "p50": 19681,
+    "max": 19685
+   },
+   "policy_chars": {
+    "n": 8,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 8,
+    "mean": 6909.5,
+    "min": 5762,
+    "p50": 7294,
+    "max": 7298
+   },
+   "tooldoc_chars": {
+    "n": 8,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 8,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 8,
+    "mean": 209.4,
+    "min": 24,
+    "p50": 286,
+    "max": 429
+   },
+   "n_lookups_in_prompt": {
+    "n": 8,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "wallet",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "rows": 6,
+   "system_chars": {
+    "n": 6,
+    "mean": 19479,
+    "min": 19479,
+    "p50": 19479,
+    "max": 19479
+   },
+   "policy_chars": {
+    "n": 6,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 6,
+    "mean": 7284,
+    "min": 7284,
+    "p50": 7284,
+    "max": 7284
+   },
+   "tooldoc_chars": {
+    "n": 6,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 6,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 6,
+    "mean": 225.2,
+    "min": 34,
+    "p50": 298,
+    "max": 438
+   },
+   "n_lookups_in_prompt": {
+    "n": 6,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  },
+  {
+   "file": "sft_val",
+   "env": "wallet",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "rows": 2,
+   "system_chars": {
+    "n": 2,
+    "mean": 19671,
+    "min": 19671,
+    "p50": 19671,
+    "max": 19671
+   },
+   "policy_chars": {
+    "n": 2,
+    "mean": 6032,
+    "min": 6032,
+    "p50": 6032,
+    "max": 6032
+   },
+   "member_chars": {
+    "n": 2,
+    "mean": 7284,
+    "min": 7284,
+    "p50": 7284,
+    "max": 7284
+   },
+   "tooldoc_chars": {
+    "n": 2,
+    "mean": 5509,
+    "min": 5509,
+    "p50": 5509,
+    "max": 5509
+   },
+   "n_tools": {
+    "n": 2,
+    "mean": 27,
+    "min": 27,
+    "p50": 27,
+    "max": 27
+   },
+   "conv_chars": {
+    "n": 2,
+    "mean": 155,
+    "min": 22,
+    "p50": 288,
+    "max": 288
+   },
+   "n_lookups_in_prompt": {
+    "n": 2,
+    "mean": 0.5,
+    "min": 0,
+    "p50": 1,
+    "max": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,409 @@
+{
+ "grpo_rows": 496,
+ "prompt_identity": {
+  "identical_to_sft_decision_same_key": 496,
+  "identical_to_any_sft_row": 496,
+  "identical_to_sft_nondecision_row": 0,
+  "identical_to_sft_val_row": 0,
+  "multiple_sft_hits": 0
+ },
+ "sft_target_graded_by_reward": {
+  "A": {
+   "ask_informed": 247
+  },
+  "B_act": {
+   "commit_gold": 18
+  },
+  "B_approve": {
+   "approve_generic": 219,
+   "approve_informed": 12
+  }
+ },
+ "sft_target_base_not_top": 0,
+ "sft_target_base_not_top_by_cell": {
+  "A": 0,
+  "B_act": 0,
+  "B_approve": 0
+ },
+ "sft_target_starts_with_tool_call_by_cell": {
+  "A": {
+   "tool": 0,
+   "n": 247
+  },
+  "B_act": {
+   "tool": 18,
+   "n": 18
+  },
+  "B_approve": {
+   "tool": 231,
+   "n": 231
+  }
+ },
+ "sft_target_not_top_examples": [],
+ "n_samples": 960,
+ "score_decomposition_ok": 960,
+ "steps": [
+  0,
+  1,
+  2,
+  "...",
+  28,
+  29
+ ],
+ "all_steps_32_samples_4_prompts": true,
+ "distinct_prompts": 120,
+ "prompts_in_more_than_one_step": 0,
+ "class_counts_by_twin": {
+  "A": {
+   "ask_informed": 220,
+   "approve_generic": 83,
+   "approve_informed": 75,
+   "ask_generic": 36,
+   "lookup": 26,
+   "tell_informed": 8,
+   "commit_other": 6,
+   "approve_gold": 4,
+   "invalid": 3,
+   "commit_gold": 1,
+   "commit_harmful": 1,
+   "statement": 1
+  },
+  "B": {
+   "approve_generic": 242,
+   "ask_generic": 101,
+   "ask_informed": 84,
+   "commit_gold": 24,
+   "approve_informed": 19,
+   "commit_other": 10,
+   "lookup": 6,
+   "invalid": 4,
+   "tell_informed": 3,
+   "statement": 3
+  }
+ },
+ "class_counts_by_cell": {
+  "A": {
+   "ask_informed": 220,
+   "approve_generic": 83,
+   "approve_informed": 75,
+   "ask_generic": 36,
+   "lookup": 26,
+   "tell_informed": 8,
+   "commit_other": 6,
+   "approve_gold": 4,
+   "invalid": 3,
+   "commit_gold": 1,
+   "commit_harmful": 1,
+   "statement": 1
+  },
+  "B_act": {
+   "commit_gold": 19,
+   "approve_generic": 9,
+   "ask_informed": 5,
+   "commit_other": 4,
+   "ask_generic": 2,
+   "invalid": 1
+  },
+  "B_approve": {
+   "approve_generic": 233,
+   "ask_generic": 99,
+   "ask_informed": 79,
+   "approve_informed": 19,
+   "lookup": 6,
+   "commit_other": 6,
+   "commit_gold": 5,
+   "tell_informed": 3,
+   "invalid": 3,
+   "statement": 3
+  }
+ },
+ "n_by_cell": {
+  "A": 464,
+  "B_act": 40,
+  "B_approve": 456
+ },
+ "gold_rate_by_cell": {
+  "A": 0.4741,
+  "B_act": 0.475,
+  "B_approve": 0.5526
+ },
+ "strict_rate_by_cell": {
+  "A": 0.4914,
+  "B_act": 0.575,
+  "B_approve": 0.5526
+ },
+ "lenient_rate_by_cell": {
+  "A": 0.6616,
+  "B_act": 0.8,
+  "B_approve": 0.5526
+ },
+ "P(is_ask|A)": 0.5517,
+ "P(is_ask|B)": 0.373,
+ "dprime_is_ask": 0.454,
+ "P(is_ask_or_tell|A)": 0.569,
+ "P(is_ask_or_tell|B)": 0.379,
+ "dprime_is_ask_or_tell": 0.4818,
+ "P(approve|A)": 0.3491,
+ "P(approve|B)": 0.5262,
+ "P(approve_or_commit|B)": 0.5948,
+ "A_approval_cards": 162,
+ "A_approval_cards_informed_or_gold": 79,
+ "groups": 120,
+ "groups_0_lt_pass_lt_1": 108,
+ "groups_pass_0": 10,
+ "groups_pass_1": 2,
+ "groups_pass_gt_half": 0.4667,
+ "groups_pass_ge_half": 0.6667,
+ "groups_plurality_class_is_gold_unique": 0.5667,
+ "groups_zero_reward_variance": 6,
+ "mean_within_group_std_ddof1": 0.6345,
+ "groups_by_cell": {
+  "A": 58,
+  "B_act": 5,
+  "B_approve": 57
+ },
+ "pass_gold_by_cell_prompt_mean": {
+  "A": 0.4741,
+  "B_act": 0.475,
+  "B_approve": 0.5526
+ },
+ "implied_gold_nll_clip_1_16": {
+  "mean": 0.8683,
+  "median": 0.6931
+ },
+ "implied_gold_nll_clip_1_32": {
+  "mean": 0.9255,
+  "median": 0.6931
+ },
+ "implied_family_nll_clip_1_16": {
+  "mean": 0.693,
+  "median": 0.47,
+  "note": "A: P(ask or tell); B: P(approve or commit) -- the first-token family"
+ },
+ "examples": {
+  "204": {
+   "sid": "V541A",
+   "level": "L0r",
+   "ps": "P0",
+   "step": 0,
+   "classes": [
+    [
+     "approve_generic",
+     7
+    ],
+    [
+     "ask_generic",
+     1
+    ]
+   ],
+   "zero_prefix": false
+  },
+  "137": {
+   "sid": "S42A",
+   "level": "L1",
+   "ps": "P0",
+   "step": 15,
+   "classes": [
+    [
+     "approve_generic",
+     7
+    ],
+    [
+     "commit_other",
+     1
+    ]
+   ],
+   "zero_prefix": false
+  },
+  "232": {
+   "sid": "V061B",
+   "level": "L0r",
+   "ps": "P0",
+   "step": 4,
+   "classes": [
+    [
+     "ask_informed",
+     5
+    ],
+    [
+     "ask_generic",
+     2
+    ],
+    [
+     "tell_informed",
+     1
+    ]
+   ],
+   "zero_prefix": false
+  },
+  "262": {
+   "sid": "S03A",
+   "level": "L1",
+   "ps": "P0",
+   "step": 28,
+   "classes": [
+    [
+     "lookup",
+     8
+    ]
+   ],
+   "zero_prefix": true
+  },
+  "372": {
+   "sid": "S02A",
+   "level": "L3",
+   "ps": "P0",
+   "step": 19,
+   "classes": [
+    [
+     "lookup",
+     5
+    ],
+    [
+     "approve_generic",
+     3
+    ]
+   ],
+   "zero_prefix": true
+  },
+  "435": {
+   "sid": "S02A",
+   "level": "L2",
+   "ps": "P0",
+   "step": 21,
+   "classes": [
+    [
+     "lookup",
+     5
+    ],
+    [
+     "approve_generic",
+     2
+    ],
+    [
+     "ask_generic",
+     1
+    ]
+   ],
+   "zero_prefix": true
+  },
+  "487": {
+   "sid": "S34A",
+   "level": "L2",
+   "ps": "P0",
+   "step": 27,
+   "classes": [
+    [
+     "approve_informed",
+     7
+    ],
+    [
+     "ask_informed",
+     1
+    ]
+   ],
+   "zero_prefix": false
+  },
+  "468": {
+   "sid": "S26A",
+   "level": "L3",
+   "ps": "P2",
+   "step": 28,
+   "classes": [
+    [
+     "lookup",
+     5
+    ],
+    [
+     "approve_generic",
+     1
+    ],
+    [
+     "statement",
+     1
+    ],
+    [
+     "ask_generic",
+     1
+    ]
+   ],
+   "zero_prefix": false
+  },
+  "1": {
+   "sid": "V581B",
+   "level": "L2",
+   "ps": "P0",
+   "step": 25,
+   "classes": [
+    [
+     "ask_generic",
+     5
+    ],
+    [
+     "ask_informed",
+     2
+    ],
+    [
+     "approve_generic",
+     1
+    ]
+   ],
+   "zero_prefix": false
+  },
+  "494": {
+   "sid": "V184B",
+   "level": "L0r",
+   "ps": "P0",
+   "step": 3,
+   "classes": [
+    [
+     "ask_informed",
+     4
+    ],
+    [
+     "ask_generic",
+     3
+    ],
+    [
+     "approve_generic",
+     1
+    ]
+   ],
+   "zero_prefix": false
+  },
+  "279": {
+   "sid": "S32B",
+   "level": "L2",
+   "ps": "P0",
+   "step": 2,
+   "classes": [
+    [
+     "approve_generic",
+     8
+    ]
+   ],
+   "zero_prefix": false
+  },
+  "294": {
+   "sid": "V254B",
+   "level": "L1",
+   "ps": "P0",
+   "step": 2,
+   "classes": [
+    [
+     "ask_informed",
+     4
+    ],
+    [
+     "ask_generic",
+     3
+    ],
+    [
+     "tell_informed",
+     1
+    ]
+   ],
+   "zero_prefix": false
+  }
+ }
+}

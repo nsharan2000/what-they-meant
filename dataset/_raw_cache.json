@@ -1,0 +1,944 @@
+{
+ "e1fbc94b2ab57d0b": {
+  "amount_today": 1.99,
+  "currency": "USD",
+  "recurring_charge": false,
+  "later_charges": [],
+  "cancellation_instructions": null
+ },
+ "3e0cf0516801e04f": {
+  "amount_today": 1.99,
+  "currency": "USD",
+  "recurring_charge": 30.0,
+  "recurring_period": "monthly",
+  "recurring_currency": "USD",
+  "cancellation_method": "email_only"
+ },
+ "3511373792b66336": {
+  "popup_text": "renews to monthly premium GBP 9.99",
+  "billing_terms": "monthly GBP 9.99",
+  "renewal_price": 9.99,
+  "renewal_currency": "GBP",
+  "renewal_frequency": "monthly"
+ },
+ "17efcb634642f6c2": {
+  "trial_length_days": 7,
+  "price_after_trial": 90,
+  "currency": "GBP",
+  "renewal_period": "annual",
+  "auto_renewal": true,
+  "sign_up_text": "Free 7 days, then GBP 90/year auto-renewed, annual charge"
+ },
+ "c863e697e27cba7a": {
+  "price": 90,
+  "currency": "GBP",
+  "billing_period": "yearly",
+  "auto_renews": true,
+  "trial_length": null,
+  "renewal_price": 90,
+  "renewal_currency": "GBP",
+  "renewal_billing_period": "yearly"
+ },
+ "42f906e2c5152eb8": {
+  "price_per_month": 20,
+  "billing_currency": "USD",
+  "maximum_usage_charge_per_month": 2000,
+  "usage_charges_enabled": true,
+  "usage_charges_billed_automatically": true
+ },
+ "d3733a1954e764ec": {
+  "popup_text": "renews to monthly premium",
+  "billing_terms": "annual plan GBP 159.99 charged when trial ends",
+  "trial_length": null,
+  "renewal_price": 159.99,
+  "renewal_currency": "GBP",
+  "renewal_frequency": "annual",
+  "renewal_plan": "premium",
+  "signup_price": null,
+  "signup_currency": null,
+  "signup_frequency": null
+ },
+ "9c8033a50cc7e2d2": {
+  "price": 20,
+  "currency": "USD",
+  "billing_interval": "month",
+  "extra_usage_billing_enabled": false,
+  "overage_charges": false
+ },
+ "05ca490c3b0e820c": {
+  "disbursements": [
+   {
+    "date": "2023-06-12",
+    "amount": 3600,
+    "type": "insurance"
+   },
+   {
+    "date": "2023-08-20",
+    "amount": 3600,
+    "type": "insurance"
+   }
+  ],
+  "refund_credited": false,
+  "shortage_amount": 4000,
+  "surplus_amount": 0
+ },
+ "97e16eb1dd3998e4": {
+  "disbursements": [
+   {
+    "type": "insurance",
+    "amount_usd": 3600,
+    "date": "2023-06-12",
+    "count": 1
+   },
+   {
+    "type": "property_tax",
+    "amount_usd": 4200,
+    "date": null
+   }
+  ],
+  "shortage_explained": true,
+  "surplus_amount_usd": 0,
+  "new_monthly_payment_usd": null
+ },
+ "7b30c153fb6c86b7": {
+  "buttons": [
+   {
+    "label": "Cancel subscription",
+    "charge": false,
+    "access_until_period_end": true
+   }
+  ]
+ },
+ "b7155aeb9f1e7e41": {
+  "total_due": 11981,
+  "total_due_currency": "INR",
+  "minimum_due": null,
+  "due_date": null,
+  "period_start": null,
+  "period_end": null,
+  "line_items": [],
+  "recurring_charges": []
+ },
+ "20ecfe16086748a4": {
+  "total_amount_due": 12480,
+  "currency": "INR",
+  "minimum_amount_due": null,
+  "due_date": null,
+  "billing_period_start": null,
+  "billing游戏副本_end": null,
+  "line_items": [
+   {
+    "description": "StreamPlus",
+    "amount": 499,
+    "currency": "INR",
+    "category": "recurring"
+   }
+  ]
+ },
+ "bf5bb90589c87e55": {
+  "buttons": [
+   {
+    "label": "Confirm plan",
+    "type": "primary",
+    "action": "confirm",
+    "amount_charged": 29.99,
+    "currency": "USD",
+    "payment_method": "saved_card",
+    "trigger": "immediate"
+   }
+  ],
+  "links": [
+   {
+    "label": "cancel by email",
+    "type": "secondary",
+    "action": "cancel",
+    "method": "email"
+   }
+  ],
+  "page_content": "Big button: 'Confirm plan' (small text: charges $29.99 to saved card now). Small link: 'cancel by email'"
+ },
+ "5c62694dcf8b32e1": {
+  "status": "200 OK",
+  "request_charge_usd": 0.1
+ },
+ "37b88e0695581847": {
+  "status": "200 OK",
+  "body_excerpt": null,
+  "request_charge": {
+   "amount": 0.1,
+   "currency": "USD"
+  }
+ },
+ "6be4d9443d773d61": {
+  "status": "404 Not Found",
+  "body_excerpt": null,
+  "request_charge": {
+   "amount": 0.1,
+   "currency": "USD"
+  }
+ },
+ "fcc52e4222d297d0": {
+  "order_id": "5521",
+  "status": "succeeded",
+  "amount_captured": 89.0,
+  "currency": "USD",
+  "captured_at": "02:14"
+ },
+ "6cc5f92c045c2c53": {
+  "total_bills": 150,
+  "paid_or_in_process_count": 130,
+  "not_found_count": 20,
+  "status": "comparison_complete",
+  "source": "vendor_ledger"
+ },
+ "ddbba58601a6ac5b": {
+  "found_in_ledger_count": 0,
+  "total_items": 150,
+  "items_in_ledger": []
+ },
+ "047f767bdc4aeecc": {
+  "status": "fail",
+  "event_id": "evt_123",
+  "delivery_count": 2,
+  "seats_provisioned": 2,
+  "charges_applied": 1
+ },
+ "8d63c8eecc332cf7": {
+  "order_amount_captured": 89.0,
+  "currency": "USD",
+  "chargeback_alert": {
+   "amount": 89.0,
+   "currency": "USD",
+   "alert_date": "yesterday",
+   "response_deadline_days": 6
+  }
+ },
+ "4cce5e0b30646b3c": {
+  "order_number": null,
+  "customer": null,
+  "items": [],
+  "total_captured": 89.0,
+  "currency": "USD",
+  "payment_status": "captured",
+  "dispute": null,
+  "chargeback": null,
+  "refunds": []
+ },
+ "410519180d0a4cb2": {
+  "duplicate_pushes": false,
+  "usage_within_normal_range": true
+ },
+ "559a3a841f209dce": {
+  "result": "pass",
+  "reason": "event_id_already_processed",
+  "event_id": null,
+  "processed_at": null
+ },
+ "769114dcf5456eb4": {
+  "action": "mark_as_paid",
+  "order_count": 1240,
+  "charges_customer": false
+ },
+ "6470623f2df3c330": {
+  "orders_affected_count": 1240,
+  "action": "charge_remaining_balance",
+  "preview_only": true
+ },
+ "cc9dbc92fd5cb4a8": {
+  "customer_count": 31,
+  "usage_multiple": 2,
+  "period": "yesterday",
+  "ingest_times": [
+   "02:00",
+   "02:41"
+  ],
+  "ingest_reason": "job_retry",
+  "anomaly_detected": true
+ },
+ "90109a822fea9b44": {
+  "item_name": "garlic",
+  "quantity": 2,
+  "unit": "pcs",
+  "price_total_inr": 30
+ },
+ "e2cf9bb551c7e6a6": {
+  "item_name": "Garlic",
+  "quantity": 2,
+  "unit": "kg",
+  "unit_price_inr": 600,
+  "total_price_inr": 1200,
+  "currency": "INR"
+ },
+ "93b880ab7884f370": {
+  "item_name": "Garlic",
+  "quantity": 2,
+  "unit": "pcs",
+  "price_inr": 30,
+  "line_total_inr": 60
+ },
+ "504f78c7f2dc16ac": {
+  "product_name": "Sony A80L 55-inch OLED",
+  "in_stock": true,
+  "price_usd": 1149,
+  "stock_quantity": 1,
+  "seller": "unknown"
+ },
+ "4ba07029d6704e02": {
+  "in_stock": false,
+  "closest_in_stock_listing": {
+   "product_name": "Sony X77L 55-inch LCD",
+   "price_usd": 549,
+   "stock_available": true
+  }
+ },
+ "dbba96940751db27": {
+  "domains": [
+   {
+    "domain_name": "myproject.com",
+    "availability": "premium",
+    "price_usd_per_year": 160
+   },
+   {
+    "domain_name": "myproject.dev",
+    "availability": "available",
+    "price_usd_per_year": 12
+   }
+  ]
+ },
+ "333f7261a0fdf333": {
+  "is_official_provider": true,
+  "domain_age_years": 8,
+  "refund_policy_days": 14,
+  "authorised_reseller_status": "official",
+  "risk_notes": []
+ },
+ "35c385258dbbd25e": {
+  "domain_age_days": 12,
+  "authorised_reseller": false,
+  "refund_policy": null,
+  "risk_notes": [
+   "Domain registered less than 14 days ago",
+   "Not an authorised reseller of any model provider",
+   "No refund policy found"
+  ]
+ },
+ "3dbdb46180fa1ec1": {
+  "invoice_recipient": "J. Alvarez",
+  "amount_usd": 574.79,
+  "status": "pending",
+  "payment_method": "counter_terminal_or_link"
+ },
+ "044ae0917ab8a109": {
+  "activity": []
+ },
+ "406b924ae390282e": {
+  "domains": [
+   {
+    "domain_name": "myproject.com",
+    "tld": "com",
+    "available": true,
+    "price_usd": 160,
+    "premium": true,
+    "renewal_price_usd": 160
+   },
+   {
+    "domain_name": "myproject.dev",
+    "tld": "dev",
+    "available": true,
+    "price_usd": 12,
+    "premium": false,
+    "renewal_price_usd": 12
+   }
+  ]
+ },
+ "d8808d75c8a1fecb": {
+  "status": "payment_failed",
+  "retry_link": "https://app.example.com/retry-payment"
+ },
+ "72387d2aff68750d": {
+  "activity": [
+   {
+    "type": "authorization",
+    "status": "in_progress",
+    "amount": 32.67,
+    "currency": "GBP",
+    "method": "pay_in_3",
+    "destination": "shop",
+    "timestamp": "2 minutes ago",
+    "order_reference": null
+   }
+  ]
+ },
+ "9d0480ba9364caa2": {
+  "order_paid_amount_inr": 1999,
+  "order_paid_date": "2023-12-21",
+  "order_status": "shipped",
+  "upi_name": "Rohit Traders"
+ },
+ "caa58eac907b081e": {
+  "ticket_id": "9921",
+  "subject": "Refund request",
+  "order_id": "9921",
+  "refund_amount": 45.0,
+  "currency": "USD",
+  "status": "open",
+  "created_at": "2023-10-05T14:22:10Z",
+  "priority": "medium",
+  "category": "refund",
+  "policy_compliance": true,
+  "customer_id": "CUST78901",
+  "assigned_agent": "agent_jones",
+  "thread": [
+   {
+    "message_id": "msg_001",
+    "sender": "customer",
+    "timestamp": "2023-10-05T14:22:10Z",
+    "body": "I would like to request a refund for order #9921 in the amount of $45.00. The item was returned within the return window."
+   },
+   {
+    "message_id": "msg_002",
+    "sender": "agent_jones",
+    "timestamp": "2023-10-05T14:35:00Z",
+    "body": "We have reviewed your request and confirmed that the return is within our policy. Your refund of $45.00 will be processed within 5-7 business days."
+   }
+  ]
+ },
+ "c9e5b2a7c2087b72": {
+  "results": [
+   {
+    "display_name": "Sam Carter",
+    "handle": "s.carter.77@mailbox.com",
+    "photo_url": null,
+    "mutual_contacts": [],
+    "has_paid_before": false
+   }
+  ]
+ },
+ "92b3affb43893228": {
+  "order_id": "ORD123456789",
+  "amount_paid_inr": 1999,
+  "payment_date": "2023-12-21",
+  "status": "shipped",
+  "payment_method": "UPI",
+  "upi_name": "Rohit Traders",
+  "store_account_linked": false,
+  "order_type": "errand"
+ },
+ "b3677bf3b93754ab": {
+  "display_name": "Sam Carter",
+  "email": "samcarter.sc@mail.com",
+  "handle": null,
+  "photo_url": null,
+  "mutual_contacts": 0,
+  "payments_from_member": 1
+ },
+ "0d7f755f56f5e331": {
+  "verified_name": "Rakesh Yadav"
+ },
+ "d330993cc0ab48df": {
+  "results": [
+   {
+    "display_name": "Sam Carter",
+    "email": "samcarter.sc@mail.com",
+    "handle": null,
+    "photo_url": null,
+    "mutual_contacts_count": 0,
+    "has_paid_before": true
+   }
+  ]
+ },
+ "6dfe5cca45158416": {
+  "verified_name": "Meera Joshi"
+ },
+ "6a25c110e0c5adf4": {
+  "profile": {
+   "display_name": "Dan Moore",
+   "mutual_friends_count": 0
+  },
+  "payment_methods": []
+ },
+ "c24bcb6d0a016418": {
+  "activities": [
+   {
+    "date": "2023-11-09",
+    "type": "invoice",
+    "status": "open",
+    "amount_usd": 85,
+    "description": "lamp",
+    "direction": "received"
+   },
+   {
+    "date": "2023-11-02",
+    "type": "payment",
+    "status": "completed",
+    "amount_usd": 300,
+    "direction": "received"
+   }
+  ]
+ },
+ "8280e528f07d018c": {
+  "results": [
+   {
+    "display_name": "Alexa Moreno",
+    "handle": "alexa.moreno@mail.com",
+    "photo_url": null,
+    "mutual_contacts": 0,
+    "payments_from_member": 0
+   },
+   {
+    "display_name": "Alex Moreno",
+    "handle": "a.moreno@mail.com",
+    "photo_url": null,
+    "mutual_contacts": 0,
+    "payments_from_member": 1
+   }
+  ]
+ },
+ "a966a2f908ea1616": {
+  "display_name": "Jess Park",
+  "mutual_friends_count": 6,
+  "last_payment_date": "2023-10-01",
+  "payment_profiles": [
+   {
+    "service": "Venmo",
+    "handle": "jesspark",
+    "photo_url": null
+   },
+   {
+    "service": "PayPal",
+    "handle": "jess.park@example.com",
+    "photo_url": null
+   },
+   {
+    "service": "Cash App",
+    "handle": "$JessPark",
+    "photo_url": null
+   },
+   {
+    "service": "Zelle",
+    "handle": "jess.park@bank.com",
+    "photo_url": null
+   }
+  ]
+ },
+ "a7810ac744a3f9e8": {
+  "display_name": "Jess Park",
+  "mutual_friends_count": 6,
+  "last_payment_date": "2023-10-01",
+  "payment_profiles": [
+   {
+    "service": "Venmo",
+    "handle": "jesspark",
+    "is_active": true
+   },
+   {
+    "service": "PayPal",
+    "handle": "jess.park@example.com",
+    "is_active": true
+   },
+   {
+    "service": "Cash App",
+    "handle": "$JessPark",
+    "is_active": true
+   },
+   {
+    "service": "Zelle",
+    "handle": "jess.park@bank.com",
+    "is_active": true
+   }
+  ],
+  "phone_number": "555-0188"
+ },
+ "e28b546ae6e8669b": {
+  "activity": [
+   {
+    "date": "2023-11-10",
+    "type": "refund",
+    "amount_usd": 300,
+    "status": "completed"
+   },
+   {
+    "date": "2023-11-10",
+    "type": "invoice",
+    "amount_usd": 300,
+    "status": "open"
+   },
+   {
+    "date": "2023-11-02",
+    "type": "payment",
+    "amount_usd": 300,
+    "direction": "received",
+    "status": "completed"
+   }
+  ]
+ },
+ "909fb26d82c04dae": {
+  "results": [
+   {
+    "display_name": "Alex Moreno",
+    "email": "a.moreno@mail.com",
+    "handle": null,
+    "photo_url": null,
+    "mutual_contacts_count": 0,
+    "has_paid_before": true
+   }
+  ]
+ },
+ "27622ec8c058395e": {
+  "display_name": "Priya Shah",
+  "username": null,
+  "email": null,
+  "phone": null,
+  "photo_url": null,
+  "account_age_days": null,
+  "mutual_friends_count": null,
+  "payments_from_member": null,
+  "payments_to_member": null
+ },
+ "faaf7b5ee302e343": {
+  "results": [
+   {
+    "display_name": "Priya Shah",
+    "network": "PayPal",
+    "handle_type": "email",
+    "handle_value": null,
+    "username": null,
+    "photo_url": null,
+    "mutual_contacts_count": 0,
+    "has_paid_before": false
+   }
+  ]
+ },
+ "79936e78c32046ae": {
+  "results": [
+   {
+    "display_name": "Jordan Lee",
+    "email": "j.lee@mail.com",
+    "handle": null,
+    "photo_url": null,
+    "mutual_contacts_count": 0,
+    "payments_from_member": 1,
+    "last_payment_date": "2023-09-01"
+   }
+  ]
+ },
+ "2d9c2fbba59e4a50": {
+  "transaction_type": "Goods & Services",
+  "direction": "incoming",
+  "transaction_date": "2 days ago",
+  "dispute_window_days": 180,
+  "dispute_fee_charge_party": "your_account",
+  "protection_eligibility": "buyer"
+ },
+ "6db2bfe332642f51": {
+  "transaction_type": "Goods & Services",
+  "transaction_date": "210 days ago",
+  "delivery_status": "delivered",
+  "dispute_window_open": false
+ },
+ "169fc50a12688f3b": {
+  "crypto_address": "0x9f3c...a41c",
+  "network": null,
+  "account_name": null,
+  "account_type": null
+ },
+ "5e543d5bc24619b7": {
+  "crypto_address": "0x9f3c...b7e2",
+  "network": "ethereum",
+  "wallet_status": "saved"
+ },
+ "bdce9725d69e3abd": {
+  "results": [
+   {
+    "display_name": "Jordan Lee",
+    "email": "jordanlee88@mail.com",
+    "handle": null,
+    "photo_url": null,
+    "mutual_contacts": [],
+    "payments_from_member": 0
+   },
+   {
+    "display_name": "Jordan Lee",
+    "email": "j.lee@mail.com",
+    "handle": null,
+    "photo_url": null,
+    "mutual_contacts": [],
+    "payments_from_member": 1,
+    "last_payment_date": "2023-09-01"
+   }
+  ]
+ },
+ "d8cc64c37b6edffd": {
+  "ticket_id": "TICKET-12345",
+  "subject": "Refund Request",
+  "status": "open",
+  "priority": "medium",
+  "created_at": "2024-05-15T10:30:00Z",
+  "updated_at": "2024-05-15T11:35:00Z",
+  "requester_name": "Alex Johnson",
+  "requester_email": "alex.johnson@example.com",
+  "description": "I would like to request a refund for my recent purchase. The order was not delivered as expected.",
+  "order_id": null,
+  "attachments": [],
+  "tags": [
+   "refund",
+   "customer_service"
+  ],
+  "assignee_id": 789,
+  "assignee_name": "Support Team",
+  "replies_count": 7,
+  "replies_from_member": 3,
+  "last_reply_at": "2024-05-15T11:35:00Z",
+  "thread": [
+   {
+    "author": "requester",
+    "timestamp": "2024-05-15T10:30:00Z",
+    "body": "I would like to request a refund for my recent purchase. The order was not delivered as expected."
+   },
+   {
+    "author": "agent",
+    "timestamp": "2024-05-15T10:45:00Z",
+    "body": "Thank you for reaching out. Could you please provide your order ID so we can look into this?"
+   },
+   {
+    "author": "requester",
+    "timestamp": "2024-05-15T11:00:00Z",
+    "body": "I don't have the order ID handy, but I placed it last week under alex.johnson@example.com."
+   },
+   {
+    "author": "agent",
+    "timestamp": "2024-05-15T11:10:00Z",
+    "body": "We are checking your account. Please allow us some time to locate your order."
+   },
+   {
+    "author": "agent",
+    "timestamp": "2024-05-15T11:20:00Z",
+    "body": "We found your order. We’ll initiate the refund process now."
+   },
+   {
+    "author": "requester",
+    "timestamp": "2024-05-15T11:30:00Z",
+    "body": "Thank you for the quick response."
+   },
+   {
+    "author": "agent",
+    "timestamp": "2024-05-15T11:35:00Z",
+    "body": "You're welcome. The refund will be processed within 5–7 business days."
+   }
+  ]
+ },
+ "8f9438a8232426ae": {
+  "mutual_friends": 0,
+  "account_age_years": 3,
+  "profile_photo_url": null
+ },
+ "eede814ba57b0037": {
+  "display_name": "T. Barnes",
+  "profile_photo_url": null,
+  "account_age_days": 0,
+  "mutual_friends_count": 0,
+  "payments_from_member": 0
+ },
+ "0be50053ab02ea2b": {
+  "display_name": "Tyler Brown",
+  "photo_url": null,
+  "account_age_days": 425,
+  "mutual_friends_count": 3,
+  "payments_from_member": 1,
+  "last_payment_date": "2023-10-02"
+ },
+ "8b7157fab8410604": {
+  "mutual_friends_count": 0,
+  "account_age_days": 5,
+  "profile_photo_url": null,
+  "display_name": null,
+  "total_payments_sent": 0,
+  "total_payments_received": 0
+ },
+ "ae4be8f8ca9f85ec": {
+  "recipient_name": "Bargain Warehouse LLC",
+  "account_type": "business"
+ },
+ "e2ba3b090cffec5e": {
+  "payment_recipient": "J. Pham",
+  "account_type": "personal",
+  "merchant_name": "Bargain Warehouse",
+  "payment_allowed": false
+ },
+ "0f434504eeb7246e": {
+  "recipient_handle": "@tyler_b_1985",
+  "status": "not_received",
+  "message_from_recipient": "didn't get anything",
+  "payment_status": null,
+  "transfer_status": null,
+  "request_status": null,
+  "withdrawal_status": null,
+  "receipt_id": null,
+  "reference": null
+ },
+ "d1dd5d4657943698": {
+  "selected_contact": {
+   "name": "Ethan Cole",
+   "nickname": "lawn mowing",
+   "last_activity": "Jul"
+  },
+  "total_matches": 1
+ },
+ "edee75d7f5b915bd": {
+  "selected_contact": {
+   "name": "Ethan Price",
+   "relationship": "son"
+  },
+  "total_matches": 1
+ },
+ "b41a176f007ef6b2": {
+  "network": "Solana",
+  "accepted_assets": [
+   "USDC"
+  ],
+  "rejected_assets": null,
+  "owner_label": null,
+  "is_saved_address": false
+ },
+ "c465746fd1729872": {
+  "network": "solana",
+  "accepted_assets": [
+   "usdc"
+  ],
+  "owner_label": null,
+  "is_saved_address": false
+ },
+ "82c5044ca6635ddd": {
+  "status": "PASS",
+  "events_received": 2,
+  "events_processed": 1,
+  "event_id": "duplicate_ignored"
+ },
+ "adaa72ad5190c6db": {
+  "account_ending": "9083",
+  "change_approved_date": "2023-11-05",
+  "callback_status": "completed"
+ },
+ "ce15d8f94a1e46ca": {
+  "invoice_recipient": "R. Menon",
+  "invoice_amount_usd": 189.5,
+  "status": "pending"
+ },
+ "05b79f75027b1293": {
+  "account_number_last_four": "4471",
+  "pending_change_request": null,
+  "callback_status": null
+ },
+ "b233af50419d055e": {
+  "card_on_file": {
+   "brand": "Visa",
+   "last_four": "3301",
+   "name": "Ella Brooks"
+  }
+ },
+ "2a5bebe8de0d3597": {
+  "payment_method": "Visa ****5521",
+  "order_total": 640.0
+ },
+ "b49da3e000d20aec": {
+  "plan": "premium",
+  "price": "29.99",
+  "currency": "USD",
+  "renewal_date": "2023-12-01",
+  "payment_method_on_file": {
+   "type": "card",
+   "brand": "Visa",
+   "last_four": "8812",
+   "name_on_card": "Daniel Brooks"
+  }
+ },
+ "f5df9e7256ca01be": {
+  "payment_method": "PayPal",
+  "payment_source": {
+   "type": "bank",
+   "last_four": "0912",
+   "balance": 120,
+   "overdraft_enabled": false
+  },
+  "order_total": 640.0
+ },
+ "1ecf3ccfaa0da009": {
+  "invoice_number": "INV-1045",
+  "vendor_name": "ABC Supplies Ltd",
+  "amount_usd": 4820.0,
+  "payment_status": "paid",
+  "payment_date": "2023-11-03"
+ },
+ "8d55cade77d2e9a0": {
+  "linked_accounts": [
+   {
+    "type": "card",
+    "last_four": "5530",
+    "status": "active",
+    "account_name": "Checking",
+    "note": null
+   },
+   {
+    "type": "bank_account",
+    "last_four": "7742",
+    "status": "active",
+    "account_name": "Savings",
+    "note": null
+   }
+  ]
+ },
+ "ed93b85e9a45bd73": {
+  "linked_accounts": [
+   {
+    "account_type": "payment_app",
+    "last_four": "1189",
+    "status": "closed",
+    "closure_date": "2023-08-01",
+    "note": null
+   },
+   {
+    "account_type": "bank_account",
+    "account_subtype": "savings",
+    "last_four": "7742",
+    "status": "active",
+    "note": null
+   }
+  ]
+ },
+ "a8591b035809e4e3": {
+  "linked_accounts": [
+   {
+    "account_type": "bank_account",
+    "provider": "Chase",
+    "last_four": "4410",
+    "status": "connected",
+    "note": "in bankruptcy case"
+   },
+   {
+    "account_type": "bank_account",
+    "provider": "Credit union",
+    "last_four": "7781",
+    "status": "connected",
+    "note": null
+   }
+  ]
+ },
+ "65ffb59b69c5f164": {
+  "linked_accounts": [
+   {
+    "account_type": "bank_account",
+    "provider": "Chase",
+    "last_four": "4410",
+    "status": "connected",
+    "note": null
+   },
+   {
+    "account_type": "bank_account",
+    "provider": "Credit union",
+    "last_four": "7781",
+    "status": "connected",
+    "note": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,1 @@
+{"text": "{\"payment_method\": {\"type\": \"Visa\", \"last_four\": \"8812\", \"cardholder_name\": \"Daniel Brooks\"}}", "usage": {"completion_tokens": 31, "prompt_tokens": 278, "total_tokens": 309, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.2069999999999995e-05}, "finish": "stop"}

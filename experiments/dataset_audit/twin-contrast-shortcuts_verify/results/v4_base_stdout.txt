@@ -1,0 +1,11 @@
+n_rows 1374
+rows_by_split {'test': 654, 'hard_train': 432, 'hard_test': 208, 'hard_val': 80}
+all {'disc_wording': 0.138, 'ci_a': [0.025, 0.268], 'disc_identical': 0.01, 'ci_b': [-0.012, 0.033], 'difference_ci': [0.014, 0.257], 'n_pairs': 86}
+test {'disc_wording': 0.164, 'ci_a': [0.011, 0.342], 'disc_identical': 0.007, 'ci_b': [-0.022, 0.036], 'difference_ci': [0.0, 0.338], 'n_pairs': 41}
+hard {'disc_wording': 0.083, 'ci_a': [-0.075, 0.222], 'disc_identical': 0.012, 'ci_b': [-0.019, 0.044], 'difference_ci': [-0.086, 0.214], 'n_pairs': 45}
+by_kind {'identical': {'pairs': 51, 'askA': 0.253, 'askB': 0.243, 'correctA': 0.032}, 'identifier_only': {'pairs': 7, 'askA': 0.089, 'askB': 0.071, 'correctA': 0.036}, 'wording': {'pairs': 28, 'askA': 0.277, 'askB': 0.138, 'correctA': 0.04}}
+wording_disc_by_family {'1mk677e': {'pairs': ['H191', 'S19', 'V191', 'V192', 'V194'], 'disc': 0.075}, '1o3cgz2': {'pairs': ['H531'], 'disc': -0.375}, '1o6vvx3': {'pairs': ['H561'], 'disc': 0.125}, '1ooakt6': {'pairs': ['S39'], 'disc': -0.125}, '1ovrgu1': {'pairs': ['H131'], 'disc': 0.0}, '1pu0yff': {'pairs': ['H451', 'S45', 'V453'], 'disc': -0.042}, '1qu0p1h': {'pairs': ['H031'], 'disc': 0.0}, '1rdyxso': {'pairs': ['S27', 'V271', 'V272', 'V273', 'V274'], 'disc': 0.6}, '1sfw741': {'pairs': ['S05', 'V051'], 'disc': 0.0}, '1sjprqz': {'pairs': ['H101'], 'disc': 0.375}, '1wfrwb6': {'pairs': ['H211', 'S21', 'V211', 'V212', 'V213', 'V214'], 'disc': 0.104}, '1xeuqaq': {'pairs': ['H571'], 'disc': 0.0}}
+wording_disc_leave_one_family_out {'1mk677e': 0.152, '1o3cgz2': 0.157, '1o6vvx3': 0.139, '1ooakt6': 0.148, '1ovrgu1': 0.144, '1pu0yff': 0.16, '1qu0p1h': 0.144, '1rdyxso': 0.038, '1sfw741': 0.149, '1sjprqz': 0.13, '1wfrwb6': 0.148, '1xeuqaq': 0.144}
+family_bootstrap_wording_minus_identical {'n_families': 45, 'ci95': [-0.04, 0.326], 'share_le_0': 0.1062}
+wording_pairs_disc_gt0 11
+wording_pairs_n 28

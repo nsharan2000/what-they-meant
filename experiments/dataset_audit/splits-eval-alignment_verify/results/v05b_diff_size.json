@@ -1,0 +1,445 @@
+{
+ "summary": {
+  "n_pairs": 72,
+  "diff_tokens_median": 23.65,
+  "diff_tokens_p10_p90": [
+   6.4,
+   64.5
+  ],
+  "share_median_pct": 0.354
+ },
+ "pairs": [
+  {
+   "pair": "V254",
+   "diff_tokens_est": 9.2,
+   "prompt_tokens": 7182,
+   "share": 0.0012799777220829855
+  },
+  {
+   "pair": "V073",
+   "diff_tokens_est": 23.6,
+   "prompt_tokens": 6616,
+   "share": 0.003567835550181378
+  },
+  {
+   "pair": "S53",
+   "diff_tokens_est": 25.8,
+   "prompt_tokens": 6676,
+   "share": 0.00386073996405033
+  },
+  {
+   "pair": "V492",
+   "diff_tokens_est": 28.1,
+   "prompt_tokens": 6617,
+   "share": 0.004246214296508992
+  },
+  {
+   "pair": "V043",
+   "diff_tokens_est": 23.7,
+   "prompt_tokens": 6741,
+   "share": 0.0035189289422934283
+  },
+  {
+   "pair": "S09",
+   "diff_tokens_est": 47.1,
+   "prompt_tokens": 7013,
+   "share": 0.006717795522600884
+  },
+  {
+   "pair": "V044",
+   "diff_tokens_est": 3.1,
+   "prompt_tokens": 6742,
+   "share": 0.0004568229012162563
+  },
+  {
+   "pair": "V554",
+   "diff_tokens_est": 13.1,
+   "prompt_tokens": 6191,
+   "share": 0.0021112905831045066
+  },
+  {
+   "pair": "S58",
+   "diff_tokens_est": 21.6,
+   "prompt_tokens": 6743,
+   "share": 0.0031975826783330855
+  },
+  {
+   "pair": "S42",
+   "diff_tokens_est": 20.7,
+   "prompt_tokens": 6871,
+   "share": 0.003010522485809925
+  },
+  {
+   "pair": "S04",
+   "diff_tokens_est": 11.3,
+   "prompt_tokens": 7087,
+   "share": 0.001592182870043742
+  },
+  {
+   "pair": "S35",
+   "diff_tokens_est": 66.8,
+   "prompt_tokens": 6832,
+   "share": 0.009773536299765807
+  },
+  {
+   "pair": "V062",
+   "diff_tokens_est": 8.0,
+   "prompt_tokens": 6882,
+   "share": 0.0011575414123801222
+  },
+  {
+   "pair": "V061",
+   "diff_tokens_est": 8.0,
+   "prompt_tokens": 6924,
+   "share": 0.00115051993067591
+  },
+  {
+   "pair": "V344",
+   "diff_tokens_est": 67.6,
+   "prompt_tokens": 6631,
+   "share": 0.01019763233298145
+  },
+  {
+   "pair": "S12",
+   "diff_tokens_est": 913.7,
+   "prompt_tokens": 6611,
+   "share": 0.1382024807139616
+  },
+  {
+   "pair": "V471",
+   "diff_tokens_est": 5.3,
+   "prompt_tokens": 6518,
+   "share": 0.0008178275544645598
+  },
+  {
+   "pair": "S06",
+   "diff_tokens_est": 9.0,
+   "prompt_tokens": 6909,
+   "share": 0.0012977565494282821
+  },
+  {
+   "pair": "V091",
+   "diff_tokens_est": 53.4,
+   "prompt_tokens": 6664,
+   "share": 0.008006497599039616
+  },
+  {
+   "pair": "V474",
+   "diff_tokens_est": 5.6,
+   "prompt_tokens": 6515,
+   "share": 0.0008670759785111283
+  },
+  {
+   "pair": "V341",
+   "diff_tokens_est": 69.2,
+   "prompt_tokens": 6642,
+   "share": 0.010425835591689251
+  },
+  {
+   "pair": "V582",
+   "diff_tokens_est": 44.0,
+   "prompt_tokens": 6969,
+   "share": 0.006310833692064858
+  },
+  {
+   "pair": "S13",
+   "diff_tokens_est": 58.3,
+   "prompt_tokens": 7273,
+   "share": 0.008021119208029698
+  },
+  {
+   "pair": "V223",
+   "diff_tokens_est": 62.2,
+   "prompt_tokens": 7356,
+   "share": 0.008460821098423056
+  },
+  {
+   "pair": "S02",
+   "diff_tokens_est": 3.2,
+   "prompt_tokens": 6489,
+   "share": 0.00048725535521652034
+  },
+  {
+   "pair": "V551",
+   "diff_tokens_est": 15.7,
+   "prompt_tokens": 6498,
+   "share": 0.002415743305632502
+  },
+  {
+   "pair": "S32",
+   "diff_tokens_est": 42.7,
+   "prompt_tokens": 7366,
+   "share": 0.0057965653000271525
+  },
+  {
+   "pair": "V253",
+   "diff_tokens_est": 7.2,
+   "prompt_tokens": 7210,
+   "share": 0.0009939805825242719
+  },
+  {
+   "pair": "S49",
+   "diff_tokens_est": 32.3,
+   "prompt_tokens": 6640,
+   "share": 0.004863584337349398
+  },
+  {
+   "pair": "V321",
+   "diff_tokens_est": 12.3,
+   "prompt_tokens": 7249,
+   "share": 0.0016929645468340463
+  },
+  {
+   "pair": "S07",
+   "diff_tokens_est": 165.3,
+   "prompt_tokens": 6617,
+   "share": 0.024978706362399877
+  },
+  {
+   "pair": "V133",
+   "diff_tokens_est": 55.9,
+   "prompt_tokens": 7134,
+   "share": 0.007839963554807962
+  },
+  {
+   "pair": "V104",
+   "diff_tokens_est": 13.7,
+   "prompt_tokens": 7036,
+   "share": 0.0019460773166571914
+  },
+  {
+   "pair": "V573",
+   "diff_tokens_est": 4.2,
+   "prompt_tokens": 5790,
+   "share": 0.0007184455958549222
+  },
+  {
+   "pair": "S26",
+   "diff_tokens_est": 27.0,
+   "prompt_tokens": 6979,
+   "share": 0.0038655108181687927
+  },
+  {
+   "pair": "V072",
+   "diff_tokens_est": 64.8,
+   "prompt_tokens": 6634,
+   "share": 0.009768118782031956
+  },
+  {
+   "pair": "S15",
+   "diff_tokens_est": 7.1,
+   "prompt_tokens": 6584,
+   "share": 0.0010770200486026732
+  },
+  {
+   "pair": "S18",
+   "diff_tokens_est": 29.4,
+   "prompt_tokens": 7249,
+   "share": 0.004049882742447234
+  },
+  {
+   "pair": "V031",
+   "diff_tokens_est": 4.5,
+   "prompt_tokens": 6688,
+   "share": 0.0006777960526315789
+  },
+  {
+   "pair": "V541",
+   "diff_tokens_est": 51.9,
+   "prompt_tokens": 6623,
+   "share": 0.007839513815491469
+  },
+  {
+   "pair": "V531",
+   "diff_tokens_est": 50.4,
+   "prompt_tokens": 6602,
+   "share": 0.007637185701302634
+  },
+  {
+   "pair": "V113",
+   "diff_tokens_est": 17.5,
+   "prompt_tokens": 6987,
+   "share": 0.0025033204522684985
+  },
+  {
+   "pair": "S22",
+   "diff_tokens_est": 30.0,
+   "prompt_tokens": 7364,
+   "share": 0.004071184139054862
+  },
+  {
+   "pair": "V071",
+   "diff_tokens_est": 60.6,
+   "prompt_tokens": 6664,
+   "share": 0.00909593337334934
+  },
+  {
+   "pair": "V552",
+   "diff_tokens_est": 16.7,
+   "prompt_tokens": 6576,
+   "share": 0.0025469738442822384
+  },
+  {
+   "pair": "S34",
+   "diff_tokens_est": 78.3,
+   "prompt_tokens": 6598,
+   "share": 0.011862806911185205
+  },
+  {
+   "pair": "S03",
+   "diff_tokens_est": 2.0,
+   "prompt_tokens": 6449,
+   "share": 0.0003101256008683517
+  },
+  {
+   "pair": "V152",
+   "diff_tokens_est": 7.1,
+   "prompt_tokens": 6788,
+   "share": 0.0010446523276370066
+  },
+  {
+   "pair": "V473",
+   "diff_tokens_est": 12.7,
+   "prompt_tokens": 6098,
+   "share": 0.00208652017054772
+  },
+  {
+   "pair": "S14",
+   "diff_tokens_est": 18.2,
+   "prompt_tokens": 6892,
+   "share": 0.0026376668601276842
+  },
+  {
+   "pair": "S10",
+   "diff_tokens_est": 21.7,
+   "prompt_tokens": 6816,
+   "share": 0.003187969483568075
+  },
+  {
+   "pair": "V181",
+   "diff_tokens_est": 6.3,
+   "prompt_tokens": 7310,
+   "share": 0.0008650615595075241
+  },
+  {
+   "pair": "V581",
+   "diff_tokens_est": 14.5,
+   "prompt_tokens": 6805,
+   "share": 0.002135576781778104
+  },
+  {
+   "pair": "V182",
+   "diff_tokens_est": 27.3,
+   "prompt_tokens": 7406,
+   "share": 0.003688050229543613
+  },
+  {
+   "pair": "V184",
+   "diff_tokens_est": 26.1,
+   "prompt_tokens": 7334,
+   "share": 0.0035633624215980365
+  },
+  {
+   "pair": "V093",
+   "diff_tokens_est": 44.4,
+   "prompt_tokens": 6682,
+   "share": 0.006642083208620173
+  },
+  {
+   "pair": "V532",
+   "diff_tokens_est": 51.6,
+   "prompt_tokens": 6541,
+   "share": 0.007887295520562604
+  },
+  {
+   "pair": "V571",
+   "diff_tokens_est": 7.6,
+   "prompt_tokens": 6479,
+   "share": 0.001168019756135206
+  },
+  {
+   "pair": "V553",
+   "diff_tokens_est": 35.2,
+   "prompt_tokens": 6491,
+   "share": 0.0054282236943460176
+  },
+  {
+   "pair": "V583",
+   "diff_tokens_est": 27.6,
+   "prompt_tokens": 7087,
+   "share": 0.0039007196274869474
+  },
+  {
+   "pair": "V183",
+   "diff_tokens_est": 23.0,
+   "prompt_tokens": 7402,
+   "share": 0.0031016617130505265
+  },
+  {
+   "pair": "S11",
+   "diff_tokens_est": 41.4,
+   "prompt_tokens": 6840,
+   "share": 0.0060489766081871345
+  },
+  {
+   "pair": "V584",
+   "diff_tokens_est": 46.1,
+   "prompt_tokens": 7039,
+   "share": 0.0065552493251882366
+  },
+  {
+   "pair": "V534",
+   "diff_tokens_est": 31.4,
+   "prompt_tokens": 6565,
+   "share": 0.004786260472201066
+  },
+  {
+   "pair": "V042",
+   "diff_tokens_est": 15.1,
+   "prompt_tokens": 6809,
+   "share": 0.0022162725804082835
+  },
+  {
+   "pair": "S25",
+   "diff_tokens_est": 10.3,
+   "prompt_tokens": 7305,
+   "share": 0.0014075017111567418
+  },
+  {
+   "pair": "S55",
+   "diff_tokens_est": 15.1,
+   "prompt_tokens": 5711,
+   "share": 0.0026510068289266327
+  },
+  {
+   "pair": "V322",
+   "diff_tokens_est": 10.2,
+   "prompt_tokens": 7288,
+   "share": 0.0013953073545554336
+  },
+  {
+   "pair": "S54",
+   "diff_tokens_est": 134.2,
+   "prompt_tokens": 6600,
+   "share": 0.020329106060606058
+  },
+  {
+   "pair": "V472",
+   "diff_tokens_est": 13.7,
+   "prompt_tokens": 6643,
+   "share": 0.0020658738521752216
+  },
+  {
+   "pair": "V094",
+   "diff_tokens_est": 53.2,
+   "prompt_tokens": 6905,
+   "share": 0.007702838522809557
+  },
+  {
+   "pair": "V264",
+   "diff_tokens_est": 27.2,
+   "prompt_tokens": 6981,
+   "share": 0.0039026214009454238
+  }
+ ]
+}

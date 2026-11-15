@@ -1,0 +1,1876 @@
+{
+ "member_id": "sara_novak",
+ "profile": {
+  "name": "Sara Novak",
+  "age": 32,
+  "city": "Chandler, AZ",
+  "country": "United States",
+  "occupation": "Database architect",
+  "summary": "Kestrel member since 2020-05 · identity verified · home currency USD · connected: PayPal, Desert Financial CU Checking ••8120",
+  "email": "sara.novak@mail.com",
+  "phone": "555-0185",
+  "member_since": "2020-05-22",
+  "home_currency": "USD",
+  "timezone": "America/Phoenix",
+  "language": "en-US",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Sara Novak, a data‑driven architect with a penchant for solitary desert hikes, obsessive spreadsheet budgeting, and chronic worry that fuels her meticulous planning, balances analytical rigor with quiet curiosity, even if she sometimes over‑analyzes board‑game moves.",
+   "professional_persona": "Sara Novak, a 32‑year‑old data architect specialist, blends deep expertise in relational and NoSQL databases with educational theory to design scalable, pedagogically sound data platforms, leveraging Python automation and Terraform while mentoring junior staff and leading data‑governance initiatives.",
+   "cultural_background": "Sara’s cultural background is rooted in a white, Euro‑American lineage, with family roots that trace back to Polish immigrants who settled in the Midwest during the mid‑20th century. Raised in a suburban community in Ohio, she grew up in a household that emphasized hard work, self‑reliance, and the importance of education as a pathway to upward mobility. Her upbringing blended a modest, middle‑class ethic with exposure to both Protestant and Catholic traditions, nurturing a respect for community service and lifelong learning. Relocating to Chandler, Arizona, she has embraced the region’s blend of desert‑frontier spirit and growing tech ecosystem, integrating locally valued practices such as neighborly support, outdoor recreation, and a pragmatic approach to problem‑solving into her personal and professional life.",
+   "sex": "Female",
+   "marital_status": "married_present",
+   "education_level": "graduate",
+   "occupation": "database_administrator_or_architect"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "7e23d731817a45aeb5199c0ce00d1a92",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "USA",
+    "age": 32,
+    "sex": "Female",
+    "seed": 23
+   },
+   "source_age": 36,
+   "source_location": "Chandler, AZ",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Selina Molinowski",
+    "Selina"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "PayPal balance",
+   "currency": "USD",
+   "balance": 2400.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Jordan Lee",
+   "email": "j.lee@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "friend",
+   "last_paid": "2026-09-01"
+  },
+  {
+   "name": "Kelsey Moran",
+   "email": "kelsey.moran@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "friend · hiking",
+   "last_paid": "2026-08-20"
+  },
+  {
+   "name": "Tom Novak",
+   "email": "tom.novak@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "relationship": "brother",
+   "last_paid": "2026-11-04"
+  },
+  {
+   "name": "Dani Ruiz",
+   "email": "dani.ruiz@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "coworker",
+   "last_paid": "2026-09-01"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-PAYPAL",
+   "type": "payment_app",
+   "name": "PayPal",
+   "login": "sara.novak@mail.com",
+   "status": "connected",
+   "since": "2020-05-22"
+  },
+  {
+   "id": "LA-8120",
+   "type": "bank_account",
+   "name": "Desert Financial CU Checking",
+   "last4": "8120",
+   "status": "active",
+   "since": "2020-05-26"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "Spotify Premium Duo",
+   "amount": 16.99,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "PayPal balance",
+   "next_charge": "2026-11-16",
+   "status": "active"
+  },
+  {
+   "name": "Cox Internet",
+   "amount": 84.99,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "Desert Financial ••8120",
+   "next_charge": "2026-12-07",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SA-8120 · Billing agreement · Spotify may charge the PayPal balance each month."
+ ],
+ "notes": [
+  "Does occasional freelance data-model reviews; clients pay by PayPal invoice.",
+  "Prefers short replies."
+ ],
+ "transactions": [
+  {
+   "id": "KXVZFDUEZT",
+   "date": "2026-11-04",
+   "time": "16:48",
+   "counterparty": "Tom Novak",
+   "handle": "tom.novak@mail.com",
+   "amount": 100.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Dad's meds"
+  },
+  {
+   "id": "KXTHPL3YDN",
+   "date": "2026-11-02",
+   "time": "18:10",
+   "counterparty": "Patagonia",
+   "amount": 183.72,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXRTDLRC8H",
+   "date": "2026-11-02",
+   "time": "16:20",
+   "counterparty": "Kelsey Moran",
+   "handle": "kelsey.moran@mail.com",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "my half"
+  },
+  {
+   "id": "KXEZBA5NQZ",
+   "date": "2026-10-31",
+   "time": "20:30",
+   "counterparty": "Tom Novak",
+   "handle": "tom.novak@mail.com",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Dad's meds"
+  },
+  {
+   "id": "KX2WEWEQ0X",
+   "date": "2026-10-30",
+   "time": "17:56",
+   "counterparty": "Saguaro Analytics LLC",
+   "handle": "ap@saguaro-analytics.com",
+   "amount": 1650.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Goods & Services",
+   "memo": "Invoice SN-039 · data governance audit"
+  },
+  {
+   "id": "KX4G7YY1EC",
+   "date": "2026-10-29",
+   "time": "10:31",
+   "counterparty": "Kelsey Moran",
+   "handle": "kelsey.moran@mail.com",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "gas"
+  },
+  {
+   "id": "KXSGEP1K92",
+   "date": "2026-10-20",
+   "time": "18:48",
+   "counterparty": "Etsy",
+   "amount": 34.82,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX4EJ57QFD",
+   "date": "2026-10-16",
+   "time": "21:13",
+   "counterparty": "Spotify",
+   "amount": 16.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Duo"
+  },
+  {
+   "id": "KXR9B8WL57",
+   "date": "2026-09-16",
+   "time": "20:17",
+   "counterparty": "Spotify",
+   "amount": 16.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Duo"
+  },
+  {
+   "id": "KX7FBD3E21",
+   "date": "2026-09-01",
+   "time": "20:10",
+   "counterparty": "Jordan Lee",
+   "handle": "j.lee@mail.com",
+   "amount": 150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Lake Pleasant cabin split"
+  },
+  {
+   "id": "KXFJ02NF7J",
+   "date": "2026-09-01",
+   "time": "09:50",
+   "counterparty": "Dani Ruiz",
+   "handle": "dani.ruiz@mail.com",
+   "amount": 12.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "lunch"
+  },
+  {
+   "id": "KX9G0E5FJJ",
+   "date": "2026-08-20",
+   "time": "20:40",
+   "counterparty": "Kelsey Moran",
+   "handle": "kelsey.moran@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "campsite"
+  },
+  {
+   "id": "KX7QBXJDVF",
+   "date": "2026-08-16",
+   "time": "12:47",
+   "counterparty": "Spotify",
+   "amount": 16.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Duo"
+  },
+  {
+   "id": "KXU6AE28U2",
+   "date": "2026-08-14",
+   "time": "13:40",
+   "counterparty": "Desert Financial CU Checking ••8120",
+   "amount": 800.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Transfer to bank"
+  },
+  {
+   "id": "KX9DEC80HT",
+   "date": "2026-08-08",
+   "time": "12:40",
+   "counterparty": "Kelsey Moran",
+   "handle": "kelsey.moran@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "my half"
+  },
+  {
+   "id": "KX0VQQ3PVJ",
+   "date": "2026-07-31",
+   "time": "22:10",
+   "counterparty": "Saguaro Analytics LLC",
+   "handle": "ap@saguaro-analytics.com",
+   "amount": 1200.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Goods & Services",
+   "memo": "Invoice SN-035 · migration plan"
+  },
+  {
+   "id": "KX5SYNBEHG",
+   "date": "2026-07-26",
+   "time": "14:39",
+   "counterparty": "Patagonia",
+   "amount": 126.04,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX1RDTA8HS",
+   "date": "2026-07-16",
+   "time": "10:18",
+   "counterparty": "Spotify",
+   "amount": 16.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Duo"
+  },
+  {
+   "id": "KXZ8ALY2PM",
+   "date": "2026-07-08",
+   "time": "12:24",
+   "counterparty": "Etsy",
+   "amount": 41.55,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXHWWD0CZV",
+   "date": "2026-06-30",
+   "time": "18:55",
+   "counterparty": "Saguaro Analytics LLC",
+   "handle": "ap@saguaro-analytics.com",
+   "amount": 1800.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Goods & Services",
+   "memo": "Invoice SN-034 · warehouse schema"
+  },
+  {
+   "id": "KXSFR2QZ81",
+   "date": "2026-06-27",
+   "time": "07:44",
+   "counterparty": "Jordan Lee",
+   "handle": "j.lee@mail.com",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "dinner"
+  },
+  {
+   "id": "KXXKE65FF7",
+   "date": "2026-06-23",
+   "time": "19:57",
+   "counterparty": "Tom Novak",
+   "handle": "tom.novak@mail.com",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Dad's meds"
+  },
+  {
+   "id": "KX5MLS8VPP",
+   "date": "2026-06-16",
+   "time": "20:58",
+   "counterparty": "Spotify",
+   "amount": 16.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Duo"
+  },
+  {
+   "id": "KXYD9VUU6G",
+   "date": "2026-05-28",
+   "time": "09:32",
+   "counterparty": "Dani Ruiz",
+   "handle": "dani.ruiz@mail.com",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "team gift"
+  },
+  {
+   "id": "KXBBKRGB8T",
+   "date": "2026-05-16",
+   "time": "13:28",
+   "counterparty": "Spotify",
+   "amount": 16.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Duo"
+  },
+  {
+   "id": "KXZHU8B8F9",
+   "date": "2026-05-15",
+   "time": "13:14",
+   "counterparty": "Desert Financial CU Checking ••8120",
+   "amount": 1000.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Transfer to bank"
+  },
+  {
+   "id": "KXTH1WFMFV",
+   "date": "2026-04-18",
+   "time": "07:13",
+   "counterparty": "Jordan Lee",
+   "handle": "j.lee@mail.com",
+   "amount": 85.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Sedona trip gas + snacks"
+  },
+  {
+   "id": "KXEXDRG36U",
+   "date": "2026-04-16",
+   "time": "18:29",
+   "counterparty": "Spotify",
+   "amount": 16.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Duo"
+  },
+  {
+   "id": "KXK33S63CJ",
+   "date": "2026-03-31",
+   "time": "07:20",
+   "counterparty": "Saguaro Analytics LLC",
+   "handle": "ap@saguaro-analytics.com",
+   "amount": 1450.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Goods & Services",
+   "memo": "Invoice SN-031 · data model review"
+  },
+  {
+   "id": "KXBR8LJCBV",
+   "date": "2026-03-30",
+   "time": "13:09",
+   "counterparty": "Dani Ruiz",
+   "handle": "dani.ruiz@mail.com",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "team gift"
+  },
+  {
+   "id": "KXAYAYLTJ3",
+   "date": "2026-03-17",
+   "time": "09:47",
+   "counterparty": "Kelsey Moran",
+   "handle": "kelsey.moran@mail.com",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "trailhead parking"
+  },
+  {
+   "id": "KXJM8RZPTE",
+   "date": "2026-03-16",
+   "time": "15:37",
+   "counterparty": "Spotify",
+   "amount": 16.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Duo"
+  },
+  {
+   "id": "KXYT1N0TZ7",
+   "date": "2026-03-09",
+   "time": "22:40",
+   "counterparty": "Barnes & Noble",
+   "amount": 15.86,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXK8DBAF9E",
+   "date": "2026-03-05",
+   "time": "20:09",
+   "counterparty": "Tom Novak",
+   "handle": "tom.novak@mail.com",
+   "amount": 100.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Mom's birthday gift"
+  },
+  {
+   "id": "KXSRTUA6SY",
+   "date": "2026-03-04",
+   "time": "18:02",
+   "counterparty": "Kelsey Moran",
+   "handle": "kelsey.moran@mail.com",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "gas"
+  },
+  {
+   "id": "KXZ3Z5G7CV",
+   "date": "2026-03-02",
+   "time": "22:18",
+   "counterparty": "Kelsey Moran",
+   "handle": "kelsey.moran@mail.com",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "campsite"
+  },
+  {
+   "id": "KXM1PWWBPZ",
+   "date": "2026-02-24",
+   "time": "13:38",
+   "counterparty": "Dani Ruiz",
+   "handle": "dani.ruiz@mail.com",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "team gift"
+  },
+  {
+   "id": "KXXEPKRZGZ",
+   "date": "2026-02-16",
+   "time": "22:58",
+   "counterparty": "Spotify",
+   "amount": 16.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Duo"
+  },
+  {
+   "id": "KX7DX2LHC3",
+   "date": "2026-02-12",
+   "time": "11:07",
+   "counterparty": "Dani Ruiz",
+   "handle": "dani.ruiz@mail.com",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "team gift"
+  },
+  {
+   "id": "KXNAS3EWL4",
+   "date": "2026-01-31",
+   "time": "20:41",
+   "counterparty": "Jordan Lee",
+   "handle": "j.lee@mail.com",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Suns tickets"
+  },
+  {
+   "id": "KXFK051MF9",
+   "date": "2026-01-22",
+   "time": "09:02",
+   "counterparty": "Kelsey Moran",
+   "handle": "kelsey.moran@mail.com",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "trailhead parking"
+  },
+  {
+   "id": "KXYFQ23Q1A",
+   "date": "2026-01-16",
+   "time": "20:31",
+   "counterparty": "Spotify",
+   "amount": 16.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Duo"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-02",
+   "time": "16:20",
+   "type": "payment_received",
+   "text": "Kelsey Moran sent you $30.00 — “my half”"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-30",
+   "time": "17:56",
+   "type": "payment_received",
+   "text": "Saguaro Analytics LLC sent you $1,650.00 — “Invoice SN-039 · data governance audit”"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "12:00",
+   "type": "product",
+   "text": "New: see upcoming bills and subscriptions in one place."
+  },
+  {
+   "date": "2026-10-29",
+   "time": "10:31",
+   "type": "payment_received",
+   "text": "Kelsey Moran sent you $30.00 — “gas”"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "20:52",
+   "type": "security",
+   "text": "New sign-in on Pixel 8 near Chandler, AZ. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BK188ZEAXX",
+   "date": "2026-11-12",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SRP ELECTRIC AUTOPAY",
+   "amount": 241.76,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKAJF31CV4",
+   "date": "2026-11-07",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "COX COMMUNICATIONS",
+   "amount": 84.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK4EYTYF2E",
+   "date": "2026-11-07",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "FRY'S FOOD #66 CHANDLER AZ",
+   "amount": 66.76,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK3SJLNLBB",
+   "date": "2026-11-05",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "COSTCO WHSE #0427 CHANDLER",
+   "amount": 165.62,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKUFT3RHFP",
+   "date": "2026-11-02",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "DESERT FINANCIAL MORTGAGE",
+   "amount": 1862.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKUP576RSF",
+   "date": "2026-10-30",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3058.44,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKMCU3QA5L",
+   "date": "2026-10-29",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "QUIKTRIP #1438 CHANDLER",
+   "amount": 44.44,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKPLMRZ2ZD",
+   "date": "2026-10-22",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "VERIZON WIRELESS",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKUCN4JB0X",
+   "date": "2026-10-20",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "CITY OF CHANDLER UTILITIES",
+   "amount": 59.04,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKEM7RV59L",
+   "date": "2026-10-19",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "QUIKTRIP #1438 CHANDLER",
+   "amount": 28.39,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK8387RL3Y",
+   "date": "2026-10-16",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3050.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKZFTP2R9A",
+   "date": "2026-10-12",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SRP ELECTRIC AUTOPAY",
+   "amount": 221.12,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK21PHYE1X",
+   "date": "2026-10-07",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "COX COMMUNICATIONS",
+   "amount": 84.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK8YS6K0CX",
+   "date": "2026-10-04",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "BOARD GAME CAFE CHANDLER",
+   "amount": 21.23,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Leisure"
+  },
+  {
+   "id": "BK2QLTM72S",
+   "date": "2026-10-02",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3044.29,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKAMPCX85G",
+   "date": "2026-10-01",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "DESERT FINANCIAL MORTGAGE",
+   "amount": 1862.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKNL6H3DP8",
+   "date": "2026-09-22",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "VERIZON WIRELESS",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKA4J3WRVP",
+   "date": "2026-09-20",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "CITY OF CHANDLER UTILITIES",
+   "amount": 58.49,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKP9S1DN78",
+   "date": "2026-09-18",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3047.67,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK8APZ8ZJL",
+   "date": "2026-09-12",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SRP ELECTRIC AUTOPAY",
+   "amount": 173.54,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK25TTW3NN",
+   "date": "2026-09-07",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "COX COMMUNICATIONS",
+   "amount": 84.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK0V0XCRJ1",
+   "date": "2026-09-05",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "FRY'S FOOD #66 CHANDLER AZ",
+   "amount": 87.41,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKHLBVSETN",
+   "date": "2026-09-04",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3057.15,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKVS2JQPPK",
+   "date": "2026-09-03",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "COSTCO WHSE #0427 CHANDLER",
+   "amount": 229.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKTBTLSG9P",
+   "date": "2026-09-01",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "DESERT FINANCIAL MORTGAGE",
+   "amount": 1862.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKFQWHBAXT",
+   "date": "2026-08-27",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "FRY'S FOOD #66 CHANDLER AZ",
+   "amount": 57.07,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK42ZD37SG",
+   "date": "2026-08-22",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "VERIZON WIRELESS",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKTKUEH2DN",
+   "date": "2026-08-21",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3022.48,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKGZ54GL0E",
+   "date": "2026-08-20",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "CITY OF CHANDLER UTILITIES",
+   "amount": 62.56,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK4TLFRF33",
+   "date": "2026-08-16",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "PAYPAL TRANSFER PPD",
+   "amount": 800.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK1RPZRXR0",
+   "date": "2026-08-12",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SRP ELECTRIC AUTOPAY",
+   "amount": 117.25,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKY2YDQLXP",
+   "date": "2026-08-07",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3040.12,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKXYYP6B74",
+   "date": "2026-08-07",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "COX COMMUNICATIONS",
+   "amount": 84.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKZZV4TFYR",
+   "date": "2026-08-04",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "QUIKTRIP #1438 CHANDLER",
+   "amount": 45.51,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKS1GQU2ZY",
+   "date": "2026-08-03",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "DESERT FINANCIAL MORTGAGE",
+   "amount": 1862.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BK24WKYDKL",
+   "date": "2026-08-02",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "FRY'S FOOD #66 CHANDLER AZ",
+   "amount": 45.61,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKUKQUSM76",
+   "date": "2026-07-24",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3038.55,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK8JA81B63",
+   "date": "2026-07-22",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "VERIZON WIRELESS",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKZ8A73GGD",
+   "date": "2026-07-20",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "CITY OF CHANDLER UTILITIES",
+   "amount": 79.17,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKSS5U56KD",
+   "date": "2026-07-20",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "FRY'S FOOD #66 CHANDLER AZ",
+   "amount": 77.49,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKGMJH353L",
+   "date": "2026-07-12",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SRP ELECTRIC AUTOPAY",
+   "amount": 274.68,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKK1AHHY0B",
+   "date": "2026-07-10",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3065.23,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKDTFYA7KX",
+   "date": "2026-07-10",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "BOARD GAME CAFE CHANDLER",
+   "amount": 17.79,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Leisure"
+  },
+  {
+   "id": "BKMMBTKHQF",
+   "date": "2026-07-09",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "PERSIAN ROOM SCOTTSDALE",
+   "amount": 63.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKBNPVL95V",
+   "date": "2026-07-07",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "COX COMMUNICATIONS",
+   "amount": 84.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK2CEC1YPJ",
+   "date": "2026-07-01",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "DESERT FINANCIAL MORTGAGE",
+   "amount": 1862.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKEPX32FC3",
+   "date": "2026-06-28",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "FRY'S FOOD #66 CHANDLER AZ",
+   "amount": 29.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKV2H6CKCD",
+   "date": "2026-06-26",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "COSTCO WHSE #0427 CHANDLER",
+   "amount": 179.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKF7Y63613",
+   "date": "2026-06-26",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3069.88,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKJ8X1XWBK",
+   "date": "2026-06-22",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "VERIZON WIRELESS",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKDR39SFU8",
+   "date": "2026-06-20",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "CITY OF CHANDLER UTILITIES",
+   "amount": 60.14,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKLBV6JCMJ",
+   "date": "2026-06-16",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "QUIKTRIP #1438 CHANDLER",
+   "amount": 47.68,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK5SKYLGKD",
+   "date": "2026-06-14",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "QUIKTRIP #1438 CHANDLER",
+   "amount": 38.75,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK5L32ZW18",
+   "date": "2026-06-13",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "COSTCO WHSE #0427 CHANDLER",
+   "amount": 146.69,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK8DGAUNC5",
+   "date": "2026-06-12",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3074.82,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK327UDMDD",
+   "date": "2026-06-12",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SRP ELECTRIC AUTOPAY",
+   "amount": 268.62,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKNEPV9QNE",
+   "date": "2026-06-07",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "COX COMMUNICATIONS",
+   "amount": 84.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK06H1Q1MP",
+   "date": "2026-06-01",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "DESERT FINANCIAL MORTGAGE",
+   "amount": 1862.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKGMYPT2V4",
+   "date": "2026-05-29",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3040.69,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKYWYE1UWS",
+   "date": "2026-05-22",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "VERIZON WIRELESS",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKG3KS1YVS",
+   "date": "2026-05-22",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "FRY'S FOOD #66 CHANDLER AZ",
+   "amount": 113.14,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKSS9F5B32",
+   "date": "2026-05-20",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "CITY OF CHANDLER UTILITIES",
+   "amount": 86.65,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKE18JVU10",
+   "date": "2026-05-17",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "PAYPAL TRANSFER PPD",
+   "amount": 1000.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK25HNXF6S",
+   "date": "2026-05-15",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3062.62,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKA77UW2KB",
+   "date": "2026-05-12",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SRP ELECTRIC AUTOPAY",
+   "amount": 106.86,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKLFBSFNZD",
+   "date": "2026-05-08",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "SPROUTS FARMERS MKT #12 CHANDLER",
+   "amount": 47.85,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK1KKEGT5M",
+   "date": "2026-05-07",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "COX COMMUNICATIONS",
+   "amount": 84.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKXUCU8HRW",
+   "date": "2026-05-01",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3042.14,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKWDGE3KC9",
+   "date": "2026-05-01",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "DESERT FINANCIAL MORTGAGE",
+   "amount": 1862.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKSW5B4XP3",
+   "date": "2026-04-30",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "PERSIAN ROOM SCOTTSDALE",
+   "amount": 51.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK7TNGFF3Y",
+   "date": "2026-04-22",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "VERIZON WIRELESS",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKT82AZKZ4",
+   "date": "2026-04-20",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "CITY OF CHANDLER UTILITIES",
+   "amount": 60.45,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKQWS391Q7",
+   "date": "2026-04-18",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "PERSIAN ROOM SCOTTSDALE",
+   "amount": 79.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKCBVFL74N",
+   "date": "2026-04-17",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3042.8,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKLZC1TKXF",
+   "date": "2026-04-12",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SRP ELECTRIC AUTOPAY",
+   "amount": 246.3,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKKX566FQ3",
+   "date": "2026-04-09",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "QUIKTRIP #1438 CHANDLER",
+   "amount": 45.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK87P5D02R",
+   "date": "2026-04-07",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "FRY'S FOOD #66 CHANDLER AZ",
+   "amount": 60.19,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK65SALJZF",
+   "date": "2026-04-07",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "COX COMMUNICATIONS",
+   "amount": 84.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKN42QJ7WQ",
+   "date": "2026-04-04",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "COSTCO WHSE #0427 CHANDLER",
+   "amount": 82.22,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK28RZ2TZV",
+   "date": "2026-04-04",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "BOARD GAME CAFE CHANDLER",
+   "amount": 17.86,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Leisure"
+  },
+  {
+   "id": "BK4GT7L7FB",
+   "date": "2026-04-03",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3065.62,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK23RAGFKC",
+   "date": "2026-04-03",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "CIRCLE K #2709864 CHANDLER",
+   "amount": 45.78,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKW5XHRB0W",
+   "date": "2026-04-02",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "FRY'S FOOD #66 CHANDLER AZ",
+   "amount": 44.98,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKCCMPFZU7",
+   "date": "2026-04-01",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "DESERT FINANCIAL MORTGAGE",
+   "amount": 1862.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKF1JP4T3Y",
+   "date": "2026-03-24",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "BOARD GAME CAFE CHANDLER",
+   "amount": 24.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Leisure"
+  },
+  {
+   "id": "BKS07FKRV7",
+   "date": "2026-03-22",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "VERIZON WIRELESS",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKNRTVXLTP",
+   "date": "2026-03-20",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "CITY OF CHANDLER UTILITIES",
+   "amount": 86.3,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKJT2PYJU3",
+   "date": "2026-03-20",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3059.95,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKD03BWNGE",
+   "date": "2026-03-19",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "FRY'S FOOD #66 CHANDLER AZ",
+   "amount": 117.3,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKG01284RH",
+   "date": "2026-03-12",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SRP ELECTRIC AUTOPAY",
+   "amount": 308.65,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKQP8FPBFL",
+   "date": "2026-03-07",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "COX COMMUNICATIONS",
+   "amount": 84.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKLYUJUNW4",
+   "date": "2026-03-06",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3040.39,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKEKY4R6TN",
+   "date": "2026-03-05",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "COSTCO WHSE #0427 CHANDLER",
+   "amount": 121.12,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKQGLRBEBA",
+   "date": "2026-03-02",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "DESERT FINANCIAL MORTGAGE",
+   "amount": 1862.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKKZNBMZ64",
+   "date": "2026-02-27",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "FRY'S FOOD #66 CHANDLER AZ",
+   "amount": 54.32,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK07N7GQG3",
+   "date": "2026-02-27",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "BOARD GAME CAFE CHANDLER",
+   "amount": 16.87,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Leisure"
+  },
+  {
+   "id": "BKCUPDEUET",
+   "date": "2026-02-25",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "FRY'S FOOD #66 CHANDLER AZ",
+   "amount": 61.62,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKP5CTTWZZ",
+   "date": "2026-02-22",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "VERIZON WIRELESS",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKD1Y2PK13",
+   "date": "2026-02-20",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "CITY OF CHANDLER UTILITIES",
+   "amount": 79.62,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK4CBF7B7E",
+   "date": "2026-02-20",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3024.91,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKHEXXEJWP",
+   "date": "2026-02-18",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "SPROUTS FARMERS MKT #12 CHANDLER",
+   "amount": 73.8,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK649YXXF3",
+   "date": "2026-02-12",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SRP ELECTRIC AUTOPAY",
+   "amount": 129.24,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKJ05WJPJV",
+   "date": "2026-02-07",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "BOARD GAME CAFE CHANDLER",
+   "amount": 15.85,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Leisure"
+  },
+  {
+   "id": "BKFG03NVU0",
+   "date": "2026-02-07",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "COX COMMUNICATIONS",
+   "amount": 84.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKPAFJZMAC",
+   "date": "2026-02-06",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3068.16,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK8RW2XHET",
+   "date": "2026-02-04",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "COSTCO WHSE #0427 CHANDLER",
+   "amount": 158.82,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKNXMNK8BF",
+   "date": "2026-02-03",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "BOARD GAME CAFE CHANDLER",
+   "amount": 15.85,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Leisure"
+  },
+  {
+   "id": "BKQGYPQ0TK",
+   "date": "2026-02-02",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "DESERT FINANCIAL MORTGAGE",
+   "amount": 1862.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  },
+  {
+   "id": "BKV3EXD6G6",
+   "date": "2026-01-23",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3043.45,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK4CNZY2YX",
+   "date": "2026-01-22",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "VERIZON WIRELESS",
+   "amount": 70.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKSQS4ZSZY",
+   "date": "2026-01-21",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "SPROUTS FARMERS MKT #12 CHANDLER",
+   "amount": 57.1,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKRFJ8UCHB",
+   "date": "2026-01-20",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "CITY OF CHANDLER UTILITIES",
+   "amount": 70.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK0Q13GSF6",
+   "date": "2026-01-12",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SRP ELECTRIC AUTOPAY",
+   "amount": 264.51,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKCA8B35CU",
+   "date": "2026-01-09",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "SONORAN EDTECH INC PAYROLL",
+   "amount": 3034.57,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKSHBW0CUJ",
+   "date": "2026-01-07",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "SPROUTS FARMERS MKT #12 CHANDLER",
+   "amount": 59.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK964Y5C1Y",
+   "date": "2026-01-07",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "COX COMMUNICATIONS",
+   "amount": 84.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKLLTRCB9K",
+   "date": "2026-01-06",
+   "account": "Desert Financial Visa Debit ••8120",
+   "description": "SPROUTS FARMERS MKT #12 CHANDLER",
+   "amount": 67.81,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJKERAECL",
+   "date": "2026-01-01",
+   "account": "Desert Financial CU Checking ••8120",
+   "description": "DESERT FINANCIAL MORTGAGE",
+   "amount": 1862.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Mortgage"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S34"
+  ],
+  "scenarios": [
+   "S34A",
+   "S34B"
+  ],
+  "world": "shared (both twins)",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261122,
+  "record_counts": {
+   "transactions": 42,
+   "bank_transactions": 118,
+   "total_money_records": 160
+  }
+ }
+}

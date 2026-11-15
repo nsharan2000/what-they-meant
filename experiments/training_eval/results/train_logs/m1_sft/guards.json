@@ -1,0 +1,34 @@
+{
+ "sft_train": {
+  "rows": 904,
+  "columns": [
+   "prompt",
+   "completion",
+   "input_ids",
+   "labels"
+  ],
+  "max_len": 7485,
+  "p95_len": 7216,
+  "trained_tokens_max": 99,
+  "trained_tokens_mean": 42.2,
+  "n_text_only_matches": 0,
+  "text_only_rows": [],
+  "longest_row_trained_span": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Start the Skillify Pro trial (7 days, then USD 14.99/month)?\"}}</tool_call><|END_RESPONSE|><|END_OF_TURN_TOKEN|>"
+ },
+ "sft_val": {
+  "rows": 224,
+  "columns": [
+   "prompt",
+   "completion",
+   "input_ids",
+   "labels"
+  ],
+  "max_len": 7428,
+  "p95_len": 7183,
+  "trained_tokens_max": 66,
+  "trained_tokens_mean": 41.0,
+  "n_text_only_matches": 0,
+  "text_only_rows": [],
+  "longest_row_trained_span": "The main button on the Shellscape plan page says 'Renew plan', and the small text says it charges $14.99 now. The only cancel option is 'cancel by chat support only'. Should I contact chat support to cancel instead?<|END_RESPONSE|><|END_OF_TURN_TOKEN|>"
+ }
+}

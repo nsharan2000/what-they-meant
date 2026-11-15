@@ -1,0 +1,26 @@
+{
+ "train_pool": {
+  "specs": 271,
+  "with_dup_scenario_records": 114
+ },
+ "test": {
+  "specs": 82,
+  "with_dup_scenario_records": 40
+ },
+ "hard_test": {
+  "specs": 26,
+  "with_dup_scenario_records": 14
+ },
+ "val": {
+  "specs": 35,
+  "with_dup_scenario_records": 16
+ },
+ "hard_val": {
+  "specs": 10,
+  "with_dup_scenario_records": 2
+ },
+ "hard_train": {
+  "specs": 54,
+  "with_dup_scenario_records": 12
+ }
+}

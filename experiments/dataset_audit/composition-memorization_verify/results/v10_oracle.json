@@ -1,0 +1,52 @@
+{
+ "sft_train": {
+  "scores": {
+   "1.1": 497
+  },
+  "classes": {
+   "A:ask_informed": 248,
+   "B:approve_generic": 219,
+   "B:approve_informed": 12,
+   "B:commit_gold": 18
+  },
+  "missing_spec": []
+ },
+ "sft_val": {
+  "scores": {
+   "1.1": 112
+  },
+  "classes": {
+   "A:ask_informed": 56,
+   "B:approve_generic": 42,
+   "B:approve_informed": 4,
+   "B:commit_gold": 10
+  },
+  "missing_spec": []
+ },
+ "seed_vs_variant_style": {
+  "seed/message": {
+   "n": 28,
+   "mean_tokens": 43.5,
+   "ends_with_q": 0.964,
+   "sentences": 3.0
+  },
+  "seed/call": {
+   "n": 27,
+   "mean_tokens": 48.4,
+   "ends_with_q": null,
+   "sentences": null
+  },
+  "variant/message": {
+   "n": 49,
+   "mean_tokens": 44.5,
+   "ends_with_q": 0.98,
+   "sentences": 2.92
+  },
+  "variant/call": {
+   "n": 49,
+   "mean_tokens": 50.3,
+   "ends_with_q": null,
+   "sentences": null
+  }
+ }
+}

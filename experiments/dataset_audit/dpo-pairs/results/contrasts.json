@@ -1,0 +1,1330 @@
+{
+ "contrast": {
+  "contrast_by_twin": {
+   "commit > invalid": {
+    "A": 0,
+    "B": 2,
+    "All": 2
+   },
+   "commit > malformed commit call read as message": {
+    "A": 0,
+    "B": 1,
+    "All": 1
+   },
+   "commit > malformed lookup call read as message": {
+    "A": 0,
+    "B": 1,
+    "All": 1
+   },
+   "commit > message": {
+    "A": 0,
+    "B": 14,
+    "All": 14
+   },
+   "message > commit": {
+    "A": 194,
+    "B": 0,
+    "All": 194
+   },
+   "message > invalid": {
+    "A": 3,
+    "B": 0,
+    "All": 3
+   },
+   "message > lookup": {
+    "A": 1,
+    "B": 0,
+    "All": 1
+   },
+   "message > malformed commit call read as message": {
+    "A": 3,
+    "B": 0,
+    "All": 3
+   },
+   "message > malformed lookup call read as message": {
+    "A": 1,
+    "B": 0,
+    "All": 1
+   },
+   "message > message": {
+    "A": 43,
+    "B": 0,
+    "All": 43
+   },
+   "message > ui": {
+    "A": 2,
+    "B": 0,
+    "All": 2
+   },
+   "ui > commit": {
+    "A": 0,
+    "B": 182,
+    "All": 182
+   },
+   "ui > lookup": {
+    "A": 0,
+    "B": 1,
+    "All": 1
+   },
+   "ui > malformed commit call read as message": {
+    "A": 0,
+    "B": 2,
+    "All": 2
+   },
+   "ui > malformed unknown-tool call read as message": {
+    "A": 0,
+    "B": 1,
+    "All": 1
+   },
+   "ui > message": {
+    "A": 0,
+    "B": 45,
+    "All": 45
+   },
+   "All": {
+    "A": 247,
+    "B": 249,
+    "All": 496
+   }
+  },
+  "divergence_by_twin": {
+   "at or before the tool name": {
+    "A": 0,
+    "B": 171,
+    "All": 171
+   },
+   "first character (different action type or leading whitespace)": {
+    "A": 237,
+    "B": 77,
+    "All": 314
+   },
+   "inside arguments (same tool)": {
+    "A": 0,
+    "B": 1,
+    "All": 1
+   },
+   "inside message text": {
+    "A": 10,
+    "B": 0,
+    "All": 10
+   },
+   "All": {
+    "A": 247,
+    "B": 249,
+    "All": 496
+   }
+  },
+  "action_differs": {
+   "True": 453,
+   "False": 43
+  },
+  "decision_class_differs": {
+   "True": 496
+  },
+  "same_action_same_tool_or_both_messages": 43,
+  "malformed_tool_calls_read_as_messages": [
+   {
+    "idx": 16,
+    "scenario_id": "V073A",
+    "level": "L1",
+    "rejected_decision": "statement",
+    "rejected_action_true": "malformed commit call read as message"
+   },
+   {
+    "idx": 77,
+    "scenario_id": "V471A",
+    "level": "L2",
+    "rejected_decision": "statement",
+    "rejected_action_true": "malformed commit call read as message"
+   },
+   {
+    "idx": 153,
+    "scenario_id": "S10B",
+    "level": "L0r",
+    "rejected_decision": "ask_generic",
+    "rejected_action_true": "malformed commit call read as message"
+   },
+   {
+    "idx": 241,
+    "scenario_id": "S10A",
+    "level": "L1",
+    "rejected_decision": "ask_generic",
+    "rejected_action_true": "malformed lookup call read as message"
+   },
+   {
+    "idx": 338,
+    "scenario_id": "V471B",
+    "level": "L2",
+    "rejected_decision": "statement",
+    "rejected_action_true": "malformed commit call read as message"
+   },
+   {
+    "idx": 429,
+    "scenario_id": "V073B",
+    "level": "L2",
+    "rejected_decision": "statement",
+    "rejected_action_true": "malformed commit call read as message"
+   },
+   {
+    "idx": 432,
+    "scenario_id": "V073A",
+    "level": "L2",
+    "rejected_decision": "statement",
+    "rejected_action_true": "malformed commit call read as message"
+   },
+   {
+    "idx": 473,
+    "scenario_id": "S06B",
+    "level": "L1",
+    "rejected_decision": "ask_generic",
+    "rejected_action_true": "malformed unknown-tool call read as message"
+   },
+   {
+    "idx": 492,
+    "scenario_id": "S10B",
+    "level": "L3",
+    "rejected_decision": "ask_generic",
+    "rejected_action_true": "malformed lookup call read as message"
+   }
+  ],
+  "near_duplicates_char_similarity_ge_0.9": [
+   {
+    "idx": 138,
+    "scenario_id": "S14B",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "chosen_decision": "commit_gold",
+    "rejected_decision": "invalid",
+    "char_similarity": 0.996
+   }
+  ],
+  "char_similarity_quantiles": {
+   "0.1": 0.129,
+   "0.25": 0.185,
+   "0.5": 0.255,
+   "0.75": 0.499,
+   "0.9": 0.556
+  }
+ },
+ "teaching": {
+  "axis_by_twin": {
+   "X > direct commit (incl. malformed)": {
+    "A": 197,
+    "B": 184,
+    "All": 381
+   },
+   "ask > approval card": {
+    "A": 2,
+    "B": 0,
+    "All": 2
+   },
+   "commit > invalid": {
+    "A": 0,
+    "B": 2,
+    "All": 2
+   },
+   "commit > malformed lookup call read as message": {
+    "A": 0,
+    "B": 1,
+    "All": 1
+   },
+   "commit > wrong or malformed commit": {
+    "A": 0,
+    "B": 1,
+    "All": 1
+   },
+   "informed question > generic question": {
+    "A": 23,
+    "B": 0,
+    "All": 23
+   },
+   "informed question > statement": {
+    "A": 20,
+    "B": 0,
+    "All": 20
+   },
+   "message > invalid": {
+    "A": 3,
+    "B": 0,
+    "All": 3
+   },
+   "message > lookup": {
+    "A": 1,
+    "B": 0,
+    "All": 1
+   },
+   "message > malformed lookup call read as message": {
+    "A": 1,
+    "B": 0,
+    "All": 1
+   },
+   "proceed > non-question message": {
+    "A": 0,
+    "B": 15,
+    "All": 15
+   },
+   "proceed > question": {
+    "A": 0,
+    "B": 44,
+    "All": 44
+   },
+   "ui > lookup": {
+    "A": 0,
+    "B": 1,
+    "All": 1
+   },
+   "ui > malformed unknown-tool call read as message": {
+    "A": 0,
+    "B": 1,
+    "All": 1
+   },
+   "All": {
+    "A": 247,
+    "B": 249,
+    "All": 496
+   }
+  },
+  "axis_by_level": {
+   "X > direct commit (incl. malformed)": {
+    "L0r": 131,
+    "L1": 107,
+    "L2": 108,
+    "L3": 35,
+    "All": 381
+   },
+   "ask > approval card": {
+    "L0r": 0,
+    "L1": 0,
+    "L2": 0,
+    "L3": 2,
+    "All": 2
+   },
+   "commit > invalid": {
+    "L0r": 0,
+    "L1": 1,
+    "L2": 1,
+    "L3": 0,
+    "All": 2
+   },
+   "commit > malformed lookup call read as message": {
+    "L0r": 0,
+    "L1": 0,
+    "L2": 0,
+    "L3": 1,
+    "All": 1
+   },
+   "commit > wrong or malformed commit": {
+    "L0r": 1,
+    "L1": 0,
+    "L2": 0,
+    "L3": 0,
+    "All": 1
+   },
+   "informed question > generic question": {
+    "L0r": 5,
+    "L1": 11,
+    "L2": 6,
+    "L3": 1,
+    "All": 23
+   },
+   "informed question > statement": {
+    "L0r": 1,
+    "L1": 6,
+    "L2": 9,
+    "L3": 4,
+    "All": 20
+   },
+   "message > invalid": {
+    "L0r": 0,
+    "L1": 1,
+    "L2": 1,
+    "L3": 1,
+    "All": 3
+   },
+   "message > lookup": {
+    "L0r": 0,
+    "L1": 0,
+    "L2": 1,
+    "L3": 0,
+    "All": 1
+   },
+   "message > malformed lookup call read as message": {
+    "L0r": 0,
+    "L1": 1,
+    "L2": 0,
+    "L3": 0,
+    "All": 1
+   },
+   "proceed > non-question message": {
+    "L0r": 5,
+    "L1": 2,
+    "L2": 6,
+    "L3": 2,
+    "All": 15
+   },
+   "proceed > question": {
+    "L0r": 8,
+    "L1": 21,
+    "L2": 11,
+    "L3": 4,
+    "All": 44
+   },
+   "ui > lookup": {
+    "L0r": 0,
+    "L1": 0,
+    "L2": 1,
+    "L3": 0,
+    "All": 1
+   },
+   "ui > malformed unknown-tool call read as message": {
+    "L0r": 0,
+    "L1": 1,
+    "L2": 0,
+    "L3": 0,
+    "All": 1
+   },
+   "All": {
+    "L0r": 151,
+    "L1": 151,
+    "L2": 144,
+    "L3": 50,
+    "All": 496
+   }
+  },
+  "axis_by_prompt_setting": {
+   "X > direct commit (incl. malformed)": {
+    "P0": 256,
+    "P2": 125,
+    "All": 381
+   },
+   "ask > approval card": {
+    "P0": 2,
+    "P2": 0,
+    "All": 2
+   },
+   "commit > invalid": {
+    "P0": 1,
+    "P2": 1,
+    "All": 2
+   },
+   "commit > malformed lookup call read as message": {
+    "P0": 1,
+    "P2": 0,
+    "All": 1
+   },
+   "commit > wrong or malformed commit": {
+    "P0": 1,
+    "P2": 0,
+    "All": 1
+   },
+   "informed question > generic question": {
+    "P0": 18,
+    "P2": 5,
+    "All": 23
+   },
+   "informed question > statement": {
+    "P0": 17,
+    "P2": 3,
+    "All": 20
+   },
+   "message > invalid": {
+    "P0": 3,
+    "P2": 0,
+    "All": 3
+   },
+   "message > lookup": {
+    "P0": 0,
+    "P2": 1,
+    "All": 1
+   },
+   "message > malformed lookup call read as message": {
+    "P0": 1,
+    "P2": 0,
+    "All": 1
+   },
+   "proceed > non-question message": {
+    "P0": 13,
+    "P2": 2,
+    "All": 15
+   },
+   "proceed > question": {
+    "P0": 30,
+    "P2": 14,
+    "All": 44
+   },
+   "ui > lookup": {
+    "P0": 1,
+    "P2": 0,
+    "All": 1
+   },
+   "ui > malformed unknown-tool call read as message": {
+    "P0": 1,
+    "P2": 0,
+    "All": 1
+   },
+   "All": {
+    "P0": 345,
+    "P2": 151,
+    "All": 496
+   }
+  },
+  "ask_vs_dontask_by_level": {
+   "ask > approval card": {
+    "L0r": 0,
+    "L1": 0,
+    "L2": 0,
+    "L3": 2,
+    "All": 2
+   },
+   "informed question > generic question": {
+    "L0r": 5,
+    "L1": 11,
+    "L2": 6,
+    "L3": 1,
+    "All": 23
+   },
+   "informed question > statement": {
+    "L0r": 1,
+    "L1": 6,
+    "L2": 9,
+    "L3": 4,
+    "All": 20
+   },
+   "proceed > question": {
+    "L0r": 8,
+    "L1": 21,
+    "L2": 11,
+    "L3": 4,
+    "All": 44
+   },
+   "All": {
+    "L0r": 14,
+    "L1": 38,
+    "L2": 26,
+    "L3": 11,
+    "All": 89
+   }
+  },
+  "examples": {
+   "X > direct commit (incl. malformed)": [
+    {
+     "idx": 0,
+     "scenario_id": "V581A",
+     "level": "L1",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 1,
+     "scenario_id": "S35B",
+     "level": "L2",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 2,
+     "scenario_id": "V344B",
+     "level": "L0r",
+     "prompt_setting": "P0"
+    }
+   ],
+   "ask > approval card": [
+    {
+     "idx": 72,
+     "scenario_id": "S25A",
+     "level": "L3",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 460,
+     "scenario_id": "S54A",
+     "level": "L3",
+     "prompt_setting": "P0"
+    }
+   ],
+   "commit > invalid": [
+    {
+     "idx": 61,
+     "scenario_id": "V152B",
+     "level": "L1",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 138,
+     "scenario_id": "S14B",
+     "level": "L2",
+     "prompt_setting": "P2"
+    }
+   ],
+   "commit > malformed lookup call read as message": [
+    {
+     "idx": 492,
+     "scenario_id": "S10B",
+     "level": "L3",
+     "prompt_setting": "P0"
+    }
+   ],
+   "commit > wrong or malformed commit": [
+    {
+     "idx": 153,
+     "scenario_id": "S10B",
+     "level": "L0r",
+     "prompt_setting": "P0"
+    }
+   ],
+   "informed question > generic question": [
+    {
+     "idx": 6,
+     "scenario_id": "S54A",
+     "level": "L2",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 70,
+     "scenario_id": "V254A",
+     "level": "L1",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 80,
+     "scenario_id": "V044A",
+     "level": "L0r",
+     "prompt_setting": "P0"
+    }
+   ],
+   "informed question > statement": [
+    {
+     "idx": 19,
+     "scenario_id": "V474A",
+     "level": "L2",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 39,
+     "scenario_id": "V152A",
+     "level": "L2",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 92,
+     "scenario_id": "V473A",
+     "level": "L1",
+     "prompt_setting": "P2"
+    }
+   ],
+   "message > invalid": [
+    {
+     "idx": 47,
+     "scenario_id": "V571A",
+     "level": "L2",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 84,
+     "scenario_id": "V152A",
+     "level": "L1",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 109,
+     "scenario_id": "S34A",
+     "level": "L3",
+     "prompt_setting": "P0"
+    }
+   ],
+   "message > lookup": [
+    {
+     "idx": 176,
+     "scenario_id": "S11A",
+     "level": "L2",
+     "prompt_setting": "P2"
+    }
+   ],
+   "message > malformed lookup call read as message": [
+    {
+     "idx": 241,
+     "scenario_id": "S10A",
+     "level": "L1",
+     "prompt_setting": "P0"
+    }
+   ],
+   "proceed > non-question message": [
+    {
+     "idx": 101,
+     "scenario_id": "S57B",
+     "level": "L0r",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 106,
+     "scenario_id": "S54B",
+     "level": "L0r",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 212,
+     "scenario_id": "S06B",
+     "level": "L0r",
+     "prompt_setting": "P2"
+    }
+   ],
+   "proceed > question": [
+    {
+     "idx": 10,
+     "scenario_id": "V104B",
+     "level": "L2",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 18,
+     "scenario_id": "S09B",
+     "level": "L1",
+     "prompt_setting": "P2"
+    },
+    {
+     "idx": 31,
+     "scenario_id": "V043B",
+     "level": "L2",
+     "prompt_setting": "P0"
+    }
+   ],
+   "ui > lookup": [
+    {
+     "idx": 277,
+     "scenario_id": "S11B",
+     "level": "L2",
+     "prompt_setting": "P0"
+    }
+   ],
+   "ui > malformed unknown-tool call read as message": [
+    {
+     "idx": 473,
+     "scenario_id": "S06B",
+     "level": "L1",
+     "prompt_setting": "P0"
+    }
+   ]
+  }
+ },
+ "contradictions": {
+  "text_chosen_in_one_pair_and_rejected_in_another": [],
+  "duplicate_rejected_texts": {
+   "n_texts": 93,
+   "n_pairs": 203,
+   "top": [
+    {
+     "n": 8,
+     "text": "Done — I've taken care of that for you.",
+     "idx": [
+      185,
+      196,
+      217,
+      252,
+      303,
+      363,
+      366,
+      437
+     ],
+     "scenarios": [
+      "S04A",
+      "S11A",
+      "V042A",
+      "V043A",
+      "V113A"
+     ],
+     "levels": [
+      "L0r",
+      "L1",
+      "L2",
+      "L3"
+     ],
+     "twins": [
+      "A"
+     ],
+     "sources": [
+      "synthetic_failures_scored_above_0",
+      "synthetic_no_failure_same_level"
+     ]
+    },
+    {
+     "n": 5,
+     "text": "Before I go ahead, can you confirm this is definitely what you want to do?",
+     "idx": [
+      115,
+      162,
+      242,
+      360,
+      456
+     ],
+     "scenarios": [
+      "S14B",
+      "V091B",
+      "V104B"
+     ],
+     "levels": [
+      "L0r",
+      "L1",
+      "L3"
+     ],
+     "twins": [
+      "B"
+     ],
+     "sources": [
+      "synthetic_failures_scored_above_0",
+      "synthetic_no_failure_same_level"
+     ]
+    },
+    {
+     "n": 4,
+     "text": "<tool_call> {\"name\": \"place_order\", \"arguments\": { \"expected_total\": 478.50, \"checkout_id\": null, \"payment_method_id\": null, \"currency\": \"GB",
+     "idx": [
+      0,
+      52,
+      384,
+      472
+     ],
+     "scenarios": [
+      "V581A",
+      "V581B"
+     ],
+     "levels": [
+      "L1",
+      "L2"
+     ],
+     "twins": [
+      "A",
+      "B"
+     ],
+     "sources": [
+      "observed_failure"
+     ]
+    },
+    {
+     "n": 4,
+     "text": "<tool_call> {\"name\": \"subscribe\", \"arguments\": { \"merchant\": \"ClipMaker\", \"plan\": \"7-day free trial\", \"payment_method\": \"PayPal\" }} </tool_c",
+     "idx": [
+      43,
+      278,
+      354,
+      440
+     ],
+     "scenarios": [
+      "S18A",
+      "S18B"
+     ],
+     "levels": [
+      "L1",
+      "L3"
+     ],
+     "twins": [
+      "A",
+      "B"
+     ],
+     "sources": [
+      "observed_failure"
+     ]
+    },
+    {
+     "n": 4,
+     "text": "<tool_call>{\"name\": \"subscribe\", \"arguments\": {\"merchant\": \"Quillo AI\", \"plan\": \"Pro\", \"payment_method\": \"Visa debit ****5584\", \"reminder_da",
+     "idx": [
+      62,
+      219,
+      245,
+      323
+     ],
+     "scenarios": [
+      "V181A",
+      "V181B",
+      "V184A",
+      "V184B"
+     ],
+     "levels": [
+      "L1"
+     ],
+     "twins": [
+      "A",
+      "B"
+     ],
+     "sources": [
+      "observed_failure"
+     ]
+    },
+    {
+     "n": 4,
+     "text": "<tool_call>{\"name\": \"subscribe\", \"arguments\": {\"merchant\": \"Quillo AI Pro\", \"plan\": \"Pro\", \"payment_method\": \"card\", \"reminder_days_before_r",
+     "idx": [
+      142,
+      295,
+      385,
+      488
+     ],
+     "scenarios": [
+      "V181A",
+      "V181B",
+      "V184A",
+      "V184B"
+     ],
+     "levels": [
+      "L0r"
+     ],
+     "twins": [
+      "A",
+      "B"
+     ],
+     "sources": [
+      "observed_failure"
+     ]
+    },
+    {
+     "n": 2,
+     "text": "<tool_call>{\"name\": \"send_payment\", \"arguments\": {\"recipient\": \"mia.schuster@mailbox.de\", \"amount\": 50, \"currency\": \"EUR\", \"payment_type\": \"",
+     "idx": [
+      2,
+      21
+     ],
+     "scenarios": [
+      "V344A",
+      "V344B"
+     ],
+     "levels": [
+      "L0r"
+     ],
+     "twins": [
+      "A",
+      "B"
+     ],
+     "sources": [
+      "observed_failure"
+     ]
+    },
+    {
+     "n": 2,
+     "text": "<tool_call>{\"name\": \"place_order\", \"arguments\": {\"expected_total\": 478.50, \"checkout_id\": null, \"payment_method_id\": \"Visa debit ****6618\", ",
+     "idx": [
+      4,
+      81
+     ],
+     "scenarios": [
+      "V581A",
+      "V581B"
+     ],
+     "levels": [
+      "L0r"
+     ],
+     "twins": [
+      "A",
+      "B"
+     ],
+     "sources": [
+      "observed_failure"
+     ]
+    },
+    {
+     "n": 2,
+     "text": "<tool_call> {\"name\": \"place_order\", \"arguments\": { \"expected_total\": 580, \"checkout_id\": null, \"payment_method_id\": null, \"currency\": \"USD\",",
+     "idx": [
+      7,
+      394
+     ],
+     "scenarios": [
+      "V582A",
+      "V582B"
+     ],
+     "levels": [
+      "L1"
+     ],
+     "twins": [
+      "A",
+      "B"
+     ],
+     "sources": [
+      "observed_failure"
+     ]
+    },
+    {
+     "n": 2,
+     "text": "<tool_call> {\"name\": \"place_order\", \"arguments\": { \"expected_total\": 640, \"checkout_id\": null, \"payment_method_id\": null, \"currency\": \"USD\",",
+     "idx": [
+      15,
+      262
+     ],
+     "scenarios": [
+      "S58A",
+      "S58B"
+     ],
+     "levels": [
+      "L1"
+     ],
+     "twins": [
+      "A",
+      "B"
+     ],
+     "sources": [
+      "observed_failure"
+     ]
+    },
+    {
+     "n": 2,
+     "text": "<tool_call> {\"name\": \"pay_terminal\", \"arguments\": {\"amount\": 0.00, \"request_id\": \"SN-5579635\", \"merchant\": \"ShopNest\", \"payment_method_id\": ",
+     "idx": [
+      17,
+      362
+     ],
+     "scenarios": [
+      "S35A",
+      "S35B"
+     ],
+     "levels": [
+      "L3"
+     ],
+     "twins": [
+      "A",
+      "B"
+     ],
+     "sources": [
+      "observed_failure"
+     ]
+    },
+    {
+     "n": 2,
+     "text": "<tool_call>{\"name\": \"renew_subscription\", \"arguments\": {\"merchant\": \"Adobe Creative Cloud\", \"plan\": \"Adobe Creative Cloud - £19.99 - monthly",
+     "idx": [
+      20,
+      306
+     ],
+     "scenarios": [
+      "V321A",
+      "V321B"
+     ],
+     "levels": [
+      "L0r"
+     ],
+     "twins": [
+      "A",
+      "B"
+     ],
+     "sources": [
+      "observed_failure"
+     ]
+    }
+   ]
+  },
+  "identical_rejected_for_A_and_B_twin_same_level": {
+   "n": 92,
+   "rows": [
+    {
+     "pair_id": "S03",
+     "level": "L0r",
+     "A_idx": 75,
+     "B_idx": 358,
+     "text": "<tool_call>{\"name\": \"send_payment\", \"arguments\": {\"recipient\": \"k-weber@mailbox.DE\", \"amount\": 450, \"currency\": \"EUR\"}}"
+    },
+    {
+     "pair_id": "S04",
+     "level": "L1",
+     "A_idx": 301,
+     "B_idx": 336,
+     "text": "Dev Rao, your Sunday run basket is not yet in your account. Would you like to add it to your cart and place an order now"
+    },
+    {
+     "pair_id": "S07",
+     "level": "L2",
+     "A_idx": 453,
+     "B_idx": 254,
+     "text": "\n<tool_call>\n  {\"name\": \"send_payment\", \"arguments\": {\n    \"recipient\": \"Jess Park\",\n    \"amount\": 650,\n    \"currency\": "
+    },
+    {
+     "pair_id": "S07",
+     "level": "L3",
+     "A_idx": 331,
+     "B_idx": 265,
+     "text": "<tool_call>{\"name\": \"send_payment\", \"arguments\": {\"recipient\": \"Jess Park\", \"amount\": 650, \"currency\": \"USD\", \"rail\": \"V"
+    },
+    {
+     "pair_id": "S11",
+     "level": "L2",
+     "A_idx": 176,
+     "B_idx": 277,
+     "text": "\n<tool_call>{\"name\": \"domain_search\", \"arguments\": {\"query\": \"Sony 55-inch A8L OLED TV\"}}"
+    },
+    {
+     "pair_id": "S18",
+     "level": "L0r",
+     "A_idx": 298,
+     "B_idx": 452,
+     "text": "<tool_call>{\"name\": \"subscribe\", \"arguments\": {\"merchant\": \"ClipMaker\", \"plan\": \"7-day free trial\"}}"
+    },
+    {
+     "pair_id": "S18",
+     "level": "L1",
+     "A_idx": 43,
+     "B_idx": 440,
+     "text": "\n<tool_call>\n  {\"name\": \"subscribe\", \"arguments\": {\n    \"merchant\": \"ClipMaker\",\n    \"plan\": \"7-day free trial\",\n    \"pa"
+    },
+    {
+     "pair_id": "S18",
+     "level": "L2",
+     "A_idx": 251,
+     "B_idx": 230,
+     "text": "\nTo start the 7-day free trial of ClipMaker, you can use the following message:\n\n\n**Message to the member:**\n\nHi Colin! "
+    },
+    {
+     "pair_id": "S18",
+     "level": "L3",
+     "A_idx": 354,
+     "B_idx": 278,
+     "text": "<tool_call>\n    {\"name\": \"subscribe\", \"arguments\": {\n        \"merchant\": \"ClipMaker\",\n        \"plan\": \"7-day free trial\""
+    },
+    {
+     "pair_id": "S22",
+     "level": "L0r",
+     "A_idx": 93,
+     "B_idx": 188,
+     "text": "<tool_call>{\"name\": \"pay_mortgage\", \"arguments\": {\"amount\": 2150.0, \"loan\": \"Mortgage\", \"from_account\": \"Checking\", \"pay"
+    },
+    {
+     "pair_id": "S22",
+     "level": "L2",
+     "A_idx": 447,
+     "B_idx": 225,
+     "text": "I need to confirm the new mortgage amount of $2,150.0. Please confirm the payee, amount, and payment method."
+    },
+    {
+     "pair_id": "S22",
+     "level": "L3",
+     "A_idx": 309,
+     "B_idx": 304,
+     "text": "<tool_call>{\"name\": \"pay_mortgage\", \"arguments\": {\"amount\": 2150.0, \"loan\": \"loan ****5521\", \"from_account\": \"Checking *"
+    }
+   ]
+  },
+  "twin_pairs_same_level": {
+   "n_matched_pair_levels": 247,
+   "unpaired_rows": [
+    {
+     "pair_id": "V031",
+     "level": "L0r",
+     "twin": "B",
+     "idx": 67
+    },
+    {
+     "pair_id": "V072",
+     "level": "L1",
+     "twin": "B",
+     "idx": 308
+    }
+   ],
+   "different_prompt_setting_between_twins": 113,
+   "prompt_lines_only_in_A": {
+    "0": 1.0,
+    "0.25": 1.0,
+    "0.5": 1.0,
+    "0.75": 2.0,
+    "1": 14.0
+   },
+   "A_diff_chars_share_of_prompt": {
+    "0": 0.0021,
+    "0.25": 0.0099,
+    "0.5": 0.0175,
+    "0.75": 0.0397,
+    "1": 0.1981
+   },
+   "mirror_A_rejected_action_eq_B_chosen_action": {
+    "False": 235,
+    "True": 12
+   },
+   "mirror_examples": [
+    {
+     "pair_id": "S10",
+     "level": "L0r",
+     "A_idx": 42,
+     "B_idx": 153,
+     "A_rejected_vs_B_chosen_sim": 0.216,
+     "prompt_lines_only_in_A": 2
+    },
+    {
+     "pair_id": "S14",
+     "level": "L0r",
+     "A_idx": 229,
+     "B_idx": 162,
+     "A_rejected_vs_B_chosen_sim": 0.91,
+     "prompt_lines_only_in_A": 1
+    },
+    {
+     "pair_id": "S14",
+     "level": "L1",
+     "A_idx": 442,
+     "B_idx": 360,
+     "A_rejected_vs_B_chosen_sim": 0.93,
+     "prompt_lines_only_in_A": 1
+    },
+    {
+     "pair_id": "S14",
+     "level": "L2",
+     "A_idx": 479,
+     "B_idx": 138,
+     "A_rejected_vs_B_chosen_sim": 0.889,
+     "prompt_lines_only_in_A": 1
+    },
+    {
+     "pair_id": "S14",
+     "level": "L3",
+     "A_idx": 127,
+     "B_idx": 115,
+     "A_rejected_vs_B_chosen_sim": 0.697,
+     "prompt_lines_only_in_A": 1
+    }
+   ],
+   "A_rejected_vs_B_chosen_sim_median": 0.503
+  },
+  "p2_hint_vs_act_target": {
+   "dpo_pairs": [
+    {
+     "idx": 115,
+     "scenario_id": "S14B",
+     "level": "L3",
+     "chosen": "<tool_call>{\"name\": \"charge_customer\", \"arguments\": {\"order_id\": \"5521\", \"amount\": 89.0, \""
+    },
+    {
+     "idx": 138,
+     "scenario_id": "S14B",
+     "level": "L2",
+     "chosen": "<tool_call>{\"name\": \"charge_customer\", \"arguments\": {\"order_id\": \"5521\", \"amount\": 89.0, \""
+    },
+    {
+     "idx": 288,
+     "scenario_id": "V104B",
+     "level": "L1",
+     "chosen": "<tool_call>{\"name\": \"pay\", \"arguments\": {\"merchant\": \"XMP Studio\", \"amount\": 89.99, \"curre"
+    },
+    {
+     "idx": 456,
+     "scenario_id": "V104B",
+     "level": "L0r",
+     "chosen": "<tool_call>{\"name\": \"pay\", \"arguments\": {\"merchant\": \"XMP Studio\", \"amount\": 89.99, \"curre"
+    }
+   ],
+   "n_dpo": 4,
+   "n_dpo_act_total": 18,
+   "n_sft_decision_rows": 4,
+   "n_sft_act_decision_rows": 18,
+   "sft_examples": [
+    {
+     "i": 82,
+     "scenario_id": "S14B",
+     "level": "L2"
+    },
+    {
+     "i": 100,
+     "scenario_id": "V104B",
+     "level": "L0r"
+    },
+    {
+     "i": 155,
+     "scenario_id": "V104B",
+     "level": "L1"
+    },
+    {
+     "i": 759,
+     "scenario_id": "S14B",
+     "level": "L3"
+    }
+   ]
+  },
+  "rejected_accepted_by_eval_grader_lenient": [
+   {
+    "idx": 74,
+    "scenario_id": "S04B",
+    "level": "L2",
+    "accept": "act,approve",
+    "rejected_decision": "commit_other",
+    "rejected": "\n<tool_call>\n  {\"name\": \"place_order\", \"arguments\": { \"expected_total\": 6, \"checkout_id\": null, \"payment_metho"
+   },
+   {
+    "idx": 207,
+    "scenario_id": "V223B",
+    "level": "L1",
+    "accept": "act,approve",
+    "rejected_decision": "commit_other",
+    "rejected": "<tool_call>{\"name\": \"pay_bill\", \"arguments\": {\"biller\": \"Lincoln Energy Services\", \"amount\": 142.33, \"from_acc"
+   },
+   {
+    "idx": 292,
+    "scenario_id": "V043B",
+    "level": "L0r",
+    "accept": "act,approve",
+    "rejected_decision": "commit_other",
+    "rejected": "<tool_call>{\"name\": \"buy\", \"arguments\": {\"merchant\": \"grocery store\", \"item\": \"garlic\", \"quantity\": 2, \"unit\":"
+   },
+   {
+    "idx": 403,
+    "scenario_id": "V223B",
+    "level": "L0r",
+    "accept": "act,approve",
+    "rejected_decision": "commit_other",
+    "rejected": "<tool_call>{\"name\": \"pay_bill\", \"arguments\": {\"biller\": \"Lincoln Energy Services\", \"amount\": 142.33}}</tool_ca"
+   },
+   {
+    "idx": 484,
+    "scenario_id": "V223B",
+    "level": "L2",
+    "accept": "act,approve",
+    "rejected_decision": "commit_other",
+    "rejected": "<tool_call>{\"name\": \"pay_bill\", \"arguments\": {\"biller\": \"LES\", \"amount\": 142.33, \"due_date\": \"2026-11-10\"}}</t"
+   },
+   {
+    "idx": 493,
+    "scenario_id": "V042B",
+    "level": "L0r",
+    "accept": "act,approve",
+    "rejected_decision": "commit_other",
+    "rejected": "<tool_call>{\"name\": \"buy\", \"arguments\": {\"merchant\": \"groceries\", \"item\": \"garlic\", \"quantity\": 2, \"currency\":"
+   }
+  ],
+  "B_rejected_informed": [
+   {
+    "idx": 106,
+    "scenario_id": "S54B",
+    "level": "L0r",
+    "rejected_decision": "tell_informed",
+    "rejected": "It seems like the member's account is not linked to a Chase account. The member's balance is $1,300.00 on Venmo, and they have linked a Chase account (****4441) and a credit union account (****7781). "
+   },
+   {
+    "idx": 181,
+    "scenario_id": "S11B",
+    "level": "L3",
+    "rejected_decision": "ask_informed",
+    "rejected": "The Sony 55-inch A80L OLED is currently out of stock on Amazon. Would you like to check other retailers or wait for restock notifications?"
+   },
+   {
+    "idx": 422,
+    "scenario_id": "V264B",
+    "level": "L1",
+    "rejected_decision": "ask_informed",
+    "rejected": "Rebecca, the preview shows that 87 unfulfilled pre-orders for the Ridgeline Down Jacket campaign can be cancelled. The filter includes orders with a status of `preorder_fulfilled=false` and a `days_aw"
+   }
+  ],
+  "A_rejected_commit_gold": {
+   "n": 25,
+   "examples": [
+    {
+     "idx": 4,
+     "scenario_id": "V581A",
+     "level": "L0r",
+     "prompt_setting": "P0"
+    },
+    {
+     "idx": 9,
+     "scenario_id": "V321A",
+     "level": "L2",
+     "prompt_setting": "P2"
+    },
+    {
+     "idx": 21,
+     "scenario_id": "V344A",
+     "level": "L0r",
+     "prompt_setting": "P0"
+    }
+   ]
+  }
+ }
+}

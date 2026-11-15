@@ -1,0 +1,76 @@
+{
+ "n_train_logs": 114,
+ "max_step": 114,
+ "steps_epoch1": 57,
+ "boundary_step": 58,
+ "epoch_at_boundary": [
+  1.0,
+  1.0176991150442478
+ ],
+ "loss_mean_epoch1": 0.7229,
+ "loss_mean_epoch2": 0.2112,
+ "loss_last_step": 0.085,
+ "loss_sd_epoch2": 0.1043,
+ "loss_sd_epoch1_second_half": 0.158,
+ "acc_mean_epoch1": 0.8489,
+ "acc_mean_epoch2": 0.9469,
+ "entropy_mean_epoch1": 0.6342,
+ "entropy_mean_epoch2": 0.224,
+ "last10_epoch1": 0.3216,
+ "first10_epoch2": 0.3168,
+ "last10_epoch2": 0.1664,
+ "first10_epoch1": 1.4127,
+ "ratio_first10_ep2_vs_last10_ep1": 0.9851,
+ "trend_slope_per_step_log": -0.03132,
+ "first10_epoch2_vs_trend": 1.4,
+ "first10_epoch2_vs_linear_trend": 1.531,
+ "boundary_welch_t": 0.089,
+ "boundary_2se_detectable_drop": 0.108,
+ "evals": [
+  {
+   "eval_loss": 0.6442,
+   "eval_entropy": 0.3716,
+   "eval_mean_token_accuracy": 0.8513,
+   "epoch": 1.0,
+   "step": 57
+  },
+  {
+   "eval_loss": 0.7456,
+   "eval_entropy": 0.2801,
+   "eval_mean_token_accuracy": 0.8547,
+   "epoch": 2.0,
+   "step": 114
+  }
+ ],
+ "eval_loss_change_pct": 15.73,
+ "eval_entropy_change_pct": -24.63,
+ "eval_acc_change_pts": 0.345,
+ "eval_loss_rise": 0.1014,
+ "decision_pivot_nll_rise_needed_to_explain_whole_rise_nats": 5.53,
+ "eval_loss_rise_if_every_pivot_token_rose_by_1_nat": 0.0183,
+ "loss_steps_50_to_64": {
+  "50": 0.492,
+  "51": 0.409,
+  "52": 0.373,
+  "53": 0.381,
+  "54": 0.143,
+  "55": 0.381,
+  "56": 0.196,
+  "57": 0.185,
+  "58": 0.247,
+  "59": 0.356,
+  "60": 0.4,
+  "61": 0.246,
+  "62": 0.265,
+  "63": 0.599,
+  "64": 0.192
+ },
+ "lr_at": {
+  "1": 0.0,
+  "5": 8e-05,
+  "10": 9.966808593197959e-05,
+  "57": 5.503529129972792e-05,
+  "58": 5.359962716045835e-05,
+  "114": 2.076618380744133e-08
+ }
+}

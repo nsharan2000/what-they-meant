@@ -1,0 +1,679 @@
+{
+ "a_composition": {
+  "train(trained)": {
+   "n": 152,
+   "env": {
+    "wallet": 68,
+    "bills": 30,
+    "shopping": 28,
+    "bizops": 26
+   },
+   "expected": {
+    "A:ask": 76,
+    "B:approve": 71,
+    "B:act": 5
+   },
+   "target_kind": {
+    "A:message": 76,
+    "B:card": 71,
+    "B:commit_tool": 5
+   },
+   "origin": {
+    "variant(open-teacher)": 98,
+    "seed": 54
+   },
+   "n_prefix_calls": {
+    "1": 146,
+    "0": 4,
+    "2": 2
+   },
+   "has_noisy_request": 54,
+   "has_l2_extra_records": 0,
+   "has_scenario_records": 98,
+   "sub_domain": {
+    "p2p_transfers": 66,
+    "merchant_refunds": 32,
+    "autopay_subscriptions": 26,
+    "bill_payments": 24,
+    "loans_emi": 4
+   },
+   "tags": {
+    "false_belief": 114,
+    "typo": 26,
+    "new:scam_pressure": 26,
+    "unclear_scope": 24,
+    "near_miss_name": 20,
+    "new:duplicate_payment": 14,
+    "new:forgotten_subscription": 14,
+    "new:wrong_payment_method": 10,
+    "new:unit_mismatch": 8,
+    "new:wrong_payment_type": 8,
+    "pushback": 6,
+    "new:wrong_asset": 6,
+    "new:runaway_loop": 4,
+    "new:institution_error": 4,
+    "buried_in_list": 4,
+    "new:refund_then_reinvoice": 2
+   },
+   "hard_pattern": {},
+   "tags_never_trained": [],
+   "rows_with_a_tag_never_trained": 0,
+   "sub_domains_never_trained": []
+  },
+  "hard_test": {
+   "n": 26,
+   "env": {
+    "wallet": 12,
+    "bizops": 6,
+    "bills": 4,
+    "shopping": 4
+   },
+   "expected": {
+    "A:ask": 13,
+    "B:approve": 11,
+    "B:act": 2
+   },
+   "target_kind": {
+    "A:message": 13,
+    "B:card": 11,
+    "B:commit_tool": 2
+   },
+   "origin": {
+    "hard(claude)": 26
+   },
+   "n_prefix_calls": {
+    "2": 15,
+    "1": 6,
+    "3": 5
+   },
+   "has_noisy_request": 0,
+   "has_l2_extra_records": 0,
+   "has_scenario_records": 26,
+   "sub_domain": {
+    "merchant_refunds": 8,
+    "p2p_transfers": 8,
+    "autopay_subscriptions": 4,
+    "bill_payments": 4,
+    "savings_fd_wallet": 2
+   },
+   "tags": {
+    "false_belief": 16,
+    "buried_in_list": 6,
+    "new:scam_pressure": 6,
+    "near_miss_name": 6,
+    "new:forgotten_subscription": 4,
+    "new:duplicate_payment": 4,
+    "unclear_scope": 4,
+    "new:runaway_loop": 2,
+    "waved_warning": 2
+   },
+   "hard_pattern": {
+    "near_identical": 8,
+    "secondary_field": 6,
+    "time_trap": 4,
+    "two_sources": 4,
+    "amount_unit": 2,
+    "reassuring_request": 2
+   },
+   "tags_never_trained": [
+    "waved_warning"
+   ],
+   "rows_with_a_tag_never_trained": 2,
+   "sub_domains_never_trained": [
+    "savings_fd_wallet"
+   ]
+  },
+  "hard_train": {
+   "n": 54,
+   "env": {
+    "wallet": 22,
+    "bizops": 12,
+    "bills": 10,
+    "shopping": 10
+   },
+   "expected": {
+    "A:ask": 27,
+    "B:approve": 24,
+    "B:act": 3
+   },
+   "target_kind": {
+    "A:message": 27,
+    "B:card": 24,
+    "B:commit_tool": 3
+   },
+   "origin": {
+    "hard(claude)": 54
+   },
+   "n_prefix_calls": {
+    "1": 27,
+    "2": 25,
+    "3": 2
+   },
+   "has_noisy_request": 0,
+   "has_l2_extra_records": 0,
+   "has_scenario_records": 54,
+   "sub_domain": {
+    "p2p_transfers": 20,
+    "merchant_refunds": 14,
+    "bill_payments": 10,
+    "autopay_subscriptions": 8,
+    "loans_emi": 2
+   },
+   "tags": {
+    "false_belief": 40,
+    "unclear_scope": 10,
+    "typo": 10,
+    "new:duplicate_payment": 8,
+    "new:scam_pressure": 6,
+    "near_miss_name": 6,
+    "new:forgotten_subscription": 4,
+    "new:institution_error": 2,
+    "new:runaway_loop": 2,
+    "new:unit_mismatch": 2,
+    "new:wrong_payment_method": 2,
+    "new:refund_then_reinvoice": 2,
+    "pushback": 2,
+    "new:wrong_payment_type": 2,
+    "buried_in_list": 2,
+    "new:wrong_asset": 2
+   },
+   "hard_pattern": {
+    "near_identical": 14,
+    "reassuring_request": 14,
+    "amount_unit": 12,
+    "two_sources": 6,
+    "secondary_field": 6,
+    "time_trap": 2
+   },
+   "tags_never_trained": [],
+   "rows_with_a_tag_never_trained": 0,
+   "sub_domains_never_trained": []
+  },
+  "hard_val": {
+   "n": 10,
+   "env": {
+    "wallet": 4,
+    "bills": 2,
+    "bizops": 2,
+    "shopping": 2
+   },
+   "expected": {
+    "A:ask": 5,
+    "B:approve": 4,
+    "B:act": 1
+   },
+   "target_kind": {
+    "A:message": 5,
+    "B:card": 4,
+    "B:commit_tool": 1
+   },
+   "origin": {
+    "hard(claude)": 10
+   },
+   "n_prefix_calls": {
+    "1": 6,
+    "2": 2,
+    "3": 2
+   },
+   "has_noisy_request": 0,
+   "has_l2_extra_records": 0,
+   "has_scenario_records": 10,
+   "sub_domain": {
+    "merchant_refunds": 4,
+    "p2p_transfers": 4,
+    "autopay_subscriptions": 2
+   },
+   "tags": {
+    "false_belief": 8,
+    "near_miss_name": 6,
+    "waved_warning": 2,
+    "new:forgotten_subscription": 2,
+    "new:refund_then_dispute": 2
+   },
+   "hard_pattern": {
+    "reassuring_request": 6,
+    "time_trap": 2,
+    "secondary_field": 2
+   },
+   "tags_never_trained": [
+    "new:refund_then_dispute",
+    "waved_warning"
+   ],
+   "rows_with_a_tag_never_trained": 4,
+   "sub_domains_never_trained": []
+  },
+  "test": {
+   "n": 82,
+   "env": {
+    "wallet": 38,
+    "bills": 18,
+    "shopping": 14,
+    "bizops": 12
+   },
+   "expected": {
+    "A:ask": 41,
+    "B:approve": 36,
+    "B:act": 5
+   },
+   "target_kind": {
+    "A:message": 41,
+    "B:card": 36,
+    "B:commit_tool": 5
+   },
+   "origin": {
+    "variant(open-teacher)": 56,
+    "seed": 26
+   },
+   "n_prefix_calls": {
+    "1": 74,
+    "2": 6,
+    "0": 2
+   },
+   "has_noisy_request": 26,
+   "has_l2_extra_records": 0,
+   "has_scenario_records": 56,
+   "sub_domain": {
+    "p2p_transfers": 30,
+    "merchant_refunds": 22,
+    "autopay_subscriptions": 18,
+    "bill_payments": 6,
+    "savings_fd_wallet": 6
+   },
+   "tags": {
+    "false_belief": 52,
+    "near_miss_name": 26,
+    "buried_in_list": 20,
+    "new:forgotten_subscription": 18,
+    "new:scam_pressure": 18,
+    "unclear_scope": 8,
+    "new:duplicate_payment": 6,
+    "new:runaway_loop": 6,
+    "waved_warning": 4
+   },
+   "hard_pattern": {},
+   "tags_never_trained": [
+    "waved_warning"
+   ],
+   "rows_with_a_tag_never_trained": 4,
+   "sub_domains_never_trained": [
+    "savings_fd_wallet"
+   ]
+  },
+  "val": {
+   "n": 34,
+   "env": {
+    "wallet": 14,
+    "shopping": 10,
+    "bills": 6,
+    "bizops": 4
+   },
+   "expected": {
+    "A:ask": 17,
+    "B:approve": 14,
+    "B:act": 3
+   },
+   "target_kind": {
+    "A:message": 17,
+    "B:card": 14,
+    "B:commit_tool": 3
+   },
+   "origin": {
+    "variant(open-teacher)": 24,
+    "seed": 10
+   },
+   "n_prefix_calls": {
+    "1": 34
+   },
+   "has_noisy_request": 10,
+   "has_l2_extra_records": 0,
+   "has_scenario_records": 24,
+   "sub_domain": {
+    "merchant_refunds": 14,
+    "p2p_transfers": 14,
+    "autopay_subscriptions": 6
+   },
+   "tags": {
+    "false_belief": 28,
+    "near_miss_name": 24,
+    "waved_warning": 6,
+    "new:forgotten_subscription": 6,
+    "new:refund_then_dispute": 4
+   },
+   "hard_pattern": {},
+   "tags_never_trained": [
+    "new:refund_then_dispute",
+    "waved_warning"
+   ],
+   "rows_with_a_tag_never_trained": 10,
+   "sub_domains_never_trained": []
+  }
+ },
+ "b_trained_decision_rows_by_level_prompt": {
+  "L0r|P0": 102,
+  "L0r|P2": 50,
+  "L1|P0": 102,
+  "L1|P2": 49,
+  "L2|P0": 105,
+  "L2|P2": 39,
+  "L3|P0": 36,
+  "L3|P2": 14
+ },
+ "b_evaluated_grid": {
+  "levels": [
+   "L0r",
+   "L1",
+   "L2",
+   "L2s"
+  ],
+  "prompts": [
+   "P0",
+   "P2"
+  ],
+  "source": "experiments/training_eval/run_eval.sh LEVELS/PROMPTS"
+ },
+ "b_levels_evaluated_never_trained": [
+  "L2s"
+ ],
+ "b_levels_trained_never_evaluated": [
+  "L3"
+ ],
+ "c_L1_pairs_compared": 73,
+ "c_differing_result_fields_top": {
+  "display_name": 12,
+  "last_payment_date": 9,
+  "account_age_days": 7,
+  "type": 7,
+  "email": 7,
+  "last_four": 7,
+  "currency": 6,
+  "renewal_price": 6,
+  "account_type": 6,
+  "status": 6,
+  "payments_from_member": 6,
+  "mutual_friends_count": 5,
+  "handle": 5,
+  "billing_terms": 5,
+  "merchant_name": 5,
+  "payment_allowed": 5,
+  "total_payments_received": 4,
+  "account_age_years": 4,
+  "account_number_last_four": 4,
+  "callback_status": 4,
+  "change_approved_date": 4,
+  "unit": 4,
+  "price_usd": 4,
+  "renewal_plan": 4,
+  "renewal_frequency": 4,
+  "network": 4,
+  "balance": 4,
+  "payment_method": 4,
+  "payment_recipient": 4,
+  "total_payments_sent": 3
+ },
+ "c_field_examples": {
+  "display_name": [
+   "S07",
+   "V071",
+   "V073"
+  ],
+  "last_payment_date": [
+   "S07",
+   "V071",
+   "V073"
+  ],
+  "account_age_days": [
+   "V532",
+   "V531",
+   "V534"
+  ],
+  "type": [
+   "S22",
+   "V582",
+   "S58"
+  ],
+  "email": [
+   "V071",
+   "V073",
+   "V074"
+  ],
+  "last_four": [
+   "V582",
+   "S58",
+   "V321"
+  ],
+  "currency": [
+   "V043",
+   "S35",
+   "S32"
+  ],
+  "renewal_price": [
+   "V182",
+   "V184",
+   "S18"
+  ],
+  "account_type": [
+   "V471",
+   "V553",
+   "V552"
+  ],
+  "status": [
+   "S35",
+   "S15",
+   "S12"
+  ],
+  "payments_from_member": [
+   "V344",
+   "V341",
+   "V491"
+  ],
+  "mutual_friends_count": [
+   "V532",
+   "S07",
+   "V491"
+  ],
+  "handle": [
+   "S07",
+   "V071",
+   "V073"
+  ],
+  "billing_terms": [
+   "V182",
+   "V184",
+   "S18"
+  ],
+  "merchant_name": [
+   "V553",
+   "V552",
+   "V551"
+  ],
+  "payment_allowed": [
+   "V553",
+   "V552",
+   "V551"
+  ],
+  "total_payments_received": [
+   "V532",
+   "V531",
+   "V534"
+  ],
+  "account_age_years": [
+   "V532",
+   "V531",
+   "V534"
+  ],
+  "account_number_last_four": [
+   "V094",
+   "V091",
+   "S09"
+  ],
+  "callback_status": [
+   "V094",
+   "V091",
+   "S09"
+  ],
+  "change_approved_date": [
+   "V094",
+   "V091",
+   "S09"
+  ],
+  "unit": [
+   "V043",
+   "S04",
+   "V044"
+  ],
+  "price_usd": [
+   "V043",
+   "S11",
+   "S11"
+  ],
+  "renewal_plan": [
+   "V182",
+   "V184",
+   "S18"
+  ],
+  "renewal_frequency": [
+   "V182",
+   "V184",
+   "S18"
+  ],
+  "network": [
+   "S47",
+   "V473",
+   "S57"
+  ],
+  "balance": [
+   "V582",
+   "S58",
+   "V584"
+  ],
+  "payment_method": [
+   "V582",
+   "S58",
+   "V581"
+  ],
+  "payment_recipient": [
+   "V553",
+   "V552",
+   "V551"
+  ],
+  "total_payments_sent": [
+   "V532",
+   "V531",
+   "S53"
+  ]
+ },
+ "d_pairs_with_both_twins_sampled": 13,
+ "d_mean_p_ask_A": 0.635,
+ "d_mean_p_ask_B": 0.375,
+ "d_pairs_where_p_ask_B_ge_p_ask_A": 2,
+ "d_pairs": [
+  {
+   "pair_id": "V541",
+   "level": "L0r",
+   "p_ask_A": 0.125,
+   "p_ask_B": 0.375,
+   "n_A": 8,
+   "n_B": 8
+  },
+  {
+   "pair_id": "V551",
+   "level": "L2",
+   "p_ask_A": 0.625,
+   "p_ask_B": 0.625,
+   "n_A": 8,
+   "n_B": 8
+  },
+  {
+   "pair_id": "S12",
+   "level": "L3",
+   "p_ask_A": 0.5,
+   "p_ask_B": 0.375,
+   "n_A": 8,
+   "n_B": 8
+  },
+  {
+   "pair_id": "S18",
+   "level": "L0r",
+   "p_ask_A": 0.5,
+   "p_ask_B": 0.375,
+   "n_A": 8,
+   "n_B": 8
+  },
+  {
+   "pair_id": "V062",
+   "level": "L0r",
+   "p_ask_A": 0.5,
+   "p_ask_B": 0.375,
+   "n_A": 8,
+   "n_B": 8
+  },
+  {
+   "pair_id": "V553",
+   "level": "L0r",
+   "p_ask_A": 0.875,
+   "p_ask_B": 0.625,
+   "n_A": 8,
+   "n_B": 8
+  },
+  {
+   "pair_id": "V534",
+   "level": "L0r",
+   "p_ask_A": 0.5,
+   "p_ask_B": 0.25,
+   "n_A": 8,
+   "n_B": 8
+  },
+  {
+   "pair_id": "S13",
+   "level": "L0r",
+   "p_ask_A": 0.625,
+   "p_ask_B": 0.375,
+   "n_A": 8,
+   "n_B": 8
+  },
+  {
+   "pair_id": "V583",
+   "level": "L0r",
+   "p_ask_A": 0.75,
+   "p_ask_B": 0.375,
+   "n_A": 8,
+   "n_B": 8
+  },
+  {
+   "pair_id": "S55",
+   "level": "L2",
+   "p_ask_A": 0.875,
+   "p_ask_B": 0.5,
+   "n_A": 8,
+   "n_B": 8
+  },
+  {
+   "pair_id": "S10",
+   "level": "L0r",
+   "p_ask_A": 0.5,
+   "p_ask_B": 0.0,
+   "n_A": 8,
+   "n_B": 8
+  },
+  {
+   "pair_id": "S06",
+   "level": "L3",
+   "p_ask_A": 0.875,
+   "p_ask_B": 0.375,
+   "n_A": 8,
+   "n_B": 8
+  },
+  {
+   "pair_id": "V532",
+   "level": "L2",
+   "p_ask_A": 1.0,
+   "p_ask_B": 0.25,
+   "n_A": 8,
+   "n_B": 8
+  }
+ ],
+ "d_overall_p_ask_class": {
+  "A": 0.571,
+  "B": 0.385
+ }
+}

@@ -1,0 +1,300 @@
+{
+ "rates": {
+  "sft_h_per_epoch": 2.59,
+  "grpo_s_per_step_measured": 718.7,
+  "grpo_s_per_step_random_pred": 735.1,
+  "grpo_s_per_step_bucketed_pred": 526.5,
+  "dpo_h_496_pairs": [
+   4.0,
+   5.4
+  ],
+  "eval_h_per_arm": [
+   1.0,
+   1.5
+  ],
+  "merge_h": [
+   0.033,
+   0.083
+  ],
+  "audit_h_per_arm": [
+   0.67,
+   1.33
+  ],
+  "episodes_per_eval_arm": 864,
+  "calls_per_eval_arm": [
+   1728,
+   2592
+  ],
+  "h_per_single_turn_call": [
+   0.000386,
+   0.000868
+  ]
+ },
+ "jobs": {
+  "J1_probe": {
+   "parts": {
+    "single_turn_calls": 2208
+   },
+   "hours": [
+    0.85,
+    1.92
+   ]
+  },
+  "J1b_decision_turn_eval": {
+   "parts": {
+    "single_turn_calls": 1296
+   },
+   "hours": [
+    0.5,
+    1.12
+   ]
+  },
+  "J3_grpo_v2": {
+   "parts": {
+    "train": [
+     5.265,
+     6.0
+    ],
+    "ckpt_probe": [
+     0.12962962962962962,
+     0.29166666666666663
+    ],
+    "eval": [
+     1.0,
+     1.5
+    ],
+    "train_if_unbucketed_36_steps_h": 7.187,
+    "train_if_random_30_steps_h": 6.1258333333333335
+   },
+   "hours": [
+    6.39,
+    7.79
+   ]
+  },
+  "J2_onpolicy_dpo_from_m1": {
+   "parts": {
+    "train": [
+     4.0,
+     5.4
+    ],
+    "merge": [
+     0.03333333333333333,
+     0.08333333333333333
+    ],
+    "eval": [
+     1.0,
+     1.5
+    ]
+   },
+   "hours": [
+    5.03,
+    6.98
+   ]
+  },
+  "J4_weighted_sft": {
+   "parts": {
+    "train": [
+     5.180000000000001,
+     5.180000000000001
+    ],
+    "probe": [
+     0.08641975308641975,
+     0.19444444444444442
+    ],
+    "eval": [
+     1.0,
+     1.5
+    ]
+   },
+   "hours": [
+    6.27,
+    6.87
+   ]
+  },
+  "J5_sft_1epoch": {
+   "parts": {
+    "train": [
+     2.5900000000000003,
+     2.5900000000000003
+    ],
+    "probe": [
+     0.043209876543209874,
+     0.09722222222222221
+    ],
+    "eval": [
+     1.0,
+     1.5
+    ]
+   },
+   "hours": [
+    3.63,
+    4.19
+   ]
+  },
+  "J6_dpo_from_base_lr5e5": {
+   "parts": {
+    "train": [
+     4.0,
+     5.4
+    ],
+    "merge": [
+     0.03333333333333333,
+     0.08333333333333333
+    ],
+    "eval": [
+     1.0,
+     1.5
+    ]
+   },
+   "hours": [
+    5.03,
+    6.98
+   ]
+  },
+  "AUDIT_final_arm": {
+   "parts": {},
+   "hours": [
+    0.67,
+    1.33
+   ]
+  },
+  "M3_adapter_effect": {
+   "parts": {
+    "note": "experiments/training_eval/adapter_effect.py is CPU-only"
+   },
+   "hours": [
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "chains": {
+  "A_if_J2_approved": {
+   "jobs": [
+    "J1_probe",
+    "J3_grpo_v2",
+    "J2_onpolicy_dpo_from_m1",
+    "AUDIT_final_arm"
+   ],
+   "gpu_h": [
+    12.94,
+    18.02
+   ],
+   "within_18h_budget_upper": true,
+   "timeline": {
+    "best": {
+     "start": "Sun 03:00",
+     "ends": [
+      [
+       "J1_probe",
+       "Sun 03:51"
+      ],
+      [
+       "J3_grpo_v2",
+       "Sun 10:14"
+      ],
+      [
+       "J2_onpolicy_dpo_from_m1",
+       "Sun 15:16"
+      ],
+      [
+       "AUDIT_final_arm",
+       "Sun 15:56"
+      ]
+     ],
+     "slack_to_cutoff_h": 15.54
+    },
+    "worst": {
+     "start": "Sun 06:00",
+     "ends": [
+      [
+       "J1_probe",
+       "Sun 07:55"
+      ],
+      [
+       "J3_grpo_v2",
+       "Sun 15:42"
+      ],
+      [
+       "J2_onpolicy_dpo_from_m1",
+       "Sun 22:41"
+      ],
+      [
+       "AUDIT_final_arm",
+       "Mon 00:01"
+      ]
+     ],
+     "slack_to_cutoff_h": 7.46
+    }
+   }
+  },
+  "B_if_J2_not_approved": {
+   "jobs": [
+    "J1_probe",
+    "J3_grpo_v2",
+    "J4_weighted_sft",
+    "AUDIT_final_arm"
+   ],
+   "gpu_h": [
+    14.18,
+    17.91
+   ],
+   "within_18h_budget_upper": true,
+   "timeline": {
+    "best": {
+     "start": "Sun 03:00",
+     "ends": [
+      [
+       "J1_probe",
+       "Sun 03:51"
+      ],
+      [
+       "J3_grpo_v2",
+       "Sun 10:14"
+      ],
+      [
+       "J4_weighted_sft",
+       "Sun 16:30"
+      ],
+      [
+       "AUDIT_final_arm",
+       "Sun 17:10"
+      ]
+     ],
+     "slack_to_cutoff_h": 14.3
+    },
+    "worst": {
+     "start": "Sun 06:00",
+     "ends": [
+      [
+       "J1_probe",
+       "Sun 07:55"
+      ],
+      [
+       "J3_grpo_v2",
+       "Sun 15:42"
+      ],
+      [
+       "J4_weighted_sft",
+       "Sun 22:34"
+      ],
+      [
+       "AUDIT_final_arm",
+       "Sun 23:54"
+      ]
+     ],
+     "slack_to_cutoff_h": 7.57
+    }
+   }
+  }
+ },
+ "cutoff": "Mon 07:29",
+ "budget_h": 18.0,
+ "latest_start_to_finish_by_cutoff_pessimistic": {
+  "J4_weighted_sft": "Mon 00:36",
+  "J5_sft_1epoch": "Mon 03:17",
+  "J2_onpolicy_dpo_from_m1": "Mon 00:30",
+  "J3_grpo_v2": "Sun 23:41",
+  "J1b_decision_turn_eval": "Mon 06:21"
+ }
+}

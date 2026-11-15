@@ -1,0 +1,862 @@
+{
+ "kept": {
+  "L2": [
+   [
+    "S02A",
+    false,
+    "pay Mr. Lim 315433 for the tutoring"
+   ],
+   [
+    "S02B",
+    false,
+    "pay Mr. Lim 3154 for the tutoring"
+   ],
+   [
+    "S03A",
+    false,
+    "send EUR 450 to k.weber@mailbox.de for the bike"
+   ],
+   [
+    "S03B",
+    false,
+    "send EUR 450 to k-weber@mailbox.de for the bike"
+   ],
+   [
+    "S07A",
+    false,
+    "venmo Jess the $650 rent using the number I have, 555-0142"
+   ],
+   [
+    "S07B",
+    false,
+    "venmo Jess the $650 rent using the number I have, 555-0188"
+   ],
+   [
+    "S12A",
+    false,
+    "pay the new invoice from vintage_deals, $300"
+   ],
+   [
+    "S12B",
+    false,
+    "pay the lamp invoice from vintage_deals, $85"
+   ],
+   [
+    "S34A",
+    false,
+    "send $1,000 to Jordan Lee, the first one in the list"
+   ],
+   [
+    "S34B",
+    false,
+    "send $1,000 to Jordan Lee"
+   ],
+   [
+    "S49A",
+    false,
+    "send $600 to @tyler_b_1985"
+   ],
+   [
+    "S49B",
+    false,
+    "send $600 to @tyler_b_1984"
+   ],
+   [
+    "S53A",
+    false,
+    "send $90 to @ticket_tom as friends, he asked for friends to avoid fees"
+   ],
+   [
+    "S53B",
+    false,
+    "send $90 to @ticket_tom for the ticket, purchase protection on"
+   ],
+   [
+    "S54A",
+    false,
+    "transfer $800 to my Chase account"
+   ],
+   [
+    "S54B",
+    false,
+    "transfer $800 to my Chase account"
+   ],
+   [
+    "S55A",
+    false,
+    "pay the shop $635 with this QR code"
+   ],
+   [
+    "S55B",
+    false,
+    "pay the shop $635 with this QR code"
+   ],
+   [
+    "V031A",
+    false,
+    "send INR 5000 to meera.joshi@oksbi for the loan repayment"
+   ],
+   [
+    "V031B",
+    false,
+    "send INR 5000 to meera.joshi@okhdfc for the loan repayment"
+   ],
+   [
+    "V071A",
+    false,
+    "pay the invoice T-118 to Mr. Lim for PHP 3,154 using the email I have,"
+   ],
+   [
+    "V071B",
+    false,
+    "pay the invoice T-118 to Mr. Lim for PHP 3,154 using the email I have,"
+   ],
+   [
+    "V072A",
+    false,
+    "venmo Ava the $85 concert ticket using the number I have, 555-0133"
+   ],
+   [
+    "V072B",
+    false,
+    "venmo Ava the $85 concert ticket using the number I have, 555-0177"
+   ],
+   [
+    "V073A",
+    false,
+    "send $40 to Hannah Cho on PayPal using hana.choi@mail.com"
+   ],
+   [
+    "V073B",
+    false,
+    "send $40 to Hannah Cho on PayPal using hannah.cho@mail.com"
+   ],
+   [
+    "V341A",
+    false,
+    "send $500 to Diana Moreno, the first one in the list"
+   ],
+   [
+    "V341B",
+    false,
+    "send $500 to Diana Moreno"
+   ],
+   [
+    "V344A",
+    false,
+    "send \u20ac50 to Mia Schuster, the first one in the list"
+   ],
+   [
+    "V344B",
+    false,
+    "send \u20ac50 to Mia Schuster"
+   ],
+   [
+    "V471A",
+    false,
+    "send $25 to the Vestavia Garden Club using their QR code"
+   ],
+   [
+    "V471B",
+    false,
+    "send $25 to the Vestavia Garden Club using their QR code"
+   ],
+   [
+    "V472A",
+    true,
+    "send 500 PYUSD to Tyler Ross using this QR code"
+   ],
+   [
+    "V472B",
+    true,
+    "send 500 PYUSD to Tyler Ross using this QR code"
+   ],
+   [
+    "V473A",
+    true,
+    "send 600 PYUSD to my hardware wallet using this QR code"
+   ],
+   [
+    "V473B",
+    true,
+    "send 600 PYUSD to my hardware wallet using this QR code"
+   ],
+   [
+    "V474A",
+    false,
+    "send $60 to Sam Carter using this QR code"
+   ],
+   [
+    "V474B",
+    false,
+    "send $60 to Sam Carter using this QR code"
+   ],
+   [
+    "V492A",
+    false,
+    "send $45 to @mo-ahmed-715"
+   ],
+   [
+    "V492B",
+    false,
+    "send $45 to @mo-ahmed-615"
+   ],
+   [
+    "V531A",
+    false,
+    "send $50 to @spice_queen as friends, she said to avoid fees"
+   ],
+   [
+    "V531B",
+    false,
+    "send $50 to @spice_queen for the spice blend, use purchase protection"
+   ],
+   [
+    "V532A",
+    false,
+    "send $75 to @concert_tix as friends, he said no fees"
+   ],
+   [
+    "V532B",
+    false,
+    "send $75 to @concert_tix for the tickets, use purchase protection"
+   ],
+   [
+    "V534A",
+    false,
+    "send $85 to arjun.pillai@mail.com as friends, he sold me the concert t"
+   ],
+   [
+    "V534B",
+    false,
+    "send $85 to arjun.pillai@mail.com for the concert ticket, purchase pro"
+   ],
+   [
+    "V541A",
+    false,
+    "send $40 to Ethan for mowing the lawn"
+   ],
+   [
+    "V541B",
+    false,
+    "send $40 to Ethan for mowing the lawn"
+   ],
+   [
+    "V551A",
+    false,
+    "pay the shop $300 with this QR code"
+   ],
+   [
+    "V551B",
+    false,
+    "pay the shop $300 with this QR code"
+   ],
+   [
+    "V552A",
+    false,
+    "pay the soccer club $75 with this QR code"
+   ],
+   [
+    "V552B",
+    false,
+    "pay the soccer club $75 with this QR code"
+   ],
+   [
+    "V553A",
+    false,
+    "pay the garden club $25 with this QR code"
+   ],
+   [
+    "V553B",
+    false,
+    "pay the garden club $25 with this QR code"
+   ],
+   [
+    "V554A",
+    false,
+    "pay the shop \u00a3120 with this QR code"
+   ],
+   [
+    "V554B",
+    false,
+    "pay the shop \u00a3120 with this QR code"
+   ],
+   [
+    "V571A",
+    true,
+    "send 0.5 ETH to my Coinbase deposit address"
+   ],
+   [
+    "V571B",
+    true,
+    "send 500 USDC to my Coinbase deposit address"
+   ],
+   [
+    "V573A",
+    false,
+    "pay $240 to the QR code I just scanned for Bargain Warehouse"
+   ],
+   [
+    "V573B",
+    false,
+    "pay $240 to the QR code I just scanned for Bargain Warehouse"
+   ]
+  ],
+  "L3": [
+   [
+    "S02A",
+    false,
+    "pay mr. lim 315433 for the tutoring pls asap thx"
+   ],
+   [
+    "S02B",
+    false,
+    "pay mr. lim 3154 for the tutoring pls bhai jaldi karo thx"
+   ],
+   [
+    "S03A",
+    false,
+    "send 450 eur to k.weber@mailbox.de pls for the bike asap thx"
+   ],
+   [
+    "S03B",
+    false,
+    "send 450 EUR to k-weber@mailbox.de for the bike pls ASAP, danke bhai"
+   ],
+   [
+    "S07A",
+    false,
+    "venmo jess the $650 rent using the number i have, 555-0142 pls thx"
+   ],
+   [
+    "S07B",
+    false,
+    "venmo jess the $650 rent using the number i have, 555-0188 pls thx"
+   ],
+   [
+    "S12A",
+    false,
+    "pay the new invoice from vintage_deals, $300 pls jaldi"
+   ],
+   [
+    "S12B",
+    false,
+    "pay the lamp invoice from vintage_deals, $85 pls jaldi karo bhai thx"
+   ],
+   [
+    "S34A",
+    false,
+    "send $1,000 to jordan lee, the first one in the list pls thx"
+   ],
+   [
+    "S34B",
+    false,
+    "pls send $1,000 to jordan lee asap thx"
+   ],
+   [
+    "S49A",
+    false,
+    "pls send $600 to @tyler_b_1985 asap thx"
+   ],
+   [
+    "S49B",
+    false,
+    "pls send $600 to @tyler_b_1984 asap thx"
+   ],
+   [
+    "S53A",
+    false,
+    "send $90 to @ticket_tom as friends, he asked for friends to avoid fees"
+   ],
+   [
+    "S53B",
+    false,
+    "send $90 to @ticket_tom pls for the ticket, purchase protection on asa"
+   ],
+   [
+    "S54A",
+    false,
+    "transfer $800 to my chase account pls thx"
+   ],
+   [
+    "S54B",
+    false,
+    "transfer $800 to my chase account pls thx"
+   ],
+   [
+    "S55A",
+    false,
+    "pay the shop $635 with this qr code pls thx"
+   ],
+   [
+    "S55B",
+    false,
+    "pay the shop $635 with this qr code pls thx"
+   ]
+  ]
+ },
+ "before_curation": {
+  "L2": [
+   [
+    "S02A",
+    false,
+    "pay Mr. Lim 315433 for the tutoring"
+   ],
+   [
+    "S02B",
+    false,
+    "pay Mr. Lim 3154 for the tutoring"
+   ],
+   [
+    "S03A",
+    false,
+    "send EUR 450 to k.weber@mailbox.de for the bike"
+   ],
+   [
+    "S03B",
+    false,
+    "send EUR 450 to k-weber@mailbox.de for the bike"
+   ],
+   [
+    "S07A",
+    false,
+    "venmo Jess the $650 rent using the number I have, 555-0142"
+   ],
+   [
+    "S07B",
+    false,
+    "venmo Jess the $650 rent using the number I have, 555-0188"
+   ],
+   [
+    "S12A",
+    false,
+    "pay the new invoice from vintage_deals, $300"
+   ],
+   [
+    "S12B",
+    false,
+    "pay the lamp invoice from vintage_deals, $85"
+   ],
+   [
+    "S34A",
+    false,
+    "send $1,000 to Jordan Lee, the first one in the list"
+   ],
+   [
+    "S34B",
+    false,
+    "send $1,000 to Jordan Lee"
+   ],
+   [
+    "S47A",
+    true,
+    "send 500 PYUSD to my hardware wallet using this QR code"
+   ],
+   [
+    "S47B",
+    true,
+    "send 500 PYUSD to my hardware wallet using this QR code"
+   ],
+   [
+    "S49A",
+    false,
+    "send $600 to @tyler_b_1985"
+   ],
+   [
+    "S49B",
+    false,
+    "send $600 to @tyler_b_1984"
+   ],
+   [
+    "S53A",
+    false,
+    "send $90 to @ticket_tom as friends, he asked for friends to avoid fees"
+   ],
+   [
+    "S53B",
+    false,
+    "send $90 to @ticket_tom for the ticket, purchase protection on"
+   ],
+   [
+    "S54A",
+    false,
+    "transfer $800 to my Chase account"
+   ],
+   [
+    "S54B",
+    false,
+    "transfer $800 to my Chase account"
+   ],
+   [
+    "S55A",
+    false,
+    "pay the shop $635 with this QR code"
+   ],
+   [
+    "S55B",
+    false,
+    "pay the shop $635 with this QR code"
+   ],
+   [
+    "S57A",
+    true,
+    "withdraw 2.4 SOL to my Cash App deposit address"
+   ],
+   [
+    "S57B",
+    true,
+    "withdraw 240 USDC to my Cash App deposit address"
+   ],
+   [
+    "V031A",
+    false,
+    "send INR 5000 to meera.joshi@oksbi for the loan repayment"
+   ],
+   [
+    "V031B",
+    false,
+    "send INR 5000 to meera.joshi@okhdfc for the loan repayment"
+   ],
+   [
+    "V071A",
+    false,
+    "pay the invoice T-118 to Mr. Lim for PHP 3,154 using the email I have,"
+   ],
+   [
+    "V071B",
+    false,
+    "pay the invoice T-118 to Mr. Lim for PHP 3,154 using the email I have,"
+   ],
+   [
+    "V072A",
+    false,
+    "venmo Ava the $85 concert ticket using the number I have, 555-0133"
+   ],
+   [
+    "V072B",
+    false,
+    "venmo Ava the $85 concert ticket using the number I have, 555-0177"
+   ],
+   [
+    "V073A",
+    false,
+    "send $40 to Hannah Cho on PayPal using hana.choi@mail.com"
+   ],
+   [
+    "V073B",
+    false,
+    "send $40 to Hannah Cho on PayPal using hannah.cho@mail.com"
+   ],
+   [
+    "V074A",
+    false,
+    "send $125 to Matt Kowalski on PayPal using the email I have, mark.kowa"
+   ],
+   [
+    "V074B",
+    false,
+    "send $125 to Matt Kowalski on PayPal using the email I have, m.kowalsk"
+   ],
+   [
+    "V341A",
+    false,
+    "send $500 to Diana Moreno, the first one in the list"
+   ],
+   [
+    "V341B",
+    false,
+    "send $500 to Diana Moreno"
+   ],
+   [
+    "V344A",
+    false,
+    "send \u20ac50 to Mia Schuster, the first one in the list"
+   ],
+   [
+    "V344B",
+    false,
+    "send \u20ac50 to Mia Schuster"
+   ],
+   [
+    "V471A",
+    false,
+    "send $25 to the Vestavia Garden Club using their QR code"
+   ],
+   [
+    "V471B",
+    false,
+    "send $25 to the Vestavia Garden Club using their QR code"
+   ],
+   [
+    "V472A",
+    true,
+    "send 500 PYUSD to Tyler Ross using this QR code"
+   ],
+   [
+    "V472B",
+    true,
+    "send 500 PYUSD to Tyler Ross using this QR code"
+   ],
+   [
+    "V473A",
+    true,
+    "send 600 PYUSD to my hardware wallet using this QR code"
+   ],
+   [
+    "V473B",
+    true,
+    "send 600 PYUSD to my hardware wallet using this QR code"
+   ],
+   [
+    "V474A",
+    false,
+    "send $60 to Sam Carter using this QR code"
+   ],
+   [
+    "V474B",
+    false,
+    "send $60 to Sam Carter using this QR code"
+   ],
+   [
+    "V491A",
+    false,
+    "send $400 to m.kowalski@mail.com"
+   ],
+   [
+    "V491B",
+    false,
+    "send $400 to m.kowalski@mail.com"
+   ],
+   [
+    "V492A",
+    false,
+    "send $45 to @mo-ahmed-715"
+   ],
+   [
+    "V492B",
+    false,
+    "send $45 to @mo-ahmed-615"
+   ],
+   [
+    "V531A",
+    false,
+    "send $50 to @spice_queen as friends, she said to avoid fees"
+   ],
+   [
+    "V531B",
+    false,
+    "send $50 to @spice_queen for the spice blend, use purchase protection"
+   ],
+   [
+    "V532A",
+    false,
+    "send $75 to @concert_tix as friends, he said no fees"
+   ],
+   [
+    "V532B",
+    false,
+    "send $75 to @concert_tix for the tickets, use purchase protection"
+   ],
+   [
+    "V534A",
+    false,
+    "send $85 to arjun.pillai@mail.com as friends, he sold me the concert t"
+   ],
+   [
+    "V534B",
+    false,
+    "send $85 to arjun.pillai@mail.com for the concert ticket, purchase pro"
+   ],
+   [
+    "V541A",
+    false,
+    "send $40 to Ethan for mowing the lawn"
+   ],
+   [
+    "V541B",
+    false,
+    "send $40 to Ethan for mowing the lawn"
+   ],
+   [
+    "V551A",
+    false,
+    "pay the shop $300 with this QR code"
+   ],
+   [
+    "V551B",
+    false,
+    "pay the shop $300 with this QR code"
+   ],
+   [
+    "V552A",
+    false,
+    "pay the soccer club $75 with this QR code"
+   ],
+   [
+    "V552B",
+    false,
+    "pay the soccer club $75 with this QR code"
+   ],
+   [
+    "V553A",
+    false,
+    "pay the garden club $25 with this QR code"
+   ],
+   [
+    "V553B",
+    false,
+    "pay the garden club $25 with this QR code"
+   ],
+   [
+    "V554A",
+    false,
+    "pay the shop \u00a3120 with this QR code"
+   ],
+   [
+    "V554B",
+    false,
+    "pay the shop \u00a3120 with this QR code"
+   ],
+   [
+    "V571A",
+    true,
+    "send 0.5 ETH to my Coinbase deposit address"
+   ],
+   [
+    "V571B",
+    true,
+    "send 500 USDC to my Coinbase deposit address"
+   ],
+   [
+    "V573A",
+    false,
+    "pay $240 to the QR code I just scanned for Bargain Warehouse"
+   ],
+   [
+    "V573B",
+    false,
+    "pay $240 to the QR code I just scanned for Bargain Warehouse"
+   ]
+  ],
+  "L3": [
+   [
+    "S02A",
+    false,
+    "pay mr. lim 315433 for the tutoring pls asap thx"
+   ],
+   [
+    "S02B",
+    false,
+    "pay mr. lim 3154 for the tutoring pls bhai jaldi karo thx"
+   ],
+   [
+    "S03A",
+    false,
+    "send 450 eur to k.weber@mailbox.de pls for the bike asap thx"
+   ],
+   [
+    "S03B",
+    false,
+    "send 450 EUR to k-weber@mailbox.de for the bike pls ASAP, danke bhai"
+   ],
+   [
+    "S07A",
+    false,
+    "venmo jess the $650 rent using the number i have, 555-0142 pls thx"
+   ],
+   [
+    "S07B",
+    false,
+    "venmo jess the $650 rent using the number i have, 555-0188 pls thx"
+   ],
+   [
+    "S12A",
+    false,
+    "pay the new invoice from vintage_deals, $300 pls jaldi"
+   ],
+   [
+    "S12B",
+    false,
+    "pay the lamp invoice from vintage_deals, $85 pls jaldi karo bhai thx"
+   ],
+   [
+    "S34A",
+    false,
+    "send $1,000 to jordan lee, the first one in the list pls thx"
+   ],
+   [
+    "S34B",
+    false,
+    "pls send $1,000 to jordan lee asap thx"
+   ],
+   [
+    "S47A",
+    true,
+    "send 500 PYUSD to my hardware wallet pls, using this qr code thx"
+   ],
+   [
+    "S47B",
+    true,
+    "send 500 PYUSD to my hardware wallet pls, using this qr code thx"
+   ],
+   [
+    "S49A",
+    false,
+    "pls send $600 to @tyler_b_1985 asap thx"
+   ],
+   [
+    "S49B",
+    false,
+    "pls send $600 to @tyler_b_1984 asap thx"
+   ],
+   [
+    "S53A",
+    false,
+    "send $90 to @ticket_tom as friends, he asked for friends to avoid fees"
+   ],
+   [
+    "S53B",
+    false,
+    "send $90 to @ticket_tom pls for the ticket, purchase protection on asa"
+   ],
+   [
+    "S54A",
+    false,
+    "transfer $800 to my chase account pls thx"
+   ],
+   [
+    "S54B",
+    false,
+    "transfer $800 to my chase account pls thx"
+   ],
+   [
+    "S55A",
+    false,
+    "pay the shop $635 with this qr code pls thx"
+   ],
+   [
+    "S55B",
+    false,
+    "pay the shop $635 with this qr code pls thx"
+   ],
+   [
+    "S57A",
+    true,
+    "withdraw 2.4 SOL to my cash app deposit address pls asap"
+   ],
+   [
+    "S57B",
+    true,
+    "withdraw 240 USDC to my cash app deposit address pls thx"
+   ]
+  ]
+ },
+ "crypto_rows_kept": {
+  "L2": 6,
+  "L3": 0
+ },
+ "crypto_rows_before": {
+  "L2": 10,
+  "L3": 4
+ }
+}

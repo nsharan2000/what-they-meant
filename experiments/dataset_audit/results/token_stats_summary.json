@@ -1,0 +1,71 @@
+{
+ "model_context": {
+  "max_position_embeddings": 500000,
+  "sliding_window": 4096,
+  "sliding_window_pattern": 4,
+  "rope_theta": 50000,
+  "rope_scaling": null,
+  "model_type": "cohere2",
+  "vocab_size": 262144
+ },
+ "files": {
+  "sft_train.jsonl": {
+   "prompt_tokens": {
+    "n": 904,
+    "mean": 4237.9,
+    "p50": 4210,
+    "p95": 7182,
+    "max": 7435
+   },
+   "target_tokens": {
+    "n": 904,
+    "mean": 40.2,
+    "p50": 39,
+    "p95": 59,
+    "max": 97
+   }
+  },
+  "sft_val.jsonl": {
+   "prompt_tokens": {
+    "n": 224,
+    "mean": 4236.0,
+    "p50": 4126,
+    "p95": 7141,
+    "max": 7375
+   },
+   "target_tokens": {
+    "n": 224,
+    "mean": 39.0,
+    "p50": 32,
+    "p95": 58,
+    "max": 64
+   }
+  },
+  "dpo_train.jsonl": {
+   "prompt_tokens": {
+    "n": 496,
+    "mean": 4327.3,
+    "p50": 4250,
+    "p95": 7287,
+    "max": 7435
+   },
+   "target_tokens": {
+    "n": 992,
+    "mean": 62.3,
+    "p50": 51,
+    "p95": 108,
+    "max": 938
+   }
+  },
+  "grpo_train.jsonl": {
+   "prompt_tokens": {
+    "n": 496,
+    "mean": 4327.3,
+    "p50": 4250,
+    "p95": 7287,
+    "max": 7435
+   },
+   "target_tokens": null
+  }
+ }
+}

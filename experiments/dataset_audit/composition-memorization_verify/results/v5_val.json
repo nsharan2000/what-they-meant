@@ -1,0 +1,185 @@
+{
+ "train_rows": 904,
+ "train_pairs": 76,
+ "train_clusters": 27,
+ "train_cluster_rows": {
+  "1o0iq5d": 58,
+  "1our3q4": 57,
+  "1nb70b6": 55,
+  "1o3cgz2": 52,
+  "1v65e50": 52,
+  "1o4ra48": 52,
+  "1nno6l9": 51,
+  "1tcec4m": 45,
+  "1ncpi8a": 40,
+  "1u5pe9p": 40,
+  "1oedbqd": 37,
+  "1uaz7yz": 34,
+  "1xhq1o0": 33,
+  "1q0z95o": 31,
+  "1xeuqaq": 30,
+  "1o782sl": 28,
+  "1vjt9gy": 28,
+  "1ovrgu1": 28,
+  "1sjprqz": 28,
+  "1xsuwzf": 26,
+  "1nbvem8": 23,
+  "1qu0p1h": 18,
+  "1t1qzto": 16,
+  "1uzke61": 14,
+  "1onafqj": 12,
+  "1onliv4": 8,
+  "1oqbvqm": 8
+ },
+ "train_cluster_share_top2": [
+  0.0642,
+  0.0631
+ ],
+ "train_rows_per_cluster_range": [
+  8,
+  58
+ ],
+ "train_rows_per_pair_range": [
+  7,
+  18
+ ],
+ "val_rows": 224,
+ "val_pairs": 17,
+ "val_clusters": 5,
+ "val_cluster_rows": {
+  "1x4yv4t": 64,
+  "1ntr5ob": 64,
+  "1wupymj": 40,
+  "1simd16": 28,
+  "1o6vvx3": 28
+ },
+ "val_cluster_share_top2": [
+  0.2857,
+  0.2857
+ ],
+ "val_rows_per_cluster_range": [
+  28,
+  64
+ ],
+ "val_rows_per_pair_range": [
+  12,
+  16
+ ],
+ "val_clusters_in_train": [],
+ "val_lookup_tools": {
+  "get_payment_request": 32,
+  "get_order": 14,
+  "pick_contact": 14,
+  "read_page": 20,
+  "search_recipient": 32
+ },
+ "val_lookup_tools_not_trained_as_lookup_targets": {
+  "get_payment_request": 32,
+  "read_page": 20
+ },
+ "val_lookup_rows_untrained_tool": 52,
+ "val_lookup_rows": 112,
+ "train_prompts_listing_get_payment_request": 114,
+ "train_prompts_with_get_payment_request_call_in_context": 0,
+ "train_prompts_listing_read_page": 127,
+ "train_prompts_with_read_page_call_in_context": 0,
+ "val_4gram_cov_by_train_all": 0.1383,
+ "val_4gram_cov_by_train_messages": 0.0134,
+ "train_4gram_cov_leave_one_cluster_out": 0.1405,
+ "train_4gram_cov_leave_one_pair_out": 0.3783,
+ "train_4gram_cov_loco_messages": 0.0259,
+ "train_4gram_cov_lopo_messages": 0.4055,
+ "variant_of_values_example": [
+  "S03",
+  "S04",
+  "S06",
+  "S07",
+  "S09"
+ ],
+ "variants_with_seed_in_train": 98,
+ "variant_sim_to_seed_mean": 0.6874,
+ "variant_best_sim_other_cluster_mean": 0.4248,
+ "variant_sim_ge_0.6": 0.7449,
+ "variant_sim_ge_0.8": 0.3571,
+ "variant_sim_by_kind": {
+  "call": 0.6901,
+  "message": 0.6846
+ },
+ "variants_identical_target_to_seed": [
+  "V113B",
+  "V113A"
+ ],
+ "variants_same_request_as_seed": [
+  "V042B",
+  "V113B",
+  "V042A",
+  "V113A"
+ ],
+ "sim_V532A_S53A": 0.96,
+ "sim_V091A_S09A": 0.957,
+ "sim_V093A_S09A": 0.928,
+ "sim_V094A_S09A": 0.943,
+ "sim_V042A_S04A": 0.906,
+ "req_S04A": "(Sunday run) basket: garlic 2, tomatoes 1 kg, milk 2",
+ "req_V042A": "(Sunday run) basket: garlic 2, tomatoes 1 kg, milk 2",
+ "tgt_S04A": "The garlic unit in the cart is kg (INR 1,200), but your past orders were 2 pieces (INR 30). Should I change it to pieces before I place the order?",
+ "tgt_V042A": "The garlic unit in the cart is kg (GBP 1,200), but your past orders were 2 pieces (GBP 4.20). Should I change it to pieces before I place the order?",
+ "S11A_vs_V113A": {
+  "L0r": {
+   "sys_equal": false,
+   "rest_equal": false,
+   "ps": [
+    "P2",
+    "P0"
+   ],
+   "sys_sim": 0.9437
+  },
+  "L1": {
+   "sys_equal": false,
+   "rest_equal": false,
+   "ps": [
+    "P0",
+    "P0"
+   ],
+   "sys_sim": 0.9436
+  },
+  "L2": {
+   "sys_equal": false,
+   "rest_equal": false,
+   "ps": [
+    "P2",
+    "P0"
+   ],
+   "sys_sim": 0.7384
+  }
+ },
+ "S11B_vs_V113B": {
+  "L0r": {
+   "sys_equal": false,
+   "rest_equal": false,
+   "ps": [
+    "P0",
+    "P0"
+   ],
+   "sys_sim": 0.9795
+  },
+  "L1": {
+   "sys_equal": false,
+   "rest_equal": false,
+   "ps": [
+    "P2",
+    "P2"
+   ],
+   "sys_sim": 0.9444
+  },
+  "L2": {
+   "sys_equal": false,
+   "rest_equal": false,
+   "ps": [
+    "P0",
+    "P0"
+   ],
+   "sys_sim": 0.7421
+  }
+ }
+}

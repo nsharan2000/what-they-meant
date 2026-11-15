@@ -1,0 +1,16 @@
+{
+ "checks": {
+  "sft_decision_target_differs_from_current_spec_ideal_action": 0
+ },
+ "spec_mismatch_examples": [],
+ "records": {
+  "sft_train:target:decision": 497,
+  "sft_train:target:lookup1": 401,
+  "sft_train:target:lookup2": 6,
+  "sft_val:target:lookup1": 112,
+  "sft_val:target:decision": 112,
+  "dpo_train:chosen:decision": 496,
+  "dpo_train:rejected:decision": 496,
+  "grpo_train:hidden_label:decision": 496
+ }
+}

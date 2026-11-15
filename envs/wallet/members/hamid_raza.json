@@ -1,0 +1,2294 @@
+{
+ "member_id": "hamid_raza",
+ "profile": {
+  "name": "Hamid Raza",
+  "age": 30,
+  "city": "Sutton, London",
+  "country": "United Kingdom",
+  "occupation": "Construction operative",
+  "summary": "Kestrel member since 2022-04 · identity verified · home currency GBP · connected: PayPal (USD + GBP balances), Lloyds Classic Account ••6672",
+  "email": "hamid.raza@mail.com",
+  "phone": "07700 900412",
+  "member_since": "2022-04-02",
+  "home_currency": "GBP",
+  "timezone": "Europe/London",
+  "language": "en-GB",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Hamid is a hardworking, sociable construction operative who masks a tendency to worry and a streak of competitiveness with a methodical approach to his professional and family duties.",
+   "professional_persona": "A construction operative with a methodical approach to civil engineering, Hamid leverages his reliability and skill in organising materials to push for a supervisory role despite lacking formal qualifications.",
+   "cultural_background": "Born in Pakistan and now a British citizen residing in Sutton, Hamid maintains a strong connection to his Urdu-speaking heritage. His daily life is a blend of these two identities, often spending time within the Pakistani diaspora community in South London while working in the predominantly English-speaking environment of the UK construction sector.",
+   "sex": "Male",
+   "marital_status": "Divorced or dissolved",
+   "education_level": "No qualifications",
+   "occupation": "815 Construction operatives"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-UK",
+   "split": "train",
+   "uuid": "c5da07ab-603c-425f-905e-b41155bc2571",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "UK",
+    "age": 30,
+    "sex": "Male",
+    "seed": 53
+   },
+   "source_age": 37,
+   "source_location": "United Kingdom",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Zahid"
+   ],
+   "adaptations": [
+    "Placed in the UK (Sutton, London) for cultural coherence with the name and with the seed's 'US buyer' phrasing; the PayPal account holds USD (international sales) and GBP balances."
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "PayPal balance (USD)",
+   "currency": "USD",
+   "balance": 720.0
+  },
+  {
+   "name": "PayPal balance (GBP)",
+   "currency": "GBP",
+   "balance": 64.2
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Bilal Ahmed",
+   "email": "bilal.ahmed@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "friend",
+   "last_paid": "2026-10-28"
+  },
+  {
+   "name": "Danny O'Connor",
+   "email": "d.oconnor@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "site foreman"
+  },
+  {
+   "name": "Imran Qadir",
+   "email": "imran.qadir.uk@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "works on Hamid's site crew · makes hand-carved woodwork",
+   "last_paid": "2026-07-04"
+  },
+  {
+   "name": "Sana Raza",
+   "email": "sana.raza@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "relationship": "sister",
+   "last_paid": "2026-03-19"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-PAYPAL",
+   "type": "payment_app",
+   "name": "PayPal (UK)",
+   "login": "hamid.raza@mail.com",
+   "status": "connected",
+   "since": "2022-04-02",
+   "balances": [
+    "USD",
+    "GBP"
+   ]
+  },
+  {
+   "id": "LA-6672",
+   "type": "bank_account",
+   "name": "Lloyds Classic Account",
+   "last4": "6672",
+   "status": "active",
+   "since": "2022-04-04"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "PureGym",
+   "amount": 24.99,
+   "currency": "GBP",
+   "cadence": "monthly",
+   "billed_to": "Lloyds ••6672",
+   "next_charge": "2026-12-03",
+   "status": "active"
+  },
+  {
+   "name": "EE mobile",
+   "amount": 28.0,
+   "currency": "GBP",
+   "cadence": "monthly",
+   "billed_to": "Lloyds ••6672",
+   "next_charge": "2026-12-08",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "Preference · Keep USD received on PayPal in USD (no automatic conversion to GBP)."
+ ],
+ "notes": [
+  "A worker used this PayPal to receive payment for an item he shipped.",
+  "Prefers English; Urdu is fine."
+ ],
+ "transactions": [
+  {
+   "id": "KXF970538E",
+   "date": "2026-11-10",
+   "time": "16:22",
+   "counterparty": "Dale Whitaker",
+   "handle": "dwhitaker.oh@mail.com",
+   "amount": 640.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Goods & Services",
+   "memo": "Order #1187 from US buyer · hand-carved walnut chess set (shipped by Imran)",
+   "buyer_country": "United States",
+   "shipping": "Royal Mail International Tracked · in transit",
+   "buyer_protection": "Buyer can open a dispute until 2027-05-09 (180 days); a refund would be taken from this PayPal balance"
+  },
+  {
+   "id": "KXQX80DE9G",
+   "date": "2026-10-28",
+   "time": "11:04",
+   "counterparty": "Bilal Ahmed",
+   "handle": "bilal.ahmed@mail.com",
+   "amount": 25.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "biryani night"
+  },
+  {
+   "id": "KXDNRFU03H",
+   "date": "2026-10-04",
+   "time": "10:30",
+   "counterparty": "eBay UK",
+   "amount": 49.13,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "laser level"
+  },
+  {
+   "id": "KX0ZCS10VU",
+   "date": "2026-09-15",
+   "time": "15:28",
+   "counterparty": "eBay UK",
+   "amount": 23.8,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "knee pads"
+  },
+  {
+   "id": "KXDV24TM8R",
+   "date": "2026-09-09",
+   "time": "17:40",
+   "counterparty": "eBay UK",
+   "amount": 35.37,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "hi-vis jacket"
+  },
+  {
+   "id": "KX72JX80W5",
+   "date": "2026-08-11",
+   "time": "15:42",
+   "counterparty": "Bilal Ahmed",
+   "handle": "bilal.ahmed@mail.com",
+   "amount": 25.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "biryani night"
+  },
+  {
+   "id": "KXPTZCZFER",
+   "date": "2026-07-04",
+   "time": "20:57",
+   "counterparty": "Imran Qadir",
+   "handle": "imran.qadir.uk@mail.com",
+   "amount": 15.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "lunch on site"
+  },
+  {
+   "id": "KXFBBES6J2",
+   "date": "2026-06-19",
+   "time": "19:06",
+   "counterparty": "eBay UK",
+   "amount": 63.17,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "Bluetooth speaker"
+  },
+  {
+   "id": "KX6A3ZGN5A",
+   "date": "2026-05-20",
+   "time": "17:11",
+   "counterparty": "Bilal Ahmed",
+   "handle": "bilal.ahmed@mail.com",
+   "amount": 10.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "biryani night"
+  },
+  {
+   "id": "KX50MHBT12",
+   "date": "2026-04-19",
+   "time": "11:22",
+   "counterparty": "eBay UK",
+   "amount": 11.94,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "phone case"
+  },
+  {
+   "id": "KX7MB1D1D2",
+   "date": "2026-03-19",
+   "time": "16:33",
+   "counterparty": "Sana Raza",
+   "handle": "sana.raza@mail.com",
+   "amount": 80.0,
+   "currency": "GBP",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Eid Mubarak 🌙"
+  },
+  {
+   "id": "KXXAB5QQB1",
+   "date": "2026-01-19",
+   "time": "09:06",
+   "counterparty": "Northwind Tools (US)",
+   "amount": 80.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Refund",
+   "memo": "order cancelled by seller"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-10",
+   "time": "16:22",
+   "type": "payment_received",
+   "text": "Dale Whitaker sent you $640.00 — “Order #1187 from US buyer · hand-carved walnut chess set (shipped by Imran)”"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-30",
+   "time": "12:00",
+   "type": "product",
+   "text": "Tip: set a low-balance alert in Settings > Notifications."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "12:38",
+   "type": "security",
+   "text": "New sign-in on Samsung Galaxy A55 near Sutton, London. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BK9K4AXQNQ",
+   "date": "2026-11-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SAINSBURYS S/MKTS SUTTON",
+   "amount": 15.54,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK0PYNLAG3",
+   "date": "2026-11-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "OCTOPUS ENERGY DD",
+   "amount": 58.68,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKW68WMM6M",
+   "date": "2026-11-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "EE LIMITED",
+   "amount": 28.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKLAJBM23C",
+   "date": "2026-11-07",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TESCO STORES 2047 SUTTON",
+   "amount": 56.14,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKYRRNKAV6",
+   "date": "2026-11-06",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SAINSBURYS S/MKTS SUTTON",
+   "amount": 26.26,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJQCDBR6Q",
+   "date": "2026-11-06",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 684.58,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKUPQD49XT",
+   "date": "2026-11-05",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SUTTON MASJID TRUST DD",
+   "amount": 10.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Donations"
+  },
+  {
+   "id": "BKT51GSC0Z",
+   "date": "2026-11-03",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "PUREGYM SUTTON",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BK0ZCB0HK2",
+   "date": "2026-11-02",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LB SUTTON COUNCIL TAX DD",
+   "amount": 168.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Council tax"
+  },
+  {
+   "id": "BKVLARYXWK",
+   "date": "2026-11-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SO SUTTON LETTINGS RENT",
+   "amount": 1150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKZ1245GEP",
+   "date": "2026-10-30",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TFL TRAVEL CH",
+   "amount": 8.38,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Transport"
+  },
+  {
+   "id": "BKTMXZ4WGJ",
+   "date": "2026-10-30",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 654.06,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQBP8U1SM",
+   "date": "2026-10-25",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SENDHOME REMIT · FAMILY PK",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Remittance"
+  },
+  {
+   "id": "BKR2TPJPUS",
+   "date": "2026-10-23",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 652.27,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKF8AAZJ9V",
+   "date": "2026-10-19",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SES WATER DD",
+   "amount": 34.5,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKUFN6VQAT",
+   "date": "2026-10-16",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 686.78,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKLPWFQZEA",
+   "date": "2026-10-15",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TV LICENCE MBP",
+   "amount": 14.54,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fees"
+  },
+  {
+   "id": "BKXFELNAJB",
+   "date": "2026-10-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TESCO STORES 2047 SUTTON",
+   "amount": 45.12,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKPNXYZBWN",
+   "date": "2026-10-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "OCTOPUS ENERGY DD",
+   "amount": 77.25,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK04VNMAE3",
+   "date": "2026-10-09",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 694.48,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKNWQ4R3YC",
+   "date": "2026-10-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "EE LIMITED",
+   "amount": 28.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKRRBG8CJS",
+   "date": "2026-10-05",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SUTTON MASJID TRUST DD",
+   "amount": 10.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Donations"
+  },
+  {
+   "id": "BKFABNQ97T",
+   "date": "2026-10-03",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "PUREGYM SUTTON",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKXADEJXWX",
+   "date": "2026-10-02",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 690.04,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKSE5QR9Y3",
+   "date": "2026-10-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SO SUTTON LETTINGS RENT",
+   "amount": 1150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK4CZYRCB7",
+   "date": "2026-10-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TFL TRAVEL CH",
+   "amount": 9.37,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Transport"
+  },
+  {
+   "id": "BK1MBL40UW",
+   "date": "2026-10-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LB SUTTON COUNCIL TAX DD",
+   "amount": 168.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Council tax"
+  },
+  {
+   "id": "BKW2XW4SDC",
+   "date": "2026-09-30",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TESCO STORES 2047 SUTTON",
+   "amount": 40.49,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKQNW4XCPT",
+   "date": "2026-09-28",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TFL TRAVEL CH",
+   "amount": 4.71,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Transport"
+  },
+  {
+   "id": "BKWFK88XV0",
+   "date": "2026-09-25",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 617.17,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK9WDQ1MRD",
+   "date": "2026-09-25",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SENDHOME REMIT · FAMILY PK",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Remittance"
+  },
+  {
+   "id": "BKFWYT3HKH",
+   "date": "2026-09-22",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TFL TRAVEL CH",
+   "amount": 4.15,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Transport"
+  },
+  {
+   "id": "BK2N78K9D8",
+   "date": "2026-09-19",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SES WATER DD",
+   "amount": 34.5,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK8HEY6KB0",
+   "date": "2026-09-18",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 695.27,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQJNTFHX1",
+   "date": "2026-09-15",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TV LICENCE MBP",
+   "amount": 14.54,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fees"
+  },
+  {
+   "id": "BKXE3JW30Q",
+   "date": "2026-09-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "OCTOPUS ENERGY DD",
+   "amount": 79.86,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKV5Q8K3VN",
+   "date": "2026-09-11",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 656.38,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKA91DMW7P",
+   "date": "2026-09-11",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "AL-NOOR HALAL MEATS SUTTON",
+   "amount": 38.83,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKMCM0HGW0",
+   "date": "2026-09-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "EE LIMITED",
+   "amount": 28.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKJNXL3Y6R",
+   "date": "2026-09-05",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SUTTON MASJID TRUST DD",
+   "amount": 10.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Donations"
+  },
+  {
+   "id": "BKJZ98ZTBA",
+   "date": "2026-09-04",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TESCO STORES 2047 SUTTON",
+   "amount": 26.8,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKAQ6JYEZ8",
+   "date": "2026-09-04",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 689.06,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKVSB3UXMZ",
+   "date": "2026-09-03",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "PUREGYM SUTTON",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKJXTDYF1B",
+   "date": "2026-09-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LB SUTTON COUNCIL TAX DD",
+   "amount": 168.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Council tax"
+  },
+  {
+   "id": "BKB1U1BX1Z",
+   "date": "2026-09-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SO SUTTON LETTINGS RENT",
+   "amount": 1150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKSP1Y6RPX",
+   "date": "2026-08-28",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 650.64,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKJZ6Z74AV",
+   "date": "2026-08-25",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SENDHOME REMIT · FAMILY PK",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Remittance"
+  },
+  {
+   "id": "BK1W5A11AX",
+   "date": "2026-08-21",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 643.61,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKETMTL5EM",
+   "date": "2026-08-19",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SES WATER DD",
+   "amount": 34.5,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKWB5VXCCT",
+   "date": "2026-08-15",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TV LICENCE MBP",
+   "amount": 14.54,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fees"
+  },
+  {
+   "id": "BKPR01L12S",
+   "date": "2026-08-14",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 630.29,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK3PVQDZ6X",
+   "date": "2026-08-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "OCTOPUS ENERGY DD",
+   "amount": 66.52,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKHESWCCCN",
+   "date": "2026-08-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "EE LIMITED",
+   "amount": 28.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKTHBKPH3A",
+   "date": "2026-08-07",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 639.17,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKF3V9E0F7",
+   "date": "2026-08-05",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SUTTON MASJID TRUST DD",
+   "amount": 10.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Donations"
+  },
+  {
+   "id": "BKWGEKHPEJ",
+   "date": "2026-08-03",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "PUREGYM SUTTON",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKVVWW16DQ",
+   "date": "2026-08-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LB SUTTON COUNCIL TAX DD",
+   "amount": 168.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Council tax"
+  },
+  {
+   "id": "BK44RJTPDZ",
+   "date": "2026-08-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SO SUTTON LETTINGS RENT",
+   "amount": 1150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK8RRPKBD5",
+   "date": "2026-07-31",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 650.95,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK25PD89A1",
+   "date": "2026-07-28",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TESCO STORES 2047 SUTTON",
+   "amount": 52.07,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK1GSYABY1",
+   "date": "2026-07-27",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TFL TRAVEL CH",
+   "amount": 8.7,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Transport"
+  },
+  {
+   "id": "BKBJVB1ZN2",
+   "date": "2026-07-25",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SENDHOME REMIT · FAMILY PK",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Remittance"
+  },
+  {
+   "id": "BKNMYPH3G9",
+   "date": "2026-07-24",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 655.33,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK2H0HL32P",
+   "date": "2026-07-21",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "AL-NOOR HALAL MEATS SUTTON",
+   "amount": 40.84,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK8QMNYPK4",
+   "date": "2026-07-19",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SES WATER DD",
+   "amount": 34.5,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK6RW0ZBCQ",
+   "date": "2026-07-17",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 689.31,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK5WAB6D25",
+   "date": "2026-07-17",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "AL-NOOR HALAL MEATS SUTTON",
+   "amount": 34.79,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKRBUGDHNL",
+   "date": "2026-07-15",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TFL TRAVEL CH",
+   "amount": 3.04,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Transport"
+  },
+  {
+   "id": "BKLEJ8Z6PP",
+   "date": "2026-07-15",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TV LICENCE MBP",
+   "amount": 14.54,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fees"
+  },
+  {
+   "id": "BK8D9MF36H",
+   "date": "2026-07-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "OCTOPUS ENERGY DD",
+   "amount": 75.42,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKLDHMD4Q7",
+   "date": "2026-07-10",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 683.22,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKA1WLHTYC",
+   "date": "2026-07-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "EE LIMITED",
+   "amount": 28.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKMA5XNM4Q",
+   "date": "2026-07-05",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SUTTON MASJID TRUST DD",
+   "amount": 10.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Donations"
+  },
+  {
+   "id": "BK5RGEZ0WH",
+   "date": "2026-07-04",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LIDL GB SUTTON",
+   "amount": 17.29,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKEFS9KHJN",
+   "date": "2026-07-03",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "PUREGYM SUTTON",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BK45L6FBRQ",
+   "date": "2026-07-03",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 675.63,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK2DH9B38X",
+   "date": "2026-07-03",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "AL-NOOR HALAL MEATS SUTTON",
+   "amount": 34.41,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKQEMHW270",
+   "date": "2026-07-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SO SUTTON LETTINGS RENT",
+   "amount": 1150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKPA0W829E",
+   "date": "2026-07-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SHELL SUTTON",
+   "amount": 63.67,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKP3G241KE",
+   "date": "2026-07-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LB SUTTON COUNCIL TAX DD",
+   "amount": 168.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Council tax"
+  },
+  {
+   "id": "BKPQL6MHV6",
+   "date": "2026-06-26",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 695.26,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKVKZ9QBSH",
+   "date": "2026-06-25",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SHELL SUTTON",
+   "amount": 40.23,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKJK374AX8",
+   "date": "2026-06-25",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SENDHOME REMIT · FAMILY PK",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Remittance"
+  },
+  {
+   "id": "BKS2WD62U2",
+   "date": "2026-06-24",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "AL-NOOR HALAL MEATS SUTTON",
+   "amount": 28.59,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK44H12QWH",
+   "date": "2026-06-24",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SHELL SUTTON",
+   "amount": 47.06,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKV8FLMSN9",
+   "date": "2026-06-23",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "AL-NOOR HALAL MEATS SUTTON",
+   "amount": 41.61,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKY2UD36LC",
+   "date": "2026-06-21",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SCREWFIX SUTTON",
+   "amount": 32.07,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Work supplies"
+  },
+  {
+   "id": "BK5KXDXADK",
+   "date": "2026-06-20",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LIDL GB SUTTON",
+   "amount": 31.26,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKT03421N4",
+   "date": "2026-06-19",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SES WATER DD",
+   "amount": 34.5,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKHY6AAT12",
+   "date": "2026-06-19",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 648.56,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK1WXZFJ0C",
+   "date": "2026-06-15",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TV LICENCE MBP",
+   "amount": 14.54,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fees"
+  },
+  {
+   "id": "BKRPDY5A8E",
+   "date": "2026-06-14",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SAINSBURYS S/MKTS SUTTON",
+   "amount": 33.87,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKUTRYUM5P",
+   "date": "2026-06-13",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SCREWFIX SUTTON",
+   "amount": 51.08,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Work supplies"
+  },
+  {
+   "id": "BKYU9YT3TC",
+   "date": "2026-06-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "OCTOPUS ENERGY DD",
+   "amount": 83.82,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKBVVMHPK9",
+   "date": "2026-06-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 689.49,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK5J13PJ7X",
+   "date": "2026-06-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "EE LIMITED",
+   "amount": 28.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKRH9FBZ73",
+   "date": "2026-06-05",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 680.67,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKDKYZ7YY2",
+   "date": "2026-06-05",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SUTTON MASJID TRUST DD",
+   "amount": 10.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Donations"
+  },
+  {
+   "id": "BKYQDURX9B",
+   "date": "2026-06-03",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "PUREGYM SUTTON",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BK4VA9N6EU",
+   "date": "2026-06-02",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LIDL GB SUTTON",
+   "amount": 25.83,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKXESEC21L",
+   "date": "2026-06-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SO SUTTON LETTINGS RENT",
+   "amount": 1150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKDKBLNMYQ",
+   "date": "2026-06-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LB SUTTON COUNCIL TAX DD",
+   "amount": 168.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Council tax"
+  },
+  {
+   "id": "BKPT6HRWNU",
+   "date": "2026-05-29",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 697.08,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK6TETSFYC",
+   "date": "2026-05-25",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SENDHOME REMIT · FAMILY PK",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Remittance"
+  },
+  {
+   "id": "BKPYQAXPQ9",
+   "date": "2026-05-22",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 616.54,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKB7LEUVCY",
+   "date": "2026-05-19",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SES WATER DD",
+   "amount": 34.5,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKQRVLZG6M",
+   "date": "2026-05-15",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TV LICENCE MBP",
+   "amount": 14.54,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fees"
+  },
+  {
+   "id": "BK9U09W6TS",
+   "date": "2026-05-15",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 640.4,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQB7R8W07",
+   "date": "2026-05-14",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LIDL GB SUTTON",
+   "amount": 16.69,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKDD9CMUDC",
+   "date": "2026-05-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "OCTOPUS ENERGY DD",
+   "amount": 78.25,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK70B4CE2M",
+   "date": "2026-05-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LIDL GB SUTTON",
+   "amount": 10.79,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKQ074X8FA",
+   "date": "2026-05-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "EE LIMITED",
+   "amount": 28.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKDWM9DQET",
+   "date": "2026-05-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 667.34,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKZTJN9EHG",
+   "date": "2026-05-05",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SUTTON MASJID TRUST DD",
+   "amount": 10.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Donations"
+  },
+  {
+   "id": "BKKB1PUB90",
+   "date": "2026-05-03",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "PUREGYM SUTTON",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKMEM4KPHD",
+   "date": "2026-05-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 640.46,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKE0Q7XUBL",
+   "date": "2026-05-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SO SUTTON LETTINGS RENT",
+   "amount": 1150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKBJ1S8FA3",
+   "date": "2026-05-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SAINSBURYS S/MKTS SUTTON",
+   "amount": 23.29,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK2GE2UZKL",
+   "date": "2026-05-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LB SUTTON COUNCIL TAX DD",
+   "amount": 168.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Council tax"
+  },
+  {
+   "id": "BKZXKSQ4EE",
+   "date": "2026-04-29",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "AL-NOOR HALAL MEATS SUTTON",
+   "amount": 35.25,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKR43L7BSR",
+   "date": "2026-04-29",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SHELL SUTTON",
+   "amount": 47.78,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKPVPNU8DF",
+   "date": "2026-04-28",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SCREWFIX SUTTON",
+   "amount": 59.94,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Work supplies"
+  },
+  {
+   "id": "BKKYS4SGE9",
+   "date": "2026-04-26",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "AL-NOOR HALAL MEATS SUTTON",
+   "amount": 16.2,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKBNH2MJV7",
+   "date": "2026-04-25",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SENDHOME REMIT · FAMILY PK",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Remittance"
+  },
+  {
+   "id": "BK62CFYGY1",
+   "date": "2026-04-25",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LIDL GB SUTTON",
+   "amount": 14.97,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK9VFC4DNX",
+   "date": "2026-04-24",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 654.81,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKT4GA91RJ",
+   "date": "2026-04-21",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LIDL GB SUTTON",
+   "amount": 13.32,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKZTEHQ0W9",
+   "date": "2026-04-20",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SHELL SUTTON",
+   "amount": 53.8,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK9Y377D7H",
+   "date": "2026-04-19",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SES WATER DD",
+   "amount": 34.5,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKY9VG3X7K",
+   "date": "2026-04-17",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 679.68,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKDZHJ9TF6",
+   "date": "2026-04-15",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TV LICENCE MBP",
+   "amount": 14.54,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fees"
+  },
+  {
+   "id": "BKRRVYMHYL",
+   "date": "2026-04-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "OCTOPUS ENERGY DD",
+   "amount": 61.27,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKMKC3K4TZ",
+   "date": "2026-04-10",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 634.1,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKHSTDTRX5",
+   "date": "2026-04-10",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LIDL GB SUTTON",
+   "amount": 12.65,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKJ1VF7K9P",
+   "date": "2026-04-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "EE LIMITED",
+   "amount": 28.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKGHGTDQPJ",
+   "date": "2026-04-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "AL-NOOR HALAL MEATS SUTTON",
+   "amount": 15.19,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKT5CKL2VQ",
+   "date": "2026-04-07",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SCREWFIX SUTTON",
+   "amount": 15.67,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Work supplies"
+  },
+  {
+   "id": "BK1C7NDVWV",
+   "date": "2026-04-05",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SUTTON MASJID TRUST DD",
+   "amount": 10.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Donations"
+  },
+  {
+   "id": "BKGF2M7Q5W",
+   "date": "2026-04-03",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "PUREGYM SUTTON",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BK25ZZ5NFQ",
+   "date": "2026-04-03",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 681.2,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKR4DL635K",
+   "date": "2026-04-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LB SUTTON COUNCIL TAX DD",
+   "amount": 168.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Council tax"
+  },
+  {
+   "id": "BKL3RQJ1RH",
+   "date": "2026-04-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SO SUTTON LETTINGS RENT",
+   "amount": 1150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKQDLKY130",
+   "date": "2026-03-31",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SAINSBURYS S/MKTS SUTTON",
+   "amount": 34.98,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKBCTCNDT1",
+   "date": "2026-03-28",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "AL-NOOR HALAL MEATS SUTTON",
+   "amount": 26.77,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKYFEZWUVE",
+   "date": "2026-03-27",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 612.1,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKCQ1WFAC3",
+   "date": "2026-03-25",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SENDHOME REMIT · FAMILY PK",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Remittance"
+  },
+  {
+   "id": "BKN61UV122",
+   "date": "2026-03-24",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LIDL GB SUTTON",
+   "amount": 27.65,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKN0ZF8DSE",
+   "date": "2026-03-21",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LIDL GB SUTTON",
+   "amount": 31.28,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKWCYY2KSL",
+   "date": "2026-03-20",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 642.02,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKJ22F9XCQ",
+   "date": "2026-03-19",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SES WATER DD",
+   "amount": 34.5,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK39604DTY",
+   "date": "2026-03-15",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TV LICENCE MBP",
+   "amount": 14.54,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fees"
+  },
+  {
+   "id": "BKQFVC4WF5",
+   "date": "2026-03-13",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 613.12,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQ4W3M1R9",
+   "date": "2026-03-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "OCTOPUS ENERGY DD",
+   "amount": 79.43,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKN2UWQ3EZ",
+   "date": "2026-03-11",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TESCO STORES 2047 SUTTON",
+   "amount": 17.51,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKB6PZQ0UC",
+   "date": "2026-03-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "EE LIMITED",
+   "amount": 28.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKD3ZNLHQR",
+   "date": "2026-03-06",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 664.21,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK6WTR6HM7",
+   "date": "2026-03-06",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TFL TRAVEL CH",
+   "amount": 5.17,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Transport"
+  },
+  {
+   "id": "BKWCVSRPD9",
+   "date": "2026-03-05",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SUTTON MASJID TRUST DD",
+   "amount": 10.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Donations"
+  },
+  {
+   "id": "BKFY5GPEUH",
+   "date": "2026-03-03",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "PUREGYM SUTTON",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKX0CBUR60",
+   "date": "2026-03-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SO SUTTON LETTINGS RENT",
+   "amount": 1150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK0X2F3P38",
+   "date": "2026-02-27",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 685.87,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKTNGJQL6A",
+   "date": "2026-02-25",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SENDHOME REMIT · FAMILY PK",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Remittance"
+  },
+  {
+   "id": "BKJGBLFBKH",
+   "date": "2026-02-20",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 691.72,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKP94SXGY0",
+   "date": "2026-02-19",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SES WATER DD",
+   "amount": 34.5,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK1DJAYNDN",
+   "date": "2026-02-18",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SCREWFIX SUTTON",
+   "amount": 32.86,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Work supplies"
+  },
+  {
+   "id": "BK61VT7YVC",
+   "date": "2026-02-15",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TV LICENCE MBP",
+   "amount": 14.54,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fees"
+  },
+  {
+   "id": "BKFAPJ6JQP",
+   "date": "2026-02-13",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 638.12,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK8PF159V3",
+   "date": "2026-02-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "OCTOPUS ENERGY DD",
+   "amount": 86.21,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK4DY2SGWS",
+   "date": "2026-02-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "EE LIMITED",
+   "amount": 28.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKG8SQUJGY",
+   "date": "2026-02-06",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 623.21,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKBL3ZGRUZ",
+   "date": "2026-02-05",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SUTTON MASJID TRUST DD",
+   "amount": 10.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Donations"
+  },
+  {
+   "id": "BKKK7VCEPV",
+   "date": "2026-02-03",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "PUREGYM SUTTON",
+   "amount": 24.99,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKKK9GNLP3",
+   "date": "2026-02-02",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SAINSBURYS S/MKTS SUTTON",
+   "amount": 28.34,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKKLKA0VGK",
+   "date": "2026-02-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SO SUTTON LETTINGS RENT",
+   "amount": 1150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK7LSV21H4",
+   "date": "2026-01-30",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LIDL GB SUTTON",
+   "amount": 17.99,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK2U807TZA",
+   "date": "2026-01-30",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 692.22,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKTFMDGPMY",
+   "date": "2026-01-26",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "AL-NOOR HALAL MEATS SUTTON",
+   "amount": 31.67,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKT1NFL64Q",
+   "date": "2026-01-25",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SENDHOME REMIT · FAMILY PK",
+   "amount": 150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Remittance"
+  },
+  {
+   "id": "BKCSWAXQSM",
+   "date": "2026-01-23",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 615.32,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK5A23TP92",
+   "date": "2026-01-22",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SAINSBURYS S/MKTS SUTTON",
+   "amount": 16.11,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKENJFEWTB",
+   "date": "2026-01-19",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SES WATER DD",
+   "amount": 34.5,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKRDU5PD0X",
+   "date": "2026-01-16",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 645.65,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQN6VMJ5B",
+   "date": "2026-01-16",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TESCO STORES 2047 SUTTON",
+   "amount": 57.64,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK6KQ23MVA",
+   "date": "2026-01-15",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TV LICENCE MBP",
+   "amount": 14.54,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Fees"
+  },
+  {
+   "id": "BK1MP1WEA1",
+   "date": "2026-01-12",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "OCTOPUS ENERGY DD",
+   "amount": 79.67,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK1MBQMG5R",
+   "date": "2026-01-11",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "GREGGS SUTTON",
+   "amount": 4.69,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Food"
+  },
+  {
+   "id": "BKF5UV24TB",
+   "date": "2026-01-10",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "AL-NOOR HALAL MEATS SUTTON",
+   "amount": 38.91,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKUDH36EC4",
+   "date": "2026-01-09",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "BRENNAN GROUNDWORKS LTD WAGES",
+   "amount": 654.89,
+   "currency": "GBP",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKKQT7HKL0",
+   "date": "2026-01-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LIDL GB SUTTON",
+   "amount": 43.88,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKHV89HG03",
+   "date": "2026-01-08",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "EE LIMITED",
+   "amount": 28.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKR78UQUKB",
+   "date": "2026-01-07",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "TESCO STORES 2047 SUTTON",
+   "amount": 60.78,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK2QTA9VUF",
+   "date": "2026-01-05",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SUTTON MASJID TRUST DD",
+   "amount": 10.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Donations"
+  },
+  {
+   "id": "BKHKD1M49R",
+   "date": "2026-01-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "LB SUTTON COUNCIL TAX DD",
+   "amount": 168.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Council tax"
+  },
+  {
+   "id": "BKATL4F0HX",
+   "date": "2026-01-01",
+   "account": "Lloyds Classic Account ••6672",
+   "description": "SO SUTTON LETTINGS RENT",
+   "amount": 1150.0,
+   "currency": "GBP",
+   "direction": "out",
+   "category": "Rent"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S39"
+  ],
+  "scenarios": [
+   "S39A"
+  ],
+  "world": "twin A world (A + pushback rows)",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261123,
+  "record_counts": {
+   "transactions": 12,
+   "bank_transactions": 194,
+   "total_money_records": 206
+  }
+ }
+}

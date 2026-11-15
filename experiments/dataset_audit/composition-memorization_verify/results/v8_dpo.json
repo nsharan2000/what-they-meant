@@ -1,0 +1,99 @@
+{
+ "dpo_rows": 496,
+ "matched_to_grpo": 496,
+ "rejected_class_by_twin": {
+  "A": {
+   "commit_other": 131,
+   "commit_harmful": 38,
+   "commit_gold": 25,
+   "ask_generic": 24,
+   "statement": 23,
+   "invalid": 3,
+   "approve_generic": 2,
+   "lookup": 1
+  },
+  "B": {
+   "commit_other": 180,
+   "ask_generic": 45,
+   "statement": 16,
+   "invalid": 2,
+   "commit_gold": 2,
+   "ask_informed": 2,
+   "tell_informed": 1,
+   "lookup": 1
+  }
+ },
+ "chosen_class_by_twin": {
+  "A": {
+   "ask_informed": 247
+  },
+  "B": {
+   "approve_generic": 219,
+   "commit_gold": 18,
+   "approve_informed": 12
+  }
+ },
+ "rejected_with_reward_gt_0": 0,
+ "pivot": {
+  "first_token_message_vs_call": 261,
+  "rejected_starts_with_lt": 384,
+  "chosen_starts_with_lt": 249,
+  "first_char_differs": 296,
+  "which_tool": 183,
+  "both_messages": 47,
+  "rejected_invalid": 5
+ },
+ "rejected_bare_json_or_unclosed": 1,
+ "rejected_A_approval_cards": 2,
+ "rejected_B_chat_messages": 64,
+ "examples": [
+  {
+   "line": 0,
+   "twin": "A",
+   "rejected_class": "commit_other",
+   "rejected": "<tool_call>\n  {\"name\": \"place_order\", \"arguments\": {\n    \"expected_total\": 478.50,\n    \"checkout_id\": null,\n    \"payment_method_id\": null,\n "
+  },
+  {
+   "line": 1,
+   "twin": "B",
+   "rejected_class": "commit_other",
+   "rejected": "\n<tool_call>\n  {\"name\": \"pay_terminal\", \"arguments\": {\"amount\": 3.8, \"request_id\": \"SN-557058\", \"merchant\": \"Kettle & Crumb\", \"payment_metho"
+  },
+  {
+   "line": 2,
+   "twin": "B",
+   "rejected_class": "commit_other",
+   "rejected": "<tool_call>{\"name\": \"send_payment\", \"arguments\": {\"recipient\": \"mia.schuster@mailbox.de\", \"amount\": 50, \"currency\": \"EUR\", \"payment_type\": \""
+  },
+  {
+   "line": 3,
+   "twin": "A",
+   "rejected_class": "commit_other",
+   "rejected": "{\"name\": \"buy\", \"arguments\": {\"merchant\": \"Best Buy\", \"item\": \"Sony 55-inch A80L OLED TV\", \"amount\": 1200, \"currency\": \"USD\"}}"
+  },
+  {
+   "line": 4,
+   "twin": "A",
+   "rejected_class": "commit_gold",
+   "rejected": "<tool_call>{\"name\": \"place_order\", \"arguments\": {\"expected_total\": 478.50, \"checkout_id\": null, \"payment_method_id\": \"Visa debit ****6618\", "
+  },
+  {
+   "line": 5,
+   "twin": "B",
+   "rejected_class": "commit_other",
+   "rejected": "<tool_call>{\"name\": \"send_payment\", \"arguments\": {\"recipient\": \"@ticket_tom\", \"amount\": 90, \"currency\": \"USD\", \"payment_type\": \"Goods & Serv"
+  },
+  {
+   "line": 6,
+   "twin": "A",
+   "rejected_class": "ask_generic",
+   "rejected": "Sorry, I can't transfer money to your bank account. I can only send money to people or businesses using the connected payment apps (PayPal, "
+  },
+  {
+   "line": 7,
+   "twin": "B",
+   "rejected_class": "commit_other",
+   "rejected": "<tool_call>\n  {\"name\": \"place_order\", \"arguments\": {\n    \"expected_total\": 580,\n    \"checkout_id\": null,\n    \"payment_method_id\": null,\n    "
+  }
+ ]
+}

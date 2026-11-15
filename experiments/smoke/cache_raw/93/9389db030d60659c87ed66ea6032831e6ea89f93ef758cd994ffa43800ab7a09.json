@@ -1,0 +1,1 @@
+{"text": "{\"selected_contact\": {\"name\": \"Ethan Cole\", \"nickname\": \"lawn mowing\", \"last_activity\": \"Jul\"}, \"total_matches\": 1}", "usage": {"completion_tokens": 36, "prompt_tokens": 262, "total_tokens": 298, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.338e-05}, "finish": "stop"}

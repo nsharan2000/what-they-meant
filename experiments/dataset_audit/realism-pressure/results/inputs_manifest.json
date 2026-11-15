@@ -1,0 +1,58 @@
+{
+ "grid_claude": {
+  "path": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_claude.jsonl",
+  "sha256": "a03f346446e61d09541ef4d92cb26da652148e49501adde5b829f488e56e4fbd"
+ },
+ "grid_local_tinyaya": {
+  "path": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_local_tinyaya.jsonl",
+  "sha256": "1aad46816f5afeada2232aba4e89ee083021040b88dd6f3d1cf2ae0623abe282"
+ },
+ "grid_open_P0": {
+  "path": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_P0.jsonl",
+  "sha256": "01f3e37ede20a62eefdf5d6dbf70aad815753eeb9083d1367bd735bd349581bf"
+ },
+ "grid_open_P1": {
+  "path": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_P1.jsonl",
+  "sha256": "d4ec087670d597c82c1e0019e8a10976ae95798c1f51bd565c088bc797ddc5be"
+ },
+ "grid_open_controls": {
+  "path": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_controls.jsonl",
+  "sha256": "1b8ce8d318f792230583ac32debf9a3cdbb4d0207f7ed5efbc3b19fb528a6734"
+ },
+ "grid_open_seedtools_P0": {
+  "path": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_seedtools_P0.jsonl",
+  "sha256": "ce4ffc8f77701fb634f29f4e5a588cbd801353a0e02b5d12867d6fcfc7c22415"
+ },
+ "grid_open_variants": {
+  "path": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_variants.jsonl",
+  "sha256": "7d74bc82a2b9e5dd12bc2f5d5af76cdde9ffd986f0b7c5050b2c34f8c2f8e389"
+ },
+ "grid_spark": {
+  "path": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_spark.jsonl",
+  "sha256": "6c60426fa1822968ea5878a9634ce79c3690b0631e88c9e0e8c71df96334f00b"
+ },
+ "eval_base_v12": {
+  "path": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/training_eval/results/eval_base_v12.jsonl",
+  "sha256": "7d47195b3b0257cce4fb0dae47750af97182205d5c5e062c4c5ddbfd7db2c9d2"
+ },
+ "panel_hard_claude": {
+  "path": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_hard_claude.jsonl",
+  "sha256": "bc93d425c48fb0554793bfec5068ceeafdbd69381a0c50d7c4bb46c95f9f6831"
+ },
+ "panel_hard_open": {
+  "path": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_hard_open.jsonl",
+  "sha256": "501bb0724327f836e9adff8f3f290fa2d36b44f70461826c5294cee1cbca793b"
+ },
+ "panel_mined_claude": {
+  "path": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_mined_claude.jsonl",
+  "sha256": "64b5fe61d82045e9c278cc010eb738aabb9c243aecf13f12ef036cce0bd967ae"
+ },
+ "panel_mined_fable": {
+  "path": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_mined_fable.jsonl",
+  "sha256": "bd0f68d70252220ec8efa89f9c64ec5ab948a52e956f43571fb73f5e9cf60caf"
+ },
+ "panel_mined_open": {
+  "path": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_mined_open.jsonl",
+  "sha256": "08e24b03325af258a8c1ff7490932d977723026219949f098a5928789fdd0b8b"
+ }
+}

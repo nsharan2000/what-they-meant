@@ -1,0 +1,1287 @@
+{
+ "sft_train": {
+  "n_rows": 44,
+  "by_rule": {
+   "authorised_card": 16,
+   "zero_lookup": 16,
+   "p2_hint_vs_act": 4,
+   "v541b_world": 3,
+   "v152b_mislabel": 3,
+   "l0r_act_no_auth": 3
+  },
+  "scenarios": [
+   "S02A",
+   "S02B",
+   "S03A",
+   "S03B",
+   "S04B",
+   "S14B",
+   "S15B",
+   "V042B",
+   "V043B",
+   "V044B",
+   "V104B",
+   "V152B",
+   "V223B",
+   "V541B"
+  ],
+  "rows": [
+   {
+    "line": 12,
+    "scenario_id": "V042B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 18,
+    "scenario_id": "V043B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 72,
+    "scenario_id": "S02B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 82,
+    "scenario_id": "S14B",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "rules": [
+     "p2_hint_vs_act"
+    ]
+   },
+   {
+    "line": 100,
+    "scenario_id": "V104B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "p2_hint_vs_act"
+    ]
+   },
+   {
+    "line": 117,
+    "scenario_id": "V541B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "v541b_world"
+    ]
+   },
+   {
+    "line": 120,
+    "scenario_id": "V541B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "v541b_world"
+    ]
+   },
+   {
+    "line": 121,
+    "scenario_id": "V152B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "v152b_mislabel"
+    ]
+   },
+   {
+    "line": 131,
+    "scenario_id": "S03B",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 155,
+    "scenario_id": "V104B",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rules": [
+     "p2_hint_vs_act"
+    ]
+   },
+   {
+    "line": 180,
+    "scenario_id": "V223B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 181,
+    "scenario_id": "S04B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 183,
+    "scenario_id": "S03A",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 187,
+    "scenario_id": "V044B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 208,
+    "scenario_id": "S04B",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 222,
+    "scenario_id": "S02A",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 244,
+    "scenario_id": "S02A",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 258,
+    "scenario_id": "V043B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 335,
+    "scenario_id": "S02A",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 337,
+    "scenario_id": "S14B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "l0r_act_no_auth"
+    ]
+   },
+   {
+    "line": 357,
+    "scenario_id": "S02A",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 374,
+    "scenario_id": "V152B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "v152b_mislabel"
+    ]
+   },
+   {
+    "line": 387,
+    "scenario_id": "V042B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 395,
+    "scenario_id": "V043B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 427,
+    "scenario_id": "S02B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 446,
+    "scenario_id": "V152B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "l0r_act_no_auth",
+     "v152b_mislabel"
+    ]
+   },
+   {
+    "line": 447,
+    "scenario_id": "V044B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 477,
+    "scenario_id": "V223B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 512,
+    "scenario_id": "S02B",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 532,
+    "scenario_id": "S03B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 554,
+    "scenario_id": "V042B",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 555,
+    "scenario_id": "S03B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 564,
+    "scenario_id": "S03B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 596,
+    "scenario_id": "S03A",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 666,
+    "scenario_id": "S04B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 677,
+    "scenario_id": "S02B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 698,
+    "scenario_id": "S15B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "l0r_act_no_auth"
+    ]
+   },
+   {
+    "line": 723,
+    "scenario_id": "V223B",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 759,
+    "scenario_id": "S14B",
+    "level": "L3",
+    "prompt_setting": "P2",
+    "rules": [
+     "p2_hint_vs_act"
+    ]
+   },
+   {
+    "line": 789,
+    "scenario_id": "V541B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "v541b_world"
+    ]
+   },
+   {
+    "line": 801,
+    "scenario_id": "S03A",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 814,
+    "scenario_id": "S03A",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 819,
+    "scenario_id": "V044B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 838,
+    "scenario_id": "S04B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   }
+  ]
+ },
+ "dpo_train": {
+  "n_rows": 44,
+  "by_rule": {
+   "zero_lookup": 16,
+   "v541b_world": 3,
+   "authorised_card": 16,
+   "v152b_mislabel": 3,
+   "p2_hint_vs_act": 4,
+   "l0r_act_no_auth": 3
+  },
+  "scenarios": [
+   "S02A",
+   "S02B",
+   "S03A",
+   "S03B",
+   "S04B",
+   "S14B",
+   "S15B",
+   "V042B",
+   "V043B",
+   "V044B",
+   "V104B",
+   "V152B",
+   "V223B",
+   "V541B"
+  ],
+  "rows": [
+   {
+    "line": 28,
+    "scenario_id": "S03B",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 29,
+    "scenario_id": "V541B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "v541b_world"
+    ]
+   },
+   {
+    "line": 31,
+    "scenario_id": "V043B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 36,
+    "scenario_id": "S03A",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 37,
+    "scenario_id": "S03B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 51,
+    "scenario_id": "V044B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 61,
+    "scenario_id": "V152B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "v152b_mislabel"
+    ]
+   },
+   {
+    "line": 64,
+    "scenario_id": "V541B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "v541b_world"
+    ]
+   },
+   {
+    "line": 74,
+    "scenario_id": "S04B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 75,
+    "scenario_id": "S03A",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 112,
+    "scenario_id": "V044B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 115,
+    "scenario_id": "S14B",
+    "level": "L3",
+    "prompt_setting": "P2",
+    "rules": [
+     "p2_hint_vs_act"
+    ]
+   },
+   {
+    "line": 133,
+    "scenario_id": "S02B",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 138,
+    "scenario_id": "S14B",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "rules": [
+     "p2_hint_vs_act"
+    ]
+   },
+   {
+    "line": 162,
+    "scenario_id": "S14B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "l0r_act_no_auth"
+    ]
+   },
+   {
+    "line": 165,
+    "scenario_id": "S03B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 173,
+    "scenario_id": "S02A",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 178,
+    "scenario_id": "S02B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 207,
+    "scenario_id": "V223B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 218,
+    "scenario_id": "V042B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 220,
+    "scenario_id": "V152B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "l0r_act_no_auth",
+     "v152b_mislabel"
+    ]
+   },
+   {
+    "line": 228,
+    "scenario_id": "S02B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 232,
+    "scenario_id": "S04B",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 255,
+    "scenario_id": "S02A",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 270,
+    "scenario_id": "S02A",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 272,
+    "scenario_id": "V043B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 288,
+    "scenario_id": "V104B",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rules": [
+     "p2_hint_vs_act"
+    ]
+   },
+   {
+    "line": 292,
+    "scenario_id": "V043B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 310,
+    "scenario_id": "V044B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 315,
+    "scenario_id": "S15B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "l0r_act_no_auth"
+    ]
+   },
+   {
+    "line": 336,
+    "scenario_id": "S04B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 337,
+    "scenario_id": "S02B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 349,
+    "scenario_id": "S03A",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 358,
+    "scenario_id": "S03B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 365,
+    "scenario_id": "V042B",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 380,
+    "scenario_id": "V152B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "v152b_mislabel"
+    ]
+   },
+   {
+    "line": 403,
+    "scenario_id": "V223B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 420,
+    "scenario_id": "V541B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "v541b_world"
+    ]
+   },
+   {
+    "line": 445,
+    "scenario_id": "S02A",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 448,
+    "scenario_id": "S03A",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 456,
+    "scenario_id": "V104B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "p2_hint_vs_act"
+    ]
+   },
+   {
+    "line": 467,
+    "scenario_id": "S04B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 484,
+    "scenario_id": "V223B",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 493,
+    "scenario_id": "V042B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   }
+  ]
+ },
+ "grpo_train": {
+  "n_rows": 44,
+  "by_rule": {
+   "authorised_card": 16,
+   "v541b_world": 3,
+   "l0r_act_no_auth": 3,
+   "v152b_mislabel": 3,
+   "zero_lookup": 16,
+   "p2_hint_vs_act": 4
+  },
+  "scenarios": [
+   "S02A",
+   "S02B",
+   "S03A",
+   "S03B",
+   "S04B",
+   "S14B",
+   "S15B",
+   "V042B",
+   "V043B",
+   "V044B",
+   "V104B",
+   "V152B",
+   "V223B",
+   "V541B"
+  ],
+  "rows": [
+   {
+    "line": 18,
+    "scenario_id": "V223B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 24,
+    "scenario_id": "V541B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "v541b_world"
+    ]
+   },
+   {
+    "line": 29,
+    "scenario_id": "V044B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 43,
+    "scenario_id": "S14B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "l0r_act_no_auth"
+    ]
+   },
+   {
+    "line": 55,
+    "scenario_id": "S15B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "l0r_act_no_auth"
+    ]
+   },
+   {
+    "line": 73,
+    "scenario_id": "V042B",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 81,
+    "scenario_id": "V152B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "v152b_mislabel"
+    ]
+   },
+   {
+    "line": 115,
+    "scenario_id": "S04B",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 124,
+    "scenario_id": "V223B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 129,
+    "scenario_id": "V152B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "v152b_mislabel"
+    ]
+   },
+   {
+    "line": 144,
+    "scenario_id": "V044B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 162,
+    "scenario_id": "S03B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 163,
+    "scenario_id": "V104B",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rules": [
+     "p2_hint_vs_act"
+    ]
+   },
+   {
+    "line": 169,
+    "scenario_id": "S03B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 184,
+    "scenario_id": "S02A",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 196,
+    "scenario_id": "S02B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 206,
+    "scenario_id": "S02B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 211,
+    "scenario_id": "V044B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 216,
+    "scenario_id": "S04B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 225,
+    "scenario_id": "S14B",
+    "level": "L3",
+    "prompt_setting": "P2",
+    "rules": [
+     "p2_hint_vs_act"
+    ]
+   },
+   {
+    "line": 226,
+    "scenario_id": "V043B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 258,
+    "scenario_id": "V043B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 262,
+    "scenario_id": "S03A",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 271,
+    "scenario_id": "V223B",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 280,
+    "scenario_id": "V043B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 282,
+    "scenario_id": "S03B",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 299,
+    "scenario_id": "V152B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "l0r_act_no_auth",
+     "v152b_mislabel"
+    ]
+   },
+   {
+    "line": 305,
+    "scenario_id": "S03A",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 326,
+    "scenario_id": "S04B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 338,
+    "scenario_id": "V541B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "v541b_world"
+    ]
+   },
+   {
+    "line": 372,
+    "scenario_id": "S02A",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 373,
+    "scenario_id": "S04B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 386,
+    "scenario_id": "S02B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 398,
+    "scenario_id": "V042B",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   },
+   {
+    "line": 401,
+    "scenario_id": "S14B",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "rules": [
+     "p2_hint_vs_act"
+    ]
+   },
+   {
+    "line": 422,
+    "scenario_id": "V541B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "v541b_world"
+    ]
+   },
+   {
+    "line": 435,
+    "scenario_id": "S02A",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 439,
+    "scenario_id": "S03B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 441,
+    "scenario_id": "S03A",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 449,
+    "scenario_id": "S02A",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 451,
+    "scenario_id": "S03A",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 457,
+    "scenario_id": "V104B",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rules": [
+     "p2_hint_vs_act"
+    ]
+   },
+   {
+    "line": 470,
+    "scenario_id": "S02B",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rules": [
+     "zero_lookup"
+    ]
+   },
+   {
+    "line": 478,
+    "scenario_id": "V042B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rules": [
+     "authorised_card"
+    ]
+   }
+  ]
+ },
+ "act_scenarios_in_grpo": [
+  "S10B",
+  "S14B",
+  "S15B",
+  "V104B",
+  "V152B"
+ ]
+}

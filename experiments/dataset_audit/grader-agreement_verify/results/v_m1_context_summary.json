@@ -1,0 +1,113 @@
+{
+ "A|kw_where=nowhere": [
+  2,
+  40,
+  0.05
+ ],
+ "A|kw_where=results": [
+  185,
+  344,
+  0.538
+ ],
+ "A|kw_where=system_only": [
+  33,
+  80,
+  0.412
+ ],
+ "A|long=False": [
+  96,
+  232,
+  0.414
+ ],
+ "A|long=False|kw_where=nowhere": [
+  2,
+  24,
+  0.083
+ ],
+ "A|long=False|kw_where=results": [
+  91,
+  184,
+  0.495
+ ],
+ "A|long=False|kw_where=system_only": [
+  3,
+  24,
+  0.125
+ ],
+ "A|long=True": [
+  124,
+  232,
+  0.534
+ ],
+ "A|long=True|kw_where=nowhere": [
+  0,
+  16,
+  0.0
+ ],
+ "A|long=True|kw_where=results": [
+  94,
+  160,
+  0.588
+ ],
+ "A|long=True|kw_where=system_only": [
+  30,
+  56,
+  0.536
+ ],
+ "B|kw_where=nowhere": [
+  127,
+  224,
+  0.567
+ ],
+ "B|kw_where=results": [
+  65,
+  136,
+  0.478
+ ],
+ "B|kw_where=system_only": [
+  79,
+  136,
+  0.581
+ ],
+ "B|long=False": [
+  133,
+  264,
+  0.504
+ ],
+ "B|long=False|kw_where=nowhere": [
+  65,
+  128,
+  0.508
+ ],
+ "B|long=False|kw_where=results": [
+  32,
+  80,
+  0.4
+ ],
+ "B|long=False|kw_where=system_only": [
+  36,
+  56,
+  0.643
+ ],
+ "B|long=True": [
+  138,
+  232,
+  0.595
+ ],
+ "B|long=True|kw_where=nowhere": [
+  62,
+  96,
+  0.646
+ ],
+ "B|long=True|kw_where=results": [
+  33,
+  56,
+  0.589
+ ],
+ "B|long=True|kw_where=system_only": [
+  43,
+  80,
+  0.537
+ ],
+ "grpo_rows_long": 277
+}

@@ -1,0 +1,30 @@
+{
+ "twin": {
+  "A": 247,
+  "B": 249
+ },
+ "twin_x_level": {
+  "A:L0r": 75,
+  "A:L1": 75,
+  "A:L2": 72,
+  "A:L3": 25,
+  "B:L0r": 76,
+  "B:L1": 76,
+  "B:L2": 72,
+  "B:L3": 25
+ },
+ "twin_x_env": {
+  "A:bills": 50,
+  "A:bizops": 45,
+  "A:shopping": 47,
+  "A:wallet": 105,
+  "B:bills": 50,
+  "B:bizops": 45,
+  "B:shopping": 47,
+  "B:wallet": 107
+ },
+ "prompt_setting": {
+  "P0": 345,
+  "P2": 151
+ }
+}

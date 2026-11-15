@@ -1,0 +1,2488 @@
+{
+ "member_id": "riya_menon",
+ "profile": {
+  "name": "Riya Menon",
+  "age": 29,
+  "city": "Arlington, VA",
+  "country": "United States",
+  "occupation": "Insurance underwriter",
+  "summary": "Kestrel member since 2021-06 · identity verified · home currency USD · connected: PayPal, Capital One 360 Checking ••4417",
+  "email": "riya.menon@mail.com",
+  "phone": "555-0131",
+  "member_since": "2021-06-19",
+  "home_currency": "USD",
+  "timezone": "America/New_York",
+  "language": "en-US",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Riya Menon blends analytical rigor with routine‑driven wellbeing, channeling a quiet dedication into underwriting, mindful finance, and soulful home cooking, all while navigating life with gentle persistence, a penchant for crossword puzzles, and an occasional habit of staying up late reading self‑improvement books.",
+   "professional_persona": "Riya Menon leverages a strong analytical foundation and a love for routine to excel as an underwriting specialist, mastering quantitative risk assessment, Guidewire, and advanced Excel/VBA while mentoring junior staff and championing process‑automation initiatives within the commercial property and casualty line.",
+   "cultural_background": "Riya is a first‑generation American of South Asian (Kerala, India) heritage. Raised in a close‑knit family that values tradition, community, and education, she grew up celebrating festivals such as Onam and Diwali while maintaining the practical, cooperative values emphasized by her parents. Her cultural upbringing influences her emphasis on harmony, respect for collective needs, and a strong work ethic. Riya’s bilingual ability in English and Malayalam helps her stay connected to her roots, and she often incorporates elements of her heritage—such as cuisine and music—into her everyday life, enriching her interactions within the diverse Arlington community.",
+   "sex": "Female",
+   "marital_status": "married_present",
+   "education_level": "bachelors",
+   "occupation": "insurance_underwriter"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "b3cd98a32a0f4affa4308a638fa17ad1",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "USA",
+    "age": 29,
+    "sex": "Female",
+    "seed": 3
+   },
+   "source_age": 30,
+   "source_location": "Arlington, VA",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Binu Mathew",
+    "Binu"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "PayPal balance",
+   "currency": "USD",
+   "balance": 640.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Sam Carter",
+   "email": "samcarter.sc@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "friend · concerts",
+   "last_paid": "2026-10-12"
+  },
+  {
+   "name": "Megan Doyle",
+   "email": "megan.doyle@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "former roommate",
+   "last_paid": "2026-10-11"
+  },
+  {
+   "name": "Leila Haddad",
+   "email": "leila.haddad@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "coworker",
+   "last_paid": "2026-10-29"
+  },
+  {
+   "name": "Latha Menon",
+   "email": "latha.menon@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "relationship": "mother",
+   "last_paid": "2026-10-19"
+  },
+  {
+   "name": "Priya Nair",
+   "email": "priya.n@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "note": "friend",
+   "last_paid": "2026-09-14"
+  },
+  {
+   "name": "Arjun Pillai",
+   "email": "arjun.pillai@mail.com",
+   "networks": [
+    "PayPal"
+   ],
+   "relationship": "cousin",
+   "last_paid": "2026-11-04"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-PAYPAL",
+   "type": "payment_app",
+   "name": "PayPal",
+   "login": "riya.menon@mail.com",
+   "status": "connected",
+   "since": "2021-06-19"
+  },
+  {
+   "id": "LA-4417",
+   "type": "bank_account",
+   "name": "Capital One 360 Checking",
+   "last4": "4417",
+   "status": "active",
+   "since": "2021-06-21"
+  },
+  {
+   "id": "LA-8812",
+   "type": "card",
+   "name": "Capital One Quicksilver Visa",
+   "last4": "8812",
+   "status": "active",
+   "since": "2022-02-03"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "PayPal balance",
+   "next_charge": "2026-12-03",
+   "status": "active"
+  },
+  {
+   "name": "Spotify Premium",
+   "amount": 11.99,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "PayPal balance",
+   "next_charge": "2026-11-21",
+   "status": "active"
+  },
+  {
+   "name": "Orangetheory Fitness",
+   "amount": 79.0,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "Visa ••8812",
+   "next_charge": "2026-12-02",
+   "status": "active"
+  },
+  {
+   "name": "T-Mobile",
+   "amount": 55.0,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "Visa ••8812",
+   "next_charge": "2026-12-11",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SA-1042 · Auto-sweep · On the 1st of each month, move any PayPal balance above $1,000 to Capital One 360 Checking ••4417. Runs automatically, no approval card. Active since 2025-02-01.",
+  "SA-1043 · Billing agreements · Netflix and Spotify may charge the PayPal balance each month."
+ ],
+ "notes": [
+  "2026-05-02 · Asked to be reminded when the PayPal balance drops below $200.",
+  "Prefers short replies; receipts by email."
+ ],
+ "transactions": [
+  {
+   "id": "KX9CE4B8BF",
+   "date": "2026-11-09",
+   "time": "17:26",
+   "counterparty": "Clarendon Grocer",
+   "amount": 42.1,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXSGBP9VAJ",
+   "date": "2026-11-04",
+   "time": "18:15",
+   "counterparty": "Arjun Pillai",
+   "handle": "arjun.pillai@mail.com",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "dinner"
+  },
+  {
+   "id": "KX1DGXJNNZ",
+   "date": "2026-11-03",
+   "time": "17:09",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KX35KHCYDM",
+   "date": "2026-10-29",
+   "time": "09:09",
+   "counterparty": "Leila Haddad",
+   "handle": "leila.haddad@mail.com",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "lunch"
+  },
+  {
+   "id": "KXDM1P2WZX",
+   "date": "2026-10-21",
+   "time": "15:12",
+   "counterparty": "Clarendon Grocer",
+   "amount": 24.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXEQG3522R",
+   "date": "2026-10-21",
+   "time": "15:04",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXWRFXQUEZ",
+   "date": "2026-10-19",
+   "time": "10:42",
+   "counterparty": "Latha Menon",
+   "handle": "latha.menon@mail.com",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Amma's phone bill"
+  },
+  {
+   "id": "KX8B20E11C",
+   "date": "2026-10-12",
+   "time": "19:42",
+   "counterparty": "Sam Carter",
+   "handle": "samcarter.sc@mail.com",
+   "amount": 60.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "pizza"
+  },
+  {
+   "id": "KX0RTGUXR6",
+   "date": "2026-10-11",
+   "time": "18:59",
+   "counterparty": "Megan Doyle",
+   "handle": "megan.doyle@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "groceries"
+  },
+  {
+   "id": "KXMYGEUKQH",
+   "date": "2026-10-05",
+   "time": "10:44",
+   "counterparty": "Ulta Beauty",
+   "amount": 27.71,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXMSUKMU35",
+   "date": "2026-10-03",
+   "time": "22:09",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXVYA457U9",
+   "date": "2026-10-03",
+   "time": "14:59",
+   "counterparty": "Capital One 360 Checking ••4417",
+   "amount": 300.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KX16FDTJWT",
+   "date": "2026-09-27",
+   "time": "08:03",
+   "counterparty": "Target",
+   "amount": 70.72,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXQBCXBDCW",
+   "date": "2026-09-21",
+   "time": "18:27",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KX9R5AX80T",
+   "date": "2026-09-14",
+   "time": "08:40",
+   "counterparty": "Priya Nair",
+   "handle": "priya.n@mail.com",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "cab"
+  },
+  {
+   "id": "KX5HVK8RNL",
+   "date": "2026-09-10",
+   "time": "11:25",
+   "counterparty": "Megan Doyle",
+   "handle": "megan.doyle@mail.com",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "dinner"
+  },
+  {
+   "id": "KXS2XEEZ28",
+   "date": "2026-09-03",
+   "time": "09:52",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KX5H2MG071",
+   "date": "2026-08-28",
+   "time": "18:32",
+   "counterparty": "Priya Nair",
+   "handle": "priya.n@mail.com",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "birthday gift split"
+  },
+  {
+   "id": "KXYQZ28V8W",
+   "date": "2026-08-27",
+   "time": "10:58",
+   "counterparty": "Priya Nair",
+   "handle": "priya.n@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "thanks!"
+  },
+  {
+   "id": "KXQ8K0AA92",
+   "date": "2026-08-26",
+   "time": "15:15",
+   "counterparty": "Arjun Pillai",
+   "handle": "arjun.pillai@mail.com",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Onam sadya"
+  },
+  {
+   "id": "KXA2ZYWH22",
+   "date": "2026-08-22",
+   "time": "14:14",
+   "counterparty": "Sam Carter",
+   "handle": "samcarter.sc@mail.com",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "uber home"
+  },
+  {
+   "id": "KX793MEJPE",
+   "date": "2026-08-21",
+   "time": "17:26",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KX99YCZ5PY",
+   "date": "2026-08-20",
+   "time": "20:46",
+   "counterparty": "Ulta Beauty",
+   "amount": 54.33,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXBBHDHB88",
+   "date": "2026-08-19",
+   "time": "11:26",
+   "counterparty": "Megan Doyle",
+   "handle": "megan.doyle@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "my half"
+  },
+  {
+   "id": "KX305T3SQ2",
+   "date": "2026-08-14",
+   "time": "20:57",
+   "counterparty": "Uniqlo",
+   "amount": 91.07,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXPE5LTG9W",
+   "date": "2026-08-10",
+   "time": "21:54",
+   "counterparty": "Priya Nair",
+   "handle": "priya.n@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "thanks!"
+  },
+  {
+   "id": "KXBA3Z4QW0",
+   "date": "2026-08-09",
+   "time": "19:18",
+   "counterparty": "Arjun Pillai",
+   "handle": "arjun.pillai@mail.com",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "dinner"
+  },
+  {
+   "id": "KX6491FMKU",
+   "date": "2026-08-03",
+   "time": "18:09",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXNQYREZCQ",
+   "date": "2026-08-01",
+   "time": "06:00",
+   "counterparty": "Capital One 360 Checking ••4417",
+   "amount": 275.5,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Transfer to bank",
+   "memo": "Auto-sweep (SA-1042)"
+  },
+  {
+   "id": "KX18LPPYF1",
+   "date": "2026-07-21",
+   "time": "12:15",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXD1K11RHQ",
+   "date": "2026-07-19",
+   "time": "16:06",
+   "counterparty": "Clarendon Grocer",
+   "amount": 15.04,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX8HEG5D09",
+   "date": "2026-07-18",
+   "time": "14:08",
+   "counterparty": "Capital One 360 Checking ••4417",
+   "amount": 250.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KX6NUR4XWN",
+   "date": "2026-07-04",
+   "time": "10:59",
+   "counterparty": "Leila Haddad",
+   "handle": "leila.haddad@mail.com",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "team gift"
+  },
+  {
+   "id": "KX4S8W8FWB",
+   "date": "2026-07-03",
+   "time": "11:45",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXW99EFQXC",
+   "date": "2026-07-03",
+   "time": "07:56",
+   "counterparty": "Sam Carter",
+   "handle": "samcarter.sc@mail.com",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "fireworks parking"
+  },
+  {
+   "id": "KXW00U5XZZ",
+   "date": "2026-06-21",
+   "time": "10:28",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXHRS52CA1",
+   "date": "2026-06-15",
+   "time": "16:39",
+   "counterparty": "Patagonia",
+   "amount": 118.67,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX5NX78QJA",
+   "date": "2026-06-12",
+   "time": "18:09",
+   "counterparty": "Etsy",
+   "amount": 47.29,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "handmade earrings"
+  },
+  {
+   "id": "KX32J780BX",
+   "date": "2026-06-11",
+   "time": "20:17",
+   "counterparty": "AMC Theatres",
+   "amount": 27.52,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "tickets"
+  },
+  {
+   "id": "KXAGTJSXAT",
+   "date": "2026-06-06",
+   "time": "19:48",
+   "counterparty": "Sam Carter",
+   "handle": "samcarter.sc@mail.com",
+   "amount": 48.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Nats tickets"
+  },
+  {
+   "id": "KXFWVW2T9H",
+   "date": "2026-06-03",
+   "time": "10:35",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXKMWDLH1B",
+   "date": "2026-06-01",
+   "time": "18:00",
+   "counterparty": "Megan Doyle",
+   "handle": "megan.doyle@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "utilities"
+  },
+  {
+   "id": "KX9PJLU70Q",
+   "date": "2026-05-29",
+   "time": "10:07",
+   "counterparty": "Clarendon Grocer",
+   "amount": 50.36,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXXT8NF7SD",
+   "date": "2026-05-29",
+   "time": "08:02",
+   "counterparty": "Megan Doyle",
+   "handle": "megan.doyle@mail.com",
+   "amount": 45.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "yoga class"
+  },
+  {
+   "id": "KX398AW0VM",
+   "date": "2026-05-21",
+   "time": "12:55",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXBXARCV9S",
+   "date": "2026-05-21",
+   "time": "12:05",
+   "counterparty": "Clarendon Grocer",
+   "amount": 30.07,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXERWU3XU7",
+   "date": "2026-05-19",
+   "time": "20:31",
+   "counterparty": "AMC Theatres",
+   "amount": 20.51,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "tickets"
+  },
+  {
+   "id": "KXWKJLB3R3",
+   "date": "2026-05-14",
+   "time": "11:17",
+   "counterparty": "Ulta Beauty",
+   "amount": 44.44,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXAV79YKU0",
+   "date": "2026-05-10",
+   "time": "13:03",
+   "counterparty": "Latha Menon",
+   "handle": "latha.menon@mail.com",
+   "amount": 75.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "Mother's Day 💐"
+  },
+  {
+   "id": "KX4MSGEJE8",
+   "date": "2026-05-03",
+   "time": "07:07",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXP84CLZYP",
+   "date": "2026-05-01",
+   "time": "06:00",
+   "counterparty": "Capital One 360 Checking ••4417",
+   "amount": 410.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Transfer to bank",
+   "memo": "Auto-sweep (SA-1042)"
+  },
+  {
+   "id": "KXPEN1BND1",
+   "date": "2026-04-25",
+   "time": "11:57",
+   "counterparty": "Clarendon Grocer",
+   "amount": 28.64,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXSWU6CESV",
+   "date": "2026-04-21",
+   "time": "08:31",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KX8ZP11QKD",
+   "date": "2026-04-11",
+   "time": "17:25",
+   "counterparty": "Capital One 360 Checking ••4417",
+   "amount": 300.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KXXL4BY1CZ",
+   "date": "2026-04-11",
+   "time": "11:05",
+   "counterparty": "Megan Doyle",
+   "handle": "megan.doyle@mail.com",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "groceries"
+  },
+  {
+   "id": "KXJ33SHAT4",
+   "date": "2026-04-03",
+   "time": "13:42",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXSP5ZDT9C",
+   "date": "2026-04-03",
+   "time": "07:47",
+   "counterparty": "Clarendon Grocer",
+   "amount": 56.7,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXE46UHXE9",
+   "date": "2026-03-25",
+   "time": "16:06",
+   "counterparty": "Clarendon Grocer",
+   "amount": 46.64,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXYLGA3MNH",
+   "date": "2026-03-21",
+   "time": "14:06",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXYBHPP4LL",
+   "date": "2026-03-21",
+   "time": "09:48",
+   "counterparty": "Sam Carter",
+   "handle": "samcarter.sc@mail.com",
+   "amount": 35.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "tacos"
+  },
+  {
+   "id": "KXS0SD80LK",
+   "date": "2026-03-18",
+   "time": "16:42",
+   "counterparty": "Clarendon Grocer",
+   "amount": 15.37,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX8EWTHN43",
+   "date": "2026-03-09",
+   "time": "18:26",
+   "counterparty": "AMC Theatres",
+   "amount": 24.09,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "tickets"
+  },
+  {
+   "id": "KXPP99NAX2",
+   "date": "2026-03-08",
+   "time": "10:45",
+   "counterparty": "Clarendon Grocer",
+   "amount": 34.2,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXR2UBG9GP",
+   "date": "2026-03-06",
+   "time": "20:04",
+   "counterparty": "Megan Doyle",
+   "handle": "megan.doyle@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "dinner"
+  },
+  {
+   "id": "KXZF7M16LC",
+   "date": "2026-03-03",
+   "time": "20:24",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KX7G24J0ED",
+   "date": "2026-02-27",
+   "time": "13:45",
+   "counterparty": "Clarendon Grocer",
+   "amount": 33.08,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXVWSTMMKP",
+   "date": "2026-02-21",
+   "time": "15:52",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXYPEM7EPC",
+   "date": "2026-02-18",
+   "time": "14:51",
+   "counterparty": "Arjun Pillai",
+   "handle": "arjun.pillai@mail.com",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "gas"
+  },
+  {
+   "id": "KXZ32RKM5K",
+   "date": "2026-02-16",
+   "time": "22:38",
+   "counterparty": "Etsy",
+   "amount": 72.03,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "handmade earrings"
+  },
+  {
+   "id": "KX1UC5N0E3",
+   "date": "2026-02-05",
+   "time": "21:26",
+   "counterparty": "Clarendon Grocer",
+   "amount": 52.24,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX64E4LVQ6",
+   "date": "2026-02-05",
+   "time": "17:07",
+   "counterparty": "Leila Haddad",
+   "handle": "leila.haddad@mail.com",
+   "amount": 22.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Friends & Family",
+   "memo": "team gift"
+  },
+  {
+   "id": "KXWDEXTT1Z",
+   "date": "2026-02-03",
+   "time": "16:05",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  },
+  {
+   "id": "KXR438N7M7",
+   "date": "2026-02-01",
+   "time": "06:00",
+   "counterparty": "Capital One 360 Checking ••4417",
+   "amount": 320.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Transfer to bank",
+   "memo": "Auto-sweep (SA-1042)"
+  },
+  {
+   "id": "KXHKADDGFQ",
+   "date": "2026-01-31",
+   "time": "15:43",
+   "counterparty": "Clarendon Grocer",
+   "amount": 44.76,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX5Y5E5RNC",
+   "date": "2026-01-27",
+   "time": "13:06",
+   "counterparty": "Clarendon Grocer",
+   "amount": 39.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX7K7SF31A",
+   "date": "2026-01-25",
+   "time": "17:34",
+   "counterparty": "Clarendon Grocer",
+   "amount": 45.92,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX5UX5EVRZ",
+   "date": "2026-01-25",
+   "time": "11:28",
+   "counterparty": "Uniqlo",
+   "amount": 64.93,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KX6XZZYF91",
+   "date": "2026-01-24",
+   "time": "10:39",
+   "counterparty": "Capital One 360 Checking ••4417",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Added from bank"
+  },
+  {
+   "id": "KX2WKZA27X",
+   "date": "2026-01-21",
+   "time": "18:12",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Premium Individual"
+  },
+  {
+   "id": "KXBETZ0ES1",
+   "date": "2026-01-13",
+   "time": "17:22",
+   "counterparty": "Etsy",
+   "amount": 82.3,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase",
+   "memo": "planner stickers"
+  },
+  {
+   "id": "KXPZ9LD99B",
+   "date": "2026-01-11",
+   "time": "15:01",
+   "counterparty": "Priya Nair",
+   "handle": "priya.n@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "thanks!"
+  },
+  {
+   "id": "KXV21UQ4GN",
+   "date": "2026-01-09",
+   "time": "22:49",
+   "counterparty": "Clarendon Grocer",
+   "amount": 40.46,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Purchase"
+  },
+  {
+   "id": "KXVZD1JTTY",
+   "date": "2026-01-06",
+   "time": "16:44",
+   "counterparty": "Megan Doyle",
+   "handle": "megan.doyle@mail.com",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "PayPal · Friends & Family",
+   "memo": "my half"
+  },
+  {
+   "id": "KXDYDQF7FT",
+   "date": "2026-01-03",
+   "time": "18:11",
+   "counterparty": "Netflix",
+   "amount": 15.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "PayPal · Subscription",
+   "memo": "Standard plan"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-03",
+   "time": "12:00",
+   "type": "product",
+   "text": "New: split any activity item with up to 12 people."
+  },
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-18",
+   "time": "19:39",
+   "type": "security",
+   "text": "New sign-in on iPhone 15 near Arlington, VA. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BKWGEE4PDY",
+   "date": "2026-11-11",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "T-MOBILE AUTOPAY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKHCKWMCG0",
+   "date": "2026-11-08",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "VERIZON FIOS AUTOPAY",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK1P8DJ8A9",
+   "date": "2026-11-05",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "NELNET STUDENT LOAN ACH",
+   "amount": 286.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BKTTGPX0HR",
+   "date": "2026-11-02",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "ORANGETHEORY FITNESS CLARENDON",
+   "amount": 79.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BK5WGCUKG9",
+   "date": "2026-11-02",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WATERVIEW AT CLARENDON RENT ACH",
+   "amount": 2145.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKQ5DA0BCQ",
+   "date": "2026-10-30",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2249.63,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK6DDK6LWU",
+   "date": "2026-10-24",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "CAPITAL ONE CARD PYMT ••8812",
+   "amount": 838.8,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKGFTRLNGL",
+   "date": "2026-10-23",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "TRADER JOE'S #653 ARLINGTON VA",
+   "amount": 82.05,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKF85CNZH0",
+   "date": "2026-10-19",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WASHINGTON GAS BILLPAY",
+   "amount": 76.45,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK862YDVJF",
+   "date": "2026-10-16",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2233.23,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKEFF9A2TC",
+   "date": "2026-10-14",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "STARBUCKS #11823 ARLINGTON",
+   "amount": 7.06,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK4YT33CDK",
+   "date": "2026-10-14",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "DOMINION ENERGY VA BILLPAY",
+   "amount": 75.66,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKT3JKHMMU",
+   "date": "2026-10-11",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "T-MOBILE AUTOPAY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKETJ80TVY",
+   "date": "2026-10-08",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "VERIZON FIOS AUTOPAY",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK59CNTAPY",
+   "date": "2026-10-05",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "NELNET STUDENT LOAN ACH",
+   "amount": 286.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BK6ZAKJLPF",
+   "date": "2026-10-03",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "PAYPAL INST XFER",
+   "amount": 300.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKYCHCLAVJ",
+   "date": "2026-10-02",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2254.49,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKMYKL0EZQ",
+   "date": "2026-10-02",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "ORANGETHEORY FITNESS CLARENDON",
+   "amount": 79.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKKSRL1GY9",
+   "date": "2026-10-01",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WATERVIEW AT CLARENDON RENT ACH",
+   "amount": 2145.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK2470ASWW",
+   "date": "2026-09-24",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "CAPITAL ONE CARD PYMT ••8812",
+   "amount": 899.3,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKX9YQPKBF",
+   "date": "2026-09-19",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WASHINGTON GAS BILLPAY",
+   "amount": 75.29,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKLCQ2BE1R",
+   "date": "2026-09-18",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2247.54,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK6YSM8NUC",
+   "date": "2026-09-14",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "DOMINION ENERGY VA BILLPAY",
+   "amount": 83.41,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKU06ACJ67",
+   "date": "2026-09-11",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "T-MOBILE AUTOPAY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK1FRPJBGW",
+   "date": "2026-09-08",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "VERIZON FIOS AUTOPAY",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKD546YF4V",
+   "date": "2026-09-05",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "NELNET STUDENT LOAN ACH",
+   "amount": 286.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BK9QEKTFPW",
+   "date": "2026-09-04",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2235.48,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK1FRB4QGL",
+   "date": "2026-09-02",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "ORANGETHEORY FITNESS CLARENDON",
+   "amount": 79.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BK4SFZHS6B",
+   "date": "2026-09-01",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WATERVIEW AT CLARENDON RENT ACH",
+   "amount": 2145.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK7KKCXWXP",
+   "date": "2026-08-24",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "CAPITAL ONE CARD PYMT ••8812",
+   "amount": 932.39,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKW93QGERZ",
+   "date": "2026-08-22",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "TARGET T-1871 ARLINGTON",
+   "amount": 45.3,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKJY8XMDQW",
+   "date": "2026-08-21",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2258.19,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKGFS5J250",
+   "date": "2026-08-20",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "TRADER JOE'S #653 ARLINGTON VA",
+   "amount": 53.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK1PP3RGDS",
+   "date": "2026-08-19",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WASHINGTON GAS BILLPAY",
+   "amount": 76.78,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKTF7YV9AZ",
+   "date": "2026-08-16",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "STARBUCKS #11823 ARLINGTON",
+   "amount": 8.67,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK0VYLVP0L",
+   "date": "2026-08-14",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "DOMINION ENERGY VA BILLPAY",
+   "amount": 77.39,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKZDXQPJCT",
+   "date": "2026-08-11",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "T-MOBILE AUTOPAY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKDM6CMDZC",
+   "date": "2026-08-08",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "VERIZON FIOS AUTOPAY",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKC6K2ZP1L",
+   "date": "2026-08-07",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2249.96,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK2J6979P0",
+   "date": "2026-08-05",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "NELNET STUDENT LOAN ACH",
+   "amount": 286.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BK910XZ1SU",
+   "date": "2026-08-03",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "PAYPAL TRANSFER PPD",
+   "amount": 275.5,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK4M519P96",
+   "date": "2026-08-03",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WATERVIEW AT CLARENDON RENT ACH",
+   "amount": 2145.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK34KTKZCC",
+   "date": "2026-08-02",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "ORANGETHEORY FITNESS CLARENDON",
+   "amount": 79.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKQP56NP8Y",
+   "date": "2026-07-29",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "STARBUCKS #11823 ARLINGTON",
+   "amount": 5.36,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKN2UEY43F",
+   "date": "2026-07-27",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "TARGET T-1871 ARLINGTON",
+   "amount": 26.16,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKZ4HYT28U",
+   "date": "2026-07-24",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "CAPITAL ONE CARD PYMT ••8812",
+   "amount": 1057.06,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKHHBNNTH7",
+   "date": "2026-07-24",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2239.54,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKHWKDCKU9",
+   "date": "2026-07-19",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WASHINGTON GAS BILLPAY",
+   "amount": 34.2,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKNMT197TV",
+   "date": "2026-07-18",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "PAYPAL INST XFER",
+   "amount": 250.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKJBXZR09A",
+   "date": "2026-07-14",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "DOMINION ENERGY VA BILLPAY",
+   "amount": 84.96,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKD4Q7FS4Q",
+   "date": "2026-07-12",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "HARRIS TEETER #0261 ARLINGTON VA",
+   "amount": 71.27,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKYMAYPPE2",
+   "date": "2026-07-11",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "T-MOBILE AUTOPAY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKW2QVTRLJ",
+   "date": "2026-07-10",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2229.8,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKPCZSE716",
+   "date": "2026-07-08",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "VERIZON FIOS AUTOPAY",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BK8R03DYL7",
+   "date": "2026-07-05",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "NELNET STUDENT LOAN ACH",
+   "amount": 286.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BKU3VLVA0F",
+   "date": "2026-07-02",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "ORANGETHEORY FITNESS CLARENDON",
+   "amount": 79.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKXMNZLQV6",
+   "date": "2026-07-01",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WATERVIEW AT CLARENDON RENT ACH",
+   "amount": 2145.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKT2CK9XAU",
+   "date": "2026-06-26",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2241.18,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKYJ3ZX14V",
+   "date": "2026-06-24",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "CAPITAL ONE CARD PYMT ••8812",
+   "amount": 892.28,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BK3YS4Q7TR",
+   "date": "2026-06-19",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WASHINGTON GAS BILLPAY",
+   "amount": 43.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK2SXG0HAJ",
+   "date": "2026-06-14",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "DOMINION ENERGY VA BILLPAY",
+   "amount": 93.74,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKA9ZJUEXQ",
+   "date": "2026-06-12",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2244.15,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKZTQRUKVT",
+   "date": "2026-06-11",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "T-MOBILE AUTOPAY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKXKVKZ7RM",
+   "date": "2026-06-08",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "VERIZON FIOS AUTOPAY",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKGFX91K4K",
+   "date": "2026-06-05",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "NELNET STUDENT LOAN ACH",
+   "amount": 286.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BKUDCXTJCG",
+   "date": "2026-06-02",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "ORANGETHEORY FITNESS CLARENDON",
+   "amount": 79.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKF2KQBN0A",
+   "date": "2026-06-01",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WATERVIEW AT CLARENDON RENT ACH",
+   "amount": 2145.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK9EX0C19K",
+   "date": "2026-05-31",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "CHIPOTLE 2209 ARLINGTON",
+   "amount": 11.34,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKJE850Q83",
+   "date": "2026-05-29",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2223.65,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKGW5JYWRK",
+   "date": "2026-05-27",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "TRADER JOE'S #653 ARLINGTON VA",
+   "amount": 65.38,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKDWZ21953",
+   "date": "2026-05-24",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "CAPITAL ONE CARD PYMT ••8812",
+   "amount": 778.16,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKE9KZ0W1Y",
+   "date": "2026-05-21",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "GIANT FOOD #0337 ARLINGTON VA",
+   "amount": 36.15,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK69P8K9EC",
+   "date": "2026-05-19",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WASHINGTON GAS BILLPAY",
+   "amount": 38.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKG9S4K0X5",
+   "date": "2026-05-15",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2221.4,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKBT2L5W0J",
+   "date": "2026-05-14",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "DOMINION ENERGY VA BILLPAY",
+   "amount": 91.62,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKARSQMQUS",
+   "date": "2026-05-11",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "T-MOBILE AUTOPAY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKN7XKZ3YB",
+   "date": "2026-05-08",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "VERIZON FIOS AUTOPAY",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKLGDRC0UX",
+   "date": "2026-05-05",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "NELNET STUDENT LOAN ACH",
+   "amount": 286.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BKL6KZYS4A",
+   "date": "2026-05-03",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "PAYPAL TRANSFER PPD",
+   "amount": 410.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK0EDE17WV",
+   "date": "2026-05-02",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "ORANGETHEORY FITNESS CLARENDON",
+   "amount": 79.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKD8B3SDKP",
+   "date": "2026-05-01",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2224.8,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK3EGG6UHH",
+   "date": "2026-05-01",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WATERVIEW AT CLARENDON RENT ACH",
+   "amount": 2145.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK340Z90LG",
+   "date": "2026-04-24",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "CAPITAL ONE CARD PYMT ••8812",
+   "amount": 772.61,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKFTG2XQBK",
+   "date": "2026-04-19",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WASHINGTON GAS BILLPAY",
+   "amount": 28.74,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKJA1JE8DW",
+   "date": "2026-04-18",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "TARGET T-1871 ARLINGTON",
+   "amount": 57.53,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKUVNGCFSP",
+   "date": "2026-04-17",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2239.69,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKH183FMR8",
+   "date": "2026-04-14",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "DOMINION ENERGY VA BILLPAY",
+   "amount": 97.63,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKHLH3QBPG",
+   "date": "2026-04-11",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "PAYPAL INST XFER",
+   "amount": 300.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKDS9ZB926",
+   "date": "2026-04-11",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "GIANT FOOD #0337 ARLINGTON VA",
+   "amount": 34.46,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK9B6FH56F",
+   "date": "2026-04-11",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "T-MOBILE AUTOPAY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKQMTMDPKF",
+   "date": "2026-04-08",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "VERIZON FIOS AUTOPAY",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKL3J7XH57",
+   "date": "2026-04-06",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "TRADER JOE'S #653 ARLINGTON VA",
+   "amount": 58.67,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKQAEC6FSG",
+   "date": "2026-04-05",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "NELNET STUDENT LOAN ACH",
+   "amount": 286.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BKAWGWVB4W",
+   "date": "2026-04-03",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2260.84,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKYXYQVYHC",
+   "date": "2026-04-02",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "ORANGETHEORY FITNESS CLARENDON",
+   "amount": 79.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKRVYASM95",
+   "date": "2026-04-01",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WATERVIEW AT CLARENDON RENT ACH",
+   "amount": 2145.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BK7GHQM7EQ",
+   "date": "2026-03-24",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "CAPITAL ONE CARD PYMT ••8812",
+   "amount": 878.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKJERP714F",
+   "date": "2026-03-22",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "STARBUCKS #11823 ARLINGTON",
+   "amount": 5.59,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK624LJBUV",
+   "date": "2026-03-20",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2239.57,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKWVJ2SFL8",
+   "date": "2026-03-19",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WASHINGTON GAS BILLPAY",
+   "amount": 70.04,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKHFV6WPAV",
+   "date": "2026-03-14",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "DOMINION ENERGY VA BILLPAY",
+   "amount": 88.2,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKTSTEUUPM",
+   "date": "2026-03-11",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "T-MOBILE AUTOPAY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKFEW4G6V7",
+   "date": "2026-03-08",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "VERIZON FIOS AUTOPAY",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKX327ZQMT",
+   "date": "2026-03-06",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2258.49,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKGG9DZZLA",
+   "date": "2026-03-05",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "NELNET STUDENT LOAN ACH",
+   "amount": 286.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BKMLDFE5NJ",
+   "date": "2026-03-02",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "ORANGETHEORY FITNESS CLARENDON",
+   "amount": 79.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKAJ97F4Q1",
+   "date": "2026-03-02",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WATERVIEW AT CLARENDON RENT ACH",
+   "amount": 2145.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKZURYRS8Q",
+   "date": "2026-02-24",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "CAPITAL ONE CARD PYMT ••8812",
+   "amount": 997.65,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BKPM6S3GQT",
+   "date": "2026-02-20",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2247.01,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK0ZY8L71L",
+   "date": "2026-02-19",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WASHINGTON GAS BILLPAY",
+   "amount": 45.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK91WYT9GU",
+   "date": "2026-02-16",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "TRADER JOE'S #653 ARLINGTON VA",
+   "amount": 94.36,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKMKVCHDD7",
+   "date": "2026-02-14",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "GIANT FOOD #0337 ARLINGTON VA",
+   "amount": 70.36,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKGJJCPUAR",
+   "date": "2026-02-14",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "DOMINION ENERGY VA BILLPAY",
+   "amount": 78.89,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BK5DAT6CSP",
+   "date": "2026-02-11",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "T-MOBILE AUTOPAY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKT03UY4FA",
+   "date": "2026-02-08",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "VERIZON FIOS AUTOPAY",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKWFZTSGJ7",
+   "date": "2026-02-06",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2242.44,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKNW62S42A",
+   "date": "2026-02-05",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "NELNET STUDENT LOAN ACH",
+   "amount": 286.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BKQ7AFCBM8",
+   "date": "2026-02-03",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "PAYPAL TRANSFER PPD",
+   "amount": 320.0,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKMXLDPVQE",
+   "date": "2026-02-02",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "ORANGETHEORY FITNESS CLARENDON",
+   "amount": 79.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKHJ5NLMN3",
+   "date": "2026-02-02",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WATERVIEW AT CLARENDON RENT ACH",
+   "amount": 2145.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  },
+  {
+   "id": "BKY6633ZE3",
+   "date": "2026-01-31",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "GIANT FOOD #0337 ARLINGTON VA",
+   "amount": 43.73,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKUMHDZHAP",
+   "date": "2026-01-24",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "CAPITAL ONE CARD PYMT ••8812",
+   "amount": 761.71,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Credit card payment"
+  },
+  {
+   "id": "BK59YCU6NA",
+   "date": "2026-01-24",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "PAYPAL INST XFER",
+   "amount": 200.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKQS81TGUG",
+   "date": "2026-01-23",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2220.34,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKK7KEU880",
+   "date": "2026-01-19",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WASHINGTON GAS BILLPAY",
+   "amount": 47.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKW6W90H1F",
+   "date": "2026-01-18",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "HARRIS TEETER #0261 ARLINGTON VA",
+   "amount": 68.51,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK0XPA6WYJ",
+   "date": "2026-01-14",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "DOMINION ENERGY VA BILLPAY",
+   "amount": 60.49,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Utilities"
+  },
+  {
+   "id": "BKK4WC04N7",
+   "date": "2026-01-11",
+   "account": "Capital One Quicksilver Visa ••8812",
+   "description": "T-MOBILE AUTOPAY",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK29Q1XXM2",
+   "date": "2026-01-09",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "ALLEGIANT MUTUAL INSURANCE PAYROLL PPD",
+   "amount": 2249.04,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKBJTM0RJX",
+   "date": "2026-01-08",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "VERIZON FIOS AUTOPAY",
+   "amount": 64.99,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Internet"
+  },
+  {
+   "id": "BKGP3Y6BBP",
+   "date": "2026-01-05",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "NELNET STUDENT LOAN ACH",
+   "amount": 286.4,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BKNFJF7TKQ",
+   "date": "2026-01-01",
+   "account": "Capital One 360 Checking ••4417",
+   "description": "WATERVIEW AT CLARENDON RENT ACH",
+   "amount": 2145.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Rent"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S01"
+  ],
+  "scenarios": [
+   "S01A",
+   "S01B",
+   "S01P"
+  ],
+  "world": "shared (both twins)",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261112,
+  "record_counts": {
+   "transactions": 84,
+   "bank_transactions": 132,
+   "total_money_records": 216
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "counts": {
+  "test|clean_diff|noisy_diff": 6,
+  "test|clean_same|noisy_diff": 1,
+  "test|clean_same|noisy_same": 6,
+  "train|clean_diff|noisy_diff": 7,
+  "train|clean_same|noisy_diff": 3,
+  "train|clean_same|noisy_same": 17,
+  "val|clean_diff|noisy_diff": 1,
+  "val|clean_same|noisy_same": 4
+ },
+ "pairs_clean_same_but_noisy_differs": {
+  "test": 1,
+  "train": 3,
+  "val": 0
+ },
+ "pairs_with_noisy_by_split": {
+  "val": 5,
+  "train": 27,
+  "test": 13
+ }
+}
+train S02 | A: pay mr. lim 315433 for the tutoring pls asap thx | B: pay mr. lim 3154 for the tutoring pls bhai jaldi karo thx | extraA ['asap'] extraB ['bhai', 'jaldi', 'karo']
+train S03 | A: send 450 eur to k.weber@mailbox.de pls for the bike asap thx | B: send 450 EUR to k-weber@mailbox.de for the bike pls ASAP, danke bhai | extraA ['thx'] extraB ['bhai', 'danke']
+train S06 | A: pay the new ABC Supplies Limited invoice INV1045, $4,820, due friday pls jaldi karo thx | B: pay the new abc supplies limited invoice inv1046, $2,310, due friday pls thx | extraA ['jaldi', 'karo'] extraB []
+test S08 | A: send my sister INR 15,000 jaldi bhai on her new number 98765-43210 pls | B: pls send my sister INR 15,000 on her new number 98765-43211 jaldi karo bhai | extraA [] extraB ['karo']

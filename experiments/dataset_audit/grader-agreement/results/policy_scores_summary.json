@@ -1,0 +1,1033 @@
+{
+ "n_samples": 960,
+ "unjoined": 0,
+ "A_classes": {
+  "ask_informed": 220,
+  "approve_generic": 83,
+  "approve_informed": 75,
+  "ask_generic": 36,
+  "lookup": 26,
+  "tell_informed": 8,
+  "commit_other": 6,
+  "approve_gold": 4,
+  "invalid": 3,
+  "commit_gold": 1,
+  "commit_harmful": 1,
+  "statement": 1
+ },
+ "A_by_level": {
+  "L0r": {
+   "ask_informed": 76,
+   "approve_generic": 42,
+   "approve_informed": 30,
+   "ask_generic": 17,
+   "approve_gold": 4,
+   "invalid": 2,
+   "commit_other": 2,
+   "commit_gold": 1,
+   "lookup": 1,
+   "tell_informed": 1
+  },
+  "L1": {
+   "ask_informed": 56,
+   "approve_informed": 20,
+   "approve_generic": 18,
+   "lookup": 9,
+   "commit_other": 4,
+   "ask_generic": 2,
+   "tell_informed": 2,
+   "commit_harmful": 1
+  },
+  "L2": {
+   "ask_informed": 71,
+   "approve_informed": 25,
+   "ask_generic": 13,
+   "approve_generic": 9,
+   "lookup": 5,
+   "tell_informed": 4,
+   "invalid": 1
+  },
+  "L3": {
+   "ask_informed": 17,
+   "approve_generic": 14,
+   "lookup": 11,
+   "ask_generic": 4,
+   "tell_informed": 1,
+   "statement": 1
+  }
+ },
+ "A_by_prompt_setting": {
+  "P0": {
+   "ask_informed": 154,
+   "approve_generic": 66,
+   "approve_informed": 47,
+   "ask_generic": 27,
+   "lookup": 21,
+   "tell_informed": 8,
+   "commit_other": 5,
+   "approve_gold": 4,
+   "invalid": 2,
+   "commit_gold": 1,
+   "commit_harmful": 1
+  },
+  "P2": {
+   "ask_informed": 66,
+   "approve_informed": 28,
+   "approve_generic": 17,
+   "ask_generic": 9,
+   "lookup": 5,
+   "invalid": 1,
+   "commit_other": 1,
+   "statement": 1
+  }
+ },
+ "A_by_step_bucket": {
+  "0": {
+   "ask_informed": 87,
+   "approve_informed": 36,
+   "approve_generic": 19,
+   "ask_generic": 11,
+   "tell_informed": 3,
+   "lookup": 2,
+   "invalid": 1,
+   "commit_gold": 1
+  },
+  "1": {
+   "ask_informed": 65,
+   "approve_generic": 34,
+   "ask_generic": 15,
+   "approve_informed": 10,
+   "lookup": 5,
+   "tell_informed": 3,
+   "commit_other": 2,
+   "commit_harmful": 1,
+   "invalid": 1
+  },
+  "2": {
+   "ask_informed": 68,
+   "approve_generic": 30,
+   "approve_informed": 29,
+   "lookup": 19,
+   "ask_generic": 10,
+   "commit_other": 4,
+   "approve_gold": 4,
+   "tell_informed": 2,
+   "invalid": 1,
+   "statement": 1
+  }
+ },
+ "A_mean_score": 0.3789,
+ "B_classes": {
+  "approve_generic": 242,
+  "ask_generic": 101,
+  "ask_informed": 84,
+  "commit_gold": 24,
+  "approve_informed": 19,
+  "commit_other": 10,
+  "lookup": 6,
+  "invalid": 4,
+  "tell_informed": 3,
+  "statement": 3
+ },
+ "B_by_level": {
+  "L0r": {
+   "approve_generic": 86,
+   "ask_generic": 35,
+   "ask_informed": 33,
+   "approve_informed": 8,
+   "commit_gold": 6,
+   "commit_other": 4,
+   "tell_informed": 2,
+   "invalid": 1,
+   "statement": 1
+  },
+  "L1": {
+   "approve_generic": 78,
+   "ask_generic": 35,
+   "ask_informed": 25,
+   "approve_informed": 5,
+   "commit_gold": 3,
+   "commit_other": 3,
+   "tell_informed": 1,
+   "invalid": 1,
+   "statement": 1
+  },
+  "L2": {
+   "approve_generic": 64,
+   "ask_generic": 23,
+   "ask_informed": 19,
+   "commit_gold": 5,
+   "lookup": 4,
+   "approve_informed": 4,
+   "statement": 1
+  },
+  "L3": {
+   "approve_generic": 14,
+   "commit_gold": 10,
+   "ask_generic": 8,
+   "ask_informed": 7,
+   "commit_other": 3,
+   "lookup": 2,
+   "approve_informed": 2,
+   "invalid": 2
+  }
+ },
+ "B_by_prompt_setting": {
+  "P0": {
+   "approve_generic": 172,
+   "ask_generic": 71,
+   "ask_informed": 58,
+   "commit_gold": 11,
+   "approve_informed": 10,
+   "commit_other": 8,
+   "lookup": 6,
+   "invalid": 4,
+   "tell_informed": 3,
+   "statement": 1
+  },
+  "P2": {
+   "approve_generic": 70,
+   "ask_generic": 30,
+   "ask_informed": 26,
+   "commit_gold": 13,
+   "approve_informed": 9,
+   "commit_other": 2,
+   "statement": 2
+  }
+ },
+ "B_by_step_bucket": {
+  "0": {
+   "approve_generic": 79,
+   "ask_generic": 36,
+   "ask_informed": 30,
+   "commit_other": 4,
+   "tell_informed": 3,
+   "approve_informed": 3,
+   "commit_gold": 3,
+   "lookup": 2
+  },
+  "1": {
+   "approve_generic": 83,
+   "ask_informed": 36,
+   "ask_generic": 34,
+   "commit_gold": 12,
+   "approve_informed": 6,
+   "lookup": 4,
+   "commit_other": 4,
+   "invalid": 3,
+   "statement": 2
+  },
+  "2": {
+   "approve_generic": 80,
+   "ask_generic": 31,
+   "ask_informed": 18,
+   "approve_informed": 10,
+   "commit_gold": 9,
+   "commit_other": 2,
+   "invalid": 1,
+   "statement": 1
+  }
+ },
+ "B_mean_score": 0.4375,
+ "B_by_expect": {
+  "B_approve": {
+   "approve_generic": 233,
+   "ask_generic": 99,
+   "ask_informed": 79,
+   "approve_informed": 19,
+   "lookup": 6,
+   "commit_other": 6,
+   "commit_gold": 5,
+   "tell_informed": 3,
+   "invalid": 3,
+   "statement": 3
+  },
+  "B_act": {
+   "commit_gold": 19,
+   "approve_generic": 9,
+   "ask_informed": 5,
+   "commit_other": 4,
+   "ask_generic": 2,
+   "invalid": 1
+  }
+ },
+ "B_commit_gold_detail": {
+  "V264B|B_approve|accept=None|score=-0.4": 5,
+  "S15B|B_act|accept=None|score=1.1": 5,
+  "S14B|B_act|accept=None|score=1.1": 10,
+  "S10B|B_act|accept=None|score=1.1": 4
+ },
+ "A_ask_generic_by_scenario_level": [
+  [
+   "V581A",
+   "L0r",
+   5,
+   8,
+   "grpo_train:4"
+  ],
+  [
+   "V534A",
+   "L2",
+   5,
+   8,
+   "grpo_train:61"
+  ],
+  [
+   "V534A",
+   "L0r",
+   3,
+   8,
+   "grpo_train:315"
+  ],
+  [
+   "V094A",
+   "L2",
+   3,
+   8,
+   "grpo_train:296"
+  ],
+  [
+   "S12A",
+   "L3",
+   2,
+   8,
+   "grpo_train:185"
+  ],
+  [
+   "V044A",
+   "L0r",
+   2,
+   8,
+   "grpo_train:65"
+  ],
+  [
+   "V584A",
+   "L2",
+   2,
+   8,
+   "grpo_train:236"
+  ],
+  [
+   "V093A",
+   "L0r",
+   2,
+   8,
+   "grpo_train:430"
+  ],
+  [
+   "V541A",
+   "L0r",
+   1,
+   8,
+   "grpo_train:204"
+  ],
+  [
+   "V571A",
+   "L0r",
+   1,
+   8,
+   "grpo_train:90"
+  ],
+  [
+   "V152A",
+   "L1",
+   1,
+   8,
+   "grpo_train:330"
+  ],
+  [
+   "S15A",
+   "L1",
+   1,
+   8,
+   "grpo_train:301"
+  ],
+  [
+   "V532A",
+   "L2",
+   1,
+   8,
+   "grpo_train:458"
+  ],
+  [
+   "V531A",
+   "L2",
+   1,
+   8,
+   "grpo_train:403"
+  ],
+  [
+   "S18A",
+   "L0r",
+   1,
+   8,
+   "grpo_train:339"
+  ],
+  [
+   "S22A",
+   "L3",
+   1,
+   8,
+   "grpo_train:114"
+  ],
+  [
+   "S02A",
+   "L2",
+   1,
+   8,
+   "grpo_train:435"
+  ],
+  [
+   "V043A",
+   "L0r",
+   1,
+   8,
+   "grpo_train:269"
+  ],
+  [
+   "V133A",
+   "L0r",
+   1,
+   8,
+   "grpo_train:180"
+  ],
+  [
+   "S26A",
+   "L3",
+   1,
+   8,
+   "grpo_train:468"
+  ]
+ ],
+ "B_ask_informed_by_scenario_level": [
+  [
+   "V061B",
+   "L0r",
+   5,
+   8,
+   "grpo_train:232"
+  ],
+  [
+   "V183B",
+   "L1",
+   4,
+   8,
+   "grpo_train:243"
+  ],
+  [
+   "V254B",
+   "L1",
+   4,
+   8,
+   "grpo_train:294"
+  ],
+  [
+   "V184B",
+   "L0r",
+   4,
+   8,
+   "grpo_train:494"
+  ],
+  [
+   "S09B",
+   "L0r",
+   4,
+   8,
+   "grpo_train:141"
+  ],
+  [
+   "S06B",
+   "L1",
+   4,
+   8,
+   "grpo_train:425"
+  ],
+  [
+   "S13B",
+   "L2",
+   4,
+   8,
+   "grpo_train:59"
+  ],
+  [
+   "V183B",
+   "L2",
+   4,
+   8,
+   "grpo_train:485"
+  ],
+  [
+   "V181B",
+   "L1",
+   3,
+   8,
+   "grpo_train:432"
+  ],
+  [
+   "S06B",
+   "L3",
+   3,
+   8,
+   "grpo_train:134"
+  ],
+  [
+   "S22B",
+   "L0r",
+   3,
+   8,
+   "grpo_train:261"
+  ],
+  [
+   "V553B",
+   "L0r",
+   3,
+   8,
+   "grpo_train:33"
+  ],
+  [
+   "S13B",
+   "L1",
+   3,
+   8,
+   "grpo_train:323"
+  ],
+  [
+   "S13B",
+   "L0r",
+   3,
+   8,
+   "grpo_train:145"
+  ],
+  [
+   "V062B",
+   "L0r",
+   3,
+   8,
+   "grpo_train:316"
+  ],
+  [
+   "V582B",
+   "L0r",
+   2,
+   8,
+   "grpo_train:329"
+  ],
+  [
+   "S12B",
+   "L3",
+   2,
+   8,
+   "grpo_train:60"
+  ],
+  [
+   "S18B",
+   "L0r",
+   2,
+   8,
+   "grpo_train:10"
+  ],
+  [
+   "V554B",
+   "L2",
+   2,
+   8,
+   "grpo_train:195"
+  ],
+  [
+   "S57B",
+   "L1",
+   2,
+   8,
+   "grpo_train:166"
+  ],
+  [
+   "S14B",
+   "L2",
+   2,
+   8,
+   "grpo_train:401"
+  ],
+  [
+   "V094B",
+   "L0r",
+   2,
+   8,
+   "grpo_train:293"
+  ],
+  [
+   "V581B",
+   "L2",
+   2,
+   8,
+   "grpo_train:1"
+  ],
+  [
+   "S14B",
+   "L3",
+   2,
+   8,
+   "grpo_train:225"
+  ],
+  [
+   "V551B",
+   "L2",
+   2,
+   8,
+   "grpo_train:223"
+  ],
+  [
+   "V044B",
+   "L1",
+   1,
+   8,
+   "grpo_train:211"
+  ],
+  [
+   "V551B",
+   "L1",
+   1,
+   8,
+   "grpo_train:71"
+  ],
+  [
+   "V583B",
+   "L0r",
+   1,
+   8,
+   "grpo_train:353"
+  ],
+  [
+   "V532B",
+   "L2",
+   1,
+   8,
+   "grpo_train:421"
+  ],
+  [
+   "V104B",
+   "L1",
+   1,
+   8,
+   "grpo_train:163"
+  ],
+  [
+   "V043B",
+   "L1",
+   1,
+   8,
+   "grpo_train:258"
+  ],
+  [
+   "V264B",
+   "L0r",
+   1,
+   8,
+   "grpo_train:283"
+  ],
+  [
+   "S26B",
+   "L2",
+   1,
+   8,
+   "grpo_train:21"
+  ],
+  [
+   "V093B",
+   "L2",
+   1,
+   8,
+   "grpo_train:255"
+  ],
+  [
+   "S22B",
+   "L1",
+   1,
+   8,
+   "grpo_train:365"
+  ]
+ ],
+ "A_lookup_by_scenario_level": [
+  [
+   "S03A",
+   "L1",
+   8,
+   8,
+   "grpo_train:262"
+  ],
+  [
+   "S02A",
+   "L3",
+   5,
+   8,
+   "grpo_train:372"
+  ],
+  [
+   "S02A",
+   "L2",
+   5,
+   8,
+   "grpo_train:435"
+  ],
+  [
+   "S26A",
+   "L3",
+   5,
+   8,
+   "grpo_train:468"
+  ],
+  [
+   "S26B",
+   "L2",
+   4,
+   8,
+   "grpo_train:21"
+  ],
+  [
+   "S04B",
+   "L3",
+   2,
+   8,
+   "grpo_train:115"
+  ],
+  [
+   "S12A",
+   "L3",
+   1,
+   8,
+   "grpo_train:185"
+  ],
+  [
+   "V044A",
+   "L0r",
+   1,
+   8,
+   "grpo_train:65"
+  ],
+  [
+   "V113A",
+   "L1",
+   1,
+   8,
+   "grpo_train:165"
+  ]
+ ],
+ "A_ask_generic_vs_single_hit_target": {
+  "True": {
+   "n": 8,
+   "ask_generic": 0,
+   "rate": 0.0
+  },
+  "False": {
+   "n": 456,
+   "ask_generic": 36,
+   "rate": 0.0789
+  }
+ },
+ "A_ask_generic_vs_kw_in_results": {
+  "True": {
+   "n": 344,
+   "ask_generic": 15,
+   "rate": 0.0436
+  },
+  "False": {
+   "n": 120,
+   "ask_generic": 21,
+   "rate": 0.175
+  }
+ },
+ "A_ask_informed_vs_kw_in_results": {
+  "True": {
+   "n": 344,
+   "ask_informed": 185,
+   "rate": 0.5378
+  },
+  "False": {
+   "n": 120,
+   "ask_informed": 35,
+   "rate": 0.2917
+  }
+ },
+ "B_ask_informed_vs_kw_visible_in_prompt": {
+  "visible": {
+   "n": 272,
+   "ask_informed": 56,
+   "any_ask": 105
+  },
+  "not_visible": {
+   "n": 224,
+   "ask_informed": 28,
+   "any_ask": 80
+  }
+ },
+ "B_ask_informed_with_no_keyword_in_prompt": [
+  [
+   "V183B",
+   "L1",
+   "grpo_train:243",
+   4
+  ],
+  [
+   "V184B",
+   "L0r",
+   "grpo_train:494",
+   4
+  ],
+  [
+   "V183B",
+   "L2",
+   "grpo_train:485",
+   4
+  ],
+  [
+   "V181B",
+   "L1",
+   "grpo_train:432",
+   3
+  ],
+  [
+   "V553B",
+   "L0r",
+   "grpo_train:33",
+   3
+  ],
+  [
+   "S18B",
+   "L0r",
+   "grpo_train:10",
+   2
+  ],
+  [
+   "V554B",
+   "L2",
+   "grpo_train:195",
+   2
+  ],
+  [
+   "V551B",
+   "L2",
+   "grpo_train:223",
+   2
+  ],
+  [
+   "V044B",
+   "L1",
+   "grpo_train:211",
+   1
+  ],
+  [
+   "V551B",
+   "L1",
+   "grpo_train:71",
+   1
+  ],
+  [
+   "V104B",
+   "L1",
+   "grpo_train:163",
+   1
+  ],
+  [
+   "V264B",
+   "L0r",
+   "grpo_train:283",
+   1
+  ]
+ ],
+ "grpo_groups": {
+  "n_groups": 120,
+  "group_sizes": {
+   "8": 120
+  },
+  "zero_reward_spread": 6,
+  "single_class_groups": 3,
+  "mean_within_group_std": 0.5935
+ },
+ "mean_group_advantage_by_class": {
+  "A|ask_informed": {
+   "n": 212,
+   "mean_adv": 0.77
+  },
+  "A|approve_generic": {
+   "n": 76,
+   "mean_adv": -1.122
+  },
+  "A|approve_informed": {
+   "n": 75,
+   "mean_adv": -0.705
+  },
+  "A|ask_generic": {
+   "n": 36,
+   "mean_adv": -0.404
+  },
+  "A|lookup": {
+   "n": 18,
+   "mean_adv": 0.469
+  },
+  "A|tell_informed": {
+   "n": 8,
+   "mean_adv": -0.163
+  },
+  "A|commit_other": {
+   "n": 5,
+   "mean_adv": -1.316
+  },
+  "A|approve_gold": {
+   "n": 4,
+   "mean_adv": -1.0
+  },
+  "A|invalid": {
+   "n": 3,
+   "mean_adv": -1.166
+  },
+  "A|commit_gold": {
+   "n": 1,
+   "mean_adv": -2.207
+  },
+  "A|commit_harmful": {
+   "n": 1,
+   "mean_adv": -1.46
+  },
+  "A|statement": {
+   "n": 1,
+   "mean_adv": 0.103
+  },
+  "B|approve_generic": {
+   "n": 234,
+   "mean_adv": 0.76
+  },
+  "B|ask_generic": {
+   "n": 96,
+   "mean_adv": -1.13
+  },
+  "B|ask_informed": {
+   "n": 75,
+   "mean_adv": -0.968
+  },
+  "B|commit_gold": {
+   "n": 24,
+   "mean_adv": 0.511
+  },
+  "B|approve_informed": {
+   "n": 19,
+   "mean_adv": 0.812
+  },
+  "B|commit_other": {
+   "n": 10,
+   "mean_adv": -1.03
+  },
+  "B|lookup": {
+   "n": 6,
+   "mean_adv": -0.434
+  },
+  "B|invalid": {
+   "n": 4,
+   "mean_adv": -1.81
+  },
+  "B|statement": {
+   "n": 3,
+   "mean_adv": -1.01
+  },
+  "B|tell_informed": {
+   "n": 1,
+   "mean_adv": -1.291
+  }
+ },
+ "error_decomposition": {
+  "A_n": 464,
+  "A_top_class(ask_informed)": 220,
+  "A_approval_or_commit(type error, keyword-independent)": 170,
+  "A_approve_informed_within_that": 75,
+  "A_message_but_not_ask_informed(keyword/question-rule dependent)": 45,
+  "A_lookup(eval-neutral, reward 0.0)": 26,
+  "A_invalid": 3,
+  "B_n": 496,
+  "B_approve_or_expected_commit": 280,
+  "B_chat_message(type error, keyword-independent)": 191,
+  "B_other(commit on approve rows, commit_other, lookup, invalid)": 25
+ },
+ "top_class_rate_by_prompt_setting": {
+  "A|P0": [
+   154,
+   336
+  ],
+  "A|P2": [
+   66,
+   128
+  ],
+  "B|P0": [
+   191,
+   344
+  ],
+  "B|P2": [
+   89,
+   152
+  ]
+ },
+ "top_class_rate_by_level": {
+  "A|L0r": [
+   76,
+   176
+  ],
+  "A|L1": [
+   56,
+   112
+  ],
+  "A|L2": [
+   71,
+   128
+  ],
+  "A|L3": [
+   17,
+   48
+  ],
+  "B|L0r": [
+   98,
+   176
+  ],
+  "B|L1": [
+   83,
+   152
+  ],
+  "B|L2": [
+   73,
+   120
+  ],
+  "B|L3": [
+   26,
+   48
+  ]
+ },
+ "mean_score_by_step": {
+  "0": 0.3188,
+  "1": 0.1281,
+  "2": 0.4906,
+  "3": 0.5375,
+  "4": 0.4906,
+  "5": 0.6797,
+  "6": 0.6016,
+  "7": 0.4438,
+  "8": 0.5969,
+  "9": 0.2094,
+  "10": 0.425,
+  "11": 0.475,
+  "12": 0.525,
+  "13": 0.475,
+  "14": 0.6203,
+  "15": 0.0656,
+  "16": 0.2109,
+  "17": 0.3656,
+  "18": -0.0094,
+  "19": 0.3188,
+  "20": 0.4766,
+  "21": 0.3547,
+  "22": 0.4672,
+  "23": 0.4641,
+  "24": 0.4203,
+  "25": 0.5844,
+  "26": 0.4984,
+  "27": 0.3266,
+  "28": 0.2469,
+  "29": 0.4672
+ },
+ "truncated": 0
+}

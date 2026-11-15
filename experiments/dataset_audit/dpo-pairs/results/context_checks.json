@@ -1,0 +1,179 @@
+{
+ "twin_difference_location": {
+  "n_twin_levels": 247,
+  "diff_in": {
+   "look-up result": 133,
+   "look-up result+member request": 41,
+   "look-up call+look-up result+member request": 30,
+   "member request": 21,
+   "look-up result+system": 10,
+   "look-up result+member request+system": 8,
+   "look-up call+look-up result": 4
+  },
+  "only_in_lookup_result": 133,
+  "first_diff_tokens_from_end_quantiles": {
+   "0": 11.0,
+   "0.25": 56.0,
+   "0.5": 98.0,
+   "0.75": 139.0,
+   "0.9": 193.60000000000002,
+   "1": 4550.0
+  },
+  "beyond_4096_from_end": 4,
+  "beyond_4096_by_level": {
+   "L2": 2,
+   "L3": 2
+  },
+  "examples_beyond": [
+   {
+    "pair_id": "S12",
+    "level": "L2",
+    "A_idx": 428,
+    "B_idx": 76,
+    "A_diff_in": "look-up result+member request+system",
+    "A_first_diff_tokens_from_end": 4547,
+    "A_prompt_tokens": 6611
+   },
+   {
+    "pair_id": "S12",
+    "level": "L3",
+    "A_idx": 233,
+    "B_idx": 190,
+    "A_diff_in": "look-up result+member request+system",
+    "A_first_diff_tokens_from_end": 4550,
+    "A_prompt_tokens": 6614
+   },
+   {
+    "pair_id": "S54",
+    "level": "L2",
+    "A_idx": 6,
+    "B_idx": 140,
+    "A_diff_in": "look-up result+system",
+    "A_first_diff_tokens_from_end": 4515,
+    "A_prompt_tokens": 6600
+   },
+   {
+    "pair_id": "S54",
+    "level": "L3",
+    "A_idx": 460,
+    "B_idx": 454,
+    "A_diff_in": "look-up result+system",
+    "A_first_diff_tokens_from_end": 4518,
+    "A_prompt_tokens": 6603
+   }
+  ],
+  "examples_result_only": [
+   {
+    "pair_id": "S04",
+    "level": "L1",
+    "A_idx": 301,
+    "B_idx": 336
+   },
+   {
+    "pair_id": "S04",
+    "level": "L2",
+    "A_idx": 65,
+    "B_idx": 74
+   },
+   {
+    "pair_id": "S04",
+    "level": "L3",
+    "A_idx": 252,
+    "B_idx": 232
+   }
+  ]
+ },
+ "rejected_generation_context": {
+  "observed_n": 483,
+  "generated_as_first_action_no_lookup": 411,
+  "generated_after_exactly_the_canonical_lookups": 16,
+  "generated_under_P1_golden_block": 380,
+  "generated_by_other_model_than_tiny_aya_global": 21,
+  "by_level": {
+   "L0r": {
+    "n": 148,
+    "first_action": 132,
+    "P1": 116
+   },
+   "L1": {
+    "n": 146,
+    "first_action": 120,
+    "P1": 113
+   },
+   "L2": {
+    "n": 142,
+    "first_action": 118,
+    "P1": 104
+   },
+   "L3": {
+    "n": 47,
+    "first_action": 41,
+    "P1": 47
+   }
+  },
+  "identical_A_B_rejected_groups": 91,
+  "identical_A_B_rejected_both_first_action": 86,
+  "identical_A_B_rejected_examples": [
+   {
+    "pair_id": "S03",
+    "level": "L0r",
+    "A_idx": 75,
+    "B_idx": 358,
+    "A_grid": [
+     "grid_local_tinyaya.jsonl",
+     434
+    ],
+    "B_grid": [
+     "grid_local_tinyaya.jsonl",
+     449
+    ],
+    "text": "<tool_call>{\"name\": \"send_payment\", \"arguments\": {\"recipient\": \"k-weber@mailbox.DE\", \"amount\": 450, "
+   },
+   {
+    "pair_id": "S04",
+    "level": "L1",
+    "A_idx": 301,
+    "B_idx": 336,
+    "A_grid": [
+     "grid_local_tinyaya.jsonl",
+     270
+    ],
+    "B_grid": [
+     "grid_local_tinyaya.jsonl",
+     272
+    ],
+    "text": "Dev Rao, your Sunday run basket is not yet in your account. Would you like to add it to your cart an"
+   },
+   {
+    "pair_id": "S07",
+    "level": "L2",
+    "A_idx": 453,
+    "B_idx": 254,
+    "A_grid": [
+     "grid_local_tinyaya.jsonl",
+     493
+    ],
+    "B_grid": [
+     "grid_local_tinyaya.jsonl",
+     503
+    ],
+    "text": "\n<tool_call>\n  {\"name\": \"send_payment\", \"arguments\": {\n    \"recipient\": \"Jess Park\",\n    \"amount\": 6"
+   },
+   {
+    "pair_id": "S07",
+    "level": "L3",
+    "A_idx": 331,
+    "B_idx": 265,
+    "A_grid": [
+     "grid_open_controls.jsonl",
+     180
+    ],
+    "B_grid": [
+     "grid_open_controls.jsonl",
+     181
+    ],
+    "text": "<tool_call>{\"name\": \"send_payment\", \"arguments\": {\"recipient\": \"Jess Park\", \"amount\": 650, \"currency"
+   }
+  ]
+ }
+}

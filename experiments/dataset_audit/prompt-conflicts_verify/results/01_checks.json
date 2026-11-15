@@ -1,0 +1,18 @@
+{
+ "checks": {
+  "tail:empty:P0": 1464,
+  "tail:hint:P2": 656
+ },
+ "n": {
+  "sft_train": 904,
+  "sft_val": 224,
+  "dpo_train": 496,
+  "grpo_train": 496
+ },
+ "decision_rows": {
+  "sft_train": 497,
+  "sft_val": 112,
+  "dpo_train": 496,
+  "grpo_train": 496
+ }
+}

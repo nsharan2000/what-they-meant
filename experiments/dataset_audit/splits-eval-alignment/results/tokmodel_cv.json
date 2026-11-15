@@ -1,0 +1,27 @@
+{
+ "prompt": {
+  "n": 1097,
+  "mape": 0.0065,
+  "p95_ape": 0.0164,
+  "mean_abs_err_tokens": 27.2,
+  "max_abs_err_tokens": 177.9
+ },
+ "target": {
+  "n": 2120,
+  "mape": 0.0441,
+  "p95_ape": 0.1191,
+  "mean_abs_err_tokens": 2.3,
+  "max_abs_err_tokens": 87.6
+ },
+ "weights": {
+  "letter_runs": 1.0573,
+  "letters": -0.0432,
+  "digits": 1.0765,
+  "punct": 0.758,
+  "ws_runs": 0.2516,
+  "newlines": 1.5868,
+  "nonascii": 1.1073,
+  "per_message": 3.4824,
+  "constant": 402.1437
+ }
+}

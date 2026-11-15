@@ -1,0 +1,1 @@
+{"text": "{\n  \"item_name\": \"Garlic\",\n  \"quantity\": 2,\n  \"unit\": \"pcs\",\n  \"price_inr\": 30,\n  \"line_total_inr\": 60\n}", "usage": {"completion_tokens": 47, "prompt_tokens": 255, "total_tokens": 302, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.880000000000001e-05}, "finish": "stop"}

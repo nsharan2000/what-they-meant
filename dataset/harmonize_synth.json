@@ -1,0 +1,661 @@
+{
+ "set": "synth",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507:deepinfra",
+ "counts": {
+  "already_consistent": 32,
+  "harmonised": 59,
+  "kept_original": 8
+ },
+ "passes": {
+  "pass1 (strict schema check)": {
+   "unchanged": 30,
+   "harmonised": 47,
+   "kept_original": 22
+  },
+  "pass2 (null/[] placeholders accepted; cached rewrites re-validated)": {
+   "unchanged": 79,
+   "kept_original": 8,
+   "harmonised": 12
+  }
+ },
+ "tokens": [
+  49902,
+  17530
+ ],
+ "pairs": {
+  "V011": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V012": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V013": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V014": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V031": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V042": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V043": {
+   "pass1": "kept_original",
+   "pass2": "kept_original",
+   "detail": {
+    "add_to_cart": "kept original (Your previous answer lost these values: [598, 1196])"
+   },
+   "final": "kept_original"
+  },
+  "V044": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V051": {
+   "pass1": "kept_original",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V061": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V062": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V071": {
+   "pass1": "kept_original",
+   "pass2": "harmonised",
+   "detail": {
+    "search_recipient": "harmonised"
+   },
+   "final": "harmonised"
+  },
+  "V072": {
+   "pass1": "kept_original",
+   "pass2": "harmonised",
+   "detail": {
+    "lookup_user_by_phone": "harmonised"
+   },
+   "final": "harmonised"
+  },
+  "V073": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V074": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V081": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V082": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V084": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V091": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V092": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V093": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V094": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V104": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V113": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V133": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V152": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V162": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V164": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V181": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V182": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V183": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V184": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V191": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V192": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V193": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V194": {
+   "pass1": "kept_original",
+   "pass2": "harmonised",
+   "detail": {
+    "get_checkout_terms": "harmonised"
+   },
+   "final": "harmonised"
+  },
+  "V202": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V211": {
+   "pass1": "kept_original",
+   "pass2": "kept_original",
+   "detail": {
+    "check_merchant": "kept original (Your previous answer lost these values: [5, 'official'])"
+   },
+   "final": "kept_original"
+  },
+  "V212": {
+   "pass1": "kept_original",
+   "pass2": "kept_original",
+   "detail": {
+    "check_merchant": "kept original (Your previous answer lost these values: [5, 'official'])"
+   },
+   "final": "kept_original"
+  },
+  "V213": {
+   "pass1": "kept_original",
+   "pass2": "kept_original",
+   "detail": {
+    "check_merchant": "kept original (Your previous answer lost these values: [8, 'official'])"
+   },
+   "final": "kept_original"
+  },
+  "V214": {
+   "pass1": "kept_original",
+   "pass2": "kept_original",
+   "detail": {
+    "check_merchant": "kept original (Your previous answer lost these values: [6, 'official'])"
+   },
+   "final": "kept_original"
+  },
+  "V223": {
+   "pass1": "kept_original",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V231": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V232": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V233": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V234": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V243": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V244": {
+   "pass1": "kept_original",
+   "pass2": "harmonised",
+   "detail": {
+    "get_order": "harmonised"
+   },
+   "final": "harmonised"
+  },
+  "V253": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V254": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V264": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V271": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V272": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V273": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V274": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V281": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V282": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V283": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V284": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V291": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V293": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V321": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V322": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V323": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V324": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V331": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V333": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V341": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V343": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V344": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V361": {
+   "pass1": "kept_original",
+   "pass2": "harmonised",
+   "detail": {
+    "read_page": "harmonised"
+   },
+   "final": "harmonised"
+  },
+  "V363": {
+   "pass1": "kept_original",
+   "pass2": "harmonised",
+   "detail": {
+    "read_page": "harmonised"
+   },
+   "final": "harmonised"
+  },
+  "V431": {
+   "pass1": "kept_original",
+   "pass2": "harmonised",
+   "detail": {
+    "get_statement": "harmonised"
+   },
+   "final": "harmonised"
+  },
+  "V432": {
+   "pass1": "kept_original",
+   "pass2": "harmonised",
+   "detail": {
+    "get_statement": "harmonised"
+   },
+   "final": "harmonised"
+  },
+  "V433": {
+   "pass1": "kept_original",
+   "pass2": "harmonised",
+   "detail": {
+    "get_statement": "harmonised"
+   },
+   "final": "harmonised"
+  },
+  "V434": {
+   "pass1": "kept_original",
+   "pass2": "harmonised",
+   "detail": {
+    "get_statement": "harmonised"
+   },
+   "final": "harmonised"
+  },
+  "V453": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V471": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V472": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V473": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V474": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V491": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V492": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V531": {
+   "pass1": "kept_original",
+   "pass2": "kept_original",
+   "detail": {
+    "lookup_venmo": "kept original (Your previous answer lost these values: [2])"
+   },
+   "final": "kept_original"
+  },
+  "V532": {
+   "pass1": "kept_original",
+   "pass2": "kept_original",
+   "detail": {
+    "lookup_venmo": "kept original (Your previous answer lost these values: [2])"
+   },
+   "final": "kept_original"
+  },
+  "V533": {
+   "pass1": "kept_original",
+   "pass2": "kept_original",
+   "detail": {
+    "lookup_venmo": "kept original (Your previous answer lost these values: [4])"
+   },
+   "final": "kept_original"
+  },
+  "V534": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V541": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V551": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V552": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V553": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V554": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V563": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V571": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V573": {
+   "pass1": "unchanged",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "already_consistent"
+  },
+  "V581": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V582": {
+   "pass1": "kept_original",
+   "pass2": "harmonised",
+   "detail": {
+    "get_checkout": "harmonised"
+   },
+   "final": "harmonised"
+  },
+  "V583": {
+   "pass1": "harmonised",
+   "pass2": "unchanged",
+   "detail": {},
+   "final": "harmonised"
+  },
+  "V584": {
+   "pass1": "kept_original",
+   "pass2": "harmonised",
+   "detail": {
+    "get_checkout": "harmonised"
+   },
+   "final": "harmonised"
+  }
+ }
+}

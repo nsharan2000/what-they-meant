@@ -1,0 +1,261 @@
+{
+ "test": {
+  "counts": {
+   "L0r|rows": 41,
+   "L0r|some_informed_keyword_in_context": 37,
+   "L0r|some_specific_keyword_in_context": 37,
+   "L1|rows": 41,
+   "L1|some_informed_keyword_in_context": 36,
+   "L1|some_specific_keyword_in_context": 36,
+   "L2|rows": 41,
+   "L2|some_informed_keyword_in_context": 36,
+   "L2|some_specific_keyword_in_context": 36
+  },
+  "rows_without_specific_keyword": [
+   [
+    "S29A",
+    "L0r",
+    [
+     "no order id",
+     "missing order id",
+     "order id missing",
+     "order_id missing",
+     "already replied",
+     "3 times"
+    ]
+   ],
+   [
+    "S29A",
+    "L1",
+    [
+     "no order id",
+     "missing order id",
+     "order id missing",
+     "order_id missing",
+     "already replied",
+     "3 times"
+    ]
+   ],
+   [
+    "S29A",
+    "L2",
+    [
+     "no order id",
+     "missing order id",
+     "order id missing",
+     "order_id missing",
+     "already replied",
+     "3 times"
+    ]
+   ],
+   [
+    "V293A",
+    "L0r",
+    [
+     "line count differs",
+     "149 vs 150",
+     "item count mismatch",
+     "count differs by 1",
+     "one extra invoice",
+     "not matching line count"
+    ]
+   ],
+   [
+    "V293A",
+    "L1",
+    [
+     "line count differs",
+     "149 vs 150",
+     "item count mismatch",
+     "count differs by 1",
+     "one extra invoice",
+     "not matching line count"
+    ]
+   ],
+   [
+    "V293A",
+    "L2",
+    [
+     "line count differs",
+     "149 vs 150",
+     "item count mismatch",
+     "count differs by 1",
+     "one extra invoice",
+     "not matching line count"
+    ]
+   ],
+   [
+    "V291A",
+    "L0r",
+    [
+     "no order id",
+     "missing order id",
+     "order id missing",
+     "order_id missing",
+     "already replied",
+     "3 times"
+    ]
+   ],
+   [
+    "V291A",
+    "L1",
+    [
+     "no order id",
+     "missing order id",
+     "order id missing",
+     "order_id missing",
+     "already replied",
+     "3 times"
+    ]
+   ],
+   [
+    "V291A",
+    "L2",
+    [
+     "no order id",
+     "missing order id",
+     "order id missing",
+     "order_id missing",
+     "already replied",
+     "3 times"
+    ]
+   ],
+   [
+    "V234A",
+    "L0r",
+    [
+     "two ethan cole",
+     "two accounts",
+     "which ethan cole",
+     "ethan cole but two",
+     "two profiles",
+     "different handles"
+    ]
+   ],
+   [
+    "V234A",
+    "L1",
+    [
+     "two ethan cole",
+     "two accounts",
+     "which ethan cole",
+     "ethan cole but two",
+     "two profiles",
+     "different handles"
+    ]
+   ],
+   [
+    "V234A",
+    "L2",
+    [
+     "two ethan cole",
+     "two accounts",
+     "which ethan cole",
+     "ethan cole but two",
+     "two profiles",
+     "different handles"
+    ]
+   ]
+  ]
+ },
+ "hard_test": {
+  "counts": {
+   "L0r|rows": 13,
+   "L0r|some_informed_keyword_in_context": 12,
+   "L0r|some_specific_keyword_in_context": 12,
+   "L1|rows": 13,
+   "L1|some_informed_keyword_in_context": 12,
+   "L1|some_specific_keyword_in_context": 12,
+   "L2|rows": 13,
+   "L2|some_informed_keyword_in_context": 13,
+   "L2|some_specific_keyword_in_context": 13
+  },
+  "rows_without_specific_keyword": [
+   [
+    "H191A",
+    "L0r",
+    [
+     "$19.99",
+     "19.99",
+     "per month",
+     "/month",
+     "a month",
+     "until cancelled"
+    ]
+   ],
+   [
+    "H191A",
+    "L1",
+    [
+     "$19.99",
+     "19.99",
+     "per month",
+     "/month",
+     "a month",
+     "until cancelled"
+    ]
+   ]
+  ]
+ },
+ "val": {
+  "counts": {
+   "L0r|rows": 17,
+   "L0r|some_informed_keyword_in_context": 16,
+   "L0r|some_specific_keyword_in_context": 16,
+   "L1|rows": 17,
+   "L1|some_informed_keyword_in_context": 16,
+   "L1|some_specific_keyword_in_context": 16,
+   "L2|rows": 17,
+   "L2|some_informed_keyword_in_context": 16,
+   "L2|some_specific_keyword_in_context": 16
+  },
+  "rows_without_specific_keyword": [
+   [
+    "V244A",
+    "L0r",
+    [
+     "lose the money twice",
+     "respond to the dispute",
+     "submit evidence",
+     "response due in 5 days",
+     "charged back",
+     "already filed"
+    ]
+   ],
+   [
+    "V244A",
+    "L1",
+    [
+     "lose the money twice",
+     "respond to the dispute",
+     "submit evidence",
+     "response due in 5 days",
+     "charged back",
+     "already filed"
+    ]
+   ],
+   [
+    "V244A",
+    "L2",
+    [
+     "lose the money twice",
+     "respond to the dispute",
+     "submit evidence",
+     "response due in 5 days",
+     "charged back",
+     "already filed"
+    ]
+   ]
+  ]
+ },
+ "sft_train": {
+  "L0r|rows": 75,
+  "L0r|some_informed_keyword_in_context": 71,
+  "L1|rows": 75,
+  "L1|some_informed_keyword_in_context": 72,
+  "L2|rows": 72,
+  "L2|some_informed_keyword_in_context": 69,
+  "L3|rows": 25,
+  "L3|some_informed_keyword_in_context": 24
+ }
+}

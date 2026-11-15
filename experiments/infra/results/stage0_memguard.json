@@ -1,0 +1,24 @@
+{
+ "name": "stage0",
+ "cmd": [
+  "python3",
+  "/workspace/stage0/mem_accounting_test.py",
+  "--gib",
+  "8",
+  "--out",
+  "/workspace/runs/stage0/mem_accounting.json"
+ ],
+ "rc": 0,
+ "kill_reason": null,
+ "minutes": 0.18,
+ "baseline_avail_gb": 112.57,
+ "peak_used_gb": 8.76,
+ "min_avail_gb": 103.8,
+ "avail_after_exit_gb": 112.27,
+ "not_recovered_gb": 0.3,
+ "max_psi_full_avg10": 0.0,
+ "budget_gb": 15.0,
+ "floor_gb": 16.0,
+ "gpu_cap_gb": 10.0,
+ "tree_gone": true
+}

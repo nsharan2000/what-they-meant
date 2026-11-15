@@ -1,0 +1,26 @@
+{
+ "sft_decision_rows_classified": 496,
+ "scenarios": 152,
+ "scenarios_with_level_dependent_target": 0,
+ "examples_varying": {},
+ "target_counts_twin_level_class": {
+  "A|L0r|ask_informed": 75,
+  "A|L1|ask_informed": 75,
+  "A|L2|ask_informed": 72,
+  "A|L3|ask_informed": 25,
+  "B|L0r|approve_generic": 68,
+  "B|L0r|approve_informed": 3,
+  "B|L0r|commit_gold": 5,
+  "B|L1|approve_generic": 68,
+  "B|L1|approve_informed": 3,
+  "B|L1|commit_gold": 5,
+  "B|L2|approve_generic": 64,
+  "B|L2|approve_informed": 3,
+  "B|L2|commit_gold": 5,
+  "B|L3|approve_generic": 19,
+  "B|L3|approve_informed": 3,
+  "B|L3|commit_gold": 3
+ },
+ "grpo_unique_scenario_level_keys": true,
+ "grpo_rows": 496
+}

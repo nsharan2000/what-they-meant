@@ -1,0 +1,58 @@
+{
+ "grpo_rows": 496,
+ "grpo_rows_identical_to_an_sft_decision_prompt": 496,
+ "grpo_sampled_prompts": 120,
+ "sampled_prompts_in_sft": {
+  "true": 120
+ },
+ "sampled_not_in_sft": [],
+ "heldout_canonical_lookups_identical_to_a_training_lookup_target": 9,
+ "heldout_lookup_examples": [
+  [
+   "hard_test_wallet",
+   "H161A",
+   "<tool_call>{\"name\": \"list_linked_accounts\", \"arguments\": {}}</tool_call>"
+  ],
+  [
+   "hard_test_wallet",
+   "H161B",
+   "<tool_call>{\"name\": \"list_linked_accounts\", \"arguments\": {}}</tool_call>"
+  ],
+  [
+   "test_wallet",
+   "S16A",
+   "<tool_call>{\"name\": \"list_linked_accounts\", \"arguments\": {}}</tool_call>"
+  ],
+  [
+   "test_wallet",
+   "S16B",
+   "<tool_call>{\"name\": \"list_linked_accounts\", \"arguments\": {}}</tool_call>"
+  ],
+  [
+   "test_wallet",
+   "V164A",
+   "<tool_call>{\"name\": \"list_linked_accounts\", \"arguments\": {}}</tool_call>"
+  ],
+  [
+   "test_wallet",
+   "V164B",
+   "<tool_call>{\"name\": \"list_linked_accounts\", \"arguments\": {}}</tool_call>"
+  ],
+  [
+   "test_wallet",
+   "V162A",
+   "<tool_call>{\"name\": \"list_linked_accounts\", \"arguments\": {}}</tool_call>"
+  ],
+  [
+   "test_wallet",
+   "V162B",
+   "<tool_call>{\"name\": \"list_linked_accounts\", \"arguments\": {}}</tool_call>"
+  ],
+  [
+   "val_wallet",
+   "S56A",
+   "<tool_call>{\"name\": \"pick_contact\", \"arguments\": {\"query\": \"Ethan\"}}</tool_call>"
+  ]
+ ],
+ "heldout_rows_total_with_lookups": 205
+}

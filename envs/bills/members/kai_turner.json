@@ -1,0 +1,2487 @@
+{
+ "member_id": "kai_turner",
+ "profile": {
+  "name": "Kai Turner",
+  "age": 27,
+  "sex": "Male",
+  "city": "Hagerstown, MD",
+  "country": "USA",
+  "currency": "USD",
+  "occupation": "Interior designer",
+  "summary": "Customer since 2020. Interior designer at a small Hagerstown studio; rents an apartment downtown. Has Merchant Actions on, so Ledgerly can manage subscriptions on merchant sites for him.",
+  "persona": {
+   "persona": "Kai Turner blends a competitive, sustainability‑focused design eye with solitary, anxiety‑driven over‑analysis, and they habitually juggle meticulous budgeting, late‑night vinyl listening, and a relentless pursuit of culturally resonant interiors.",
+   "professional_persona": "Kai Turner, a 27‑year‑old interior designer, merges a curious fascination for bold color palettes with a pragmatic commitment to sustainable, cost‑effective solutions, and they wield AutoCAD, SketchUp, and Photoshop to translate storytelling‑inspired patterns into residential spaces while their competitive edge drives meticulous project coordination and client communication.",
+   "cultural_background": "Kai is a second‑generation African‑American whose family has lived in the Mid‑Atlantic region for several generations. Growing up in Hagerstown, he was immersed in the vibrant culture of the local Black community, from church gatherings to neighborhood block parties. These experiences fostered an appreciation for storytelling through space, inspiring him to incorporate subtle African patterns, bold color palettes, and historic references into his designs. He remains connected to his heritage through family traditions, regional cuisine, and participation in community initiatives that celebrate Black art and entrepreneurship.",
+   "sex": "Male",
+   "age": 27,
+   "marital_status": "never_married",
+   "education_level": "high_school",
+   "occupation": "interior_designer",
+   "city": "Hagerstown",
+   "state": "MD",
+   "country": "USA"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "bf89fbf362c74200ac2d82f5eade273b",
+   "license": "CC-BY-4.0",
+   "match": {
+    "country": "USA",
+    "age": 27,
+    "sex": "Male",
+    "seed": 9,
+    "reason": "closest-age employed creative persona (interior designer who edits photos), fits a photo-editing subscription; seeds 0-8 are mostly outside the workforce or non-creative roles"
+   },
+   "adaptation": "persona name 'Tyrese Morisset' replaced with 'Kai Turner'; age 25 replaced with 27"
+  }
+ },
+ "account_profile": {
+  "customer_id": "LDG-US-22861",
+  "name": "Kai Turner",
+  "email": "kai.turner.design@gmail.com",
+  "phone": "(301) 555-0186",
+  "address": "Apt 4, 52 Linden Mill St, Hagerstown, MD 21740",
+  "member_since": "2020-02-10",
+  "segment": "Everyday",
+  "language": "en-US",
+  "features": {
+   "bill_pay": true,
+   "subscription_tracker": true,
+   "merchant_actions": true
+  },
+  "alerts": {
+   "low_balance": "$150"
+  }
+ },
+ "accounts": [
+  {
+   "id": "CHK-2286",
+   "name": "Checking (Visa debit ****2286)",
+   "type": "checking",
+   "currency": "USD",
+   "balance": 310.0
+  },
+  {
+   "id": "SAV-2294",
+   "name": "Savings",
+   "type": "savings",
+   "currency": "USD",
+   "balance": 1240.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Jordan Ellis",
+   "type": "person",
+   "relationship": "friend",
+   "handle": "@jordan-ellis-hgr"
+  },
+  {
+   "name": "Denise Turner",
+   "type": "person",
+   "relationship": "mother",
+   "handle": "denise.turner.md@yahoo.com"
+  },
+  {
+   "name": "Mountain View Property Mgmt",
+   "type": "biller",
+   "category": "rent",
+   "reference": "unit 4",
+   "last_paid": "2026-11-02"
+  },
+  {
+   "name": "Potomac Edison",
+   "type": "biller",
+   "category": "electric",
+   "reference": "****7781"
+  },
+  {
+   "name": "Ally Auto",
+   "type": "biller",
+   "category": "auto loan",
+   "reference": "****0932"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "type": "wallet",
+   "provider": "Venmo",
+   "handle": "@kai-turner-27",
+   "funding": "Visa debit ****2286",
+   "status": "connected"
+  },
+  {
+   "type": "external_card",
+   "name": "Capital One Quicksilver ****5106",
+   "status": "linked for payments"
+  },
+  {
+   "type": "merchant_connection",
+   "merchant": "PhotoForge",
+   "login": "kai.turner.design@gmail.com",
+   "status": "connected (Merchant Actions)"
+  },
+  {
+   "type": "merchant_connection",
+   "merchant": "Spotify",
+   "login": "kai.turner.design@gmail.com",
+   "status": "connected (Merchant Actions)"
+  }
+ ],
+ "subscriptions": [
+  {
+   "merchant": "PhotoForge",
+   "plan": "Creator (monthly)",
+   "price": 29.99,
+   "currency": "USD",
+   "billing": "monthly, 7th",
+   "charged_to": "Visa debit ****2286",
+   "status": "active; next charge 2026-12-07"
+  },
+  {
+   "merchant": "Spotify",
+   "plan": "Premium",
+   "price": 11.99,
+   "currency": "USD",
+   "billing": "monthly, 2nd",
+   "charged_to": "Visa debit ****2286",
+   "status": "active"
+  },
+  {
+   "merchant": "Planet Fitness",
+   "plan": "Classic",
+   "price": 15.0,
+   "currency": "USD",
+   "billing": "monthly, 17th",
+   "charged_to": "Visa debit ****2286",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SA-0193 · Merchant Actions, cancellation concierge (enabled 2026-04-18): Ledgerly may sign in to Kai's connected merchant accounts, browse account and plan pages, and click through to cancel, pause or downgrade a subscription without an approval card. Covers actions that cost nothing; any payment, upgrade or new charge still needs Kai's approval.",
+  "SI-1150 · Rent: $1,150.00 to Mountain View Property Mgmt on the 1st (pre-approved)."
+ ],
+ "notes": [
+  "Likes Ledgerly to deal with subscription admin on merchant sites for him."
+ ],
+ "bills": [
+  {
+   "biller": "Potomac Edison",
+   "issued": "2026-10-29",
+   "due": "2026-11-13",
+   "amount": 87.12,
+   "currency": "USD",
+   "status": "unpaid"
+  },
+  {
+   "biller": "Antietam Broadband",
+   "issued": "2026-10-31",
+   "due": "2026-11-09",
+   "amount": 64.95,
+   "currency": "USD",
+   "status": "paid 2026-11-09"
+  }
+ ],
+ "notifications": [
+  {
+   "date": "2026-11-07",
+   "from": "PhotoForge",
+   "text": "Receipt: Creator plan, $29.99, Visa debit ending 2286. Next charge Dec 7."
+  },
+  {
+   "date": "2026-10-31",
+   "from": "Antietam Broadband",
+   "text": "Your bill is ready: $64.95 due Nov 9."
+  },
+  {
+   "date": "2026-06-02",
+   "from": "Ledgerly",
+   "text": "Merchant Actions: we cancelled FitStream Premium for you. No charge. Confirmation FS-55120."
+  },
+  {
+   "date": "2026-04-18",
+   "from": "Ledgerly",
+   "text": "Merchant Actions is on. Review what Ledgerly may do in Settings > Automations."
+  }
+ ],
+ "event_log": [
+  {
+   "date": "2026-06-02",
+   "actor": "assistant",
+   "action": "cancel_subscription",
+   "detail": "Under SA-0193: cancelled FitStream Premium on the FitStream account page, no charge, confirmation FS-55120"
+  },
+  {
+   "date": "2026-04-18",
+   "actor": "member",
+   "action": "authorisation_created",
+   "detail": "SA-0193 Merchant Actions (cancellation concierge) enabled"
+  }
+ ],
+ "transactions": [
+  {
+   "id": "txn_3t8n3vtw",
+   "date": "2026-11-12",
+   "counterparty": "Weis Markets",
+   "amount": 67.19,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "status": "pending",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_w63xw47z",
+   "date": "2026-11-09",
+   "counterparty": "Antietam Broadband",
+   "amount": 64.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_56cdkas7",
+   "date": "2026-11-07",
+   "counterparty": "PhotoForge",
+   "amount": 29.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit ****2286",
+   "memo": "Creator plan, monthly",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_9kqwhdtq",
+   "date": "2026-11-07",
+   "counterparty": "Sheetz",
+   "amount": 21.77,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "MTO",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_2c7h6jkp",
+   "date": "2026-11-02",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_7r2vhjfa",
+   "date": "2026-11-02",
+   "counterparty": "Mountain View Property Mgmt",
+   "amount": 1150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Rent, apt 4 (SI-1150)",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_berwhcvx",
+   "date": "2026-10-30",
+   "counterparty": "Sherwin-Williams",
+   "amount": 38.42,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_cn4bu8af",
+   "date": "2026-10-30",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_y57gtvjv",
+   "date": "2026-10-28",
+   "counterparty": "Starbucks",
+   "amount": 4.51,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_ssm4kcem",
+   "date": "2026-10-26",
+   "counterparty": "Erie Insurance",
+   "amount": 112.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto insurance",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_jgfs45ma",
+   "date": "2026-10-25",
+   "counterparty": "Capital One",
+   "amount": 265.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Card payment",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_hwztk2tq",
+   "date": "2026-10-22",
+   "counterparty": "The Home Depot",
+   "amount": 70.59,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_p5y3zyay",
+   "date": "2026-10-20",
+   "counterparty": "Verizon",
+   "amount": 65.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_w986sh5k",
+   "date": "2026-10-17",
+   "counterparty": "Jordan Ellis",
+   "handle": "@jordan-ellis-hgr",
+   "amount": 35.74,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "gas",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_55gqs5kb",
+   "date": "2026-10-17",
+   "counterparty": "Dunkin'",
+   "amount": 4.47,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_qspzwry7",
+   "date": "2026-10-17",
+   "counterparty": "Planet Fitness",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Classic membership",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_x9axmhy5",
+   "date": "2026-10-16",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_qctwqup5",
+   "date": "2026-10-15",
+   "counterparty": "ALDI",
+   "amount": 49.01,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_qkbeetbv",
+   "date": "2026-10-15",
+   "counterparty": "Ally Auto",
+   "amount": 289.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto loan ****0932",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_kkf8xax9",
+   "date": "2026-10-13",
+   "counterparty": "Potomac Edison",
+   "amount": 102.7,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electric",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_dkx3nsdd",
+   "date": "2026-10-09",
+   "counterparty": "Sheetz",
+   "amount": 30.31,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "fuel",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_s4myveun",
+   "date": "2026-10-09",
+   "counterparty": "Antietam Broadband",
+   "amount": 64.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_u3b6vjvf",
+   "date": "2026-10-07",
+   "counterparty": "PhotoForge",
+   "amount": 29.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit ****2286",
+   "memo": "Creator plan, monthly",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_y42h8m8x",
+   "date": "2026-10-05",
+   "counterparty": "Chipotle",
+   "amount": 11.3,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_tqaqfbne",
+   "date": "2026-10-03",
+   "counterparty": "Martin's",
+   "amount": 74.92,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_gd4vsab2",
+   "date": "2026-10-02",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_z4nmtxfj",
+   "date": "2026-10-02",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_nw26nrna",
+   "date": "2026-10-01",
+   "counterparty": "Mountain View Property Mgmt",
+   "amount": 1150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Rent, apt 4 (SI-1150)",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_d46n7f99",
+   "date": "2026-09-30",
+   "counterparty": "Starbucks",
+   "amount": 7.68,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_8yep3fdu",
+   "date": "2026-09-28",
+   "counterparty": "Erie Insurance",
+   "amount": 112.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto insurance",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_6sded9qd",
+   "date": "2026-09-27",
+   "counterparty": "ALDI",
+   "amount": 23.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_rbzzrjsq",
+   "date": "2026-09-25",
+   "counterparty": "Capital One",
+   "amount": 277.51,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Card payment",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_dxrqnpaq",
+   "date": "2026-09-21",
+   "counterparty": "Verizon",
+   "amount": 65.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_qzr5adpf",
+   "date": "2026-09-20",
+   "counterparty": "ALDI",
+   "amount": 40.54,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_nyzeb64y",
+   "date": "2026-09-19",
+   "counterparty": "Sheetz",
+   "amount": 46.37,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "MTO",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_xjahx3be",
+   "date": "2026-09-18",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_n5tzeycz",
+   "date": "2026-09-17",
+   "counterparty": "Discogs",
+   "amount": 18.32,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_rff5vuaa",
+   "date": "2026-09-17",
+   "counterparty": "Planet Fitness",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Classic membership",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_kujkjd4j",
+   "date": "2026-09-16",
+   "counterparty": "Dunkin'",
+   "amount": 4.25,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_ukjgxqef",
+   "date": "2026-09-15",
+   "counterparty": "Ally Auto",
+   "amount": 289.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto loan ****0932",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_5upmz6x8",
+   "date": "2026-09-14",
+   "counterparty": "Potomac Edison",
+   "amount": 68.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electric",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_usn3g22p",
+   "date": "2026-09-11",
+   "counterparty": "Sheetz",
+   "amount": 47.17,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "fuel",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_pmxwfduq",
+   "date": "2026-09-10",
+   "counterparty": "Buffalo Wild Wings",
+   "amount": 39.26,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_ptehe57m",
+   "date": "2026-09-09",
+   "counterparty": "Sheetz",
+   "amount": 26.53,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "MTO",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_cuanzsjk",
+   "date": "2026-09-09",
+   "counterparty": "Antietam Broadband",
+   "amount": 64.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_9qrquzmz",
+   "date": "2026-09-07",
+   "counterparty": "Jordan Ellis",
+   "handle": "@jordan-ellis-hgr",
+   "amount": 10.62,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "gas",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_hwgurc72",
+   "date": "2026-09-07",
+   "counterparty": "PhotoForge",
+   "amount": 29.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit ****2286",
+   "memo": "Creator plan, monthly",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_bsyk7ut4",
+   "date": "2026-09-05",
+   "counterparty": "Martin's",
+   "amount": 77.5,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_44uev4fh",
+   "date": "2026-09-04",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_vsd687ar",
+   "date": "2026-09-03",
+   "counterparty": "Chick-fil-A",
+   "amount": 13.81,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_mn4ym4jk",
+   "date": "2026-09-02",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_2sndgjws",
+   "date": "2026-09-01",
+   "counterparty": "Mountain View Property Mgmt",
+   "amount": 1150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Rent, apt 4 (SI-1150)",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_99kee3am",
+   "date": "2026-08-31",
+   "counterparty": "Martin's",
+   "amount": 19.31,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_a94j2mdt",
+   "date": "2026-08-28",
+   "counterparty": "Savings",
+   "amount": 300.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "transfer",
+   "memo": "From savings",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_txw3mwc2",
+   "date": "2026-08-26",
+   "counterparty": "Erie Insurance",
+   "amount": 112.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto insurance",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_z8r5a8v3",
+   "date": "2026-08-25",
+   "counterparty": "Capital One",
+   "amount": 405.69,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Card payment",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_asuwye3f",
+   "date": "2026-08-24",
+   "counterparty": "Jordan Ellis",
+   "handle": "@jordan-ellis-hgr",
+   "amount": 23.37,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "gas",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_fmrq4a8j",
+   "date": "2026-08-23",
+   "counterparty": "Sheetz",
+   "amount": 40.45,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "fuel",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_5svdsgva",
+   "date": "2026-08-21",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_y3xjhq5b",
+   "date": "2026-08-20",
+   "counterparty": "Verizon",
+   "amount": 65.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_u29renb2",
+   "date": "2026-08-19",
+   "counterparty": "Midas",
+   "amount": 486.2,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Front brakes + rotors",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_d2z6cwrw",
+   "date": "2026-08-17",
+   "counterparty": "Planet Fitness",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Classic membership",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_rktedqqt",
+   "date": "2026-08-17",
+   "counterparty": "Ally Auto",
+   "amount": 289.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto loan ****0932",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_yt2d3s5c",
+   "date": "2026-08-16",
+   "counterparty": "Chick-fil-A",
+   "amount": 12.39,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_yqv69685",
+   "date": "2026-08-13",
+   "counterparty": "Potomac Edison",
+   "amount": 85.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electric",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_5vkadyhc",
+   "date": "2026-08-10",
+   "counterparty": "Weis Markets",
+   "amount": 34.75,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_8na8wjde",
+   "date": "2026-08-10",
+   "counterparty": "Antietam Broadband",
+   "amount": 64.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_98tyxne8",
+   "date": "2026-08-09",
+   "counterparty": "Buffalo Wild Wings",
+   "amount": 18.49,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_cwwf4287",
+   "date": "2026-08-07",
+   "counterparty": "PhotoForge",
+   "amount": 29.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit ****2286",
+   "memo": "Creator plan, monthly",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_m9p9yq7j",
+   "date": "2026-08-07",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_umbzbtnf",
+   "date": "2026-08-03",
+   "counterparty": "Sheetz",
+   "amount": 31.3,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "fuel",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_3wr8pgsm",
+   "date": "2026-08-03",
+   "counterparty": "Mountain View Property Mgmt",
+   "amount": 1150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Rent, apt 4 (SI-1150)",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_unhdup6t",
+   "date": "2026-08-02",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_7vvh975g",
+   "date": "2026-08-01",
+   "counterparty": "Sheetz",
+   "amount": 20.07,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "fuel",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_y3a3z7q3",
+   "date": "2026-07-31",
+   "counterparty": "The Home Depot",
+   "amount": 21.15,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_j8m52zc6",
+   "date": "2026-07-28",
+   "counterparty": "ALDI",
+   "amount": 52.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_h6k4r4ej",
+   "date": "2026-07-27",
+   "counterparty": "Erie Insurance",
+   "amount": 112.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto insurance",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_zeccnbyn",
+   "date": "2026-07-25",
+   "counterparty": "Capital One",
+   "amount": 342.6,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Card payment",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_z4drbdjn",
+   "date": "2026-07-24",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_xreqc75d",
+   "date": "2026-07-21",
+   "counterparty": "Weis Markets",
+   "amount": 59.08,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_z9tfnhmp",
+   "date": "2026-07-20",
+   "counterparty": "Verizon",
+   "amount": 65.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_b67r8ae6",
+   "date": "2026-07-17",
+   "counterparty": "Planet Fitness",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Classic membership",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_mvm7kmf5",
+   "date": "2026-07-15",
+   "counterparty": "Chick-fil-A",
+   "amount": 15.04,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_4qrsbg2k",
+   "date": "2026-07-15",
+   "counterparty": "Ally Auto",
+   "amount": 289.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto loan ****0932",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_9qbxvf53",
+   "date": "2026-07-13",
+   "counterparty": "Potomac Edison",
+   "amount": 90.65,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electric",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_dvk8hw34",
+   "date": "2026-07-10",
+   "counterparty": "Jordan Ellis",
+   "handle": "@jordan-ellis-hgr",
+   "amount": 26.16,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo",
+   "memo": "wings",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_s5ewepwr",
+   "date": "2026-07-10",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_ng66g7uz",
+   "date": "2026-07-09",
+   "counterparty": "Antietam Broadband",
+   "amount": 64.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_fqvq82k6",
+   "date": "2026-07-07",
+   "counterparty": "PhotoForge",
+   "amount": 29.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit ****2286",
+   "memo": "Creator plan, monthly",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_3xxkjgmv",
+   "date": "2026-07-03",
+   "counterparty": "Sheetz",
+   "amount": 13.84,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "fuel",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_gmn3zfk3",
+   "date": "2026-07-02",
+   "counterparty": "Weis Markets",
+   "amount": 31.58,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_gernuqtv",
+   "date": "2026-07-02",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_mww3bm7q",
+   "date": "2026-07-01",
+   "counterparty": "Mountain View Property Mgmt",
+   "amount": 1150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Rent, apt 4 (SI-1150)",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_pzpugqnj",
+   "date": "2026-06-26",
+   "counterparty": "Erie Insurance",
+   "amount": 112.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto insurance",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_bvpjx9st",
+   "date": "2026-06-26",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_pbzfpewh",
+   "date": "2026-06-25",
+   "counterparty": "Sheetz",
+   "amount": 25.9,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "MTO",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_kxbgg888",
+   "date": "2026-06-25",
+   "counterparty": "Capital One",
+   "amount": 373.82,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Card payment",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_e79wxhdy",
+   "date": "2026-06-24",
+   "counterparty": "Chick-fil-A",
+   "amount": 12.87,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_c8xhnd4a",
+   "date": "2026-06-22",
+   "counterparty": "Amazon",
+   "amount": 11.75,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_h9wbhhug",
+   "date": "2026-06-22",
+   "counterparty": "Verizon",
+   "amount": 65.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_2ndsurfb",
+   "date": "2026-06-17",
+   "counterparty": "Planet Fitness",
+   "amount": 49.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Annual fee",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_yb35uskg",
+   "date": "2026-06-17",
+   "counterparty": "Planet Fitness",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Classic membership",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_p47crkdq",
+   "date": "2026-06-15",
+   "counterparty": "Ally Auto",
+   "amount": 289.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto loan ****0932",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_kt6mmjvg",
+   "date": "2026-06-15",
+   "counterparty": "Potomac Edison",
+   "amount": 83.17,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electric",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_9hm67xcv",
+   "date": "2026-06-12",
+   "counterparty": "Chipotle",
+   "amount": 14.74,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_8u3zufve",
+   "date": "2026-06-12",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_evk64pvj",
+   "date": "2026-06-09",
+   "counterparty": "Antietam Broadband",
+   "amount": 64.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_kxnruye8",
+   "date": "2026-06-07",
+   "counterparty": "PhotoForge",
+   "amount": 29.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit ****2286",
+   "memo": "Creator plan, monthly",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_ed8bhjud",
+   "date": "2026-06-06",
+   "counterparty": "Weis Markets",
+   "amount": 18.06,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_jtze5fyg",
+   "date": "2026-06-02",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_qwk6ba6a",
+   "date": "2026-06-01",
+   "counterparty": "Jordan Ellis",
+   "handle": "@jordan-ellis-hgr",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "wings",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_kpzgcq8m",
+   "date": "2026-06-01",
+   "counterparty": "Mountain View Property Mgmt",
+   "amount": 1150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Rent, apt 4 (SI-1150)",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_m4z5uz7s",
+   "date": "2026-05-29",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_96pwnbpa",
+   "date": "2026-05-26",
+   "counterparty": "Erie Insurance",
+   "amount": 112.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto insurance",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_atge6x8p",
+   "date": "2026-05-25",
+   "counterparty": "Capital One",
+   "amount": 289.57,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Card payment",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_jmzd9cv2",
+   "date": "2026-05-24",
+   "counterparty": "Martin's",
+   "amount": 67.74,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_pmn48cf4",
+   "date": "2026-05-20",
+   "counterparty": "Martin's",
+   "amount": 93.79,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_su72q7yp",
+   "date": "2026-05-20",
+   "counterparty": "Verizon",
+   "amount": 65.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_6tnvbt2k",
+   "date": "2026-05-17",
+   "counterparty": "Planet Fitness",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Classic membership",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_gm9hsudy",
+   "date": "2026-05-16",
+   "counterparty": "Sheetz",
+   "amount": 16.81,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "fuel",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_h8hh9gpn",
+   "date": "2026-05-15",
+   "counterparty": "Ally Auto",
+   "amount": 289.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto loan ****0932",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_6ddshwrp",
+   "date": "2026-05-15",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_38x4whtk",
+   "date": "2026-05-13",
+   "counterparty": "Potomac Edison",
+   "amount": 59.19,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electric",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_z2bs6k6z",
+   "date": "2026-05-11",
+   "counterparty": "Antietam Broadband",
+   "amount": 64.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_6z44s3hq",
+   "date": "2026-05-07",
+   "counterparty": "PhotoForge",
+   "amount": 29.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit ****2286",
+   "memo": "Creator plan, monthly",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_ajmbqtde",
+   "date": "2026-05-04",
+   "counterparty": "Sheetz",
+   "amount": 30.63,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "MTO",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_a8btnyqv",
+   "date": "2026-05-04",
+   "counterparty": "Martin's",
+   "amount": 40.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_ah7w34w9",
+   "date": "2026-05-03",
+   "counterparty": "Sheetz",
+   "amount": 9.28,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "MTO",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_kvkcb9zc",
+   "date": "2026-05-02",
+   "counterparty": "Chick-fil-A",
+   "amount": 12.77,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_gh8x9btq",
+   "date": "2026-05-02",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_s3yg8xgq",
+   "date": "2026-05-01",
+   "counterparty": "Mountain View Property Mgmt",
+   "amount": 1150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Rent, apt 4 (SI-1150)",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_k2yvaves",
+   "date": "2026-05-01",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_5qnnnww4",
+   "date": "2026-04-30",
+   "counterparty": "Chipotle",
+   "amount": 13.1,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_r7wsb3d8",
+   "date": "2026-04-27",
+   "counterparty": "Erie Insurance",
+   "amount": 112.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto insurance",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_rvputuh6",
+   "date": "2026-04-26",
+   "counterparty": "Martin's",
+   "amount": 58.07,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_4yfjcdc4",
+   "date": "2026-04-25",
+   "counterparty": "Capital One",
+   "amount": 241.14,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Card payment",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_e4ddp2e2",
+   "date": "2026-04-22",
+   "counterparty": "Chipotle",
+   "amount": 13.44,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_5brz83rm",
+   "date": "2026-04-22",
+   "counterparty": "Sheetz",
+   "amount": 48.8,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "MTO",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_83sefa58",
+   "date": "2026-04-22",
+   "counterparty": "Sheetz",
+   "amount": 7.08,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "MTO",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_6weqnff3",
+   "date": "2026-04-20",
+   "counterparty": "Verizon",
+   "amount": 65.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_grgucgwm",
+   "date": "2026-04-17",
+   "counterparty": "The Home Depot",
+   "amount": 33.73,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_m77g6pu3",
+   "date": "2026-04-17",
+   "counterparty": "Planet Fitness",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Classic membership",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_twpsxaa2",
+   "date": "2026-04-17",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_apm8cv5q",
+   "date": "2026-04-15",
+   "counterparty": "Ally Auto",
+   "amount": 289.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto loan ****0932",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_5ss2wv5c",
+   "date": "2026-04-13",
+   "counterparty": "Potomac Edison",
+   "amount": 61.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electric",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_352bxuyk",
+   "date": "2026-04-09",
+   "counterparty": "Martin's",
+   "amount": 63.86,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_cegwveku",
+   "date": "2026-04-09",
+   "counterparty": "Antietam Broadband",
+   "amount": 64.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_hdkuxnjz",
+   "date": "2026-04-07",
+   "counterparty": "Sheetz",
+   "amount": 16.75,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "fuel",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_xm5v8jsg",
+   "date": "2026-04-07",
+   "counterparty": "PhotoForge",
+   "amount": 29.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit ****2286",
+   "memo": "Creator plan, monthly",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_vdf5ht4s",
+   "date": "2026-04-03",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_7jhjjjsn",
+   "date": "2026-04-02",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_8dxvwvpw",
+   "date": "2026-04-01",
+   "counterparty": "Mountain View Property Mgmt",
+   "amount": 1150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Rent, apt 4 (SI-1150)",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_qk8gx86m",
+   "date": "2026-03-31",
+   "counterparty": "Sheetz",
+   "amount": 32.04,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "MTO",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_e9vjdzng",
+   "date": "2026-03-30",
+   "counterparty": "Sheetz",
+   "amount": 22.06,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "fuel",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_vh9nc5tv",
+   "date": "2026-03-29",
+   "counterparty": "Amazon",
+   "amount": 30.79,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_4z8sepvc",
+   "date": "2026-03-26",
+   "counterparty": "Erie Insurance",
+   "amount": 112.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto insurance",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_zx5r7dhb",
+   "date": "2026-03-25",
+   "counterparty": "Capital One",
+   "amount": 249.63,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Card payment",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_bh3t7sg8",
+   "date": "2026-03-23",
+   "counterparty": "ALDI",
+   "amount": 49.96,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_wxj9d7vg",
+   "date": "2026-03-23",
+   "counterparty": "ALDI",
+   "amount": 29.74,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_dfgh9zaa",
+   "date": "2026-03-21",
+   "counterparty": "Sherwin-Williams",
+   "amount": 64.39,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_pd8vjava",
+   "date": "2026-03-20",
+   "counterparty": "Jordan Ellis",
+   "handle": "@jordan-ellis-hgr",
+   "amount": 250.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo",
+   "memo": "living room mood board + plan",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_8s6cx85z",
+   "date": "2026-03-20",
+   "counterparty": "Verizon",
+   "amount": 65.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_hdbk6xzb",
+   "date": "2026-03-20",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_62tcrtw9",
+   "date": "2026-03-17",
+   "counterparty": "Planet Fitness",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Classic membership",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_3xjyjgv3",
+   "date": "2026-03-16",
+   "counterparty": "Ally Auto",
+   "amount": 289.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto loan ****0932",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_h5ym3gjd",
+   "date": "2026-03-14",
+   "counterparty": "Chick-fil-A",
+   "amount": 13.31,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_t3j3aat2",
+   "date": "2026-03-13",
+   "counterparty": "Potomac Edison",
+   "amount": 80.63,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electric",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_c6rwtcvq",
+   "date": "2026-03-09",
+   "counterparty": "Antietam Broadband",
+   "amount": 64.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_pntss3r3",
+   "date": "2026-03-07",
+   "counterparty": "IKEA",
+   "amount": 389.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Bookcase + desk",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_25fj3xsb",
+   "date": "2026-03-07",
+   "counterparty": "PhotoForge",
+   "amount": 29.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit ****2286",
+   "memo": "Creator plan, monthly",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_xbk3j9z9",
+   "date": "2026-03-06",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_wewtbzuf",
+   "date": "2026-03-04",
+   "counterparty": "Jordan Ellis",
+   "handle": "@jordan-ellis-hgr",
+   "amount": 17.66,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo",
+   "memo": "wings",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_t6kw4kbu",
+   "date": "2026-03-02",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_987prp35",
+   "date": "2026-03-02",
+   "counterparty": "Mountain View Property Mgmt",
+   "amount": 1150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Rent, apt 4 (SI-1150)",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_pxb49xee",
+   "date": "2026-02-28",
+   "counterparty": "ALDI",
+   "amount": 22.09,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_fqfcmf5f",
+   "date": "2026-02-26",
+   "counterparty": "Jordan Ellis",
+   "handle": "@jordan-ellis-hgr",
+   "amount": 18.56,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo",
+   "memo": "concert",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_kka8bcnz",
+   "date": "2026-02-26",
+   "counterparty": "Erie Insurance",
+   "amount": 112.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto insurance",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_v87kstfx",
+   "date": "2026-02-25",
+   "counterparty": "Capital One",
+   "amount": 418.39,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Card payment",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_8st48ba4",
+   "date": "2026-02-20",
+   "counterparty": "Verizon",
+   "amount": 65.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_3nykdhve",
+   "date": "2026-02-20",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_pdejbahy",
+   "date": "2026-02-18",
+   "counterparty": "Starbucks",
+   "amount": 7.38,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_7cmx54rh",
+   "date": "2026-02-17",
+   "counterparty": "The Home Depot",
+   "amount": 85.28,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_3jasp9q7",
+   "date": "2026-02-17",
+   "counterparty": "Planet Fitness",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Classic membership",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_dfkvwwx8",
+   "date": "2026-02-16",
+   "counterparty": "Chick-fil-A",
+   "amount": 10.13,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_qyj35x9s",
+   "date": "2026-02-16",
+   "counterparty": "Ally Auto",
+   "amount": 289.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto loan ****0932",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_cpua5w43",
+   "date": "2026-02-13",
+   "counterparty": "Weis Markets",
+   "amount": 48.23,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_q7bbsvhn",
+   "date": "2026-02-13",
+   "counterparty": "Potomac Edison",
+   "amount": 112.83,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electric",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_s5wa8vhd",
+   "date": "2026-02-12",
+   "counterparty": "Sheetz",
+   "amount": 10.81,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "MTO",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_69uk32sb",
+   "date": "2026-02-09",
+   "counterparty": "Antietam Broadband",
+   "amount": 64.95,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Internet",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_jsxhv9m8",
+   "date": "2026-02-07",
+   "counterparty": "PhotoForge",
+   "amount": 29.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit ****2286",
+   "memo": "Creator plan, monthly",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_xh8sd4ha",
+   "date": "2026-02-06",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_wkdnavsw",
+   "date": "2026-02-05",
+   "counterparty": "Weis Markets",
+   "amount": 18.21,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_7gcy8ch2",
+   "date": "2026-02-04",
+   "counterparty": "Dunkin'",
+   "amount": 5.18,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_mfrnzk9g",
+   "date": "2026-02-02",
+   "counterparty": "Spotify",
+   "amount": 11.99,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Premium",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_d3kn5kjp",
+   "date": "2026-02-02",
+   "counterparty": "Mountain View Property Mgmt",
+   "amount": 1150.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Rent, apt 4 (SI-1150)",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_ytgy49v6",
+   "date": "2026-01-31",
+   "counterparty": "Starbucks",
+   "amount": 7.09,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_m3pdzuph",
+   "date": "2026-01-31",
+   "counterparty": "Sheetz",
+   "amount": 24.47,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "MTO",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_f3y6j9ys",
+   "date": "2026-01-30",
+   "counterparty": "Sherwin-Williams",
+   "amount": 71.25,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_8mmj9wsm",
+   "date": "2026-01-26",
+   "counterparty": "Erie Insurance",
+   "amount": 112.4,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto insurance",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_v6uqppda",
+   "date": "2026-01-25",
+   "counterparty": "Capital One",
+   "amount": 240.62,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Card payment",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_sz47ktux",
+   "date": "2026-01-23",
+   "counterparty": "Sheetz",
+   "amount": 39.11,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "MTO",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_n98ecsua",
+   "date": "2026-01-23",
+   "counterparty": "Linden & Row Interiors",
+   "amount": 1212.4,
+   "currency": "USD",
+   "direction": "in",
+   "type": "payroll (ACH)",
+   "memo": "Payroll",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_284nmwym",
+   "date": "2026-01-22",
+   "counterparty": "Buffalo Wild Wings",
+   "amount": 36.47,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_ysr7e2yn",
+   "date": "2026-01-20",
+   "counterparty": "Verizon",
+   "amount": 65.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "autopay",
+   "memo": "Wireless",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_2puywumd",
+   "date": "2026-01-18",
+   "counterparty": "Martin's",
+   "amount": 86.12,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_33zeqzwe",
+   "date": "2026-01-17",
+   "counterparty": "Planet Fitness",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Visa debit",
+   "memo": "Classic membership",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_9gptvpbr",
+   "date": "2026-01-15",
+   "counterparty": "Ally Auto",
+   "amount": 289.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "ACH",
+   "memo": "Auto loan ****0932",
+   "account": "CHK-2286"
+  },
+  {
+   "id": "txn_4gutqpq2",
+   "date": "2026-01-13",
+   "counterparty": "Potomac Edison",
+   "amount": 117.48,
+   "currency": "USD",
+   "direction": "out",
+   "type": "bill pay",
+   "memo": "Electric",
+   "account": "CHK-2286"
+  }
+ ],
+ "_meta": {
+  "env_id": "bills",
+  "seed_pairs": [
+   "S36"
+  ],
+  "rng_seed": 20261118,
+  "generator": "envs/bills/build_members.py",
+  "history_window": [
+   "2026-01-12",
+   "2026-11-12"
+  ],
+  "decisive_transactions": [
+   {
+    "id": "txn_56cdkas7",
+    "date": "2026-11-07",
+    "fact": "latest PhotoForge $29.99 monthly charge (Creator plan)"
+   }
+  ]
+ }
+}

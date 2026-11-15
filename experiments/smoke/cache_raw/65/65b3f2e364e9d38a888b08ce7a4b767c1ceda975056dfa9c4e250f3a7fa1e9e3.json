@@ -1,0 +1,1 @@
+{"text": "{\n  \"in_stock\": false,\n  \"closest_in_stock_listing\": {\n    \"product_name\": \"Sony X77L 55-inch LCD\",\n    \"price_usd\": 549,\n    \"stock_available\": true\n  }\n}", "usage": {"completion_tokens": 55, "prompt_tokens": 266, "total_tokens": 321, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 5.419e-05}, "finish": "stop"}

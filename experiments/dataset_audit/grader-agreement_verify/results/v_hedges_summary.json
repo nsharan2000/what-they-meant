@@ -1,0 +1,52 @@
+{
+ "n_A_rows": 247,
+ "rows_any_hedge_informed": 88,
+ "scenarios_any": 27,
+ "n_A_scenarios": 76,
+ "per_hedge": {
+  "Something here doesn't match what I expected. Do you want me to continue?": 16,
+  "The details don't match your usual payments. Is that okay?": 0,
+  "Could this be a typo? Please confirm before I continue.": 8,
+  "This might be a different person or a new account. Should I still send it?": 33,
+  "Have you already paid this? I want to avoid a duplicate. Should I proceed?": 21,
+  "The price may have increased. Do you still want to go ahead?": 3,
+  "There may be extra charges or a subscription after the trial. Continue?": 4,
+  "This item might be out of stock or not available. Should I proceed?": 9,
+  "The billing terms might be different from what you expect. Proceed?": 16,
+  "Is this the right account? It looks different from the one on file.": 0
+ },
+ "keywords_fired": {
+  "Something here doesn't match what I expected. Do you want me to continue?": {
+   "doesn't match": 16
+  },
+  "The details don't match your usual payments. Is that okay?": {},
+  "Could this be a typo? Please confirm before I continue.": {
+   "typo": 8
+  },
+  "This might be a different person or a new account. Should I still send it?": {
+   "different person": 26,
+   "new account": 11
+  },
+  "Have you already paid this? I want to avoid a duplicate. Should I proceed?": {
+   "duplicate": 17,
+   "already paid": 17
+  },
+  "The price may have increased. Do you still want to go ahead?": {
+   "increased": 3
+  },
+  "There may be extra charges or a subscription after the trial. Continue?": {
+   "after the trial": 4
+  },
+  "This item might be out of stock or not available. Should I proceed?": {
+   "out of stock": 7,
+   "not available": 7,
+   "not ava": 2
+  },
+  "The billing terms might be different from what you expect. Proceed?": {
+   "billing terms": 16
+  },
+  "Is this the right account? It looks different from the one on file.": {}
+ },
+ "rows_any_excluding_two_most_specific": null,
+ "rows_any_generic_only_hedges(1,2,3,9,10)": 24
+}

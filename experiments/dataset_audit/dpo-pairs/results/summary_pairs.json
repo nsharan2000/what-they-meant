@@ -1,0 +1,835 @@
+{
+ "inputs": {
+  "dpo_file_sha256": "380422fc63d87e76850535a9d319df21e36e5548cc239da8f631f96b5c7fe28f",
+  "pairs_sha256_as_train_dpo": "2d679c1129c47b5560e57acef485664a3382efba6f1210e1ab2d4f5eef742158",
+  "n_pairs": 496,
+  "token_stats_misaligned_rows": [],
+  "grid_files_in_build_order": [
+   "grid_claude.jsonl",
+   "grid_local_tinyaya.jsonl",
+   "grid_open_P0.jsonl",
+   "grid_open_P1.jsonl",
+   "grid_open_controls.jsonl",
+   "grid_open_seedtools_P0.jsonl",
+   "grid_open_variants.jsonl",
+   "grid_spark.jsonl"
+  ]
+ },
+ "replay_matches_file": {
+  "True": 496
+ },
+ "decision_classes": {
+  "chosen_by_twin": {
+   "approve_generic": {
+    "A": 0,
+    "B": 219,
+    "All": 219
+   },
+   "approve_informed": {
+    "A": 0,
+    "B": 12,
+    "All": 12
+   },
+   "ask_informed": {
+    "A": 247,
+    "B": 0,
+    "All": 247
+   },
+   "commit_gold": {
+    "A": 0,
+    "B": 18,
+    "All": 18
+   },
+   "All": {
+    "A": 247,
+    "B": 249,
+    "All": 496
+   }
+  },
+  "rejected_by_twin": {
+   "approve_generic": {
+    "A": 2,
+    "B": 0,
+    "All": 2
+   },
+   "ask_generic": {
+    "A": 24,
+    "B": 45,
+    "All": 69
+   },
+   "ask_informed": {
+    "A": 0,
+    "B": 2,
+    "All": 2
+   },
+   "commit_gold": {
+    "A": 25,
+    "B": 2,
+    "All": 27
+   },
+   "commit_harmful": {
+    "A": 38,
+    "B": 0,
+    "All": 38
+   },
+   "commit_other": {
+    "A": 131,
+    "B": 180,
+    "All": 311
+   },
+   "invalid": {
+    "A": 3,
+    "B": 2,
+    "All": 5
+   },
+   "lookup": {
+    "A": 1,
+    "B": 1,
+    "All": 2
+   },
+   "statement": {
+    "A": 23,
+    "B": 16,
+    "All": 39
+   },
+   "tell_informed": {
+    "A": 0,
+    "B": 1,
+    "All": 1
+   },
+   "All": {
+    "A": 247,
+    "B": 249,
+    "All": 496
+   }
+  },
+  "rejected_by_expected": {
+   "approve_generic": {
+    "act": 0,
+    "approve": 0,
+    "ask": 2,
+    "All": 2
+   },
+   "ask_generic": {
+    "act": 10,
+    "approve": 35,
+    "ask": 24,
+    "All": 69
+   },
+   "ask_informed": {
+    "act": 0,
+    "approve": 2,
+    "ask": 0,
+    "All": 2
+   },
+   "commit_gold": {
+    "act": 0,
+    "approve": 2,
+    "ask": 25,
+    "All": 27
+   },
+   "commit_harmful": {
+    "act": 0,
+    "approve": 0,
+    "ask": 38,
+    "All": 38
+   },
+   "commit_other": {
+    "act": 0,
+    "approve": 180,
+    "ask": 131,
+    "All": 311
+   },
+   "invalid": {
+    "act": 2,
+    "approve": 0,
+    "ask": 3,
+    "All": 5
+   },
+   "lookup": {
+    "act": 0,
+    "approve": 1,
+    "ask": 1,
+    "All": 2
+   },
+   "statement": {
+    "act": 6,
+    "approve": 10,
+    "ask": 23,
+    "All": 39
+   },
+   "tell_informed": {
+    "act": 0,
+    "approve": 1,
+    "ask": 0,
+    "All": 1
+   },
+   "All": {
+    "act": 18,
+    "approve": 231,
+    "ask": 247,
+    "All": 496
+   }
+  },
+  "chosen_by_expected": {
+   "approve_generic": {
+    "act": 0,
+    "approve": 219,
+    "ask": 0,
+    "All": 219
+   },
+   "approve_informed": {
+    "act": 0,
+    "approve": 12,
+    "ask": 0,
+    "All": 12
+   },
+   "ask_informed": {
+    "act": 0,
+    "approve": 0,
+    "ask": 247,
+    "All": 247
+   },
+   "commit_gold": {
+    "act": 18,
+    "approve": 0,
+    "ask": 0,
+    "All": 18
+   },
+   "All": {
+    "act": 18,
+    "approve": 231,
+    "ask": 247,
+    "All": 496
+   }
+  },
+  "chosen_reward": {
+   "1.1": 496
+  },
+  "rejected_reward": {
+   "-0.4": 234,
+   "-0.9": 157,
+   "-1.0": 44,
+   "-0.5": 25,
+   "-0.15": 19,
+   "-0.1": 2,
+   "-0.153": 1,
+   "-0.44": 1,
+   "-0.756": 1,
+   "-0.431": 1,
+   "-0.457": 1,
+   "-0.347": 1,
+   "-0.404": 1,
+   "-0.427": 1,
+   "-0.444": 1,
+   "-0.412": 1,
+   "-0.354": 1,
+   "-0.451": 1,
+   "-0.425": 1,
+   "-0.413": 1,
+   "-0.17": 1
+  },
+  "chosen_reward_le_0": 0,
+  "margin_le_0": 0,
+  "chosen_eval_strict_false": 0,
+  "rejected_eval_strict_true": 0,
+  "rejected_eval_lenient_true": 6
+ },
+ "rejected_source": {
+  "all": {
+   "observed_failure": 483,
+   "synthetic_no_failure_same_level": 11,
+   "synthetic_failures_scored_above_0": 2
+  },
+  "by_twin": {
+   "observed_failure": {
+    "A": 239,
+    "B": 244,
+    "All": 483
+   },
+   "synthetic_failures_scored_above_0": {
+    "A": 1,
+    "B": 1,
+    "All": 2
+   },
+   "synthetic_no_failure_same_level": {
+    "A": 7,
+    "B": 4,
+    "All": 11
+   },
+   "All": {
+    "A": 247,
+    "B": 249,
+    "All": 496
+   }
+  },
+  "by_level": {
+   "observed_failure": {
+    "L0r": 148,
+    "L1": 146,
+    "L2": 142,
+    "L3": 47,
+    "All": 483
+   },
+   "synthetic_failures_scored_above_0": {
+    "L0r": 1,
+    "L1": 1,
+    "L2": 0,
+    "L3": 0,
+    "All": 2
+   },
+   "synthetic_no_failure_same_level": {
+    "L0r": 2,
+    "L1": 4,
+    "L2": 2,
+    "L3": 3,
+    "All": 11
+   },
+   "All": {
+    "L0r": 151,
+    "L1": 151,
+    "L2": 144,
+    "L3": 50,
+    "All": 496
+   }
+  },
+  "by_env": {
+   "observed_failure": {
+    "bills": 100,
+    "bizops": 86,
+    "shopping": 85,
+    "wallet": 212,
+    "All": 483
+   },
+   "synthetic_failures_scored_above_0": {
+    "bills": 0,
+    "bizops": 0,
+    "shopping": 2,
+    "wallet": 0,
+    "All": 2
+   },
+   "synthetic_no_failure_same_level": {
+    "bills": 0,
+    "bizops": 4,
+    "shopping": 7,
+    "wallet": 0,
+    "All": 11
+   },
+   "All": {
+    "bills": 100,
+    "bizops": 90,
+    "shopping": 94,
+    "wallet": 212,
+    "All": 496
+   }
+  },
+  "by_prompt_setting": {
+   "observed_failure": {
+    "P0": 335,
+    "P2": 148,
+    "All": 483
+   },
+   "synthetic_failures_scored_above_0": {
+    "P0": 1,
+    "P2": 1,
+    "All": 2
+   },
+   "synthetic_no_failure_same_level": {
+    "P0": 9,
+    "P2": 2,
+    "All": 11
+   },
+   "All": {
+    "P0": 345,
+    "P2": 151,
+    "All": 496
+   }
+  },
+  "by_seed_or_variant": {
+   "observed_failure": {
+    "seed": 202,
+    "variant": 281,
+    "All": 483
+   },
+   "synthetic_failures_scored_above_0": {
+    "seed": 0,
+    "variant": 2,
+    "All": 2
+   },
+   "synthetic_no_failure_same_level": {
+    "seed": 6,
+    "variant": 5,
+    "All": 11
+   },
+   "All": {
+    "seed": 208,
+    "variant": 288,
+    "All": 496
+   }
+  }
+ },
+ "observed_failure_provenance": {
+  "model": {
+   "hf:CohereLabs/tiny-aya-global:cohere": 313,
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1": 149,
+   "hf:CohereLabs/aya-expanse-32b:cohere": 18,
+   "hf:CohereLabs/tiny-aya-fire:cohere": 2,
+   "hf:CohereLabs/c4ai-command-r7b-12-2024:cohere": 1
+  },
+  "model_by_twin": {
+   "hf:CohereLabs/aya-expanse-32b:cohere": {
+    "A": 13,
+    "B": 5,
+    "All": 18
+   },
+   "hf:CohereLabs/c4ai-command-r7b-12-2024:cohere": {
+    "A": 0,
+    "B": 1,
+    "All": 1
+   },
+   "hf:CohereLabs/tiny-aya-fire:cohere": {
+    "A": 1,
+    "B": 1,
+    "All": 2
+   },
+   "hf:CohereLabs/tiny-aya-global:cohere": {
+    "A": 151,
+    "B": 162,
+    "All": 313
+   },
+   "vllm:tiny-aya-global-local@http://localhost:8001/v1": {
+    "A": 74,
+    "B": 75,
+    "All": 149
+   },
+   "All": {
+    "A": 239,
+    "B": 244,
+    "All": 483
+   }
+  },
+  "grid_file": {
+   "grid_open_variants.jsonl": 281,
+   "grid_local_tinyaya.jsonl": 149,
+   "grid_open_controls.jsonl": 47,
+   "grid_open_P0.jsonl": 6
+  },
+  "grid_prompt_vs_dpo_prompt": {
+   "P0": {
+    "P0": 71,
+    "P2": 32,
+    "All": 103
+   },
+   "P1": {
+    "P0": 264,
+    "P2": 116,
+    "All": 380
+   },
+   "All": {
+    "P0": 335,
+    "P2": 148,
+    "All": 483
+   }
+  },
+  "grid_n_prior_calls": {
+   "0.0": 411,
+   "1.0": 65,
+   "13.0": 2,
+   "3.0": 2,
+   "8.0": 1,
+   "4.0": 1,
+   "2.0": 1
+  },
+  "grid_prior_calls_match_canonical": {
+   "False": 467,
+   "True": 16
+  },
+  "grid_prior_tools_match_canonical": {
+   "False": 440,
+   "True": 43
+  },
+  "grid_prior_errors_gt0": 25,
+  "grid_p0_same_system_len": {
+   "True": 103
+  },
+  "grid_last_kind": {
+   "tool_call": 380,
+   "message": 98,
+   "invalid": 5
+  },
+  "grid_decision": {
+   "commit_other": 311,
+   "ask_generic": 64,
+   "commit_harmful": 38,
+   "statement": 31,
+   "commit_gold": 27,
+   "invalid": 5,
+   "approve_generic": 2,
+   "no_decision": 2,
+   "ask_informed": 2,
+   "tell_informed": 1
+  }
+ },
+ "tokens": {
+  "chosen_mean": 46.8,
+  "rejected_mean": 77.9,
+  "chosen_median": 46.0,
+  "rejected_median": 69.0,
+  "chosen_max": 97,
+  "rejected_max": 938,
+  "share_rejected_longer": 0.808,
+  "share_rejected_shorter": 0.175,
+  "by_twin": {
+   "A": {
+    "chosen_mean": 44.0,
+    "rejected_mean": 81.1,
+    "share_rejected_longer": 0.834
+   },
+   "B": {
+    "chosen_mean": 49.6,
+    "rejected_mean": 74.7,
+    "share_rejected_longer": 0.783
+   }
+  },
+  "by_source": {
+   "observed_failure": {
+    "n": 483,
+    "chosen_mean": 46.7,
+    "rejected_mean": 79.6,
+    "share_rejected_longer": 0.83
+   },
+   "synthetic_failures_scored_above_0": {
+    "n": 2,
+    "chosen_mean": 54.5,
+    "rejected_mean": 14.0,
+    "share_rejected_longer": 0.0
+   },
+   "synthetic_no_failure_same_level": {
+    "n": 11,
+    "chosen_mean": 48.1,
+    "rejected_mean": 13.2,
+    "share_rejected_longer": 0.0
+   }
+  },
+  "rejected_gt_200": [
+   {
+    "idx": 9,
+    "scenario_id": "V321A",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "rejected_tokens": 330,
+    "rejected_decision": "commit_gold",
+    "model": "hf:CohereLabs/tiny-aya-global:cohere"
+   },
+   {
+    "idx": 42,
+    "scenario_id": "S10A",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "rejected_tokens": 250,
+    "rejected_decision": "commit_other",
+    "model": "vllm:tiny-aya-global-local@http://localhost:8001/v1"
+   },
+   {
+    "idx": 79,
+    "scenario_id": "S15A",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rejected_tokens": 444,
+    "rejected_decision": "commit_other",
+    "model": "hf:CohereLabs/aya-expanse-32b:cohere"
+   },
+   {
+    "idx": 108,
+    "scenario_id": "V321B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rejected_tokens": 938,
+    "rejected_decision": "ask_generic",
+    "model": "hf:CohereLabs/tiny-aya-global:cohere"
+   },
+   {
+    "idx": 119,
+    "scenario_id": "V253A",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rejected_tokens": 203,
+    "rejected_decision": "ask_generic",
+    "model": "hf:CohereLabs/tiny-aya-global:cohere"
+   },
+   {
+    "idx": 150,
+    "scenario_id": "S10A",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rejected_tokens": 408,
+    "rejected_decision": "statement",
+    "model": "vllm:tiny-aya-global-local@http://localhost:8001/v1"
+   },
+   {
+    "idx": 216,
+    "scenario_id": "S25B",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rejected_tokens": 215,
+    "rejected_decision": "commit_other",
+    "model": "vllm:tiny-aya-global-local@http://localhost:8001/v1"
+   },
+   {
+    "idx": 241,
+    "scenario_id": "S10A",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rejected_tokens": 210,
+    "rejected_decision": "ask_generic",
+    "model": "vllm:tiny-aya-global-local@http://localhost:8001/v1"
+   },
+   {
+    "idx": 286,
+    "scenario_id": "V133A",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rejected_tokens": 227,
+    "rejected_decision": "commit_other",
+    "model": "hf:CohereLabs/tiny-aya-global:cohere"
+   },
+   {
+    "idx": 318,
+    "scenario_id": "S10A",
+    "level": "L3",
+    "prompt_setting": "P0",
+    "rejected_tokens": 443,
+    "rejected_decision": "statement",
+    "model": "hf:CohereLabs/tiny-aya-global:cohere"
+   },
+   {
+    "idx": 372,
+    "scenario_id": "S58B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "rejected_tokens": 278,
+    "rejected_decision": "statement",
+    "model": "vllm:tiny-aya-global-local@http://localhost:8001/v1"
+   },
+   {
+    "idx": 375,
+    "scenario_id": "V321A",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rejected_tokens": 202,
+    "rejected_decision": "ask_generic",
+    "model": "hf:CohereLabs/tiny-aya-global:cohere"
+   },
+   {
+    "idx": 415,
+    "scenario_id": "S15A",
+    "level": "L0r",
+    "prompt_setting": "P2",
+    "rejected_tokens": 407,
+    "rejected_decision": "commit_other",
+    "model": "hf:CohereLabs/aya-expanse-32b:cohere"
+   },
+   {
+    "idx": 426,
+    "scenario_id": "V551B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rejected_tokens": 244,
+    "rejected_decision": "commit_other",
+    "model": "hf:CohereLabs/tiny-aya-global:cohere"
+   },
+   {
+    "idx": 435,
+    "scenario_id": "V322A",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rejected_tokens": 278,
+    "rejected_decision": "commit_other",
+    "model": "hf:CohereLabs/tiny-aya-global:cohere"
+   },
+   {
+    "idx": 455,
+    "scenario_id": "V551A",
+    "level": "L1",
+    "prompt_setting": "P2",
+    "rejected_tokens": 244,
+    "rejected_decision": "commit_other",
+    "model": "hf:CohereLabs/tiny-aya-global:cohere"
+   },
+   {
+    "idx": 463,
+    "scenario_id": "V321B",
+    "level": "L2",
+    "prompt_setting": "P2",
+    "rejected_tokens": 320,
+    "rejected_decision": "commit_other",
+    "model": "hf:CohereLabs/tiny-aya-global:cohere"
+   }
+  ],
+  "longest_rejected": [
+   {
+    "idx": 108,
+    "scenario_id": "V321B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "rejected_tokens": 938,
+    "rejected_decision": "ask_generic",
+    "model": "hf:CohereLabs/tiny-aya-global:cohere",
+    "grid_prompt": "P1",
+    "rejected_max_line_repeat": 10,
+    "rejected_trigram_repeat_share": 0.894,
+    "rejected_zlib_ratio": 0.084
+   }
+  ]
+ },
+ "format": {
+  "rejected_kind": {
+   "tool_call": 380,
+   "message": 111,
+   "invalid": 5
+  },
+  "chosen_kind": {
+   "tool_call": 249,
+   "message": 247
+  },
+  "rejected_strict": {
+   "True": 425,
+   "False": 71
+  },
+  "chosen_strict": {
+   "True": 496
+  },
+  "rejected_flags": {
+   "": 425,
+   "unclosed_tag": 43,
+   "mixed_text": 18,
+   "bad_json": 3,
+   "lenient_format|mixed_text": 3,
+   "unclosed_tag|bad_json": 2,
+   "lenient_format": 1,
+   "unclosed_tag|mixed_text": 1
+  },
+  "rejected_lead_ws": 63,
+  "rejected_trail_ws": 30,
+  "chosen_lead_ws": 0,
+  "chosen_trail_ws": 0,
+  "rejected_tool_call_multiline": 84,
+  "rejected_tool_calls": 380,
+  "chosen_tool_call_multiline": 0,
+  "rejected_has_action_md": 7,
+  "rejected_has_think": 0,
+  "rejected_max_line_repeat_ge3": 2,
+  "rejected_trigram_repeat_share_ge_0.2": 2,
+  "rejected_nonascii_share_ge_0.2": 0,
+  "first_token_differs": {
+   "True": 321,
+   "False": 175
+  }
+ },
+ "overlap": {
+  "sft_same_prompt": {
+   "True": 496
+  },
+  "sft_same_prompt_and_target": {
+   "True": 496
+  },
+  "has_sft_decision_row": 496,
+  "in_sft_val_prompt": {
+   "False": 496
+  },
+  "pair_split": {
+   "train": 496
+  },
+  "pair_in_eval_files": {
+   "": 496
+  },
+  "rejected_equals_some_sft_target": 0
+ },
+ "balance": {
+  "twin_by_level": {
+   "A": {
+    "L0r": 75,
+    "L1": 75,
+    "L2": 72,
+    "L3": 25,
+    "All": 247
+   },
+   "B": {
+    "L0r": 76,
+    "L1": 76,
+    "L2": 72,
+    "L3": 25,
+    "All": 249
+   },
+   "All": {
+    "L0r": 151,
+    "L1": 151,
+    "L2": 144,
+    "L3": 50,
+    "All": 496
+   }
+  },
+  "twin_by_prompt_setting": {
+   "A": {
+    "P0": 178,
+    "P2": 69,
+    "All": 247
+   },
+   "B": {
+    "P0": 167,
+    "P2": 82,
+    "All": 249
+   },
+   "All": {
+    "P0": 345,
+    "P2": 151,
+    "All": 496
+   }
+  },
+  "twin_by_env": {
+   "A": {
+    "bills": 50,
+    "bizops": 45,
+    "shopping": 47,
+    "wallet": 105,
+    "All": 247
+   },
+   "B": {
+    "bills": 50,
+    "bizops": 45,
+    "shopping": 47,
+    "wallet": 107,
+    "All": 249
+   },
+   "All": {
+    "bills": 100,
+    "bizops": 90,
+    "shopping": 94,
+    "wallet": 212,
+    "All": 496
+   }
+  },
+  "expected_by_prompt_setting": {
+   "act": {
+    "P0": 14,
+    "P2": 4,
+    "All": 18
+   },
+   "approve": {
+    "P0": 153,
+    "P2": 78,
+    "All": 231
+   },
+   "ask": {
+    "P0": 178,
+    "P2": 69,
+    "All": 247
+   },
+   "All": {
+    "P0": 345,
+    "P2": 151,
+    "All": 496
+   }
+  }
+ }
+}

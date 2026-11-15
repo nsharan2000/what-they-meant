@@ -1,0 +1,1 @@
+{"text": "{\"invoice_number\": \"INV-1045\", \"vendor_name\": \"ABC Supplies Ltd\", \"amount_usd\": 4820.00, \"payment_status\": \"paid\", \"payment_date\": \"2023-11-03\"}", "usage": {"completion_tokens": 59, "prompt_tokens": 294, "total_tokens": 353, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 5.8910000000000003e-05}, "finish": "stop"}

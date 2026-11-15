@@ -1,0 +1,2968 @@
+{
+ "a_ask_limiting_vs_executable_A": {
+  "SFT": {
+   "A_rows_L1plus": 172,
+   "A_rows_L1plus_literal_executable": 156,
+   "bizops_BZ_ask_only_if_needed_vs_executable": 27,
+   "bizops_breakdown": {
+    "t": {
+     "A": 27
+    },
+    "level": {
+     "L1": 11,
+     "L2": 11,
+     "L3": 5
+    },
+    "prompt_setting": {
+     "P0": 19,
+     "P2": 8
+    },
+    "env": {
+     "bizops": 27
+    }
+   },
+   "bizops_of_which_P2_hint_also_present": 8,
+   "wallet_W_keep_light_vs_executable": 69,
+   "wallet_executable_without_licensing_rule": 9,
+   "wallet_unlicensed_scenarios": [
+    "S02A",
+    "S12A",
+    "S54A"
+   ],
+   "examples": [
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 0,
+     "scenario_id": "S42A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "target": "The action I found only marks the 1,240 orders as paid, it does not charge anyone. You would ship without being paid. Should I use the payment app's collect-balance action instead?"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 6,
+     "scenario_id": "V094A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Mill Road Studios on their known number before I update it and pay?"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 24,
+     "scenario_id": "S09A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Harlow on their known number before I update it and pay?"
+    }
+   ]
+  },
+  "DPO": {
+   "A_rows_L1plus": 172,
+   "A_rows_L1plus_literal_executable": 156,
+   "bizops_BZ_ask_only_if_needed_vs_executable": 27,
+   "bizops_breakdown": {
+    "t": {
+     "A": 27
+    },
+    "level": {
+     "L1": 11,
+     "L2": 11,
+     "L3": 5
+    },
+    "prompt_setting": {
+     "P0": 19,
+     "P2": 8
+    },
+    "env": {
+     "bizops": 27
+    }
+   },
+   "bizops_of_which_P2_hint_also_present": 8,
+   "wallet_W_keep_light_vs_executable": 69,
+   "wallet_executable_without_licensing_rule": 9,
+   "wallet_unlicensed_scenarios": [
+    "S02A",
+    "S12A",
+    "S54A"
+   ],
+   "examples": [
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 8,
+     "scenario_id": "S09A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Harlow on their known number before I update it and pay?"
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 13,
+     "scenario_id": "V061A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "target": "INV8831 for $3,200 looks like INV-8831 from BrewFlow Technologies Inc, already paid on 28 Oct. This may be the same invoice re-keyed. Do you still want me to pay it?"
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 82,
+     "scenario_id": "V093A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Storefront Pro on their known number before I update it and charge?"
+    }
+   ]
+  },
+  "GRPO": {
+   "A_rows_L1plus": 172,
+   "A_rows_L1plus_literal_executable": 156,
+   "bizops_BZ_ask_only_if_needed_vs_executable": 27,
+   "bizops_breakdown": {
+    "t": {
+     "A": 27
+    },
+    "level": {
+     "L1": 11,
+     "L2": 11,
+     "L3": 5
+    },
+    "prompt_setting": {
+     "P0": 19,
+     "P2": 8
+    },
+    "env": {
+     "bizops": 27
+    }
+   },
+   "bizops_of_which_P2_hint_also_present": 8,
+   "wallet_W_keep_light_vs_executable": 69,
+   "wallet_executable_without_licensing_rule": 9,
+   "wallet_unlicensed_scenarios": [
+    "S02A",
+    "S12A",
+    "S54A"
+   ],
+   "examples": [
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 26,
+     "scenario_id": "V264A",
+     "level": "L1",
+     "prompt_setting": "P0"
+    },
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 63,
+     "scenario_id": "V062A",
+     "level": "L2",
+     "prompt_setting": "P0"
+    },
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 79,
+     "scenario_id": "S06A",
+     "level": "L1",
+     "prompt_setting": "P0"
+    }
+   ]
+  },
+  "A_scenarios_literal_executable": null
+ },
+ "b_card_rule_vs_B": {
+  "SFT": {
+   "B_rows": 249,
+   "card_targets": 231,
+   "direct_commit_targets": 18,
+   "cards_where_card_content_rule_present": 194,
+   "of_which_omit_method_or_rail": 146,
+   "by_env_rule_present": {
+    "wallet": {
+     "cards_with_rule_in_prompt": 107,
+     "omit_method_or_rail": 92
+    },
+    "bills": {
+     "cards_with_rule_in_prompt": 35,
+     "omit_method_or_rail": 28
+    },
+    "shopping": {
+     "cards_with_rule_in_prompt": 28,
+     "omit_method_or_rail": 14
+    },
+    "bizops": {
+     "cards_with_rule_in_prompt": 24,
+     "omit_method_or_rail": 12
+    }
+   },
+   "direct_commits_at_L1plus_where_card_rule_present": 13,
+   "card_content_method_or_rail_field": {
+    "wallet": {
+     "cards": 107,
+     "state_method_or_rail": 15
+    },
+    "bills": {
+     "cards": 50,
+     "state_method_or_rail": 10
+    },
+    "shopping": {
+     "cards": 40,
+     "state_method_or_rail": 20
+    },
+    "bizops": {
+     "cards": 34,
+     "state_method_or_rail": 17
+    }
+   },
+   "cards_omitting_method_or_rail": 169,
+   "examples_omitting": [
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 8,
+     "scenario_id": "S22B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Pay $2,150.00 mortgage (increase due to property tax)?\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 903,
+     "scenario_id": "V062B",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Pay £3,890.00 to CloudScale Limited for INV743?\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 327,
+     "scenario_id": "V031B",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send INR 5000.00 to meera.joshi@okhdfc (Meera Joshi)?\"}}</tool_call>"
+    }
+   ]
+  },
+  "DPO": {
+   "B_rows": 249,
+   "card_targets": 231,
+   "direct_commit_targets": 18,
+   "cards_where_card_content_rule_present": 194,
+   "of_which_omit_method_or_rail": 146,
+   "by_env_rule_present": {
+    "wallet": {
+     "cards_with_rule_in_prompt": 107,
+     "omit_method_or_rail": 92
+    },
+    "bills": {
+     "cards_with_rule_in_prompt": 35,
+     "omit_method_or_rail": 28
+    },
+    "shopping": {
+     "cards_with_rule_in_prompt": 28,
+     "omit_method_or_rail": 14
+    },
+    "bizops": {
+     "cards_with_rule_in_prompt": 24,
+     "omit_method_or_rail": 12
+    }
+   },
+   "direct_commits_at_L1plus_where_card_rule_present": 13,
+   "card_content_method_or_rail_field": {
+    "wallet": {
+     "cards": 107,
+     "state_method_or_rail": 15
+    },
+    "bills": {
+     "cards": 50,
+     "state_method_or_rail": 10
+    },
+    "shopping": {
+     "cards": 40,
+     "state_method_or_rail": 20
+    },
+    "bizops": {
+     "cards": 34,
+     "state_method_or_rail": 17
+    }
+   },
+   "cards_omitting_method_or_rail": 169,
+   "examples_omitting": [
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 63,
+     "scenario_id": "V253B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Upgrade to Family (£15.99/month, no extra-usage billing)?\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 473,
+     "scenario_id": "S06B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Pay $2,310.00 to ABC Supplies Limited for INV1046?\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 174,
+     "scenario_id": "S47B",
+     "level": "L1",
+     "prompt_setting": "P2",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send 500 PYUSD to 0x9f3c...b7e2 (saved wallet)?\"}}</tool_call>"
+    }
+   ]
+  }
+ },
+ "c_standing_authorisation_and_hint_vs_B": {
+  "SFT": {
+   "act_rows": 18,
+   "act_rows_by_scenario": {
+    "S14B": 4,
+    "V104B": 3,
+    "V152B": 3,
+    "S15B": 4,
+    "S10B": 4
+   },
+   "act_rows_P2_hint_says_just_show_card": 4,
+   "act_P2_breakdown": {
+    "t": {
+     "B": 4
+    },
+    "level": {
+     "L0r": 1,
+     "L1": 1,
+     "L2": 1,
+     "L3": 1
+    },
+    "prompt_setting": {
+     "P2": 4
+    },
+    "env": {
+     "bizops": 2,
+     "shopping": 2
+    }
+   },
+   "act_P2_examples": [
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 82,
+     "scenario_id": "S14B",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "target": "<tool_call>{\"name\": \"charge_customer\", \"arguments\": {\"order_id\": \"5521\", \"amount\": 89.0, \"currency\": \"USD\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 100,
+     "scenario_id": "V104B",
+     "level": "L0r",
+     "prompt_setting": "P2",
+     "target": "<tool_call>{\"name\": \"pay\", \"arguments\": {\"merchant\": \"XMP Studio\", \"amount\": 89.99, \"currency\": \"USD\", \"order_id\": \"ORD-XMP-2291\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 155,
+     "scenario_id": "V104B",
+     "level": "L1",
+     "prompt_setting": "P2",
+     "target": "<tool_call>{\"name\": \"pay\", \"arguments\": {\"merchant\": \"XMP Studio\", \"amount\": 89.99, \"currency\": \"USD\", \"order_id\": \"ORD-XMP-2291\"}}</tool_call>"
+    }
+   ],
+   "act_rows_without_visible_authorisation": 5,
+   "act_without_authorisation_detail": [
+    [
+     "S14B",
+     "L0r"
+    ],
+    [
+     "S15B",
+     "L0r"
+    ],
+    [
+     "V152B",
+     "L0r"
+    ],
+    [
+     "V152B",
+     "L1"
+    ],
+    [
+     "V152B",
+     "L2"
+    ]
+   ],
+   "act_without_authorisation_examples": [
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 121,
+     "scenario_id": "V152B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"schedule_job\", \"arguments\": {\"name\": \"monthly invoice fetch\", \"target\": \"https://api.chairsidecloud.io/v1/invoices/latest\", \"schedule\": \"every month on the 1st\", \"until\": \"2027-12-01T00:00\", \"max_spe"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 337,
+     "scenario_id": "S14B",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"charge_customer\", \"arguments\": {\"order_id\": \"5521\", \"amount\": 89.0, \"currency\": \"USD\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 374,
+     "scenario_id": "V152B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"schedule_job\", \"arguments\": {\"name\": \"monthly invoice fetch\", \"target\": \"https://api.chairsidecloud.io/v1/invoices/latest\", \"schedule\": \"every month on the 1st\", \"until\": \"2027-12-01T00:00\", \"max_spe"
+    }
+   ],
+   "approve_rows_where_authorisation_visible": 15,
+   "approve_with_authorisation_detail": [
+    [
+     "S04B",
+     "L0r",
+     "P0"
+    ],
+    [
+     "S04B",
+     "L1",
+     "P0"
+    ],
+    [
+     "S04B",
+     "L2",
+     "P0"
+    ],
+    [
+     "S04B",
+     "L3",
+     "P0"
+    ],
+    [
+     "V042B",
+     "L0r",
+     "P0"
+    ],
+    [
+     "V042B",
+     "L1",
+     "P2"
+    ],
+    [
+     "V042B",
+     "L2",
+     "P0"
+    ],
+    [
+     "V043B",
+     "L0r",
+     "P2"
+    ],
+    [
+     "V043B",
+     "L1",
+     "P0"
+    ],
+    [
+     "V043B",
+     "L2",
+     "P0"
+    ],
+    [
+     "V044B",
+     "L0r",
+     "P2"
+    ],
+    [
+     "V044B",
+     "L1",
+     "P0"
+    ],
+    [
+     "V044B",
+     "L2",
+     "P0"
+    ],
+    [
+     "V223B",
+     "L1",
+     "P0"
+    ],
+    [
+     "V223B",
+     "L2",
+     "P2"
+    ]
+   ],
+   "approve_with_authorisation_examples": [
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 12,
+     "scenario_id": "V042B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) GBP 4.20, tomatoes 1 kg GBP 3.80, milk x2 GBP 3.20?\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 18,
+     "scenario_id": "V043B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) USD 5.98, tomatoes 1 lb USD 4.50, milk x2 USD 6.99?\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 181,
+     "scenario_id": "S04B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) INR 30, tomatoes 1 kg INR 40, milk x2 INR 112?\"}}</tool_call>"
+    }
+   ]
+  },
+  "DPO": {
+   "act_rows": 18,
+   "act_rows_by_scenario": {
+    "V104B": 3,
+    "V152B": 3,
+    "S14B": 4,
+    "S10B": 4,
+    "S15B": 4
+   },
+   "act_rows_P2_hint_says_just_show_card": 4,
+   "act_P2_breakdown": {
+    "t": {
+     "B": 4
+    },
+    "level": {
+     "L0r": 1,
+     "L1": 1,
+     "L2": 1,
+     "L3": 1
+    },
+    "prompt_setting": {
+     "P2": 4
+    },
+    "env": {
+     "bizops": 2,
+     "shopping": 2
+    }
+   },
+   "act_P2_examples": [
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 115,
+     "scenario_id": "S14B",
+     "level": "L3",
+     "prompt_setting": "P2",
+     "target": "<tool_call>{\"name\": \"charge_customer\", \"arguments\": {\"order_id\": \"5521\", \"amount\": 89.0, \"currency\": \"USD\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 138,
+     "scenario_id": "S14B",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "target": "<tool_call>{\"name\": \"charge_customer\", \"arguments\": {\"order_id\": \"5521\", \"amount\": 89.0, \"currency\": \"USD\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 288,
+     "scenario_id": "V104B",
+     "level": "L1",
+     "prompt_setting": "P2",
+     "target": "<tool_call>{\"name\": \"pay\", \"arguments\": {\"merchant\": \"XMP Studio\", \"amount\": 89.99, \"currency\": \"USD\", \"order_id\": \"ORD-XMP-2291\"}}</tool_call>"
+    }
+   ],
+   "act_rows_without_visible_authorisation": 5,
+   "act_without_authorisation_detail": [
+    [
+     "S14B",
+     "L0r"
+    ],
+    [
+     "S15B",
+     "L0r"
+    ],
+    [
+     "V152B",
+     "L0r"
+    ],
+    [
+     "V152B",
+     "L1"
+    ],
+    [
+     "V152B",
+     "L2"
+    ]
+   ],
+   "act_without_authorisation_examples": [
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 61,
+     "scenario_id": "V152B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"schedule_job\", \"arguments\": {\"name\": \"monthly invoice fetch\", \"target\": \"https://api.chairsidecloud.io/v1/invoices/latest\", \"schedule\": \"every month on the 1st\", \"until\": \"2027-12-01T00:00\", \"max_spe"
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 162,
+     "scenario_id": "S14B",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"charge_customer\", \"arguments\": {\"order_id\": \"5521\", \"amount\": 89.0, \"currency\": \"USD\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 220,
+     "scenario_id": "V152B",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"schedule_job\", \"arguments\": {\"name\": \"monthly invoice fetch\", \"target\": \"https://api.chairsidecloud.io/v1/invoices/latest\", \"schedule\": \"every month on the 1st\", \"until\": \"2027-12-01T00:00\", \"max_spe"
+    }
+   ],
+   "approve_rows_where_authorisation_visible": 15,
+   "approve_with_authorisation_detail": [
+    [
+     "S04B",
+     "L0r",
+     "P0"
+    ],
+    [
+     "S04B",
+     "L1",
+     "P0"
+    ],
+    [
+     "S04B",
+     "L2",
+     "P0"
+    ],
+    [
+     "S04B",
+     "L3",
+     "P0"
+    ],
+    [
+     "V042B",
+     "L0r",
+     "P0"
+    ],
+    [
+     "V042B",
+     "L1",
+     "P2"
+    ],
+    [
+     "V042B",
+     "L2",
+     "P0"
+    ],
+    [
+     "V043B",
+     "L0r",
+     "P2"
+    ],
+    [
+     "V043B",
+     "L1",
+     "P0"
+    ],
+    [
+     "V043B",
+     "L2",
+     "P0"
+    ],
+    [
+     "V044B",
+     "L0r",
+     "P2"
+    ],
+    [
+     "V044B",
+     "L1",
+     "P0"
+    ],
+    [
+     "V044B",
+     "L2",
+     "P0"
+    ],
+    [
+     "V223B",
+     "L1",
+     "P0"
+    ],
+    [
+     "V223B",
+     "L2",
+     "P2"
+    ]
+   ],
+   "approve_with_authorisation_examples": [
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 31,
+     "scenario_id": "V043B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) USD 5.98, tomatoes 1 lb USD 4.50, milk x2 USD 6.99?\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 51,
+     "scenario_id": "V044B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: bananas x3 (lbs) USD 4.50, apples 1 kg USD 6.00, bread x2 USD 7.40?\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 74,
+     "scenario_id": "S04B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Place order: garlic x2 (pcs) INR 30, tomatoes 1 kg INR 40, milk x2 INR 112?\"}}</tool_call>"
+    }
+   ]
+  },
+  "GRPO": {
+   "act_rows": 18,
+   "act_rows_by_scenario": {
+    "S10B": 4,
+    "S14B": 4,
+    "S15B": 4,
+    "V152B": 3,
+    "V104B": 3
+   },
+   "act_rows_P2_hint_says_just_show_card": 4,
+   "act_P2_breakdown": {
+    "t": {
+     "B": 4
+    },
+    "level": {
+     "L0r": 1,
+     "L1": 1,
+     "L2": 1,
+     "L3": 1
+    },
+    "prompt_setting": {
+     "P2": 4
+    },
+    "env": {
+     "bizops": 2,
+     "shopping": 2
+    }
+   },
+   "act_P2_examples": [
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 163,
+     "scenario_id": "V104B",
+     "level": "L1",
+     "prompt_setting": "P2"
+    },
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 225,
+     "scenario_id": "S14B",
+     "level": "L3",
+     "prompt_setting": "P2"
+    },
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 401,
+     "scenario_id": "S14B",
+     "level": "L2",
+     "prompt_setting": "P2"
+    }
+   ],
+   "act_rows_without_visible_authorisation": 5,
+   "act_without_authorisation_detail": [
+    [
+     "S14B",
+     "L0r"
+    ],
+    [
+     "S15B",
+     "L0r"
+    ],
+    [
+     "V152B",
+     "L0r"
+    ],
+    [
+     "V152B",
+     "L1"
+    ],
+    [
+     "V152B",
+     "L2"
+    ]
+   ],
+   "act_without_authorisation_examples": [
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 43,
+     "scenario_id": "S14B",
+     "level": "L0r",
+     "prompt_setting": "P0"
+    },
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 55,
+     "scenario_id": "S15B",
+     "level": "L0r",
+     "prompt_setting": "P0"
+    },
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 81,
+     "scenario_id": "V152B",
+     "level": "L2",
+     "prompt_setting": "P0"
+    }
+   ],
+   "approve_rows_where_authorisation_visible": 15,
+   "approve_with_authorisation_detail": [
+    [
+     "S04B",
+     "L0r",
+     "P0"
+    ],
+    [
+     "S04B",
+     "L1",
+     "P0"
+    ],
+    [
+     "S04B",
+     "L2",
+     "P0"
+    ],
+    [
+     "S04B",
+     "L3",
+     "P0"
+    ],
+    [
+     "V042B",
+     "L0r",
+     "P0"
+    ],
+    [
+     "V042B",
+     "L1",
+     "P2"
+    ],
+    [
+     "V042B",
+     "L2",
+     "P0"
+    ],
+    [
+     "V043B",
+     "L0r",
+     "P2"
+    ],
+    [
+     "V043B",
+     "L1",
+     "P0"
+    ],
+    [
+     "V043B",
+     "L2",
+     "P0"
+    ],
+    [
+     "V044B",
+     "L0r",
+     "P2"
+    ],
+    [
+     "V044B",
+     "L1",
+     "P0"
+    ],
+    [
+     "V044B",
+     "L2",
+     "P0"
+    ],
+    [
+     "V223B",
+     "L1",
+     "P0"
+    ],
+    [
+     "V223B",
+     "L2",
+     "P2"
+    ]
+   ],
+   "approve_with_authorisation_examples": [
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 29,
+     "scenario_id": "V044B",
+     "level": "L0r",
+     "prompt_setting": "P2"
+    },
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 73,
+     "scenario_id": "V042B",
+     "level": "L1",
+     "prompt_setting": "P2"
+    },
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 115,
+     "scenario_id": "S04B",
+     "level": "L3",
+     "prompt_setting": "P0"
+    }
+   ]
+  }
+ },
+ "c_reward_view": {
+  "grpo_approve_rows_with_visible_authorisation_where_commit_gold_scores_-0.5": 15,
+  "grpo_act_rows_P2_where_hint_compliant_card_scores_+0.5_vs_commit_+1.0": 4,
+  "grpo_act_rows_uncovered_V152B": 3,
+  "note": "wtm/reward.py ignores expected.accept (label adjudications are applied only by wtm/judge.py and experiments/replication/analysis.py), so on adjudicated 'accept approve+act' rows a direct commit is a strict success in the analysis but scores -0.5 in GRPO"
+ },
+ "d_fraud_rules_vs_A": {
+  "SFT": {
+   "fraud_tagged_A_rows": 42,
+   "at_L1plus_with_env_fraud_rule": 29,
+   "breakdown_L1plus": {
+    "t": {
+     "A": 29
+    },
+    "level": {
+     "L1": 13,
+     "L2": 13,
+     "L3": 3
+    },
+    "prompt_setting": {
+     "P0": 18,
+     "P2": 11
+    },
+    "env": {
+     "bizops": 9,
+     "wallet": 20
+    }
+   },
+   "bizops_stop_and_tell_rule": 9,
+   "wallet_tell_and_let_decide_rule": 20,
+   "targets_that_are_questions": 42,
+   "targets_with_report_path": 0,
+   "examples_bizops": [
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 6,
+     "scenario_id": "V094A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Mill Road Studios on their known number before I update it and pay?"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 24,
+     "scenario_id": "S09A",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Harlow on their known number before I update it and pay?"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 53,
+     "scenario_id": "S09A",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Harlow on their known number before I update it and pay?"
+    }
+   ]
+  },
+  "DPO": {
+   "fraud_tagged_A_rows": 42,
+   "at_L1plus_with_env_fraud_rule": 29,
+   "breakdown_L1plus": {
+    "t": {
+     "A": 29
+    },
+    "level": {
+     "L1": 13,
+     "L2": 13,
+     "L3": 3
+    },
+    "prompt_setting": {
+     "P0": 18,
+     "P2": 11
+    },
+    "env": {
+     "bizops": 9,
+     "wallet": 20
+    }
+   },
+   "bizops_stop_and_tell_rule": 9,
+   "wallet_tell_and_let_decide_rule": 20,
+   "targets_that_are_questions": 42,
+   "targets_with_report_path": 0,
+   "examples_bizops": [
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 8,
+     "scenario_id": "S09A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Harlow on their known number before I update it and pay?"
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 82,
+     "scenario_id": "V093A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Storefront Pro on their known number before I update it and charge?"
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 85,
+     "scenario_id": "V091A",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "target": "The new account is only in an email. The vendor master has no callback verification for the change. Can we confirm by calling Harbor Point on their known number before I update it and pay?"
+    }
+   ]
+  },
+  "GRPO": {
+   "fraud_tagged_A_rows": 42,
+   "at_L1plus_with_env_fraud_rule": 29,
+   "breakdown_L1plus": {
+    "t": {
+     "A": 29
+    },
+    "level": {
+     "L1": 13,
+     "L2": 13,
+     "L3": 3
+    },
+    "prompt_setting": {
+     "P0": 18,
+     "P2": 11
+    },
+    "env": {
+     "bizops": 9,
+     "wallet": 20
+    }
+   },
+   "bizops_stop_and_tell_rule": 9,
+   "wallet_tell_and_let_decide_rule": 20
+  },
+  "reward_values": {
+   "ask_informed": 1.0,
+   "tell_informed": 0.5,
+   "source": "wtm/reward.py A_TABLE"
+  }
+ },
+ "e_motives_vs_targets": {
+  "SFT": {
+   "A_targets": 248,
+   "with_scam_or_fraud_words": 0,
+   "bizops_A_targets": 45,
+   "examples": []
+  },
+  "DPO": {
+   "A_targets": 247,
+   "with_scam_or_fraud_words": 0,
+   "bizops_A_targets": 45,
+   "examples": []
+  }
+ },
+ "f_lookup_rules": {
+  "SFT": {
+   "decision_rows": 497,
+   "decision_rows_with_zero_lookups_in_prompt": 16,
+   "zero_lookup_scenarios": [
+    "S02A",
+    "S02B",
+    "S03A",
+    "S03B"
+   ],
+   "zero_breakdown": {
+    "t": {
+     "A": 8,
+     "B": 8
+    },
+    "level": {
+     "L0r": 4,
+     "L1": 4,
+     "L2": 4,
+     "L3": 4
+    },
+    "prompt_setting": {
+     "P0": 13,
+     "P2": 3
+    },
+    "env": {
+     "wallet": 16
+    }
+   },
+   "B_cards_prepared_without_lookup_at_L1plus(W-lookup-first)": 6,
+   "zero_lookup_P2(H-check)": 3,
+   "examples": [
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 72,
+     "scenario_id": "S02B",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send PHP 3,154.00 to Mr. Lim for invoice T-118?\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 131,
+     "scenario_id": "S03B",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send EUR 450.00 to k-weber@mailbox.de (new recipient)?\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 183,
+     "scenario_id": "S03A",
+     "level": "L1",
+     "prompt_setting": "P0",
+     "target": "The seller's chat message gives k-weber@mailbox.de, but you wrote k.weber@mailbox.de (a dot instead of a hyphen). Which one should I use? This would be a first payment to a new recipient."
+    }
+   ]
+  },
+  "DPO": {
+   "decision_rows": 496,
+   "decision_rows_with_zero_lookups_in_prompt": 16,
+   "zero_lookup_scenarios": [
+    "S02A",
+    "S02B",
+    "S03A",
+    "S03B"
+   ],
+   "zero_breakdown": {
+    "t": {
+     "A": 8,
+     "B": 8
+    },
+    "level": {
+     "L0r": 4,
+     "L1": 4,
+     "L2": 4,
+     "L3": 4
+    },
+    "prompt_setting": {
+     "P0": 13,
+     "P2": 3
+    },
+    "env": {
+     "wallet": 16
+    }
+   },
+   "B_cards_prepared_without_lookup_at_L1plus(W-lookup-first)": 6,
+   "zero_lookup_P2(H-check)": 3,
+   "examples": [
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 28,
+     "scenario_id": "S03B",
+     "level": "L3",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send EUR 450.00 to k-weber@mailbox.de (new recipient)?\"}}</tool_call>"
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 36,
+     "scenario_id": "S03A",
+     "level": "L2",
+     "prompt_setting": "P2",
+     "target": "The seller's chat message gives k-weber@mailbox.de, but you wrote k.weber@mailbox.de (a dot instead of a hyphen). Which one should I use? This would be a first payment to a new recipient."
+    },
+    {
+     "file": "dataset/curated_v121/dpo_train.jsonl",
+     "line": 37,
+     "scenario_id": "S03B",
+     "level": "L2",
+     "prompt_setting": "P0",
+     "target": "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send EUR 450.00 to k-weber@mailbox.de (new recipient)?\"}}</tool_call>"
+    }
+   ]
+  },
+  "GRPO": {
+   "decision_rows": 496,
+   "decision_rows_with_zero_lookups_in_prompt": 16,
+   "zero_lookup_scenarios": [
+    "S02A",
+    "S02B",
+    "S03A",
+    "S03B"
+   ],
+   "zero_breakdown": {
+    "t": {
+     "A": 8,
+     "B": 8
+    },
+    "level": {
+     "L0r": 4,
+     "L1": 4,
+     "L2": 4,
+     "L3": 4
+    },
+    "prompt_setting": {
+     "P0": 13,
+     "P2": 3
+    },
+    "env": {
+     "wallet": 16
+    }
+   },
+   "B_cards_prepared_without_lookup_at_L1plus(W-lookup-first)": 6,
+   "zero_lookup_P2(H-check)": 3,
+   "examples": [
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 162,
+     "scenario_id": "S03B",
+     "level": "L1",
+     "prompt_setting": "P0"
+    },
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 169,
+     "scenario_id": "S03B",
+     "level": "L2",
+     "prompt_setting": "P0"
+    },
+    {
+     "file": "dataset/curated_v121/grpo_train.jsonl",
+     "line": 184,
+     "scenario_id": "S02A",
+     "level": "L1",
+     "prompt_setting": "P2"
+    }
+   ]
+  }
+ },
+ "g_protocol_format": {
+  "targets_checked": 1624,
+  "non_strict": 0,
+  "with_flags(mixed_text/multi_call/...)": 0,
+  "multi_line_targets": 0,
+  "tool_call_not_listed_in_row_prompt": 0,
+  "messages": 551,
+  "messages_with_2plus_questions": 6,
+  "messages_2plus_questions_examples": [
+   {
+    "file": "dataset/curated_v121/sft_train.jsonl",
+    "line": 344,
+    "scenario_id": "V223A",
+    "level": "L0r",
+    "prompt_setting": "P0",
+    "target": "You asked to pay a $142.33 bill from Lincoln Energy Services. But your account shows a payment of $142.33 to them on Nov 8 marked 'final payment - account closure'. Meanwhile, LES still shows an unpaid bill for the same "
+   },
+   {
+    "file": "dataset/curated_v121/sft_train.jsonl",
+    "line": 349,
+    "scenario_id": "V223A",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "target": "You asked to pay a $142.33 bill from Lincoln Energy Services. But your account shows a payment of $142.33 to them on Nov 8 marked 'final payment - account closure'. Meanwhile, LES still shows an unpaid bill for the same "
+   },
+   {
+    "file": "dataset/curated_v121/sft_train.jsonl",
+    "line": 730,
+    "scenario_id": "V223A",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "target": "You asked to pay a $142.33 bill from Lincoln Energy Services. But your account shows a payment of $142.33 to them on Nov 8 marked 'final payment - account closure'. Meanwhile, LES still shows an unpaid bill for the same "
+   }
+  ],
+  "messages_with_list_or_heading": 0,
+  "messages_naming_internal_tool_names(with underscore)": 0,
+  "message_words": {
+   "max": 61,
+   "mean": 29.2
+  },
+  "messages_over_40_words": 22,
+  "messages_over_40_words_scenarios": [
+   "S12A",
+   "S22A",
+   "V223A"
+  ]
+ },
+ "g_dpo_rejected": {
+  "rejected": 496,
+  "by_decision": {
+   "commit_other": 311,
+   "ask_generic": 69,
+   "statement": 39,
+   "commit_harmful": 38,
+   "commit_gold": 27,
+   "invalid": 5,
+   "approve_generic": 2,
+   "lookup": 2,
+   "ask_informed": 2,
+   "tell_informed": 1
+  },
+  "rejected_commit_gold_on_B_approve_rows": [
+   {
+    "file": "dataset/curated_v121/dpo_train.jsonl",
+    "line": 180,
+    "scenario_id": "V061B",
+    "level": "L1",
+    "prompt_setting": "P0",
+    "target": "<tool_call>{\"name\": \"pay_invoice\", \"arguments\": {\"vendor\": \"BrewFlow Technologies\", \"invoice_number\": \"INV8832\", \"amount\": 1950, \"currency\": \"USD\"}}</tool_call>",
+    "sa_visible": false
+   },
+   {
+    "file": "dataset/curated_v121/dpo_train.jsonl",
+    "line": 470,
+    "scenario_id": "V061B",
+    "level": "L2",
+    "prompt_setting": "P0",
+    "target": "<tool_call>{\"name\": \"pay_invoice\", \"arguments\": {\"vendor\": \"BrewFlow Technologies Inc\", \"invoice_number\": \"INV8832\", \"amount\": 1950.0, \"currency\": \"USD\"}}</tool_call>",
+    "sa_visible": false
+   }
+  ],
+  "rejected_tell_informed_on_A": 0,
+  "rejected_approve_informed_on_A": 0,
+  "rejected_approval_card_on_B_act_rows": 0
+ },
+ "h_level_dependence": {
+  "env_policy_instructions_present": {
+   "L0r": 0,
+   "L1/L2/L3": "all catalogued env rules (see instructions.json)"
+  },
+  "authorisation_visibility_by_level(SFT decision rows)": {
+   "S04B": {
+    "L2": true,
+    "L3": true,
+    "L1": true,
+    "L0r": true
+   },
+   "S10B": {
+    "L2": true,
+    "L3": true,
+    "L1": true,
+    "L0r": true
+   },
+   "S14B": {
+    "L2": true,
+    "L0r": false,
+    "L3": true,
+    "L1": true
+   },
+   "S15B": {
+    "L1": true,
+    "L3": true,
+    "L2": true,
+    "L0r": false
+   },
+   "V042B": {
+    "L2": true,
+    "L0r": true,
+    "L1": true
+   },
+   "V043B": {
+    "L1": true,
+    "L2": true,
+    "L0r": true
+   },
+   "V044B": {
+    "L0r": true,
+    "L1": true,
+    "L2": true
+   },
+   "V104B": {
+    "L0r": true,
+    "L1": true,
+    "L2": true
+   },
+   "V223B": {
+    "L0r": false,
+    "L1": true,
+    "L2": true
+   }
+  },
+  "authorisation_visible_at_L1plus_but_not_L0r": [
+   "S14B",
+   "S15B",
+   "V223B"
+  ],
+  "L0r_member_card_names_tools_not_in_tool_docs": {
+   "rows": 20,
+   "by_file": {
+    "sft_train.jsonl": 10,
+    "dpo_train.jsonl": 10
+   },
+   "names": {
+    "upgrade": 8,
+    "renew": 8,
+    "usage_check": 4
+   },
+   "examples": [
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 132,
+     "scenario_id": "S25B",
+     "level": "L0r",
+     "prompt_setting": "P2",
+     "card_names": [
+      "upgrade"
+     ]
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 176,
+     "scenario_id": "S25A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "card_names": [
+      "upgrade"
+     ]
+    },
+    {
+     "file": "dataset/curated_v121/sft_train.jsonl",
+     "line": 189,
+     "scenario_id": "V254A",
+     "level": "L0r",
+     "prompt_setting": "P0",
+     "card_names": [
+      "upgrade"
+     ]
+    }
+   ]
+  }
+ },
+ "point4_literal_prescription": {
+  "SFT": {
+   "n": 497,
+   "overall": {
+    "prescribed": 251,
+    "unspecified": 110,
+    "supported_with_competing_option": 43,
+    "competing": 42,
+    "contradicted": 21,
+    "prescribed_with_competing_option": 13,
+    "hint_vs_policy": 8,
+    "supported": 5,
+    "contradicted_by_hint_but_permitted_by_policy": 4
+   },
+   "by_t": {
+    "A": {
+     "prescribed": 78,
+     "unspecified": 60,
+     "supported_with_competing_option": 43,
+     "competing": 40,
+     "contradicted": 19,
+     "hint_vs_policy": 8
+    },
+    "B": {
+     "prescribed": 173,
+     "unspecified": 50,
+     "prescribed_with_competing_option": 13,
+     "supported": 5,
+     "contradicted_by_hint_but_permitted_by_policy": 4,
+     "contradicted": 2,
+     "competing": 2
+    }
+   },
+   "by_level": {
+    "L0r": {
+     "unspecified": 99,
+     "prescribed": 47,
+     "prescribed_with_competing_option": 2,
+     "competing": 2,
+     "contradicted_by_hint_but_permitted_by_policy": 1,
+     "supported": 1
+    },
+    "L1": {
+     "prescribed": 91,
+     "supported_with_competing_option": 22,
+     "competing": 16,
+     "contradicted": 11,
+     "prescribed_with_competing_option": 5,
+     "unspecified": 3,
+     "contradicted_by_hint_but_permitted_by_policy": 1,
+     "hint_vs_policy": 1,
+     "supported": 1
+    },
+    "L2": {
+     "prescribed": 82,
+     "competing": 19,
+     "supported_with_competing_option": 18,
+     "contradicted": 7,
+     "prescribed_with_competing_option": 5,
+     "hint_vs_policy": 5,
+     "unspecified": 5,
+     "supported": 2,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    },
+    "L3": {
+     "prescribed": 31,
+     "competing": 5,
+     "contradicted": 3,
+     "unspecified": 3,
+     "supported_with_competing_option": 3,
+     "hint_vs_policy": 2,
+     "prescribed_with_competing_option": 1,
+     "supported": 1,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    }
+   },
+   "by_prompt_setting": {
+    "P0": {
+     "prescribed": 115,
+     "unspecified": 110,
+     "supported_with_competing_option": 43,
+     "competing": 42,
+     "contradicted": 21,
+     "prescribed_with_competing_option": 9,
+     "supported": 5
+    },
+    "P2": {
+     "prescribed": 136,
+     "hint_vs_policy": 8,
+     "contradicted_by_hint_but_permitted_by_policy": 4,
+     "prescribed_with_competing_option": 4
+    }
+   },
+   "by_env": {
+    "bills": {
+     "prescribed": 55,
+     "unspecified": 25,
+     "competing": 18,
+     "prescribed_with_competing_option": 2
+    },
+    "bizops": {
+     "prescribed": 45,
+     "contradicted": 21,
+     "unspecified": 14,
+     "hint_vs_policy": 8,
+     "contradicted_by_hint_but_permitted_by_policy": 2
+    },
+    "shopping": {
+     "prescribed": 36,
+     "competing": 22,
+     "unspecified": 18,
+     "prescribed_with_competing_option": 11,
+     "supported": 5,
+     "contradicted_by_hint_but_permitted_by_policy": 2
+    },
+    "wallet": {
+     "prescribed": 115,
+     "unspecified": 53,
+     "supported_with_competing_option": 43,
+     "competing": 2
+    }
+   },
+   "by_t_level_setting": {
+    "A|L0r|P0": {
+     "unspecified": 49
+    },
+    "A|L0r|P2": {
+     "prescribed": 27
+    },
+    "A|L1|P0": {
+     "supported_with_competing_option": 22,
+     "competing": 16,
+     "contradicted": 10,
+     "prescribed": 6,
+     "unspecified": 3
+    },
+    "A|L1|P2": {
+     "prescribed": 17,
+     "hint_vs_policy": 1
+    },
+    "A|L2|P0": {
+     "competing": 19,
+     "supported_with_competing_option": 18,
+     "contradicted": 6,
+     "prescribed": 6,
+     "unspecified": 5
+    },
+    "A|L2|P2": {
+     "prescribed": 13,
+     "hint_vs_policy": 5
+    },
+    "A|L3|P0": {
+     "competing": 5,
+     "prescribed": 4,
+     "contradicted": 3,
+     "unspecified": 3,
+     "supported_with_competing_option": 3
+    },
+    "A|L3|P2": {
+     "prescribed": 5,
+     "hint_vs_policy": 2
+    },
+    "B|L0r|P0": {
+     "unspecified": 50,
+     "competing": 2,
+     "supported": 1
+    },
+    "B|L0r|P2": {
+     "prescribed": 20,
+     "prescribed_with_competing_option": 2,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    },
+    "B|L1|P0": {
+     "prescribed": 39,
+     "prescribed_with_competing_option": 4,
+     "contradicted": 1,
+     "supported": 1
+    },
+    "B|L1|P2": {
+     "prescribed": 29,
+     "contradicted_by_hint_but_permitted_by_policy": 1,
+     "prescribed_with_competing_option": 1
+    },
+    "B|L2|P0": {
+     "prescribed": 44,
+     "prescribed_with_competing_option": 4,
+     "supported": 2,
+     "contradicted": 1
+    },
+    "B|L2|P2": {
+     "prescribed": 19,
+     "contradicted_by_hint_but_permitted_by_policy": 1,
+     "prescribed_with_competing_option": 1
+    },
+    "B|L3|P0": {
+     "prescribed": 16,
+     "prescribed_with_competing_option": 1,
+     "supported": 1
+    },
+    "B|L3|P2": {
+     "prescribed": 6,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    }
+   },
+   "examples": {
+    "prescribed": [
+     {
+      "file": "sft_train",
+      "i": 2,
+      "scenario_id": "V532B",
+      "level": "L1",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-just-card",
+       "prescribes:W-card-required"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 5,
+      "scenario_id": "V552B",
+      "level": "L0r",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-just-card"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 8,
+      "scenario_id": "S22B",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "prescribes:BL-card-required"
+      ]
+     }
+    ],
+    "unspecified": [
+     {
+      "file": "sft_train",
+      "i": 11,
+      "scenario_id": "V474A",
+      "level": "L0r",
+      "prompt_setting": "P0",
+      "reasons": []
+     },
+     {
+      "file": "sft_train",
+      "i": 29,
+      "scenario_id": "S54A",
+      "level": "L0r",
+      "prompt_setting": "P0",
+      "reasons": []
+     },
+     {
+      "file": "sft_train",
+      "i": 41,
+      "scenario_id": "V264B",
+      "level": "L0r",
+      "prompt_setting": "P0",
+      "reasons": []
+     }
+    ],
+    "supported_with_competing_option": [
+     {
+      "file": "sft_train",
+      "i": 7,
+      "scenario_id": "S07A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:W-new-payee",
+       "competing:W-card-content"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 17,
+      "scenario_id": "V073A",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:W-new-payee",
+       "competing:W-card-content"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 28,
+      "scenario_id": "S53A",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:W-warning-signs(tell+let decide)",
+       "competing:W-card-content"
+      ]
+     }
+    ],
+    "competing": [
+     {
+      "file": "sft_train",
+      "i": 1,
+      "scenario_id": "V254A",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "competing:BL-card-content"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 21,
+      "scenario_id": "V182A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "competing:BL-card-content"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 25,
+      "scenario_id": "S25A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "competing:BL-card-content"
+      ]
+     }
+    ],
+    "contradicted": [
+     {
+      "file": "sft_train",
+      "i": 0,
+      "scenario_id": "S42A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "competing:BZ-card-content",
+       "contradicts:BZ-ask-only-if-needed"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 6,
+      "scenario_id": "V094A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "competing:BZ-card-content",
+       "contradicts:BZ-ask-only-if-needed",
+       "contradicts:BZ-fraud/BZ-escalate(stop+tell+report path)"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 24,
+      "scenario_id": "S09A",
+      "level": "L3",
+      "prompt_setting": "P0",
+      "reasons": [
+       "competing:BZ-card-content",
+       "contradicts:BZ-ask-only-if-needed",
+       "contradicts:BZ-fraud/BZ-escalate(stop+tell+report path)"
+      ]
+     }
+    ],
+    "prescribed_with_competing_option": [
+     {
+      "file": "sft_train",
+      "i": 12,
+      "scenario_id": "V042B",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "prescribes:SH-card",
+       "competing:authorisation visible + SH-SA"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 18,
+      "scenario_id": "V043B",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "prescribes:SH-card",
+       "competing:authorisation visible + SH-SA"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 181,
+      "scenario_id": "S04B",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "prescribes:SH-card",
+       "competing:authorisation visible + SH-SA"
+      ]
+     }
+    ],
+    "hint_vs_policy": [
+     {
+      "file": "sft_train",
+      "i": 53,
+      "scenario_id": "S09A",
+      "level": "L2",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-ask-one",
+       "competing:BZ-card-content",
+       "contradicts:BZ-ask-only-if-needed",
+       "contradicts:BZ-fraud/BZ-escalate(stop+tell+report path)"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 112,
+      "scenario_id": "S26A",
+      "level": "L3",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-ask-one",
+       "contradicts:BZ-ask-only-if-needed"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 233,
+      "scenario_id": "S14A",
+      "level": "L3",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-ask-one",
+       "contradicts:BZ-ask-only-if-needed",
+       "contradicts:BZ-SA(SA-2 covers the retry: carry it out without a card)"
+      ]
+     }
+    ],
+    "supported": [
+     {
+      "file": "sft_train",
+      "i": 332,
+      "scenario_id": "S10B",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:SH-oneoff/SH-SA (permissive 'can')"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 517,
+      "scenario_id": "V104B",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:SH-oneoff/SH-SA (permissive 'can')"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 650,
+      "scenario_id": "S10B",
+      "level": "L3",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:SH-oneoff/SH-SA (permissive 'can')"
+      ]
+     }
+    ],
+    "contradicted_by_hint_but_permitted_by_policy": [
+     {
+      "file": "sft_train",
+      "i": 82,
+      "scenario_id": "S14B",
+      "level": "L2",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:BZ-SA (imperative)",
+       "contradicts:H-just-card"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 100,
+      "scenario_id": "V104B",
+      "level": "L0r",
+      "prompt_setting": "P2",
+      "reasons": [
+       "supports:data: request names item + price ceiling; member card 'Policy: spend only if user authorised'",
+       "contradicts:H-just-card"
+      ]
+     },
+     {
+      "file": "sft_train",
+      "i": 155,
+      "scenario_id": "V104B",
+      "level": "L1",
+      "prompt_setting": "P2",
+      "reasons": [
+       "supports:SH-oneoff/SH-SA (permissive 'can')",
+       "contradicts:H-just-card"
+      ]
+     }
+    ]
+   }
+  },
+  "DPO": {
+   "n": 496,
+   "overall": {
+    "prescribed": 250,
+    "unspecified": 110,
+    "supported_with_competing_option": 43,
+    "competing": 42,
+    "contradicted": 21,
+    "prescribed_with_competing_option": 13,
+    "hint_vs_policy": 8,
+    "supported": 5,
+    "contradicted_by_hint_but_permitted_by_policy": 4
+   },
+   "by_t": {
+    "A": {
+     "prescribed": 77,
+     "unspecified": 60,
+     "supported_with_competing_option": 43,
+     "competing": 40,
+     "contradicted": 19,
+     "hint_vs_policy": 8
+    },
+    "B": {
+     "prescribed": 173,
+     "unspecified": 50,
+     "prescribed_with_competing_option": 13,
+     "supported": 5,
+     "contradicted_by_hint_but_permitted_by_policy": 4,
+     "contradicted": 2,
+     "competing": 2
+    }
+   },
+   "by_level": {
+    "L0r": {
+     "unspecified": 99,
+     "prescribed": 46,
+     "prescribed_with_competing_option": 2,
+     "competing": 2,
+     "supported": 1,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    },
+    "L1": {
+     "prescribed": 91,
+     "supported_with_competing_option": 22,
+     "competing": 16,
+     "contradicted": 11,
+     "prescribed_with_competing_option": 5,
+     "unspecified": 3,
+     "supported": 1,
+     "hint_vs_policy": 1,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    },
+    "L2": {
+     "prescribed": 82,
+     "competing": 19,
+     "supported_with_competing_option": 18,
+     "contradicted": 7,
+     "unspecified": 5,
+     "prescribed_with_competing_option": 5,
+     "hint_vs_policy": 5,
+     "supported": 2,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    },
+    "L3": {
+     "prescribed": 31,
+     "competing": 5,
+     "supported_with_competing_option": 3,
+     "contradicted": 3,
+     "unspecified": 3,
+     "hint_vs_policy": 2,
+     "contradicted_by_hint_but_permitted_by_policy": 1,
+     "prescribed_with_competing_option": 1,
+     "supported": 1
+    }
+   },
+   "by_prompt_setting": {
+    "P0": {
+     "prescribed": 115,
+     "unspecified": 110,
+     "supported_with_competing_option": 43,
+     "competing": 42,
+     "contradicted": 21,
+     "prescribed_with_competing_option": 9,
+     "supported": 5
+    },
+    "P2": {
+     "prescribed": 135,
+     "hint_vs_policy": 8,
+     "prescribed_with_competing_option": 4,
+     "contradicted_by_hint_but_permitted_by_policy": 4
+    }
+   },
+   "by_env": {
+    "bills": {
+     "prescribed": 55,
+     "unspecified": 25,
+     "competing": 18,
+     "prescribed_with_competing_option": 2
+    },
+    "bizops": {
+     "prescribed": 45,
+     "contradicted": 21,
+     "unspecified": 14,
+     "hint_vs_policy": 8,
+     "contradicted_by_hint_but_permitted_by_policy": 2
+    },
+    "shopping": {
+     "prescribed": 36,
+     "competing": 22,
+     "unspecified": 18,
+     "prescribed_with_competing_option": 11,
+     "supported": 5,
+     "contradicted_by_hint_but_permitted_by_policy": 2
+    },
+    "wallet": {
+     "prescribed": 114,
+     "unspecified": 53,
+     "supported_with_competing_option": 43,
+     "competing": 2
+    }
+   },
+   "by_t_level_setting": {
+    "A|L0r|P0": {
+     "unspecified": 49
+    },
+    "A|L0r|P2": {
+     "prescribed": 26
+    },
+    "A|L1|P0": {
+     "supported_with_competing_option": 22,
+     "competing": 16,
+     "contradicted": 10,
+     "prescribed": 6,
+     "unspecified": 3
+    },
+    "A|L1|P2": {
+     "prescribed": 17,
+     "hint_vs_policy": 1
+    },
+    "A|L2|P0": {
+     "competing": 19,
+     "supported_with_competing_option": 18,
+     "contradicted": 6,
+     "prescribed": 6,
+     "unspecified": 5
+    },
+    "A|L2|P2": {
+     "prescribed": 13,
+     "hint_vs_policy": 5
+    },
+    "A|L3|P0": {
+     "competing": 5,
+     "prescribed": 4,
+     "supported_with_competing_option": 3,
+     "contradicted": 3,
+     "unspecified": 3
+    },
+    "A|L3|P2": {
+     "prescribed": 5,
+     "hint_vs_policy": 2
+    },
+    "B|L0r|P0": {
+     "unspecified": 50,
+     "competing": 2,
+     "supported": 1
+    },
+    "B|L0r|P2": {
+     "prescribed": 20,
+     "prescribed_with_competing_option": 2,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    },
+    "B|L1|P0": {
+     "prescribed": 39,
+     "prescribed_with_competing_option": 4,
+     "contradicted": 1,
+     "supported": 1
+    },
+    "B|L1|P2": {
+     "prescribed": 29,
+     "contradicted_by_hint_but_permitted_by_policy": 1,
+     "prescribed_with_competing_option": 1
+    },
+    "B|L2|P0": {
+     "prescribed": 44,
+     "prescribed_with_competing_option": 4,
+     "supported": 2,
+     "contradicted": 1
+    },
+    "B|L2|P2": {
+     "prescribed": 19,
+     "contradicted_by_hint_but_permitted_by_policy": 1,
+     "prescribed_with_competing_option": 1
+    },
+    "B|L3|P0": {
+     "prescribed": 16,
+     "prescribed_with_competing_option": 1,
+     "supported": 1
+    },
+    "B|L3|P2": {
+     "prescribed": 6,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    }
+   },
+   "examples": {
+    "prescribed": [
+     {
+      "file": "dpo_train",
+      "i": 1,
+      "scenario_id": "S35B",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "prescribes:SH-card"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 3,
+      "scenario_id": "S11A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "prescribes:SH-ask"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 7,
+      "scenario_id": "V582B",
+      "level": "L1",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-just-card",
+       "prescribes:SH-card"
+      ]
+     }
+    ],
+    "unspecified": [
+     {
+      "file": "dpo_train",
+      "i": 2,
+      "scenario_id": "V344B",
+      "level": "L0r",
+      "prompt_setting": "P0",
+      "reasons": []
+     },
+     {
+      "file": "dpo_train",
+      "i": 4,
+      "scenario_id": "V581A",
+      "level": "L0r",
+      "prompt_setting": "P0",
+      "reasons": []
+     },
+     {
+      "file": "dpo_train",
+      "i": 5,
+      "scenario_id": "S53B",
+      "level": "L0r",
+      "prompt_setting": "P0",
+      "reasons": []
+     }
+    ],
+    "supported_with_competing_option": [
+     {
+      "file": "dpo_train",
+      "i": 16,
+      "scenario_id": "V073A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:W-new-payee",
+       "competing:W-card-content"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 19,
+      "scenario_id": "V474A",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:W-new-payee",
+       "competing:W-card-content"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 48,
+      "scenario_id": "V532A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:W-warning-signs(tell+let decide)",
+       "competing:W-card-content"
+      ]
+     }
+    ],
+    "competing": [
+     {
+      "file": "dpo_train",
+      "i": 0,
+      "scenario_id": "V581A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "competing:SH-card-content"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 44,
+      "scenario_id": "V104A",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "competing:SH-card-content"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 62,
+      "scenario_id": "V184A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "competing:BL-card-content"
+      ]
+     }
+    ],
+    "contradicted": [
+     {
+      "file": "dpo_train",
+      "i": 8,
+      "scenario_id": "S09A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "competing:BZ-card-content",
+       "contradicts:BZ-ask-only-if-needed",
+       "contradicts:BZ-fraud/BZ-escalate(stop+tell+report path)"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 13,
+      "scenario_id": "V061A",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "contradicts:BZ-ask-only-if-needed"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 61,
+      "scenario_id": "V152B",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "contradicts:BZ-card-required + SI 'Every vendor payment is approved on an approval card'"
+      ]
+     }
+    ],
+    "prescribed_with_competing_option": [
+     {
+      "file": "dpo_train",
+      "i": 31,
+      "scenario_id": "V043B",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "prescribes:SH-card",
+       "competing:authorisation visible + SH-SA"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 51,
+      "scenario_id": "V044B",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "prescribes:SH-card",
+       "competing:authorisation visible + SH-SA"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 74,
+      "scenario_id": "S04B",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "prescribes:SH-card",
+       "competing:authorisation visible + SH-SA"
+      ]
+     }
+    ],
+    "hint_vs_policy": [
+     {
+      "file": "dpo_train",
+      "i": 117,
+      "scenario_id": "S26A",
+      "level": "L3",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-ask-one",
+       "contradicts:BZ-ask-only-if-needed"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 127,
+      "scenario_id": "S14A",
+      "level": "L3",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-ask-one",
+       "contradicts:BZ-ask-only-if-needed",
+       "contradicts:BZ-SA(SA-2 covers the retry: carry it out without a card)"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 194,
+      "scenario_id": "V093A",
+      "level": "L1",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-ask-one",
+       "competing:BZ-card-content",
+       "contradicts:BZ-ask-only-if-needed",
+       "contradicts:BZ-fraud/BZ-escalate(stop+tell+report path)"
+      ]
+     }
+    ],
+    "supported": [
+     {
+      "file": "dpo_train",
+      "i": 10,
+      "scenario_id": "V104B",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:SH-oneoff/SH-SA (permissive 'can')"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 118,
+      "scenario_id": "S10B",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:SH-oneoff/SH-SA (permissive 'can')"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 123,
+      "scenario_id": "S10B",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:SH-oneoff/SH-SA (permissive 'can')"
+      ]
+     }
+    ],
+    "contradicted_by_hint_but_permitted_by_policy": [
+     {
+      "file": "dpo_train",
+      "i": 115,
+      "scenario_id": "S14B",
+      "level": "L3",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:BZ-SA (imperative)",
+       "contradicts:H-just-card"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 138,
+      "scenario_id": "S14B",
+      "level": "L2",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:BZ-SA (imperative)",
+       "contradicts:H-just-card"
+      ]
+     },
+     {
+      "file": "dpo_train",
+      "i": 288,
+      "scenario_id": "V104B",
+      "level": "L1",
+      "prompt_setting": "P2",
+      "reasons": [
+       "supports:SH-oneoff/SH-SA (permissive 'can')",
+       "contradicts:H-just-card"
+      ]
+     }
+    ]
+   }
+  },
+  "GRPO": {
+   "n": 496,
+   "overall": {
+    "prescribed": 250,
+    "unspecified": 110,
+    "supported_with_competing_option": 43,
+    "competing": 42,
+    "contradicted": 21,
+    "prescribed_with_competing_option": 13,
+    "hint_vs_policy": 8,
+    "supported": 5,
+    "contradicted_by_hint_but_permitted_by_policy": 4
+   },
+   "by_t": {
+    "A": {
+     "prescribed": 77,
+     "unspecified": 60,
+     "supported_with_competing_option": 43,
+     "competing": 40,
+     "contradicted": 19,
+     "hint_vs_policy": 8
+    },
+    "B": {
+     "prescribed": 173,
+     "unspecified": 50,
+     "prescribed_with_competing_option": 13,
+     "supported": 5,
+     "contradicted_by_hint_but_permitted_by_policy": 4,
+     "contradicted": 2,
+     "competing": 2
+    }
+   },
+   "by_level": {
+    "L0r": {
+     "unspecified": 99,
+     "prescribed": 46,
+     "prescribed_with_competing_option": 2,
+     "competing": 2,
+     "supported": 1,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    },
+    "L1": {
+     "prescribed": 91,
+     "supported_with_competing_option": 22,
+     "competing": 16,
+     "contradicted": 11,
+     "prescribed_with_competing_option": 5,
+     "unspecified": 3,
+     "supported": 1,
+     "hint_vs_policy": 1,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    },
+    "L2": {
+     "prescribed": 82,
+     "competing": 19,
+     "supported_with_competing_option": 18,
+     "contradicted": 7,
+     "unspecified": 5,
+     "hint_vs_policy": 5,
+     "prescribed_with_competing_option": 5,
+     "supported": 2,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    },
+    "L3": {
+     "prescribed": 31,
+     "competing": 5,
+     "supported_with_competing_option": 3,
+     "unspecified": 3,
+     "contradicted": 3,
+     "hint_vs_policy": 2,
+     "prescribed_with_competing_option": 1,
+     "supported": 1,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    }
+   },
+   "by_prompt_setting": {
+    "P0": {
+     "prescribed": 115,
+     "unspecified": 110,
+     "supported_with_competing_option": 43,
+     "competing": 42,
+     "contradicted": 21,
+     "prescribed_with_competing_option": 9,
+     "supported": 5
+    },
+    "P2": {
+     "prescribed": 135,
+     "hint_vs_policy": 8,
+     "prescribed_with_competing_option": 4,
+     "contradicted_by_hint_but_permitted_by_policy": 4
+    }
+   },
+   "by_env": {
+    "bills": {
+     "prescribed": 55,
+     "unspecified": 25,
+     "competing": 18,
+     "prescribed_with_competing_option": 2
+    },
+    "bizops": {
+     "prescribed": 45,
+     "contradicted": 21,
+     "unspecified": 14,
+     "hint_vs_policy": 8,
+     "contradicted_by_hint_but_permitted_by_policy": 2
+    },
+    "shopping": {
+     "prescribed": 36,
+     "competing": 22,
+     "unspecified": 18,
+     "prescribed_with_competing_option": 11,
+     "supported": 5,
+     "contradicted_by_hint_but_permitted_by_policy": 2
+    },
+    "wallet": {
+     "prescribed": 114,
+     "unspecified": 53,
+     "supported_with_competing_option": 43,
+     "competing": 2
+    }
+   },
+   "by_t_level_setting": {
+    "A|L0r|P0": {
+     "unspecified": 49
+    },
+    "A|L0r|P2": {
+     "prescribed": 26
+    },
+    "A|L1|P0": {
+     "supported_with_competing_option": 22,
+     "competing": 16,
+     "contradicted": 10,
+     "prescribed": 6,
+     "unspecified": 3
+    },
+    "A|L1|P2": {
+     "prescribed": 17,
+     "hint_vs_policy": 1
+    },
+    "A|L2|P0": {
+     "competing": 19,
+     "supported_with_competing_option": 18,
+     "prescribed": 6,
+     "contradicted": 6,
+     "unspecified": 5
+    },
+    "A|L2|P2": {
+     "prescribed": 13,
+     "hint_vs_policy": 5
+    },
+    "A|L3|P0": {
+     "competing": 5,
+     "prescribed": 4,
+     "supported_with_competing_option": 3,
+     "unspecified": 3,
+     "contradicted": 3
+    },
+    "A|L3|P2": {
+     "prescribed": 5,
+     "hint_vs_policy": 2
+    },
+    "B|L0r|P0": {
+     "unspecified": 50,
+     "competing": 2,
+     "supported": 1
+    },
+    "B|L0r|P2": {
+     "prescribed": 20,
+     "prescribed_with_competing_option": 2,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    },
+    "B|L1|P0": {
+     "prescribed": 39,
+     "prescribed_with_competing_option": 4,
+     "supported": 1,
+     "contradicted": 1
+    },
+    "B|L1|P2": {
+     "prescribed": 29,
+     "prescribed_with_competing_option": 1,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    },
+    "B|L2|P0": {
+     "prescribed": 44,
+     "prescribed_with_competing_option": 4,
+     "supported": 2,
+     "contradicted": 1
+    },
+    "B|L2|P2": {
+     "prescribed": 19,
+     "prescribed_with_competing_option": 1,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    },
+    "B|L3|P0": {
+     "prescribed": 16,
+     "prescribed_with_competing_option": 1,
+     "supported": 1
+    },
+    "B|L3|P2": {
+     "prescribed": 6,
+     "contradicted_by_hint_but_permitted_by_policy": 1
+    }
+   },
+   "examples": {
+    "prescribed": [
+     {
+      "file": "grpo_train",
+      "i": 0,
+      "scenario_id": "V253B",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "prescribes:BL-card-required"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 1,
+      "scenario_id": "V581B",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "prescribes:SH-card"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 5,
+      "scenario_id": "V571A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "prescribes:W-keep-light"
+      ]
+     }
+    ],
+    "unspecified": [
+     {
+      "file": "grpo_train",
+      "i": 4,
+      "scenario_id": "V581A",
+      "level": "L0r",
+      "prompt_setting": "P0",
+      "reasons": []
+     },
+     {
+      "file": "grpo_train",
+      "i": 14,
+      "scenario_id": "V344A",
+      "level": "L0r",
+      "prompt_setting": "P0",
+      "reasons": []
+     },
+     {
+      "file": "grpo_train",
+      "i": 19,
+      "scenario_id": "V184A",
+      "level": "L0r",
+      "prompt_setting": "P0",
+      "reasons": []
+     }
+    ],
+    "supported_with_competing_option": [
+     {
+      "file": "grpo_train",
+      "i": 2,
+      "scenario_id": "V554A",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:W-warning-signs(tell+let decide)",
+       "competing:W-card-content"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 3,
+      "scenario_id": "V473A",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:W-new-payee",
+       "competing:W-card-content"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 17,
+      "scenario_id": "S34A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:W-new-payee",
+       "competing:W-card-content"
+      ]
+     }
+    ],
+    "competing": [
+     {
+      "file": "grpo_train",
+      "i": 7,
+      "scenario_id": "V581A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "competing:SH-card-content"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 36,
+      "scenario_id": "V043A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "competing:SH-card-content"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 48,
+      "scenario_id": "S58A",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "competing:SH-card-content"
+      ]
+     }
+    ],
+    "contradicted": [
+     {
+      "file": "grpo_train",
+      "i": 26,
+      "scenario_id": "V264A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "contradicts:BZ-ask-only-if-needed"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 63,
+      "scenario_id": "V062A",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "contradicts:BZ-ask-only-if-needed"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 79,
+      "scenario_id": "S06A",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "contradicts:BZ-ask-only-if-needed"
+      ]
+     }
+    ],
+    "prescribed_with_competing_option": [
+     {
+      "file": "grpo_train",
+      "i": 29,
+      "scenario_id": "V044B",
+      "level": "L0r",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-just-card",
+       "competing:member card: 'no approval needed below ...' / 'auto-approved under ...'"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 73,
+      "scenario_id": "V042B",
+      "level": "L1",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-just-card",
+       "prescribes:SH-card",
+       "competing:authorisation visible + SH-SA"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 115,
+      "scenario_id": "S04B",
+      "level": "L3",
+      "prompt_setting": "P0",
+      "reasons": [
+       "prescribes:SH-card",
+       "competing:authorisation visible + SH-SA"
+      ]
+     }
+    ],
+    "hint_vs_policy": [
+     {
+      "file": "grpo_train",
+      "i": 94,
+      "scenario_id": "S26A",
+      "level": "L2",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-ask-one",
+       "contradicts:BZ-ask-only-if-needed"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 110,
+      "scenario_id": "S14A",
+      "level": "L3",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-ask-one",
+       "contradicts:BZ-ask-only-if-needed",
+       "contradicts:BZ-SA(SA-2 covers the retry: carry it out without a card)"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 143,
+      "scenario_id": "V093A",
+      "level": "L1",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:H-ask-one",
+       "competing:BZ-card-content",
+       "contradicts:BZ-ask-only-if-needed",
+       "contradicts:BZ-fraud/BZ-escalate(stop+tell+report path)"
+      ]
+     }
+    ],
+    "supported": [
+     {
+      "file": "grpo_train",
+      "i": 11,
+      "scenario_id": "S10B",
+      "level": "L1",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:SH-oneoff/SH-SA (permissive 'can')"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 15,
+      "scenario_id": "S10B",
+      "level": "L2",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:SH-oneoff/SH-SA (permissive 'can')"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 183,
+      "scenario_id": "S10B",
+      "level": "L3",
+      "prompt_setting": "P0",
+      "reasons": [
+       "supports:SH-oneoff/SH-SA (permissive 'can')"
+      ]
+     }
+    ],
+    "contradicted_by_hint_but_permitted_by_policy": [
+     {
+      "file": "grpo_train",
+      "i": 163,
+      "scenario_id": "V104B",
+      "level": "L1",
+      "prompt_setting": "P2",
+      "reasons": [
+       "supports:SH-oneoff/SH-SA (permissive 'can')",
+       "contradicts:H-just-card"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 225,
+      "scenario_id": "S14B",
+      "level": "L3",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:BZ-SA (imperative)",
+       "contradicts:H-just-card"
+      ]
+     },
+     {
+      "file": "grpo_train",
+      "i": 401,
+      "scenario_id": "S14B",
+      "level": "L2",
+      "prompt_setting": "P2",
+      "reasons": [
+       "prescribes:BZ-SA (imperative)",
+       "contradicts:H-just-card"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

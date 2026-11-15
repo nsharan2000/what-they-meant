@@ -1,0 +1,33 @@
+{
+ "per_prompt_acc_sd": 0.2634,
+ "p2": {
+  "n_true": 35,
+  "n_false": 85,
+  "diff": 0.0267,
+  "null_95": [
+   -0.1044,
+   0.1023
+  ],
+  "p_two_sided": 0.6409
+ },
+ "long": {
+  "n_true": 58,
+  "n_false": 62,
+  "diff": 0.108,
+  "null_95": [
+   -0.0924,
+   0.0955
+  ],
+  "p_two_sided": 0.0271
+ },
+ "shared": {
+  "n_true": 72,
+  "n_false": 48,
+  "diff": 0.0009,
+  "null_95": [
+   -0.0946,
+   0.0964
+  ],
+  "p_two_sided": 1.0
+ }
+}

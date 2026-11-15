@@ -1,0 +1,747 @@
+{
+ "args": {
+  "scenarios": [
+   "dataset/scenarios/*.jsonl",
+   "dataset/scenarios_synth/*.jsonl"
+  ],
+  "splits": "dataset/splits.json",
+  "failures": [
+   "experiments/replication/results/grid_*.jsonl"
+  ],
+  "out": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/v121_check",
+  "hint_share": 0.3
+ },
+ "counts": {
+  "sft_train": 1000,
+  "sft_val": 224,
+  "dpo_train": 508,
+  "grpo_train": 510
+ },
+ "skipped_missing_ideal_action": 0,
+ "dpo_rejected_source": {
+  "observed_failure": 495,
+  "synthetic_failures_scored_above_0": 2,
+  "synthetic_no_failure_same_level": 11
+ },
+ "dpo_synthetic_rejected": [
+  [
+   "S04A",
+   "L3",
+   "synthetic_no_failure_same_level"
+  ],
+  [
+   "S11A",
+   "L0r",
+   "synthetic_no_failure_same_level"
+  ],
+  [
+   "S11A",
+   "L3",
+   "synthetic_no_failure_same_level"
+  ],
+  [
+   "S14B",
+   "L0r",
+   "synthetic_no_failure_same_level"
+  ],
+  [
+   "S14B",
+   "L1",
+   "synthetic_no_failure_same_level"
+  ],
+  [
+   "S14B",
+   "L3",
+   "synthetic_no_failure_same_level"
+  ],
+  [
+   "V042A",
+   "L1",
+   "synthetic_no_failure_same_level"
+  ],
+  [
+   "V043A",
+   "L1",
+   "synthetic_no_failure_same_level"
+  ],
+  [
+   "V043A",
+   "L2",
+   "synthetic_no_failure_same_level"
+  ],
+  [
+   "V091B",
+   "L1",
+   "synthetic_no_failure_same_level"
+  ],
+  [
+   "V104B",
+   "L0r",
+   "synthetic_failures_scored_above_0"
+  ],
+  [
+   "V113A",
+   "L1",
+   "synthetic_failures_scored_above_0"
+  ],
+  [
+   "V113A",
+   "L2",
+   "synthetic_no_failure_same_level"
+  ]
+ ],
+ "composition": {
+  "sft_train": {
+   "n": 1000,
+   "twin": {
+    "A": 499,
+    "B": 501
+   },
+   "level": {
+    "L0r": 300,
+    "L1": 298,
+    "L2": 300,
+    "L3": 102
+   },
+   "prompt_setting": {
+    "P0": 687,
+    "P2": 313
+   },
+   "turn": {
+    "decision": 509,
+    "lookup1": 485,
+    "lookup2": 6
+   }
+  },
+  "sft_val": {
+   "n": 224,
+   "twin": {
+    "A": 112,
+    "B": 112
+   },
+   "level": {
+    "L0r": 68,
+    "L1": 68,
+    "L2": 68,
+    "L3": 20
+   },
+   "prompt_setting": {
+    "P0": 164,
+    "P2": 60
+   },
+   "turn": {
+    "decision": 112,
+    "lookup1": 112
+   }
+  },
+  "dpo_train": {
+   "n": 508,
+   "twin": {
+    "A": 253,
+    "B": 255
+   },
+   "level": {
+    "L0r": 151,
+    "L1": 151,
+    "L2": 152,
+    "L3": 54
+   },
+   "prompt_setting": {
+    "P0": 352,
+    "P2": 156
+   },
+   "turn": {
+    "-": 508
+   }
+  },
+  "grpo_train": {
+   "n": 510,
+   "twin": {
+    "A": 255,
+    "B": 255
+   },
+   "level": {
+    "L0r": 152,
+    "L1": 152,
+    "L2": 152,
+    "L3": 54
+   },
+   "prompt_setting": {
+    "P0": 354,
+    "P2": 156
+   },
+   "turn": {
+    "-": 510
+   }
+  }
+ },
+ "dropped_by_reason": {
+  "dpo_train: pushback row: hidden labels differ from the A twin's": 8,
+  "grpo_train: pushback row: hidden labels differ from the A twin's": 8,
+  "sft_train: pushback row duplicates the A twin's row (hint-stripped prompt and target)": 14,
+  "sft_val: pushback row duplicates the A twin's row (hint-stripped prompt and target)": 8,
+  "sft_train: target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)": 4,
+  "dpo_train: target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)": 2,
+  "sft_train: look-up turn whose prompt also leads to a different look-up (twin previews differ)": 8
+ },
+ "identifier_skips": [
+  {
+   "scenario_id": "V031A",
+   "level": "L0r",
+   "missing": [
+    [
+     "iso_date",
+     "2026-11-10"
+    ]
+   ]
+  },
+  {
+   "scenario_id": "V072A",
+   "level": "L1",
+   "missing": [
+    [
+     "phone",
+     "555-0177"
+    ]
+   ]
+  }
+ ],
+ "known_bad_targets": {},
+ "lookup_conflicts": [
+  {
+   "hint_stripped": false,
+   "rows": [
+    [
+     "S42A",
+     "L0r",
+     "P0",
+     "lookup1",
+     "<tool_call>{\"name\": \"preview_bulk_action\", \"arguments\": {\"action\": \"Mark as paid\", \"order_filter\": 1240}}</tool_call>"
+    ],
+    [
+     "S42B",
+     "L0r",
+     "P0",
+     "lookup1",
+     "<tool_call>{\"name\": \"preview_bulk_action\", \"arguments\": {\"action\": \"Collect balance via payment app\", \"order_filter\": 12"
+    ]
+   ]
+  },
+  {
+   "hint_stripped": false,
+   "rows": [
+    [
+     "S42A",
+     "L1",
+     "P0",
+     "lookup1",
+     "<tool_call>{\"name\": \"preview_bulk_action\", \"arguments\": {\"action\": \"Mark as paid\", \"order_filter\": 1240}}</tool_call>"
+    ],
+    [
+     "S42B",
+     "L1",
+     "P0",
+     "lookup1",
+     "<tool_call>{\"name\": \"preview_bulk_action\", \"arguments\": {\"action\": \"Collect balance via payment app\", \"order_filter\": 12"
+    ]
+   ]
+  },
+  {
+   "hint_stripped": false,
+   "rows": [
+    [
+     "S42A",
+     "L2",
+     "P0",
+     "lookup1",
+     "<tool_call>{\"name\": \"preview_bulk_action\", \"arguments\": {\"action\": \"Mark as paid\", \"order_filter\": 1240}}</tool_call>"
+    ],
+    [
+     "S42B",
+     "L2",
+     "P0",
+     "lookup1",
+     "<tool_call>{\"name\": \"preview_bulk_action\", \"arguments\": {\"action\": \"Collect balance via payment app\", \"order_filter\": 12"
+    ]
+   ]
+  },
+  {
+   "hint_stripped": false,
+   "rows": [
+    [
+     "S42A",
+     "L3",
+     "P0",
+     "lookup1",
+     "<tool_call>{\"name\": \"preview_bulk_action\", \"arguments\": {\"action\": \"Mark as paid\", \"order_filter\": 1240}}</tool_call>"
+    ],
+    [
+     "S42B",
+     "L3",
+     "P0",
+     "lookup1",
+     "<tool_call>{\"name\": \"preview_bulk_action\", \"arguments\": {\"action\": \"Collect balance via payment app\", \"order_filter\": 12"
+    ]
+   ]
+  }
+ ],
+ "pushback_rows_with_other_labels": [
+  "S01P",
+  "S07P",
+  "S49P"
+ ],
+ "dropped": [
+  {
+   "view": "dpo_train",
+   "scenario_id": "S07P",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "dpo_train",
+   "scenario_id": "S07P",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "dpo_train",
+   "scenario_id": "S07P",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "dpo_train",
+   "scenario_id": "S07P",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "dpo_train",
+   "scenario_id": "S49P",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "dpo_train",
+   "scenario_id": "S49P",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "dpo_train",
+   "scenario_id": "S49P",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "dpo_train",
+   "scenario_id": "S49P",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "grpo_train",
+   "scenario_id": "S07P",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "grpo_train",
+   "scenario_id": "S07P",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "grpo_train",
+   "scenario_id": "S07P",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "grpo_train",
+   "scenario_id": "S07P",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "grpo_train",
+   "scenario_id": "S49P",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "grpo_train",
+   "scenario_id": "S49P",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "grpo_train",
+   "scenario_id": "S49P",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "grpo_train",
+   "scenario_id": "S49P",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "pushback row: hidden labels differ from the A twin's"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S07P",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S07P",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "turn": "decision",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S07P",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S07P",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "turn": "decision",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S07P",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "turn": "lookup1",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S07P",
+   "level": "L2",
+   "prompt_setting": "P2",
+   "turn": "decision",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S07P",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S07P",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "turn": "decision",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S49P",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S49P",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "turn": "decision",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S49P",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S49P",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "turn": "decision",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S49P",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S49P",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "turn": "decision",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_val",
+   "scenario_id": "S01P",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "turn": "lookup1",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_val",
+   "scenario_id": "S01P",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "turn": "decision",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_val",
+   "scenario_id": "S01P",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "turn": "lookup1",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_val",
+   "scenario_id": "S01P",
+   "level": "L1",
+   "prompt_setting": "P2",
+   "turn": "decision",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_val",
+   "scenario_id": "S01P",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_val",
+   "scenario_id": "S01P",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "turn": "decision",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_val",
+   "scenario_id": "S01P",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "turn": "lookup1",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_val",
+   "scenario_id": "S01P",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "turn": "decision",
+   "reason": "pushback row duplicates the A twin's row (hint-stripped prompt and target)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "V031A",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)",
+   "detail": [
+    [
+     "iso_date",
+     "2026-11-10"
+    ]
+   ]
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "V031A",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "turn": "decision",
+   "reason": "target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)",
+   "detail": [
+    [
+     "iso_date",
+     "2026-11-10"
+    ]
+   ]
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "V072A",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)",
+   "detail": [
+    [
+     "phone",
+     "555-0177"
+    ]
+   ]
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "V072A",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "turn": "decision",
+   "reason": "target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)",
+   "detail": [
+    [
+     "phone",
+     "555-0177"
+    ]
+   ]
+  },
+  {
+   "view": "dpo_train",
+   "scenario_id": "V031A",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)",
+   "detail": [
+    [
+     "iso_date",
+     "2026-11-10"
+    ]
+   ]
+  },
+  {
+   "view": "dpo_train",
+   "scenario_id": "V072A",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "turn": null,
+   "reason": "target cites identifiers the prompt never shows, or misquotes one (KNOWN_BAD_TARGETS)",
+   "detail": [
+    [
+     "phone",
+     "555-0177"
+    ]
+   ]
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S42A",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "look-up turn whose prompt also leads to a different look-up (twin previews differ)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S42A",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "look-up turn whose prompt also leads to a different look-up (twin previews differ)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S42A",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "look-up turn whose prompt also leads to a different look-up (twin previews differ)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S42A",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "look-up turn whose prompt also leads to a different look-up (twin previews differ)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S42B",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "look-up turn whose prompt also leads to a different look-up (twin previews differ)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S42B",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "look-up turn whose prompt also leads to a different look-up (twin previews differ)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S42B",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "look-up turn whose prompt also leads to a different look-up (twin previews differ)"
+  },
+  {
+   "view": "sft_train",
+   "scenario_id": "S42B",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "turn": "lookup1",
+   "reason": "look-up turn whose prompt also leads to a different look-up (twin previews differ)"
+  }
+ ]
+}

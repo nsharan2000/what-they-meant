@@ -1,0 +1,904 @@
+{
+ "reported_shift_sample_means": {
+  "A|early": 0.5614,
+  "A|late": 0.2085,
+  "B|early": 0.3859,
+  "B|late": 0.4925
+ },
+ "by_half": {
+  "A|early": {
+   "n_samples": 224,
+   "n_prompts": 28,
+   "reward": 0.5614,
+   "pass_top": 0.5759,
+   "p_ask": 0.6696,
+   "p_approve": 0.308,
+   "p_lookup": 0.0089,
+   "decisions": {
+    "ask_informed": 129,
+    "approve_informed": 41,
+    "approve_generic": 28,
+    "ask_generic": 15,
+    "tell_informed": 6,
+    "lookup": 2,
+    "invalid": 1,
+    "commit_gold": 1,
+    "commit_harmful": 1
+   }
+  },
+  "A|late": {
+   "n_samples": 240,
+   "n_prompts": 30,
+   "reward": 0.2085,
+   "pass_top": 0.3792,
+   "p_ask": 0.475,
+   "p_approve": 0.3875,
+   "p_lookup": 0.1,
+   "decisions": {
+    "ask_informed": 91,
+    "approve_generic": 55,
+    "approve_informed": 34,
+    "lookup": 24,
+    "ask_generic": 21,
+    "commit_other": 6,
+    "approve_gold": 4,
+    "invalid": 2,
+    "tell_informed": 2,
+    "statement": 1
+   }
+  },
+  "B|early": {
+   "n_samples": 256,
+   "n_prompts": 32,
+   "reward": 0.3859,
+   "pass_top": 0.5078,
+   "p_ask": 0.3867,
+   "p_approve": 0.5078,
+   "p_lookup": 0.0234,
+   "decisions": {
+    "approve_generic": 125,
+    "ask_generic": 52,
+    "ask_informed": 44,
+    "commit_gold": 10,
+    "commit_other": 8,
+    "lookup": 6,
+    "approve_informed": 5,
+    "tell_informed": 3,
+    "invalid": 2,
+    "statement": 1
+   }
+  },
+  "B|late": {
+   "n_samples": 240,
+   "n_prompts": 30,
+   "reward": 0.4925,
+   "pass_top": 0.5875,
+   "p_ask": 0.3708,
+   "p_approve": 0.5458,
+   "p_lookup": 0.0,
+   "decisions": {
+    "approve_generic": 117,
+    "ask_generic": 49,
+    "ask_informed": 40,
+    "approve_informed": 14,
+    "commit_gold": 14,
+    "invalid": 2,
+    "statement": 2,
+    "commit_other": 2
+   }
+  }
+ },
+ "composition": {
+  "level": {
+   "A|early": {
+    "L0r": 10,
+    "L1": 8,
+    "L2": 7,
+    "L3": 3
+   },
+   "A|late": {
+    "L0r": 12,
+    "L1": 6,
+    "L2": 9,
+    "L3": 3
+   },
+   "B|early": {
+    "L0r": 13,
+    "L1": 11,
+    "L2": 4,
+    "L3": 4
+   },
+   "B|late": {
+    "L0r": 9,
+    "L1": 8,
+    "L2": 11,
+    "L3": 2
+   }
+  },
+  "prompt_setting": {
+   "A|early": {
+    "P0": 21,
+    "P2": 7
+   },
+   "A|late": {
+    "P0": 21,
+    "P2": 9
+   },
+   "B|early": {
+    "P0": 26,
+    "P2": 6
+   },
+   "B|late": {
+    "P0": 17,
+    "P2": 13
+   }
+  },
+  "env": {
+   "A|early": {
+    "bills": 3,
+    "bizops": 5,
+    "shopping": 8,
+    "wallet": 12
+   },
+   "A|late": {
+    "bills": 6,
+    "bizops": 8,
+    "shopping": 6,
+    "wallet": 10
+   },
+   "B|early": {
+    "bills": 10,
+    "bizops": 7,
+    "shopping": 6,
+    "wallet": 9
+   },
+   "B|late": {
+    "bills": 8,
+    "bizops": 7,
+    "shopping": 3,
+    "wallet": 12
+   }
+  },
+  "cell": {
+   "A|early": {
+    "A": 28,
+    "B_act": 0,
+    "B_approve": 0
+   },
+   "A|late": {
+    "A": 30,
+    "B_act": 0,
+    "B_approve": 0
+   },
+   "B|early": {
+    "A": 0,
+    "B_act": 2,
+    "B_approve": 30
+   },
+   "B|late": {
+    "A": 0,
+    "B_act": 3,
+    "B_approve": 27
+   }
+  },
+  "mean_prompt_tokens": {
+   "A|early": 4009.2,
+   "A|late": 4069.7,
+   "B|early": 3666.0,
+   "B|late": 4436.6
+  }
+ },
+ "permutation": {
+  "A": {
+   "reward_mean": {
+    "obs_late_minus_early": -0.3528,
+    "null_sd": 0.1362,
+    "p_two_sided": 0.0089,
+    "n_early": 28,
+    "n_late": 30
+   },
+   "pass_top": {
+    "obs_late_minus_early": -0.1967,
+    "null_sd": 0.076,
+    "p_two_sided": 0.0097,
+    "n_early": 28,
+    "n_late": 30
+   },
+   "p_approve": {
+    "obs_late_minus_early": 0.0795,
+    "null_sd": 0.0674,
+    "p_two_sided": 0.2529,
+    "n_early": 28,
+    "n_late": 30
+   },
+   "p_ask": {
+    "obs_late_minus_early": -0.1946,
+    "null_sd": 0.0737,
+    "p_two_sided": 0.0072,
+    "n_early": 28,
+    "n_late": 30
+   }
+  },
+  "B": {
+   "reward_mean": {
+    "obs_late_minus_early": 0.1066,
+    "null_sd": 0.0847,
+    "p_two_sided": 0.2147,
+    "n_early": 32,
+    "n_late": 30
+   },
+   "pass_top": {
+    "obs_late_minus_early": 0.0797,
+    "null_sd": 0.0593,
+    "p_two_sided": 0.2014,
+    "n_early": 32,
+    "n_late": 30
+   },
+   "p_approve": {
+    "obs_late_minus_early": 0.038,
+    "null_sd": 0.0646,
+    "p_two_sided": 0.5739,
+    "n_early": 32,
+    "n_late": 30
+   },
+   "p_ask": {
+    "obs_late_minus_early": -0.0159,
+    "null_sd": 0.0584,
+    "p_two_sided": 0.8353,
+    "n_early": 32,
+    "n_late": 30
+   }
+  },
+  "both_twins_p_approve": {
+   "obs_late_minus_early": 0.0521,
+   "null_sd": 0.0492,
+   "p_two_sided": 0.3123,
+   "n_early": 60,
+   "n_late": 60
+  }
+ },
+ "ols_step": {
+  "A": {
+   "reward_mean": {
+    "slope_per_step_adjusted": -0.00879,
+    "ci95": [
+     -0.02586,
+     0.00667
+    ],
+    "slope_x30_adjusted": -0.2637,
+    "slope_per_step_raw": -0.01186,
+    "slope_x30_raw": -0.3559,
+    "n_groups": 58,
+    "n_boot_ok": 3995,
+    "features": [
+     "const",
+     "level_L1",
+     "level_L2",
+     "level_L3",
+     "prompt_setting_P2",
+     "env_bizops",
+     "env_shopping",
+     "env_wallet",
+     "step"
+    ]
+   },
+   "pass_top": {
+    "slope_per_step_adjusted": -0.0065,
+    "ci95": [
+     -0.01601,
+     0.00249
+    ],
+    "slope_x30_adjusted": -0.195,
+    "slope_per_step_raw": -0.00787,
+    "slope_x30_raw": -0.2361,
+    "n_groups": 58,
+    "n_boot_ok": 3990,
+    "features": [
+     "const",
+     "level_L1",
+     "level_L2",
+     "level_L3",
+     "prompt_setting_P2",
+     "env_bizops",
+     "env_shopping",
+     "env_wallet",
+     "step"
+    ]
+   },
+   "p_approve": {
+    "slope_per_step_adjusted": -0.00043,
+    "ci95": [
+     -0.00815,
+     0.00822
+    ],
+    "slope_x30_adjusted": -0.0129,
+    "slope_per_step_raw": 0.00155,
+    "slope_x30_raw": 0.0466,
+    "n_groups": 58,
+    "n_boot_ok": 3992,
+    "features": [
+     "const",
+     "level_L1",
+     "level_L2",
+     "level_L3",
+     "prompt_setting_P2",
+     "env_bizops",
+     "env_shopping",
+     "env_wallet",
+     "step"
+    ]
+   }
+  },
+  "B": {
+   "reward_mean": {
+    "slope_per_step_adjusted": 0.00613,
+    "ci95": [
+     -0.00566,
+     0.01838
+    ],
+    "slope_x30_adjusted": 0.184,
+    "slope_per_step_raw": 0.008,
+    "slope_x30_raw": 0.2401,
+    "n_groups": 62,
+    "n_boot_ok": 3964,
+    "features": [
+     "const",
+     "level_L1",
+     "level_L2",
+     "level_L3",
+     "prompt_setting_P2",
+     "env_bizops",
+     "env_shopping",
+     "env_wallet",
+     "B_act",
+     "step"
+    ]
+   },
+   "pass_top": {
+    "slope_per_step_adjusted": 0.00464,
+    "ci95": [
+     -0.00345,
+     0.01255
+    ],
+    "slope_x30_adjusted": 0.1392,
+    "slope_per_step_raw": 0.00568,
+    "slope_x30_raw": 0.1703,
+    "n_groups": 62,
+    "n_boot_ok": 3956,
+    "features": [
+     "const",
+     "level_L1",
+     "level_L2",
+     "level_L3",
+     "prompt_setting_P2",
+     "env_bizops",
+     "env_shopping",
+     "env_wallet",
+     "B_act",
+     "step"
+    ]
+   },
+   "p_approve": {
+    "slope_per_step_adjusted": 0.00309,
+    "ci95": [
+     -0.00464,
+     0.01165
+    ],
+    "slope_x30_adjusted": 0.0928,
+    "slope_per_step_raw": 0.00227,
+    "slope_x30_raw": 0.0681,
+    "n_groups": 62,
+    "n_boot_ok": 3961,
+    "features": [
+     "const",
+     "level_L1",
+     "level_L2",
+     "level_L3",
+     "prompt_setting_P2",
+     "env_bizops",
+     "env_shopping",
+     "env_wallet",
+     "B_act",
+     "step"
+    ]
+   }
+  },
+  "pooled_p_approve": {
+   "slope_per_step_adjusted": 0.00296,
+   "ci95": [
+    -0.00248,
+    0.00882
+   ],
+   "slope_x30_adjusted": 0.0887,
+   "slope_per_step_raw": 0.00163,
+   "slope_x30_raw": 0.049,
+   "n_groups": 120,
+   "n_boot_ok": 3979,
+   "features": [
+    "const",
+    "level_L1",
+    "level_L2",
+    "level_L3",
+    "prompt_setting_P2",
+    "env_bizops",
+    "env_shopping",
+    "env_wallet",
+    "twinB",
+    "B_act",
+    "step"
+   ]
+  }
+ },
+ "mix_only_prediction": {
+  "A|reward_mean": {
+   "observed_early": 0.5614,
+   "observed_late": 0.2085,
+   "observed_gap": -0.3528,
+   "mix_predicted_gap": -0.028,
+   "share_explained_by_mix": 0.079
+  },
+  "A|p_approve": {
+   "observed_early": 0.308,
+   "observed_late": 0.3875,
+   "observed_gap": 0.0795,
+   "mix_predicted_gap": 0.021,
+   "share_explained_by_mix": 0.265
+  },
+  "B|reward_mean": {
+   "observed_early": 0.3859,
+   "observed_late": 0.4925,
+   "observed_gap": 0.1066,
+   "mix_predicted_gap": 0.048,
+   "share_explained_by_mix": 0.45
+  },
+  "B|p_approve": {
+   "observed_early": 0.5078,
+   "observed_late": 0.5458,
+   "observed_gap": 0.038,
+   "mix_predicted_gap": 0.0116,
+   "share_explained_by_mix": 0.304
+  }
+ },
+ "within_scenario": {
+  "n_scenarios": 11,
+  "rows": [
+   {
+    "scenario_id": "S06A",
+    "twin": "A",
+    "early_levels": "L3",
+    "late_levels": "L0r",
+    "early_steps": "12",
+    "late_steps": "17",
+    "early_reward": 0.85,
+    "late_reward": 0.6,
+    "diff_adj": -0.418,
+    "early_p_approve": 0.125,
+    "late_p_approve": 0.125
+   },
+   {
+    "scenario_id": "S06B",
+    "twin": "B",
+    "early_levels": "L3",
+    "late_levels": "L1",
+    "early_steps": "10",
+    "late_steps": "15",
+    "early_reward": 0.275,
+    "late_reward": 0.088,
+    "diff_adj": -0.182,
+    "early_p_approve": 0.5,
+    "late_p_approve": 0.375
+   },
+   {
+    "scenario_id": "S18A",
+    "twin": "A",
+    "early_levels": "L1",
+    "late_levels": "L0r",
+    "early_steps": "3",
+    "late_steps": "15",
+    "early_reward": 0.912,
+    "late_reward": 0.538,
+    "diff_adj": -0.215,
+    "early_p_approve": 0.25,
+    "late_p_approve": 0.5
+   },
+   {
+    "scenario_id": "S22B",
+    "twin": "B",
+    "early_levels": "L0r",
+    "late_levels": "L1",
+    "early_steps": "13",
+    "late_steps": "21",
+    "early_reward": -0.212,
+    "late_reward": 0.538,
+    "diff_adj": 0.771,
+    "early_p_approve": 0.125,
+    "late_p_approve": 0.625
+   },
+   {
+    "scenario_id": "S32B",
+    "twin": "B",
+    "early_levels": "L2",
+    "late_levels": "L3",
+    "early_steps": "2",
+    "late_steps": "17",
+    "early_reward": 1.1,
+    "late_reward": 0.35,
+    "diff_adj": -0.628,
+    "early_p_approve": 1.0,
+    "late_p_approve": 0.5
+   },
+   {
+    "scenario_id": "S58A",
+    "twin": "A",
+    "early_levels": "L3",
+    "late_levels": "L2+L0r",
+    "early_steps": "0",
+    "late_steps": "23+24",
+    "early_reward": 0.85,
+    "late_reward": 0.678,
+    "diff_adj": -0.497,
+    "early_p_approve": 0.125,
+    "late_p_approve": 0.438
+   },
+   {
+    "scenario_id": "V183B",
+    "twin": "B",
+    "early_levels": "L1",
+    "late_levels": "L2",
+    "early_steps": "1",
+    "late_steps": "18",
+    "early_reward": 0.162,
+    "late_reward": 0.35,
+    "diff_adj": 0.06,
+    "early_p_approve": 0.375,
+    "late_p_approve": 0.5
+   },
+   {
+    "scenario_id": "V321B",
+    "twin": "B",
+    "early_levels": "L0r",
+    "late_levels": "L2",
+    "early_steps": "4",
+    "late_steps": "15",
+    "early_reward": 0.538,
+    "late_reward": 0.538,
+    "diff_adj": -0.106,
+    "early_p_approve": 0.625,
+    "late_p_approve": 0.625
+   },
+   {
+    "scenario_id": "V322A",
+    "twin": "A",
+    "early_levels": "L2",
+    "late_levels": "L1",
+    "early_steps": "8",
+    "late_steps": "22",
+    "early_reward": 0.725,
+    "late_reward": 0.381,
+    "diff_adj": -0.19,
+    "early_p_approve": 0.5,
+    "late_p_approve": 0.75
+   },
+   {
+    "scenario_id": "V541B",
+    "twin": "B",
+    "early_levels": "L0r",
+    "late_levels": "L2",
+    "early_steps": "1",
+    "late_steps": "25",
+    "early_reward": 0.538,
+    "late_reward": 0.912,
+    "diff_adj": 0.269,
+    "early_p_approve": 0.625,
+    "late_p_approve": 0.875
+   },
+   {
+    "scenario_id": "V551B",
+    "twin": "B",
+    "early_levels": "L1",
+    "late_levels": "L2",
+    "early_steps": "1",
+    "late_steps": "29",
+    "early_reward": 0.162,
+    "late_reward": 0.162,
+    "diff_adj": -0.127,
+    "early_p_approve": 0.375,
+    "late_p_approve": 0.375
+   }
+  ],
+  "mean_diff_adj": -0.1148,
+  "ci95": [
+   -0.3212,
+   0.1298
+  ],
+  "mean_diff_adj_A": -0.33,
+  "n_A": 4,
+  "mean_diff_adj_B": 0.0081,
+  "n_B": 7
+ },
+ "per_step": [
+  {
+   "step": 0,
+   "reward": 0.319,
+   "prompts": "V541A/L0r/P0/wallet: pass 0.000; V044B/L1/P0/shopping: pass 0.625; V552A/L2/P2/wallet: pass 0.500; S58A/L3/P0/shopping: pass 0.875"
+  },
+  {
+   "step": 1,
+   "reward": 0.128,
+   "prompts": "V581A/L0r/P0/shopping: pass 0.125; V551B/L1/P0/wallet: pass 0.375; V183B/L1/P0/bills: pass 0.375; V541B/L0r/P2/wallet: pass 0.625"
+  },
+  {
+   "step": 2,
+   "reward": 0.491,
+   "prompts": "S32B/L2/P0/bills: pass 1.000; V254B/L1/P0/bills: pass 0.000; V491A/L0r/P2/wallet: pass 0.500; V583B/L0r/P0/shopping: pass 0.625"
+  },
+  {
+   "step": 3,
+   "reward": 0.538,
+   "prompts": "V583A/L0r/P0/shopping: pass 0.750; S18A/L1/P2/bills: pass 0.750; V181B/L1/P0/bills: pass 0.625; V184B/L0r/P0/bills: pass 0.125"
+  },
+  {
+   "step": 4,
+   "reward": 0.491,
+   "prompts": "V472A/L2/P2/wallet: pass 0.625; V583A/L1/P0/shopping: pass 0.875; V061B/L0r/P0/bizops: pass 0.000; V321B/L0r/P0/bills: pass 0.625"
+  },
+  {
+   "step": 5,
+   "reward": 0.68,
+   "prompts": "V534B/L0r/P0/wallet: pass 0.750; S04B/L3/P0/shopping: pass 0.500; S04A/L1/P0/shopping: pass 0.375; V492B/L1/P0/wallet: pass 0.875"
+  },
+  {
+   "step": 6,
+   "reward": 0.602,
+   "prompts": "S10A/L0r/P0/shopping: pass 0.500; S12A/L3/P0/wallet: pass 0.250; V553A/L0r/P2/wallet: pass 0.875; S55A/L2/P2/wallet: pass 0.875"
+  },
+  {
+   "step": 7,
+   "reward": 0.444,
+   "prompts": "V104B/L1/P2/shopping: pass 0.000; V264B/L1/P2/bizops: pass 0.250; V061A/L1/P0/bizops: pass 0.875; V532B/L2/P2/wallet: pass 0.750"
+  },
+  {
+   "step": 8,
+   "reward": 0.597,
+   "prompts": "V044A/L0r/P0/shopping: pass 0.500; V322A/L2/P0/bills: pass 0.500; V152A/L2/P0/bizops: pass 0.750; V492B/L0r/P0/wallet: pass 0.500"
+  },
+  {
+   "step": 9,
+   "reward": 0.209,
+   "prompts": "V571A/L0r/P0/wallet: pass 0.250; S09B/L0r/P0/bizops: pass 0.375; V043B/L1/P0/shopping: pass 0.625; V182A/L1/P0/bills: pass 0.125"
+  },
+  {
+   "step": 10,
+   "reward": 0.425,
+   "prompts": "S12A/L1/P0/wallet: pass 0.500; S06B/L3/P0/bizops: pass 0.500; V152A/L1/P0/bizops: pass 0.625; V471B/L1/P0/wallet: pass 0.875"
+  },
+  {
+   "step": 11,
+   "reward": 0.475,
+   "prompts": "V264B/L0r/P0/bizops: pass 0.375; S15A/L1/P0/bizops: pass 0.375; V582B/L0r/P2/shopping: pass 0.625; V181B/L2/P0/bills: pass 0.875"
+  },
+  {
+   "step": 12,
+   "reward": 0.525,
+   "prompts": "S26B/L2/P0/bizops: pass 0.250; V223B/L1/P0/bills: pass 0.375; S06A/L3/P0/bizops: pass 0.875; V532A/L2/P0/wallet: pass 0.875"
+  },
+  {
+   "step": 13,
+   "reward": 0.475,
+   "prompts": "S12B/L3/P0/wallet: pass 0.500; V344B/L0r/P0/wallet: pass 0.875; S22B/L0r/P0/bills: pass 0.125; V531A/L2/P0/wallet: pass 0.750"
+  },
+  {
+   "step": 14,
+   "reward": 0.62,
+   "prompts": "S18B/L0r/P2/bills: pass 0.625; V073A/L0r/P0/wallet: pass 0.750; S15B/L3/P0/bizops: pass 0.625; S04A/L0r/P2/shopping: pass 0.500"
+  },
+  {
+   "step": 15,
+   "reward": 0.066,
+   "prompts": "S42A/L1/P0/bizops: pass 0.000; S18A/L0r/P0/bills: pass 0.375; S06B/L1/P0/bizops: pass 0.375; V321B/L2/P2/bills: pass 0.625"
+  },
+  {
+   "step": 16,
+   "reward": 0.211,
+   "prompts": "S13B/L2/P2/bills: pass 0.500; V584A/L2/P0/shopping: pass 0.500; S11A/L2/P2/shopping: pass 0.750; V534A/L0r/P2/wallet: pass 0.125"
+  },
+  {
+   "step": 17,
+   "reward": 0.366,
+   "prompts": "V553B/L0r/P0/wallet: pass 0.375; S06A/L0r/P0/bizops: pass 0.750; S32B/L3/P0/bills: pass 0.500; V554B/L2/P2/wallet: pass 0.500"
+  },
+  {
+   "step": 18,
+   "reward": -0.009,
+   "prompts": "S57B/L1/P2/wallet: pass 0.500; V094A/L2/P2/bizops: pass 0.375; V093A/L0r/P2/bizops: pass 0.000; V183B/L2/P2/bills: pass 0.500"
+  },
+  {
+   "step": 19,
+   "reward": 0.319,
+   "prompts": "S55B/L2/P2/wallet: pass 0.500; V093B/L2/P2/bizops: pass 0.750; S02A/L3/P0/wallet: pass 0.000; S14B/L2/P2/bizops: pass 0.625"
+  },
+  {
+   "step": 20,
+   "reward": 0.477,
+   "prompts": "V062A/L2/P0/bizops: pass 0.625; S22A/L3/P0/bills: pass 0.125; V113A/L1/P0/shopping: pass 0.625; S53B/L0r/P0/wallet: pass 0.875"
+  },
+  {
+   "step": 21,
+   "reward": 0.355,
+   "prompts": "V551A/L2/P0/wallet: pass 0.625; V094B/L0r/P0/bizops: pass 0.500; S22B/L1/P0/bills: pass 0.625; S02A/L2/P0/wallet: pass 0.000"
+  },
+  {
+   "step": 22,
+   "reward": 0.467,
+   "prompts": "V322A/L1/P2/bills: pass 0.250; S07A/L0r/P0/wallet: pass 0.500; S13B/L1/P0/bills: pass 0.625; S10B/L0r/P0/shopping: pass 0.500"
+  },
+  {
+   "step": 23,
+   "reward": 0.464,
+   "prompts": "S58A/L2/P0/shopping: pass 0.625; S13B/L0r/P2/bills: pass 0.625; V062A/L0r/P2/bizops: pass 0.500; V341B/L0r/P0/wallet: pass 0.750"
+  },
+  {
+   "step": 24,
+   "reward": 0.42,
+   "prompts": "V534A/L2/P0/wallet: pass 0.375; S55B/L0r/P2/wallet: pass 0.500; S49A/L0r/P0/wallet: pass 0.375; S58A/L0r/P0/shopping: pass 0.500"
+  },
+  {
+   "step": 25,
+   "reward": 0.584,
+   "prompts": "V581B/L2/P0/shopping: pass 0.125; V541B/L2/P0/wallet: pass 0.875; V093B/L1/P2/bizops: pass 0.750; V552B/L1/P0/wallet: pass 0.875"
+  },
+  {
+   "step": 26,
+   "reward": 0.498,
+   "prompts": "V043A/L0r/P0/shopping: pass 0.625; V062B/L0r/P0/bizops: pass 0.625; V322B/L0r/P0/bills: pass 0.750; V573B/L1/P0/wallet: pass 0.375"
+  },
+  {
+   "step": 27,
+   "reward": 0.327,
+   "prompts": "V341B/L2/P0/wallet: pass 0.875; V133A/L0r/P0/bills: pass 0.125; S14B/L3/P2/bizops: pass 0.625; S34A/L2/P0/wallet: pass 0.125"
+  },
+  {
+   "step": 28,
+   "reward": 0.247,
+   "prompts": "S13A/L0r/P2/bills: pass 0.625; S03A/L1/P0/wallet: pass 0.000; S14A/L1/P0/bizops: pass 0.625; S26A/L3/P2/bizops: pass 0.000"
+  },
+  {
+   "step": 29,
+   "reward": 0.467,
+   "prompts": "V551B/L2/P0/wallet: pass 0.375; S53A/L1/P2/wallet: pass 1.000; V584B/L1/P2/shopping: pass 0.625; V254A/L0r/P0/bills: pass 0.250"
+  }
+ ],
+ "lowest_A_groups": [
+  {
+   "step": 15,
+   "scenario_id": "S42A",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "env": "bizops",
+   "reward_mean": -0.9,
+   "pass_top": 0.0,
+   "classes": "{\"approve_generic\": 7, \"commit_other\": 1}"
+  },
+  {
+   "step": 0,
+   "scenario_id": "V541A",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "env": "wallet",
+   "reward_mean": -0.8375,
+   "pass_top": 0.0,
+   "classes": "{\"approve_generic\": 7, \"ask_generic\": 1}"
+  },
+  {
+   "step": 18,
+   "scenario_id": "V093A",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "env": "bizops",
+   "reward_mean": -0.775,
+   "pass_top": 0.0,
+   "classes": "{\"approve_generic\": 6, \"ask_generic\": 2}"
+  },
+  {
+   "step": 27,
+   "scenario_id": "V133A",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "env": "bills",
+   "reward_mean": -0.5875,
+   "pass_top": 0.125,
+   "classes": "{\"approve_generic\": 6, \"ask_generic\": 1, \"ask_informed\": 1}"
+  },
+  {
+   "step": 16,
+   "scenario_id": "V534A",
+   "level": "L0r",
+   "prompt_setting": "P2",
+   "env": "wallet",
+   "reward_mean": -0.4625,
+   "pass_top": 0.125,
+   "classes": "{\"approve_generic\": 4, \"ask_generic\": 3, \"ask_informed\": 1}"
+  },
+  {
+   "step": 20,
+   "scenario_id": "S22A",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "env": "bills",
+   "reward_mean": -0.4,
+   "pass_top": 0.125,
+   "classes": "{\"approve_generic\": 5, \"ask_informed\": 1, \"tell_informed\": 1, \"ask_generic\": 1}"
+  },
+  {
+   "step": 1,
+   "scenario_id": "V581A",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "env": "shopping",
+   "reward_mean": -0.35,
+   "pass_top": 0.125,
+   "classes": "{\"ask_generic\": 5, \"approve_generic\": 1, \"invalid\": 1, \"ask_informed\": 1}"
+  },
+  {
+   "step": 19,
+   "scenario_id": "S02A",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "env": "wallet",
+   "reward_mean": -0.3375,
+   "pass_top": 0.0,
+   "classes": "{\"lookup\": 5, \"approve_generic\": 3}"
+  },
+  {
+   "step": 21,
+   "scenario_id": "S02A",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "env": "wallet",
+   "reward_mean": -0.275,
+   "pass_top": 0.0,
+   "classes": "{\"lookup\": 5, \"approve_generic\": 2, \"ask_generic\": 1}"
+  },
+  {
+   "step": 28,
+   "scenario_id": "S26A",
+   "level": "L3",
+   "prompt_setting": "P2",
+   "env": "bizops",
+   "reward_mean": -0.18125,
+   "pass_top": 0.0,
+   "classes": "{\"lookup\": 5, \"approve_generic\": 1, \"statement\": 1, \"ask_generic\": 1}"
+  },
+  {
+   "step": 6,
+   "scenario_id": "S12A",
+   "level": "L3",
+   "prompt_setting": "P0",
+   "env": "wallet",
+   "reward_mean": -0.1625,
+   "pass_top": 0.25,
+   "classes": "{\"approve_generic\": 3, \"ask_generic\": 2, \"ask_informed\": 2, \"lookup\": 1}"
+  },
+  {
+   "step": 28,
+   "scenario_id": "S03A",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "env": "wallet",
+   "reward_mean": 0.0,
+   "pass_top": 0.0,
+   "classes": "{\"lookup\": 8}"
+  }
+ ],
+ "lowest_A_late_share": 0.75,
+ "step_curve": {
+  "sd_observed_step_means": 0.1663,
+  "sd_random_4_group_draws": 0.2135,
+  "slope_per_step": -0.00203,
+  "slope_perm_p_two_sided": 0.5711,
+  "first10_last10_mean": [
+   0.4497,
+   0.4306
+  ]
+ }
+}

@@ -1,0 +1,246 @@
+{
+ "n_unique_A_targets": 94,
+ "by_perturbation": {
+  "md_bold_numbers": {
+   "texts_changed": 58,
+   "flipped_out_of_ask_informed": 0,
+   "flip_rate_among_changed": 0.0,
+   "detail": {
+    "changed_text": 58,
+    "ask_informed->ask_informed": 58,
+    "unchanged_text": 36
+   }
+  },
+  "md_bold_caps": {
+   "texts_changed": 75,
+   "flipped_out_of_ask_informed": 6,
+   "flip_rate_among_changed": 0.08,
+   "detail": {
+    "unchanged_text": 19,
+    "changed_text": 75,
+    "ask_informed->ask_informed": 69,
+    "ask_informed->ask_generic": 6
+   }
+  },
+  "decimals_added": {
+   "texts_changed": 15,
+   "flipped_out_of_ask_informed": 0,
+   "flip_rate_among_changed": 0.0,
+   "detail": {
+    "unchanged_text": 79,
+    "changed_text": 15,
+    "ask_informed->ask_informed": 15
+   }
+  },
+  "decimals_dropped": {
+   "texts_changed": 3,
+   "flipped_out_of_ask_informed": 0,
+   "flip_rate_among_changed": 0.0,
+   "detail": {
+    "unchanged_text": 91,
+    "changed_text": 3,
+    "ask_informed->ask_informed": 3
+   }
+  },
+  "hyphen_to_space": {
+   "texts_changed": 18,
+   "flipped_out_of_ask_informed": 0,
+   "flip_rate_among_changed": 0.0,
+   "detail": {
+    "changed_text": 18,
+    "ask_informed->ask_informed": 18,
+    "unchanged_text": 76
+   }
+  },
+  "expand_contractions": {
+   "texts_changed": 7,
+   "flipped_out_of_ask_informed": 0,
+   "flip_rate_among_changed": 0.0,
+   "detail": {
+    "unchanged_text": 87,
+    "changed_text": 7,
+    "ask_informed->ask_informed": 7
+   }
+  },
+  "space_to_hyphen": {
+   "texts_changed": 2,
+   "flipped_out_of_ask_informed": 0,
+   "flip_rate_among_changed": 0.0,
+   "detail": {
+    "unchanged_text": 92,
+    "changed_text": 2,
+    "ask_informed->ask_informed": 2
+   }
+  },
+  "drop_hit_sentence": {
+   "texts_changed": 93,
+   "flipped_out_of_ask_informed": 30,
+   "flip_rate_among_changed": 0.3226,
+   "detail": {
+    "changed_text": 93,
+    "ask_informed->ask_informed": 63,
+    "ask_informed->ask_generic": 30,
+    "unchanged_text": 1
+   }
+  }
+ },
+ "examples": {
+  "md_bold_numbers": [],
+  "md_bold_caps": [
+   {
+    "file": "sft_train",
+    "line": 7,
+    "scenario_id": "S07A",
+    "before": "555-0142 belongs to Dan Moore, not Jess Park. Jess's saved number is 555-0188. Should I use that one instead?",
+    "after": "555-0142 belongs to **Dan** **Moore**, not **Jess** **Park**. Jess's saved number is 555-0188. Should I use that one instead?",
+    "class_after": "ask_generic",
+    "reward_after": -0.4,
+    "hits_before": [
+     "dan moore",
+     "not jess",
+     "belongs to dan"
+    ]
+   },
+   {
+    "file": "sft_train",
+    "line": 17,
+    "scenario_id": "V073A",
+    "before": "hana.choi@mail.com belongs to Hana Choi, not Hannah Cho. Hannah's saved email is hannah.cho@mail.com. Should I use that instead?",
+    "after": "hana.choi@mail.com belongs to **Hana** **Choi**, not **Hannah** **Cho**. Hannah's saved email is hannah.cho@mail.com. Should I use that instead?",
+    "class_after": "ask_generic",
+    "reward_after": -0.4,
+    "hits_before": [
+     "hana choi",
+     "not hannah",
+     "belongs to hana"
+    ]
+   },
+   {
+    "file": "sft_train",
+    "line": 252,
+    "scenario_id": "V071A",
+    "before": "lim.tutoring@edu.ph belongs to Mrs. Lorna Dela Cruz, not Mr. Lim. Mr. Lim's saved email is lim.tutorials@mail.com. Should I use that one instead?",
+    "after": "lim.tutoring@edu.ph belongs to **Mrs**. Lorna **Dela** **Cruz**, not **Mr**. Lim. Mr. Lim's saved email is lim.tutorials@mail.com. Should I use that one instead?",
+    "class_after": "ask_generic",
+    "reward_after": -0.4,
+    "hits_before": [
+     "lorna dela cruz",
+     "not mr. lim"
+    ]
+   },
+   {
+    "file": "sft_train",
+    "line": 518,
+    "scenario_id": "V072A",
+    "before": "555-0133 belongs to Mia Reed, not Ava Lind. Ava's saved number is 555-0177. Should I use that one instead?",
+    "after": "555-0133 belongs to **Mia** **Reed**, not **Ava** **Lind**. Ava's saved number is 555-0177. Should I use that one instead?",
+    "class_after": "ask_generic",
+    "reward_after": -0.4,
+    "hits_before": [
+     "mia reed",
+     "not ava",
+     "belongs to mia"
+    ]
+   },
+   {
+    "file": "sft_train",
+    "line": 543,
+    "scenario_id": "V031A",
+    "before": "The UPI ID meera.joshi@oksbi belongs to Meera Patel, but your sister Meera Joshi uses meera.joshi@okhdfc (updated Oct 2026). You also paid her there on 2026-11-10. Did you mean to send to your sister? This would go to someone else.",
+    "after": "The **UPI** ID meera.joshi@oksbi belongs to **Meera** **Patel**, but your sister **Meera** **Joshi** uses meera.joshi@okhdfc (updated **Oct** 2026). You also paid her there on 2026-11-10. Did you mean to send to your sister? This would go to someone else.",
+    "class_after": "ask_generic",
+    "reward_after": -0.4,
+    "hits_before": [
+     "meera patel"
+    ]
+   }
+  ],
+  "decimals_added": [],
+  "decimals_dropped": [],
+  "hyphen_to_space": [],
+  "expand_contractions": [],
+  "space_to_hyphen": [],
+  "drop_hit_sentence": [
+   {
+    "file": "sft_train",
+    "line": 1,
+    "scenario_id": "V254A",
+    "before": "Premium Family is £17.99 a month, but extra usage is billed automatically up to £500 a month and is on by default. Do you want it off or capped lower?",
+    "after": "Do you want it off or capped lower?",
+    "class_after": "ask_generic",
+    "reward_after": -0.4,
+    "hits_before": [
+     "500",
+     "extra usage",
+     "usage is billed",
+     "billed automatically",
+     "on by default"
+    ]
+   },
+   {
+    "file": "sft_train",
+    "line": 7,
+    "scenario_id": "S07A",
+    "before": "555-0142 belongs to Dan Moore, not Jess Park. Jess's saved number is 555-0188. Should I use that one instead?",
+    "after": "Jess's saved number is 555-0188. Should I use that one instead?",
+    "class_after": "ask_generic",
+    "reward_after": -0.4,
+    "hits_before": [
+     "dan moore",
+     "not jess",
+     "belongs to dan"
+    ]
+   },
+   {
+    "file": "sft_train",
+    "line": 11,
+    "scenario_id": "V474A",
+    "before": "The QR code pays Samantha Carter (samantha.carter@mail.com), but your saved contact is Sam Carter (samcarter.sc@mail.com). These are different people. Did you mean to pay Sam?",
+    "after": "These are different people. Did you mean to pay Sam?",
+    "class_after": "ask_generic",
+    "reward_after": -0.4,
+    "hits_before": [
+     "samantha carter",
+     "samantha.carter@mail.com"
+    ]
+   },
+   {
+    "file": "sft_train",
+    "line": 17,
+    "scenario_id": "V073A",
+    "before": "hana.choi@mail.com belongs to Hana Choi, not Hannah Cho. Hannah's saved email is hannah.cho@mail.com. Should I use that instead?",
+    "after": "Hannah's saved email is hannah.cho@mail.com. Should I use that instead?",
+    "class_after": "ask_generic",
+    "reward_after": -0.4,
+    "hits_before": [
+     "hana choi",
+     "not hannah",
+     "belongs to hana"
+    ]
+   },
+   {
+    "file": "sft_train",
+    "line": 25,
+    "scenario_id": "S25A",
+    "before": "Pro is $20 a month, but extra usage is billed automatically up to $2,000 a month and is on by default. Do you want it off or capped lower?",
+    "after": "Do you want it off or capped lower?",
+    "class_after": "ask_generic",
+    "reward_after": -0.4,
+    "hits_before": [
+     "2,000",
+     "2000",
+     "extra usage",
+     "usage is billed",
+     "billed automatically",
+     "on by default",
+     "$2000",
+     "up to $2,000"
+    ]
+   }
+  ]
+ },
+ "dpo_rejected_A_generic_or_statement": {
+  "ask_generic": 24,
+  "statement": 23
+ }
+}

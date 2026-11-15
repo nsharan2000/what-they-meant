@@ -1,0 +1,161 @@
+{
+ "lens": "composition-memorization",
+ "summary": "SFT's completion-only loss goes almost entirely to wording, not to the decision. Of 38,160 trained tokens per epoch, the tokens that carry the decision are 1.3 % (the first target token: chat message vs tool call) to 2.0 % (plus the tool-name token). Even counting the discrepancy keyword they are at most 4.4 %. Look-up rows take 36.5 %, tool-call scaffold about 20 % and wording about 37 %. Under teacher forcing, the first target token selects which twin's answer follows. The member's request alone leaves 59 % of decision rows ambiguous between the twins; request plus first target word leaves 4.8 %. So about 47 of the roughly 49 trained tokens in a decision row can be predicted from memory, without reading the look-up result that actually decides. Measured on M1's own training prompts (960 GRPO samples at temperature 1; the prompts are byte-identical to the SFT rows): class accuracy 0.52, first-token NLL 0.669 nats (ln 2 = 0.693, a coin flip), 86 % of errors are message-vs-tool flips, and the first token separates the twins only weakly (AUC 0.73). This costs only about 0.011 nats per trained token: about 5 % of the epoch-2 mean loss of 0.211 and about 1/10 of the per-step loss SD of 0.104. So a loss of 0.2 is fully compatible with about 50 % wrong decisions. The composition feeds memorisation. There are 216 distinct targets in 904 rows: 76 % of rows repeat a target already seen in the same epoch, and the 497 decision rows contain only 203 distinct request + look-up + result conversations, each scenario keeping one target at every level. Look-up targets are seen about 12 times in 2 epochs; the 46x target is the argument-less decode_qr look-up. There is no loss drop at the epoch boundary: the memorisation already saturates inside epoch 1. Epoch 2 cut the training loss and raised validation loss by 16 %, while validation token accuracy stayed flat and validation entropy fell 25 %, i.e. the model became confidently wrong on wording. The validation set is 5 source-post templates that the training wording barely covers (4-gram coverage 7.4 % vs 34 % within training clusters), and 52 of its 112 look-ups call tools never trained, so validation loss says nothing about decisions. Not problems: every target grades correct, the P2 hint is balanced and has no measurable effect, the long realistic prompts show no penalty on training prompts, and seed vs variant style is the same. Recommended SFT changes: 1 epoch, or one level per scenario per epoch; a per-token loss weight of 10-20 on the decision tokens (16.6-28.5 % of the loss weight), or a twin-contrastive preference stage where the rejected side is the twin's gold target; one look-up row per scenario, plus a fix for the decision rows that have no look-up; grader-checked paraphrases; checkpoint selection on a decision metric, not on token loss.",
+ "findings": [
+  {
+   "id": "CM-1",
+   "title": "SFT loss is ~98 % spent on non-decision tokens; the first token acts as a twin selector, so the decision stays a coin flip on training prompts while loss reaches 0.085-0.21",
+   "severity": "critical",
+   "claim": "As composed, the SFT objective barely sees the decision. The tokens that decide ask vs approve are 1.3-2.0 % of trained tokens. Once the first token is given, the rest of the target is predictable from the request in 95 % of decision rows. After 2 epochs the M1 policy still flips a near-fair coin at the first token on its own training prompts. A per-token loss of 0.2 (or 0.085) is fully compatible with this: a coin-flip decision on every training prompt adds only about 0.011 nats per trained token.",
+   "evidence": "token_composition.py -> results/token_composition.json: 38,160 trained tokens per epoch (target + END_RESPONSE + eos; mean 42.2 = guards.json). Decision-row first tokens 497 (1.30 %); + first tool-name token of decision tool calls 249 -> 1.95 %; + estimated tokens of the first informed_any keyword in twin-A messages 943 -> 4.43 %. Look-up rows 36.5 %, tool-call scaffold est. 19.8 %, decision wording 36.7 %, end tokens 2.6 %. selector.py -> results/selector.json: grouping decision rows by request, 294/497 (59.2 %) share their request with a different target (the twin); grouping by request + first target unit, only 24/497 (4.8 %) remain ambiguous. grpo_decisions.py -> results/grpo_decisions.json (960 M1 samples, temperature 1, on 120 grpo_train prompts; composition.py confirms all 496 GRPO prompts are byte-identical to SFT decision prompts): class accuracy 0.520 (0.538 without look-ups); first token (message vs tool call) wrong in 40.6 %; 86.3 % of wrong samples are such flips; twin A gives an approval card in 162/464 = 34.9 %, twin B a chat message in 191/496 = 38.5 %. Per-prompt correct-of-8 histogram 0:10, 1:8, 2:6, 3:15, 4:24, 5:26, 6:12, 7:16, 8:3 (107/120 mixed). First-token NLL 0.669 nats per decision row (ln 2 = 0.693); class NLL 0.846 (a lower bound on the row's sequence NLL). P(tool call) is 0.61 on twin B vs 0.40 on twin A, AUC 0.733. Accuracy is flat across GRPO step blocks (0.522 / 0.522 / 0.516), so these samples measure M1. Loss attribution (token_composition.json): 497 x 0.846 / 38,160 = 0.011 nats per token = 1.5 % of the epoch-1 mean loss (0.723), 5.2 % of the epoch-2 mean (0.211) and 13 % of the last step (0.085). The epoch-2 per-step loss SD is 0.104. Even if every pivot token were wrong, token accuracy would drop by at most 1.95 points.",
+   "examples": [
+    "dataset/curated_v121/sft_train.jsonl line 119 (S47A/L1/P0/decision, target 'The QR code decodes to an address ending ...a41c ...') vs line 39 (S47B/L1/P2/decision, request_approval call): identical request and decode_qr call; only the tool result differs (results/twin_contrast.csv). The first token alone determines which memorised target follows.",
+    "dataset/curated_v121/grpo_train.jsonl line 189 = S04A/L1/P0 (SFT decision line 270): M1 is correct in 3/8 samples, with a first-token flip in 5/8 (results/grpo_prompt_table.csv).",
+    "grpo_train.jsonl line 59 = S13B/L2/P2: 4/8 correct; its twin S13A/L0r/P2 (line 176): 5/8. Both twins of the same seed pair sit near 50 %."
+   ],
+   "fix": "Put decision-bearing tokens back into the loss. (a) Weight the per-token loss: weight 10-20 on the first target token and the first tool-name token raises their share of the loss weight from 1.95 % to 16.6-28.5 % (token_composition.json pivot_weighting). This needs a small SFTTrainer compute_loss override with a per-token weight column. (b) Or add a twin-contrastive preference stage after SFT: for each pair x level, chosen = the row's own target, rejected = the twin's gold target. The two diverge at token 0, so the preference gradient lands on the pivot; about 496 pairs are possible. (c) Monitor a decision metric during SFT, not token loss: log P(first token = '<') on validation decision prompts by twin, and sampled class accuracy.",
+   "fix_needs_data_change": true,
+   "confidence": "high",
+   "affects": ["dataset/curated_v121/sft_train.jsonl", "training/train_sft.py", "M1", "M2 warm start"]
+  },
+  {
+   "id": "CM-2",
+   "title": "Duplicate renderings: 904 rows carry 216 distinct targets; 497 decision rows are 203 distinct conversations; epoch 2 only memorised wording",
+   "severity": "major",
+   "claim": "Each scenario keeps one target string at all 3-4 levels (L0r/L1/L2/L3), and those renderings differ only in the system prompt (L3 also has a noisy request). So every decision target is seen 6.7 times and every look-up target 12.2 times in 2 epochs. Memorisation therefore saturates within epoch 1: there is no loss drop at the epoch boundary. The second epoch lowered training loss while validation loss rose, validation accuracy stayed flat and validation entropy fell: the model became confidently wrong on wording.",
+   "evidence": "composition.py -> results/composition.json: 216 distinct targets / 904 rows. Decision targets: 149, repeats mean 3.34 (median 3, max 7). Look-up targets: 67, repeats mean 6.07 (median 5, max 46). rendering_duplicates: 153 scenarios, 497 decision rows, 203 distinct request + look-up + result conversations, 153/153 scenarios with one target at every level. sft_log.py -> results/sft_log.json: 688/904 rows (76.1 %) repeat a target already seen earlier in the same epoch. Exposures in 2 epochs: 6.67 per decision target, 12.15 per look-up target. Under a random order the expected repeat share per step is 0.49 by step 10, 0.86 by step 29 and 0.99 by step 48 (numpy simulation, 2,000 permutations). Epoch boundary: last-10 vs first-10 step loss ratio 0.985 (0.322 -> 0.317); the epoch-2 start is 1.40x ABOVE the log-linear trend of epoch 1's second half. Eval: loss 0.644 -> 0.746 (+15.7 %), token accuracy 0.851 -> 0.855, entropy 0.372 -> 0.280 (-24.6 %). Training loss over the last 10 steps of each epoch: 0.322 -> 0.166.",
+   "examples": [
+    "S53A decision rows sft_train.jsonl lines 28 (L2/P0), 291 (L0r/P0), 393 (L3/P2), 673 (L1/P2): one target ('Paying a stranger as 'friends' means no purchase protection ...'); the four prompts differ only in the system prompt (and L3's request).",
+    "decode_qr look-up target (46 rows; 20 scenarios of 10 pairs, both twins, all levels), e.g. sft_train.jsonl lines 23, 47, 110.",
+    "experiments/training_eval/results/train_logs/m1_sft/result.json eval at step 57 (loss 0.644, acc 0.851, entropy 0.372) vs step 114 (0.746, 0.855, 0.280)."
+   ],
+   "fix": "Train 1 epoch, or rotate levels: one rendering per scenario per epoch (L0r, L1, L2, L3 spread across epochs). Identical (conversation, target) exposures then drop from about 6.7 to about 2 per 2 epochs, without losing realism coverage. Or keep all renderings but give each a different grader-checked paraphrase of the target (see CM-5). Select the checkpoint on a decision metric (CM-3); if only token loss is available, epoch 1 is the better default.",
+   "fix_needs_data_change": true,
+   "confidence": "high",
+   "affects": ["dataset/curated_v121/sft_train.jsonl", "training/build_datasets.py", "training/train_sft.py (epochs)"]
+  },
+  {
+   "id": "CM-3",
+   "title": "Validation loss measures how new the wording is in 5 source-post templates, not the decision; its rise is not evidence about ask/act",
+   "severity": "major",
+   "claim": "sft_val's decision tokens are 1.2-1.8 % of its trained tokens. Its decision wording comes from 5 clusters that training barely covers: about as novel as a held-out training cluster, and far less covered than training targets are by their own cluster's variants. 46 % of its look-up rows call tools never trained as look-up targets. The +16 % validation-loss rise therefore reflects memorised, overconfident wording; it says nothing about decision quality, which no validation metric currently tracks.",
+   "evidence": "token_composition.py -> results/token_composition.json (sft_val): 9,173 trained tokens; decision tokens: first token 1.22 %, pivots 1.83 %; look-ups 39.3 % of tokens. composition.py -> results/composition.json: val = 224 rows, 17 pairs, 5 clusters; 1ntr5ob and 1x4yv4t are 28.6 % each. Val look-up tools not trained as look-up targets: get_payment_request (32 rows) and read_page (20 rows) = 52/112. wording_overlap.py -> results/wording_overlap.json: word-4-gram coverage of val decision targets by training targets is 0.074 (messages 0.033). The same statistic for training targets is 0.069 leave-one-cluster-out (messages 0.061) but 0.343 leave-one-pair-out (messages 0.469). twin_contrast.py -> results/twin_contrast.json: in val, 49/56 pair-levels differ only in the look-up result (87.5 %, vs 53.8 % in training).",
+   "examples": [
+    "dataset/curated_v121/sft_val.jsonl line 7 (S01A/L1/P0/decision, 'I found one 'Sam Carter', but the email is ...') and line 74 (V011A/L1/P0, same template): one cluster (1ntr5ob) = 28.6 % of val rows.",
+    "sft_val.jsonl line 0 (V284B/L1/lookup1, get_payment_request) and line 1 (V281A/L2/lookup1): a look-up tool never seen as a training target."
+   ],
+   "fix": "Add decision metrics to every SFT eval: P(first token = tool call) by twin on val decision prompts (one forward pass each), and sampled or greedy class accuracy via wtm.reward. Report val loss split by turn (look-up vs decision) and by token class. If the split allows, spread val over more clusters.",
+   "fix_needs_data_change": false,
+   "confidence": "high",
+   "affects": ["dataset/curated_v121/sft_val.jsonl", "training/train_sft.py (eval)", "report claims that cite eval_loss"]
+  },
+  {
+   "id": "CM-4",
+   "title": "Look-up rows: 45 % of rows and 36.5 % of tokens, mostly the same for both twins, and their turn shape overrides the 16 decision rows that have no look-up",
+   "severity": "minor",
+   "claim": "Look-up rows teach 'check first', but they carry no ask/act signal: most targets are identical for both twins. They are also the most repeated strings. Their prompt shape ([system, user] -> tool call) covers 96 % of such prompts, so M1 looks things up on the S02/S03 decision rows, whose prompts have the same shape but whose targets are decisions.",
+   "evidence": "composition.py -> results/composition.json: 407 look-up rows (45.0 %). 46/67 look-up targets are shared by both twins, covering 340 rows. The 46x target decode_qr has no arguments. token_composition.py: look-up rows = 13,912/38,160 trained tokens (36.5 %). Keeping one look-up row per scenario would leave 148 rows (29,281 trained tokens) and raise the decision tokens' share from 1.95 % to 2.55 %. Direct check: decision rows with prompt length 2 = 16 (S02A/B, S03A/B), vs 401 look-up rows of the same shape. On those prompts, M1 GRPO samples are 'lookup' in 18/24 (5 approve_generic, 1 ask_generic); on all other decision prompts, 14/936. Note: wtm/reward.py scores a look-up -0.1, while wtm/episode.py decision mode treats it as free.",
+   "examples": [
+    "dataset/curated_v121/sft_train.jsonl line 183 (S03A/L1/P0/decision, prompt = [system, user], target a chat message): M1 gives 8/8 look-ups (grpo_train.jsonl line 262).",
+    "sft_train.jsonl line 357 (S02A/L2/P0/decision): M1 5/8 look-ups, 0/8 correct (grpo_train.jsonl line 435).",
+    "sft_train.jsonl lines 23, 47, 110: the identical decode_qr look-up for twin A and twin B renderings."
+   ],
+   "fix": "Keep one look-up row per scenario (or train look-ups in a short separate stage before decision SFT). Give S02/S03 a history look-up, or add enough no-look-up decision rows that the prompt shape alone does not predict the action. Align wtm.reward with the evaluation driver for look-ups before a decision.",
+   "fix_needs_data_change": true,
+   "confidence": "medium",
+   "affects": ["dataset/curated_v121/sft_train.jsonl", "training/build_datasets.py", "wtm/reward.py"]
+  },
+  {
+   "id": "CM-5",
+   "title": "Variants clone their seed's target template, so the 27 source-post clusters act as about 27 templates; cluster weights vary 7x",
+   "severity": "minor",
+   "claim": "The open-teacher variants reuse the seed target's sentence template with new slots. Wording is therefore highly shared within a cluster and barely shared across clusters, which makes slot-filled templates easy to memorise and is why held-out clusters look novel. Some variants also reuse the seed's exact request with only the currency or amount changed.",
+   "evidence": "wording_overlap.py -> results/wording_overlap.json: for 93 variant decision targets, word-sequence similarity to their own seed's target averages 0.627, vs 0.383 to the best target from another cluster; 61.3 % are >= 0.6 and 25.8 % >= 0.8 (messages 0.689, approvals 0.580). Training 4-gram coverage: leave-one-pair-out 0.343 vs leave-one-cluster-out 0.069. composition.py: rows per cluster 8-58 (largest 1o0iq5d = 58 rows, 6.4 %); rows per pair 7-18. selector.py: the 24 decision rows still ambiguous after request + first token are seed/variant pairs sharing a request (S04/V042, V181/V184). Seed vs variant style is nearly identical: messages 43.0 vs 44.7 tokens, 96 % vs 98 % end with '?'.",
+   "examples": [
+    "V532A (sft_train.jsonl line 259) vs S53A (line 28): similarity 0.97 ('Paying a stranger as 'friends' ...').",
+    "V091A / V093A / V094A ('The new account is only in an email. The vendor master has no callback verification ...') vs S09A: similarity 0.93-0.96.",
+    "S04A (sft_train.jsonl line 270) vs V042A (line 525): identical request '(sunday run) basket: garlic 2 tomatoes 1 kg milk 2'; targets differ only in INR vs GBP amounts."
+   ],
+   "fix": "Write variant targets away from the seed template: 2-3 paraphrases per scenario, each still graded 1.1 by wtm.reward and passing the build's identifier check. Cap or equalise rows per cluster. Do not reuse the seed's exact request in a variant. Pair paraphrasing with decision-token loss weighting (CM-1): paraphrases cut string memorisation and the val-loss rise, but they also raise the wording loss and so shrink the decision's share further.",
+   "fix_needs_data_change": true,
+   "confidence": "high",
+   "affects": ["dataset/scenarios_synth/*.jsonl", "dataset/curated_v121/sft_train.jsonl"]
+  },
+  {
+   "id": "CM-6",
+   "title": "CuratorKIT SecretsGate false positives removed the L2/L3 renderings of 4 crypto pairs",
+   "severity": "minor",
+   "claim": "Of the 96 SFT rows CuratorKIT dropped, the 74 exact duplicates are harmless: they are twin-identical look-up rows. The other 22 were flagged as high-entropy 'secrets'; they are the synthetic L2/L3 renderings, both twins, of S47, S57, V074 and V491, mostly because a 40-hex wallet address sits in the L2 history. This removes the buried-context levels of those pairs from SFT (12 decision renderings) and DPO (12 pairs).",
+   "evidence": "training/build_datasets.py rerun into rebuild_v121/ (byte-identical to the build CuratorKIT consumed: sft_train sha256 de5631ae..., sft_val sha256 cf122cff... = the curated sft_val). curation_diff.py -> results/curation_diff.json: 74 exact duplicates, all lookup1; 22 non-duplicate removals (12 decision + 10 lookup1) from S57 8, S47 7, V074 4, V491 3 rows; 12 decision renderings lost (S47A/B L2+L3, S57A/B L2+L3, V074A/B L2, V491A/B L2). The same 4 pairs lose 12 DPO pairs. Twin balance is preserved. These counts match curation_report.json (ExactDeduplicator 74, SecretsGate 22).",
+   "examples": [
+    "experiments/dataset_audit/composition-memorization/rebuild_v121/sft_train.jsonl line 19 (S47B/L2/P2/decision; contains 0x9f3c4e1d8a27b05c93f6e2a1d7c48b90e15fb7e2).",
+    "rebuild_v121/sft_train.jsonl line 130 (V074A/L2/P0/decision) and line 309 (V491A/L2/P0/decision), same address."
+   ],
+   "fix": "Allowlist synthetic crypto addresses and IDs in SecretsGate, or run the gate only on text that could hold real secrets. The data is synthetic by construction.",
+   "fix_needs_data_change": true,
+   "confidence": "high",
+   "affects": ["dataset/curated_v121/sft_train.jsonl", "dataset/curated_v121/dpo_train.jsonl"]
+  },
+  {
+   "id": "CM-7",
+   "title": "DPO rejected sides cover the base model's failures (direct commits), not the post-SFT failures (A -> approval card, B -> question)",
+   "severity": "info",
+   "claim": "M3 starts from the base model, so base-model failures are on-policy for it. But any SFT -> preference stage would get almost no signal on M1's actual errors: approval cards on twin A and questions on twin B.",
+   "evidence": "dpo_pivot.py -> results/dpo_pivot.json: rejected classes for twin A are commit_other 131, commit_harmful 38, commit_gold 25, ask_generic 24, statement 23, approve_generic 2; for twin B, commit_other 180, ask_generic 45, statement 16, ask_informed 2, tell_informed 1. Pivot type: first token 266, which tool 183, same kind 47. M1's errors (grpo_decisions.json): twin A -> approval card 162/464, twin B -> chat message 191/496.",
+   "examples": [
+    "dataset/curated_v121/dpo_train.jsonl line 0 (twin A; rejected = commit_other tool call)",
+    "dpo_train.jsonl line 3 (twin A; rejected = bare-JSON 'buy' call, commit_other)",
+    "dpo_train.jsonl line 6 (twin A; rejected = ask_generic 'Sorry, I can't ...')"
+   ],
+   "fix": "For SFT -> DPO (or a GRPO warm start), build rejected sides from the twin's gold target, or from M1's own wrong-class samples on the same prompt (the 960 scored samples show the failure modes).",
+   "fix_needs_data_change": true,
+   "confidence": "high",
+   "affects": ["dataset/curated_v121/dpo_train.jsonl", "M3 / future SFT->DPO"]
+  }
+ ],
+ "checked_ok": [
+  "Oracle: all 497 SFT-train and 112 SFT-val decision targets score 1.1 under wtm.reward (classes: A ask_informed 248; B approve_generic 219, approve_informed 12, commit_gold 18). The training targets never contradict the grader. (composition.py -> results/composition.json)",
+  "No twin-A/B prompt pair is identical (0 IDENTICAL_PROMPTS in results/twin_contrast.csv). No target is used as both a look-up and a decision target, and no decision target is shared across twins. (composition.json)",
+  "The P2 hint is balanced across labels (P2 share of decision rows: twin A 0.282, twin B 0.329) and has no detectable effect on M1's decisions on training prompts: +0.022 per-prompt accuracy, permutation p = 0.709, 35 vs 85 prompts. (grpo_decisions.json)",
+  "No realism penalty on training prompts: M1 per-prompt accuracy L0r 0.486, L1 0.515, L2 0.597, L3 0.458 (n = 44/33/31/12 prompts). (grpo_decisions.json)",
+  "The 50 % figure is truly on training prompts: all 496 GRPO prompts are byte-identical to SFT-train decision prompts, and accuracy is flat across GRPO step blocks (0.522 / 0.522 / 0.516). (composition.json, grpo_decisions.json)",
+  "token_stats.jsonl is row-aligned with the curated files; trained tokens per row = completion + 2, mean 42.2 = guards.json. (token_composition.py asserts the alignment)",
+  "The pre-curation build reproduces byte-identically (sft_train sha256 de5631ae... = the scratchpad build CuratorKIT consumed; sft_val cf122cff... = dataset/curated_v121/sft_val.jsonl). CuratorKIT's 74 exact-duplicate removals are all twin-identical look-up rows, which is harmless. (curation_diff.py)",
+  "Seed (user-authored) vs variant (open-teacher) target style shows no material difference: messages 43.0 vs 44.7 tokens, 96 % vs 98 % end with '?', 2.9 sentences each; approvals 46.7 vs 49.1 tokens. (wording_overlap.json)",
+  "There is no epoch-boundary artefact: the last-10 vs first-10 step loss ratio is 0.985. Memorisation is front-loaded into epoch 1 by within-epoch repetition. (sft_log.json)",
+  "M1's wrong-class outputs are mostly freshly generated, not verbatim copies of the twin's memorised target: an exact length match with the twin target occurs in 8.4 % of flipped samples vs 3.6 % by chance (own-side samples match their own target length in 23.9 %). (regurgitation.py -> results/regurgitation.json)",
+  "No truncation: the longest SFT-train prompt is 7,435 tokens, and prompt + trained span reaches at most 7,485 (= guards.json max_len), well under max_length 12,288. (token_composition.py -> results/token_composition.json)",
+  "The decision rows without a look-up are the only shape conflict: 16 of the 417 [system, user] prompts lead to a decision (S02A/B, S03A/B); the other 401 lead to a look-up (composition.json system_user_prompts). M1 look-ups on other decision prompts: 14/936 samples (grpo_decisions.json by_prompt_shape)."
+ ],
+ "prompt_interference_view": "Mostly no. The dominant problem is what the loss is spent on, not the prompt. (1) The P2 hint is not a shortcut: it is in 28 % of twin-A and 33 % of twin-B decision rows. It has no detectable effect on M1's decisions on its own training prompts (+2.2 points, permutation p = 0.71). (2) The long realistic renderings show no penalty on training prompts: per-prompt accuracy is L0r 0.49, L1 0.52, L2 0.60, L3 0.46. (3) The system prompt is never trained (completion-only loss), so it cannot dilute the loss. What dilutes it is the target composition: decision tokens are 1.3-2.0 % of trained tokens, and the first token selects the twin. The prompt and rendering do interfere indirectly in three ways. (a) In 54 % of twin pair-levels, the two prompts are identical except for a tool result of about 215 characters (1.6 % of prompt characters, median 5 differing character runs). The only decisive evidence is that small, and SFT spends about 2 % of its gradient on the one token that must read it. (b) The 3-4 level renderings share one target, so 497 decision rows are only 203 distinct conversations. That adds wording memorisation but no new decision evidence. (c) The turn shape ([system, user] -> look-up in 401 of 417 rows) is learned as a prior and overrides the 16 decision rows with no look-up (S02/S03: 18/24 M1 samples look up). Size: changing the prompt would not move the SFT loss. A perfectly learned decision is worth at most about 0.011 nats per trained token (about 5 % of the epoch-2 mean, about 1/10 of the per-step SD), so the fix is in the loss weighting and the data views (CM-1, CM-2, CM-4).",
+ "artifacts": [
+  "experiments/dataset_audit/composition-memorization/run_all.sh",
+  "experiments/dataset_audit/composition-memorization/common.py",
+  "experiments/dataset_audit/composition-memorization/composition.py",
+  "experiments/dataset_audit/composition-memorization/twin_contrast.py",
+  "experiments/dataset_audit/composition-memorization/grpo_decisions.py",
+  "experiments/dataset_audit/composition-memorization/token_composition.py",
+  "experiments/dataset_audit/composition-memorization/sft_log.py",
+  "experiments/dataset_audit/composition-memorization/wording_overlap.py",
+  "experiments/dataset_audit/composition-memorization/curation_diff.py",
+  "experiments/dataset_audit/composition-memorization/regurgitation.py",
+  "experiments/dataset_audit/composition-memorization/dpo_pivot.py",
+  "experiments/dataset_audit/composition-memorization/selector.py",
+  "experiments/dataset_audit/composition-memorization/results/composition.json",
+  "experiments/dataset_audit/composition-memorization/results/targets_train.csv",
+  "experiments/dataset_audit/composition-memorization/results/twin_contrast.json",
+  "experiments/dataset_audit/composition-memorization/results/twin_contrast.csv",
+  "experiments/dataset_audit/composition-memorization/results/grpo_decisions.json",
+  "experiments/dataset_audit/composition-memorization/results/grpo_prompt_table.csv",
+  "experiments/dataset_audit/composition-memorization/results/token_composition.json",
+  "experiments/dataset_audit/composition-memorization/results/sft_log.json",
+  "experiments/dataset_audit/composition-memorization/results/wording_overlap.json",
+  "experiments/dataset_audit/composition-memorization/results/wording_per_target.csv",
+  "experiments/dataset_audit/composition-memorization/results/curation_diff.json",
+  "experiments/dataset_audit/composition-memorization/results/regurgitation.json",
+  "experiments/dataset_audit/composition-memorization/results/dpo_pivot.json",
+  "experiments/dataset_audit/composition-memorization/results/selector.json",
+  "experiments/dataset_audit/composition-memorization/rebuild_v121/ (pre-curation build, regenerated)",
+  "experiments/dataset_audit/composition-memorization/findings.json"
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "rows": 993,
+ "unmasked_8plus_digit_numbers": [],
+ "messages_naming_internal_ids_or_policy": [],
+ "bills_messages_naming_internal_ids_or_policy": 0,
+ "L3_codemixed_user_rows": 100,
+ "L3_codemixed_examples": [
+  [
+   "S09A",
+   "harlow emailed new bank details in our usual thread, their old account is down for an audi"
+  ],
+  [
+   "S42A",
+   "collect the balance for all pre-orders pls, jaldi"
+  ],
+  [
+   "S49B",
+   "pls send $600 to @tyler_b_1984 asap thx"
+  ],
+  [
+   "S25B",
+   "pls upgrade me to the Pro plan asap thx"
+  ]
+ ]
+}

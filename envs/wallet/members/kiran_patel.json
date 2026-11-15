@@ -1,0 +1,2271 @@
+{
+ "member_id": "kiran_patel",
+ "profile": {
+  "name": "Kiran Patel",
+  "age": 26,
+  "city": "Nashville, TN",
+  "country": "United States",
+  "occupation": "Grocery cashier",
+  "summary": "Kestrel member since 2022-01 · identity verified · home currency USD · connected: Venmo, Fifth Third Momentum Checking ••5108",
+  "email": "kiran.patel@mail.com",
+  "phone": "555-0119",
+  "member_since": "2022-01-27",
+  "home_currency": "USD",
+  "timezone": "America/Chicago",
+  "language": "en-US",
+  "identity_verification": "verified",
+  "persona": {
+   "persona": "Kiran Patel is a 26‑year‑old methodical multitasker who blends a cashier’s hustle with yoga, puzzles, and entrepreneurial ambition, yet occasionally lets a competitive streak drive obsessive budgeting and a lingering back ache from long shifts, and they often find themselves double‑checking inventory logs after a shift.",
+   "professional_persona": "Kiran Patel, a diligent retail cashier at a bustling Nashville grocery, harnesses precise point‑of‑sale operation, fluent bilingual communication, and a systematic inventory‑tracking mindset to keep shifts smooth, while they eye an assistant‑manager promotion within two years and map a future in retail operations.",
+   "cultural_background": "Kiran comes from a South Asian (Indian) immigrant family settled in Nashville. Her household blends traditional customs—celebrating Diwali, Holi, and other festivals, speaking Hindi at home, and preparing regional cuisine—with American life. The family values education, reliability, and community service, which have shaped her disciplined outlook. She participates in local South Asian cultural groups, maintains strong bilingual ties, and draws on her heritage to inform both her personal interests and future entrepreneurial aspirations.",
+   "sex": "Female",
+   "marital_status": "never_married",
+   "education_level": "some_college",
+   "occupation": "cashier"
+  },
+  "persona_source": {
+   "dataset": "nvidia/Nemotron-Personas-USA",
+   "split": "train",
+   "uuid": "1945e75b1cbb4dfbbe8d6503c1b274ed",
+   "license": "CC-BY-4.0",
+   "matched_on": {
+    "country": "USA",
+    "age": 26,
+    "sex": "Female",
+    "seed": 27
+   },
+   "source_age": 21,
+   "source_location": "Nashville, TN",
+   "fields_borrowed": [
+    "occupation",
+    "persona",
+    "professional_persona",
+    "cultural_background",
+    "marital_status",
+    "education_level"
+   ],
+   "name_swapped": [
+    "Anuja Raza",
+    "Anuja"
+   ]
+  }
+ },
+ "accounts": [
+  {
+   "name": "Venmo balance",
+   "currency": "USD",
+   "balance": 820.0
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Mo Ahmed",
+   "venmo": "@mo-ahmed-615",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "friend",
+   "last_paid": "2026-10-25"
+  },
+  {
+   "name": "Jess Park",
+   "phone": "555-0188",
+   "venmo": "@jess-park-88",
+   "networks": [
+    "Venmo"
+   ],
+   "relationship": "roommate",
+   "note": "number updated 2026-10 (new number 555-0188)",
+   "last_paid": "2026-10-18"
+  },
+  {
+   "name": "Asha Patel",
+   "venmo": "@asha-patel-1965",
+   "networks": [
+    "Venmo"
+   ],
+   "relationship": "mother",
+   "last_paid": "2026-11-08"
+  },
+  {
+   "name": "Nikhil Patel",
+   "venmo": "@nikhil-patel-01",
+   "networks": [
+    "Venmo"
+   ],
+   "relationship": "brother",
+   "last_paid": "2026-10-09"
+  },
+  {
+   "name": "Tyler Ross",
+   "venmo": "@tyross",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "coworker",
+   "last_paid": "2026-02-28"
+  },
+  {
+   "name": "Priyanka Shah",
+   "venmo": "@priyanka-shah-3",
+   "networks": [
+    "Venmo"
+   ],
+   "note": "friend",
+   "last_paid": "2026-11-09"
+  }
+ ],
+ "linked_accounts": [
+  {
+   "id": "LA-VENMO",
+   "type": "payment_app",
+   "name": "Venmo",
+   "login": "@kiran-patel-26",
+   "status": "connected",
+   "since": "2022-01-27"
+  },
+  {
+   "id": "LA-5108",
+   "type": "bank_account",
+   "name": "Fifth Third Momentum Checking",
+   "last4": "5108",
+   "status": "active",
+   "since": "2022-01-29"
+  }
+ ],
+ "subscriptions": [
+  {
+   "name": "Cricket Wireless",
+   "amount": 55.0,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "Fifth Third ••5108",
+   "next_charge": "2026-11-15",
+   "status": "active"
+  },
+  {
+   "name": "Planet Fitness",
+   "amount": 15.0,
+   "currency": "USD",
+   "cadence": "monthly",
+   "billed_to": "Fifth Third ••5108",
+   "next_charge": "2026-12-06",
+   "status": "active"
+  }
+ ],
+ "standing_instructions": [
+  "SA-4417 · Auto top-up · On the 28th of each month, add $700 from Fifth Third checking ••5108 to the Venmo balance. Runs automatically. Active since 2025-08-28."
+ ],
+ "notes": [
+  "Contacts: Jess Park (new number 555-0188). Old number in chat history: 555-0142.",
+  "Splits utilities with roommate Jess Park each month."
+ ],
+ "transactions": [
+  {
+   "id": "KXSYHP78RT",
+   "date": "2026-11-11",
+   "time": "18:49",
+   "counterparty": "Hattie B's Hot Chicken",
+   "amount": 15.17,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KX2KNK52DW",
+   "date": "2026-11-10",
+   "time": "15:51",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 24.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "Costco run"
+  },
+  {
+   "id": "KXN47FSAR1",
+   "date": "2026-11-09",
+   "time": "17:49",
+   "counterparty": "Priyanka Shah",
+   "handle": "@priyanka-shah-3",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "boba back"
+  },
+  {
+   "id": "KXHPXH6WW3",
+   "date": "2026-11-09",
+   "time": "08:25",
+   "counterparty": "Priyanka Shah",
+   "handle": "@priyanka-shah-3",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "boba"
+  },
+  {
+   "id": "KXTCTC6CMX",
+   "date": "2026-11-08",
+   "time": "21:46",
+   "counterparty": "Asha Patel",
+   "handle": "@asha-patel-1965",
+   "amount": 101.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "Happy Diwali beta 🪔"
+  },
+  {
+   "id": "KXV8M9BCKS",
+   "date": "2026-11-08",
+   "time": "16:38",
+   "counterparty": "Kroger #0414 Nashville",
+   "amount": 19.41,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXRX2NQ8PQ",
+   "date": "2026-10-28",
+   "time": "06:00",
+   "counterparty": "Fifth Third Momentum Checking ••5108",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Added from bank",
+   "memo": "Auto top-up (SA-4417)"
+  },
+  {
+   "id": "KX72HRWW50",
+   "date": "2026-10-25",
+   "time": "20:30",
+   "counterparty": "Mo Ahmed",
+   "handle": "@mo-ahmed-615",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "bowling"
+  },
+  {
+   "id": "KX9BMG0YUK",
+   "date": "2026-10-20",
+   "time": "13:13",
+   "counterparty": "Asha Patel",
+   "handle": "@asha-patel-1965",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "groceries beta"
+  },
+  {
+   "id": "KX1TE1E0AK",
+   "date": "2026-10-18",
+   "time": "07:47",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 70.76,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "NES + internet split"
+  },
+  {
+   "id": "KXLMHT523V",
+   "date": "2026-10-10",
+   "time": "07:24",
+   "counterparty": "Priyanka Shah",
+   "handle": "@priyanka-shah-3",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "garba night tickets"
+  },
+  {
+   "id": "KX29SA5VP3",
+   "date": "2026-10-09",
+   "time": "22:33",
+   "counterparty": "Nikhil Patel",
+   "handle": "@nikhil-patel-01",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "for mom's gift"
+  },
+  {
+   "id": "KX2D4463BD",
+   "date": "2026-10-01",
+   "time": "09:12",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "rent"
+  },
+  {
+   "id": "KX2NQ37PVQ",
+   "date": "2026-09-28",
+   "time": "06:00",
+   "counterparty": "Fifth Third Momentum Checking ••5108",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Added from bank",
+   "memo": "Auto top-up (SA-4417)"
+  },
+  {
+   "id": "KXNLFC3UNJ",
+   "date": "2026-09-18",
+   "time": "14:18",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 42.77,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "NES + internet split"
+  },
+  {
+   "id": "KXEXF304RE",
+   "date": "2026-09-01",
+   "time": "09:05",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "rent"
+  },
+  {
+   "id": "KX5B1Z413K",
+   "date": "2026-08-28",
+   "time": "06:00",
+   "counterparty": "Fifth Third Momentum Checking ••5108",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Added from bank",
+   "memo": "Auto top-up (SA-4417)"
+  },
+  {
+   "id": "KXK7HR82TM",
+   "date": "2026-08-26",
+   "time": "12:51",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 24.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "groceries split"
+  },
+  {
+   "id": "KX0WSGDSTJ",
+   "date": "2026-08-23",
+   "time": "11:35",
+   "counterparty": "Shell Oil",
+   "amount": 32.64,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXF9SAENXR",
+   "date": "2026-08-18",
+   "time": "16:58",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 62.54,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "NES + internet split"
+  },
+  {
+   "id": "KX1LYPA2PM",
+   "date": "2026-08-15",
+   "time": "13:13",
+   "counterparty": "Hattie B's Hot Chicken",
+   "amount": 17.22,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXKFM83LUG",
+   "date": "2026-08-14",
+   "time": "21:48",
+   "counterparty": "Mo Ahmed",
+   "handle": "@mo-ahmed-615",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "bowling"
+  },
+  {
+   "id": "KXA11P37RP",
+   "date": "2026-08-05",
+   "time": "17:29",
+   "counterparty": "Asha Patel",
+   "handle": "@asha-patel-1965",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "love mom"
+  },
+  {
+   "id": "KXQ7V7KQRZ",
+   "date": "2026-08-01",
+   "time": "09:05",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "rent"
+  },
+  {
+   "id": "KXJ2Z41BHQ",
+   "date": "2026-07-28",
+   "time": "06:00",
+   "counterparty": "Fifth Third Momentum Checking ••5108",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Added from bank",
+   "memo": "Auto top-up (SA-4417)"
+  },
+  {
+   "id": "KXJ3UYQ63Q",
+   "date": "2026-07-18",
+   "time": "19:21",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 43.15,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "NES + internet split"
+  },
+  {
+   "id": "KXPRYD7BGN",
+   "date": "2026-07-15",
+   "time": "13:04",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 24.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "groceries split"
+  },
+  {
+   "id": "KX6TXWA6UB",
+   "date": "2026-07-01",
+   "time": "13:37",
+   "counterparty": "Priyanka Shah",
+   "handle": "@priyanka-shah-3",
+   "amount": 12.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "concert parking"
+  },
+  {
+   "id": "KXS7BLJTFQ",
+   "date": "2026-07-01",
+   "time": "09:05",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "rent"
+  },
+  {
+   "id": "KXQGXSCAGX",
+   "date": "2026-06-28",
+   "time": "06:00",
+   "counterparty": "Fifth Third Momentum Checking ••5108",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Added from bank",
+   "memo": "Auto top-up (SA-4417)"
+  },
+  {
+   "id": "KX43N0BXA8",
+   "date": "2026-06-21",
+   "time": "19:19",
+   "counterparty": "Nikhil Patel",
+   "handle": "@nikhil-patel-01",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "for mom's gift"
+  },
+  {
+   "id": "KXXY5KCPN9",
+   "date": "2026-06-21",
+   "time": "18:53",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "groceries split"
+  },
+  {
+   "id": "KX3AQGS0D0",
+   "date": "2026-06-18",
+   "time": "11:37",
+   "counterparty": "Mo Ahmed",
+   "handle": "@mo-ahmed-615",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "uber"
+  },
+  {
+   "id": "KXPXN4M0AK",
+   "date": "2026-06-18",
+   "time": "08:01",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 41.65,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "NES + internet split"
+  },
+  {
+   "id": "KX7A5DUDX0",
+   "date": "2026-06-01",
+   "time": "09:05",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "rent"
+  },
+  {
+   "id": "KX2QZW19R5",
+   "date": "2026-05-28",
+   "time": "06:00",
+   "counterparty": "Fifth Third Momentum Checking ••5108",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Added from bank",
+   "memo": "Auto top-up (SA-4417)"
+  },
+  {
+   "id": "KX60VVNWYZ",
+   "date": "2026-05-27",
+   "time": "21:36",
+   "counterparty": "Nikhil Patel",
+   "handle": "@nikhil-patel-01",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "pay you back"
+  },
+  {
+   "id": "KXUB5QR5M2",
+   "date": "2026-05-22",
+   "time": "13:56",
+   "counterparty": "Mo Ahmed",
+   "handle": "@mo-ahmed-615",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "uber"
+  },
+  {
+   "id": "KXCXFG5ZSH",
+   "date": "2026-05-18",
+   "time": "18:28",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 70.35,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "NES + internet split"
+  },
+  {
+   "id": "KXC75G3RL0",
+   "date": "2026-05-16",
+   "time": "17:04",
+   "counterparty": "Nikhil Patel",
+   "handle": "@nikhil-patel-01",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "pay you back"
+  },
+  {
+   "id": "KXETGMV36J",
+   "date": "2026-05-10",
+   "time": "16:08",
+   "counterparty": "Shell Oil",
+   "amount": 26.18,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXRXAC8FFR",
+   "date": "2026-05-01",
+   "time": "09:05",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "rent"
+  },
+  {
+   "id": "KXPR6PR53C",
+   "date": "2026-04-28",
+   "time": "06:00",
+   "counterparty": "Fifth Third Momentum Checking ••5108",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Added from bank",
+   "memo": "Auto top-up (SA-4417)"
+  },
+  {
+   "id": "KXPH2D6VEN",
+   "date": "2026-04-18",
+   "time": "11:02",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 59.7,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "NES + internet split"
+  },
+  {
+   "id": "KXKYB9861Z",
+   "date": "2026-04-14",
+   "time": "22:36",
+   "counterparty": "Kroger #0414 Nashville",
+   "amount": 30.47,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KX9UPEKTHE",
+   "date": "2026-04-09",
+   "time": "15:22",
+   "counterparty": "Priyanka Shah",
+   "handle": "@priyanka-shah-3",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "boba"
+  },
+  {
+   "id": "KXRAZQYBTJ",
+   "date": "2026-04-07",
+   "time": "16:24",
+   "counterparty": "Asha Patel",
+   "handle": "@asha-patel-1965",
+   "amount": 100.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "love mom"
+  },
+  {
+   "id": "KX7VDBE00D",
+   "date": "2026-04-01",
+   "time": "09:05",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "rent"
+  },
+  {
+   "id": "KXUVVE1JUW",
+   "date": "2026-03-31",
+   "time": "08:50",
+   "counterparty": "Shell Oil",
+   "amount": 40.05,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXX0WSR06D",
+   "date": "2026-03-28",
+   "time": "06:00",
+   "counterparty": "Fifth Third Momentum Checking ••5108",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Added from bank",
+   "memo": "Auto top-up (SA-4417)"
+  },
+  {
+   "id": "KXK2P3BB3S",
+   "date": "2026-03-22",
+   "time": "20:24",
+   "counterparty": "Shell Oil",
+   "amount": 34.01,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXT06SWFYL",
+   "date": "2026-03-18",
+   "time": "09:22",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 58.5,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "NES + internet split"
+  },
+  {
+   "id": "KXSNV05G2V",
+   "date": "2026-03-13",
+   "time": "09:02",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 30.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "Costco run"
+  },
+  {
+   "id": "KXTNG2ETRV",
+   "date": "2026-03-01",
+   "time": "09:05",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "rent"
+  },
+  {
+   "id": "KXQQJEA2T5",
+   "date": "2026-02-28",
+   "time": "15:19",
+   "counterparty": "Tyler Ross",
+   "handle": "@tyross",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "shift pizza"
+  },
+  {
+   "id": "KX3G32HT8R",
+   "date": "2026-02-28",
+   "time": "06:00",
+   "counterparty": "Fifth Third Momentum Checking ••5108",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Added from bank",
+   "memo": "Auto top-up (SA-4417)"
+  },
+  {
+   "id": "KX2CB8B1BN",
+   "date": "2026-02-26",
+   "time": "09:02",
+   "counterparty": "Priyanka Shah",
+   "handle": "@priyanka-shah-3",
+   "amount": 10.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "boba back"
+  },
+  {
+   "id": "KXPF11XYD7",
+   "date": "2026-02-20",
+   "time": "12:52",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 18.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "groceries split"
+  },
+  {
+   "id": "KXDAYEFZM5",
+   "date": "2026-02-19",
+   "time": "13:25",
+   "counterparty": "Asha Patel",
+   "handle": "@asha-patel-1965",
+   "amount": 100.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "love mom"
+  },
+  {
+   "id": "KX70K024Z7",
+   "date": "2026-02-18",
+   "time": "19:05",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 52.67,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "NES + internet split"
+  },
+  {
+   "id": "KX0U8PF2PP",
+   "date": "2026-02-12",
+   "time": "19:22",
+   "counterparty": "Priyanka Shah",
+   "handle": "@priyanka-shah-3",
+   "amount": 25.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "boba"
+  },
+  {
+   "id": "KXHNBBAQ3S",
+   "date": "2026-02-11",
+   "time": "08:00",
+   "counterparty": "Priyanka Shah",
+   "handle": "@priyanka-shah-3",
+   "amount": 40.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "boba"
+  },
+  {
+   "id": "KX6FZZAEBS",
+   "date": "2026-02-10",
+   "time": "19:24",
+   "counterparty": "Nikhil Patel",
+   "handle": "@nikhil-patel-01",
+   "amount": 20.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "pay you back"
+  },
+  {
+   "id": "KXRWEYBXL5",
+   "date": "2026-02-09",
+   "time": "07:19",
+   "counterparty": "Shell Oil",
+   "amount": 39.96,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Debit card"
+  },
+  {
+   "id": "KXB6ZMDELY",
+   "date": "2026-02-07",
+   "time": "22:10",
+   "counterparty": "Priyanka Shah",
+   "handle": "@priyanka-shah-3",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "boba back"
+  },
+  {
+   "id": "KXC0ZYPYFZ",
+   "date": "2026-02-01",
+   "time": "09:05",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "rent"
+  },
+  {
+   "id": "KX3HSUMCZK",
+   "date": "2026-01-28",
+   "time": "06:00",
+   "counterparty": "Fifth Third Momentum Checking ••5108",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Added from bank",
+   "memo": "Auto top-up (SA-4417)"
+  },
+  {
+   "id": "KXC56Z5HNK",
+   "date": "2026-01-22",
+   "time": "21:41",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 24.0,
+   "currency": "USD",
+   "direction": "in",
+   "type": "Venmo · Payment",
+   "memo": "Costco run"
+  },
+  {
+   "id": "KX1FLLDP3R",
+   "date": "2026-01-18",
+   "time": "16:24",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 39.05,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "NES + internet split"
+  },
+  {
+   "id": "KXAQLQXKER",
+   "date": "2026-01-14",
+   "time": "07:09",
+   "counterparty": "Nikhil Patel",
+   "handle": "@nikhil-patel-01",
+   "amount": 50.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "pay you back"
+  },
+  {
+   "id": "KXDDRMYL0Y",
+   "date": "2026-01-02",
+   "time": "09:05",
+   "counterparty": "Jess Park",
+   "handle": "@jess-park-88",
+   "amount": 650.0,
+   "currency": "USD",
+   "direction": "out",
+   "type": "Venmo · Payment",
+   "memo": "rent"
+  }
+ ],
+ "requests": [],
+ "notifications": [
+  {
+   "date": "2026-11-10",
+   "time": "15:51",
+   "type": "payment_received",
+   "text": "Jess Park sent you $24.00 — “Costco run”"
+  },
+  {
+   "date": "2026-11-09",
+   "time": "17:49",
+   "type": "payment_received",
+   "text": "Priyanka Shah sent you $10.00 — “boba back”"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your October activity statement is ready."
+  },
+  {
+   "date": "2026-10-26",
+   "time": "12:00",
+   "type": "product",
+   "text": "Tip: set a low-balance alert in Settings > Notifications."
+  },
+  {
+   "date": "2026-10-20",
+   "time": "13:13",
+   "type": "payment_received",
+   "text": "Asha Patel sent you $50.00 — “groceries beta”"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "14:40",
+   "type": "security",
+   "text": "New sign-in on iPhone 13 near Nashville, TN. If this wasn't you, go to Help > Report a problem."
+  },
+  {
+   "date": "2026-10-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your September activity statement is ready."
+  },
+  {
+   "date": "2026-09-01",
+   "time": "06:00",
+   "type": "statement",
+   "text": "Your August activity statement is ready."
+  }
+ ],
+ "bank_transactions": [
+  {
+   "id": "BK4C5403NN",
+   "date": "2026-11-12",
+   "account": "Fifth Third Debit ••5108",
+   "description": "MAPCO #3291 NASHVILLE",
+   "amount": 40.03,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK6A9XQA9P",
+   "date": "2026-11-10",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "MOHELA STUDENT LN",
+   "amount": 142.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BK0AF52CDC",
+   "date": "2026-11-06",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PLANET FITNESS NASHVILLE",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BK6BH1ZKEP",
+   "date": "2026-10-30",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1109.42,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK45DB8A5E",
+   "date": "2026-10-28",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "VENMO ADD FUNDS",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKFK6UZ74M",
+   "date": "2026-10-24",
+   "account": "Fifth Third Debit ••5108",
+   "description": "KROGER #0414 NASHVILLE TN",
+   "amount": 39.79,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKUFZEWJEU",
+   "date": "2026-10-22",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "PROGRESSIVE INS AUTOPAY",
+   "amount": 96.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK18885N9K",
+   "date": "2026-10-21",
+   "account": "Fifth Third Debit ••5108",
+   "description": "ALDI 72031 NASHVILLE",
+   "amount": 30.25,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKV6M0B5HR",
+   "date": "2026-10-16",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1091.53,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKU5QN0AXS",
+   "date": "2026-10-15",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "CRICKET WIRELESS",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKQF4M2UTB",
+   "date": "2026-10-15",
+   "account": "Fifth Third Debit ••5108",
+   "description": "ALDI 72031 NASHVILLE",
+   "amount": 30.66,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKSAXJ489D",
+   "date": "2026-10-10",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "MOHELA STUDENT LN",
+   "amount": 142.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BKV36VHCA4",
+   "date": "2026-10-06",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PLANET FITNESS NASHVILLE",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKXF271GG8",
+   "date": "2026-10-02",
+   "account": "Fifth Third Debit ••5108",
+   "description": "CHIPOTLE 1932",
+   "amount": 13.58,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK77LY0V29",
+   "date": "2026-10-02",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1098.47,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK92BX6UT2",
+   "date": "2026-09-30",
+   "account": "Fifth Third Debit ••5108",
+   "description": "MAPCO #3291 NASHVILLE",
+   "amount": 26.25,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK6B6VR7J6",
+   "date": "2026-09-28",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "VENMO ADD FUNDS",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKWK4Z3EL5",
+   "date": "2026-09-27",
+   "account": "Fifth Third Debit ••5108",
+   "description": "KROGER #0414 NASHVILLE TN",
+   "amount": 42.97,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKH3JMGWCC",
+   "date": "2026-09-23",
+   "account": "Fifth Third Debit ••5108",
+   "description": "KROGER #0414 NASHVILLE TN",
+   "amount": 42.77,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKE9D0P74G",
+   "date": "2026-09-22",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PUBLIX #1187 NASHVILLE TN",
+   "amount": 54.98,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK5EXFXMUH",
+   "date": "2026-09-22",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "PROGRESSIVE INS AUTOPAY",
+   "amount": 96.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKKZAM4HY3",
+   "date": "2026-09-18",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1161.26,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKZ4PSYBW3",
+   "date": "2026-09-15",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "CRICKET WIRELESS",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKJNHHARF8",
+   "date": "2026-09-10",
+   "account": "Fifth Third Debit ••5108",
+   "description": "ALDI 72031 NASHVILLE",
+   "amount": 27.32,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKH5VK5Z1H",
+   "date": "2026-09-10",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "MOHELA STUDENT LN",
+   "amount": 142.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BKNR186MM4",
+   "date": "2026-09-06",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PLANET FITNESS NASHVILLE",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKQHDZBRZ0",
+   "date": "2026-09-04",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1157.14,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKDTQ9BS2D",
+   "date": "2026-08-28",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "VENMO ADD FUNDS",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKD1E9BBYT",
+   "date": "2026-08-22",
+   "account": "Fifth Third Debit ••5108",
+   "description": "CHIPOTLE 1932",
+   "amount": 13.11,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BK004ZP4ME",
+   "date": "2026-08-22",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "PROGRESSIVE INS AUTOPAY",
+   "amount": 96.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKNU1W871Y",
+   "date": "2026-08-21",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PUBLIX #1187 NASHVILLE TN",
+   "amount": 42.93,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK57UQJAA9",
+   "date": "2026-08-21",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1160.31,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK4Z0NVHEP",
+   "date": "2026-08-15",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "CRICKET WIRELESS",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKG3BWTYQF",
+   "date": "2026-08-11",
+   "account": "Fifth Third Debit ••5108",
+   "description": "KROGER #0414 NASHVILLE TN",
+   "amount": 48.23,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKDN057J68",
+   "date": "2026-08-10",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "MOHELA STUDENT LN",
+   "amount": 142.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BK1Q4WXKK2",
+   "date": "2026-08-08",
+   "account": "Fifth Third Debit ••5108",
+   "description": "TARGET T-2384 NASHVILLE",
+   "amount": 14.77,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BKY060ZRB1",
+   "date": "2026-08-07",
+   "account": "Fifth Third Debit ••5108",
+   "description": "KROGER #0414 NASHVILLE TN",
+   "amount": 58.52,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKX1L21907",
+   "date": "2026-08-07",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1163.28,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKG4BHRBAC",
+   "date": "2026-08-06",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PLANET FITNESS NASHVILLE",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKWP6FWJWY",
+   "date": "2026-07-31",
+   "account": "Fifth Third Debit ••5108",
+   "description": "CHIPOTLE 1932",
+   "amount": 11.65,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKFM178SAH",
+   "date": "2026-07-31",
+   "account": "Fifth Third Debit ••5108",
+   "description": "KROGER #0414 NASHVILLE TN",
+   "amount": 52.3,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK9PXJ24K9",
+   "date": "2026-07-28",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "VENMO ADD FUNDS",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKGFHRLM2B",
+   "date": "2026-07-27",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PUBLIX #1187 NASHVILLE TN",
+   "amount": 34.23,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKLFSJF6HD",
+   "date": "2026-07-24",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1158.91,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKY7927UEX",
+   "date": "2026-07-22",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "PROGRESSIVE INS AUTOPAY",
+   "amount": 96.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK7Q7UD6S6",
+   "date": "2026-07-22",
+   "account": "Fifth Third Debit ••5108",
+   "description": "KROGER #0414 NASHVILLE TN",
+   "amount": 73.79,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKG6WZDPG0",
+   "date": "2026-07-15",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "CRICKET WIRELESS",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKH66K0ASE",
+   "date": "2026-07-14",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PUBLIX #1187 NASHVILLE TN",
+   "amount": 32.41,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKNW2ZYQB2",
+   "date": "2026-07-11",
+   "account": "Fifth Third Debit ••5108",
+   "description": "KROGER #0414 NASHVILLE TN",
+   "amount": 45.31,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKLYJH8CHC",
+   "date": "2026-07-10",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1120.28,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK0N8HP0FZ",
+   "date": "2026-07-10",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "MOHELA STUDENT LN",
+   "amount": 142.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BK3BL26RYD",
+   "date": "2026-07-06",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PLANET FITNESS NASHVILLE",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKW6YV7L3A",
+   "date": "2026-06-28",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "VENMO ADD FUNDS",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKF4LTA9MC",
+   "date": "2026-06-26",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1101.22,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKAJPM0GH8",
+   "date": "2026-06-22",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "PROGRESSIVE INS AUTOPAY",
+   "amount": 96.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKPWAMJQ7A",
+   "date": "2026-06-18",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PUBLIX #1187 NASHVILLE TN",
+   "amount": 17.05,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKF14S2DD2",
+   "date": "2026-06-15",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "CRICKET WIRELESS",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKLS243WB9",
+   "date": "2026-06-12",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1147.9,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK6MRXJ386",
+   "date": "2026-06-12",
+   "account": "Fifth Third Debit ••5108",
+   "description": "WALGREENS #10913",
+   "amount": 23.82,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKHF7XUQP6",
+   "date": "2026-06-10",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "MOHELA STUDENT LN",
+   "amount": 142.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BK2WVPAL37",
+   "date": "2026-06-06",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PLANET FITNESS NASHVILLE",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKEV8ZRU2U",
+   "date": "2026-06-05",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PUBLIX #1187 NASHVILLE TN",
+   "amount": 45.41,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK926RK9QR",
+   "date": "2026-05-31",
+   "account": "Fifth Third Debit ••5108",
+   "description": "KROGER #0414 NASHVILLE TN",
+   "amount": 22.42,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK0CACD5MU",
+   "date": "2026-05-29",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1096.37,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK3HQHSSHD",
+   "date": "2026-05-28",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "VENMO ADD FUNDS",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK16UT1W5V",
+   "date": "2026-05-22",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "PROGRESSIVE INS AUTOPAY",
+   "amount": 96.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKA2EBJMK2",
+   "date": "2026-05-17",
+   "account": "Fifth Third Debit ••5108",
+   "description": "MAPCO #3291 NASHVILLE",
+   "amount": 38.56,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKY9ZP41RB",
+   "date": "2026-05-15",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1131.92,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKQJ115781",
+   "date": "2026-05-15",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "CRICKET WIRELESS",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK059CD6WH",
+   "date": "2026-05-10",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "MOHELA STUDENT LN",
+   "amount": 142.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BKC6DCXYET",
+   "date": "2026-05-09",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PUBLIX #1187 NASHVILLE TN",
+   "amount": 58.35,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK3VABXU12",
+   "date": "2026-05-08",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PUBLIX #1187 NASHVILLE TN",
+   "amount": 25.91,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKR55LFTMU",
+   "date": "2026-05-06",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PLANET FITNESS NASHVILLE",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKTPUY0DZD",
+   "date": "2026-05-01",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1145.32,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKNBKGLXQN",
+   "date": "2026-04-28",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "VENMO ADD FUNDS",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BK68AV2M96",
+   "date": "2026-04-24",
+   "account": "Fifth Third Debit ••5108",
+   "description": "ALDI 72031 NASHVILLE",
+   "amount": 41.77,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKAPNT6P6U",
+   "date": "2026-04-22",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "PROGRESSIVE INS AUTOPAY",
+   "amount": 96.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKC9UKVVB2",
+   "date": "2026-04-19",
+   "account": "Fifth Third Debit ••5108",
+   "description": "KROGER #0414 NASHVILLE TN",
+   "amount": 51.23,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKGFQ59DNR",
+   "date": "2026-04-17",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1148.69,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKKEZ90PJX",
+   "date": "2026-04-15",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "CRICKET WIRELESS",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK8UZA1AHR",
+   "date": "2026-04-14",
+   "account": "Fifth Third Debit ••5108",
+   "description": "MAPCO #3291 NASHVILLE",
+   "amount": 30.53,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK4WW049WP",
+   "date": "2026-04-14",
+   "account": "Fifth Third Debit ••5108",
+   "description": "KROGER #0414 NASHVILLE TN",
+   "amount": 37.13,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKTQAFDJMP",
+   "date": "2026-04-10",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "MOHELA STUDENT LN",
+   "amount": 142.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BK1ZEZVLCQ",
+   "date": "2026-04-10",
+   "account": "Fifth Third Debit ••5108",
+   "description": "ALDI 72031 NASHVILLE",
+   "amount": 38.11,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BK7C5QY83F",
+   "date": "2026-04-06",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PLANET FITNESS NASHVILLE",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKUSN8G6YD",
+   "date": "2026-04-03",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1168.62,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKFLYFJ94F",
+   "date": "2026-04-03",
+   "account": "Fifth Third Debit ••5108",
+   "description": "CHIPOTLE 1932",
+   "amount": 13.96,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKD6CYLKGM",
+   "date": "2026-03-28",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "VENMO ADD FUNDS",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKHWY3UCBV",
+   "date": "2026-03-27",
+   "account": "Fifth Third Debit ••5108",
+   "description": "MAPCO #3291 NASHVILLE",
+   "amount": 35.68,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BK9QM9MNVT",
+   "date": "2026-03-22",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "PROGRESSIVE INS AUTOPAY",
+   "amount": 96.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BK7ZT6Z3T6",
+   "date": "2026-03-20",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1139.41,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKSG1D3V34",
+   "date": "2026-03-19",
+   "account": "Fifth Third Debit ••5108",
+   "description": "TARGET T-2384 NASHVILLE",
+   "amount": 57.92,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Shopping"
+  },
+  {
+   "id": "BK720RXV54",
+   "date": "2026-03-17",
+   "account": "Fifth Third Debit ••5108",
+   "description": "WALGREENS #10913",
+   "amount": 24.72,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BKRD4C298B",
+   "date": "2026-03-15",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "CRICKET WIRELESS",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKVD4SYSEP",
+   "date": "2026-03-10",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "MOHELA STUDENT LN",
+   "amount": 142.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BK8ZXBZ2H4",
+   "date": "2026-03-06",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1096.77,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK2MKQQ64U",
+   "date": "2026-03-06",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PLANET FITNESS NASHVILLE",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKAR1RE21N",
+   "date": "2026-03-02",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PUBLIX #1187 NASHVILLE TN",
+   "amount": 29.14,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKKWSR9N4P",
+   "date": "2026-02-28",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "VENMO ADD FUNDS",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKHH45A7T2",
+   "date": "2026-02-28",
+   "account": "Fifth Third Debit ••5108",
+   "description": "MAPCO #3291 NASHVILLE",
+   "amount": 27.1,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKNCZ8XDBZ",
+   "date": "2026-02-25",
+   "account": "Fifth Third Debit ••5108",
+   "description": "WALGREENS #10913",
+   "amount": 11.72,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Health"
+  },
+  {
+   "id": "BK90D6F5NM",
+   "date": "2026-02-22",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "PROGRESSIVE INS AUTOPAY",
+   "amount": 96.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKRDBVSR3B",
+   "date": "2026-02-20",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1114.84,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKP04ZEE3C",
+   "date": "2026-02-15",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "CRICKET WIRELESS",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BKB1JEHA06",
+   "date": "2026-02-14",
+   "account": "Fifth Third Debit ••5108",
+   "description": "ALDI 72031 NASHVILLE",
+   "amount": 26.24,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKYL4XSW3E",
+   "date": "2026-02-10",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "MOHELA STUDENT LN",
+   "amount": 142.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BKJ2FF1C5M",
+   "date": "2026-02-10",
+   "account": "Fifth Third Debit ••5108",
+   "description": "MAPCO #3291 NASHVILLE",
+   "amount": 28.6,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fuel"
+  },
+  {
+   "id": "BKCAVUAN9U",
+   "date": "2026-02-09",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PUBLIX #1187 NASHVILLE TN",
+   "amount": 49.39,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKXC0ZETA4",
+   "date": "2026-02-06",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PLANET FITNESS NASHVILLE",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BKHNNY66B3",
+   "date": "2026-02-06",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1152.99,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BK78JAEWSV",
+   "date": "2026-01-28",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "VENMO ADD FUNDS",
+   "amount": 700.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Transfer"
+  },
+  {
+   "id": "BKTJZ2VTF4",
+   "date": "2026-01-24",
+   "account": "Fifth Third Debit ••5108",
+   "description": "ALDI 72031 NASHVILLE",
+   "amount": 40.32,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKKM1X0DW3",
+   "date": "2026-01-23",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1154.03,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKX7K34M7E",
+   "date": "2026-01-22",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "PROGRESSIVE INS AUTOPAY",
+   "amount": 96.18,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Insurance"
+  },
+  {
+   "id": "BKVRRZF0QL",
+   "date": "2026-01-15",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "CRICKET WIRELESS",
+   "amount": 55.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Phone"
+  },
+  {
+   "id": "BK2TGGCX0S",
+   "date": "2026-01-13",
+   "account": "Fifth Third Debit ••5108",
+   "description": "KROGER #0414 NASHVILLE TN",
+   "amount": 18.87,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  },
+  {
+   "id": "BKEC3PSE8Y",
+   "date": "2026-01-10",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "MOHELA STUDENT LN",
+   "amount": 142.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Loan"
+  },
+  {
+   "id": "BKADU1UHGN",
+   "date": "2026-01-09",
+   "account": "Fifth Third Momentum Checking ••5108",
+   "description": "HARPETH FRESH MARKET PAYROLL",
+   "amount": 1166.79,
+   "currency": "USD",
+   "direction": "in",
+   "category": "Income"
+  },
+  {
+   "id": "BKGGY10R7W",
+   "date": "2026-01-08",
+   "account": "Fifth Third Debit ••5108",
+   "description": "CHIPOTLE 1932",
+   "amount": 10.96,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Dining"
+  },
+  {
+   "id": "BKSHXQJR2S",
+   "date": "2026-01-06",
+   "account": "Fifth Third Debit ••5108",
+   "description": "PLANET FITNESS NASHVILLE",
+   "amount": 15.0,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Fitness"
+  },
+  {
+   "id": "BK1R6LJK5M",
+   "date": "2026-01-05",
+   "account": "Fifth Third Debit ••5108",
+   "description": "KROGER #0414 NASHVILLE TN",
+   "amount": 70.45,
+   "currency": "USD",
+   "direction": "out",
+   "category": "Groceries"
+  }
+ ],
+ "_meta": {
+  "env_id": "wallet",
+  "seed_pairs": [
+   "S07"
+  ],
+  "scenarios": [
+   "S07A",
+   "S07B",
+   "S07P"
+  ],
+  "world": "shared (both twins)",
+  "generator": "envs/wallet/build_members.py",
+  "rng_seed": 20261116,
+  "record_counts": {
+   "transactions": 71,
+   "bank_transactions": 121,
+   "total_money_records": 192
+  }
+ }
+}

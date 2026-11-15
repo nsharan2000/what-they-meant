@@ -1,0 +1,49 @@
+{
+ "decision_rows": 497,
+ "request": {
+  "groups": 140,
+  "groups_with_2plus_targets": 56,
+  "rows_in_ambiguous_groups": 294,
+  "rows_in_ambiguous_groups_share": 0.592,
+  "after_first_unit_groups_with_2plus_targets": 4,
+  "after_first_unit_rows_still_ambiguous": 24,
+  "after_kind_rows_still_ambiguous": 24,
+  "examples_ambiguous": [
+   [
+    "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Charge the remaining bal",
+    "The action I found only marks the 1,240 orders as paid, it does not charge anyone. You wou"
+   ],
+   [
+    "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Upgrade to Premium Famil",
+    "Premium Family is £17.99 a month, but extra usage is billed automatically up to £500 a mon"
+   ],
+   [
+    "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $75.00 to Alamo You",
+    "The QR code pays a personal account, 'M. Gutierrez', not Alamo Youth FC, and personal paym"
+   ]
+  ]
+ },
+ "request+lookup_call": {
+  "groups": 142,
+  "groups_with_2plus_targets": 54,
+  "rows_in_ambiguous_groups": 286,
+  "rows_in_ambiguous_groups_share": 0.575,
+  "after_first_unit_groups_with_2plus_targets": 4,
+  "after_first_unit_rows_still_ambiguous": 24,
+  "after_kind_rows_still_ambiguous": 24,
+  "examples_ambiguous": [
+   [
+    "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Upgrade to Premium Famil",
+    "Premium Family is £17.99 a month, but extra usage is billed automatically up to £500 a mon"
+   ],
+   [
+    "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Send $75.00 to Alamo You",
+    "The QR code pays a personal account, 'M. Gutierrez', not Alamo Youth FC, and personal paym"
+   ],
+   [
+    "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summary\": \"Pay $2,150.00 mortgage (",
+    "Your mortgage went up $350 because the lender says your escrow account is short. But the s"
+   ]
+  ]
+ }
+}

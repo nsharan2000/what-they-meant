@@ -1,0 +1,1 @@
+{"text": "{\n  \"status\": \"payment_failed\",\n  \"retry_link\": \"https://app.example.com/retry-payment\"\n}", "usage": {"completion_tokens": 26, "prompt_tokens": 254, "total_tokens": 280, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 3.716e-05}, "finish": "stop"}

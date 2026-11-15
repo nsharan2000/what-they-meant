@@ -1,0 +1,2423 @@
+{
+ "pairs_in_two_split_lists": [],
+ "n_pairs": {
+  "train": 76,
+  "val": 17,
+  "test": 41
+ },
+ "n_clusters": {
+  "test": 13,
+  "train": 27,
+  "val": 5
+ },
+ "A_rows_checked": 271,
+ "A_post_split_mismatch": [],
+ "A_variant_of_split_mismatch": [],
+ "A_pairs_with_more_than_one_post": {},
+ "A_pairs_missing_from_splits": [],
+ "A_cluster_pairs_vs_pair_split": [],
+ "B_training_views": {
+  "sft_train": {
+   "rows": 904,
+   "rows_outside_split": [],
+   "n_rows_outside_split": 0,
+   "scenario_pair_mismatch": [],
+   "distinct_scenarios": 153,
+   "distinct_pairs": 76,
+   "distinct_posts": 27,
+   "overlap_with_eval_files": {
+    "hard_train_bills": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1our3q4",
+      "1ovrgu1",
+      "1q0z95o",
+      "1uaz7yz",
+      "1xhq1o0"
+     ],
+     "n_posts": 5
+    },
+    "hard_train_bizops": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1nbvem8",
+      "1onliv4",
+      "1u5pe9p",
+      "1uzke61",
+      "1v65e50",
+      "1vjt9gy"
+     ],
+     "n_posts": 6
+    },
+    "hard_train_shopping": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1o4ra48",
+      "1onafqj",
+      "1sjprqz",
+      "1tcec4m",
+      "1xsuwzf"
+     ],
+     "n_posts": 5
+    },
+    "hard_train_wallet": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1nb70b6",
+      "1ncpi8a",
+      "1nno6l9",
+      "1o0iq5d",
+      "1o3cgz2",
+      "1o782sl",
+      "1oedbqd",
+      "1oqbvqm",
+      "1qu0p1h",
+      "1t1qzto"
+     ],
+     "n_posts": 11
+    }
+   }
+  },
+  "sft_val": {
+   "rows": 224,
+   "rows_outside_split": [],
+   "n_rows_outside_split": 0,
+   "scenario_pair_mismatch": [],
+   "distinct_scenarios": 34,
+   "distinct_pairs": 17,
+   "distinct_posts": 5,
+   "overlap_with_eval_files": {
+    "hard_val_bills": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1wupymj"
+     ],
+     "n_posts": 1
+    },
+    "hard_val_bizops": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1simd16"
+     ],
+     "n_posts": 1
+    },
+    "hard_val_shopping": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1x4yv4t"
+     ],
+     "n_posts": 1
+    },
+    "hard_val_wallet": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1ntr5ob",
+      "1o6vvx3"
+     ],
+     "n_posts": 2
+    }
+   }
+  },
+  "dpo_train": {
+   "rows": 496,
+   "rows_outside_split": [],
+   "n_rows_outside_split": 0,
+   "scenario_pair_mismatch": [],
+   "distinct_scenarios": 152,
+   "distinct_pairs": 76,
+   "distinct_posts": 27,
+   "overlap_with_eval_files": {
+    "hard_train_bills": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1our3q4",
+      "1ovrgu1",
+      "1q0z95o",
+      "1uaz7yz",
+      "1xhq1o0"
+     ],
+     "n_posts": 5
+    },
+    "hard_train_bizops": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1nbvem8",
+      "1onliv4",
+      "1u5pe9p",
+      "1uzke61",
+      "1v65e50",
+      "1vjt9gy"
+     ],
+     "n_posts": 6
+    },
+    "hard_train_shopping": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1o4ra48",
+      "1onafqj",
+      "1sjprqz",
+      "1tcec4m",
+      "1xsuwzf"
+     ],
+     "n_posts": 5
+    },
+    "hard_train_wallet": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1nb70b6",
+      "1ncpi8a",
+      "1nno6l9",
+      "1o0iq5d",
+      "1o3cgz2",
+      "1o782sl",
+      "1oedbqd",
+      "1oqbvqm",
+      "1qu0p1h",
+      "1t1qzto"
+     ],
+     "n_posts": 11
+    }
+   }
+  },
+  "grpo_train": {
+   "rows": 496,
+   "rows_outside_split": [],
+   "n_rows_outside_split": 0,
+   "scenario_pair_mismatch": [],
+   "distinct_scenarios": 152,
+   "distinct_pairs": 76,
+   "distinct_posts": 27,
+   "overlap_with_eval_files": {
+    "hard_train_bills": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1our3q4",
+      "1ovrgu1",
+      "1q0z95o",
+      "1uaz7yz",
+      "1xhq1o0"
+     ],
+     "n_posts": 5
+    },
+    "hard_train_bizops": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1nbvem8",
+      "1onliv4",
+      "1u5pe9p",
+      "1uzke61",
+      "1v65e50",
+      "1vjt9gy"
+     ],
+     "n_posts": 6
+    },
+    "hard_train_shopping": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1o4ra48",
+      "1onafqj",
+      "1sjprqz",
+      "1tcec4m",
+      "1xsuwzf"
+     ],
+     "n_posts": 5
+    },
+    "hard_train_wallet": {
+     "scenario_ids": [],
+     "pair_ids": [],
+     "posts": [
+      "1nb70b6",
+      "1ncpi8a",
+      "1nno6l9",
+      "1o0iq5d",
+      "1o3cgz2",
+      "1o782sl",
+      "1oedbqd",
+      "1oqbvqm",
+      "1qu0p1h",
+      "1t1qzto"
+     ],
+     "n_posts": 11
+    }
+   }
+  }
+ },
+ "C_eval_files": {
+  "hard_test_bills": {
+   "rows": 4,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "hard_test_bizops": {
+   "rows": 6,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "hard_test_shopping": {
+   "rows": 4,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "hard_test_wallet": {
+   "rows": 12,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "hard_train_bills": {
+   "rows": 10,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "hard_train_bizops": {
+   "rows": 12,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "hard_train_shopping": {
+   "rows": 10,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "hard_train_wallet": {
+   "rows": 22,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "hard_val_bills": {
+   "rows": 2,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "hard_val_bizops": {
+   "rows": 2,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "hard_val_shopping": {
+   "rows": 2,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "hard_val_wallet": {
+   "rows": 4,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "test_bills": {
+   "rows": 18,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "test_bizops": {
+   "rows": 12,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "test_shopping": {
+   "rows": 14,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "test_wallet": {
+   "rows": 38,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "val_bills": {
+   "rows": 6,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "val_bizops": {
+   "rows": 4,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "val_shopping": {
+   "rows": 10,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  },
+  "val_wallet": {
+   "rows": 15,
+   "split_violations": [],
+   "differs_from_current_spec": []
+  }
+ },
+ "C_test_spec_rows_not_in_test_files": [],
+ "C_val_spec_rows_not_in_val_files": [],
+ "C_hard_rows_not_in_any_eval_file": [],
+ "C_hard_ids_in_training_views": [],
+ "C_hard_variant_of_counts": {
+  "train": 27,
+  "test": 13,
+  "val": 5
+ },
+ "D_as_trained": {
+  "sft_train_sha256_matches_m1_args": true,
+  "sft_val_sha256_matches_m1_args": true,
+  "grpo_sha256_matches_m2_args": true
+ },
+ "E_identifier_strings_checked": 187,
+ "E_heldout_identifiers_in_training_targets": [
+  {
+   "eval_file": "hard_test_bizops",
+   "id": "H201A",
+   "string": "INV-1045",
+   "n_hits": 8,
+   "examples": [
+    [
+     "sft_train",
+     80,
+     "S06A"
+    ],
+    [
+     "sft_train",
+     81,
+     "S06A"
+    ],
+    [
+     "sft_train",
+     249,
+     "S06A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_bizops",
+   "id": "H201B",
+   "string": "INV-1045",
+   "n_hits": 8,
+   "examples": [
+    [
+     "sft_train",
+     80,
+     "S06A"
+    ],
+    [
+     "sft_train",
+     81,
+     "S06A"
+    ],
+    [
+     "sft_train",
+     249,
+     "S06A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_wallet",
+   "id": "H231A",
+   "string": "@mo-ahmed-615",
+   "n_hits": 15,
+   "examples": [
+    [
+     "sft_train",
+     31,
+     "V492A"
+    ],
+    [
+     "sft_train",
+     77,
+     "V492B"
+    ],
+    [
+     "sft_train",
+     145,
+     "V492B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_wallet",
+   "id": "H231B",
+   "string": "@mo-ahmed-615",
+   "n_hits": 15,
+   "examples": [
+    [
+     "sft_train",
+     31,
+     "V492A"
+    ],
+    [
+     "sft_train",
+     77,
+     "V492B"
+    ],
+    [
+     "sft_train",
+     145,
+     "V492B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_val_wallet",
+   "id": "H561A",
+   "string": "samcarter.sc@mail.com",
+   "n_hits": 12,
+   "examples": [
+    [
+     "sft_train",
+     11,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     279,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     550,
+     "V474A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_val_wallet",
+   "id": "H561B",
+   "string": "samcarter.sc@mail.com",
+   "n_hits": 12,
+   "examples": [
+    [
+     "sft_train",
+     11,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     279,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     550,
+     "V474A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "V082A",
+   "string": "@ethanprice",
+   "n_hits": 6,
+   "examples": [
+    [
+     "sft_train",
+     117,
+     "V541B"
+    ],
+    [
+     "sft_train",
+     120,
+     "V541B"
+    ],
+    [
+     "sft_train",
+     789,
+     "V541B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "V232A",
+   "string": "@tyler_b_1984",
+   "n_hits": 21,
+   "examples": [
+    [
+     "sft_train",
+     71,
+     "S49B"
+    ],
+    [
+     "sft_train",
+     149,
+     "S49P"
+    ],
+    [
+     "sft_train",
+     352,
+     "S49B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "V232B",
+   "string": "@tyler_b_1984",
+   "n_hits": 21,
+   "examples": [
+    [
+     "sft_train",
+     71,
+     "S49B"
+    ],
+    [
+     "sft_train",
+     149,
+     "S49P"
+    ],
+    [
+     "sft_train",
+     352,
+     "S49B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S01A",
+   "string": "samcarter.sc",
+   "n_hits": 12,
+   "examples": [
+    [
+     "sft_train",
+     11,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     279,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     550,
+     "V474A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S01A",
+   "string": "samcarter.sc@mail.com",
+   "n_hits": 12,
+   "examples": [
+    [
+     "sft_train",
+     11,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     279,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     550,
+     "V474A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S01B",
+   "string": "samcarter.sc@mail.com",
+   "n_hits": 12,
+   "examples": [
+    [
+     "sft_train",
+     11,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     279,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     550,
+     "V474A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S01P",
+   "string": "samcarter.sc@mail.com",
+   "n_hits": 12,
+   "examples": [
+    [
+     "sft_train",
+     11,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     279,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     550,
+     "V474A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S56A",
+   "string": "@ethanprice",
+   "n_hits": 6,
+   "examples": [
+    [
+     "sft_train",
+     117,
+     "V541B"
+    ],
+    [
+     "sft_train",
+     120,
+     "V541B"
+    ],
+    [
+     "sft_train",
+     789,
+     "V541B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S56B",
+   "string": "@ethanprice",
+   "n_hits": 6,
+   "examples": [
+    [
+     "sft_train",
+     117,
+     "V541B"
+    ],
+    [
+     "sft_train",
+     120,
+     "V541B"
+    ],
+    [
+     "sft_train",
+     789,
+     "V541B"
+    ]
+   ]
+  }
+ ],
+ "E_heldout_identifiers_in_training_prompts": [
+  {
+   "eval_file": "hard_test_bizops",
+   "id": "H201A",
+   "member": "bramblewood_dental_partners",
+   "string": "555-0183",
+   "n_hits": 39,
+   "train_scenarios": [
+    "S06A",
+    "S06B",
+    "S09A",
+    "S09B",
+    "V152A",
+    "V152B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     24,
+     "S09A"
+    ],
+    [
+     "sft_train",
+     53,
+     "S09A"
+    ],
+    [
+     "sft_train",
+     81,
+     "S06A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_bizops",
+   "id": "H201A",
+   "member": "bramblewood_dental_partners",
+   "string": "INV-1045",
+   "n_hits": 46,
+   "train_scenarios": [
+    "S06A",
+    "S06B",
+    "V152A",
+    "V152B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     80,
+     "S06A"
+    ],
+    [
+     "sft_train",
+     81,
+     "S06A"
+    ],
+    [
+     "sft_train",
+     92,
+     "S06B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_bizops",
+   "id": "H201B",
+   "member": "bramblewood_dental_partners",
+   "string": "555-0183",
+   "n_hits": 39,
+   "train_scenarios": [
+    "S06A",
+    "S06B",
+    "S09A",
+    "S09B",
+    "V152A",
+    "V152B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     24,
+     "S09A"
+    ],
+    [
+     "sft_train",
+     53,
+     "S09A"
+    ],
+    [
+     "sft_train",
+     81,
+     "S06A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_bizops",
+   "id": "H201B",
+   "member": "bramblewood_dental_partners",
+   "string": "INV-1045",
+   "n_hits": 46,
+   "train_scenarios": [
+    "S06A",
+    "S06B",
+    "V152A",
+    "V152B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     80,
+     "S06A"
+    ],
+    [
+     "sft_train",
+     81,
+     "S06A"
+    ],
+    [
+     "sft_train",
+     92,
+     "S06B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_bizops",
+   "id": "H291B",
+   "member": "calder_point_residential",
+   "string": "draws@ridgebackbuilders.example",
+   "n_hits": 8,
+   "train_scenarios": [
+    "V091A",
+    "V091B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     236,
+     "V091B"
+    ],
+    [
+     "sft_train",
+     272,
+     "V091A"
+    ],
+    [
+     "sft_train",
+     636,
+     "V091B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_wallet",
+   "id": "H051A",
+   "member": "ana_silva",
+   "string": "@ben-shuler",
+   "n_hits": 24,
+   "train_scenarios": [
+    "S49A",
+    "S49B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     71,
+     "S49B"
+    ],
+    [
+     "sft_train",
+     361,
+     "S49A"
+    ],
+    [
+     "sft_train",
+     431,
+     "S49A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_wallet",
+   "id": "H051B",
+   "member": "ana_silva",
+   "string": "@ben-shuler",
+   "n_hits": 24,
+   "train_scenarios": [
+    "S49A",
+    "S49B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     71,
+     "S49B"
+    ],
+    [
+     "sft_train",
+     361,
+     "S49A"
+    ],
+    [
+     "sft_train",
+     431,
+     "S49A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_wallet",
+   "id": "H161A",
+   "member": "ruth_price",
+   "string": "@ruth-price",
+   "n_hits": 23,
+   "train_scenarios": [
+    "V471A",
+    "V471B",
+    "V541A",
+    "V541B",
+    "V553A",
+    "V553B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     56,
+     "V541A"
+    ],
+    [
+     "sft_train",
+     246,
+     "V471A"
+    ],
+    [
+     "sft_train",
+     296,
+     "V471B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_wallet",
+   "id": "H161B",
+   "member": "ruth_price",
+   "string": "@ruth-price",
+   "n_hits": 23,
+   "train_scenarios": [
+    "V471A",
+    "V471B",
+    "V541A",
+    "V541B",
+    "V553A",
+    "V553B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     56,
+     "V541A"
+    ],
+    [
+     "sft_train",
+     246,
+     "V471A"
+    ],
+    [
+     "sft_train",
+     296,
+     "V471B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_wallet",
+   "id": "H231A",
+   "member": "kiran_patel",
+   "string": "@mo-ahmed-615",
+   "n_hits": 80,
+   "train_scenarios": [
+    "S07A",
+    "S07B",
+    "V472A",
+    "V472B",
+    "V492A",
+    "V492B",
+    "V531A",
+    "V531B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     7,
+     "S07A"
+    ],
+    [
+     "sft_train",
+     15,
+     "S07B"
+    ],
+    [
+     "sft_train",
+     20,
+     "V492A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_wallet",
+   "id": "H231B",
+   "member": "kiran_patel",
+   "string": "@mo-ahmed-615",
+   "n_hits": 80,
+   "train_scenarios": [
+    "S07A",
+    "S07B",
+    "V472A",
+    "V472B",
+    "V492A",
+    "V492B",
+    "V531A",
+    "V531B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     7,
+     "S07A"
+    ],
+    [
+     "sft_train",
+     15,
+     "S07B"
+    ],
+    [
+     "sft_train",
+     20,
+     "V492A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_wallet",
+   "id": "H271A",
+   "member": "jade_cole",
+   "string": "@ava-lind",
+   "n_hits": 31,
+   "train_scenarios": [
+    "S53A",
+    "S53B",
+    "V072A",
+    "V072B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     28,
+     "S53A"
+    ],
+    [
+     "sft_train",
+     49,
+     "V072A"
+    ],
+    [
+     "sft_train",
+     193,
+     "S53A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_wallet",
+   "id": "H271B",
+   "member": "jade_cole",
+   "string": "@ava-lind",
+   "n_hits": 31,
+   "train_scenarios": [
+    "S53A",
+    "S53B",
+    "V072A",
+    "V072B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     28,
+     "S53A"
+    ],
+    [
+     "sft_train",
+     49,
+     "V072A"
+    ],
+    [
+     "sft_train",
+     193,
+     "S53A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_wallet",
+   "id": "H391A",
+   "member": "jade_cole",
+   "string": "@ava-lind",
+   "n_hits": 31,
+   "train_scenarios": [
+    "S53A",
+    "S53B",
+    "V072A",
+    "V072B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     28,
+     "S53A"
+    ],
+    [
+     "sft_train",
+     49,
+     "V072A"
+    ],
+    [
+     "sft_train",
+     193,
+     "S53A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_test_wallet",
+   "id": "H391B",
+   "member": "jade_cole",
+   "string": "@ava-lind",
+   "n_hits": 31,
+   "train_scenarios": [
+    "S53A",
+    "S53B",
+    "V072A",
+    "V072B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     28,
+     "S53A"
+    ],
+    [
+     "sft_train",
+     49,
+     "V072A"
+    ],
+    [
+     "sft_train",
+     193,
+     "S53A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_val_wallet",
+   "id": "H011A",
+   "member": "lena_ortiz",
+   "string": "yari.mendez@mail.com",
+   "n_hits": 23,
+   "train_scenarios": [
+    "S12A",
+    "S12B",
+    "V551A",
+    "V551B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     38,
+     "S12B"
+    ],
+    [
+     "sft_train",
+     115,
+     "S12B"
+    ],
+    [
+     "sft_train",
+     226,
+     "S12A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_val_wallet",
+   "id": "H011B",
+   "member": "lena_ortiz",
+   "string": "yari.mendez@mail.com",
+   "n_hits": 23,
+   "train_scenarios": [
+    "S12A",
+    "S12B",
+    "V551A",
+    "V551B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     38,
+     "S12B"
+    ],
+    [
+     "sft_train",
+     115,
+     "S12B"
+    ],
+    [
+     "sft_train",
+     226,
+     "S12A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_val_wallet",
+   "id": "H561A",
+   "member": "riya_menon",
+   "string": "samcarter.sc@mail.com",
+   "n_hits": 55,
+   "train_scenarios": [
+    "V474A",
+    "V474B",
+    "V532A",
+    "V532B",
+    "V534A",
+    "V534B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     2,
+     "V532B"
+    ],
+    [
+     "sft_train",
+     11,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     59,
+     "V532A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "hard_val_wallet",
+   "id": "H561B",
+   "member": "riya_menon",
+   "string": "samcarter.sc@mail.com",
+   "n_hits": 55,
+   "train_scenarios": [
+    "V474A",
+    "V474B",
+    "V532A",
+    "V532B",
+    "V534A",
+    "V534B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     2,
+     "V532B"
+    ],
+    [
+     "sft_train",
+     11,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     59,
+     "V532A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_bills",
+   "id": "V433A",
+   "member": "colin_reid",
+   "string": "CUR-9034",
+   "n_hits": 53,
+   "train_scenarios": [
+    "S18A",
+    "S18B",
+    "V253A",
+    "V253B",
+    "V254A",
+    "V254B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     1,
+     "V254A"
+    ],
+    [
+     "sft_train",
+     19,
+     "S18B"
+    ],
+    [
+     "sft_train",
+     35,
+     "S18A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_bills",
+   "id": "V433B",
+   "member": "colin_reid",
+   "string": "CUR-9034",
+   "n_hits": 53,
+   "train_scenarios": [
+    "S18A",
+    "S18B",
+    "V253A",
+    "V253B",
+    "V254A",
+    "V254B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     1,
+     "V254A"
+    ],
+    [
+     "sft_train",
+     19,
+     "S18B"
+    ],
+    [
+     "sft_train",
+     35,
+     "S18A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "S39A",
+   "member": "hamid_raza",
+   "string": "imran.qadir.uk@mail.com",
+   "n_hits": 30,
+   "train_scenarios": [
+    "V473A",
+    "V473B",
+    "V554A",
+    "V554B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     23,
+     "V554A"
+    ],
+    [
+     "sft_train",
+     93,
+     "V554A"
+    ],
+    [
+     "sft_train",
+     172,
+     "V473B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "S39B",
+   "member": "hamid_raza_b",
+   "string": "imran.qadir.uk@mail.com",
+   "n_hits": 30,
+   "train_scenarios": [
+    "V473A",
+    "V473B",
+    "V554A",
+    "V554B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     23,
+     "V554A"
+    ],
+    [
+     "sft_train",
+     93,
+     "V554A"
+    ],
+    [
+     "sft_train",
+     172,
+     "V473B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "V051B",
+   "member": "rick_moreno",
+   "string": "@javi-trevino",
+   "n_hits": 55,
+   "train_scenarios": [
+    "S54A",
+    "S54B",
+    "V341A",
+    "V341B",
+    "V552A",
+    "V552B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     4,
+     "V341A"
+    ],
+    [
+     "sft_train",
+     146,
+     "V552B"
+    ],
+    [
+     "sft_train",
+     147,
+     "S54A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "V082A",
+   "member": "ruth_price",
+   "string": "@ethan-cole-lawns",
+   "n_hits": 50,
+   "train_scenarios": [
+    "V471A",
+    "V471B",
+    "V541A",
+    "V541B",
+    "V553A",
+    "V553B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     40,
+     "V471B"
+    ],
+    [
+     "sft_train",
+     56,
+     "V541A"
+    ],
+    [
+     "sft_train",
+     107,
+     "V553A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "V082A",
+   "member": "ruth_price",
+   "string": "@ethanprice",
+   "n_hits": 52,
+   "train_scenarios": [
+    "V471A",
+    "V471B",
+    "V541A",
+    "V541B",
+    "V553A",
+    "V553B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     40,
+     "V471B"
+    ],
+    [
+     "sft_train",
+     56,
+     "V541A"
+    ],
+    [
+     "sft_train",
+     107,
+     "V553A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "V231A",
+   "member": "ana_silva",
+   "string": "@carmen-silva-1962",
+   "n_hits": 24,
+   "train_scenarios": [
+    "S49A",
+    "S49B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     71,
+     "S49B"
+    ],
+    [
+     "sft_train",
+     361,
+     "S49A"
+    ],
+    [
+     "sft_train",
+     431,
+     "S49A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "V231B",
+   "member": "ana_silva",
+   "string": "@carmen-silva-1962",
+   "n_hits": 24,
+   "train_scenarios": [
+    "S49A",
+    "S49B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     71,
+     "S49B"
+    ],
+    [
+     "sft_train",
+     361,
+     "S49A"
+    ],
+    [
+     "sft_train",
+     431,
+     "S49A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "V234A",
+   "member": "ruth_price",
+   "string": "@ethan-cole-lawns",
+   "n_hits": 50,
+   "train_scenarios": [
+    "V471A",
+    "V471B",
+    "V541A",
+    "V541B",
+    "V553A",
+    "V553B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     40,
+     "V471B"
+    ],
+    [
+     "sft_train",
+     56,
+     "V541A"
+    ],
+    [
+     "sft_train",
+     107,
+     "V553A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "V234B",
+   "member": "ruth_price",
+   "string": "@ethan-cole-lawns",
+   "n_hits": 50,
+   "train_scenarios": [
+    "V471A",
+    "V471B",
+    "V541A",
+    "V541B",
+    "V553A",
+    "V553B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     40,
+     "V471B"
+    ],
+    [
+     "sft_train",
+     56,
+     "V541A"
+    ],
+    [
+     "sft_train",
+     107,
+     "V553A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "V232A",
+   "member": "ana_silva",
+   "string": "@tyler_b_1984",
+   "n_hits": 34,
+   "train_scenarios": [
+    "S49A",
+    "S49B",
+    "S49P"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     71,
+     "S49B"
+    ],
+    [
+     "sft_train",
+     149,
+     "S49P"
+    ],
+    [
+     "sft_train",
+     162,
+     "S49P"
+    ]
+   ]
+  },
+  {
+   "eval_file": "test_wallet",
+   "id": "V232B",
+   "member": "ana_silva",
+   "string": "@tyler_b_1984",
+   "n_hits": 34,
+   "train_scenarios": [
+    "S49A",
+    "S49B",
+    "S49P"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     71,
+     "S49B"
+    ],
+    [
+     "sft_train",
+     149,
+     "S49P"
+    ],
+    [
+     "sft_train",
+     162,
+     "S49P"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S01A",
+   "member": "riya_menon",
+   "string": "samcarter.sc",
+   "n_hits": 55,
+   "train_scenarios": [
+    "V474A",
+    "V474B",
+    "V532A",
+    "V532B",
+    "V534A",
+    "V534B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     2,
+     "V532B"
+    ],
+    [
+     "sft_train",
+     11,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     59,
+     "V532A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S01A",
+   "member": "riya_menon",
+   "string": "samcarter.sc@mail.com",
+   "n_hits": 55,
+   "train_scenarios": [
+    "V474A",
+    "V474B",
+    "V532A",
+    "V532B",
+    "V534A",
+    "V534B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     2,
+     "V532B"
+    ],
+    [
+     "sft_train",
+     11,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     59,
+     "V532A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S01B",
+   "member": "riya_menon",
+   "string": "samcarter.sc@mail.com",
+   "n_hits": 55,
+   "train_scenarios": [
+    "V474A",
+    "V474B",
+    "V532A",
+    "V532B",
+    "V534A",
+    "V534B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     2,
+     "V532B"
+    ],
+    [
+     "sft_train",
+     11,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     59,
+     "V532A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S01P",
+   "member": "riya_menon",
+   "string": "samcarter.sc@mail.com",
+   "n_hits": 55,
+   "train_scenarios": [
+    "V474A",
+    "V474B",
+    "V532A",
+    "V532B",
+    "V534A",
+    "V534B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     2,
+     "V532B"
+    ],
+    [
+     "sft_train",
+     11,
+     "V474A"
+    ],
+    [
+     "sft_train",
+     59,
+     "V532A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S56A",
+   "member": "ruth_price",
+   "string": "@ethan-cole-lawns",
+   "n_hits": 50,
+   "train_scenarios": [
+    "V471A",
+    "V471B",
+    "V541A",
+    "V541B",
+    "V553A",
+    "V553B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     40,
+     "V471B"
+    ],
+    [
+     "sft_train",
+     56,
+     "V541A"
+    ],
+    [
+     "sft_train",
+     107,
+     "V553A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S56A",
+   "member": "ruth_price",
+   "string": "@ethanprice",
+   "n_hits": 52,
+   "train_scenarios": [
+    "V471A",
+    "V471B",
+    "V541A",
+    "V541B",
+    "V553A",
+    "V553B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     40,
+     "V471B"
+    ],
+    [
+     "sft_train",
+     56,
+     "V541A"
+    ],
+    [
+     "sft_train",
+     107,
+     "V553A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S56B",
+   "member": "ruth_price",
+   "string": "@ethan-cole-lawns",
+   "n_hits": 50,
+   "train_scenarios": [
+    "V471A",
+    "V471B",
+    "V541A",
+    "V541B",
+    "V553A",
+    "V553B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     40,
+     "V471B"
+    ],
+    [
+     "sft_train",
+     56,
+     "V541A"
+    ],
+    [
+     "sft_train",
+     107,
+     "V553A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "S56B",
+   "member": "ruth_price",
+   "string": "@ethanprice",
+   "n_hits": 52,
+   "train_scenarios": [
+    "V471A",
+    "V471B",
+    "V541A",
+    "V541B",
+    "V553A",
+    "V553B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     40,
+     "V471B"
+    ],
+    [
+     "sft_train",
+     56,
+     "V541A"
+    ],
+    [
+     "sft_train",
+     107,
+     "V553A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "V011A",
+   "member": "leah_kim",
+   "string": "jun.kim@mail.com",
+   "n_hits": 16,
+   "train_scenarios": [
+    "V073A",
+    "V073B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     17,
+     "V073A"
+    ],
+    [
+     "sft_train",
+     74,
+     "V073A"
+    ],
+    [
+     "sft_train",
+     295,
+     "V073A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "V011B",
+   "member": "leah_kim",
+   "string": "jun.kim@mail.com",
+   "n_hits": 16,
+   "train_scenarios": [
+    "V073A",
+    "V073B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     17,
+     "V073A"
+    ],
+    [
+     "sft_train",
+     74,
+     "V073A"
+    ],
+    [
+     "sft_train",
+     295,
+     "V073A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "V012A",
+   "member": "ana_silva",
+   "string": "@jen-albright",
+   "n_hits": 24,
+   "train_scenarios": [
+    "S49A",
+    "S49B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     71,
+     "S49B"
+    ],
+    [
+     "sft_train",
+     361,
+     "S49A"
+    ],
+    [
+     "sft_train",
+     431,
+     "S49A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "V012B",
+   "member": "ana_silva",
+   "string": "@jen-albright",
+   "n_hits": 24,
+   "train_scenarios": [
+    "S49A",
+    "S49B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     71,
+     "S49B"
+    ],
+    [
+     "sft_train",
+     361,
+     "S49A"
+    ],
+    [
+     "sft_train",
+     431,
+     "S49A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "V014A",
+   "member": "sara_novak",
+   "string": "tom.novak@mail.com",
+   "n_hits": 24,
+   "train_scenarios": [
+    "S34A",
+    "S34B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     210,
+     "S34A"
+    ],
+    [
+     "sft_train",
+     232,
+     "S34A"
+    ],
+    [
+     "sft_train",
+     275,
+     "S34B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "V014B",
+   "member": "sara_novak",
+   "string": "tom.novak@mail.com",
+   "n_hits": 24,
+   "train_scenarios": [
+    "S34A",
+    "S34B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     210,
+     "S34A"
+    ],
+    [
+     "sft_train",
+     232,
+     "S34A"
+    ],
+    [
+     "sft_train",
+     275,
+     "S34B"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "V013A",
+   "member": "ana_reyes",
+   "string": "joy.villanueva@mail.com",
+   "n_hits": 34,
+   "train_scenarios": [
+    "S02A",
+    "S02B",
+    "V071A",
+    "V071B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     10,
+     "V071B"
+    ],
+    [
+     "sft_train",
+     72,
+     "S02B"
+    ],
+    [
+     "sft_train",
+     222,
+     "S02A"
+    ]
+   ]
+  },
+  {
+   "eval_file": "val_wallet",
+   "id": "V013B",
+   "member": "ana_reyes",
+   "string": "joy.villanueva@mail.com",
+   "n_hits": 34,
+   "train_scenarios": [
+    "S02A",
+    "S02B",
+    "V071A",
+    "V071B"
+   ],
+   "examples": [
+    [
+     "sft_train",
+     10,
+     "V071B"
+    ],
+    [
+     "sft_train",
+     72,
+     "S02B"
+    ],
+    [
+     "sft_train",
+     222,
+     "S02A"
+    ]
+   ]
+  }
+ ],
+ "E_summary": {
+  "n_target_leaks": 15,
+  "n_prompt_leaks": 48,
+  "prompt_leaks_by_eval_split": {
+   "hard_test": 15,
+   "hard_val": 4,
+   "test": 13,
+   "val": 16
+  },
+  "heldout_ids_with_prompt_leak": 42
+ },
+ "F_members_total": 51,
+ "F_members_shared_train_and_heldout": {
+  "bills/tara_singh": [
+   "hard_test",
+   "hard_train",
+   "train"
+  ],
+  "bills/colin_reid": [
+   "hard_train",
+   "test",
+   "train"
+  ],
+  "bills/rahul_verma": [
+   "hard_val",
+   "test",
+   "train",
+   "val"
+  ],
+  "bills/paul_ortega": [
+   "hard_train",
+   "test",
+   "train"
+  ],
+  "bills/zoe_park": [
+   "hard_test",
+   "test",
+   "train",
+   "val"
+  ],
+  "bills/ella_brooks": [
+   "hard_train",
+   "train"
+  ],
+  "bills/kai_turner": [
+   "train",
+   "val"
+  ],
+  "bizops/bramblewood_dental_partners": [
+   "hard_test",
+   "hard_train",
+   "train"
+  ],
+  "bizops/cole_retail_signals": [
+   "test",
+   "train",
+   "val"
+  ],
+  "bizops/calder_point_residential": [
+   "hard_test",
+   "hard_train",
+   "test",
+   "train"
+  ],
+  "bizops/kettleby_software": [
+   "hard_train",
+   "hard_val",
+   "train"
+  ],
+  "bizops/brightwick_candle_co": [
+   "test",
+   "train"
+  ],
+  "bizops/parcelbeam": [
+   "hard_train",
+   "test",
+   "train"
+  ],
+  "bizops/hollow_oak_outdoor": [
+   "hard_train",
+   "train"
+  ],
+  "shopping/dev_rao": [
+   "test",
+   "train",
+   "val"
+  ],
+  "shopping/sofia_lang": [
+   "hard_test",
+   "train"
+  ],
+  "shopping/omar_khan": [
+   "test",
+   "train"
+  ],
+  "shopping/ishaan_rao": [
+   "hard_val",
+   "test",
+   "train",
+   "val"
+  ],
+  "shopping/amy_hall": [
+   "hard_train",
+   "train"
+  ],
+  "shopping/chris_allen": [
+   "hard_train",
+   "train",
+   "val"
+  ],
+  "wallet/riya_menon": [
+   "hard_val",
+   "train",
+   "val"
+  ],
+  "wallet/ana_reyes": [
+   "hard_train",
+   "train",
+   "val"
+  ],
+  "wallet/kiran_patel": [
+   "hard_test",
+   "hard_train",
+   "train"
+  ],
+  "wallet/neha_joshi": [
+   "hard_train",
+   "test",
+   "train"
+  ],
+  "wallet/lena_ortiz": [
+   "hard_val",
+   "train"
+  ],
+  "wallet/leah_kim": [
+   "test",
+   "train",
+   "val"
+  ],
+  "wallet/sara_novak": [
+   "train",
+   "val"
+  ],
+  "wallet/hamid_raza": [
+   "hard_train",
+   "test",
+   "train"
+  ],
+  "wallet/victor_hale": [
+   "hard_train",
+   "train"
+  ],
+  "wallet/ana_silva": [
+   "hard_test",
+   "hard_train",
+   "test",
+   "train",
+   "val"
+  ],
+  "wallet/jade_cole": [
+   "hard_test",
+   "test",
+   "train"
+  ],
+  "wallet/rick_moreno": [
+   "hard_train",
+   "test",
+   "train"
+  ],
+  "wallet/linda_gray": [
+   "test",
+   "train",
+   "val"
+  ],
+  "wallet/ruth_price": [
+   "hard_test",
+   "test",
+   "train",
+   "val"
+  ],
+  "wallet/noah_kim": [
+   "hard_train",
+   "test",
+   "train"
+  ]
+ },
+ "F_n_members_shared": 35,
+ "F_heldout_rows_with_trained_member": {
+  "hard_test_bills": 4,
+  "hard_test_bizops": 4,
+  "hard_test_shopping": 4,
+  "hard_test_wallet": 10,
+  "hard_train_bills": 10,
+  "hard_train_bizops": 12,
+  "hard_train_shopping": 6,
+  "hard_train_wallet": 18,
+  "hard_val_bills": 2,
+  "hard_val_bizops": 2,
+  "hard_val_shopping": 2,
+  "hard_val_wallet": 4,
+  "test_bills": 14,
+  "test_bizops": 12,
+  "test_shopping": 10,
+  "test_wallet": 29,
+  "val_bills": 6,
+  "val_bizops": 2,
+  "val_shopping": 6,
+  "val_wallet": 15
+ },
+ "F_heldout_rows_total": {
+  "hard_test_bills": 4,
+  "hard_test_bizops": 6,
+  "hard_test_shopping": 4,
+  "hard_test_wallet": 12,
+  "hard_train_bills": 10,
+  "hard_train_bizops": 12,
+  "hard_train_shopping": 10,
+  "hard_train_wallet": 22,
+  "hard_val_bills": 2,
+  "hard_val_bizops": 2,
+  "hard_val_shopping": 2,
+  "hard_val_wallet": 4,
+  "test_bills": 18,
+  "test_bizops": 12,
+  "test_shopping": 14,
+  "test_wallet": 38,
+  "val_bills": 6,
+  "val_bizops": 4,
+  "val_shopping": 10,
+  "val_wallet": 15
+ }
+}

@@ -1,0 +1,2821 @@
+{
+ "request_bow": {
+  "note": "member request words (partly causal: some decisive facts sit in the request)",
+  "lambda": 0.0001,
+  "n_features": 812,
+  "cv_auc_by_lambda": {
+   "1.0": 0.4375,
+   "0.1": 0.4272,
+   "0.01": 0.442,
+   "0.001": 0.4492,
+   "0.0001": 0.4501
+  },
+  "train_fit": {
+   "n": 496,
+   "acc": 0.647,
+   "auc": 0.751,
+   "within_twin_acc": 0.646,
+   "n_twin_pairs": 247
+  },
+  "train_grouped_cv": {
+   "n": 496,
+   "acc": 0.452,
+   "auc": 0.45,
+   "within_twin_acc": 0.409,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.386,
+    0.505
+   ],
+   "within_twin_acc_ci95": [
+    0.319,
+    0.491
+   ],
+   "n_clusters": 27
+  },
+  "train_pair_grouped_cv": {
+   "n": 496,
+   "acc": 0.593,
+   "auc": 0.664,
+   "within_twin_acc": 0.607,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.521,
+    0.678
+   ],
+   "within_twin_acc_ci95": [
+    0.527,
+    0.705
+   ],
+   "n_clusters": 27
+  },
+  "val": {
+   "n": 112,
+   "acc": 0.5,
+   "auc": 0.463,
+   "within_twin_acc": 0.438,
+   "n_twin_pairs": 56,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.261,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "test": {
+   "n": 272,
+   "acc": 0.485,
+   "auc": 0.49,
+   "within_twin_acc": 0.529,
+   "n_twin_pairs": 136,
+   "acc_ci95": [
+    0.455,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.431,
+    0.641
+   ],
+   "n_clusters": 13
+  },
+  "hard_test": {
+   "n": 78,
+   "acc": 0.538,
+   "auc": 0.498,
+   "within_twin_acc": 0.538,
+   "n_twin_pairs": 39,
+   "acc_ci95": [
+    0.5,
+    0.615
+   ],
+   "within_twin_acc_ci95": [
+    0.423,
+    0.654
+   ],
+   "n_clusters": 13
+  },
+  "hard_val": {
+   "n": 30,
+   "acc": 0.5,
+   "auc": 0.48,
+   "within_twin_acc": 0.4,
+   "n_twin_pairs": 15,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.2,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "hard_train": {
+   "n": 162,
+   "acc": 0.574,
+   "auc": 0.626,
+   "within_twin_acc": 0.556,
+   "n_twin_pairs": 81,
+   "acc_ci95": [
+    0.519,
+    0.648
+   ],
+   "within_twin_acc_ci95": [
+    0.481,
+    0.63
+   ],
+   "n_clusters": 27
+  },
+  "top_A_features": [
+   [
+    "new_invoice",
+    1.521
+   ],
+   [
+    "new",
+    1.353
+   ],
+   [
+    "mark",
+    1.348
+   ],
+   [
+    "mark_kowalski",
+    1.348
+   ],
+   [
+    "have_mark",
+    1.348
+   ],
+   [
+    "oksbi_for",
+    1.23
+   ],
+   [
+    "@_oksbi",
+    1.23
+   ],
+   [
+    "oksbi",
+    1.23
+   ],
+   [
+    "choi_@",
+    1.137
+   ],
+   [
+    "hana",
+    1.137
+   ],
+   [
+    "hana_choi",
+    1.137
+   ],
+   [
+    "using_hana",
+    1.137
+   ],
+   [
+    "choi",
+    1.137
+   ],
+   [
+    "thx",
+    1.134
+   ],
+   [
+    "one",
+    1.061
+   ]
+  ],
+  "top_B_features": [
+   [
+    "bhai",
+    -2.547
+   ],
+   [
+    "0_usdc",
+    -1.639
+   ],
+   [
+    "usdc_to",
+    -1.639
+   ],
+   [
+    "usdc",
+    -1.639
+   ],
+   [
+    "have_m",
+    -1.416
+   ],
+   [
+    "lamp",
+    -1.343
+   ],
+   [
+    "lamp_invoice",
+    -1.343
+   ],
+   [
+    "the_lamp",
+    -1.343
+   ],
+   [
+    "@_okhdfc",
+    -1.218
+   ],
+   [
+    "okhdfc_for",
+    -1.218
+   ],
+   [
+    "okhdfc",
+    -1.218
+   ],
+   [
+    "bhai_jaldi",
+    -1.128
+   ],
+   [
+    "pls_bhai",
+    -1.128
+   ],
+   [
+    "using_hannah",
+    -1.119
+   ],
+   [
+    "cho_@",
+    -1.119
+   ]
+  ]
+ },
+ "request_bow_idmasked": {
+  "note": "member request with identifiers masked (wording only; non-causal unless the wording is the clash)",
+  "lambda": 0.0001,
+  "n_features": 685,
+  "cv_auc_by_lambda": {
+   "1.0": 0.4487,
+   "0.1": 0.4389,
+   "0.01": 0.4572,
+   "0.001": 0.476,
+   "0.0001": 0.48
+  },
+  "train_fit": {
+   "n": 496,
+   "acc": 0.627,
+   "auc": 0.722,
+   "within_twin_acc": 0.626,
+   "n_twin_pairs": 247
+  },
+  "train_grouped_cv": {
+   "n": 496,
+   "acc": 0.486,
+   "auc": 0.48,
+   "within_twin_acc": 0.437,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.447,
+    0.521
+   ],
+   "within_twin_acc_ci95": [
+    0.347,
+    0.515
+   ],
+   "n_clusters": 27
+  },
+  "train_pair_grouped_cv": {
+   "n": 496,
+   "acc": 0.595,
+   "auc": 0.672,
+   "within_twin_acc": 0.617,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.526,
+    0.676
+   ],
+   "within_twin_acc_ci95": [
+    0.543,
+    0.708
+   ],
+   "n_clusters": 27
+  },
+  "val": {
+   "n": 112,
+   "acc": 0.491,
+   "auc": 0.452,
+   "within_twin_acc": 0.438,
+   "n_twin_pairs": 56,
+   "acc_ci95": [
+    0.466,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.261,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "test": {
+   "n": 272,
+   "acc": 0.474,
+   "auc": 0.504,
+   "within_twin_acc": 0.529,
+   "n_twin_pairs": 136,
+   "acc_ci95": [
+    0.425,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.346,
+    0.709
+   ],
+   "n_clusters": 13
+  },
+  "hard_test": {
+   "n": 78,
+   "acc": 0.5,
+   "auc": 0.508,
+   "within_twin_acc": 0.538,
+   "n_twin_pairs": 39,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.423,
+    0.654
+   ],
+   "n_clusters": 13
+  },
+  "hard_val": {
+   "n": 30,
+   "acc": 0.5,
+   "auc": 0.48,
+   "within_twin_acc": 0.4,
+   "n_twin_pairs": 15,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.2,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "hard_train": {
+   "n": 162,
+   "acc": 0.574,
+   "auc": 0.631,
+   "within_twin_acc": 0.574,
+   "n_twin_pairs": 81,
+   "acc_ci95": [
+    0.519,
+    0.648
+   ],
+   "within_twin_acc_ci95": [
+    0.519,
+    0.648
+   ],
+   "n_clusters": 27
+  },
+  "top_A_features": [
+   [
+    "new_invoice",
+    1.514
+   ],
+   [
+    "to_idtoken",
+    1.385
+   ],
+   [
+    "new",
+    1.303
+   ],
+   [
+    "idtoken_eth",
+    1.059
+   ],
+   [
+    "eth_to",
+    1.059
+   ],
+   [
+    "eth",
+    1.059
+   ],
+   [
+    "karo_thx",
+    1.051
+   ],
+   [
+    "first",
+    1.041
+   ],
+   [
+    "one_in",
+    1.041
+   ],
+   [
+    "one",
+    1.041
+   ],
+   [
+    "first_one",
+    1.041
+   ],
+   [
+    "list",
+    1.041
+   ],
+   [
+    "the_first",
+    1.041
+   ],
+   [
+    "the_list",
+    1.041
+   ],
+   [
+    "thx",
+    1.004
+   ]
+  ],
+  "top_B_features": [
+   [
+    "bhai",
+    -2.529
+   ],
+   [
+    "idtoken_usdc",
+    -1.687
+   ],
+   [
+    "usdc",
+    -1.687
+   ],
+   [
+    "usdc_to",
+    -1.687
+   ],
+   [
+    "the_lamp",
+    -1.376
+   ],
+   [
+    "lamp",
+    -1.376
+   ],
+   [
+    "lamp_invoice",
+    -1.376
+   ],
+   [
+    "idtoken_for",
+    -1.276
+   ],
+   [
+    "bhai_jaldi",
+    -1.137
+   ],
+   [
+    "pls_bhai",
+    -1.137
+   ],
+   [
+    "protection",
+    -1.1
+   ],
+   [
+    "purchase_protection",
+    -1.1
+   ],
+   [
+    "purchase",
+    -1.1
+   ],
+   [
+    "pls_send",
+    -1.021
+   ],
+   [
+    "friday_pls",
+    -0.974
+   ]
+  ]
+ },
+ "result_bow": {
+  "note": "last tool result words (causal view: most decisive facts live here)",
+  "lambda": 1.0,
+  "n_features": 408,
+  "cv_auc_by_lambda": {
+   "1.0": 0.5453,
+   "0.1": 0.5412,
+   "0.01": 0.5069,
+   "0.001": 0.4403,
+   "0.0001": 0.4041
+  },
+  "train_fit": {
+   "n": 496,
+   "acc": 0.74,
+   "auc": 0.789,
+   "within_twin_acc": 0.852,
+   "n_twin_pairs": 247
+  },
+  "train_grouped_cv": {
+   "n": 496,
+   "acc": 0.546,
+   "auc": 0.545,
+   "within_twin_acc": 0.636,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.471,
+    0.627
+   ],
+   "within_twin_acc_ci95": [
+    0.508,
+    0.755
+   ],
+   "n_clusters": 27
+  },
+  "train_pair_grouped_cv": {
+   "n": 496,
+   "acc": 0.641,
+   "auc": 0.663,
+   "within_twin_acc": 0.741,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.573,
+    0.715
+   ],
+   "within_twin_acc_ci95": [
+    0.628,
+    0.845
+   ],
+   "n_clusters": 27
+  },
+  "val": {
+   "n": 112,
+   "acc": 0.589,
+   "auc": 0.663,
+   "within_twin_acc": 0.902,
+   "n_twin_pairs": 56,
+   "acc_ci95": [
+    0.5,
+    0.689
+   ],
+   "within_twin_acc_ci95": [
+    0.732,
+    1.0
+   ],
+   "n_clusters": 5
+  },
+  "test": {
+   "n": 272,
+   "acc": 0.607,
+   "auc": 0.59,
+   "within_twin_acc": 0.588,
+   "n_twin_pairs": 136,
+   "acc_ci95": [
+    0.512,
+    0.718
+   ],
+   "within_twin_acc_ci95": [
+    0.361,
+    0.786
+   ],
+   "n_clusters": 13
+  },
+  "hard_test": {
+   "n": 78,
+   "acc": 0.538,
+   "auc": 0.547,
+   "within_twin_acc": 0.654,
+   "n_twin_pairs": 39,
+   "acc_ci95": [
+    0.5,
+    0.615
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.808
+   ],
+   "n_clusters": 13
+  },
+  "hard_val": {
+   "n": 30,
+   "acc": 0.6,
+   "auc": 0.66,
+   "within_twin_acc": 0.9,
+   "n_twin_pairs": 15,
+   "acc_ci95": [
+    0.5,
+    0.8
+   ],
+   "within_twin_acc_ci95": [
+    0.7,
+    1.0
+   ],
+   "n_clusters": 5
+  },
+  "hard_train": {
+   "n": 162,
+   "acc": 0.556,
+   "auc": 0.574,
+   "within_twin_acc": 0.685,
+   "n_twin_pairs": 81,
+   "acc_ci95": [
+    0.5,
+    0.63
+   ],
+   "within_twin_acc_ci95": [
+    0.556,
+    0.833
+   ],
+   "n_clusters": 27
+  },
+  "top_A_features": [
+   [
+    "false",
+    0.028
+   ],
+   [
+    "personal",
+    0.016
+   ],
+   [
+    "annual",
+    0.014
+   ],
+   [
+    "in",
+    0.014
+   ],
+   [
+    "ends",
+    0.013
+   ],
+   [
+    "charged",
+    0.013
+   ],
+   [
+    "when",
+    0.013
+   ],
+   [
+    "kg",
+    0.01
+   ],
+   [
+    "type",
+    0.009
+   ],
+   [
+    "currency",
+    0.009
+   ],
+   [
+    "0",
+    0.008
+   ],
+   [
+    "last",
+    0.008
+   ],
+   [
+    "not",
+    0.007
+   ],
+   [
+    "x",
+    0.007
+   ],
+   [
+    "j",
+    0.007
+   ]
+  ],
+  "top_B_features": [
+   [
+    "null",
+    -0.019
+   ],
+   [
+    "visa",
+    -0.016
+   ],
+   [
+    "business",
+    -0.016
+   ],
+   [
+    "completed",
+    -0.013
+   ],
+   [
+    "com",
+    -0.012
+   ],
+   [
+    "debit",
+    -0.012
+   ],
+   [
+    "true",
+    -0.01
+   ],
+   [
+    "pcs",
+    -0.01
+   ],
+   [
+    "example",
+    -0.01
+   ],
+   [
+    "venmo",
+    -0.01
+   ],
+   [
+    "service",
+    -0.009
+   ],
+   [
+    "active",
+    -0.009
+   ],
+   [
+    "is",
+    -0.009
+   ],
+   [
+    "handle",
+    -0.009
+   ],
+   [
+    "jpg",
+    -0.009
+   ]
+  ]
+ },
+ "result_field_values": {
+  "note": "field=value tokens for null/bool/0/empty/short strings in the last result (verdict-like raw fields)",
+  "lambda": 0.01,
+  "n_features": 332,
+  "cv_auc_by_lambda": {
+   "1.0": 0.5029,
+   "0.1": 0.5055,
+   "0.01": 0.5216,
+   "0.001": 0.5199,
+   "0.0001": 0.5011
+  },
+  "train_fit": {
+   "n": 496,
+   "acc": 0.921,
+   "auc": 0.986,
+   "within_twin_acc": 0.921,
+   "n_twin_pairs": 247
+  },
+  "train_grouped_cv": {
+   "n": 496,
+   "acc": 0.508,
+   "auc": 0.522,
+   "within_twin_acc": 0.549,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.482,
+    0.534
+   ],
+   "within_twin_acc_ci95": [
+    0.478,
+    0.629
+   ],
+   "n_clusters": 27
+  },
+  "train_pair_grouped_cv": {
+   "n": 496,
+   "acc": 0.72,
+   "auc": 0.825,
+   "within_twin_acc": 0.787,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.641,
+    0.784
+   ],
+   "within_twin_acc_ci95": [
+    0.699,
+    0.86
+   ],
+   "n_clusters": 27
+  },
+  "val": {
+   "n": 112,
+   "acc": 0.5,
+   "auc": 0.494,
+   "within_twin_acc": 0.464,
+   "n_twin_pairs": 56,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.408,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "test": {
+   "n": 272,
+   "acc": 0.522,
+   "auc": 0.51,
+   "within_twin_acc": 0.493,
+   "n_twin_pairs": 136,
+   "acc_ci95": [
+    0.423,
+    0.629
+   ],
+   "within_twin_acc_ci95": [
+    0.398,
+    0.588
+   ],
+   "n_clusters": 13
+  },
+  "hard_test": {
+   "n": 78,
+   "acc": 0.462,
+   "auc": 0.473,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 39,
+   "acc_ci95": [
+    0.385,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.385,
+    0.615
+   ],
+   "n_clusters": 13
+  },
+  "hard_val": {
+   "n": 30,
+   "acc": 0.5,
+   "auc": 0.44,
+   "within_twin_acc": 0.4,
+   "n_twin_pairs": 15,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.2,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "hard_train": {
+   "n": 162,
+   "acc": 0.556,
+   "auc": 0.604,
+   "within_twin_acc": 0.574,
+   "n_twin_pairs": 81,
+   "acc_ci95": [
+    0.5,
+    0.63
+   ],
+   "within_twin_acc_ci95": [
+    0.519,
+    0.648
+   ],
+   "n_clusters": 27
+  },
+  "top_A_features": [
+   [
+    "payment_allowed=false",
+    0.655
+   ],
+   [
+    "unit=kg",
+    0.627
+   ],
+   [
+    "callback_status=null",
+    0.619
+   ],
+   [
+    "change_approved_date=null",
+    0.619
+   ],
+   [
+    "total_payments_received=0",
+    0.612
+   ],
+   [
+    "results[].payments_from_member=0",
+    0.611
+   ],
+   [
+    "results[].last_payment_date=null",
+    0.611
+   ],
+   [
+    "account_type=personal",
+    0.577
+   ],
+   [
+    "renewal_frequency=annual",
+    0.534
+   ],
+   [
+    "last_payment_date=null",
+    0.53
+   ],
+   [
+    "usage_charges_billed_automatically=true",
+    0.526
+   ],
+   [
+    "wallet_status=null",
+    0.476
+   ],
+   [
+    "network=null",
+    0.476
+   ],
+   [
+    "payment_source.type=bank",
+    0.433
+   ],
+   [
+    "in_stock=false",
+    0.408
+   ]
+  ],
+  "top_B_features": [
+   [
+    "callback_status=completed",
+    -0.701
+   ],
+   [
+    "renewal_plan=null",
+    -0.666
+   ],
+   [
+    "unit=pcs",
+    -0.559
+   ],
+   [
+    "renewal_frequency=monthly",
+    -0.557
+   ],
+   [
+    "merchant_name=null",
+    -0.525
+   ],
+   [
+    "account_type=business",
+    -0.525
+   ],
+   [
+    "currency=null",
+    -0.525
+   ],
+   [
+    "network=ethereum",
+    -0.444
+   ],
+   [
+    "wallet_status=saved",
+    -0.444
+   ],
+   [
+    "payment_source=null",
+    -0.442
+   ],
+   [
+    "profile_photo_url=https://example.com/photo.jpg",
+    -0.418
+   ],
+   [
+    "trial_length_days=null",
+    -0.41
+   ],
+   [
+    "sign_up_text=null",
+    -0.41
+   ],
+   [
+    "payment_allowed=null",
+    -0.408
+   ],
+   [
+    "in_stock=true",
+    -0.394
+   ]
+  ]
+ },
+ "result_keys": {
+  "note": "JSON paths present in the last result, no values (schema only; non-causal)",
+  "lambda": 0.1,
+  "n_features": 240,
+  "cv_auc_by_lambda": {
+   "1.0": 0.5084,
+   "0.1": 0.5085,
+   "0.01": 0.5017,
+   "0.001": 0.5011,
+   "0.0001": 0.5
+  },
+  "train_fit": {
+   "n": 496,
+   "acc": 0.562,
+   "auc": 0.617,
+   "within_twin_acc": 0.571,
+   "n_twin_pairs": 247
+  },
+  "train_grouped_cv": {
+   "n": 496,
+   "acc": 0.502,
+   "auc": 0.509,
+   "within_twin_acc": 0.506,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.5,
+    0.505
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.519
+   ],
+   "n_clusters": 27
+  },
+  "train_pair_grouped_cv": {
+   "n": 496,
+   "acc": 0.532,
+   "auc": 0.561,
+   "within_twin_acc": 0.549,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.501,
+    0.565
+   ],
+   "within_twin_acc_ci95": [
+    0.507,
+    0.595
+   ],
+   "n_clusters": 27
+  },
+  "val": {
+   "n": 112,
+   "acc": 0.5,
+   "auc": 0.5,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 56,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "test": {
+   "n": 272,
+   "acc": 0.452,
+   "auc": 0.459,
+   "within_twin_acc": 0.456,
+   "n_twin_pairs": 136,
+   "acc_ci95": [
+    0.357,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.36,
+    0.511
+   ],
+   "n_clusters": 13
+  },
+  "hard_test": {
+   "n": 78,
+   "acc": 0.5,
+   "auc": 0.456,
+   "within_twin_acc": 0.462,
+   "n_twin_pairs": 39,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.385,
+    0.5
+   ],
+   "n_clusters": 13
+  },
+  "hard_val": {
+   "n": 30,
+   "acc": 0.5,
+   "auc": 0.5,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 15,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "hard_train": {
+   "n": 162,
+   "acc": 0.481,
+   "auc": 0.471,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 81,
+   "acc_ci95": [
+    0.444,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.444,
+    0.556
+   ],
+   "n_clusters": 27
+  },
+  "top_A_features": [
+   [
+    "payment_profiles",
+    0.068
+   ],
+   [
+    "account_age_days",
+    0.05
+   ],
+   [
+    "payment_source.last_four",
+    0.049
+   ],
+   [
+    "payment_source.overdraft_enabled",
+    0.049
+   ],
+   [
+    "payment_source.balance",
+    0.049
+   ],
+   [
+    "payment_source.type",
+    0.049
+   ],
+   [
+    "closest_in_stock_listing.seller",
+    0.036
+   ],
+   [
+    "closest_in_stock_listing.stock_available",
+    0.036
+   ],
+   [
+    "closest_in_stock_listing.stock_quantity",
+    0.036
+   ],
+   [
+    "closest_in_stock_listing.product_name",
+    0.036
+   ],
+   [
+    "listing",
+    0.036
+   ],
+   [
+    "closest_in_stock_listing.price_usd",
+    0.036
+   ],
+   [
+    "activity[].amount",
+    0.035
+   ],
+   [
+    "activity[].timestamp",
+    0.035
+   ],
+   [
+    "activity[].currency",
+    0.035
+   ]
+  ],
+  "top_B_features": [
+   [
+    "account_age_years",
+    -0.06
+   ],
+   [
+    "payment_profiles[].service",
+    -0.059
+   ],
+   [
+    "payment_profiles[].is_active",
+    -0.059
+   ],
+   [
+    "payment_profiles[].handle",
+    -0.059
+   ],
+   [
+    "payment_source",
+    -0.058
+   ],
+   [
+    "activity",
+    -0.039
+   ],
+   [
+    "payment_profiles[].photo_url",
+    -0.036
+   ],
+   [
+    "listing.stock_quantity",
+    -0.036
+   ],
+   [
+    "listing.stock_available",
+    -0.036
+   ],
+   [
+    "listing.seller",
+    -0.036
+   ],
+   [
+    "listing.product_name",
+    -0.036
+   ],
+   [
+    "listing.price_usd",
+    -0.036
+   ],
+   [
+    "closest_in_stock_listing",
+    -0.036
+   ],
+   [
+    "transactions",
+    -0.03
+   ],
+   [
+    "price_usd",
+    -0.029
+   ]
+  ]
+ },
+ "call_bow": {
+  "note": "the agent's own look-up call text (teacher-forced prefix)",
+  "lambda": 1.0,
+  "n_features": 489,
+  "cv_auc_by_lambda": {
+   "1.0": 0.5163,
+   "0.1": 0.5125,
+   "0.01": 0.5129,
+   "0.001": 0.5096,
+   "0.0001": 0.5091
+  },
+  "train_fit": {
+   "n": 496,
+   "acc": 0.53,
+   "auc": 0.568,
+   "within_twin_acc": 0.543,
+   "n_twin_pairs": 247
+  },
+  "train_grouped_cv": {
+   "n": 496,
+   "acc": 0.506,
+   "auc": 0.516,
+   "within_twin_acc": 0.52,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.5,
+    0.517
+   ],
+   "within_twin_acc_ci95": [
+    0.496,
+    0.561
+   ],
+   "n_clusters": 27
+  },
+  "train_pair_grouped_cv": {
+   "n": 496,
+   "acc": 0.516,
+   "auc": 0.516,
+   "within_twin_acc": 0.52,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.5,
+    0.549
+   ],
+   "within_twin_acc_ci95": [
+    0.496,
+    0.561
+   ],
+   "n_clusters": 27
+  },
+  "val": {
+   "n": 112,
+   "acc": 0.5,
+   "auc": 0.503,
+   "within_twin_acc": 0.536,
+   "n_twin_pairs": 56,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.636
+   ],
+   "n_clusters": 5
+  },
+  "test": {
+   "n": 272,
+   "acc": 0.5,
+   "auc": 0.579,
+   "within_twin_acc": 0.592,
+   "n_twin_pairs": 136,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.459,
+    0.724
+   ],
+   "n_clusters": 13
+  },
+  "hard_test": {
+   "n": 78,
+   "acc": 0.5,
+   "auc": 0.479,
+   "within_twin_acc": 0.462,
+   "n_twin_pairs": 39,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.385,
+    0.5
+   ],
+   "n_clusters": 13
+  },
+  "hard_val": {
+   "n": 30,
+   "acc": 0.5,
+   "auc": 0.5,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 15,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "hard_train": {
+   "n": 162,
+   "acc": 0.519,
+   "auc": 0.531,
+   "within_twin_acc": 0.519,
+   "n_twin_pairs": 81,
+   "acc_ci95": [
+    0.5,
+    0.556
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.556
+   ],
+   "n_clusters": 27
+  },
+  "top_A_features": [
+   [
+    "trial",
+    0.007
+   ],
+   [
+    "trial_tool",
+    0.007
+   ],
+   [
+    "mark",
+    0.006
+   ],
+   [
+    "photopro_trial",
+    0.004
+   ],
+   [
+    "paid",
+    0.004
+   ],
+   [
+    "as",
+    0.004
+   ],
+   [
+    "as_paid",
+    0.004
+   ],
+   [
+    "paid_order",
+    0.004
+   ],
+   [
+    "mark_as",
+    0.004
+   ],
+   [
+    "action_mark",
+    0.004
+   ],
+   [
+    "choi",
+    0.003
+   ],
+   [
+    "hana",
+    0.003
+   ],
+   [
+    "hana_choi",
+    0.003
+   ],
+   [
+    "query_hana",
+    0.003
+   ],
+   [
+    "choi_@",
+    0.003
+   ]
+  ],
+  "top_B_features": [
+   [
+    "annual",
+    -0.004
+   ],
+   [
+    "photopro_annual",
+    -0.004
+   ],
+   [
+    "annual_tool",
+    -0.004
+   ],
+   [
+    "payment",
+    -0.004
+   ],
+   [
+    "collect_balance",
+    -0.004
+   ],
+   [
+    "collect",
+    -0.004
+   ],
+   [
+    "balance_via",
+    -0.004
+   ],
+   [
+    "balance",
+    -0.004
+   ],
+   [
+    "action_collect",
+    -0.004
+   ],
+   [
+    "via",
+    -0.004
+   ],
+   [
+    "via_payment",
+    -0.004
+   ],
+   [
+    "payment_app",
+    -0.004
+   ],
+   [
+    "app_order",
+    -0.004
+   ],
+   [
+    "app",
+    -0.004
+   ],
+   [
+    "monthly_tool",
+    -0.003
+   ]
+  ]
+ },
+ "member_bow": {
+  "note": "member block of the system prompt (mostly identical between twins)",
+  "lambda": 0.001,
+  "n_features": 2905,
+  "cv_auc_by_lambda": {
+   "1.0": 0.5013,
+   "0.1": 0.5023,
+   "0.01": 0.5032,
+   "0.001": 0.5036,
+   "0.0001": 0.5025
+  },
+  "train_fit": {
+   "n": 496,
+   "acc": 0.53,
+   "auc": 0.559,
+   "within_twin_acc": 0.528,
+   "n_twin_pairs": 247
+  },
+  "train_grouped_cv": {
+   "n": 496,
+   "acc": 0.504,
+   "auc": 0.504,
+   "within_twin_acc": 0.512,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.497,
+    0.515
+   ],
+   "within_twin_acc_ci95": [
+    0.488,
+    0.539
+   ],
+   "n_clusters": 27
+  },
+  "train_pair_grouped_cv": {
+   "n": 496,
+   "acc": 0.506,
+   "auc": 0.514,
+   "within_twin_acc": 0.508,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.484,
+    0.531
+   ],
+   "within_twin_acc_ci95": [
+    0.483,
+    0.535
+   ],
+   "n_clusters": 27
+  },
+  "val": {
+   "n": 112,
+   "acc": 0.5,
+   "auc": 0.499,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 56,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "test": {
+   "n": 272,
+   "acc": 0.496,
+   "auc": 0.49,
+   "within_twin_acc": 0.493,
+   "n_twin_pairs": 136,
+   "acc_ci95": [
+    0.476,
+    0.516
+   ],
+   "within_twin_acc_ci95": [
+    0.426,
+    0.542
+   ],
+   "n_clusters": 13
+  },
+  "hard_test": {
+   "n": 78,
+   "acc": 0.5,
+   "auc": 0.506,
+   "within_twin_acc": 0.487,
+   "n_twin_pairs": 39,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.449,
+    0.526
+   ],
+   "n_clusters": 13
+  },
+  "hard_val": {
+   "n": 30,
+   "acc": 0.5,
+   "auc": 0.498,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 15,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "hard_train": {
+   "n": 162,
+   "acc": 0.506,
+   "auc": 0.509,
+   "within_twin_acc": 0.506,
+   "n_twin_pairs": 81,
+   "acc_ci95": [
+    0.5,
+    0.519
+   ],
+   "within_twin_acc_ci95": [
+    0.488,
+    0.525
+   ],
+   "n_clusters": 27
+  },
+  "top_A_features": [
+   [
+    "bankruptcy",
+    0.651
+   ],
+   [
+    "filed",
+    0.651
+   ],
+   [
+    "case",
+    0.627
+   ],
+   [
+    "week",
+    0.613
+   ],
+   [
+    "user",
+    0.553
+   ],
+   [
+    "lunch",
+    0.49
+   ],
+   [
+    "cole",
+    0.443
+   ],
+   [
+    "file",
+    0.422
+   ],
+   [
+    "goodwill",
+    0.42
+   ],
+   [
+    "lawns",
+    0.405
+   ],
+   [
+    "lawn",
+    0.405
+   ],
+   [
+    "ethan",
+    0.405
+   ],
+   [
+    "escrow",
+    0.386
+   ],
+   [
+    "button",
+    0.368
+   ],
+   [
+    "hit",
+    0.368
+   ]
+  ],
+  "top_B_features": [
+   [
+    "verified",
+    -0.635
+   ],
+   [
+    "on",
+    -0.63
+   ],
+   [
+    "change",
+    -0.627
+   ],
+   [
+    "known",
+    -0.621
+   ],
+   [
+    "callback",
+    -0.553
+   ],
+   [
+    "nov",
+    -0.492
+   ],
+   [
+    "by",
+    -0.484
+   ],
+   [
+    "ordered",
+    -0.392
+   ],
+   [
+    "same",
+    -0.385
+   ],
+   [
+    "different",
+    -0.385
+   ],
+   [
+    "lamp",
+    -0.383
+   ],
+   [
+    "uniform",
+    -0.377
+   ],
+   [
+    "property",
+    -0.372
+   ],
+   [
+    "tax",
+    -0.37
+   ],
+   [
+    "phone",
+    -0.311
+   ]
+  ]
+ },
+ "full_bow": {
+  "note": "whole prompt unigrams (upper bound for a lexical model)",
+  "lambda": 1.0,
+  "n_features": 3469,
+  "cv_auc_by_lambda": {
+   "1.0": 0.5268,
+   "0.1": 0.5204,
+   "0.01": 0.5097,
+   "0.001": 0.4927,
+   "0.0001": 0.4837
+  },
+  "train_fit": {
+   "n": 496,
+   "acc": 0.655,
+   "auc": 0.74,
+   "within_twin_acc": 0.86,
+   "n_twin_pairs": 247
+  },
+  "train_grouped_cv": {
+   "n": 496,
+   "acc": 0.52,
+   "auc": 0.527,
+   "within_twin_acc": 0.589,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.453,
+    0.589
+   ],
+   "within_twin_acc_ci95": [
+    0.458,
+    0.709
+   ],
+   "n_clusters": 27
+  },
+  "train_pair_grouped_cv": {
+   "n": 496,
+   "acc": 0.558,
+   "auc": 0.612,
+   "within_twin_acc": 0.717,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.482,
+    0.632
+   ],
+   "within_twin_acc_ci95": [
+    0.598,
+    0.811
+   ],
+   "n_clusters": 27
+  },
+  "val": {
+   "n": 112,
+   "acc": 0.554,
+   "auc": 0.727,
+   "within_twin_acc": 0.705,
+   "n_twin_pairs": 56,
+   "acc_ci95": [
+    0.427,
+    0.645
+   ],
+   "within_twin_acc_ci95": [
+    0.305,
+    0.937
+   ],
+   "n_clusters": 5
+  },
+  "test": {
+   "n": 272,
+   "acc": 0.511,
+   "auc": 0.581,
+   "within_twin_acc": 0.64,
+   "n_twin_pairs": 136,
+   "acc_ci95": [
+    0.346,
+    0.644
+   ],
+   "within_twin_acc_ci95": [
+    0.405,
+    0.81
+   ],
+   "n_clusters": 13
+  },
+  "hard_test": {
+   "n": 78,
+   "acc": 0.526,
+   "auc": 0.54,
+   "within_twin_acc": 0.462,
+   "n_twin_pairs": 39,
+   "acc_ci95": [
+    0.449,
+    0.603
+   ],
+   "within_twin_acc_ci95": [
+    0.231,
+    0.692
+   ],
+   "n_clusters": 13
+  },
+  "hard_val": {
+   "n": 30,
+   "acc": 0.6,
+   "auc": 0.607,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 15,
+   "acc_ci95": [
+    0.5,
+    0.733
+   ],
+   "within_twin_acc_ci95": [
+    0.133,
+    0.867
+   ],
+   "n_clusters": 5
+  },
+  "hard_train": {
+   "n": 162,
+   "acc": 0.593,
+   "auc": 0.594,
+   "within_twin_acc": 0.728,
+   "n_twin_pairs": 81,
+   "acc_ci95": [
+    0.537,
+    0.66
+   ],
+   "within_twin_acc_ci95": [
+    0.611,
+    0.852
+   ],
+   "n_clusters": 27
+  },
+  "top_A_features": [
+   [
+    "false",
+    0.028
+   ],
+   [
+    "old",
+    0.014
+   ],
+   [
+    "emailed",
+    0.013
+   ],
+   [
+    "he",
+    0.01
+   ],
+   [
+    "annual",
+    0.01
+   ],
+   [
+    "avoid",
+    0.007
+   ],
+   [
+    "renewed",
+    0.007
+   ],
+   [
+    "j",
+    0.007
+   ],
+   [
+    "audit",
+    0.007
+   ],
+   [
+    "pham",
+    0.007
+   ],
+   [
+    "our",
+    0.007
+   ],
+   [
+    "down",
+    0.007
+   ],
+   [
+    "lcd",
+    0.006
+   ],
+   [
+    "said",
+    0.006
+   ],
+   [
+    "frozen",
+    0.006
+   ]
+  ],
+  "top_B_features": [
+   [
+    "null",
+    -0.018
+   ],
+   [
+    "now",
+    -0.014
+   ],
+   [
+    "completed",
+    -0.013
+   ],
+   [
+    "true",
+    -0.01
+   ],
+   [
+    "example",
+    -0.01
+   ],
+   [
+    "jpg",
+    -0.009
+   ],
+   [
+    "https",
+    -0.009
+   ],
+   [
+    "service",
+    -0.009
+   ],
+   [
+    "ethereum",
+    -0.008
+   ],
+   [
+    "ok",
+    -0.007
+   ],
+   [
+    "llc",
+    -0.007
+   ],
+   [
+    "fine",
+    -0.007
+   ],
+   [
+    "url",
+    -0.006
+   ],
+   [
+    "years",
+    -0.006
+   ],
+   [
+    "verified",
+    -0.005
+   ]
+  ]
+ },
+ "env_level": {
+  "note": "environment x realism level one-hot (non-causal)",
+  "lambda": 0.1,
+  "n_features": 24,
+  "cv_auc_by_lambda": {
+   "1.0": 0.4992,
+   "0.1": 0.4994,
+   "0.01": 0.4993,
+   "0.001": 0.4991,
+   "0.0001": 0.4991
+  },
+  "train_fit": {
+   "n": 496,
+   "acc": 0.502,
+   "auc": 0.503,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 247
+  },
+  "train_grouped_cv": {
+   "n": 496,
+   "acc": 0.502,
+   "auc": 0.499,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.5,
+    0.505
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 27
+  },
+  "train_pair_grouped_cv": {
+   "n": 496,
+   "acc": 0.502,
+   "auc": 0.499,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.5,
+    0.505
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 27
+  },
+  "val": {
+   "n": 112,
+   "acc": 0.5,
+   "auc": 0.5,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 56,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "test": {
+   "n": 272,
+   "acc": 0.5,
+   "auc": 0.5,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 136,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 13
+  },
+  "hard_test": {
+   "n": 78,
+   "acc": 0.5,
+   "auc": 0.5,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 39,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 13
+  },
+  "hard_val": {
+   "n": 30,
+   "acc": 0.5,
+   "auc": 0.5,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 15,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "hard_train": {
+   "n": 162,
+   "acc": 0.5,
+   "auc": 0.5,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 81,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 27
+  },
+  "top_A_features": [
+   [
+    "wallet|L2",
+    0.002
+   ],
+   [
+    "level=L2",
+    0.002
+   ],
+   [
+    "env=bills",
+    0.001
+   ],
+   [
+    "env=shopping",
+    0.001
+   ],
+   [
+    "env=bizops",
+    0.001
+   ],
+   [
+    "level=L3",
+    0.001
+   ],
+   [
+    "wallet|L3",
+    0.001
+   ],
+   [
+    "bills|L0r",
+    0.001
+   ],
+   [
+    "bills|L1",
+    0.001
+   ],
+   [
+    "shopping|L0r",
+    0.001
+   ],
+   [
+    "shopping|L1",
+    0.001
+   ],
+   [
+    "bizops|L0r",
+    0.001
+   ],
+   [
+    "bizops|L1",
+    0.001
+   ],
+   [
+    "bizops|L3",
+    0.0
+   ],
+   [
+    "shopping|L3",
+    0.0
+   ]
+  ],
+  "top_B_features": [
+   [
+    "env=wallet",
+    -0.006
+   ],
+   [
+    "wallet|L0r",
+    -0.004
+   ],
+   [
+    "wallet|L1",
+    -0.004
+   ],
+   [
+    "level=L0r",
+    -0.003
+   ],
+   [
+    "level=L1",
+    -0.003
+   ],
+   [
+    "bills|L2",
+    -0.0
+   ],
+   [
+    "shopping|L2",
+    0.0
+   ],
+   [
+    "bizops|L2",
+    0.0
+   ],
+   [
+    "bills|L3",
+    0.0
+   ],
+   [
+    "shopping|L3",
+    0.0
+   ],
+   [
+    "bizops|L3",
+    0.0
+   ],
+   [
+    "bizops|L1",
+    0.001
+   ],
+   [
+    "bizops|L0r",
+    0.001
+   ],
+   [
+    "shopping|L1",
+    0.001
+   ],
+   [
+    "shopping|L0r",
+    0.001
+   ]
+  ]
+ },
+ "result_structure": {
+  "note": "counts of leaves/null/empty/false/true/0 + chars of the last result (non-causal)",
+  "lambda": 0.1,
+  "n_features": 7,
+  "cv_auc_by_lambda": {
+   "1.0": 0.5641,
+   "0.1": 0.5679,
+   "0.01": 0.5618,
+   "0.001": 0.5633,
+   "0.0001": 0.5655
+  },
+  "train_fit": {
+   "n": 496,
+   "acc": 0.593,
+   "auc": 0.643,
+   "within_twin_acc": 0.706,
+   "n_twin_pairs": 247
+  },
+  "train_grouped_cv": {
+   "n": 496,
+   "acc": 0.538,
+   "auc": 0.568,
+   "within_twin_acc": 0.686,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.461,
+    0.614
+   ],
+   "within_twin_acc_ci95": [
+    0.535,
+    0.829
+   ],
+   "n_clusters": 27
+  },
+  "train_pair_grouped_cv": {
+   "n": 496,
+   "acc": 0.601,
+   "auc": 0.594,
+   "within_twin_acc": 0.731,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.512,
+    0.689
+   ],
+   "within_twin_acc_ci95": [
+    0.586,
+    0.858
+   ],
+   "n_clusters": 27
+  },
+  "val": {
+   "n": 112,
+   "acc": 0.607,
+   "auc": 0.822,
+   "within_twin_acc": 1.0,
+   "n_twin_pairs": 56,
+   "acc_ci95": [
+    0.5,
+    0.777
+   ],
+   "within_twin_acc_ci95": [
+    1.0,
+    1.0
+   ],
+   "n_clusters": 5
+  },
+  "test": {
+   "n": 272,
+   "acc": 0.511,
+   "auc": 0.627,
+   "within_twin_acc": 0.713,
+   "n_twin_pairs": 136,
+   "acc_ci95": [
+    0.316,
+    0.673
+   ],
+   "within_twin_acc_ci95": [
+    0.411,
+    0.922
+   ],
+   "n_clusters": 13
+  },
+  "hard_test": {
+   "n": 78,
+   "acc": 0.577,
+   "auc": 0.577,
+   "within_twin_acc": 0.577,
+   "n_twin_pairs": 39,
+   "acc_ci95": [
+    0.423,
+    0.731
+   ],
+   "within_twin_acc_ci95": [
+    0.346,
+    0.769
+   ],
+   "n_clusters": 13
+  },
+  "hard_val": {
+   "n": 30,
+   "acc": 0.6,
+   "auc": 0.7,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 15,
+   "acc_ci95": [
+    0.5,
+    0.8
+   ],
+   "within_twin_acc_ci95": [
+    0.1,
+    0.9
+   ],
+   "n_clusters": 5
+  },
+  "hard_train": {
+   "n": 162,
+   "acc": 0.537,
+   "auc": 0.58,
+   "within_twin_acc": 0.593,
+   "n_twin_pairs": 81,
+   "acc_ci95": [
+    0.463,
+    0.611
+   ],
+   "within_twin_acc_ci95": [
+    0.444,
+    0.741
+   ],
+   "n_clusters": 27
+  }
+ },
+ "length": {
+  "note": "log prompt characters (non-causal)",
+  "lambda": 1.0,
+  "n_features": 1,
+  "cv_auc_by_lambda": {
+   "1.0": 0.5004,
+   "0.1": 0.5004,
+   "0.01": 0.5004,
+   "0.001": 0.5004,
+   "0.0001": 0.5004
+  },
+  "train_fit": {
+   "n": 496,
+   "acc": 0.502,
+   "auc": 0.505,
+   "within_twin_acc": 0.528,
+   "n_twin_pairs": 247
+  },
+  "train_grouped_cv": {
+   "n": 496,
+   "acc": 0.504,
+   "auc": 0.5,
+   "within_twin_acc": 0.528,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.5,
+    0.509
+   ],
+   "within_twin_acc_ci95": [
+    0.425,
+    0.642
+   ],
+   "n_clusters": 27
+  },
+  "train_pair_grouped_cv": {
+   "n": 496,
+   "acc": 0.5,
+   "auc": 0.499,
+   "within_twin_acc": 0.528,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.495,
+    0.504
+   ],
+   "within_twin_acc_ci95": [
+    0.425,
+    0.642
+   ],
+   "n_clusters": 27
+  },
+  "val": {
+   "n": 112,
+   "acc": 0.5,
+   "auc": 0.548,
+   "within_twin_acc": 0.821,
+   "n_twin_pairs": 56,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.591,
+    0.935
+   ],
+   "n_clusters": 5
+  },
+  "test": {
+   "n": 272,
+   "acc": 0.5,
+   "auc": 0.547,
+   "within_twin_acc": 0.912,
+   "n_twin_pairs": 136,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.802,
+    0.988
+   ],
+   "n_clusters": 13
+  },
+  "hard_test": {
+   "n": 78,
+   "acc": 0.5,
+   "auc": 0.512,
+   "within_twin_acc": 0.654,
+   "n_twin_pairs": 39,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.423,
+    0.846
+   ],
+   "n_clusters": 13
+  },
+  "hard_val": {
+   "n": 30,
+   "acc": 0.5,
+   "auc": 0.52,
+   "within_twin_acc": 0.6,
+   "n_twin_pairs": 15,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.2,
+    1.0
+   ],
+   "n_clusters": 5
+  },
+  "hard_train": {
+   "n": 162,
+   "acc": 0.5,
+   "auc": 0.508,
+   "within_twin_acc": 0.586,
+   "n_twin_pairs": 81,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.414,
+    0.753
+   ],
+   "n_clusters": 27
+  }
+ },
+ "hint": {
+  "note": "P2 hint present (non-causal)",
+  "lambda": 1.0,
+  "n_features": 1,
+  "cv_auc_by_lambda": {
+   "1.0": 0.5066,
+   "0.1": 0.5066,
+   "0.01": 0.5066,
+   "0.001": 0.5066,
+   "0.0001": 0.5066
+  },
+  "train_fit": {
+   "n": 496,
+   "acc": 0.524,
+   "auc": 0.525,
+   "within_twin_acc": 0.526,
+   "n_twin_pairs": 247
+  },
+  "train_grouped_cv": {
+   "n": 496,
+   "acc": 0.524,
+   "auc": 0.507,
+   "within_twin_acc": 0.526,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.482,
+    0.564
+   ],
+   "within_twin_acc_ci95": [
+    0.483,
+    0.568
+   ],
+   "n_clusters": 27
+  },
+  "train_pair_grouped_cv": {
+   "n": 496,
+   "acc": 0.524,
+   "auc": 0.508,
+   "within_twin_acc": 0.526,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.482,
+    0.564
+   ],
+   "within_twin_acc_ci95": [
+    0.483,
+    0.568
+   ],
+   "n_clusters": 27
+  },
+  "val": {
+   "n": 112,
+   "acc": 0.464,
+   "auc": 0.464,
+   "within_twin_acc": 0.464,
+   "n_twin_pairs": 56,
+   "acc_ci95": [
+    0.427,
+    0.523
+   ],
+   "within_twin_acc_ci95": [
+    0.427,
+    0.523
+   ],
+   "n_clusters": 5
+  },
+  "test": {
+   "n": 272,
+   "acc": 0.5,
+   "auc": 0.5,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 136,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 13
+  },
+  "hard_test": {
+   "n": 78,
+   "acc": 0.5,
+   "auc": 0.5,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 39,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 13
+  },
+  "hard_val": {
+   "n": 30,
+   "acc": 0.5,
+   "auc": 0.5,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 15,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 5
+  },
+  "hard_train": {
+   "n": 162,
+   "acc": 0.5,
+   "auc": 0.5,
+   "within_twin_acc": 0.5,
+   "n_twin_pairs": 81,
+   "acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "within_twin_acc_ci95": [
+    0.5,
+    0.5
+   ],
+   "n_clusters": 27
+  }
+ },
+ "cue_counts": {
+  "note": "cue-word counts per component (non-causal heuristics)",
+  "lambda": 1.0,
+  "n_features": 100,
+  "cv_auc_by_lambda": {
+   "1.0": 0.4984,
+   "0.1": 0.4849,
+   "0.01": 0.48,
+   "0.001": 0.4801,
+   "0.0001": 0.4802
+  },
+  "train_fit": {
+   "n": 496,
+   "acc": 0.639,
+   "auc": 0.675,
+   "within_twin_acc": 0.678,
+   "n_twin_pairs": 247
+  },
+  "train_grouped_cv": {
+   "n": 496,
+   "acc": 0.53,
+   "auc": 0.498,
+   "within_twin_acc": 0.486,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.456,
+    0.607
+   ],
+   "within_twin_acc_ci95": [
+    0.346,
+    0.616
+   ],
+   "n_clusters": 27
+  },
+  "train_pair_grouped_cv": {
+   "n": 496,
+   "acc": 0.595,
+   "auc": 0.626,
+   "within_twin_acc": 0.67,
+   "n_twin_pairs": 247,
+   "acc_ci95": [
+    0.509,
+    0.687
+   ],
+   "within_twin_acc_ci95": [
+    0.538,
+    0.796
+   ],
+   "n_clusters": 27
+  },
+  "val": {
+   "n": 112,
+   "acc": 0.607,
+   "auc": 0.795,
+   "within_twin_acc": 0.893,
+   "n_twin_pairs": 56,
+   "acc_ci95": [
+    0.387,
+    0.838
+   ],
+   "within_twin_acc_ci95": [
+    0.707,
+    1.0
+   ],
+   "n_clusters": 5
+  },
+  "test": {
+   "n": 272,
+   "acc": 0.577,
+   "auc": 0.622,
+   "within_twin_acc": 0.592,
+   "n_twin_pairs": 136,
+   "acc_ci95": [
+    0.367,
+    0.728
+   ],
+   "within_twin_acc_ci95": [
+    0.352,
+    0.801
+   ],
+   "n_clusters": 13
+  },
+  "hard_test": {
+   "n": 78,
+   "acc": 0.654,
+   "auc": 0.687,
+   "within_twin_acc": 0.654,
+   "n_twin_pairs": 39,
+   "acc_ci95": [
+    0.538,
+    0.769
+   ],
+   "within_twin_acc_ci95": [
+    0.462,
+    0.846
+   ],
+   "n_clusters": 13
+  },
+  "hard_val": {
+   "n": 30,
+   "acc": 0.5,
+   "auc": 0.609,
+   "within_twin_acc": 0.6,
+   "n_twin_pairs": 15,
+   "acc_ci95": [
+    0.2,
+    0.8
+   ],
+   "within_twin_acc_ci95": [
+    0.3,
+    0.9
+   ],
+   "n_clusters": 5
+  },
+  "hard_train": {
+   "n": 162,
+   "acc": 0.537,
+   "auc": 0.541,
+   "within_twin_acc": 0.574,
+   "n_twin_pairs": 81,
+   "acc_ci95": [
+    0.444,
+    0.63
+   ],
+   "within_twin_acc_ci95": [
+    0.463,
+    0.685
+   ],
+   "n_clusters": 27
+  }
+ }
+}

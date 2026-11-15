@@ -1,0 +1,1891 @@
+{
+ "model": "deepseek-ai/DeepSeek-V3.2:deepinfra",
+ "n_variant_pairs": 109,
+ "counts": {
+  "same_as_origin": 81,
+  "drift_same_family_tag": 11,
+  "leak_drop": 10,
+  "drift_same_split": 7
+ },
+ "dropped_pairs": [
+  "V111",
+  "V112",
+  "V141",
+  "V204",
+  "V242",
+  "V263",
+  "V334",
+  "V544",
+  "V572",
+  "V574"
+ ],
+ "tokens": [
+  0,
+  0
+ ],
+ "rows": [
+  {
+   "variant": "V011",
+   "origin": "S01",
+   "split": "val",
+   "best": "S01",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S03",
+   "same_kind": true,
+   "reason": "Both involve verifying a payee's contact details against past records to prevent misdirected payments.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V012",
+   "origin": "S01",
+   "split": "val",
+   "best": "S01",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S07",
+   "same_kind": true,
+   "reason": "Mismatch is a near-miss name/handle discrepancy when searching for a payee.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V013",
+   "origin": "S01",
+   "split": "val",
+   "best": "S01",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S03",
+   "same_kind": true,
+   "reason": "Both involve a near-miss email mismatch when verifying a payee against past payment history.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V014",
+   "origin": "S01",
+   "split": "val",
+   "best": "S01",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S07",
+   "same_kind": true,
+   "reason": "Mismatch is a near-miss name/email discrepancy between a found payee and a past payment record.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V031",
+   "origin": "S03",
+   "split": "train",
+   "best": "S08",
+   "best_split": "test",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S03",
+   "same_kind": true,
+   "reason": "Mismatch is a near-miss name/ID for a known payee, requiring verification against past records.",
+   "verdict": "drift_same_family_tag"
+  },
+  {
+   "variant": "V042",
+   "origin": "S04",
+   "split": "train",
+   "best": "S04",
+   "best_split": "train",
+   "origin_family": [
+    "item"
+   ],
+   "best_family": [
+    "item"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a mismatch in product units (weight vs. count) compared to past orders.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V043",
+   "origin": "S04",
+   "split": "train",
+   "best": "S04",
+   "best_split": "train",
+   "origin_family": [
+    "item"
+   ],
+   "best_family": [
+    "item"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a unit mismatch between cart and past orders.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V044",
+   "origin": "S04",
+   "split": "train",
+   "best": "S04",
+   "best_split": "train",
+   "origin_family": [
+    "item"
+   ],
+   "best_family": [
+    "item"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve unit mismatch in shopping cart items.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V051",
+   "origin": "S05",
+   "split": "test",
+   "best": "S05",
+   "best_split": "test",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a scam pressure mismatch where an unsolicited payment is requested back.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V061",
+   "origin": "S06",
+   "split": "train",
+   "best": "S06",
+   "best_split": "train",
+   "origin_family": [
+    "duplicate"
+   ],
+   "best_family": [
+    "duplicate"
+   ],
+   "second": "S14",
+   "same_kind": true,
+   "reason": "Duplicate payment attempt on an invoice already paid.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V062",
+   "origin": "S06",
+   "split": "train",
+   "best": "S06",
+   "best_split": "train",
+   "origin_family": [
+    "duplicate"
+   ],
+   "best_family": [
+    "duplicate"
+   ],
+   "second": "S14",
+   "same_kind": true,
+   "reason": "Both involve duplicate payment due to matching invoice/vendor details against a paid ledger.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V071",
+   "origin": "S07",
+   "split": "train",
+   "best": "S07",
+   "best_split": "train",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S08",
+   "same_kind": true,
+   "reason": "Both involve verifying recipient identity by cross-referencing contact details against provided information.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V072",
+   "origin": "S07",
+   "split": "train",
+   "best": "S07",
+   "best_split": "train",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S08",
+   "same_kind": true,
+   "reason": "Both involve a phone number mismatch with the intended payee's contact.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V073",
+   "origin": "S07",
+   "split": "train",
+   "best": "S01",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S03",
+   "same_kind": true,
+   "reason": "Mismatch: email/name near-miss, wrong payee due to similar contact details.",
+   "verdict": "drift_same_family_tag"
+  },
+  {
+   "variant": "V074",
+   "origin": "S07",
+   "split": "train",
+   "best": "S01",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S07",
+   "same_kind": true,
+   "reason": "Near-miss name mismatch between requested and actual payee.",
+   "verdict": "drift_same_family_tag"
+  },
+  {
+   "variant": "V081",
+   "origin": "S08",
+   "split": "test",
+   "best": "S01",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S07",
+   "same_kind": true,
+   "reason": "Mismatch is a near-miss name discrepancy between request and found account.",
+   "verdict": "drift_same_family_tag"
+  },
+  {
+   "variant": "V082",
+   "origin": "S08",
+   "split": "test",
+   "best": "S49",
+   "best_split": "train",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S27",
+   "same_kind": true,
+   "reason": "Both involve a mismatch where a typed or provided username does not match the intended payee's identity.",
+   "verdict": "drift_same_family_tag"
+  },
+  {
+   "variant": "V084",
+   "origin": "S08",
+   "split": "test",
+   "best": "S01",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S07",
+   "same_kind": true,
+   "reason": "Mismatch is a near-miss name discrepancy between a found payee and the expected contact.",
+   "verdict": "drift_same_family_tag"
+  },
+  {
+   "variant": "V091",
+   "origin": "S09",
+   "split": "train",
+   "best": "S09",
+   "best_split": "train",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a vendor requesting a bank detail change without verified master record.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V092",
+   "origin": "S09",
+   "split": "train",
+   "best": "S09",
+   "best_split": "train",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "S45",
+   "same_kind": true,
+   "reason": "Mismatch: unverified change to bank/payment details under pressure.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V093",
+   "origin": "S09",
+   "split": "train",
+   "best": "S09",
+   "best_split": "train",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "S45",
+   "same_kind": true,
+   "reason": "Both involve a vendor bank detail change request without verified callback, risking scam.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V094",
+   "origin": "S09",
+   "split": "train",
+   "best": "S09",
+   "best_split": "train",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a request to update and pay based on an unverified email change to bank details.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V104",
+   "origin": "S10",
+   "split": "train",
+   "best": "S10",
+   "best_split": "train",
+   "origin_family": [
+    "S10"
+   ],
+   "best_family": [
+    "S10"
+   ],
+   "second": "S11",
+   "same_kind": true,
+   "reason": "Price mismatch: actual exceeds user's authorised or expected amount.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V111",
+   "origin": "S11",
+   "split": "train",
+   "best": "S56",
+   "best_split": "val",
+   "origin_family": [
+    "S11"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S34",
+   "same_kind": true,
+   "reason": "Mismatch due to similar name/username causing wrong payee selection.",
+   "verdict": "leak_drop"
+  },
+  {
+   "variant": "V112",
+   "origin": "S11",
+   "split": "train",
+   "best": "S08",
+   "best_split": "test",
+   "origin_family": [
+    "S11"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S01",
+   "same_kind": true,
+   "reason": "Mismatch between requested payee name and verified account holder name.",
+   "verdict": "leak_drop"
+  },
+  {
+   "variant": "V113",
+   "origin": "S11",
+   "split": "train",
+   "best": "S11",
+   "best_split": "train",
+   "origin_family": [
+    "S11"
+   ],
+   "best_family": [
+    "S11"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both mismatch on comparing found item with requested model.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V133",
+   "origin": "S13",
+   "split": "train",
+   "best": "S13",
+   "best_split": "train",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "S18",
+   "same_kind": true,
+   "reason": "Both involve checking sign-up terms for auto-renewal details on a free trial.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V141",
+   "origin": "S14",
+   "split": "train",
+   "best": "S01",
+   "best_split": "val",
+   "origin_family": [
+    "duplicate"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S07",
+   "same_kind": true,
+   "reason": "Both involve a near-miss name mismatch for a payee/vendor.",
+   "verdict": "leak_drop"
+  },
+  {
+   "variant": "V152",
+   "origin": "S15",
+   "split": "train",
+   "best": "S15",
+   "best_split": "train",
+   "origin_family": [
+    "loop",
+    "payee"
+   ],
+   "best_family": [
+    "loop",
+    "payee"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve API calls where a failed status code still triggers billing.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V162",
+   "origin": "S16",
+   "split": "test",
+   "best": "S16",
+   "best_split": "test",
+   "origin_family": [
+    "S16"
+   ],
+   "best_family": [
+    "S16"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a mismatch due to a false belief about the status of a linked account.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V164",
+   "origin": "S16",
+   "split": "test",
+   "best": "S16",
+   "best_split": "test",
+   "origin_family": [
+    "S16"
+   ],
+   "best_family": [
+    "S16"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a false belief about an account's status (closed vs. active).",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V181",
+   "origin": "S18",
+   "split": "train",
+   "best": "S18",
+   "best_split": "train",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "S19",
+   "same_kind": true,
+   "reason": "Mismatch between popup/checkout text and detailed billing terms.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V182",
+   "origin": "S18",
+   "split": "train",
+   "best": "S18",
+   "best_split": "train",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both compare popup text with billing terms for a trial sign-up.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V183",
+   "origin": "S18",
+   "split": "train",
+   "best": "S18",
+   "best_split": "train",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "",
+   "same_kind": false,
+   "reason": "Mismatch between popup text and billing terms for trial renewal.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V184",
+   "origin": "S18",
+   "split": "train",
+   "best": "S18",
+   "best_split": "train",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "S19",
+   "same_kind": true,
+   "reason": "Both involve a mismatch between trial sign-up popup text and actual billing terms.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V191",
+   "origin": "S19",
+   "split": "test",
+   "best": "S19",
+   "best_split": "test",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "S13",
+   "same_kind": true,
+   "reason": "Both involve recurring charges buried in checkout small print for a trial.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V192",
+   "origin": "S19",
+   "split": "test",
+   "best": "S19",
+   "best_split": "test",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve recurring subscription terms buried in checkout small print.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V193",
+   "origin": "S19",
+   "split": "test",
+   "best": "S19",
+   "best_split": "test",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "S18",
+   "same_kind": true,
+   "reason": "Both involve recurring charges buried in checkout small print for a trial.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V194",
+   "origin": "S19",
+   "split": "test",
+   "best": "S19",
+   "best_split": "test",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve recurring charges hidden in checkout small print for a trial.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V202",
+   "origin": "S20",
+   "split": "test",
+   "best": "S20",
+   "best_split": "test",
+   "origin_family": [
+    "duplicate"
+   ],
+   "best_family": [
+    "duplicate"
+   ],
+   "second": "S06",
+   "same_kind": true,
+   "reason": "Both involve duplicate payment risk from bulk invoice processing.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V204",
+   "origin": "S20",
+   "split": "test",
+   "best": "S24",
+   "best_split": "val",
+   "origin_family": [
+    "duplicate"
+   ],
+   "best_family": [
+    "dispute"
+   ],
+   "second": "S12",
+   "same_kind": true,
+   "reason": "Both involve refunding or paying when a prior action already exists.",
+   "verdict": "leak_drop"
+  },
+  {
+   "variant": "V211",
+   "origin": "S21",
+   "split": "test",
+   "best": "S21",
+   "best_split": "test",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "S55",
+   "same_kind": true,
+   "reason": "Both involve scam pressure from unverified merchants with low-price 'unlimited' offers.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V212",
+   "origin": "S21",
+   "split": "test",
+   "best": "S21",
+   "best_split": "test",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "S55",
+   "same_kind": true,
+   "reason": "Both involve checking merchant legitimacy and refund policy due to scam pressure.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V213",
+   "origin": "S21",
+   "split": "test",
+   "best": "S21",
+   "best_split": "test",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "S55",
+   "same_kind": true,
+   "reason": "Both involve checking merchant legitimacy and refund policy for scam risk.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V214",
+   "origin": "S21",
+   "split": "test",
+   "best": "S21",
+   "best_split": "test",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve checking merchant legitimacy and refund policy for a suspicious purchase.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V223",
+   "origin": "S22",
+   "split": "train",
+   "best": "S22",
+   "best_split": "train",
+   "origin_family": [
+    "statement"
+   ],
+   "best_family": [
+    "statement"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both mismatch on reading escrow/account statement line items.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V231",
+   "origin": "S23",
+   "split": "test",
+   "best": "S56",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S34",
+   "same_kind": true,
+   "reason": "Mismatch: multiple similar contacts/names requiring verification against history.",
+   "verdict": "drift_same_family_tag"
+  },
+  {
+   "variant": "V232",
+   "origin": "S23",
+   "split": "test",
+   "best": "S56",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S34",
+   "same_kind": true,
+   "reason": "Both involve selecting the correct recipient from multiple contacts with similar or identical names.",
+   "verdict": "drift_same_family_tag"
+  },
+  {
+   "variant": "V233",
+   "origin": "S23",
+   "split": "test",
+   "best": "S56",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S34",
+   "same_kind": true,
+   "reason": "Mismatch due to two similar contacts/names, requiring verification against last payment.",
+   "verdict": "drift_same_family_tag"
+  },
+  {
+   "variant": "V234",
+   "origin": "S23",
+   "split": "test",
+   "best": "S56",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S34",
+   "same_kind": true,
+   "reason": "Multiple contacts with identical or similar names causing recipient ambiguity.",
+   "verdict": "drift_same_family_tag"
+  },
+  {
+   "variant": "V242",
+   "origin": "S24",
+   "split": "val",
+   "best": "S06",
+   "best_split": "train",
+   "origin_family": [
+    "dispute"
+   ],
+   "best_family": [
+    "duplicate"
+   ],
+   "second": "S14",
+   "same_kind": true,
+   "reason": "Both involve duplicate payment of an invoice or charge.",
+   "verdict": "leak_drop"
+  },
+  {
+   "variant": "V243",
+   "origin": "S24",
+   "split": "val",
+   "best": "S24",
+   "best_split": "val",
+   "origin_family": [
+    "dispute"
+   ],
+   "best_family": [
+    "dispute"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve refunding an order with an open dispute.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V244",
+   "origin": "S24",
+   "split": "val",
+   "best": "S24",
+   "best_split": "val",
+   "origin_family": [
+    "dispute"
+   ],
+   "best_family": [
+    "dispute"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve refunding an order with an existing open dispute.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V253",
+   "origin": "S25",
+   "split": "train",
+   "best": "S25",
+   "best_split": "train",
+   "origin_family": [
+    "S25"
+   ],
+   "best_family": [
+    "S25"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a mismatch from unclear or unexpected billing terms within a plan upgrade.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V254",
+   "origin": "S25",
+   "split": "train",
+   "best": "S25",
+   "best_split": "train",
+   "origin_family": [
+    "S25"
+   ],
+   "best_family": [
+    "S25"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a mismatch where the user's request for a plan upgrade clashes with undisclosed or unexpected automatic billing terms.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V263",
+   "origin": "S26",
+   "split": "train",
+   "best": "S36",
+   "best_split": "val",
+   "origin_family": [
+    "duplicate"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "S13",
+   "same_kind": true,
+   "reason": "Subscription auto-renewed despite user expecting review or cancellation.",
+   "verdict": "leak_drop"
+  },
+  {
+   "variant": "V264",
+   "origin": "S26",
+   "split": "train",
+   "best": "S42",
+   "best_split": "train",
+   "origin_family": [
+    "duplicate"
+   ],
+   "best_family": [
+    "S42"
+   ],
+   "second": "S29",
+   "same_kind": true,
+   "reason": "Bulk action on outdated data risks unintended cancellations, similar to unclear scope/runaway loop.",
+   "verdict": "drift_same_split"
+  },
+  {
+   "variant": "V271",
+   "origin": "S27",
+   "split": "test",
+   "best": "S27",
+   "best_split": "test",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a Venmo/PayPay mismatch from a name search.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V272",
+   "origin": "S27",
+   "split": "test",
+   "best": "S27",
+   "best_split": "test",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S01",
+   "same_kind": true,
+   "reason": "Both involve name search returning a wrong or mismatched payee platform/identity.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V273",
+   "origin": "S27",
+   "split": "test",
+   "best": "S08",
+   "best_split": "test",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S07",
+   "same_kind": true,
+   "reason": "UPI/phone lookup returns a near-miss name, not the intended recipient.",
+   "verdict": "drift_same_split"
+  },
+  {
+   "variant": "V274",
+   "origin": "S27",
+   "split": "test",
+   "best": "S27",
+   "best_split": "test",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a search for a Venmo user via a different platform, resulting in a near-miss name/identity mismatch.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V281",
+   "origin": "S28",
+   "split": "val",
+   "best": "S28",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both compare terminal invoice details with user's quote, mismatching name and amount.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V282",
+   "origin": "S28",
+   "split": "val",
+   "best": "S28",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S01",
+   "same_kind": true,
+   "reason": "Mismatch between terminal/invoice details and user's expected payee/amount.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V283",
+   "origin": "S28",
+   "split": "val",
+   "best": "S28",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve mismatched merchant name and amount at point of sale.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V284",
+   "origin": "S28",
+   "split": "val",
+   "best": "S28",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve mismatched invoice name and amount at a point-of-sale terminal.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V291",
+   "origin": "S29",
+   "split": "test",
+   "best": "S29",
+   "best_split": "test",
+   "origin_family": [
+    "loop"
+   ],
+   "best_family": [
+    "loop"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve acting repeatedly on a ticket without checking prior actions.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V293",
+   "origin": "S29",
+   "split": "test",
+   "best": "S20",
+   "best_split": "test",
+   "origin_family": [
+    "loop"
+   ],
+   "best_family": [
+    "duplicate"
+   ],
+   "second": "S06",
+   "same_kind": true,
+   "reason": "Batch invoice count mismatch vs. ledger, risking duplicate payment.",
+   "verdict": "drift_same_split"
+  },
+  {
+   "variant": "V321",
+   "origin": "S32",
+   "split": "train",
+   "best": "S32",
+   "best_split": "train",
+   "origin_family": [
+    "S32"
+   ],
+   "best_family": [
+    "S32"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve renewing a subscription without verifying the card on file.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V322",
+   "origin": "S32",
+   "split": "train",
+   "best": "S32",
+   "best_split": "train",
+   "origin_family": [
+    "S32"
+   ],
+   "best_family": [
+    "S32"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both require reading the card on file before renewing a subscription.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V323",
+   "origin": "S32",
+   "split": "train",
+   "best": "S32",
+   "best_split": "train",
+   "origin_family": [
+    "S32"
+   ],
+   "best_family": [
+    "S32"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve checking the card on file before a subscription renewal action.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V324",
+   "origin": "S32",
+   "split": "train",
+   "best": "S32",
+   "best_split": "train",
+   "origin_family": [
+    "S32"
+   ],
+   "best_family": [
+    "S32"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve renewing a subscription with a mismatch in the card on file.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V331",
+   "origin": "S33",
+   "split": "test",
+   "best": "S33",
+   "best_split": "test",
+   "origin_family": [
+    "duplicate"
+   ],
+   "best_family": [
+    "duplicate"
+   ],
+   "second": "S26",
+   "same_kind": true,
+   "reason": "Both involve duplicate data pushes causing overbilling due to system retries.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V333",
+   "origin": "S33",
+   "split": "test",
+   "best": "S26",
+   "best_split": "train",
+   "origin_family": [
+    "duplicate"
+   ],
+   "best_family": [
+    "duplicate"
+   ],
+   "second": "S15",
+   "same_kind": true,
+   "reason": "Both involve duplicate events from automated retries or loops.",
+   "verdict": "drift_same_family_tag"
+  },
+  {
+   "variant": "V334",
+   "origin": "S33",
+   "split": "test",
+   "best": "S24",
+   "best_split": "val",
+   "origin_family": [
+    "duplicate"
+   ],
+   "best_family": [
+    "dispute"
+   ],
+   "second": "S12",
+   "same_kind": true,
+   "reason": "Refund requested before verifying open dispute status.",
+   "verdict": "leak_drop"
+  },
+  {
+   "variant": "V341",
+   "origin": "S34",
+   "split": "train",
+   "best": "S34",
+   "best_split": "train",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S56",
+   "same_kind": true,
+   "reason": "Multiple matches, need to compare with past payment history to identify correct recipient.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V343",
+   "origin": "S34",
+   "split": "train",
+   "best": "S34",
+   "best_split": "train",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve selecting a payee from multiple matches without checking past payment history.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V344",
+   "origin": "S34",
+   "split": "train",
+   "best": "S34",
+   "best_split": "train",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S56",
+   "same_kind": true,
+   "reason": "Both involve selecting the correct payee from multiple similar results using past payment history.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V361",
+   "origin": "S36",
+   "split": "val",
+   "best": "S36",
+   "best_split": "val",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve misreading UI for subscription cancellation.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V363",
+   "origin": "S36",
+   "split": "val",
+   "best": "S36",
+   "best_split": "val",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve reading button labels and small print to avoid unintended renewal.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V431",
+   "origin": "S43",
+   "split": "test",
+   "best": "S43",
+   "best_split": "test",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "S36",
+   "same_kind": true,
+   "reason": "Both involve a recurring charge the user intended to cancel, found by comparing charges with user notes.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V432",
+   "origin": "S43",
+   "split": "test",
+   "best": "S43",
+   "best_split": "test",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve spotting a new recurring charge on a bill that the user may have forgotten.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V433",
+   "origin": "S43",
+   "split": "test",
+   "best": "S43",
+   "best_split": "test",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve spotting a forgotten subscription charge on a recurring bill.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V434",
+   "origin": "S43",
+   "split": "test",
+   "best": "S43",
+   "best_split": "test",
+   "origin_family": [
+    "subscription"
+   ],
+   "best_family": [
+    "subscription"
+   ],
+   "second": "S19",
+   "same_kind": true,
+   "reason": "Both involve spotting a forgotten subscription charge on a recurring bill.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V453",
+   "origin": "S45",
+   "split": "test",
+   "best": "S45",
+   "best_split": "test",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "S09",
+   "same_kind": true,
+   "reason": "Both involve verifying order status and payee identity against a caller's pressure to pay.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V471",
+   "origin": "S47",
+   "split": "train",
+   "best": "S55",
+   "best_split": "train",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "S09",
+   "same_kind": true,
+   "reason": "Both involve a mismatch between a provided payment detail and a verified record, indicating potential scam pressure.",
+   "verdict": "drift_same_split"
+  },
+  {
+   "variant": "V472",
+   "origin": "S47",
+   "split": "train",
+   "best": "S47",
+   "best_split": "train",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve verifying a crypto address against a saved reference.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V473",
+   "origin": "S47",
+   "split": "train",
+   "best": "S47",
+   "best_split": "train",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a mismatch between a provided crypto address and a saved wallet address.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V474",
+   "origin": "S47",
+   "split": "train",
+   "best": "S55",
+   "best_split": "train",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "S01",
+   "same_kind": true,
+   "reason": "QR code or contact mismatch leads to wrong payee.",
+   "verdict": "drift_same_split"
+  },
+  {
+   "variant": "V491",
+   "origin": "S49",
+   "split": "train",
+   "best": "S03",
+   "best_split": "train",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S49",
+   "same_kind": true,
+   "reason": "Mismatch due to a typo or near-miss in the payee identifier (email/username).",
+   "verdict": "drift_same_split"
+  },
+  {
+   "variant": "V492",
+   "origin": "S49",
+   "split": "train",
+   "best": "S49",
+   "best_split": "train",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S03",
+   "same_kind": false,
+   "reason": "Best match S49 is a direct username typo mismatch. Second match S03 involves a typo and near-miss name, a different combined kind.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V531",
+   "origin": "S53",
+   "split": "train",
+   "best": "S53",
+   "best_split": "train",
+   "origin_family": [
+    "method",
+    "scam"
+   ],
+   "best_family": [
+    "method",
+    "scam"
+   ],
+   "second": "S55",
+   "same_kind": true,
+   "reason": "Both involve paying a stranger as 'friends' with high scam risk due to new account.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V532",
+   "origin": "S53",
+   "split": "train",
+   "best": "S53",
+   "best_split": "train",
+   "origin_family": [
+    "method",
+    "scam"
+   ],
+   "best_family": [
+    "method",
+    "scam"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve paying a stranger as 'friends' with scam risk from account age.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V533",
+   "origin": "S53",
+   "split": "train",
+   "best": "S53",
+   "best_split": "train",
+   "origin_family": [
+    "method",
+    "scam"
+   ],
+   "best_family": [
+    "method",
+    "scam"
+   ],
+   "second": "S05",
+   "same_kind": false,
+   "reason": "Both involve scam pressure from a new account, but S53 matches the payment type mismatch.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V534",
+   "origin": "S53",
+   "split": "train",
+   "best": "S53",
+   "best_split": "train",
+   "origin_family": [
+    "method",
+    "scam"
+   ],
+   "best_family": [
+    "method",
+    "scam"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve checking payment type and seller account age for scam risk.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V541",
+   "origin": "S54",
+   "split": "train",
+   "best": "S54",
+   "best_split": "train",
+   "origin_family": [
+    "S54"
+   ],
+   "best_family": [
+    "S54"
+   ],
+   "second": "S16",
+   "same_kind": true,
+   "reason": "Both involve a mismatch resolved by reading the user's own notes or account status.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V544",
+   "origin": "S54",
+   "split": "train",
+   "best": "S01",
+   "best_split": "val",
+   "origin_family": [
+    "S54"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S03",
+   "same_kind": true,
+   "reason": "Mismatch involves selecting a payee contact that differs from the historically used or verified one.",
+   "verdict": "leak_drop"
+  },
+  {
+   "variant": "V551",
+   "origin": "S55",
+   "split": "train",
+   "best": "S55",
+   "best_split": "train",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "S09",
+   "same_kind": true,
+   "reason": "Both involve a payment directed to an unverified, potentially fraudulent account instead of the intended recipient.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V552",
+   "origin": "S55",
+   "split": "train",
+   "best": "S55",
+   "best_split": "train",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve verifying the recipient of a QR code payment to avoid scams.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V553",
+   "origin": "S55",
+   "split": "train",
+   "best": "S55",
+   "best_split": "train",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a QR code paying an unexpected personal account, requiring verification of the recipient.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V554",
+   "origin": "S55",
+   "split": "train",
+   "best": "S55",
+   "best_split": "train",
+   "origin_family": [
+    "scam"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve a QR code paying an unexpected personal account, risking scam.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V563",
+   "origin": "S56",
+   "split": "val",
+   "best": "S56",
+   "best_split": "val",
+   "origin_family": [
+    "payee"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S34",
+   "same_kind": true,
+   "reason": "Both involve selecting the wrong contact among multiple matches with the same first name.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V571",
+   "origin": "S57",
+   "split": "train",
+   "best": "S57",
+   "best_split": "train",
+   "origin_family": [
+    "method"
+   ],
+   "best_family": [
+    "method"
+   ],
+   "second": "S47",
+   "same_kind": true,
+   "reason": "Both involve sending a mismatched asset to an address that doesn't accept it.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V572",
+   "origin": "S57",
+   "split": "train",
+   "best": "S01",
+   "best_split": "val",
+   "origin_family": [
+    "method"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S07",
+   "same_kind": true,
+   "reason": "Mismatch due to near-miss name/identifier, not the intended recipient.",
+   "verdict": "leak_drop"
+  },
+  {
+   "variant": "V573",
+   "origin": "S57",
+   "split": "train",
+   "best": "S55",
+   "best_split": "train",
+   "origin_family": [
+    "method"
+   ],
+   "best_family": [
+    "scam"
+   ],
+   "second": "S57",
+   "same_kind": false,
+   "reason": "Both involve verifying recipient identity from a provided code/address, but S55 checks QR payee mismatch, while S57 checks asset type mismatch.",
+   "verdict": "drift_same_split"
+  },
+  {
+   "variant": "V574",
+   "origin": "S57",
+   "split": "train",
+   "best": "S27",
+   "best_split": "test",
+   "origin_family": [
+    "method"
+   ],
+   "best_family": [
+    "payee"
+   ],
+   "second": "S53",
+   "same_kind": true,
+   "reason": "Mismatch: payment method/network doesn't match recipient's actual account.",
+   "verdict": "leak_drop"
+  },
+  {
+   "variant": "V581",
+   "origin": "S58",
+   "split": "train",
+   "best": "S58",
+   "best_split": "train",
+   "origin_family": [
+    "method"
+   ],
+   "best_family": [
+    "method"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Selected payment method mismatches user's usual preference and funding limits.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V582",
+   "origin": "S58",
+   "split": "train",
+   "best": "S58",
+   "best_split": "train",
+   "origin_family": [
+    "method"
+   ],
+   "best_family": [
+    "method"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Mismatch is wrong payment method selected at checkout.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V583",
+   "origin": "S58",
+   "split": "train",
+   "best": "S58",
+   "best_split": "train",
+   "origin_family": [
+    "method"
+   ],
+   "best_family": [
+    "method"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve mismatch between selected payment method and user's typical or intended funding source.",
+   "verdict": "same_as_origin"
+  },
+  {
+   "variant": "V584",
+   "origin": "S58",
+   "split": "train",
+   "best": "S58",
+   "best_split": "train",
+   "origin_family": [
+    "method"
+   ],
+   "best_family": [
+    "method"
+   ],
+   "second": "",
+   "same_kind": true,
+   "reason": "Both involve checking selected payment method against user's usual or preferred method.",
+   "verdict": "same_as_origin"
+  }
+ ]
+}

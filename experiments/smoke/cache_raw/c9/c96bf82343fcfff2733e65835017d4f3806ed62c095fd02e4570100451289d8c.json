@@ -1,0 +1,1 @@
+{"text": "{\n  \"display_name\": \"T. Barnes\",\n  \"profile_photo_url\": null,\n  \"account_age_days\": 0,\n  \"mutual_friends_count\": 0,\n  \"payments_from_member\": 0\n}", "usage": {"completion_tokens": 49, "prompt_tokens": 278, "total_tokens": 327, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 5.1970000000000006e-05}, "finish": "stop"}

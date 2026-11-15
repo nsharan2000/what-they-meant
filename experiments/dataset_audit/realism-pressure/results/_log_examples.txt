@@ -1,0 +1,12 @@
+{
+ "frontier_P2_realistic_needless_ask_on_B": 3,
+ "production_prompt_more_asking_P0": 3,
+ "toy_prompt_lacks_approval_policy_B_commit_at_L0r": 3,
+ "base_tiny_aya_literal_at_every_level": 3,
+ "base_tiny_aya_informed_ask_lost_at_L2": 3,
+ "P2_hint_generic_asks_tiny_aya": 3,
+ "burial_L2s_vs_L2_qwen": 3,
+ "P2_hint_needless_ask_qwen_L2": 3,
+ "m1_mixed_decisions_on_own_training_prompt": 3,
+ "notes": 2
+}

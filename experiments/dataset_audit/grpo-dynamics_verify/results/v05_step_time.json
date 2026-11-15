@@ -1,0 +1,79 @@
+{
+ "fit_secs_on_max_pt_per1k": {
+  "a": -224.85,
+  "b": 146.565,
+  "R2": 0.998
+ },
+ "fit_secs_on_sum_pt_per1k": {
+  "a": 340.64,
+  "b": 23.396,
+  "R2": 0.4142
+ },
+ "fit_secs_on_max_and_sum": {
+  "a": -224.68,
+  "b_max": 145.396,
+  "b_sum": 0.455,
+  "R2": 0.9981
+ },
+ "fit_trl_step_time_on_max_pt": {
+  "a": -208.38,
+  "b": 136.918,
+  "R2": 0.998
+ },
+ "max_pt_range": [
+  3833,
+  7435
+ ],
+ "mean_pad_share": 0.373,
+ "steps_max_pt_le_4400": {
+  "n": 5,
+  "mean_secs": 364.0
+ },
+ "steps_max_pt_gt_4400": {
+  "n": 25,
+  "mean_secs": 789.6
+ },
+ "mean_secs_all": 718.7,
+ "examples": [
+  {
+   "log_step": 20,
+   "secs": 790.44,
+   "trl_step_time": 740.3047864697874,
+   "max_pt": 6929,
+   "sum_pt": 25861,
+   "levels": "L2+L2+L2+L3",
+   "pad_share": 0.06692884976187041,
+   "max_comp": 73,
+   "mean_comp": 47.03125
+  },
+  {
+   "log_step": 23,
+   "secs": 341.89,
+   "trl_step_time": 320.951688723173,
+   "max_pt": 3833,
+   "sum_pt": 10251,
+   "levels": "L0r+L0r+L1+L1",
+   "pad_share": 0.33139838246804065,
+   "max_comp": 61,
+   "mean_comp": 47.90625
+  },
+  {
+   "log_step": 25,
+   "secs": 723.49,
+   "trl_step_time": 677.3957973360084,
+   "max_pt": 6565,
+   "sum_pt": 10398,
+   "levels": "L0r+L0r+L0r+L2",
+   "pad_share": 0.604036557501904,
+   "max_comp": 81,
+   "mean_comp": 50.4375
+  }
+ ],
+ "sim_random_step_secs": 737.8,
+ "sim_bucketed_step_secs": 524.3,
+ "steps_in_6h_random": 29.3,
+ "steps_in_6h_bucketed": 41.2,
+ "bucketed_gain": 1.407,
+ "floor_secs_used": 341.89,
+ "share_of_bucketed_steps_at_floor": 0.347
+}

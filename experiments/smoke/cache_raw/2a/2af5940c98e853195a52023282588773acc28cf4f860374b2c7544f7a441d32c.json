@@ -1,0 +1,1 @@
+{"text": "{\n  \"crypto_address\": \"0x9f3c...a41c\",\n  \"network\": null,\n  \"account_name\": null,\n  \"account_type\": null\n}", "usage": {"completion_tokens": 41, "prompt_tokens": 273, "total_tokens": 314, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.712e-05}, "finish": "stop"}

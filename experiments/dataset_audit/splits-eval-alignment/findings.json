@@ -1,0 +1,276 @@
+{
+ "lens": "splits-eval-alignment",
+ "summary": "Split integrity is clean (0 post/pair/scenario leaks; eval files = current specs; local training files = what was trained) and evaluation prompts are built exactly like training prompts (2120/2120 rows re-render identically; the eval loop reproduces 1105/1105 decision contexts; the oracle scores 1656/1656). The real problems are on the evaluation side: held-out items reuse training members' worlds and some training targets state held-out decisive facts (2/13 hard_test and 2/41 test pairs); L2s reveals look-up outcomes and is never trained; the P2 hint contradicts 'act' labels; L0r tool lists differ between twins. Context position (rules and newest history beyond the 4K window at L2) is real but does not explain M1's decision accuracy (52 % on its own training prompts), which is flat across levels and prompt settings. Row references ('sft_train line N') are 0-based line indices of dataset/curated_v121/*.jsonl.",
+ "findings": [
+  {
+   "id": "SEA-1",
+   "title": "Held-out items live in the same member worlds as training; some training targets state their decisive facts",
+   "severity": "major",
+   "confidence": "high",
+   "fix_needs_data_change": true,
+   "affects": [
+    "dataset/eval/test_*.jsonl",
+    "dataset/eval/hard_test_*.jsonl",
+    "dataset/eval/val_*.jsonl",
+    "dataset/curated_v121/sft_train.jsonl"
+   ],
+   "claim": "The group split separates source posts, pairs and scenario ids without a single violation, but variants and hard pairs reuse the same synthetic members on both sides: 31 of 51 members appear in training and in val/test/hard_val/hard_test (24 of them in test or hard_test). 65/82 (79.3 %) test rows, 22/26 (84.6 %) hard_test rows and 29/35 (82.9 %) val rows are set in a member whose history, contacts and handles M1 trained on. In 3 test rows (V082A, V232A, V232B) and 4 hard_test rows (H201A, H201B, H231A, H231B) a TRAINING TARGET already states the held-out item's decisive identifier or identity association (who is 'Mo Ahmed', which invoice was already paid). Token-level near-duplicate checks miss this because the wording differs. Held-out scores on these items can come from memory instead of from reading the context.",
+   "evidence": "experiments/dataset_audit/splits-eval-alignment/s01_split_integrity.py -> results/s01_split_integrity.json (E_heldout_identifiers_in_training_targets: 15 (row, identifier) hits; E_summary prompt-level hits 48 in 42 held-out rows; F_* member sharing). experiments/dataset_audit/splits-eval-alignment/s12_world_overlap.py -> results/s12_world_overlap.json (same-member entity near-duplicates: test 6/82, hard_test 3/26, val 8/35; H231B vs V492B entity Jaccard 1.0). Row indices and member ids of the examples: experiments/dataset_audit/splits-eval-alignment/s15_spot_checks.py -> results/s15_spot_checks.json (d_sft_train_rows, f_member_ids).",
+   "examples": [
+    "hard_test H231A/H231B (kiran_patel, 'venmo Mo Ahmed $45 for the Titans tickets', gold @mo-ahmed-615) vs train V492A target 'You paid Mo Ahmed at @mo-ahmed-615 before' (sft_train line 31, L2) and V492B card 'Send $45 to Mo Ahmed (@mo-ahmed-615)?'",
+    "hard_test H201A/H201B (bramblewood_dental_partners, decisive 'INV-1045 $4,820 paid 3 Nov') vs train S06A target 'looks like INV-1045 from ABC Supplies Ltd, already paid on 3 Nov' (sft_train lines 80, 81, 249, 645)",
+    "test V232A/V232B (ana_silva, Tyler Brown vs Tyler Browne; gold @tyler_b_1984) vs train S49B card 'Send $600.00 to Tyler Brown (@tyler_b_1984)?' (sft_train lines 71, 460, 728, 753); V232B target Jaccard 0.833 to S49B's",
+    "val S01A (riya_menon, gold samcarter.sc@mail.com) vs train V474A target '...your saved contact is Sam Carter (samcarter.sc@mail.com)' (sft_train line 11)"
+   ],
+   "fix": "Report held-out metrics split by 'member seen in training' vs 'new member', and flag/exclude the answer-bearing pairs (H201, H231, V232, V082). For the next build add member_id (and decisive identifiers) to the split grouping key, or re-home test/hard_test items onto members no training scenario uses."
+  },
+  {
+   "id": "SEA-2",
+   "title": "L2s is not a salience-only control: it hands over look-up outcomes before any look-up, and it is never trained",
+   "severity": "major",
+   "confidence": "high",
+   "fix_needs_data_change": true,
+   "affects": [
+    "wtm/render.py (L2s)",
+    "experiments/training_eval/run_eval.sh (LEVELS)",
+    "realism-gap analysis (L2s vs L2)"
+   ],
+   "claim": "run_eval.sh evaluates L2s, which appends scenario.decisive_facts as '## Most relevant records'. In 76/82 (92.7 %) test rows and 15/26 (57.7 %) hard_test rows at least one of those lines restates a canonical look-up RESULT, so the twins become distinguishable before any look-up (identical first prompts: test L2 18/41 pairs vs L2s 0/41). No training row contains this block (has_most_relevant_records = 0 in every training cell). L2s minus L2 therefore mixes salience with extra information and an unseen prompt section; the base model decides without any look-up in 316/344 L2s episodes, so any L2s gain it shows cannot be attributed to de-burial.",
+   "evidence": "experiments/dataset_audit/splits-eval-alignment/s09_first_prompt_identity.py -> results/s09_first_prompt_identity.json; experiments/dataset_audit/splits-eval-alignment/s03_render_alignment.py -> results/s03_render_alignment.json (d_anatomy); experiments/dataset_audit/splits-eval-alignment/s04_dates_lookups.py -> results/s04_dates_lookups.json (c_base_eval_v12_lookup_behaviour).",
+   "examples": [
+    "test S19A L2s: 'Today $1.99. Small print: then $30.00 per month until cancelled. Cancellation by email only.' vs S19B 'One-time $1.99. No subscription.' (the checkout look-up result)",
+    "test S43A/S43B L2s: 'Total INR 12,480, includes new recurring StreamPlus INR 499' vs 'Total INR 11,981, no new recurring charges'",
+    "hard_test H291B L2s: 'LV-DRAW-04 (first result): 150 invoices, $212,000.00 ... awaiting approval'"
+   ],
+   "fix": "Tag each decisive_facts line by source (history/record vs tool result) and render L2s from history/record lines only; until then report L2s as an 'answer-hint' diagnostic, not as evidence that burial causes the realism gap."
+  },
+  {
+   "id": "SEA-3",
+   "title": "The P2 hint tells the model to show an approval card on 'act' items whose label is a direct commit",
+   "severity": "minor",
+   "confidence": "high",
+   "fix_needs_data_change": true,
+   "affects": [
+    "prompts/golden_short.md",
+    "dataset/eval/test_bizops.jsonl",
+    "dataset/eval/hard_test_bizops.jsonl",
+    "sft_train P2 rows"
+   ],
+   "claim": "The hint reads 'if everything matches, just show the approval card'. In evaluation, twin-B items with expected 'act' grade an approval card as strict FAIL (lenient pass): 5 of 41 test pairs (S29B, S33B, V331B, V293B, V291B) and 2 of 13 hard_test pairs (H291B, H331B), so at P2 obeying the instruction fails the item. In training, 4 P2 twin-B SFT rows target a direct commit in a prompt whose hint asks for a card. Every P2 twin-A target is an informed question, so apart from 'act' rows the hint agrees with the labels.",
+   "evidence": "experiments/dataset_audit/splits-eval-alignment/s06_twin_diff_hint.py -> results/s06_twin_diff_hint.json (b_target_class_by_prompt_setting, b_p2_rows_where_target_contradicts_hint); experiments/dataset_audit/splits-eval-alignment/s15_spot_checks.py -> results/s15_spot_checks.json (a_act_items: an approval card on every held-out 'act' item is strict False, lenient True; counts {'test': 5, 'hard_test': 2, 'val': 3, 'hard_val': 1, 'hard_train': 3}).",
+   "examples": [
+    "sft_train line 82 S14B L2 P2 target <tool_call>{\"name\": \"charge_customer\", \"arguments\": {\"order_id\": \"5521",
+    "sft_train line 100 V104B L0r P2 target <tool_call>{\"name\": \"pay\", \"arguments\": {\"merchant\": \"XMP Studio\", \"am",
+    "sft_train line 155 V104B L1 P2 target <tool_call>{\"name\": \"pay\", \"arguments\": {\"merchant\": \"XMP Studio\", \"am"
+   ],
+   "fix": "Reword the hint ('...just show the approval card, or act directly when a standing authorisation covers it') or render 'act' rows at P0 only; in reporting, grade 'act' items leniently at P2 or list them separately."
+  },
+  {
+   "id": "SEA-4",
+   "title": "At L0r the tool list differs between twins, so the rendering itself can reveal the label",
+   "severity": "minor",
+   "confidence": "high",
+   "fix_needs_data_change": true,
+   "affects": [
+    "dataset scenario l0_tools",
+    "wtm/render.py (L0/L0r tools)"
+   ],
+   "claim": "l0_tools is derived from each twin's own tool_rules, so at L0r twin A sometimes offers a tool twin B does not (training: 4/75 pairs, always an extra tool in A; test: 6/41 pairs; hard_test: 1/13). At L1+ every twin sees all environment tools. This is a small spurious cue in training and a confound at L0r evaluation.",
+   "evidence": "experiments/dataset_audit/splits-eval-alignment/s14_l0r_twin_system_diff.py -> results/s14_l0r_twin_system_diff.json",
+   "examples": [
+    "train S04 L0r: update_cart only in twin A",
+    "train S26 L0r: apply_patch only in twin A",
+    "test V271/V272/V274 L0r: A offers search_recipient, B offers lookup_venmo"
+   ],
+   "fix": "Use the union of both twins' l0_tools for each pair (one tool list per pair) and rebuild."
+  },
+  {
+   "id": "SEA-5",
+   "title": "The A-vs-B difference sits in the last ~100 tokens at every level; 'buried' levels do not bury it",
+   "severity": "minor",
+   "confidence": "high",
+   "fix_needs_data_change": false,
+   "affects": [
+    "interpretation of L1/L2 results and the realism-gap claim"
+   ],
+   "claim": "Diffing each pair's A and B decision prompts (hint removed): at L2 the twins differ only in the look-up result in 41/72 pairs, the system prompt differs in 2/72, and the earliest difference lies p10/p50/p90 = [38, 86, 175] tokens from the end (about 13 differing tokens, 0.19 % of the prompt). Only 2 L2 pairs (S12, S54, which use different member files per twin) differ beyond 4,096 tokens. The long policy and history are identical for both twins, so L2 vs L1 measures robustness to a long, label-irrelevant prefix more than retrieval of a buried difference (the history can still be needed to explain the clash).",
+   "evidence": "experiments/dataset_audit/splits-eval-alignment/s06_twin_diff_hint.py -> results/s06_twin_diff_hint.json (a_twin_diff_by_level, a_examples_*); field-level differences in experiments/dataset_audit/splits-eval-alignment/s07_distribution_shift.py -> results/s07_distribution_shift.json (c_differing_result_fields_top)",
+   "examples": [
+    "sft_train lines 139 vs 181 (S04 L2): only the look-up result differs, 10 tokens, earliest difference 43 tokens from the end",
+    "sft_train lines 785 vs 299 (S11 L2): only the look-up result differs, 18 tokens, earliest difference 72 tokens from the end",
+    "sft_train lines 226 vs 708 (S12 L2): twins use member files lena_ortiz vs lena_ortiz_b, earliest difference 4640 tokens from the end"
+   ],
+   "fix": "To claim burial, add pairs whose twins differ ONLY in one history/record line (identical look-up results) and place that line at controlled depths; report results by evidence depth."
+  },
+  {
+   "id": "SEA-6",
+   "title": "At L2 the rules and the newest history sit outside the 4,096-token window of 3 of 4 layers (risk, not the bottleneck)",
+   "severity": "info",
+   "confidence": "medium",
+   "fix_needs_data_change": false,
+   "affects": [
+    "L2/L3 rows (all 260+87 SFT train rows exceed 4,096 tokens)"
+   ],
+   "claim": "Token offsets from the end (median, sft_train decision rows): L2 total 6778; template preamble starts at 6778; environment policy 6377 -> 4968; transaction history (newest first) 4854 -> 2858; tool docs 1492 -> 335; request 140; look-up 117. The policy lies entirely beyond 4,096 tokens in 97.2 % of L2 rows, the history start in 97.2 %, and 35.5 % of the 304 decisive scenario-record lines. Because the history is newest-first, the most recent records are the farthest from the generation point. At L1 (total 4171) the policy is partly beyond the window in 2 % of rows; L0r (1334) is entirely inside. Only 3/69 identifiers cited by L2 twin-A targets must be copied from beyond the window. Behaviour does not degrade with depth: M1's decision accuracy on its own training prompts is L0r 171/352 (48.6 %), L1 138/264 (52.3 %), L2 148/248 (59.7 %), L3 46/96 (47.9 %).",
+   "evidence": "experiments/dataset_audit/splits-eval-alignment/s05_context_positions.py -> results/s05_context_positions.json (positions via experiments/dataset_audit/splits-eval-alignment/tokmodel.py: 5-fold CV MAPE 0.65 % on 1097 exact prompt lengths, independent check on 1013 eval prompts MAPE 0.63 %); experiments/dataset_audit/splits-eval-alignment/s10_target_copy_distance.py -> results/s10_target_copy_distance.json; experiments/dataset_audit/splits-eval-alignment/s11_list_over_length.py -> results/rows_over_4096.csv.",
+   "examples": [
+    "sft_train line 12 V042B L2: record lines at [4242, 4478, 1823, 1927] tokens from the end",
+    "sft_train line 17 V073A L2: record lines at [3693, 3412, 4455, 3036] tokens from the end",
+    "sft_train line 31 V492A L2: record lines at [4363, 3973] tokens from the end"
+   ],
+   "fix": "Optional: render the L2 history oldest-first (newest nearest the request) or place the member block after the tool docs; not needed to explain current results."
+  },
+  {
+   "id": "SEA-7",
+   "title": "Base-vs-trained comparison conflates 'learned to look up' with 'learned to judge'",
+   "severity": "minor",
+   "confidence": "high",
+   "fix_needs_data_change": false,
+   "affects": [
+    "experiments/training_eval/run_eval.sh decision-mode results"
+   ],
+   "claim": "At L1/L2, 18/41 test pairs and 9/13 hard_test pairs render byte-identical first prompts for A and B, so a policy that decides without a look-up (temperature 0) must fail at least one twin. Base Tiny Aya decides without any look-up in 313/342 L1 and 320/344 L2 episodes. The trained arms are taught the canonical look-up, which reproduces the training decision context exactly (1105/1105 oracle replays identical).",
+   "evidence": "experiments/dataset_audit/splits-eval-alignment/s09_first_prompt_identity.py -> results/s09_first_prompt_identity.json; experiments/dataset_audit/splits-eval-alignment/s04_dates_lookups.py -> results/s04_dates_lookups.json (c_base_eval_v12_lookup_behaviour); experiments/dataset_audit/splits-eval-alignment/s03_render_alignment.py -> results/s03_render_alignment.json",
+   "examples": [
+    "test pairs with identical L1 first prompts: S20, S23, S29, S33, S43, V162 ...",
+    "hard_test pairs with identical L1 first prompts: H051, H161, H201, H231, H271 ...",
+    "base L0r: 286/344 episodes without a look-up; first action = canonical look-up in 5/342 L1 episodes"
+   ],
+   "fix": "Report the look-up rate per arm and paired pass conditional on a look-up; add a 'decision-turn' eval that feeds the canonical look-ups (the training decision context) to isolate judgement from tool use."
+  },
+  {
+   "id": "SEA-8",
+   "title": "Held-out sets contain patterns training never shows (multi-look-up hard pairs, untrained tags, L2s, P2 share)",
+   "severity": "minor",
+   "confidence": "high",
+   "fix_needs_data_change": false,
+   "affects": [
+    "dataset/eval/hard_test_*.jsonl",
+    "dataset/eval/test_*.jsonl",
+    "sft_val.jsonl"
+   ],
+   "claim": "hard_test needs more look-ups: 20/26 rows have 2-3 canonical look-ups vs 2/152 trained scenarios (twins first differ at look-up 2 in 2/13 pairs: H161, H211), and its look-ups are less robust to argument variants (93.9 % same result vs 98.9 % test, 100 % training). Never-trained strata: untrained sub_domain (savings_fd_wallet) in 6 test and 2 hard_test rows, untrained tag (waved_warning) in 4 test and 2 hard_test rows; val has 10 rows with untrained tags and a higher 'act' share (3/17 B rows vs 5/76 in training), which may contribute to the rising SFT val loss. L3 is trained but not evaluated; L2s is evaluated but never trained; P2 is half of the eval grid vs 31 % of trained decision rows. Hard pairs are Claude-written, unlike every training target.",
+   "evidence": "experiments/dataset_audit/splits-eval-alignment/s07_distribution_shift.py -> results/s07_distribution_shift.json; experiments/dataset_audit/splits-eval-alignment/s08_multilookup.py -> results/s08_multilookup.json; experiments/dataset_audit/splits-eval-alignment/s04_dates_lookups.py -> results/s04_dates_lookups.json (b_lookup_robustness); experiments/dataset_audit/splits-eval-alignment/s15_spot_checks.py -> results/s15_spot_checks.json (e_*)",
+   "examples": [
+    "hard_test H211A/B: 3 look-ups (get_transactions, search_store, check_merchant); query 'credits' instead of 'TokenForge API credits' returns 'No matching records found.'",
+    "test S16A/S16B, V162A/B, V164A/B: sub_domain savings_fd_wallet, absent from training",
+    "test S45A/S45B, V453A/B: tag waved_warning, absent from training"
+   ],
+   "fix": "Report these strata separately (in-distribution vs new pattern vs multi-look-up); give hard pairs catch-all look-up rules."
+  },
+  {
+   "id": "SEA-9",
+   "title": "Training row V541B contradicts the member world used by five held-out rows (who mows the lawn)",
+   "severity": "minor",
+   "confidence": "medium",
+   "fix_needs_data_change": true,
+   "affects": [
+    "V541B rows in sft_train/dpo_train/grpo_train",
+    "val S56A/B",
+    "test V082A/B, V234A/B"
+   ],
+   "claim": "V541B (train, ruth_price) targets 'Send $40.00 to Ethan Price (@ethanprice) for mowing the lawn?' although the member's records show repeated $40 'lawn mowing' payments to Ethan Cole and its own scenario_records add 'Stopped using @ethan-cole-lawns. New lawn service is @green-thumb-james'. Held-out items in the same world (val S56A/B, test V082A/B, V234A/B) treat Ethan Cole as the lawn mower and Ethan Price as the son. The row teaches 'Ethan + lawn -> Ethan Price' and is arguably a should-ask case labelled should-act.",
+   "evidence": "experiments/dataset_audit/splits-eval-alignment/s15_spot_checks.py -> results/s15_spot_checks.json (b_ruth_price_lawn_transactions: 6 lawn payments, all to ['Ethan Cole']; b_V541B; b_heldout_ideals); experiments/dataset_audit/splits-eval-alignment/s01_split_integrity.py -> results/s01_split_integrity.json (E_heldout_identifiers_in_training_prompts for V082A/V234A/S56A); experiments/dataset_audit/splits-eval-alignment/s12_world_overlap.py -> results/s12_world_overlap.json (V082B vs V541B shares @ethan-cole-lawns, @ethanprice)",
+   "examples": [
+    "sft_train lines 117 (L0r P2), 120 (L1), 789 (L2): V541B decision rows",
+    "val S56A ideal: 'two Ethans: your son Ethan Price and Ethan Cole, who mowed your lawn'",
+    "test V082A ideal: '@ethan-cole-23 belongs to Ethan Cole, who you pay for lawn mowing, not your son Ethan Price'"
+   ],
+   "fix": "Relabel V541B as an ask (or remove the lawn context from its records) and rebuild; send to the label lens for confirmation."
+  },
+  {
+   "id": "SEA-10",
+   "title": "A ~400-token forced chat-template preamble precedes every prompt (content unverified locally)",
+   "severity": "info",
+   "confidence": "low",
+   "fix_needs_data_change": false,
+   "affects": [
+    "every training and evaluation prompt"
+   ],
+   "claim": "The exact token counts fit a constant of 402 tokens per prompt before our system message (research/aya-models.md documents a forced system + default preamble, 'Your name is Aya', with our prompt demoted to a '# Developer Preamble'). It is identical in training and evaluation, so it is not a train/eval mismatch. If its default lines resemble Command-family defaults ('ask clarifying questions', 'include follow-up questions') they push toward asking; M1 asks on 132/328 (40.2 %) of twin-B approve samples at P0 and 49/128 (38.3 %) at P2. CAVEATED: the template text was not available locally.",
+   "evidence": "experiments/dataset_audit/splits-eval-alignment/tokmodel.py -> results/tokmodel_cv.json (weights.constant); experiments/dataset_audit/splits-eval-alignment/s06_twin_diff_hint.py -> results/s06_twin_diff_hint.json (c_m1_decision_distribution)",
+   "examples": [
+    "tokmodel_cv.json: constant 402.1 tokens, per-message 3.48",
+    "M1 twin-B approve samples at P0: ask_generic 71, ask_informed 58 of 328",
+    "research/aya-models.md line 72 (forced system + default preamble; our system message becomes '# Developer Preamble')"
+   ],
+   "fix": "After the GPU job, print tokenizer.apply_chat_template for one row on the Spark and check the default preamble for ask-biasing lines."
+  },
+  {
+   "id": "SEA-11",
+   "title": "Prompt length, position and the hint do not explain M1's ~50 % decision accuracy (negative result)",
+   "severity": "info",
+   "confidence": "high",
+   "fix_needs_data_change": false,
+   "affects": [
+    "diagnosis of M1/M2"
+   ],
+   "claim": "All 496 GRPO prompts and all 120 sampled ones are byte-identical SFT decision prompts. M1's strict decision accuracy on them is flat across levels (L0r 171/352 (48.6 %) with the whole prompt inside the window, L2 148/248 (59.7 %)) and barely moved by the hint (twin A: P0 162/336 (48.2 %) vs P2 66/128 (51.6 %); twin B: P0 189/344 (54.9 %) vs P2 86/152 (56.6 %)). P(ask-type answer) is 0.571 on A prompts vs 0.385 on B prompts: the policy separates the twins only weakly, regardless of context size. The bottleneck is the learned decision itself, not the rendering.",
+   "evidence": "experiments/dataset_audit/splits-eval-alignment/s05_context_positions.py -> results/s05_context_positions.json (part3); experiments/dataset_audit/splits-eval-alignment/s06_twin_diff_hint.py -> results/s06_twin_diff_hint.json (c_*); experiments/dataset_audit/splits-eval-alignment/s07_distribution_shift.py -> results/s07_distribution_shift.json (d_*); experiments/dataset_audit/splits-eval-alignment/s13_grpo_vs_sft_prompts.py -> results/s13_grpo_vs_sft_prompts.json",
+   "examples": [
+    "never-correct sampled prompts: S02A/L2, S02A/L3, S03A/L1",
+    "twin-B approve prompts at P2 still draw ask_generic 28 and ask_informed 21 of 128 samples",
+    "L0r twin A: 77/176 (43.8 %) correct with the whole prompt inside the window"
+   ],
+   "fix": "Look elsewhere for the cause (decision-token weight in the loss, twin contrast, label noise), as other lenses do."
+  }
+ ],
+ "checked_ok": [
+  "Split by source post / pair / scenario id: 271 seed+variant rows, 0 post-vs-pair split mismatches, 0 variant_of mismatches, every pair in exactly one split list, both twins of every pair share one post (s01_split_integrity.json A_*).",
+  "Training views stay in their split: sft_train/dpo/grpo rows all 'train', sft_val all 'val'; 0 test/val/hard scenario ids or pairs in training; 0 hard (H*) ids in training; 0 variants of held-out seeds in training (s01 B/C, s02 variants_of_heldout_seeds_in_train).",
+  "The 20 eval files equal the current specs row for row (0 diffs), cover every test/val spec row, and every hard row has held_split = cluster split = variant_of split; hard_train shares posts with training by design and is labelled in-distribution (s01 C).",
+  "The local curated_v121 files are exactly what was trained: sha256 matches m1_sft/args.json (train, val) and m2_grpo/args.json (s01 D).",
+  "Token-Jaccard near-duplicates >= 0.8: requests 0 for test/val/hard_test/hard_val (test mean max 0.228), 3 hard_train rows (by design); targets 1 (V232B~S49B); request+look-up contexts 0 (s02_near_dups.json).",
+  "Re-rendering every training row from the current specs gives byte-identical prompts and targets: 2120/2120 rows (s03 a).",
+  "The eval loop (wtm.episode.run_episode, as wtm/run.py calls it) with the canonical look-ups reproduces every training decision context exactly: 1105/1105 (s03 b); GRPO prompts = SFT decision prompts 496/496 (s13).",
+  "Oracle (canonical look-ups + ideal action) passes 1656/1656 strict raw and 1656/1656 adjudicated over all eval files x L0r/L1/L2/L2s x P0/P2, with 0 look-up errors or empty results (s03 c).",
+  "Anatomy identical in train and eval: 'Today is 2026-11-12' in every L1/L2/L3 row and absent at L0r (template has no {{today}}); the protocol block is present in every row; the hint equals prompts/golden_short.md and is always the last text of the system prompt in P2 rows; tool docs = l0_tools at L0r (8-18 tools), all environment tools at L1+ (26-28) (s03 d).",
+  "Dates: no completed transaction is dated after today; future dates are bill due dates and subscription next_charge only ({'future_date_in ### Bills': 58, 'future_date_in ### Subscriptions': 336, 'future_date_in ### Transaction history': 4, 'future_date_in ### Event Log': 4, 'future_date_in ### Recent activity': 2}); 1 L0r target (V264A) says 'today' without a date in its prompt (s04 a, s09).",
+  "No row exceeds 8,192 tokens (max 7691 incl. GRPO's 256-token budget); > 4,096: sft_train 502/904 (all L2/L3, 155/276 L1, 0 L0r), sft_val 120/224, dpo 291/496, grpo 331/496; training max_length 12,288 and vLLM 16,384, so nothing is truncated (s05 part1, s11, rows_over_4096.csv).",
+  "Canonical look-ups are rule-served 419 times and handler-served 4 times, none in a trained scenario (H131A, V051A, V051B), so build_datasets' base-member Simulator and the eval's member+scenario_records Simulator return the same results for every training row (latent risk only; s15 g).",
+  "Training look-ups return the same result under simple argument variants 331/331; test 179/181 (s04 b).",
+  "Environment policies agree with the targets (wallet: 'The card is the confirmation, so don't ask the member to confirm the same details in chat first.'; bills: 'Ask one question at a time.'; s15 c_policy_sentences).",
+  "Identifiers cited by twin-A targets all appear in their prompts; the only non-verbatim items are money amounts (47 of 47 non-verbatim hits, e.g. '$2,000' vs 2000.0) (s10).",
+  "Twins in training never render identical prompts once the canonical look-up result is included (pairs_identical_after_hint_strip = 0 at every level, s06)."
+ ],
+ "prompt_interference_view": "From the split/eval-alignment lens the prompt is NOT corrupting the objective through rendering: every training row re-renders byte-identically (2120/2120), the eval loop reproduces every training decision context (1105/1105), the oracle scores 1656/1656, and date line, tool docs, protocol block and hint placement are the same in training and evaluation. Length and position are not what limits learning either: at L2 the environment rules and the newest history sit beyond the 4,096-token window of 3 of 4 layers in 97 % of rows, but the A-vs-B evidence is the look-up result in the last ~86 tokens (inside the window), and M1's accuracy on its own training prompts is no better at L0r (171/352 (48.6 %), whole prompt in the window) than at L2 (148/248 (59.7 %)). What the prompt does do: (1) it dilutes the label signal, about 13 differing tokens in a 6778-token L2 prompt (~0.2 %), with a ~402-token forced template preamble (unverified content, possibly ask-biasing) in front; (2) the P2 hint barely changes behaviour (+3.4 points on twin A, +1.7 on twin B) and contradicts the label on 'act' items (4 training rows; 5/41 test and 2/13 hard_test pairs graded strict-fail if the model obeys it); (3) at L0r the per-twin tool list can reveal the label (4/75 training pairs). The larger risks are on the evaluation side: L2s hands over look-up outcomes and is untrained, and shared member worlds let some held-out answers come from memory. Overall: small interference, not the cause of M1's 52 % decision accuracy on its own training prompts.",
+ "artifacts": [
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/common.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s01_split_integrity.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s02_near_dups.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s03_render_alignment.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s04_dates_lookups.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s05_context_positions.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s06_twin_diff_hint.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s07_distribution_shift.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s08_multilookup.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s09_first_prompt_identity.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s10_target_copy_distance.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s11_list_over_length.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s12_world_overlap.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s13_grpo_vs_sft_prompts.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s14_l0r_twin_system_diff.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s15_spot_checks.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/s99_findings.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/tokmodel.py",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/rows_over_4096.csv",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/rows_over_8192.csv",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s01_split_integrity.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s02_near_dups.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s03_render_alignment.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s04_dates_lookups.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s05_context_positions.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s06_twin_diff_hint.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s07_distribution_shift.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s08_multilookup.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s09_first_prompt_identity.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s10_target_copy_distance.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s11_list_over_length.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s12_world_overlap.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s13_grpo_vs_sft_prompts.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s14_l0r_twin_system_diff.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/s15_spot_checks.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/results/tokmodel_cv.json",
+  "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/splits-eval-alignment/findings.json"
+ ]
+}

@@ -1,0 +1,1 @@
+{"text": "{\n  \"transaction_type\": \"Goods & Services\",\n  \"transaction_date\": \"210 days ago\",\n  \"delivery_status\": \"delivered\",\n  \"dispute_window_open\": false\n}", "usage": {"completion_tokens": 43, "prompt_tokens": 271, "total_tokens": 314, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.804e-05}, "finish": "stop"}

@@ -1,0 +1,37 @@
+{
+ "reward_std_vs_batch_std_ddof0_maxdiff": 0.014165662571689719,
+ "reward_std_vs_batch_std_ddof1_maxdiff": 7.324435224997927e-08,
+ "completion_tokens_max": 117,
+ "format_bonus_count": 950,
+ "verbosity_nonzero": 0,
+ "end_id_counts": {
+  "6": 960
+ },
+ "clip_ratio_max": 0.0,
+ "grad_norm_max": 0.5440489053726196,
+ "eval_narration_example_is_nondecision": true,
+ "reward_statement_samples": 4,
+ "reward_lookup_samples": 32,
+ "adjudicated_grpo_rows": 16,
+ "adjudicated_scenarios_in_grpo": [
+  "S04B",
+  "V042B",
+  "V043B",
+  "V044B",
+  "V223B"
+ ],
+ "eval_grade_commit_gold_on_adjudicated_example": true,
+ "grpo_scenario_has_accept_field": false,
+ "reward_base_commit_gold_on_it": -0.5,
+ "sampled_adjudicated_prompts": 4,
+ "sampled_adjudicated_commit_gold": 0,
+ "cells_both_twins": 247,
+ "cells_twins_differ_in_prompt_setting": 113,
+ "P2_share_by_twin_whole_pool": {
+  "A": 0.2794,
+  "B": 0.3293
+ },
+ "strong_dprime_sampled_scenarios": 0.8392,
+ "M1_dprime": 0.4819,
+ "base_tiny_aya_dprime": 0.2295
+}

@@ -1,0 +1,233 @@
+{
+ "sft_train:L0r": {
+  "n_A_decision_rows": 75,
+  "no_evidence_in_member_or_conversation": 6,
+  "evidence_in_conversation": 63,
+  "evidence_only_in_member_block": 6,
+  "only_member_and_beyond_4096": 0,
+  "median_dist_only_member": 1207.0,
+  "max_dist_only_member": 1287.0
+ },
+ "sft_train:L1": {
+  "n_A_decision_rows": 75,
+  "no_evidence_in_member_or_conversation": 8,
+  "evidence_in_conversation": 63,
+  "evidence_only_in_member_block": 4,
+  "only_member_and_beyond_4096": 0,
+  "median_dist_only_member": 2016.0,
+  "max_dist_only_member": 2031.0
+ },
+ "sft_train:L2": {
+  "n_A_decision_rows": 72,
+  "no_evidence_in_member_or_conversation": 7,
+  "evidence_in_conversation": 61,
+  "evidence_only_in_member_block": 4,
+  "only_member_and_beyond_4096": 0,
+  "median_dist_only_member": 3196.0,
+  "max_dist_only_member": 3290.0
+ },
+ "sft_train:L3": {
+  "n_A_decision_rows": 25,
+  "no_evidence_in_member_or_conversation": 1,
+  "evidence_in_conversation": 21,
+  "evidence_only_in_member_block": 3,
+  "only_member_and_beyond_4096": 0,
+  "median_dist_only_member": 3077.0,
+  "max_dist_only_member": 3346.0
+ },
+ "all:all": {
+  "n_A_decision_rows": 247,
+  "no_evidence_in_member_or_conversation": 22,
+  "evidence_in_conversation": 208,
+  "evidence_only_in_member_block": 17,
+  "only_member_and_beyond_4096": 0,
+  "median_dist_only_member": 2019.0,
+  "max_dist_only_member": 3346.0
+ },
+ "examples_only_member": [
+  {
+   "file": "sft_train",
+   "line": 393,
+   "sid": "S53A",
+   "level": "L3",
+   "ps": "P2",
+   "prompt_tokens": 6720,
+   "in_member_block": true,
+   "in_conversation": false,
+   "dist_tokens": 3346.0,
+   "dist_tokens_member_last": 3346.0,
+   "dist_tokens_member_first": 3346.0
+  },
+  {
+   "file": "sft_train",
+   "line": 28,
+   "sid": "S53A",
+   "level": "L2",
+   "ps": "P0",
+   "prompt_tokens": 6676,
+   "in_member_block": true,
+   "in_conversation": false,
+   "dist_tokens": 3290.0,
+   "dist_tokens_member_last": 3290.0,
+   "dist_tokens_member_first": 3290.0
+  },
+  {
+   "file": "sft_train",
+   "line": 545,
+   "sid": "V541A",
+   "level": "L2",
+   "ps": "P2",
+   "prompt_tokens": 6623,
+   "in_member_block": true,
+   "in_conversation": false,
+   "dist_tokens": 3267.0,
+   "dist_tokens_member_last": 3267.0,
+   "dist_tokens_member_first": 4504.0
+  },
+  {
+   "file": "sft_train",
+   "line": 596,
+   "sid": "S03A",
+   "level": "L2",
+   "ps": "P2",
+   "prompt_tokens": 6449,
+   "in_member_block": true,
+   "in_conversation": false,
+   "dist_tokens": 3125.0,
+   "dist_tokens_member_last": 3125.0,
+   "dist_tokens_member_first": 3125.0
+  },
+  {
+   "file": "sft_train",
+   "line": 814,
+   "sid": "S03A",
+   "level": "L3",
+   "ps": "P0",
+   "prompt_tokens": 6412,
+   "in_member_block": true,
+   "in_conversation": false,
+   "dist_tokens": 3077.0,
+   "dist_tokens_member_last": 3077.0,
+   "dist_tokens_member_first": 3077.0
+  },
+  {
+   "file": "sft_train",
+   "line": 850,
+   "sid": "S12A",
+   "level": "L3",
+   "ps": "P0",
+   "prompt_tokens": 6614,
+   "in_member_block": true,
+   "in_conversation": false,
+   "dist_tokens": 3017.0,
+   "dist_tokens_member_last": 3017.0,
+   "dist_tokens_member_first": 3125.0
+  },
+  {
+   "file": "sft_train",
+   "line": 226,
+   "sid": "S12A",
+   "level": "L2",
+   "ps": "P0",
+   "prompt_tokens": 6611,
+   "in_member_block": true,
+   "in_conversation": false,
+   "dist_tokens": 3014.0,
+   "dist_tokens_member_last": 3014.0,
+   "dist_tokens_member_first": 3122.0
+  },
+  {
+   "file": "sft_train",
+   "line": 500,
+   "sid": "S57A",
+   "level": "L1",
+   "ps": "P2",
+   "prompt_tokens": 4420,
+   "in_member_block": true,
+   "in_conversation": false,
+   "dist_tokens": 2031.0,
+   "dist_tokens_member_last": 2031.0,
+   "dist_tokens_member_first": 2031.0
+  }
+ ],
+ "examples_no_evidence": [
+  {
+   "file": "sft_train",
+   "line": 156,
+   "sid": "V581A",
+   "level": "L1",
+   "ps": "P0",
+   "prompt_tokens": 3865,
+   "in_member_block": false,
+   "in_conversation": false,
+   "dist_tokens": NaN,
+   "dist_tokens_member_last": NaN,
+   "dist_tokens_member_first": NaN
+  },
+  {
+   "file": "sft_train",
+   "line": 173,
+   "sid": "V571A",
+   "level": "L1",
+   "ps": "P0",
+   "prompt_tokens": 4365,
+   "in_member_block": false,
+   "in_conversation": false,
+   "dist_tokens": NaN,
+   "dist_tokens_member_last": NaN,
+   "dist_tokens_member_first": NaN
+  },
+  {
+   "file": "sft_train",
+   "line": 213,
+   "sid": "V534A",
+   "level": "L1",
+   "ps": "P0",
+   "prompt_tokens": 4346,
+   "in_member_block": false,
+   "in_conversation": false,
+   "dist_tokens": NaN,
+   "dist_tokens_member_last": NaN,
+   "dist_tokens_member_first": NaN
+  },
+  {
+   "file": "sft_train",
+   "line": 222,
+   "sid": "S02A",
+   "level": "L1",
+   "ps": "P2",
+   "prompt_tokens": 4383,
+   "in_member_block": false,
+   "in_conversation": false,
+   "dist_tokens": NaN,
+   "dist_tokens_member_last": NaN,
+   "dist_tokens_member_first": NaN
+  },
+  {
+   "file": "sft_train",
+   "line": 237,
+   "sid": "V534A",
+   "level": "L0r",
+   "ps": "P2",
+   "prompt_tokens": 1349,
+   "in_member_block": false,
+   "in_conversation": false,
+   "dist_tokens": NaN,
+   "dist_tokens_member_last": NaN,
+   "dist_tokens_member_first": NaN
+  },
+  {
+   "file": "sft_train",
+   "line": 244,
+   "sid": "S02A",
+   "level": "L0r",
+   "ps": "P0",
+   "prompt_tokens": 1149,
+   "in_member_block": false,
+   "in_conversation": false,
+   "dist_tokens": NaN,
+   "dist_tokens_member_last": NaN,
+   "dist_tokens_member_first": NaN
+  }
+ ]
+}

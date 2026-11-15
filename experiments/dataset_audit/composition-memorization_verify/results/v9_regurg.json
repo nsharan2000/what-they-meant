@@ -1,0 +1,16 @@
+{
+ "offset_mode": 2,
+ "offset_hist_top": {
+  "2": 134,
+  "3": 45,
+  "1": 29,
+  "0": 20,
+  "5": 18,
+  "-1": 18
+ },
+ "own_gold_samples_exact_length_match": 0.2653,
+ "flipped_samples_with_twin_target_available": 387,
+ "flipped_exact_length_match_twin": 32,
+ "flipped_match_rate": 0.0827,
+ "chance_rate": 0.0351
+}

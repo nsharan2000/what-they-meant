@@ -1,0 +1,69 @@
+{
+ "n_cells_both_twins_same_setting": 134,
+ "identical_prompts": 0,
+ "where_counts": {
+  "lookup_result": 71,
+  "member_request+lookup_result": 23,
+  "member_request+lookup_call+lookup_result": 17,
+  "member_request": 11,
+  "lookup_call+lookup_result": 4,
+  "system+lookup_result": 4,
+  "system+member_request+lookup_result": 3,
+  "lookup_result+result2": 1
+ },
+ "diff_chars": {
+  "median": 41.0,
+  "p10": 10.0,
+  "min": 1,
+  "max": 2105
+ },
+ "system_differs_share": 0.0522,
+ "only_system_differs": 0,
+ "smallest_diffs": [
+  {
+   "pair_id": "S03",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "where": "member_request",
+   "diff_chars": 1
+  },
+  {
+   "pair_id": "S02",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "where": "member_request",
+   "diff_chars": 2
+  },
+  {
+   "pair_id": "S02",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "where": "member_request",
+   "diff_chars": 2
+  },
+  {
+   "pair_id": "V062",
+   "level": "L2",
+   "prompt_setting": "P0",
+   "where": "member_request",
+   "diff_chars": 4
+  },
+  {
+   "pair_id": "S06",
+   "level": "L1",
+   "prompt_setting": "P0",
+   "where": "member_request",
+   "diff_chars": 4
+  },
+  {
+   "pair_id": "V181",
+   "level": "L0r",
+   "prompt_setting": "P0",
+   "where": "lookup_result",
+   "diff_chars": 4
+  }
+ ],
+ "sampled_pairs_same_level": 13,
+ "sampled_pairs_mean_ask_gap": 0.2596,
+ "sampled_pairs_frac_A_ask_gt_B_ask": 0.8462
+}

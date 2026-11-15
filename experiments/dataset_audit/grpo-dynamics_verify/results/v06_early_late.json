@@ -1,0 +1,95 @@
+{
+ "trl_log_reward_mean_steps_1_12": 0.4497,
+ "trl_log_reward_mean_steps_13_25": 0.3657,
+ "trl_log_reward_mean_steps_26_30": 0.4247,
+ "observed": {
+  "sd_step_means": 0.1663,
+  "slope": -0.002,
+  "A_early": 0.5614,
+  "A_late": 0.2085,
+  "A_diff": -0.3528,
+  "A_pask_early": 0.6696,
+  "A_pask_late": 0.475,
+  "A_pask_diff": -0.1946,
+  "B_early": 0.3859,
+  "B_late": 0.4925,
+  "B_diff": 0.1066,
+  "B_pask_early": 0.3867,
+  "B_pask_late": 0.3708,
+  "B_pask_diff": -0.0159,
+  "pask_diff_twin_balanced": -0.1053
+ },
+ "n_groups_early_late_by_twin": {
+  "A": [
+   28,
+   30
+  ],
+  "B": [
+   32,
+   30
+  ]
+ },
+ "perm_p_two_sided": {
+  "slope": 0.6626,
+  "A_diff": 0.0104,
+  "B_diff": 0.2122,
+  "A_pask_diff": 0.0081,
+  "B_pask_diff": 0.8054,
+  "pask_diff_twin_balanced": 0.0266,
+  "sd_step_means_null_mean": 0.2158,
+  "sd_step_means_p_ge_observed": 0.9791
+ },
+ "zero_prefix_sampled": [
+  {
+   "grpo_i": 262,
+   "scenario_id": "S03A",
+   "level": "L1",
+   "step": 28,
+   "pass_gold": 0.0,
+   "p_ask": 0.0,
+   "classes": "[[\"lookup\", 8]]"
+  },
+  {
+   "grpo_i": 372,
+   "scenario_id": "S02A",
+   "level": "L3",
+   "step": 19,
+   "pass_gold": 0.0,
+   "p_ask": 0.0,
+   "classes": "[[\"lookup\", 5], [\"approve_generic\", 3]]"
+  },
+  {
+   "grpo_i": 435,
+   "scenario_id": "S02A",
+   "level": "L2",
+   "step": 21,
+   "pass_gold": 0.0,
+   "p_ask": 0.125,
+   "classes": "[[\"lookup\", 5], [\"approve_generic\", 2], [\"ask_generic\", 1]]"
+  }
+ ],
+ "no_zero_prefix": {
+  "A_diff": {
+   "obs": -0.307,
+   "p": 0.0255
+  },
+  "A_pask_diff": {
+   "obs": -0.1465,
+   "p": 0.0368
+  },
+  "B_diff": {
+   "obs": 0.1066,
+   "p": 0.2137
+  },
+  "B_pask_diff": {
+   "obs": -0.0159,
+   "p": 0.8085
+  },
+  "pask_diff_twin_balanced": {
+   "obs": -0.0812,
+   "p": 0.073
+  }
+ },
+ "A_pask_logit_change": -0.8067,
+ "B_pask_logit_change": -0.0675
+}

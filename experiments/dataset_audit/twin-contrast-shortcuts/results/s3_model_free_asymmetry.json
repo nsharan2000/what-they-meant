@@ -1,0 +1,428 @@
+{
+ "train": {
+  "result_leaves": {
+   "A_more": 36,
+   "B_more": 9,
+   "equal": 202,
+   "n": 247,
+   "share_A_more_among_unequal": 0.8
+  },
+  "result_nulls": {
+   "A_more": 80,
+   "B_more": 93,
+   "equal": 74,
+   "n": 247,
+   "share_A_more_among_unequal": 0.462
+  },
+  "result_empties": {
+   "A_more": 19,
+   "B_more": 7,
+   "equal": 221,
+   "n": 247,
+   "share_A_more_among_unequal": 0.731
+  },
+  "result_falses": {
+   "A_more": 43,
+   "B_more": 10,
+   "equal": 194,
+   "n": 247,
+   "share_A_more_among_unequal": 0.811
+  },
+  "result_trues": {
+   "A_more": 10,
+   "B_more": 27,
+   "equal": 210,
+   "n": 247,
+   "share_A_more_among_unequal": 0.27
+  },
+  "result_zeros": {
+   "A_more": 41,
+   "B_more": 4,
+   "equal": 202,
+   "n": 247,
+   "share_A_more_among_unequal": 0.911
+  },
+  "result_chars": {
+   "A_more": 129,
+   "B_more": 95,
+   "equal": 23,
+   "n": 247,
+   "share_A_more_among_unequal": 0.576
+  },
+  "prompt_chars": {
+   "A_more": 128,
+   "B_more": 114,
+   "equal": 5,
+   "n": 247,
+   "share_A_more_among_unequal": 0.529
+  },
+  "cue_words_in_results": {
+   "A_more": 92,
+   "B_more": 78,
+   "equal": 77,
+   "n": 247,
+   "share_A_more_among_unequal": 0.541
+  },
+  "prompt_chars_same_setting": {
+   "A_more": 74,
+   "B_more": 55,
+   "equal": 5,
+   "n": 134
+  }
+ },
+ "val": {
+  "result_leaves": {
+   "A_more": 17,
+   "B_more": 0,
+   "equal": 39,
+   "n": 56,
+   "share_A_more_among_unequal": 1.0
+  },
+  "result_nulls": {
+   "A_more": 0,
+   "B_more": 36,
+   "equal": 20,
+   "n": 56,
+   "share_A_more_among_unequal": 0.0
+  },
+  "result_empties": {
+   "A_more": 0,
+   "B_more": 10,
+   "equal": 46,
+   "n": 56,
+   "share_A_more_among_unequal": 0.0
+  },
+  "result_falses": {
+   "A_more": 19,
+   "B_more": 4,
+   "equal": 33,
+   "n": 56,
+   "share_A_more_among_unequal": 0.826
+  },
+  "result_trues": {
+   "A_more": 0,
+   "B_more": 26,
+   "equal": 30,
+   "n": 56,
+   "share_A_more_among_unequal": 0.0
+  },
+  "result_zeros": {
+   "A_more": 0,
+   "B_more": 6,
+   "equal": 50,
+   "n": 56,
+   "share_A_more_among_unequal": 0.0
+  },
+  "result_chars": {
+   "A_more": 56,
+   "B_more": 0,
+   "equal": 0,
+   "n": 56,
+   "share_A_more_among_unequal": 1.0
+  },
+  "prompt_chars": {
+   "A_more": 46,
+   "B_more": 10,
+   "equal": 0,
+   "n": 56,
+   "share_A_more_among_unequal": 0.821
+  },
+  "cue_words_in_results": {
+   "A_more": 4,
+   "B_more": 36,
+   "equal": 16,
+   "n": 56,
+   "share_A_more_among_unequal": 0.1
+  },
+  "prompt_chars_same_setting": {
+   "A_more": 31,
+   "B_more": 3,
+   "equal": 0,
+   "n": 34
+  }
+ },
+ "test": {
+  "result_leaves": {
+   "A_more": 69,
+   "B_more": 20,
+   "equal": 47,
+   "n": 136,
+   "share_A_more_among_unequal": 0.775
+  },
+  "result_nulls": {
+   "A_more": 42,
+   "B_more": 47,
+   "equal": 47,
+   "n": 136,
+   "share_A_more_among_unequal": 0.472
+  },
+  "result_empties": {
+   "A_more": 0,
+   "B_more": 50,
+   "equal": 86,
+   "n": 136,
+   "share_A_more_among_unequal": 0.0
+  },
+  "result_falses": {
+   "A_more": 36,
+   "B_more": 27,
+   "equal": 73,
+   "n": 136,
+   "share_A_more_among_unequal": 0.571
+  },
+  "result_trues": {
+   "A_more": 7,
+   "B_more": 26,
+   "equal": 103,
+   "n": 136,
+   "share_A_more_among_unequal": 0.212
+  },
+  "result_zeros": {
+   "A_more": 20,
+   "B_more": 10,
+   "equal": 106,
+   "n": 136,
+   "share_A_more_among_unequal": 0.667
+  },
+  "result_chars": {
+   "A_more": 112,
+   "B_more": 14,
+   "equal": 10,
+   "n": 136,
+   "share_A_more_among_unequal": 0.889
+  },
+  "prompt_chars": {
+   "A_more": 123,
+   "B_more": 11,
+   "equal": 2,
+   "n": 136,
+   "share_A_more_among_unequal": 0.918
+  },
+  "cue_words_in_results": {
+   "A_more": 51,
+   "B_more": 44,
+   "equal": 41,
+   "n": 136,
+   "share_A_more_among_unequal": 0.537
+  },
+  "prompt_chars_same_setting": {
+   "A_more": 123,
+   "B_more": 11,
+   "equal": 2,
+   "n": 136
+  }
+ },
+ "hard_test": {
+  "result_leaves": {
+   "A_more": 9,
+   "B_more": 3,
+   "equal": 27,
+   "n": 39,
+   "share_A_more_among_unequal": 0.75
+  },
+  "result_nulls": {
+   "A_more": 9,
+   "B_more": 3,
+   "equal": 27,
+   "n": 39,
+   "share_A_more_among_unequal": 0.75
+  },
+  "result_empties": {
+   "A_more": 3,
+   "B_more": 6,
+   "equal": 30,
+   "n": 39,
+   "share_A_more_among_unequal": 0.333
+  },
+  "result_falses": {
+   "A_more": 3,
+   "B_more": 0,
+   "equal": 36,
+   "n": 39,
+   "share_A_more_among_unequal": 1.0
+  },
+  "result_trues": {
+   "A_more": 0,
+   "B_more": 3,
+   "equal": 36,
+   "n": 39,
+   "share_A_more_among_unequal": 0.0
+  },
+  "result_zeros": {
+   "A_more": 9,
+   "B_more": 6,
+   "equal": 24,
+   "n": 39,
+   "share_A_more_among_unequal": 0.6
+  },
+  "result_chars": {
+   "A_more": 18,
+   "B_more": 3,
+   "equal": 18,
+   "n": 39,
+   "share_A_more_among_unequal": 0.857
+  },
+  "prompt_chars": {
+   "A_more": 21,
+   "B_more": 9,
+   "equal": 9,
+   "n": 39,
+   "share_A_more_among_unequal": 0.7
+  },
+  "cue_words_in_results": {
+   "A_more": 21,
+   "B_more": 3,
+   "equal": 15,
+   "n": 39,
+   "share_A_more_among_unequal": 0.875
+  },
+  "prompt_chars_same_setting": {
+   "A_more": 21,
+   "B_more": 9,
+   "equal": 9,
+   "n": 39
+  }
+ },
+ "hard_val": {
+  "result_leaves": {
+   "A_more": 6,
+   "B_more": 0,
+   "equal": 9,
+   "n": 15,
+   "share_A_more_among_unequal": 1.0
+  },
+  "result_nulls": {
+   "A_more": 3,
+   "B_more": 3,
+   "equal": 9,
+   "n": 15,
+   "share_A_more_among_unequal": 0.5
+  },
+  "result_empties": {
+   "A_more": 0,
+   "B_more": 0,
+   "equal": 15,
+   "n": 15,
+   "share_A_more_among_unequal": null
+  },
+  "result_falses": {
+   "A_more": 3,
+   "B_more": 3,
+   "equal": 9,
+   "n": 15,
+   "share_A_more_among_unequal": 0.5
+  },
+  "result_trues": {
+   "A_more": 0,
+   "B_more": 6,
+   "equal": 9,
+   "n": 15,
+   "share_A_more_among_unequal": 0.0
+  },
+  "result_zeros": {
+   "A_more": 3,
+   "B_more": 0,
+   "equal": 12,
+   "n": 15,
+   "share_A_more_among_unequal": 1.0
+  },
+  "result_chars": {
+   "A_more": 6,
+   "B_more": 6,
+   "equal": 3,
+   "n": 15,
+   "share_A_more_among_unequal": 0.5
+  },
+  "prompt_chars": {
+   "A_more": 9,
+   "B_more": 6,
+   "equal": 0,
+   "n": 15,
+   "share_A_more_among_unequal": 0.6
+  },
+  "cue_words_in_results": {
+   "A_more": 3,
+   "B_more": 6,
+   "equal": 6,
+   "n": 15,
+   "share_A_more_among_unequal": 0.333
+  },
+  "prompt_chars_same_setting": {
+   "A_more": 9,
+   "B_more": 6,
+   "equal": 0,
+   "n": 15
+  }
+ },
+ "hard_train": {
+  "result_leaves": {
+   "A_more": 21,
+   "B_more": 6,
+   "equal": 54,
+   "n": 81,
+   "share_A_more_among_unequal": 0.778
+  },
+  "result_nulls": {
+   "A_more": 9,
+   "B_more": 9,
+   "equal": 63,
+   "n": 81,
+   "share_A_more_among_unequal": 0.5
+  },
+  "result_empties": {
+   "A_more": 3,
+   "B_more": 3,
+   "equal": 75,
+   "n": 81,
+   "share_A_more_among_unequal": 0.5
+  },
+  "result_falses": {
+   "A_more": 6,
+   "B_more": 3,
+   "equal": 72,
+   "n": 81,
+   "share_A_more_among_unequal": 0.667
+  },
+  "result_trues": {
+   "A_more": 3,
+   "B_more": 9,
+   "equal": 69,
+   "n": 81,
+   "share_A_more_among_unequal": 0.25
+  },
+  "result_zeros": {
+   "A_more": 12,
+   "B_more": 9,
+   "equal": 60,
+   "n": 81,
+   "share_A_more_among_unequal": 0.571
+  },
+  "result_chars": {
+   "A_more": 33,
+   "B_more": 24,
+   "equal": 24,
+   "n": 81,
+   "share_A_more_among_unequal": 0.579
+  },
+  "prompt_chars": {
+   "A_more": 42,
+   "B_more": 28,
+   "equal": 11,
+   "n": 81,
+   "share_A_more_among_unequal": 0.6
+  },
+  "cue_words_in_results": {
+   "A_more": 21,
+   "B_more": 12,
+   "equal": 48,
+   "n": 81,
+   "share_A_more_among_unequal": 0.636
+  },
+  "prompt_chars_same_setting": {
+   "A_more": 42,
+   "B_more": 28,
+   "equal": 11,
+   "n": 81
+  }
+ }
+}

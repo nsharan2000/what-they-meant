@@ -1,0 +1,329 @@
+{
+ "grpo_zero_prefix_rows": 16,
+ "grpo_zero_prefix_scenarios": {
+  "S03B": 4,
+  "S02A": 4,
+  "S02B": 4,
+  "S03A": 4
+ },
+ "sft_two_message_prompts_by_turn": {
+  "lookup1": 401,
+  "decision": 16
+ },
+ "sft_prompt_len_by_turn": {
+  "decision|4": 475,
+  "lookup1|2": 401,
+  "lookup2|4": 6,
+  "decision|2": 16,
+  "decision|6": 6
+ },
+ "lookups_total": 32,
+ "lookups_by_twin": {
+  "A": 26,
+  "B": 6
+ },
+ "lookup_prompts": {
+  "262": 8,
+  "372": 5,
+  "435": 5,
+  "468": 5,
+  "21": 4,
+  "115": 2,
+  "65": 1,
+  "165": 1,
+  "185": 1
+ },
+ "lookups_in_top5_prompts": 27,
+ "sampled_zero_prefix_prompts": [
+  262,
+  372,
+  435
+ ],
+ "sampled_zero_prefix_classes": {
+  "lookup": 18,
+  "approve_generic": 5,
+  "ask_generic": 1
+ },
+ "sampled_zero_prefix_by_twin": {
+  "A|lookup": 18,
+  "A|approve_generic": 5,
+  "A|ask_generic": 1
+ },
+ "lookup_rows_top": [
+  {
+   "grpo_i": 262,
+   "sid": "S03A",
+   "level": "L1",
+   "zero_prefix": true,
+   "n_lookup": 8
+  },
+  {
+   "grpo_i": 372,
+   "sid": "S02A",
+   "level": "L3",
+   "zero_prefix": true,
+   "n_lookup": 5
+  },
+  {
+   "grpo_i": 435,
+   "sid": "S02A",
+   "level": "L2",
+   "zero_prefix": true,
+   "n_lookup": 5
+  },
+  {
+   "grpo_i": 468,
+   "sid": "S26A",
+   "level": "L3",
+   "zero_prefix": false,
+   "n_lookup": 5
+  },
+  {
+   "grpo_i": 21,
+   "sid": "S26B",
+   "level": "L2",
+   "zero_prefix": false,
+   "n_lookup": 4
+  },
+  {
+   "grpo_i": 115,
+   "sid": "S04B",
+   "level": "L3",
+   "zero_prefix": false,
+   "n_lookup": 2
+  },
+  {
+   "grpo_i": 65,
+   "sid": "V044A",
+   "level": "L0r",
+   "zero_prefix": false,
+   "n_lookup": 1
+  },
+  {
+   "grpo_i": 165,
+   "sid": "V113A",
+   "level": "L1",
+   "zero_prefix": false,
+   "n_lookup": 1
+  }
+ ],
+ "zero_prefix_sft_targets_first60": [
+  "<tool_call>{\"name\": \"request_approval\", \"arguments\": {\"summa",
+  "The pending invoice T-118 and your last payment to Mr. Lim a",
+  "The seller's chat message gives k-weber@mailbox.de, but you "
+ ],
+ "rows_with_unparsed_tool_results": 0,
+ "share_rows_with_empty_or_null_leaf": {
+  "A": 0.6192,
+  "B": 0.7344
+ },
+ "B_pask_by_empty_ge2": {
+  "ge2": 0.4208,
+  "lt2": 0.3398,
+  "n_ge2": 30,
+  "n_lt2": 32
+ },
+ "B_spearman_pask_vs_n_empty": 0.1436,
+ "B_spearman_pask_vs_empty_share": 0.1324,
+ "B_spearman_perm_p": 0.2616,
+ "A_spearman_pask_vs_n_empty": 0.0192,
+ "B_lowest_pass": [
+  {
+   "grpo_i": 294,
+   "sid": "V254B",
+   "level": "L1",
+   "pass": 0.0,
+   "p_ask": 1.0,
+   "classes": [
+    [
+     "ask_informed",
+     4
+    ],
+    [
+     "ask_generic",
+     3
+    ],
+    [
+     "tell_informed",
+     1
+    ]
+   ],
+   "n_empty": 2
+  },
+  {
+   "grpo_i": 232,
+   "sid": "V061B",
+   "level": "L0r",
+   "pass": 0.0,
+   "p_ask": 1.0,
+   "classes": [
+    [
+     "ask_informed",
+     5
+    ],
+    [
+     "ask_generic",
+     2
+    ],
+    [
+     "tell_informed",
+     1
+    ]
+   ],
+   "n_empty": 0
+  },
+  {
+   "grpo_i": 163,
+   "sid": "V104B",
+   "level": "L1",
+   "pass": 0.0,
+   "p_ask": 0.125,
+   "classes": [
+    [
+     "approve_generic",
+     5
+    ],
+    [
+     "commit_other",
+     2
+    ],
+    [
+     "ask_informed",
+     1
+    ]
+   ],
+   "n_empty": 0
+  },
+  {
+   "grpo_i": 1,
+   "sid": "V581B",
+   "level": "L2",
+   "pass": 0.125,
+   "p_ask": 0.875,
+   "classes": [
+    [
+     "ask_generic",
+     5
+    ],
+    [
+     "ask_informed",
+     2
+    ],
+    [
+     "approve_generic",
+     1
+    ]
+   ],
+   "n_empty": 3
+  },
+  {
+   "grpo_i": 261,
+   "sid": "S22B",
+   "level": "L0r",
+   "pass": 0.125,
+   "p_ask": 0.75,
+   "classes": [
+    [
+     "ask_informed",
+     3
+    ],
+    [
+     "ask_generic",
+     3
+    ],
+    [
+     "approve_generic",
+     1
+    ],
+    [
+     "commit_other",
+     1
+    ]
+   ],
+   "n_empty": 4
+  },
+  {
+   "grpo_i": 494,
+   "sid": "V184B",
+   "level": "L0r",
+   "pass": 0.125,
+   "p_ask": 0.875,
+   "classes": [
+    [
+     "ask_informed",
+     4
+    ],
+    [
+     "ask_generic",
+     3
+    ],
+    [
+     "approve_generic",
+     1
+    ]
+   ],
+   "n_empty": 6
+  }
+ ],
+ "B_approve_prompts_pass0": 2,
+ "B_approve_prompts_pass_1of8": 3,
+ "B_informed_asks_total": 87,
+ "B_informed_asks_on_prompts_without_any_term_anywhere": 28,
+ "B_prompts_without_any_term_anywhere": "28/62",
+ "B_informed_asks_without_term_examples": [
+  {
+   "grpo_i": 10,
+   "sid": "S18B",
+   "level": "L0r",
+   "term_in_turns": false,
+   "term_in_full": false,
+   "ask_informed": 2
+  },
+  {
+   "grpo_i": 33,
+   "sid": "V553B",
+   "level": "L0r",
+   "term_in_turns": false,
+   "term_in_full": false,
+   "ask_informed": 3
+  },
+  {
+   "grpo_i": 71,
+   "sid": "V551B",
+   "level": "L1",
+   "term_in_turns": false,
+   "term_in_full": false,
+   "ask_informed": 1
+  },
+  {
+   "grpo_i": 163,
+   "sid": "V104B",
+   "level": "L1",
+   "term_in_turns": false,
+   "term_in_full": false,
+   "ask_informed": 1
+  },
+  {
+   "grpo_i": 195,
+   "sid": "V554B",
+   "level": "L2",
+   "term_in_turns": false,
+   "term_in_full": false,
+   "ask_informed": 2
+  },
+  {
+   "grpo_i": 211,
+   "sid": "V044B",
+   "level": "L1",
+   "term_in_turns": false,
+   "term_in_full": false,
+   "ask_informed": 1
+  }
+ ],
+ "twin_diff_difflib_chars": {
+  "n": 134,
+  "median": 41.0,
+  "min": 1,
+  "max": 2105
+ }
+}

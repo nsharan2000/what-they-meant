@@ -1,0 +1,8 @@
+{
+ "sft_decision_rows_classified": 496,
+ "scenarios": 152,
+ "scenarios_with_level_dependent_target": 0,
+ "examples_varying": {},
+ "grpo_unique_scenario_level_keys": true,
+ "grpo_rows": 496
+}

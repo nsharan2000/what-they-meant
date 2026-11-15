@@ -1,0 +1,1 @@
+{"text": "{\n  \"account_last_four\": \"9083\",\n  \"change_approved_date\": \"2023-11-05\",\n  \"callback_verification_status\": \"verified\"\n}", "usage": {"completion_tokens": 42, "prompt_tokens": 269, "total_tokens": 311, "completion_tokens_details": null, "prompt_tokens_details": null, "estimated_cost": 4.731e-05}, "finish": "stop"}

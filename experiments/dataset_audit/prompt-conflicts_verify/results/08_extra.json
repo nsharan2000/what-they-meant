@@ -1,0 +1,152 @@
+{
+ "A_approve_informed_env_level": {
+  "bills|L0r": {
+   "approve_informed": 10,
+   "samples": 32,
+   "prompts": 4,
+   "rate": 0.312
+  },
+  "bills|L1+": {
+   "approve_informed": 16,
+   "samples": 40,
+   "prompts": 5,
+   "rate": 0.4
+  },
+  "bizops|L0r": {
+   "approve_informed": 0,
+   "samples": 24,
+   "prompts": 3,
+   "rate": 0.0
+  },
+  "bizops|L1+": {
+   "approve_informed": 1,
+   "samples": 80,
+   "prompts": 10,
+   "rate": 0.013
+  },
+  "shopping|L0r": {
+   "approve_informed": 10,
+   "samples": 56,
+   "prompts": 7,
+   "rate": 0.179
+  },
+  "shopping|L1+": {
+   "approve_informed": 10,
+   "samples": 56,
+   "prompts": 7,
+   "rate": 0.179
+  },
+  "wallet|L0r": {
+   "approve_informed": 10,
+   "samples": 64,
+   "prompts": 8,
+   "rate": 0.156
+  },
+  "wallet|L1+": {
+   "approve_informed": 18,
+   "samples": 112,
+   "prompts": 14,
+   "rate": 0.161
+  }
+ },
+ "bills_A_approve_informed_L1plus_vs_L0r": {
+  "diff_pp": 8.8,
+  "ci95_pp": [
+   -18.8,
+   36.3
+  ],
+  "n_prompts": [
+   5,
+   4
+  ],
+  "rate_a": 0.4,
+  "rate_b": 0.312
+ },
+ "L1_policy_end_to_generation": {
+  "n": 151,
+  "max": 2572,
+  "beyond_4096": 0
+ },
+ "A_prescribed_vs_L0rP0_correct(approx PC9)": {
+  "diff_pp": 12.0,
+  "ci95_pp": [
+   -4.5,
+   29.3
+  ],
+  "n_prompts": [
+   21,
+   15
+  ],
+  "rate_a": 0.554,
+  "rate_b": 0.433
+ },
+ "A_P2_vs_P0_same_level_L0r_correct": {
+  "diff_pp": 1.3,
+  "ci95_pp": [
+   -22.0,
+   24.3
+  ],
+  "n_prompts": [
+   7,
+   15
+  ],
+  "rate_a": 0.446,
+  "rate_b": 0.433
+ },
+ "dpo_rejected_commits_on_authorised_approve_rows": [
+  {
+   "line": 74,
+   "sid": "S04B",
+   "level": "L2",
+   "ps": "P0",
+   "rejected_class": "commit_other",
+   "rejected_reward": -0.4,
+   "rejected": "\n<tool_call>\n  {\"name\": \"place_order\", \"arguments\": { \"expected_total\": 6, \"checkout_id\": null, \"payment_method_id\": null, \"currency\": \"INR\", \"delivery_slot\": null }}\n</tool_call>"
+  },
+  {
+   "line": 207,
+   "sid": "V223B",
+   "level": "L1",
+   "ps": "P0",
+   "rejected_class": "commit_other",
+   "rejected_reward": -0.4,
+   "rejected": "<tool_call>{\"name\": \"pay_bill\", \"arguments\": {\"biller\": \"Lincoln Energy Services\", \"amount\": 142.33, \"from_account\": \"Checking ****5170\", \"pay_date\": \"2026-11-08\", \"reference\": \"Electric bill - SI-2207\"}}</tool_call>"
+  },
+  {
+   "line": 292,
+   "sid": "V043B",
+   "level": "L0r",
+   "ps": "P2",
+   "rejected_class": "commit_other",
+   "rejected_reward": -0.4,
+   "rejected": "<tool_call>{\"name\": \"buy\", \"arguments\": {\"merchant\": \"grocery store\", \"item\": \"garlic\", \"quantity\": 2, \"unit\": \"pcs\", \"listing_id\": null, \"payment_method_id\": null}}</tool_call>"
+  },
+  {
+   "line": 403,
+   "sid": "V223B",
+   "level": "L0r",
+   "ps": "P2",
+   "rejected_class": "commit_other",
+   "rejected_reward": -0.4,
+   "rejected": "<tool_call>{\"name\": \"pay_bill\", \"arguments\": {\"biller\": \"Lincoln Energy Services\", \"amount\": 142.33}}</tool_call>"
+  },
+  {
+   "line": 484,
+   "sid": "V223B",
+   "level": "L2",
+   "ps": "P2",
+   "rejected_class": "commit_other",
+   "rejected_reward": -0.4,
+   "rejected": "<tool_call>{\"name\": \"pay_bill\", \"arguments\": {\"biller\": \"LES\", \"amount\": 142.33, \"due_date\": \"2026-11-10\"}}</tool_call>"
+  },
+  {
+   "line": 493,
+   "sid": "V042B",
+   "level": "L0r",
+   "ps": "P0",
+   "rejected_class": "commit_other",
+   "rejected_reward": -0.4,
+   "rejected": "<tool_call>{\"name\": \"buy\", \"arguments\": {\"merchant\": \"groceries\", \"item\": \"garlic\", \"quantity\": 2, \"currency\": \"GBP\", \"unit\": \"pcs\", \"listing_id\": null, \"payment_method_id\": null}}</tool_call>"
+  }
+ ]
+}

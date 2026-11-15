@@ -1,0 +1,104 @@
+{
+ "a_train_vs_eval_context": {
+  "sft_train_decision_rows": 497,
+  "sft_train_identical_to_eval_context": 497,
+  "sft_val_decision_rows": 112,
+  "sft_val_identical_to_eval_context": 112
+ },
+ "a_mismatch_examples": [],
+ "b_first_prompts": {
+  "test": {
+   "counts": {
+    "L0r_identical_first_prompt": 15,
+    "L1_identical_first_prompt": 18,
+    "L2_identical_first_prompt": 18,
+    "pairs": 41,
+    "L0r_identical_prompt_but_different_canonical_first_call": 1,
+    "L1_identical_prompt_but_different_canonical_first_call": 1,
+    "L2_identical_prompt_but_different_canonical_first_call": 1
+   },
+   "conflicts": [
+    [
+     "V291",
+     "L0r",
+     "{\"arguments\": {\"ticket_id\": 4412}, \"tool\": \"get_ticket\"}",
+     "{\"arguments\": {\"ticket_id\": 4413}, \"tool\": \"get_ticket\"}"
+    ],
+    [
+     "V291",
+     "L1",
+     "{\"arguments\": {\"ticket_id\": 4412}, \"tool\": \"get_ticket\"}",
+     "{\"arguments\": {\"ticket_id\": 4413}, \"tool\": \"get_ticket\"}"
+    ],
+    [
+     "V291",
+     "L2",
+     "{\"arguments\": {\"ticket_id\": 4412}, \"tool\": \"get_ticket\"}",
+     "{\"arguments\": {\"ticket_id\": 4413}, \"tool\": \"get_ticket\"}"
+    ]
+   ]
+  },
+  "hard_test": {
+   "counts": {
+    "L0r_identical_first_prompt": 6,
+    "L1_identical_first_prompt": 9,
+    "L2_identical_first_prompt": 9,
+    "pairs": 13
+   },
+   "conflicts": []
+  },
+  "val": {
+   "counts": {
+    "L0r_identical_first_prompt": 15,
+    "L1_identical_first_prompt": 15,
+    "L2_identical_first_prompt": 15,
+    "pairs": 17
+   },
+   "conflicts": []
+  }
+ },
+ "c_base_arm": {
+  "base_rows": 1374,
+  "base_rows_matching_current_render": 1374
+ },
+ "c_base_first_action_canonical_lookup": {
+  "L0r_same_tool_any_args": 32,
+  "L0r": 2,
+  "L1_same_tool_any_args": 10,
+  "L2_same_tool_any_args": 9,
+  "L1": 5,
+  "L2": 6,
+  "L2s": 4,
+  "L2s_same_tool_any_args": 8
+ },
+ "c_drift_rows(id,level,prompt,recorded_chars,current_chars,same_user)": [],
+ "c_drift_ids": [],
+ "c_drift_ids_by_split": {},
+ "d_clusters": {
+  "test": {
+   "rows": 82,
+   "pairs": 41,
+   "source_post_clusters": 13,
+   "max_rows_per_cluster": 10
+  },
+  "hard_test": {
+   "rows": 26,
+   "pairs": 13,
+   "source_post_clusters": 13,
+   "max_rows_per_cluster": 2
+  },
+  "val": {
+   "rows": 35,
+   "pairs": 17,
+   "source_post_clusters": 5,
+   "max_rows_per_cluster": 11
+  },
+  "hard_val": {
+   "rows": 10,
+   "pairs": 5,
+   "source_post_clusters": 5,
+   "max_rows_per_cluster": 2
+  },
+  "hard_test_rows_sharing_a_cluster_with_test": 26
+ }
+}

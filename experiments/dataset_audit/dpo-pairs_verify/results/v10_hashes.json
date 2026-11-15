@@ -1,0 +1,12 @@
+{
+ "sft_train_sha_local": "bf2791f90e2f78b17aeaca00dcd4e45eef1ee39f0a6e39bcdcebdbab83efea6b",
+ "sft_train_sha_m1_args": "bf2791f90e2f78b17aeaca00dcd4e45eef1ee39f0a6e39bcdcebdbab83efea6b",
+ "sft_val_sha_local": "97b10fca9e7af9f4a9cfa8fcee1f898fa4f89ec46b8c78156f777d603aa694de",
+ "sft_val_sha_m1_args": "97b10fca9e7af9f4a9cfa8fcee1f898fa4f89ec46b8c78156f777d603aa694de",
+ "grpo_sha_local": "1d921563f4c80b7e8ee0ba28c9273b6ff8009e63d648a059d7e3865eeb46eaa9",
+ "grpo_sha_m2_args": "1d921563f4c80b7e8ee0ba28c9273b6ff8009e63d648a059d7e3865eeb46eaa9",
+ "dpo_pairs_sha256_local(train_dpo formula)": "2d679c1129c47b5560e57acef485664a3382efba6f1210e1ab2d4f5eef742158",
+ "sft_train_match": true,
+ "sft_val_match": true,
+ "grpo_match": true
+}

@@ -1,0 +1,370 @@
+{
+ "loss_validation": {
+  "corr": 0.8322,
+  "slope_logged_on_pred": 1.087,
+  "mean_abs_diff": 0.02861
+ },
+ "recomputed_scores_match": true,
+ "push_current": {
+  "A|approve": {
+   "n": 162,
+   "sum_adv": -132.937,
+   "mean_adv": -0.821,
+   "frac_pos_adv": 0.074,
+   "token_weighted": -4.1734
+  },
+  "A|ask": {
+   "n": 264,
+   "sum_adv": 137.796,
+   "mean_adv": 0.522,
+   "frac_pos_adv": 0.845,
+   "token_weighted": 4.2982
+  },
+  "A|commit": {
+   "n": 8,
+   "sum_adv": -9.584,
+   "mean_adv": -1.198,
+   "frac_pos_adv": 0.0,
+   "token_weighted": -0.3099
+  },
+  "A|invalid": {
+   "n": 3,
+   "sum_adv": -3.272,
+   "mean_adv": -1.091,
+   "frac_pos_adv": 0.0,
+   "token_weighted": -0.1177
+  },
+  "A|lookup": {
+   "n": 26,
+   "sum_adv": 7.9,
+   "mean_adv": 0.304,
+   "frac_pos_adv": 0.615,
+   "token_weighted": 0.1917
+  },
+  "A|statement": {
+   "n": 1,
+   "sum_adv": 0.097,
+   "mean_adv": 0.097,
+   "frac_pos_adv": 1.0,
+   "token_weighted": 0.0043
+  },
+  "B|approve": {
+   "n": 261,
+   "sum_adv": 180.807,
+   "mean_adv": 0.693,
+   "frac_pos_adv": 0.954,
+   "token_weighted": 5.4681
+  },
+  "B|ask": {
+   "n": 188,
+   "sum_adv": -170.59,
+   "mean_adv": -0.907,
+   "frac_pos_adv": 0.0,
+   "token_weighted": -5.2764
+  },
+  "B|commit": {
+   "n": 34,
+   "sum_adv": 1.826,
+   "mean_adv": 0.054,
+   "frac_pos_adv": 0.559,
+   "token_weighted": 0.0106
+  },
+  "B|invalid": {
+   "n": 4,
+   "sum_adv": -6.772,
+   "mean_adv": -1.693,
+   "frac_pos_adv": 0.0,
+   "token_weighted": -0.2721
+  },
+  "B|lookup": {
+   "n": 6,
+   "sum_adv": -2.438,
+   "mean_adv": -0.406,
+   "frac_pos_adv": 0.0,
+   "token_weighted": -0.0672
+  },
+  "B|statement": {
+   "n": 3,
+   "sum_adv": -2.834,
+   "mean_adv": -0.945,
+   "frac_pos_adv": 0.0,
+   "token_weighted": -0.0906
+  }
+ },
+ "push_current_total": {
+  "approve": {
+   "sum_adv": 47.87,
+   "token_weighted": 1.2947,
+   "n": 423
+  },
+  "ask": {
+   "sum_adv": -32.794,
+   "token_weighted": -0.9783,
+   "n": 452
+  },
+  "commit": {
+   "sum_adv": -7.757,
+   "token_weighted": -0.2992,
+   "n": 42
+  },
+  "invalid": {
+   "sum_adv": -10.045,
+   "token_weighted": -0.3898,
+   "n": 7
+  },
+  "lookup": {
+   "sum_adv": 5.462,
+   "token_weighted": 0.1245,
+   "n": 32
+  },
+  "statement": {
+   "sum_adv": -2.737,
+   "token_weighted": -0.0863,
+   "n": 4
+  }
+ },
+ "mean_tokens_by_family": {
+  "A|approve": 52.1,
+  "A|ask": 51.1,
+  "A|commit": 51.2,
+  "A|invalid": 58.0,
+  "A|lookup": 39.8,
+  "A|statement": 64.0,
+  "B|approve": 49.3,
+  "B|ask": 51.2,
+  "B|commit": 64.2,
+  "B|invalid": 75.8,
+  "B|lookup": 45.3,
+  "B|statement": 49.3
+ },
+ "A_wrong_but_reinforced": {
+  "approve_informed": {
+   "n": 75,
+   "n_pos_adv": 12,
+   "sum_pos_adv": 3.074
+  },
+  "approve_gold": {
+   "n": 4,
+   "n_pos_adv": 0,
+   "sum_pos_adv": 0.0
+  },
+  "lookup": {
+   "n": 26,
+   "n_pos_adv": 16,
+   "sum_pos_adv": 9.976
+  },
+  "ask_generic": {
+   "n": 36,
+   "n_pos_adv": 7,
+   "sum_pos_adv": 6.255
+  },
+  "statement": {
+   "n": 1,
+   "n_pos_adv": 1,
+   "sum_pos_adv": 0.097
+  },
+  "approve_generic": {
+   "n": 83,
+   "n_pos_adv": 0,
+   "sum_pos_adv": 0.0
+  }
+ },
+ "B_wrong_but_reinforced": {
+  "lookup": {
+   "n": 6,
+   "n_pos_adv": 0
+  },
+  "ask_generic": {
+   "n": 101,
+   "n_pos_adv": 0
+  },
+  "ask_informed": {
+   "n": 84,
+   "n_pos_adv": 0
+  },
+  "commit_other": {
+   "n": 10,
+   "n_pos_adv": 0
+  },
+  "commit_gold": {
+   "n": 24,
+   "n_pos_adv": 19
+  }
+ },
+ "per_step_push": {
+  "corr_ask_minus_approve_vs_nA": 0.8774,
+  "by_nA": {
+   "0": {
+    "n_steps": 1,
+    "mean_ask_minus_approve": -21.326
+   },
+   "1": {
+    "n_steps": 9,
+    "mean_ask_minus_approve": -13.001
+   },
+   "2": {
+    "n_steps": 13,
+    "mean_ask_minus_approve": -1.339
+   },
+   "3": {
+    "n_steps": 5,
+    "mean_ask_minus_approve": 8.72
+   },
+   "4": {
+    "n_steps": 2,
+    "mean_ask_minus_approve": 15.738
+   }
+  },
+  "n_A_prompts_distribution": {
+   "0": 1,
+   "1": 9,
+   "2": 13,
+   "3": 5,
+   "4": 2
+  },
+  "sum_abs_step_push": 276.788,
+  "abs_sum_step_push": 80.664
+ },
+ "counterfactual": {
+  "current": {
+   "A": {
+    "ask": 137.796,
+    "approve": -132.937,
+    "commit": -9.584,
+    "lookup": 7.9,
+    "statement": 0.097,
+    "invalid": -3.272
+   },
+   "B": {
+    "ask": -170.59,
+    "approve": 180.807,
+    "commit": 1.826,
+    "lookup": -2.438,
+    "statement": -2.834,
+    "invalid": -6.772
+   },
+   "total": {
+    "ask": -32.794,
+    "approve": 47.87,
+    "commit": -7.757,
+    "lookup": 5.462,
+    "statement": -2.737,
+    "invalid": -10.045
+   },
+   "shared_bias_ask_minus_approve": -80.664,
+   "discriminative_(askA-askB)-(appA-appB)": 622.13,
+   "zero_var_frac": 0.05
+  },
+  "no_card_credit_on_A(approve_informed/gold -0.5), lookup -0.5": {
+   "A": {
+    "ask": 147.491,
+    "approve": -141.596,
+    "commit": -8.831,
+    "lookup": 4.861,
+    "statement": 1.347,
+    "invalid": -3.272
+   },
+   "B": {
+    "ask": -169.647,
+    "approve": 181.035,
+    "commit": 1.826,
+    "lookup": -4.031,
+    "statement": -2.411,
+    "invalid": -6.772
+   },
+   "total": {
+    "ask": -22.156,
+    "approve": 39.438,
+    "commit": -7.005,
+    "lookup": 0.831,
+    "statement": -1.063,
+    "invalid": -10.045
+   },
+   "shared_bias_ask_minus_approve": -61.594,
+   "discriminative_(askA-askB)-(appA-appB)": 639.769,
+   "zero_var_frac": 0.05
+  },
+  "symmetric(B asks -1.0)": {
+   "A": {
+    "ask": 137.796,
+    "approve": -132.937,
+    "commit": -9.584,
+    "lookup": 7.9,
+    "statement": 0.097,
+    "invalid": -3.272
+   },
+   "B": {
+    "ask": -177.09,
+    "approve": 179.87,
+    "commit": 6.363,
+    "lookup": -1.382,
+    "statement": -1.855,
+    "invalid": -5.906
+   },
+   "total": {
+    "ask": -39.294,
+    "approve": 46.933,
+    "commit": -3.221,
+    "lookup": 6.518,
+    "statement": -1.759,
+    "invalid": -9.178
+   },
+   "shared_bias_ask_minus_approve": -86.227,
+   "discriminative_(askA-askB)-(appA-appB)": 627.693,
+   "zero_var_frac": 0.05
+  },
+  "binary(gold +1 else -1)": {
+   "A": {
+    "ask": 135.841,
+    "approve": -122.403,
+    "commit": -8.274,
+    "lookup": -2.683,
+    "statement": 0.0,
+    "invalid": -2.482
+   },
+   "B": {
+    "ask": -169.501,
+    "approve": 177.606,
+    "commit": 3.886,
+    "lookup": -4.031,
+    "statement": -2.411,
+    "invalid": -5.55
+   },
+   "total": {
+    "ask": -33.66,
+    "approve": 55.203,
+    "commit": -4.388,
+    "lookup": -6.713,
+    "statement": -2.411,
+    "invalid": -8.031
+   },
+   "shared_bias_ask_minus_approve": -88.863,
+   "discriminative_(askA-askB)-(appA-appB)": 605.351,
+   "zero_var_frac": 0.1083
+  }
+ },
+ "nondiscriminating_policy": {
+  "family_value_given_M1_split": {
+   "A": {
+    "ask": 0.7803030303030303,
+    "approve": -0.38425925925925924
+   },
+   "B_approve": {
+    "ask": -0.5,
+    "approve": 1.0
+   },
+   "B_act": {
+    "ask": -0.5,
+    "approve": 0.5
+   }
+  },
+  "cell_share_grpo_set": {
+   "A": 0.498,
+   "B_approve": 0.4657,
+   "B_act": 0.0363
+  },
+  "dE_reward_d_P(ask)": -0.1549,
+  "reading": "negative = a policy that ignores the twin gains reward by approving more",
+  "observed_informed_share_of_A_asks": 0.8636
+ }
+}
