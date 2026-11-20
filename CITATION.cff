@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use or adapt this work, please credit it as below."
+title: "What They Meant: an RL environment for AI agents that hold the payment keys"
+authors:
+  - given-names: Sharan
+    family-names: Nagarajan
+  - alias: GLKAR
+date-released: 2026-11-16
+url: "https://github.com/nsharan2000/what-they-meant"
+repository-code: "https://github.com/nsharan2000/what-they-meant"
+license: Apache-2.0
+keywords:
+  - reinforcement learning
+  - AI agents
+  - tool use
+  - payments
+  - benchmark

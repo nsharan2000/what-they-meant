@@ -776,7 +776,7 @@
  "provenance": {
   "rebuild_sft_train_sha256": "de5631ae85c38474781f9ccaef6c040b396507e19767d3fc3365a01ee9759637",
   "original_build_sft_train_sha256": "de5631ae85c38474781f9ccaef6c040b396507e19767d3fc3365a01ee9759637",
-  "original_build_path": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/v121_check",
+  "original_build_path": "scratch/v121_check",
   "rebuild_sft_val_sha256": "cf122cffd91dc66dd358f1b07228de0575dc0e1e77e9f6dd6777028bfeb79847",
   "curated_sft_val_sha256": "cf122cffd91dc66dd358f1b07228de0575dc0e1e77e9f6dd6777028bfeb79847",
   "rebuild_build_report_counts": {

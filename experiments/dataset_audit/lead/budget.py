@@ -81,7 +81,7 @@ CHAINS = {
     "B_if_J2_not_approved": ["J1_probe", "J3_grpo_v2", "J4_weighted_sft", "AUDIT_final_arm"],
 }
 T0 = {"best": datetime(2026, 11, 15, 3, 0), "worst": datetime(2026, 11, 15, 6, 0)}   # pipeline end (brief)
-CUTOFF = datetime(2026, 11, 16, 7, 29)            # deadline Mon 17:29 IST minus 10 h for judging/report/publishing
+CUTOFF = datetime(2026, 11, 16, 7, 29)            # last moment for GPU work (Mon 07:29 IST)
 BUDGET_H = 18.0                                   # brief: realistic GPU hours after the pipeline
 
 fmt = lambda d: d.strftime("%a %H:%M")

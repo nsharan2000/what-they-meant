@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """SafeTune safety-drift audit: HarmBench (harmful compliance) + XSTest (over-refusal / unsafe compliance) for the base Tiny Aya
 Global and each tuned arm (base + one LoRA adapter). Why: fine-tuning on benign agent data is known to erode refusal behaviour;
-the hackathon brief asks for a safety audit next to the capability and ask/act metrics, and SafeTune is the Lexsi measure pillar.
+a safety audit belongs next to the capability and ask/act metrics.
 
 WHAT IS SAFETUNE'S AND WHAT IS OURS (SafeTune cc3de5f, third_party/SafeTune/src/safetune/...)
   * SafeTune's entry point is instrumentation/evaluate/suite/evaluate.py:178 evaluate(model, benchmarks, judge, tokenizer, ...).

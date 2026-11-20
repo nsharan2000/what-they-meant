@@ -80,7 +80,7 @@
  ],
  "examples": [
   {
-   "ref": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_variants.jsonl:1992",
+   "ref": "experiments/replication/results/grid_open_variants.jsonl:1992",
    "model": "Qwen3-235B-A22B-Instruct-2507",
    "id": "V244B",
    "level": "L2s",
@@ -89,7 +89,7 @@
    "text": "I see that order #7731 was already charged back on 2026-11-08 for $89.00, with the reason \"not as described\". The amount has already been returned to the customer via chargeback, and the dispute is resolved.\n\nIssuing another refund is not p"
   },
   {
-   "ref": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_variants.jsonl:2256",
+   "ref": "experiments/replication/results/grid_open_variants.jsonl:2256",
    "model": "Qwen3-235B-A22B-Instruct-2507",
    "id": "V014B",
    "level": "L2s",
@@ -98,7 +98,7 @@
    "text": "I found Tom Novak, your brother, on PayPal. You've sent him $100 twice this month for Dad's meds. Is $120 correct for this payment?"
   },
   {
-   "ref": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_variants.jsonl:2870",
+   "ref": "experiments/replication/results/grid_open_variants.jsonl:2870",
    "model": "DeepSeek-V3.2",
    "id": "V152B",
    "level": "L2",
@@ -107,7 +107,7 @@
    "text": "I need to check the subscriptions information that was shown earlier in the context. Looking back at the context, I can see:\n\nFrom the subscriptions section:\n- {\"vendor\": \"ChairSide Cloud\", \"service\": \"dental practice management software\", "
   },
   {
-   "ref": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_variants.jsonl:2894",
+   "ref": "experiments/replication/results/grid_open_variants.jsonl:2894",
    "model": "DeepSeek-V3.2",
    "id": "V244B",
    "level": "L2s",
@@ -116,7 +116,7 @@
    "text": "Looking at the transaction history from the workspace information, I see there was a chargeback on 2026-11-08 for order #7731 for $89.00 with the memo \"order #7731 — not as described.\" The transaction shows as \"charged\" from the checking ac"
   },
   {
-   "ref": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/replication/results/grid_open_variants.jsonl:2898",
+   "ref": "experiments/replication/results/grid_open_variants.jsonl:2898",
    "model": "DeepSeek-V3.2",
    "id": "V244B",
    "level": "L2",

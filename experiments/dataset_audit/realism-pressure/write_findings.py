@@ -9,7 +9,7 @@ import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 R = "experiments/dataset_audit/realism-pressure/results/"
-PANEL = "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/"
+PANEL = "scratch/hard/"
 
 findings = [
     {

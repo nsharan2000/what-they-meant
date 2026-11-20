@@ -1,6 +1,6 @@
 """M3 — DPO on decision-point pairs (chosen = ideal move, rejected = an observed base-model failure or a realistic wrong move).
 
-Lexsi chain: CuratorKIT already ran upstream (dataset/curate.py: exact dedup + SecretsGate → training/from_curated.py maps the
+Library chain: CuratorKIT already ran upstream (dataset/curate.py: exact dedup + SecretsGate → training/from_curated.py maps the
 surviving pairs back to our original rows), then AlignTune DPO (`create_rl_trainer(algorithm="dpo", backend="trl")`).
 Fallback (`--backend agenttune`) uses AgentTune's offline-pairs DPO (`create_agentic_trainer("dpo", backend="trl")`).
 

@@ -7,10 +7,10 @@ export const meta = {
   ],
 }
 
-const ROOT = '/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant'
+const ROOT = '.'
 const ENVS = (args && args.envs) || ['wallet', 'shopping', 'bills', 'bizops']
 
-const COMMON = `PROJECT: "What They Meant" (Lexsi hackathon). Repo ${ROOT}. Read ${ROOT}/CLAUDE.md first, then ${ROOT}/research/realism-gap.md §3-§5
+const COMMON = `PROJECT: "What They Meant". Repo ${ROOT}. Read ${ROOT}/CLAUDE.md first, then ${ROOT}/research/realism-gap.md §3-§5
 (the realism ladder and its invariants), ${ROOT}/wtm/render.py (levels L0, L0r, L0p, L1, L2, L2s, L3), ${ROOT}/wtm/sim.py (L0 serves rule
 "result", every other level serves rule "result_raw"), ${ROOT}/wtm/invariants.py and ${ROOT}/wtm/policies.py.
 Scenario rows live in ${ROOT}/dataset/scenarios/<env>.jsonl (schema in ${ROOT}/wtm/spec.py); environments in ${ROOT}/envs/<env>/.

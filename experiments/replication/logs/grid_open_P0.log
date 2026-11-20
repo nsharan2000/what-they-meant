@@ -26,10 +26,10 @@
 Traceback (most recent call last):
   File "<frozen runpy>", line 203, in _run_module_as_main
   File "<frozen runpy>", line 88, in _run_code
-  File "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/wtm/run.py", line 117, in <module>
+  File "wtm/run.py", line 117, in <module>
     main()
     ~~~~^^
-  File "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/wtm/run.py", line 108, in main
+  File "wtm/run.py", line 108, in main
     for i, d in enumerate(ex.map(run, jobs), 1):
                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 639, in result_iterator
@@ -47,7 +47,7 @@ Traceback (most recent call last):
     result = ctx.run(self.task)
   File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 73, in run
     return fn(*args, **kwargs)
-  File "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/wtm/run.py", line 102, in run
+  File "wtm/run.py", line 102, in run
     with _LOCK, open(ns.out, "a") as fh:
                 ~~~~^^^^^^^^^^^^^
 PermissionError: [Errno 1] Operation not permitted: 'experiments/replication/results/grid_open_P0.jsonl'

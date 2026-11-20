@@ -3,7 +3,7 @@ export const meta = {
   description: 'Cheap per-app review of the programmatic seed conversion: clash keywords, tool-rule consistency under alternative lookups, member parity, label concerns',
   phases: [{ title: 'Review', detail: 'one Sonnet agent per app, fixes in place, re-runs planted signal + invariants' }],
 }
-const ROOT = '/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant'
+const ROOT = '.'
 const ENVS = ['wallet', 'shopping', 'bills', 'bizops']
 const SCHEMA = { type: 'object', properties: { env: { type: 'string' }, fixes: { type: 'array', items: { type: 'string' } },
   label_concerns: { type: 'array', items: { type: 'string' } }, planted: { type: 'string' }, invariants: { type: 'string' } },

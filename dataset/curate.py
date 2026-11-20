@@ -1,6 +1,6 @@
 """CuratorKIT pass over the training views (run inside lx-exp, where curatorkit is installed editable).
 
-Recipe from research/lexsi-curatorkit-auditkit.md §3.3–3.4 (twin-safe settings):
+Twin-safe CuratorKIT settings:
   * ingest through `preprocessing_fn` returning DataSample (skips the nondeterministic alias detection)
   * clean_transforms strip_html=False (it would delete <tool_call> tags), max_tokens=32768
   * dedup="exact" only — MinHash / DiversityGate / embedding dedup would merge twin A and twin B (they differ by one fact)

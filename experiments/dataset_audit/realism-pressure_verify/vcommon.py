@@ -19,7 +19,7 @@ OUT = os.path.join(HERE, "results")
 os.makedirs(OUT, exist_ok=True)
 GRID = os.path.join(ROOT, "experiments", "replication", "results")
 EVALB = os.path.join(ROOT, "experiments", "training_eval", "results", "eval_base_v12.jsonl")
-PANEL = ("/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/"
+PANEL = ("scratch/"
          "c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard")
 CUR = os.path.join(ROOT, "dataset", "curated_v121")
 

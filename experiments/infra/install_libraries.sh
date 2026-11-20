@@ -1,5 +1,5 @@
 #!/bin/bash
-# Editable, no-deps installs of the Lexsi stack into lx-exp (research/lexsi-agenttune-aligntune-safetune.md §6: plain installs
+# Editable, no-deps installs of the four libraries into the container (plain installs
 # would downgrade torch to 2.11 and TRL to 1.7.1). Then report which imports still fail.
 cd /workspace/third_party
 for r in AgentTune aligntune CuratorKIT AuditKIT SafeTune; do echo "== install $r"; pip install --no-deps -e "$r" 2>&1 | tail -1; done

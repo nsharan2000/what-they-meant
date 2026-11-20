@@ -15,30 +15,9 @@ __pycache__/
 *.pyc
 .DS_Store
 .ipynb_checkpoints/
-# tool state / scratch (2026-11-15)
+# tool state / scratch
 .playwright-mcp/
 **/scratch/
 # the audit agents' intermediate dataset rebuilds (byte copies of dataset/curated_v121 + caches; reproducible from the scripts)
 experiments/dataset_audit/**/rebuild*/
 experiments/dataset_audit/**/cache/
-# the user's private brief / notes (not part of the public repo)
-original-prompt.md
-prompt.md
-# kept private (2026-11-15): working journal / plan / hand-off notes describe the shared GPU server and its other services;
-# a redacted copy may be published later. Machine-specific helpers and raw web extracts are not part of the public repo.
-CLAUDE.md
-log.md
-important-info.md
-detailed-checklist.md
-questions-for-user.md
-session-prompt.md
-connect.sh
-research/sources/
-experiments/infra/results/training_pipeline_review_*.json
-.claude/scheduled_tasks.lock
-.claude/settings*.json
-report/.private_patterns
-submiission-details.md
-
-# form answers for the submission (private working file)
-report/SUBMISSION.md

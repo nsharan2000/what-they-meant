@@ -21,7 +21,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 RES = os.path.join(HERE, "results")
 GRID_DIR = os.path.join(ROOT, "experiments", "replication", "results")
 EVAL_BASE = os.path.join(ROOT, "experiments", "training_eval", "results", "eval_base_v12.jsonl")
-PANEL_DIR = ("/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/"
+PANEL_DIR = ("scratch/"
              "c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard")
 SCORES = os.path.join(ROOT, "experiments", "training_eval", "results", "train_logs", "m2_grpo", "scores.jsonl")
 GRPO = os.path.join(ROOT, "dataset", "curated_v121", "grpo_train.jsonl")

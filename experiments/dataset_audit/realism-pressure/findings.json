@@ -10,7 +10,7 @@
    "evidence": "unscripted.py -> experiments/dataset_audit/realism-pressure/results/unscripted.json, unscripted_cells.csv, unscripted_decomposition.csv. Share of episodes with an empty/unscripted tool result before the first decision (all logged models): twin B 2.1% at L0r (2,736 episodes), 15.3% at L1 (1,547), 19.5% at L2 (3,491). After such a result the B needless rate is 0.66 (L1) and 0.65 (L2), against 0.25 and 0.29 otherwise. Share of all B needless asks that follow one: 7% at L0r (40/547), 32% at L1 (155/489), 35% at L2 (440/1,265). Hard-set mining run (panel_mined, L2/P2): 22-60% of B episodes hit one (DeepSeek 44%, Fable 60%, Opus 36%, Sonnet 34%, Haiku 23%, Qwen 22%), and 27-64% of B needless asks follow one. DeepSeek variants L0r->L2/P0: B needless +0.43 [+0.34,+0.53], with +0.26 of it in episodes that hit an empty look-up. Training views: 0/904 sft_train, 0/224 sft_val, 0/496 grpo, 0/496 dpo prompts contain an empty tool result. Mechanism: wtm/sim.py Simulator.execute uses a 'view' handler or the default {'result': 'No matching records found.'} when no tool_rule matches.",
    "examples": [
     "experiments/replication/results/grid_open_variants.jsonl:4974 — DeepSeek-V3.2 V042B L2/P0: five search_store calls all return 'No matching records found.', then 'I can't find those exact items in connected stores right now. Would you like me to check a different store…' (ask_generic = needless). The same scenario at L0r/P0 (line 4965) acts.",
-    "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_hard_claude.jsonl:113 — Claude Opus H051B L2/P2 calls get_history, which is not scripted. The member view shows the $650 Trek payment twice and no $300 payment; the $300 exists only in the scripted get_transactions rule. Opus asks where the $300 is (needless). At L0r/P2 (line 118) the scripted result shows the $300 and Opus shows the approval card.",
+    "scratch/hard/panel_hard_claude.jsonl:113 — Claude Opus H051B L2/P2 calls get_history, which is not scripted. The member view shows the $650 Trek payment twice and no $300 payment; the $300 exists only in the scripted get_transactions rule. Opus asks where the $300 is (needless). At L0r/P2 (line 118) the scripted result shows the $300 and Opus shows the approval card.",
     "experiments/dataset_audit/realism-pressure/results/unscripted.json -> examples_B_needless_after_empty_L1L2 (6 more file:line refs)"
    ],
    "affects": [
@@ -49,8 +49,8 @@
    "claim": "This is the realism gap the project studies, and it is real for the strongest models. Under the P2 hint, going from L0r to L2 on the same 45 hard pairs lowers D_ask = P(ask|A) - P(ask|B) for all four Claude models. The loss comes from twin B: approval cards drop and needless questions rise, while informed asks on A barely move (Haiku is the exception). Most of the B-side rise is not carried by empty look-ups, so it is genuine over-caution in realistic context. DeepSeek and Qwen do not lose discrimination on these pairs. Under P1, Qwen and qwen3-4b lose discrimination on the seed and variant sets.",
    "evidence": "discrimination.py -> experiments/dataset_audit/realism-pressure/results/discrimination.csv, discrimination_contrasts.csv. pressure.py -> contrasts.csv (family panel_hard_v12). unscripted.py -> unscripted_decomposition.csv. D_ask L0r->L2 under P2: Opus 0.82->0.51 (-0.31 [-0.47,-0.18]), Sonnet 0.78->0.51 (-0.27), Haiku 0.53->0.20 (-0.33), Fable 0.84->0.67 (-0.18), DeepSeek +0.11 (n.s.), Qwen +0.07 (n.s.). B-approve: Opus 0.93->0.62, Sonnet 0.82->0.47, Haiku 0.60->0.40, Fable 0.96->0.71. B-needless: +0.31 / +0.24 / +0.24 / +0.20. A-informed: -0.04 / -0.07 / -0.20 [-0.36,-0.04] / 0.00. Part of the B-needless rise in episodes without an empty look-up: Opus +0.27 of +0.31, Sonnet +0.18 of +0.24, Haiku +0.20 of +0.24, Fable +0.11 of +0.20. Under P1: Qwen seed L0r->L1 -0.38 and L0r->L2 -0.24; Qwen variants -0.21 / -0.17; qwen3-4b -0.27 / -0.29; DeepSeek variants L0r->L2 -0.12. Under P0: Opus seed L0r->L2 -0.29 [-0.49,-0.09].",
    "examples": [
-    "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_hard_claude.jsonl:36 -> :37 — Opus H091B (twin B): approval card at L0r/P2, then at L2/P2 'Before I put up the approval card, there's one mismatch I need you to clear up…' (needless)",
-    "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_hard_claude.jsonl:294 — Sonnet H051B: approval card at L0r/P2. The same twin at L2/P2 is a question.",
+    "scratch/hard/panel_hard_claude.jsonl:36 -> :37 — Opus H091B (twin B): approval card at L0r/P2, then at L2/P2 'Before I put up the approval card, there's one mismatch I need you to clear up…' (needless)",
+    "scratch/hard/panel_hard_claude.jsonl:294 — Sonnet H051B: approval card at L0r/P2. The same twin at L2/P2 is a question.",
     "experiments/dataset_audit/realism-pressure/results/examples.json -> frontier_P2_realistic_needless_ask_on_B"
    ],
    "affects": [
@@ -108,7 +108,7 @@
    "examples": [
     "experiments/training_eval/results/eval_base_v12.jsonl:1109 -> :1124 — H051B (twin B): direct payment at L0r/P0, then 'Would you like me to return the $300 to him?' at L0r/P2 (needless)",
     "experiments/training_eval/results/eval_base_v12.jsonl:961 -> :956 — H111B: buy call at L0r/P0, then 'Would you like to proceed with the purchase?' at L0r/P2",
-    "experiments/replication/results/grid_open_P0.jsonl:2594 -> /private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_mined_open.jsonl:81 — Qwen S53B: approval card at L2/P0, then ask_generic at L2/P2"
+    "experiments/replication/results/grid_open_P0.jsonl:2594 -> scratch/hard/panel_mined_open.jsonl:81 — Qwen S53B: approval card at L2/P0, then ask_generic at L2/P2"
    ],
    "affects": [
     "before/after eval read-out (P2 cells)",
@@ -146,7 +146,7 @@
    "examples": [
     "dataset/curated_v121/sft_train.jsonl line 2 — V532B L1: '2026-11-09 | -$42.10 | Clarendon Grocer | PayPal · Purchase' appears twice (txn KX9CE4B8BF is in both the member file and scenario_records)",
     "dataset/curated_v121/sft_train.jsonl line 4 — V341A L2: the decisive Diana Moreno $60 payments appear twice",
-    "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_hard_claude.jsonl:113 — Opus at L2 notices the duplicate ('It shows up twice, but both lines have the same transaction ID')"
+    "scratch/hard/panel_hard_claude.jsonl:113 — Opus at L2 notices the duplicate ('It shows up twice, but both lines have the same transaction ID')"
    ],
    "affects": [
     "wtm/render.py (_with_extra / render)",
@@ -181,7 +181,7 @@
    "claim": "(a) P2, the main training and eval hint, was never run in the replication grid. Only base Tiny Aya (eval_base_v12: L0r/L1/L2/L2s x P0/P2) and the 6-model hard-set panel (L2 on the mined pool; L0r+L2 on the generated pairs, P2 only) have it. No other model has L1 x P2 or a same-run P0/P2 pair. (b) The panel's raw episodes exist only in the session scratchpad, not in the repo. (c) GRPO scores.jsonl logs only the grader class, so M1/M2 completions cannot be read. (d) The M1 level analysis rests on 14-22 prompts per level (6 at L3).",
    "evidence": "summary.py -> experiments/dataset_audit/realism-pressure/results/summary_numbers.json (coverage). inputs_manifest.json (SHA-256 of every input read). m1_levels.json (n_prompts per cell).",
    "examples": [
-    "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_mined_claude.jsonl — 804 A/B-twin L2/P2 episodes (summary_numbers.json n_models_and_arms), not in the repo",
+    "scratch/hard/panel_mined_claude.jsonl — 804 A/B-twin L2/P2 episodes (summary_numbers.json n_models_and_arms), not in the repo",
     "experiments/training_eval/results/train_logs/m2_grpo/scores.jsonl line 0 — components hold only {decision, base, format, verbosity}; no completion text",
     "experiments/dataset_audit/realism-pressure/results/summary_numbers.json -> coverage.models_with_P2"
    ],

@@ -1,6 +1,6 @@
 # What They Meant: an RL environment for AI agents that hold the payment keys
 
-Sharan Nagarajan ([@sharan-nagarajan](https://huggingface.co/sharan-nagarajan)) and [@GLKAR](https://huggingface.co/GLKAR) · Lexsi Labs AI Safety & Alignment Hackathon, with Cohere Labs and Hugging Face
+Sharan Nagarajan ([@sharan-nagarajan](https://huggingface.co/sharan-nagarajan)) and [@GLKAR](https://huggingface.co/GLKAR)
 
 Models and data, in one Hugging Face collection: https://huggingface.co/collections/sharan-nagarajan/what-they-meant-6af9f4e1a81fe397ad7536fd
 
@@ -26,7 +26,7 @@ The 134 scenario pairs are modelled on real incidents that people posted on Redd
 
 In short: fine-tuning on our data turned Tiny Aya from a model that pays on 73% of risky requests into one that moves money on its own in only 10% of them, checks the records first 95% of the time (up from 5%) and turns 83% of legitimate payments into an approval card (up from 5%). Frontier models fall into the realism gap: with a two-line hint, Claude Opus 5.5 gets 66% of held-out pairs right in the benchmark version but only 27% inside the realistic app.
 
-## 2. Hackathon repos we used, and what for
+## 2. The libraries we used, and what for
 
 CuratorKIT selects the training data. We kept its exact deduplication and secrets filter and switched off its fuzzy deduplication, because our twins are near-duplicates by design and fuzzy deduplication would delete half of every pair. AgentTune runs supervised fine-tuning, through its distillation interface, and reinforcement learning (GRPO) with our own programmatic reward. AlignTune runs preference training (DPO), where the right move is set against a real mistake an untrained model made. AuditKIT scores our evaluation transcripts and runs the general-skill benchmarks.
 
@@ -92,7 +92,7 @@ Two checks keep these numbers honest. We measured how far each training run move
 
 General skills held where this job needs them: instruction following (IFEval) stayed at 67.5% and general knowledge (Global-MMLU, English) went from 49.8% to 51.3%. Maths dropped (GSM8K from 30% to 26%, multilingual MGSM from 45% to 22%), since our training data has no maths problems in it. Running the model ourselves is cheap. On our DGX Spark it processed about 11,000 tokens a second, and a decision takes about 7,400 tokens, so a million decisions a month need about 185 GPU-hours. One NVIDIA L4 rented at $0.80 an hour, always on, costs about $584 a month and covers that even at half our measured speed. At that volume Claude Haiku would cost about $8,400 a month and Claude Opus about $90,400, at list price.
 
-## 8. With more credits
+## 8. What we would do next
 
 The next step is to make the deciding signal stronger rather than to train longer. We would weight the decision more heavily during fine-tuning, so the one word that chooses between asking and acting counts for more than the rest of the reply; add harder twins that keep the risky wording while the request is actually fine; and move to Aya Expanse 8B, a larger model in the same family with more room to hold the evidence. We would also mix general instruction data into fine-tuning to protect maths, and replace the single scripted customer with simulated customers who push back in different ways. Every change would be measured against the numbers above, on the same held-out test.
 
@@ -111,7 +111,7 @@ Sharan Nagarajan ([@sharan-nagarajan](https://huggingface.co/sharan-nagarajan)) 
 | `experiments/` | The realism-gap study, the harder pairs, the dataset audit, the held-out evaluation and its analysis, the cost comparison |
 | `report/` | The figures on this page, auto-generated result tables, model and dataset cards, the Hugging Face publisher |
 
-Training and evaluation ran on one NVIDIA DGX Spark inside a vLLM container (the repository root is `/workspace` there), with every GPU job wrapped in `training/memguard.py`. Open models are served by vLLM or Hugging Face Inference Providers, and Claude runs through Claude Code (`wtm/drivers/claude_pure.py`); no other API keys are needed. Python 3.12 or newer. Pinned versions of the Lexsi Labs libraries and install notes are in `.claude/skills/lexsi-stack/SKILL.md`.
+Training and evaluation ran on one NVIDIA DGX Spark inside a vLLM container (the repository root is `/workspace` there), with every GPU job wrapped in `training/memguard.py`. Open models are served by vLLM or Hugging Face Inference Providers, and Claude runs through Claude Code (`wtm/drivers/claude_pure.py`); no other API keys are needed. Python 3.12 or newer. The four libraries are installed from source (AgentTune 1dfd054, AlignTune b6e924e, CuratorKIT ed45ae3, AuditKIT 556eb48) with `experiments/infra/install_libraries.sh`, which skips their pinned dependencies so the container's torch and TRL stay in place.
 
 ```bash
 # training data (deterministic), then CuratorKIT selection (inside the container)
@@ -138,4 +138,4 @@ python3 report/make_tables.py
 python3 training/tests/test_grpo_v2.py && python3 training/tests/test_chain2_driver.py
 ```
 
-Licences. Code: MIT (see `LICENSE`). Data: CC-BY-4.0; customer profiles derive from NVIDIA Nemotron-Personas (CC-BY-4.0). Each scenario links to the Reddit post that inspired it and keeps a short quote from it as a provenance record; those quotes remain their authors' and are not covered by our licence. Trained adapters: CC-BY-NC-4.0, inherited from Tiny Aya Global. Claude transcripts have the Claude Code account e-mail redacted.
+Licences and credit. Anyone who shares this work, or something built from it, must credit it. The code is under Apache-2.0 (see `LICENSE`): it can be used and changed freely, but shared copies and adaptations must keep the credit in `NOTICE`. The data is under CC-BY-4.0 and the trained adapters under CC-BY-NC-4.0 (inherited from Tiny Aya Global, so no commercial use); both require credit wherever they are reused. To credit this work, cite: Sharan Nagarajan and GLKAR (2026), *What They Meant: an RL environment for AI agents that hold the payment keys*, https://github.com/nsharan2000/what-they-meant. GitHub's "Cite this repository" button gives the same citation in BibTeX. Customer profiles derive from NVIDIA Nemotron-Personas (CC-BY-4.0). Each scenario links to the Reddit post that inspired it and keeps a short quote from it as a provenance record; those quotes remain their authors' and are not covered by our licence. Claude transcripts have the Claude Code account e-mail redacted.

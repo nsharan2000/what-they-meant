@@ -7,7 +7,7 @@ export const meta = {
   ],
 }
 
-const ROOT = '/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant'
+const ROOT = '.'
 const PER_BATCH = (args && args.per_batch) || 12
 const BATCHES = (args && args.batches) || [
   { env: 'wallet', b: 1, focus: 'US P2P (Venmo/PayPal/Zelle/Cash App): look-alike handles, recycled phone numbers, refund/overpayment scams, wrong F&F vs G&S, request-vs-send mix-ups, split-bill amount slips' },
@@ -20,7 +20,7 @@ const BATCHES = (args && args.batches) || [
   { env: 'bizops', b: 2, focus: 'operations agents: retries after timeouts, bulk order actions with a wrong filter, refund queues with policy exceptions, usage double-counting, deploys or scheduled jobs that bill per call' },
 ]
 
-const COMMON = `PROJECT: "What They Meant" (Lexsi hackathon). Repo ${ROOT}. Read ${ROOT}/CLAUDE.md and ${ROOT}/original-prompt.md first.
+const COMMON = `PROJECT: "What They Meant". Repo ${ROOT}. Read ${ROOT}/CLAUDE.md and ${ROOT}/original-prompt.md first.
 The benchmark has 45 seed twin pairs (93 rows) grounded in real Reddit posts, converted into 4 environments: ${ROOT}/envs/{wallet,shopping,bills,bizops}
 (env.json + members/) with rows in ${ROOT}/dataset/scenarios/<env>.jsonl. Read the schema in ${ROOT}/wtm/spec.py, the realism ladder in
 ${ROOT}/wtm/render.py and ${ROOT}/research/realism-gap.md §3, the simulator ${ROOT}/wtm/sim.py, the graders ${ROOT}/wtm/episode.py, and

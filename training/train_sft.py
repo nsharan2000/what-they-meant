@@ -1,4 +1,4 @@
-"""M1 — supervised fine-tuning through AgentTune's distillation API (research/lexsi-agenttune-aligntune-safetune.md §3.4, §7).
+"""M1 — supervised fine-tuning through AgentTune's distillation API.
 
 AgentTune has no plain SFT entry point; `create_distill_trainer` orchestrates (Project, provenance) and calls a trainer factory.
 Its built-in factory projects EventLogs without a system role and trains on every token, so we pass our own factory that trains

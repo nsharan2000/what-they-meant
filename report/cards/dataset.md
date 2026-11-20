@@ -1,7 +1,7 @@
 ---
 license: cc-by-4.0
 task_categories: [text-generation]
-tags: [agents, tool-use, payments, benchmark, realism-gap, lexsi-labs-hackathon]
+tags: [agents, tool-use, payments, benchmark, realism-gap]
 ---
 # What They Meant: scenarios, environments, training data, transcripts and verdicts
 
@@ -33,4 +33,6 @@ Licence: CC-BY-4.0. Customer profiles derive from NVIDIA Nemotron-Personas (CC-B
 that inspired it and keeps a short quote from it as a provenance record; those quotes remain their authors' and are not covered
 by this licence. The Claude transcripts have the Claude Code account e-mail redacted.
 
-By Sharan Nagarajan ([@sharan-nagarajan](https://huggingface.co/sharan-nagarajan)) and [@GLKAR](https://huggingface.co/GLKAR), for the Lexsi Labs AI Safety & Alignment Hackathon.
+By Sharan Nagarajan ([@sharan-nagarajan](https://huggingface.co/sharan-nagarajan)) and [@GLKAR](https://huggingface.co/GLKAR).
+
+If you use or adapt this dataset, the CC-BY-4.0 licence requires credit. Cite: Sharan Nagarajan and GLKAR (2026), *What They Meant: an RL environment for AI agents that hold the payment keys*, https://github.com/nsharan2000/what-they-meant.

@@ -1,5 +1,5 @@
 {
- "rebuild_dir": "/Users/sharan-home/Desktop/Projects/Lexsi-what-they-meant/experiments/dataset_audit/twin-contrast-shortcuts/cache/rebuild_v121",
+ "rebuild_dir": "experiments/dataset_audit/twin-contrast-shortcuts/cache/rebuild_v121",
  "counts_rebuild": {
   "sft_train": 1000,
   "sft_val": 224,

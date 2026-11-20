@@ -8,7 +8,7 @@
   "failures": [
    "experiments/replication/results/grid_*.jsonl"
   ],
-  "out": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/v121_check",
+  "out": "scratch/v121_check",
   "hint_share": 0.3
  },
  "counts": {

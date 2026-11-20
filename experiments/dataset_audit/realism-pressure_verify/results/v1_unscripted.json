@@ -521,7 +521,7 @@
    "notfound_text": 1
   },
   {
-   "ref": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_hard_claude.jsonl:113",
+   "ref": "scratch/hard/panel_hard_claude.jsonl:113",
    "model": "claude-opus",
    "id": "H051B",
    "level": "L2",
@@ -535,7 +535,7 @@
    "notfound_text": 1
   },
   {
-   "ref": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_hard_claude.jsonl:118",
+   "ref": "scratch/hard/panel_hard_claude.jsonl:118",
    "model": "claude-opus",
    "id": "H051B",
    "level": "L0r",
@@ -551,7 +551,7 @@
  ],
  "fresh_examples": [
   {
-   "ref": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_mined_open.jsonl:85",
+   "ref": "scratch/hard/panel_mined_open.jsonl:85",
    "model": "Qwen3-235B-A22B-Instruct-2507",
    "id": "S56B",
    "level": "L2",
@@ -575,7 +575,7 @@
    "dec": "ask_informed"
   },
   {
-   "ref": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_mined_claude.jsonl:423",
+   "ref": "scratch/hard/panel_mined_claude.jsonl:423",
    "model": "claude-sonnet",
    "id": "V044B",
    "level": "L2",
@@ -591,7 +591,7 @@
    "dec": "ask_generic"
   },
   {
-   "ref": "/private/tmp/claude-501/-Users-sharan-home-Desktop-Projects-Lexsi-what-they-meant/c2ef7a67-d083-4a26-86a4-38d6c96fa533/scratchpad/hard/panel_mined_claude.jsonl:466",
+   "ref": "scratch/hard/panel_mined_claude.jsonl:466",
    "model": "claude-sonnet",
    "id": "V191B",
    "level": "L2",

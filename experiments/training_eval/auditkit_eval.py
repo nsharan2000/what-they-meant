@@ -1,4 +1,4 @@
-"""AuditKIT (Lexsi) scoring of our recorded episodes — independent re-scoring + AuditKIT's run comparison machinery.
+"""AuditKIT scoring of our recorded episodes — independent re-scoring + AuditKIT's run comparison machinery.
 
 Each recorded episode becomes an `ak.Sample` whose `actual_output` is the model's FIRST decisive move (question, approval card or
 money-moving call) and whose id is `<scenario>|<prompt>` (identical across models and realism levels, so `ak.compare` pairs them).

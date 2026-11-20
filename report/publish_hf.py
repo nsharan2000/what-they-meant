@@ -1,4 +1,4 @@
-"""Publish the hackathon artefacts to Hugging Face: model repos (LoRA adapters + cards), one dataset repo, two collections.
+"""Publish the project to Hugging Face: model repos (LoRA adapters + cards), one dataset repo, one collection.
 
 Names and visibility were confirmed by the user (2026-11-14): owner sharan-nagarajan, PUBLIC. Dry run by default: checks that
 every source exists, scans every file for credentials (an HF token pattern or the .env contents) and prints what would be
