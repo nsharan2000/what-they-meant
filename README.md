@@ -4,6 +4,8 @@ Sharan Nagarajan ([@sharan-nagarajan](https://huggingface.co/sharan-nagarajan)) 
 
 Models and data, in one Hugging Face collection: https://huggingface.co/collections/sharan-nagarajan/what-they-meant-6af9f4e1a81fe397ad7536fd
 
+Slides from the finals: [what-they-meant-slides.pdf](report/what-they-meant-slides.pdf)
+
 ## 1. The problem and our approach
 
 AI assistants can now pay bills, send money and start subscriptions for us. Most of the risk comes from ordinary customers who are slightly wrong, and the evidence is usually one lookup away. A careful assistant would notice the mismatch and ask one short question that names it. When nothing is wrong, it would simply show the payment for approval, because an assistant that questions everything teaches people to click "yes".
@@ -39,6 +41,12 @@ Claude Opus 5.5 and Claude Haiku 5.5 (Anthropic, proprietary) are the closed-mod
 Qwen3-235B-A22B-Instruct-2507 (Apache-2.0) wrote scenario variants and DeepSeek-V3.2 (MIT) reviewed their labels. No closed model ever wrote a training target. Our first realism-gap study also ran Tiny Aya Fire, Water and Earth, Aya Expanse 32B and Command R7B (CC-BY-NC-4.0), Llama 4 Scout and Llama 3.1 8B (Llama community licences), and Qwen3-4B and Mistral 7B (Apache-2.0). Some of the Cohere models' mistakes serve as rejected answers in our preference pairs.
 
 ## 4. Datasets, benchmarks and licences
+
+How the 45 seed pairs were picked from 3,001 Reddit posts (stage-by-stage counts in [`dataset/seed-pipeline-stages.md`](dataset/seed-pipeline-stages.md)):
+
+![How the seed pairs were picked](https://raw.githubusercontent.com/nsharan2000/what-they-meant/main/report/figures/seed_pipeline.png)
+
+Those seeds were then grown into the full dataset:
 
 ![How the data was built](https://raw.githubusercontent.com/nsharan2000/what-they-meant/main/report/figures/curation.png)
 
